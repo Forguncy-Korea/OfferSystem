@@ -1,0 +1,964 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 26.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 8.0
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 8.0
+        }
+      },
+      "8": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 8.0
+        }
+      },
+      "10": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 8.0
+        }
+      },
+      "12": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 8.0
+        }
+      },
+      "14": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 8.0
+        }
+      },
+      "16": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 8.0
+        }
+      },
+      "18": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 8.0
+        }
+      },
+      "20": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 8.0
+        }
+      },
+      "22": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 8.0
+        }
+      },
+      "24": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 8.0
+        }
+      },
+      "26": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 8.0
+        }
+      },
+      "28": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "30": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 21.0
+        }
+      },
+      "31": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      }
+    },
+    "InLogicalVisibleIndexes": [
+      3
+    ],
+    "Count": 37
+  },
+  "Cols": {
+    "Count": 36
+  },
+  "Values": {
+    "1,1": "거래처 등록",
+    "3,1": "ID:",
+    "5,1": "상호(이름)",
+    "7,1": "사업자등록번호:",
+    "9,1": "대표자명:",
+    "11,1": "거래처담당자:",
+    "13,1": "업태:",
+    "15,1": "종목:",
+    "17,1": "Email:",
+    "19,1": "Fax:",
+    "21,1": "전화번호:",
+    "23,1": "핸드폰번호:",
+    "25,1": "주소:",
+    "27,1": "우편번호:",
+    "31,1": "저장",
+    "31,5": "닫기"
+  },
+  "AttachInfos": {
+    "3,9": {
+      "BindingInfo": {
+        "TableName": "거래처",
+        "ColumnName": "ID"
+      }
+    },
+    "5,9": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      },
+      "BindingInfo": {
+        "TableName": "거래처",
+        "ColumnName": "회사명"
+      },
+      "DataValidationInfo": {
+        "IgnoreBlank": false
+      }
+    },
+    "7,9": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      },
+      "BindingInfo": {
+        "TableName": "거래처",
+        "ColumnName": "사업자등록번호"
+      },
+      "DataValidationInfo": {
+        "IgnoreBlank": false
+      }
+    },
+    "9,9": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      },
+      "BindingInfo": {
+        "TableName": "거래처",
+        "ColumnName": "대표자"
+      },
+      "DataValidationInfo": {
+        "IgnoreBlank": false
+      }
+    },
+    "11,9": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      },
+      "BindingInfo": {
+        "TableName": "거래처",
+        "ColumnName": "거래처담당자"
+      }
+    },
+    "13,9": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      },
+      "BindingInfo": {
+        "TableName": "거래처",
+        "ColumnName": "업태"
+      }
+    },
+    "15,9": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      },
+      "BindingInfo": {
+        "TableName": "거래처",
+        "ColumnName": "종목"
+      }
+    },
+    "17,9": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      },
+      "BindingInfo": {
+        "TableName": "거래처",
+        "ColumnName": "Email"
+      }
+    },
+    "19,9": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      },
+      "BindingInfo": {
+        "TableName": "거래처",
+        "ColumnName": "Fax"
+      }
+    },
+    "21,9": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      },
+      "BindingInfo": {
+        "TableName": "거래처",
+        "ColumnName": "전화번호"
+      }
+    },
+    "23,9": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      },
+      "BindingInfo": {
+        "TableName": "거래처",
+        "ColumnName": "핸드폰번호"
+      }
+    },
+    "25,9": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      },
+      "BindingInfo": {
+        "TableName": "거래처",
+        "ColumnName": "주소"
+      }
+    },
+    "27,9": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      },
+      "BindingInfo": {
+        "TableName": "거래처",
+        "ColumnName": "우편번호"
+      }
+    },
+    "31,1": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+            "ConditionAndCommandPairList": [
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=거래처등록페이지!B32"
+                      }
+                    ]
+                  },
+                  "value": "저장",
+                  "Id": "f9fc2c00-8ab2-4f62-8d86-5a8d88ffb7a4"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                    "TableName": "거래처",
+                    "UpdateType": "add",
+                    "ShowConfirm": false,
+                    "ConfirmText": "데이터를 추가하시겠습니까?",
+                    "UpdateValues": [
+                      {
+                        "ColumnName": "사용구분",
+                        "Value": "YES"
+                      }
+                    ]
+                  }
+                ],
+                "ID": "c6b5ecba-57a9-4292-bc02-39d73fbb9d13"
+              },
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=거래처등록페이지!B32"
+                      }
+                    ]
+                  },
+                  "value": "수정",
+                  "Id": "cb8f4c0d-d522-40f6-afb2-2477cd27ee82"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                    "TableName": "거래처",
+                    "ConfirmText": "데이터를 업데이트하시겠습니까?",
+                    "UpdateValues": []
+                  }
+                ],
+                "ID": "ab44cca8-bcc8-45b7-ae67-6ce6a94545f8"
+              }
+            ]
+          },
+          {
+            "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon",
+            "PassValueBack": true,
+            "ReloadData": true,
+            "PassQueryCondition": true
+          }
+        ],
+        "Text": "저장",
+        "TemplateKey": "스타일4"
+      }
+    },
+    "31,5": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "NavigateType": "back",
+            "PassValues": []
+          }
+        ],
+        "Text": "닫기",
+        "TemplateKey": "스타일5"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0
+      },
+      {
+        "FontFamily": 1,
+        "FontSize": 18.666666666666664,
+        "FontWeight": 2,
+        "Foreground": 3,
+        "Formatter": 4
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 18.666666666666664,
+        "FontWeight": 2,
+        "HorizontalAlignment": 5
+      },
+      {
+        "FontFamily": 0,
+        "FontWeight": 2
+      },
+      {
+        "FontFamily": 0,
+        "Formatter": 6
+      },
+      {
+        "Background": 7,
+        "FontFamily": 0,
+        "FontWeight": 2
+      },
+      {
+        "Background": 7,
+        "FontFamily": 0
+      },
+      {
+        "Background": 7,
+        "FontFamily": 0,
+        "Formatter": 6
+      },
+      {
+        "FontFamily": 0,
+        "Formatter": 4
+      },
+      {
+        "Background": 7
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "나눔스퀘어",
+        "Bold",
+        "Text 1 25",
+        "[AUTO]General",
+        "Center",
+        "@",
+        "Background 1 -5"
+      ]
+    },
+    "CellStyles": {
+      "0,0": 0,
+      "0,1": 0,
+      "0,2": 0,
+      "0,3": 0,
+      "0,4": 0,
+      "0,5": 0,
+      "0,6": 0,
+      "0,7": 0,
+      "0,8": 0,
+      "0,9": 0,
+      "0,10": 0,
+      "0,11": 0,
+      "0,12": 0,
+      "0,13": 0,
+      "0,14": 0,
+      "0,15": 0,
+      "0,16": 0,
+      "0,17": 0,
+      "0,18": 0,
+      "0,19": 0,
+      "0,20": 0,
+      "0,21": 0,
+      "0,22": 0,
+      "0,23": 0,
+      "0,24": 0,
+      "0,25": 0,
+      "0,26": 0,
+      "0,27": 0,
+      "0,28": 0,
+      "0,29": 0,
+      "0,30": 0,
+      "0,31": 0,
+      "0,32": 0,
+      "0,33": 0,
+      "0,34": 0,
+      "0,35": 0,
+      "1,1": 1,
+      "1,3": 0,
+      "1,4": 0,
+      "1,5": 0,
+      "1,6": 0,
+      "1,7": 0,
+      "1,8": 2,
+      "1,9": 2,
+      "1,10": 2,
+      "1,11": 2,
+      "1,12": 2,
+      "1,13": 2,
+      "1,14": 2,
+      "1,15": 2,
+      "1,16": 2,
+      "1,17": 2,
+      "1,18": 2,
+      "1,19": 2,
+      "1,20": 2,
+      "1,21": 2,
+      "1,22": 2,
+      "1,23": 2,
+      "1,24": 2,
+      "1,25": 2,
+      "1,26": 2,
+      "1,27": 2,
+      "1,28": 2,
+      "1,29": 2,
+      "1,30": 2,
+      "1,31": 2,
+      "1,32": 2,
+      "1,33": 2,
+      "1,34": 2,
+      "1,35": 2,
+      "3,1": 3,
+      "3,2": 0,
+      "3,3": 0,
+      "3,4": 0,
+      "3,5": 0,
+      "3,6": 0,
+      "3,7": 0,
+      "3,8": 0,
+      "3,9": 0,
+      "3,10": 0,
+      "3,11": 0,
+      "3,12": 0,
+      "3,13": 0,
+      "3,14": 0,
+      "3,15": 0,
+      "3,16": 0,
+      "3,17": 0,
+      "3,18": 0,
+      "3,19": 0,
+      "4,1": 0,
+      "4,2": 0,
+      "4,3": 0,
+      "4,4": 0,
+      "4,5": 0,
+      "4,6": 0,
+      "4,7": 0,
+      "4,8": 0,
+      "4,9": 0,
+      "4,10": 0,
+      "4,11": 0,
+      "4,12": 0,
+      "4,13": 0,
+      "4,14": 0,
+      "4,15": 0,
+      "4,16": 0,
+      "4,17": 0,
+      "4,18": 0,
+      "4,19": 0,
+      "5,1": 3,
+      "5,2": 0,
+      "5,3": 0,
+      "5,4": 0,
+      "5,5": 0,
+      "5,6": 0,
+      "5,7": 0,
+      "5,8": 0,
+      "5,9": 4,
+      "6,1": 0,
+      "6,2": 0,
+      "6,3": 0,
+      "6,4": 0,
+      "6,5": 0,
+      "6,6": 0,
+      "6,7": 0,
+      "6,8": 0,
+      "6,9": 0,
+      "6,10": 0,
+      "6,11": 0,
+      "6,12": 0,
+      "6,13": 0,
+      "6,14": 0,
+      "6,15": 0,
+      "6,16": 0,
+      "6,17": 0,
+      "6,18": 0,
+      "6,19": 0,
+      "7,1": 5,
+      "7,2": 6,
+      "7,3": 6,
+      "7,4": 6,
+      "7,5": 6,
+      "7,6": 6,
+      "7,7": 6,
+      "7,8": 6,
+      "7,9": 7,
+      "8,1": 0,
+      "8,2": 0,
+      "8,3": 0,
+      "8,4": 0,
+      "8,5": 0,
+      "8,6": 0,
+      "8,7": 0,
+      "8,8": 0,
+      "8,9": 0,
+      "8,10": 0,
+      "8,11": 0,
+      "8,12": 0,
+      "8,13": 0,
+      "8,14": 0,
+      "8,15": 0,
+      "8,16": 0,
+      "8,17": 0,
+      "8,18": 0,
+      "8,19": 0,
+      "9,0": 6,
+      "9,1": 5,
+      "9,2": 6,
+      "9,3": 6,
+      "9,4": 6,
+      "9,5": 6,
+      "9,6": 6,
+      "9,7": 6,
+      "9,8": 6,
+      "9,9": 7,
+      "10,1": 0,
+      "10,2": 0,
+      "10,3": 0,
+      "10,4": 0,
+      "10,5": 0,
+      "10,6": 0,
+      "10,7": 0,
+      "10,8": 0,
+      "10,9": 0,
+      "10,10": 0,
+      "10,11": 0,
+      "10,12": 0,
+      "10,13": 0,
+      "10,14": 0,
+      "10,15": 0,
+      "10,16": 0,
+      "10,17": 0,
+      "10,18": 0,
+      "10,19": 0,
+      "11,1": 5,
+      "11,2": 6,
+      "11,3": 6,
+      "11,4": 6,
+      "11,5": 6,
+      "11,6": 6,
+      "11,7": 6,
+      "11,8": 6,
+      "11,9": 7,
+      "12,1": 0,
+      "12,2": 0,
+      "12,3": 0,
+      "12,4": 0,
+      "12,5": 0,
+      "12,6": 0,
+      "12,7": 0,
+      "12,8": 0,
+      "12,9": 0,
+      "12,10": 0,
+      "12,11": 0,
+      "12,12": 0,
+      "12,13": 0,
+      "12,14": 0,
+      "12,15": 0,
+      "12,16": 0,
+      "12,17": 0,
+      "12,18": 0,
+      "12,19": 0,
+      "13,1": 5,
+      "13,2": 6,
+      "13,3": 6,
+      "13,4": 6,
+      "13,5": 6,
+      "13,6": 6,
+      "13,7": 6,
+      "13,8": 6,
+      "13,9": 7,
+      "14,1": 0,
+      "14,2": 0,
+      "14,3": 0,
+      "14,4": 0,
+      "14,5": 0,
+      "14,6": 0,
+      "14,7": 0,
+      "14,8": 0,
+      "14,9": 0,
+      "14,10": 0,
+      "14,11": 0,
+      "14,12": 0,
+      "14,13": 0,
+      "14,14": 0,
+      "14,15": 0,
+      "14,16": 0,
+      "14,17": 0,
+      "14,18": 0,
+      "14,19": 0,
+      "15,1": 5,
+      "15,2": 6,
+      "15,3": 6,
+      "15,4": 6,
+      "15,5": 6,
+      "15,6": 6,
+      "15,7": 6,
+      "15,8": 6,
+      "15,9": 7,
+      "16,1": 0,
+      "16,2": 0,
+      "16,3": 0,
+      "16,4": 0,
+      "16,5": 0,
+      "16,6": 0,
+      "16,7": 0,
+      "16,8": 0,
+      "16,9": 0,
+      "16,10": 0,
+      "16,11": 0,
+      "16,12": 0,
+      "16,13": 0,
+      "16,14": 0,
+      "16,15": 0,
+      "16,16": 0,
+      "16,17": 0,
+      "16,18": 0,
+      "16,19": 0,
+      "17,1": 3,
+      "17,2": 0,
+      "17,3": 0,
+      "17,4": 0,
+      "17,5": 0,
+      "17,6": 0,
+      "17,7": 0,
+      "17,8": 0,
+      "17,9": 4,
+      "18,1": 0,
+      "18,2": 0,
+      "18,3": 0,
+      "18,4": 0,
+      "18,5": 0,
+      "18,6": 0,
+      "18,7": 0,
+      "18,8": 0,
+      "19,1": 3,
+      "19,2": 0,
+      "19,3": 0,
+      "19,4": 0,
+      "19,5": 0,
+      "19,6": 0,
+      "19,7": 0,
+      "19,8": 0,
+      "19,9": 7,
+      "20,1": 0,
+      "20,2": 0,
+      "20,3": 0,
+      "20,4": 0,
+      "20,5": 0,
+      "20,6": 0,
+      "20,7": 0,
+      "20,8": 0,
+      "20,9": 0,
+      "20,10": 0,
+      "20,11": 0,
+      "20,12": 0,
+      "20,13": 0,
+      "20,14": 0,
+      "20,15": 0,
+      "20,16": 0,
+      "20,17": 0,
+      "20,18": 0,
+      "20,19": 0,
+      "21,1": 5,
+      "21,2": 6,
+      "21,3": 6,
+      "21,4": 6,
+      "21,5": 6,
+      "21,6": 6,
+      "21,7": 6,
+      "21,8": 6,
+      "21,9": 7,
+      "22,1": 0,
+      "22,2": 0,
+      "22,3": 0,
+      "22,4": 0,
+      "22,5": 0,
+      "22,6": 0,
+      "22,7": 0,
+      "22,8": 0,
+      "22,9": 0,
+      "22,10": 0,
+      "22,11": 0,
+      "22,12": 0,
+      "22,13": 0,
+      "22,14": 0,
+      "22,15": 0,
+      "22,16": 0,
+      "22,17": 0,
+      "22,18": 0,
+      "22,19": 0,
+      "23,1": 5,
+      "23,2": 6,
+      "23,3": 6,
+      "23,4": 6,
+      "23,5": 6,
+      "23,6": 6,
+      "23,7": 6,
+      "23,8": 6,
+      "23,9": 7,
+      "24,1": 0,
+      "24,2": 0,
+      "24,3": 0,
+      "24,4": 0,
+      "24,5": 0,
+      "24,6": 0,
+      "24,7": 0,
+      "24,8": 0,
+      "24,9": 0,
+      "24,10": 0,
+      "24,11": 0,
+      "24,12": 0,
+      "24,13": 0,
+      "24,14": 0,
+      "24,15": 0,
+      "24,16": 0,
+      "24,17": 0,
+      "24,18": 0,
+      "24,19": 0,
+      "25,1": 5,
+      "25,2": 6,
+      "25,3": 6,
+      "25,4": 6,
+      "25,5": 6,
+      "25,6": 6,
+      "25,7": 6,
+      "25,8": 6,
+      "25,9": 7,
+      "26,1": 0,
+      "26,2": 0,
+      "26,3": 0,
+      "26,4": 0,
+      "26,5": 0,
+      "26,6": 0,
+      "26,7": 0,
+      "26,8": 0,
+      "26,9": 0,
+      "26,10": 0,
+      "26,11": 0,
+      "26,12": 0,
+      "26,13": 0,
+      "26,14": 0,
+      "26,15": 0,
+      "26,16": 0,
+      "26,17": 0,
+      "26,18": 0,
+      "26,19": 0,
+      "27,1": 5,
+      "27,2": 6,
+      "27,3": 6,
+      "27,4": 6,
+      "27,5": 6,
+      "27,6": 6,
+      "27,7": 6,
+      "27,8": 6,
+      "27,9": 7,
+      "28,1": 0,
+      "28,2": 0,
+      "28,3": 0,
+      "28,4": 0,
+      "28,5": 0,
+      "28,6": 0,
+      "28,7": 0,
+      "28,8": 0,
+      "28,9": 0,
+      "28,10": 0,
+      "28,11": 0,
+      "28,12": 0,
+      "28,13": 0,
+      "28,14": 0,
+      "28,15": 0,
+      "28,16": 0,
+      "28,17": 0,
+      "28,18": 0,
+      "28,19": 0,
+      "31,1": 8,
+      "31,2": 0,
+      "31,3": 0,
+      "31,4": 0,
+      "31,5": 0,
+      "31,6": 0,
+      "31,7": 0,
+      "31,8": 0
+    },
+    "RowStyles": {
+      "3": 9,
+      "4": 9,
+      "5": 9,
+      "6": 9,
+      "7": 9,
+      "8": 9,
+      "9": 9,
+      "10": 9,
+      "11": 9,
+      "12": 9,
+      "13": 9,
+      "14": 9,
+      "15": 9,
+      "16": 9,
+      "17": 9,
+      "18": 9,
+      "19": 9,
+      "20": 9,
+      "21": 9,
+      "22": 9,
+      "23": 9,
+      "24": 9,
+      "25": 9,
+      "26": 9,
+      "27": 9,
+      "28": 9,
+      "29": 9
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "Spans": [
+    "3,9,1,6",
+    "5,9,1,25",
+    "7,9,1,25",
+    "9,9,1,25",
+    "11,9,1,25",
+    "13,9,1,25",
+    "15,9,1,25",
+    "17,9,1,25",
+    "21,9,1,25",
+    "19,9,1,25",
+    "23,9,1,25",
+    "25,9,1,25",
+    "27,9,1,25",
+    "31,1,1,4",
+    "31,5,1,4"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "ShouldCheckDirty": true,
+    "AuthorizeInfo": {
+      "VisitMode": 2
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}//7E/XXtMLVuUviKlRLgb+mGjAu9KO9T1ekOpP9zWkffNTGH2lucys2Jq8eNmYwitNJ6cq0i+0RcFRScFWoKqUsSBSXf9k071W6u8EyxQ0mqzkPeoJ9wJhIBlORZd8YXkD/vBm05nRZJJAk5xySjbCbs26TjN8PNucr0IpiKG3dG3q5U9SXo+YQ5ErVFxqIsn558iQRXOObY2v1wW8JOmKRvf3462bfS5B4uV+MNde93qqdo8QNgziKFKE0xRr+MQJbrv4ZONEvhTzZ4YAg0WpLk8HmXz7ZYy68U7uTEJwv2GqhBJ0Qgq1xjw7thzV+rgY382vCZlHbxkqWW13pToDz6z7cwJQxSpBA/5LfBQPAHfbILTMKn8qCNVQCQDkr00RX/pI9Nmzk0EZ3ZgEvyABvCiVEX3lR/VybEujRkN0quX1LReSvNcGqO9lKwP9WDkdtU6jzWaYaUooe8zTWKkbeouvb1qducUWyFKOptvv0vOmIcQ+wsut/tex4wmz/jFUPtX/OnVeeB0VJPNQKJ5xEecTFdgLtTPQ7grZB54Q8QbEV2wl8MpZQ1+vLrQ38oqPbVoczP+VdsrwyQD5wYvFAJcn3U8Aq8bV2G3m8v4eFrVc7JOXK/pJHCeXmuCJJ7UI2/dF6T02bK6GSoJ50JnkLWESAa5CPiFpYSuF/2cJ8tX/bduYIt8XvZEzLh3C2W1lotuCNX5DsohFusWX8LW3EFTSSxpBuvEdij5Lu8mAr1PGUeexp+K3WS9jERQM7PV9aT8mGOAatYySL0qMXBx7Hiwf4mCpYHctJMnxJ+PmZelGvFzymiPztExKY/gsrEg0vP7mlamVmpa2z8fbpQouHpzKL+TWQfUJu3FkW7yxIfM+xFeHFJZrfmMxFEEOcl0TnkyteMKbBhMYfU3pL9T0kQ==|920

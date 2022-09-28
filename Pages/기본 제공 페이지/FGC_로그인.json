@@ -1,0 +1,222 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "16": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "20": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "25": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 15.0
+        }
+      },
+      "33": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 25.0
+        }
+      }
+    },
+    "Count": 34
+  },
+  "Cols": {
+    "Count": 56
+  },
+  "Values": {
+    "11,22": "주문관리시스템",
+    "14,21": "사용자 이름:",
+    "18,21": "비밀번호:",
+    "24,21": "로그인",
+    "27,21": "비밀번호를 잊으셨습니까?",
+    "29,23": "사용자이름: Administrator",
+    "30,23": "비밀번호: 123456"
+  },
+  "AttachInfos": {
+    "15,21": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "Icon": {
+          "Name": "Mobile/387_user_2.svg",
+          "BuiltIn": true,
+          "Color": "Text 1 50"
+        },
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "ForguncyAttribute": "LogIn_Username"
+      },
+      "DataValidationInfo": {
+        "IgnoreBlank": false
+      }
+    },
+    "19,21": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "ShowPassword": true,
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "Icon": {
+          "Name": "Application/078_lock_1.svg",
+          "BuiltIn": true,
+          "Color": "Text 1 50"
+        },
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "ForguncyAttribute": "LogIn_Password"
+      },
+      "DataValidationInfo": {
+        "IgnoreBlank": false
+      }
+    },
+    "22,21": {
+      "CellType": {
+        "$type": "Forguncy.CheckBoxCellType, ServerDesignerCommon",
+        "Caption": "로그인 상태 유지하기",
+        "Style": 1,
+        "PrimaryColor": "Accent 1 0",
+        "ForguncyAttribute": "LogIn_RememberMe"
+      }
+    },
+    "24,21": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "Text": "로그인",
+        "AutoExecute": true,
+        "TemplateKey": "_RS_Normal_Style2",
+        "ForguncyAttribute": "LogIn_Button"
+      }
+    },
+    "27,21": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "PageName": "FGC_비밀번호분실",
+            "PassValues": []
+          }
+        ],
+        "Text": "비밀번호를 잊으셨습니까?",
+        "ClickMode": 1,
+        "TemplateKey": "样式1"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontSize": 21.333333333333332,
+        "FontWeight": 0,
+        "HorizontalAlignment": 1
+      },
+      {
+        "Foreground": 2,
+        "Formatter": 3
+      },
+      {
+        "Formatter": 4
+      },
+      {
+        "Foreground": 2
+      },
+      {
+        "Foreground": 5,
+        "HorizontalAlignment": 1,
+        "Underline": true
+      },
+      {
+        "FontFamily": 6,
+        "Formatter": 3
+      },
+      {
+        "FontFamily": 6
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Bold",
+        "Center",
+        "Text 1 25",
+        "[AUTO]General",
+        "@",
+        "Accent 1 0",
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "11,22": 0,
+      "14,21": 1,
+      "15,21": 2,
+      "18,21": 1,
+      "19,21": 2,
+      "22,21": 3,
+      "27,21": 4,
+      "29,23": 5,
+      "29,24": 6,
+      "30,23": 5,
+      "30,24": 6
+    },
+    "SheetStyle": {
+      "FontFamily": 6
+    }
+  },
+  "Spans": [
+    "24,21,2,14",
+    "15,21,2,14",
+    "19,21,2,14",
+    "27,21,1,14",
+    "22,21,1,14",
+    "11,22,2,11"
+  ],
+  "Pictures": [
+    {
+      "ForguncyPictureName": "GC_logo_basicElement1.png",
+      "Stretch": 2,
+      "ForguncyPictureSourceType": 0,
+      "Name": "45f8743d-4830-4b27-bccf-82288b645f35.png",
+      "Location": "422,143",
+      "Size": "279,85"
+    }
+  ],
+  "BackgroundPictures": [
+    {
+      "DisplayName": "배경 이미지2",
+      "StyleInfo": {
+        "CornerRadius": 20.0,
+        "Fill": "#B3FFFFFF",
+        "Stroke": null,
+        "StrokeThickness": 1.0
+      },
+      "IsAutomaticStroke": false,
+      "IsAutomaticFill": false,
+      "Name": "BackgroundPicture0",
+      "Location": "360,120",
+      "Size": "400,455"
+    }
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "MobilePageName": "FGC_로그인_모바일",
+    "Title": "FGC_로그인",
+    "AuthorizeInfo": {
+      "VisitMode": 2
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "IsBuiltInPage": true
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}//U4sYrkFFWt5jMgoLmfBLTidnSLL8MHu1Ov9wGYRdes1sVlKaJflhfeWGLWK3vYSBA7x9LidDNRAeGeiqrjGP9eda9JJ3adkeuHX4j4VeOyB1R/3qATpie1RwcXE4njH3qUNCcFNNd/uLeGgDB9gd/t6Pqp8gE3PxVR+OCIPYOqga/y6fPSivSyy49HA46oyBfbi5HGgOG68WuWwo6ToUdcl3Y5II2n6Q4S8eDgmB7QjqvFEmsjtm7jK1ezfa6IJCeV71JFou4gyEezvHpvsO85iCh1DHINybvywaN9x+zTNZlx1UZwwBLV1KJGP0E0O1wVag20N9R1QFaV2rKJH5z4lkP/0BOPPM4adkTLWidSUTU9IHmHiVy/CnA1LLb/2H6a7tXvSsUI6eFV7M7FEziDL+5YE2M19l3e++X3DHbVCKbmOr/wkJ6L640LVlK0HPLJQAXu3mXIXkv4gnb/9O4gV2G/DIhXpNOChWb/RPOUmsrWRR6nH5ZAxar6yhRI3K1fvntSavXInMaizGSsiIFi0jOwvv6FPFU8aUmzcg1v5vy68Z9mElIqt42RZ5xntkCoML2/g4JbV8ePdyQRPe70BlORVtAGlDiIQtponrSQDy1qwFJ4M2/lL4xrrSq7g8T+US7+VtxBoFlEXj/ANo/Blj4AZSyw902CTCKrT1ZI0IpPrUZqcXn7aceGP51eOX8aGwxG/hAWCR9HrQePIUEGiif5sxlD7ZYbK6qIGNRlpJgohGlqgB4cGFdaNXhkjuRhswSoa2F8Trw2OId6v0kzWtkf81QWqboZ5t/ju/0oPpMIMQDdMpLLMHa35t1uUr+F6N/R3xrq0n+9I1gqKvphGVa7+MPKzEA9VAN+Tk7VED8YUM8+XvrTTiHn5opkOirn10F252FBmX4DteShMlZw==|920

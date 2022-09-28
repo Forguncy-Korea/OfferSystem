@@ -1,0 +1,130 @@
+{
+  "Rows": {
+    "Count": 26
+  },
+  "Cols": {
+    "Count": 47
+  },
+  "Values": {
+    "5,12": "접근 오류",
+    "8,12": "이 페이지를 볼 수 있는 권한이 없습니다.",
+    "10,12": "가능한 원인:",
+    "12,12": "로그인한 사용자가 필요한 권한을 가지고 있지 않습니다.",
+    "14,12": "해결 방법",
+    "16,11": "1.",
+    "16,13": "로그아웃 후 권한 있는 다른 계정으로 로그인하세요.",
+    "18,11": "2.",
+    "18,13": "페이지 뒤로가기 후 다른 링크를 선택하세요.",
+    "20,11": "3.",
+    "20,13": "웹사이트 관리자에게 문의하세요."
+  },
+  "AttachInfos": {
+    "16,13": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "Text": "로그아웃 후 권한 있는 다른 계정으로 로그인하세요.",
+        "ForguncyAttribute": "401Login"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontSize": 37.333332061767578,
+        "VerticalAlignment": 0
+      },
+      {
+        "VerticalAlignment": 0
+      },
+      {
+        "FontSize": 18.0,
+        "FontWeight": 1,
+        "VerticalAlignment": 0
+      },
+      {
+        "FontSize": 14.0,
+        "HorizontalAlignment": 2,
+        "VerticalAlignment": 0
+      },
+      {
+        "FontSize": 14.0,
+        "Foreground": 3,
+        "VerticalAlignment": 0,
+        "Underline": true
+      },
+      {
+        "FontSize": 14.0,
+        "VerticalAlignment": 0,
+        "WordWrap": true
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Top",
+        "Bold",
+        "Right",
+        "#FF0070C0",
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "5,12": 0,
+      "8,12": 1,
+      "10,12": 2,
+      "12,12": 1,
+      "14,12": 2,
+      "16,11": 3,
+      "16,13": 4,
+      "18,11": 3,
+      "18,13": 5,
+      "20,11": 3,
+      "20,13": 5
+    },
+    "SheetStyle": {
+      "FontFamily": 4,
+      "Underline": false,
+      "Strikethrough": false
+    }
+  },
+  "Spans": [
+    "16,11,2,2",
+    "18,11,2,2",
+    "20,11,1,2",
+    "18,13,2,23",
+    "20,13,1,23",
+    "16,13,2,23",
+    "8,12,2,24",
+    "5,12,3,24",
+    "14,12,2,24",
+    "12,12,2,24",
+    "10,12,2,24"
+  ],
+  "BackgroundPictures": [
+    {
+      "DisplayName": "배경 이미지1",
+      "StyleInfo": {
+        "Fill": "Background 1 -5",
+        "Stroke": "Background 1 -25",
+        "StrokeThickness": 1.0
+      },
+      "IsAutomaticStroke": false,
+      "IsAutomaticFill": false,
+      "Name": "2e7e546e-a7f1-4e86-b8d4-dcb02575df77.png",
+      "Location": "200,80",
+      "Size": "540,360"
+    }
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "MasterPageName": "FGC_유저마스터페이지",
+    "MobilePageName": "FGC_401_권한없음_모바일",
+    "Title": "401페이지",
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "IsBuiltInPage": true
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}//c4/RWoVc11cPUXHYIuaQCcLVSzJ7oeZiRAPx31AyprVoh0jVOydEciddmlBaQQvIvJ70l4KSnt7+p0N7YNgav55wNGYbMsKMdzIarBaTScM0f09yDYjsAsBfVBCfTvnFyD2uLi69khpIPpKxeFrvFj8fc2IUwDBpxxOV68MdH0n3BkvYXmmc/q/dkXV5QJH1V7E60QSALY8IyUgZ+0dj/X1aSdMLBGeJJP0SjERfadaZ4KHEsdCa8yPiWnZ5IiHhjrd76DrgO+Y7IXhmbH1Ufk6cGHTpVskyaYltmhcF/vVE3KRF2gTHtr7aInIBQw+4f0cgwNSm6qN717Ce9b5kvWNyuW0d5lfBU//hrROIq2eYzx6x5Z595kf9UuybrSKl3fkJBdq/Q8urRuu/AoGgrdt9JPORTjcKDCQvs5mCaFPU6/SQ5Uoc7YgaMQvmgEhgCgWSOglBgRXgmSMcpR2dShHrcFqSVNvFQKTvmv7I2DKEYTszT7Y2nyO5VTcJD9yphXtaLUvn6UTWpB0i5Si25aQi1bSWetvQrWIo8v04ebtZHaBgvTxIWY7+5V/gOFv7/w5gg/lq9U6p2v0WCves4AxxM5EDISCK/ytCIIpCy16qSB6hIu2HDcy4+Ra4o+sjuQ+I0LU5pxyDXAQ5prvOf1WXxDuDniErwE2mdQH5rgmhw0Rtw0uCDRgkDIAG326fWU3bfNDjOC5sxuzMkU7jsTRCWJcR/VrbobMI5ZkBQP9cbeZlFQHHFYULCnko0DTuzPn0fOx7CnTFfOYfe8FVz4zYY+sJygsAfUd3gCk7gGAWFQsrK2G/i35VYYTte+3V2+mHwjLy8Q1S/avcajsJ05CRyxjPBfDLvWuLAFWgVh6Q9FesyOGiYgbcgqM82BZ26iH2MeO3MSXulZeVjBLp9g==|920

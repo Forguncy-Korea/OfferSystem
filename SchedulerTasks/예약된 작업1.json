@@ -1,0 +1,107 @@
+{
+  "Enabled": true,
+  "Triggers": [
+    {
+      "$type": "Forguncy.ServerCommands.Models.DailyScheduleTrigger, ServerDesignerCommon",
+      "StartDateTime": 44830.0
+    }
+  ],
+  "Commands": [
+    {
+      "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+      "TableName": "거래처",
+      "UpdateType": "delete",
+      "ShowConfirm": true,
+      "ConfirmText": "데이터를 삭제하시겠습니까?",
+      "RowsToUpdate": 1,
+      "RowsToUpdateCondition": {
+        "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+        "CompareType": 1,
+        "ColumnBindingInfo": {
+          "TableName": "거래처",
+          "ColumnName": "기본샘플"
+        },
+        "Value": "YES",
+        "Id": "b7de840a-2656-4052-8ca3-4ac145712035"
+      },
+      "UpdateValues": []
+    },
+    {
+      "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+      "TableName": "제품",
+      "UpdateType": "delete",
+      "ShowConfirm": true,
+      "ConfirmText": "데이터를 삭제하시겠습니까?",
+      "RowsToUpdate": 1,
+      "RowsToUpdateCondition": {
+        "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+        "CompareType": 1,
+        "ColumnBindingInfo": {
+          "TableName": "제품",
+          "ColumnName": "기본샘플"
+        },
+        "Value": "YES",
+        "Id": "e3840589-1451-4b4e-bf13-915d585bbe34"
+      },
+      "UpdateValues": []
+    },
+    {
+      "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+      "TableName": "견적상세자료",
+      "UpdateType": "delete",
+      "ShowConfirm": true,
+      "ConfirmText": "데이터를 삭제하시겠습니까?",
+      "RowsToUpdate": 1,
+      "RowsToUpdateCondition": {
+        "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+        "CompareType": 1,
+        "ColumnBindingInfo": {
+          "TableName": "견적상세자료",
+          "ColumnName": "기본샘플"
+        },
+        "Value": "YES",
+        "Id": "19dd944b-8369-4e5b-b05a-4d80a212bf44"
+      },
+      "UpdateValues": []
+    },
+    {
+      "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+      "TableName": "견적데이터",
+      "UpdateType": "delete",
+      "ShowConfirm": true,
+      "ConfirmText": "데이터를 삭제하시겠습니까?",
+      "RowsToUpdate": 1,
+      "RowsToUpdateCondition": {
+        "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+        "CompareType": 1,
+        "ColumnBindingInfo": {
+          "TableName": "견적데이터",
+          "ColumnName": "기본샘플"
+        },
+        "Value": "YES",
+        "Id": "32ff5b03-3066-4be9-a0a3-431ef1bf9a3b"
+      },
+      "UpdateValues": []
+    },
+    {
+      "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+      "TableName": "출하창고",
+      "UpdateType": "delete",
+      "ShowConfirm": true,
+      "ConfirmText": "데이터를 삭제하시겠습니까?",
+      "RowsToUpdate": 1,
+      "RowsToUpdateCondition": {
+        "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+        "CompareType": 1,
+        "ColumnBindingInfo": {
+          "TableName": "출하창고",
+          "ColumnName": "기본샘플"
+        },
+        "Value": "YES",
+        "Id": "994bdf87-b015-44f8-85e0-9829335cc5a7"
+      },
+      "UpdateValues": []
+    }
+  ],
+  "Name": "예약된 작업1"
+}

@@ -1,0 +1,1896 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 15.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 19.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 26.0
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 6.0
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 26.0
+        }
+      },
+      "8": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 6.0
+        }
+      },
+      "9": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 26.0
+        }
+      },
+      "10": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 6.0
+        }
+      },
+      "11": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 26.0
+        }
+      },
+      "12": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 6.0
+        }
+      },
+      "13": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 26.0
+        }
+      },
+      "14": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 23.0
+        }
+      },
+      "16": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 25.0
+        }
+      },
+      "19": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 35.0
+        }
+      },
+      "29": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 28.0
+        }
+      },
+      "31": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 25.0
+        }
+      }
+    },
+    "Count": 48
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "47": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 53.0
+        }
+      }
+    },
+    "Count": 59
+  },
+  "Values": {
+    "1,1": "판매입력",
+    "5,3": "일자",
+    "5,26": "거래처",
+    "7,3": "담당자",
+    "7,26": "출하창고",
+    "9,3": "거래유형",
+    "9,26": "통화",
+    "9,31": "내자",
+    "11,3": "납기일자 ",
+    "11,26": "참조",
+    "13,3": "첨부",
+    "16,1": "견적내용가져오기",
+    "18,7": "품목명",
+    "18,22": "수량",
+    "18,26": "단가",
+    "18,33": "공급가액",
+    "18,40": "부가세",
+    "31,1": "저장",
+    "31,4": "다시작성",
+    "31,8": "리스트"
+  },
+  "Formulas": {
+    "19,1": "ODATA(\"제품?$select=품목코드&$filter=ID eq \"&IF(ISBLANK(H20),\"null\",H20))",
+    "29,40": "SUM(AO20)",
+    "19,40": "AH20*0.1",
+    "19,26": "ODATA(\"제품?$select=가격&$filter=ID eq \"&IF(ISBLANK(H20),\"null\",H20))",
+    "19,33": "AA20*W20",
+    "19,17": "ODATA(\"제품?$select=규격명&$filter=ID eq \"&IF(ISBLANK(H20),\"null\",H20))",
+    "29,33": "SUM(AH20)",
+    "29,22": "SUM(W20)"
+  },
+  "AttachInfos": {
+    "5,8": {
+      "CellType": {
+        "$type": "Forguncy.DateCellType, ServerDesignerCommon",
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      },
+      "BindingInfo": {
+        "TableName": "견적데이터",
+        "ColumnName": "주문일"
+      },
+      "DataValidationInfo": {
+        "IgnoreBlank": false
+      }
+    },
+    "5,31": {
+      "CellType": {
+        "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "WaterMark": "거래처",
+        "IsBounding": true,
+        "Items": [
+          {
+            "Value": "항목1",
+            "DisplayValue": "항목1"
+          },
+          {
+            "Value": "항목2",
+            "DisplayValue": "항목2"
+          },
+          {
+            "Value": "항목3",
+            "DisplayValue": "항목3"
+          }
+        ],
+        "DataSource": "거래처",
+        "ValueColumnBindingInfo": {
+          "TableName": "거래처",
+          "ColumnName": "ID"
+        },
+        "DisplayColumnBindingInfo": {
+          "TableName": "거래처",
+          "ColumnName": "회사명"
+        }
+      },
+      "BindingInfo": {
+        "TableName": "견적데이터",
+        "ColumnName": "거래처_ID"
+      },
+      "DataValidationInfo": {
+        "IgnoreBlank": false
+      }
+    },
+    "5,43": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
+            "PageName": "거래처검색페이지",
+            "PassValues": [
+              {
+                "Source": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=판매입력페이지!AF6"
+                },
+                "TargetCell": {
+                  "SerializeProperty": "=거래처검색페이지!G1"
+                }
+              }
+            ]
+          }
+        ],
+        "TemplateKey": "스타일3",
+        "Icon": {
+          "Name": "Application/047_search_8.svg",
+          "BuiltIn": true,
+          "Color": "Background 1",
+          "UseCellTypeForeColor": true
+        }
+      }
+    },
+    "7,8": {
+      "CellType": {
+        "$type": "Forguncy.CurrentUserCellType, ServerDesignerCommon",
+        "CellCustomValue": "%CurrentUser%",
+        "ShowUserPicture": false,
+        "ShowDropDown": false,
+        "ShowNotification": false,
+        "NavigateSettingWhenLogout": {
+          "NavigateWhenLogoutMode": 1
+        }
+      },
+      "BindingInfo": {
+        "TableName": "견적데이터",
+        "ColumnName": "담당자"
+      }
+    },
+    "7,31": {
+      "CellType": {
+        "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "WaterMark": "출하창고",
+        "IsBounding": true,
+        "Items": [
+          {
+            "Value": "항목1",
+            "DisplayValue": "항목1"
+          },
+          {
+            "Value": "항목2",
+            "DisplayValue": "항목2"
+          },
+          {
+            "Value": "항목3",
+            "DisplayValue": "항목3"
+          }
+        ],
+        "DataSource": "출하창고",
+        "ValueColumnBindingInfo": {
+          "TableName": "출하창고",
+          "ColumnName": "ID"
+        },
+        "DisplayColumnBindingInfo": {
+          "TableName": "출하창고",
+          "ColumnName": "창고명"
+        }
+      },
+      "BindingInfo": {
+        "TableName": "견적데이터",
+        "ColumnName": "출하창고_ID"
+      },
+      "DataValidationInfo": {}
+    },
+    "7,43": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
+            "PageName": "출하창고검색페이지",
+            "PassValues": [
+              {
+                "Source": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=판매입력페이지!AF8"
+                },
+                "TargetCell": {
+                  "SerializeProperty": "=출하창고검색페이지!G1"
+                }
+              }
+            ]
+          }
+        ],
+        "TemplateKey": "스타일3",
+        "Icon": {
+          "Name": "Application/047_search_8.svg",
+          "BuiltIn": true,
+          "Color": "Background 1",
+          "UseCellTypeForeColor": true
+        }
+      }
+    },
+    "9,8": {
+      "CellType": {
+        "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "Items": [
+          {
+            "Value": "세금계산서",
+            "DisplayValue": "세금계산서"
+          },
+          {
+            "Value": "계산서",
+            "DisplayValue": "계산서"
+          },
+          {
+            "Value": "카드",
+            "DisplayValue": "카드"
+          },
+          {
+            "Value": "카드면세",
+            "DisplayValue": "카드면세"
+          },
+          {
+            "Value": "현금",
+            "DisplayValue": "현금"
+          },
+          {
+            "Value": "현금영수증",
+            "DisplayValue": "현금영수증"
+          },
+          {
+            "Value": "영세율",
+            "DisplayValue": "영세율"
+          },
+          {
+            "Value": "수출",
+            "DisplayValue": "수출"
+          },
+          {
+            "Value": "기타",
+            "DisplayValue": "기타"
+          }
+        ]
+      },
+      "BindingInfo": {
+        "TableName": "견적데이터",
+        "ColumnName": "거래유형"
+      }
+    },
+    "9,31": {
+      "CellType": {
+        "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "WaterMark": "통화",
+        "Items": [
+          {
+            "Value": "내자",
+            "DisplayValue": "내자"
+          },
+          {
+            "Value": "JPY",
+            "DisplayValue": "JPY"
+          },
+          {
+            "Value": "SGD",
+            "DisplayValue": "SGD"
+          },
+          {
+            "Value": "USD",
+            "DisplayValue": "USD"
+          }
+        ],
+        "CellDefaultValue": "내자"
+      },
+      "BindingInfo": {
+        "TableName": "견적데이터",
+        "ColumnName": "통화"
+      }
+    },
+    "11,8": {
+      "CellType": {
+        "$type": "Forguncy.DateCellType, ServerDesignerCommon",
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      },
+      "BindingInfo": {
+        "TableName": "견적데이터",
+        "ColumnName": "납기일자"
+      },
+      "DataValidationInfo": {}
+    },
+    "11,31": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "WaterMark": "참조"
+      },
+      "BindingInfo": {
+        "TableName": "견적데이터",
+        "ColumnName": "참조"
+      }
+    },
+    "13,8": {
+      "CellType": {
+        "$type": "Forguncy.AttachmentCelltype, ServerDesignerCommon",
+        "UploadLimit": {
+          "ExtensionFilter": ".jpg, .jpeg, .png, .gif, .bmp, .xlsx, .docx, .doc, .xls, .pdf",
+          "ReplaceWhenOneFile": true
+        },
+        "TemplateKey": "_RS_Normal_Style2"
+      },
+      "BindingInfo": {
+        "TableName": "견적데이터",
+        "ColumnName": "첨부파일"
+      }
+    },
+    "16,1": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+            "PropertyItemsList": [
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=판매입력페이지!B32"
+                },
+                "Value": "수정"
+              }
+            ]
+          },
+          {
+            "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
+            "PageName": "견적서조회",
+            "PassValues": []
+          }
+        ],
+        "Text": "견적내용가져오기",
+        "TemplateKey": "스타일5"
+      }
+    },
+    "18,1": {
+      "ListViewInfo": {
+        "ShowColumnHeaderInDesigner": true,
+        "TableName": "견적상세자료",
+        "RowIndex": 18,
+        "ColumnIndex": 1,
+        "ColumnCount": 46,
+        "RowCount": 11,
+        "AllowEditInListview": true,
+        "AllowAddNewRow": true,
+        "ColumnOperation": 2,
+        "ShowGridLine": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "Name": "리스트뷰1",
+        "DetailListViewInfo": {
+          "MasterTable": "견적데이터",
+          "ColumnOfMasterTable": "ID",
+          "ColumnOfDetailTable": "견적_ID",
+          "DataCommitType": 2
+        },
+        "TopCondition": null,
+        "CommitType": 1,
+        "DoNotLoadDataWhenLoadPage": true,
+        "ListViewStyleName": "사용자 정의2"
+      }
+    },
+    "19,1": {
+      "BindingInfo": {
+        "TableName": "견적상세자료",
+        "ColumnName": "제품ID",
+        "RelationBinding": {
+          "RelatedTable": "제품",
+          "RelatedColumn": "ID",
+          "DisplayColumn": "품목코드"
+        }
+      }
+    },
+    "19,7": {
+      "CellType": {
+        "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
+        "IsBounding": true,
+        "Items": [
+          {
+            "Value": "항목1",
+            "DisplayValue": "항목1"
+          },
+          {
+            "Value": "항목2",
+            "DisplayValue": "항목2"
+          },
+          {
+            "Value": "항목3",
+            "DisplayValue": "항목3"
+          }
+        ],
+        "DataSource": "제품",
+        "ValueColumnBindingInfo": {
+          "TableName": "제품",
+          "ColumnName": "ID"
+        },
+        "DisplayColumnBindingInfo": {
+          "TableName": "제품",
+          "ColumnName": "제품명"
+        }
+      },
+      "BindingInfo": {
+        "TableName": "견적상세자료",
+        "ColumnName": "제품ID"
+      },
+      "DataValidationInfo": {
+        "IgnoreBlank": false
+      }
+    },
+    "19,17": {
+      "BindingInfo": {
+        "TableName": "견적상세자료",
+        "ColumnName": "제품ID",
+        "RelationBinding": {
+          "RelatedTable": "제품",
+          "RelatedColumn": "ID",
+          "DisplayColumn": "규격명"
+        }
+      }
+    },
+    "19,22": {
+      "BindingInfo": {
+        "TableName": "견적상세자료",
+        "ColumnName": "주문수량"
+      }
+    },
+    "19,26": {
+      "BindingInfo": {
+        "TableName": "견적상세자료",
+        "ColumnName": "제품ID",
+        "RelationBinding": {
+          "RelatedTable": "제품",
+          "RelatedColumn": "ID",
+          "DisplayColumn": "가격"
+        }
+      }
+    },
+    "31,1": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+            "ConditionAndCommandPairList": [
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=판매입력페이지!B32"
+                      }
+                    ]
+                  },
+                  "value": "저장",
+                  "Id": "de0d957a-effe-40bd-9d30-45d92341a44c"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                    "TableName": "견적데이터",
+                    "UpdateType": "add",
+                    "ShowConfirm": false,
+                    "ConfirmText": "데이터를 추가하시겠습니까?",
+                    "UpdateValues": [
+                      {
+                        "ColumnName": "거래처_ID",
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=판매입력페이지!AF6"
+                        }
+                      },
+                      {
+                        "ColumnName": "제품_ID",
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=판매입력페이지!H20"
+                        }
+                      },
+                      {
+                        "ColumnName": "총공급가",
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=판매입력페이지!AO30"
+                        }
+                      },
+                      {
+                        "ColumnName": "주문일",
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=판매입력페이지!I6"
+                        }
+                      },
+                      {
+                        "ColumnName": "출하창고_ID",
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=판매입력페이지!AF8"
+                        }
+                      },
+                      {
+                        "ColumnName": "첨부파일",
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=판매입력페이지!I14"
+                        }
+                      },
+                      {
+                        "ColumnName": "거래유형",
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=판매입력페이지!I10"
+                        }
+                      },
+                      {
+                        "ColumnName": "통화",
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=판매입력페이지!AF10"
+                        }
+                      },
+                      {
+                        "ColumnName": "참조",
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=판매입력페이지!AF12"
+                        }
+                      },
+                      {
+                        "ColumnName": "납기일자",
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=판매입력페이지!I12"
+                        }
+                      },
+                      {
+                        "ColumnName": "견적공급가액합계",
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=판매입력페이지!AH20"
+                        }
+                      },
+                      {
+                        "ColumnName": "견적부가세합계",
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=판매입력페이지!AO20"
+                        }
+                      },
+                      {
+                        "ColumnName": "종결여부",
+                        "Value": "완료"
+                      },
+                      {
+                        "ColumnName": "주문수량",
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=판매입력페이지!W30"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "ID": "a40019fd-5a35-45b8-a5e9-41a62f7f5b6b"
+              },
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=판매입력페이지!B32"
+                      }
+                    ]
+                  },
+                  "value": "수정",
+                  "Id": "c1b5ba4b-903e-46b8-84c1-7b9ba08b20b6"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                    "TableName": "견적데이터",
+                    "ShowConfirm": false,
+                    "ConfirmText": "데이터를 업데이트하시겠습니까?",
+                    "UpdateValues": [
+                      {
+                        "ColumnName": "종결여부",
+                        "Value": "완료"
+                      },
+                      {
+                        "ColumnName": "주문수량",
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=판매입력페이지!W30"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                    "TableName": "제품",
+                    "ShowConfirm": false,
+                    "ConfirmText": "데이터를 업데이트하시겠습니까?",
+                    "UpdateValues": [
+                      {
+                        "ColumnName": "가격",
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=판매입력페이지!AW20"
+                        }
+                      },
+                      {
+                        "ColumnName": "제품명",
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=판매입력페이지!H20"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "ID": "20a19b95-1671-4e6e-be4f-d8cd984167df"
+              }
+            ]
+          },
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "PageName": "판매조회페이지",
+            "PassValues": []
+          }
+        ],
+        "Text": "저장",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "31,4": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "PageName": "판매입력페이지",
+            "PassValues": []
+          }
+        ],
+        "Text": "다시작성",
+        "TemplateKey": "스타일5"
+      }
+    },
+    "31,8": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "PageName": "판매조회페이지",
+            "PassValues": []
+          }
+        ],
+        "Text": "리스트",
+        "TemplateKey": "스타일5"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 18.666666666666664,
+        "FontWeight": 1
+      },
+      {
+        "Background": 2,
+        "FontFamily": 0
+      },
+      {
+        "Background": 2,
+        "FontFamily": 0,
+        "Formatter": 3
+      },
+      {
+        "Background": 2,
+        "FontFamily": 0,
+        "HorizontalAlignment": 4
+      },
+      {
+        "Background": 2,
+        "FontFamily": 0,
+        "Formatter": 5
+      },
+      {
+        "Background": 2,
+        "FontFamily": 0,
+        "Formatter": 5,
+        "Underline": true
+      },
+      {
+        "Background": 2,
+        "FontFamily": 0,
+        "Underline": true
+      },
+      {
+        "BorderTop": 0,
+        "BorderLeft": 0
+      },
+      {
+        "BorderTop": 0
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 14.67,
+        "BorderTop": 0
+      },
+      {
+        "FontFamily": 0,
+        "Formatter": 3,
+        "BorderTop": 0
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 14.67,
+        "BorderTop": 0,
+        "BorderRight": 0
+      },
+      {
+        "BorderLeft": 0
+      },
+      {
+        "WordWrap": true
+      },
+      {
+        "FontFamily": 0,
+        "Formatter": 7
+      },
+      {
+        "FontFamily": 0,
+        "BorderRight": 0
+      },
+      {
+        "BorderRight": 0
+      },
+      {
+        "BorderBottom": 0,
+        "BorderLeft": 0
+      },
+      {
+        "BorderBottom": 0
+      },
+      {
+        "BorderBottom": 0,
+        "BorderRight": 0
+      },
+      {
+        "Background": 8,
+        "BorderBottom": 1,
+        "BorderTop": 1,
+        "BorderLeft": 1,
+        "BorderRight": 1
+      },
+      {
+        "BorderBottom": 1,
+        "BorderTop": 1,
+        "BorderLeft": 1,
+        "BorderRight": 1
+      },
+      {
+        "Background": 8,
+        "Formatter": 10,
+        "BorderBottom": 1,
+        "BorderTop": 1,
+        "BorderLeft": 1,
+        "BorderRight": 1
+      },
+      {
+        "Background": 8,
+        "Formatter": 7,
+        "BorderBottom": 1,
+        "BorderTop": 1,
+        "BorderLeft": 1,
+        "BorderRight": 1
+      },
+      {
+        "FontFamily": 0,
+        "Formatter": 3
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "Bold",
+        "Background 1 -5",
+        "[AUTO]General",
+        "Right",
+        "@",
+        "DarkGray",
+        "₩#,##0_);[Red](₩#,##0)",
+        "Background 1 -15",
+        "Background 1 -25",
+        "General"
+      ],
+      "Borders": [
+        {
+          "Color": 6
+        },
+        {
+          "Color": 9
+        }
+      ]
+    },
+    "CellStyles": {
+      "0,0": 0,
+      "0,1": 0,
+      "0,2": 0,
+      "0,3": 0,
+      "0,4": 0,
+      "0,5": 0,
+      "0,6": 0,
+      "0,7": 0,
+      "0,8": 0,
+      "0,9": 0,
+      "0,10": 0,
+      "0,11": 0,
+      "0,12": 0,
+      "0,13": 0,
+      "0,14": 0,
+      "0,15": 0,
+      "0,16": 0,
+      "0,17": 0,
+      "0,18": 0,
+      "0,19": 0,
+      "0,20": 0,
+      "0,21": 0,
+      "0,22": 0,
+      "0,23": 0,
+      "0,24": 0,
+      "0,25": 0,
+      "0,26": 0,
+      "0,27": 0,
+      "0,28": 0,
+      "0,29": 0,
+      "0,30": 0,
+      "0,31": 0,
+      "0,32": 0,
+      "0,33": 0,
+      "0,34": 0,
+      "0,35": 0,
+      "0,36": 0,
+      "0,37": 0,
+      "0,38": 0,
+      "0,39": 0,
+      "0,40": 0,
+      "0,41": 0,
+      "0,42": 0,
+      "0,43": 0,
+      "0,44": 0,
+      "0,45": 0,
+      "0,46": 0,
+      "0,47": 0,
+      "1,1": 1,
+      "1,6": 0,
+      "1,7": 0,
+      "1,8": 0,
+      "1,9": 0,
+      "1,10": 0,
+      "1,11": 0,
+      "1,12": 0,
+      "1,13": 0,
+      "1,14": 0,
+      "1,15": 0,
+      "1,16": 0,
+      "1,17": 0,
+      "1,18": 0,
+      "1,19": 0,
+      "1,20": 0,
+      "1,21": 0,
+      "1,22": 0,
+      "1,23": 0,
+      "1,24": 0,
+      "1,25": 0,
+      "1,26": 0,
+      "1,27": 0,
+      "1,28": 0,
+      "1,29": 0,
+      "1,30": 0,
+      "1,31": 0,
+      "1,32": 0,
+      "1,33": 0,
+      "1,34": 0,
+      "1,35": 0,
+      "1,36": 0,
+      "1,37": 0,
+      "1,38": 0,
+      "1,39": 0,
+      "1,40": 0,
+      "1,41": 0,
+      "1,42": 0,
+      "1,43": 0,
+      "1,44": 0,
+      "1,45": 0,
+      "1,46": 0,
+      "1,47": 0,
+      "2,0": 0,
+      "2,6": 0,
+      "2,7": 0,
+      "2,8": 0,
+      "2,9": 0,
+      "2,10": 0,
+      "2,11": 0,
+      "2,12": 0,
+      "2,13": 0,
+      "2,14": 0,
+      "2,15": 0,
+      "2,16": 0,
+      "2,17": 0,
+      "2,18": 0,
+      "2,19": 0,
+      "2,20": 0,
+      "2,21": 0,
+      "2,22": 0,
+      "2,23": 0,
+      "2,24": 0,
+      "2,25": 0,
+      "2,26": 0,
+      "2,27": 0,
+      "2,28": 0,
+      "2,29": 0,
+      "2,30": 0,
+      "2,31": 0,
+      "2,32": 0,
+      "2,33": 0,
+      "2,34": 0,
+      "2,35": 0,
+      "2,36": 0,
+      "2,37": 0,
+      "2,38": 0,
+      "2,39": 0,
+      "2,40": 0,
+      "2,41": 0,
+      "2,42": 0,
+      "2,43": 0,
+      "2,44": 0,
+      "2,45": 0,
+      "2,46": 0,
+      "2,47": 0,
+      "3,0": 0,
+      "3,1": 0,
+      "3,2": 0,
+      "3,3": 0,
+      "3,4": 0,
+      "3,5": 0,
+      "3,6": 0,
+      "3,7": 0,
+      "3,8": 0,
+      "3,9": 0,
+      "3,10": 0,
+      "3,11": 0,
+      "3,12": 0,
+      "3,13": 0,
+      "3,14": 0,
+      "3,15": 0,
+      "3,16": 0,
+      "3,17": 0,
+      "3,18": 0,
+      "3,19": 0,
+      "3,20": 0,
+      "3,21": 0,
+      "3,22": 0,
+      "3,23": 0,
+      "3,24": 0,
+      "3,25": 0,
+      "3,26": 0,
+      "3,27": 0,
+      "3,28": 0,
+      "3,29": 0,
+      "3,30": 0,
+      "3,31": 0,
+      "3,32": 0,
+      "3,33": 0,
+      "3,34": 0,
+      "3,35": 0,
+      "3,36": 0,
+      "3,37": 0,
+      "3,38": 0,
+      "3,39": 0,
+      "3,40": 0,
+      "3,41": 0,
+      "3,42": 0,
+      "3,43": 0,
+      "3,44": 0,
+      "3,45": 0,
+      "3,46": 0,
+      "3,47": 0,
+      "4,0": 0,
+      "4,1": 2,
+      "4,2": 2,
+      "4,3": 2,
+      "4,4": 2,
+      "4,5": 2,
+      "4,6": 2,
+      "4,7": 2,
+      "4,8": 2,
+      "4,9": 2,
+      "4,10": 2,
+      "4,11": 2,
+      "4,12": 2,
+      "4,13": 2,
+      "4,14": 2,
+      "4,15": 2,
+      "4,16": 2,
+      "4,17": 2,
+      "4,18": 2,
+      "4,19": 2,
+      "4,20": 2,
+      "4,21": 2,
+      "4,22": 2,
+      "4,23": 2,
+      "4,24": 2,
+      "4,25": 2,
+      "4,26": 2,
+      "4,27": 2,
+      "4,28": 2,
+      "4,29": 2,
+      "4,30": 2,
+      "4,31": 2,
+      "4,32": 2,
+      "4,33": 2,
+      "4,34": 2,
+      "4,35": 2,
+      "4,36": 2,
+      "4,37": 2,
+      "4,38": 2,
+      "4,39": 2,
+      "4,40": 2,
+      "4,41": 2,
+      "4,42": 2,
+      "4,43": 2,
+      "4,44": 2,
+      "4,45": 2,
+      "4,46": 2,
+      "4,47": 0,
+      "5,0": 0,
+      "5,1": 2,
+      "5,2": 2,
+      "5,3": 3,
+      "5,4": 2,
+      "5,5": 2,
+      "5,6": 2,
+      "5,7": 2,
+      "5,8": 2,
+      "5,9": 0,
+      "5,10": 0,
+      "5,11": 0,
+      "5,12": 0,
+      "5,13": 0,
+      "5,14": 0,
+      "5,15": 0,
+      "5,16": 0,
+      "5,17": 0,
+      "5,18": 0,
+      "5,19": 0,
+      "5,20": 0,
+      "5,21": 0,
+      "5,22": 2,
+      "5,23": 2,
+      "5,24": 2,
+      "5,25": 2,
+      "5,26": 3,
+      "5,27": 2,
+      "5,28": 2,
+      "5,29": 2,
+      "5,30": 2,
+      "5,31": 2,
+      "5,32": 0,
+      "5,33": 0,
+      "5,34": 0,
+      "5,35": 0,
+      "5,36": 0,
+      "5,37": 0,
+      "5,38": 0,
+      "5,39": 0,
+      "5,40": 0,
+      "5,41": 0,
+      "5,42": 0,
+      "5,43": 0,
+      "5,44": 0,
+      "5,45": 2,
+      "5,46": 2,
+      "5,47": 0,
+      "6,0": 0,
+      "6,1": 2,
+      "6,2": 2,
+      "6,3": 3,
+      "6,4": 2,
+      "6,5": 2,
+      "6,6": 2,
+      "6,7": 2,
+      "6,8": 2,
+      "6,9": 2,
+      "6,10": 2,
+      "6,11": 2,
+      "6,12": 2,
+      "6,13": 2,
+      "6,14": 2,
+      "6,15": 2,
+      "6,16": 2,
+      "6,17": 2,
+      "6,18": 2,
+      "6,19": 2,
+      "6,20": 2,
+      "6,21": 2,
+      "6,22": 2,
+      "6,23": 2,
+      "6,24": 2,
+      "6,25": 2,
+      "6,26": 3,
+      "6,27": 2,
+      "6,28": 2,
+      "6,29": 2,
+      "6,30": 2,
+      "6,31": 2,
+      "6,32": 2,
+      "6,33": 2,
+      "6,34": 2,
+      "6,35": 2,
+      "6,36": 2,
+      "6,37": 2,
+      "6,38": 2,
+      "6,39": 2,
+      "6,40": 2,
+      "6,41": 2,
+      "6,42": 2,
+      "6,43": 2,
+      "6,44": 2,
+      "6,45": 2,
+      "6,46": 2,
+      "6,47": 0,
+      "7,0": 0,
+      "7,1": 2,
+      "7,2": 2,
+      "7,3": 3,
+      "7,4": 2,
+      "7,5": 2,
+      "7,6": 2,
+      "7,7": 2,
+      "7,8": 4,
+      "7,9": 0,
+      "7,10": 0,
+      "7,11": 0,
+      "7,12": 0,
+      "7,13": 0,
+      "7,14": 0,
+      "7,15": 0,
+      "7,16": 0,
+      "7,17": 0,
+      "7,18": 0,
+      "7,19": 0,
+      "7,20": 0,
+      "7,21": 0,
+      "7,22": 2,
+      "7,23": 2,
+      "7,24": 2,
+      "7,25": 2,
+      "7,26": 3,
+      "7,27": 2,
+      "7,28": 2,
+      "7,29": 2,
+      "7,30": 2,
+      "7,31": 2,
+      "7,32": 0,
+      "7,33": 0,
+      "7,34": 0,
+      "7,35": 0,
+      "7,36": 0,
+      "7,37": 0,
+      "7,38": 0,
+      "7,39": 0,
+      "7,40": 0,
+      "7,41": 0,
+      "7,42": 0,
+      "7,43": 0,
+      "7,44": 0,
+      "7,45": 2,
+      "7,46": 2,
+      "7,47": 0,
+      "8,0": 0,
+      "8,1": 2,
+      "8,2": 2,
+      "8,3": 3,
+      "8,4": 2,
+      "8,5": 2,
+      "8,6": 2,
+      "8,7": 2,
+      "8,8": 4,
+      "8,9": 4,
+      "8,10": 4,
+      "8,11": 4,
+      "8,12": 4,
+      "8,13": 4,
+      "8,14": 4,
+      "8,15": 4,
+      "8,16": 4,
+      "8,17": 4,
+      "8,18": 4,
+      "8,19": 4,
+      "8,20": 4,
+      "8,21": 4,
+      "8,22": 2,
+      "8,23": 2,
+      "8,24": 2,
+      "8,25": 2,
+      "8,26": 3,
+      "8,27": 2,
+      "8,28": 2,
+      "8,29": 2,
+      "8,30": 2,
+      "8,31": 2,
+      "8,32": 2,
+      "8,33": 2,
+      "8,34": 2,
+      "8,35": 2,
+      "8,36": 2,
+      "8,37": 2,
+      "8,38": 2,
+      "8,39": 2,
+      "8,40": 2,
+      "8,41": 2,
+      "8,42": 2,
+      "8,43": 2,
+      "8,44": 2,
+      "8,45": 2,
+      "8,46": 2,
+      "8,47": 0,
+      "9,0": 0,
+      "9,1": 2,
+      "9,2": 2,
+      "9,3": 3,
+      "9,4": 2,
+      "9,5": 2,
+      "9,6": 2,
+      "9,7": 2,
+      "9,8": 2,
+      "9,9": 0,
+      "9,10": 0,
+      "9,11": 0,
+      "9,12": 0,
+      "9,13": 0,
+      "9,14": 0,
+      "9,15": 0,
+      "9,16": 0,
+      "9,17": 0,
+      "9,18": 0,
+      "9,19": 0,
+      "9,20": 0,
+      "9,21": 0,
+      "9,22": 2,
+      "9,23": 2,
+      "9,24": 2,
+      "9,25": 2,
+      "9,26": 3,
+      "9,27": 2,
+      "9,28": 2,
+      "9,29": 2,
+      "9,30": 2,
+      "9,31": 2,
+      "9,32": 0,
+      "9,33": 0,
+      "9,34": 0,
+      "9,35": 0,
+      "9,36": 0,
+      "9,37": 0,
+      "9,38": 0,
+      "9,39": 0,
+      "9,40": 0,
+      "9,41": 0,
+      "9,42": 0,
+      "9,43": 0,
+      "9,44": 0,
+      "9,45": 2,
+      "9,46": 2,
+      "9,47": 0,
+      "10,0": 0,
+      "10,1": 2,
+      "10,2": 2,
+      "10,3": 3,
+      "10,4": 2,
+      "10,5": 2,
+      "10,6": 2,
+      "10,7": 2,
+      "10,8": 2,
+      "10,9": 2,
+      "10,10": 2,
+      "10,11": 2,
+      "10,12": 2,
+      "10,13": 2,
+      "10,14": 2,
+      "10,15": 2,
+      "10,16": 2,
+      "10,17": 2,
+      "10,18": 2,
+      "10,19": 2,
+      "10,20": 2,
+      "10,21": 2,
+      "10,22": 2,
+      "10,23": 2,
+      "10,24": 2,
+      "10,25": 2,
+      "10,26": 3,
+      "10,27": 2,
+      "10,28": 2,
+      "10,29": 2,
+      "10,30": 2,
+      "10,31": 2,
+      "10,32": 2,
+      "10,33": 2,
+      "10,34": 2,
+      "10,35": 2,
+      "10,36": 2,
+      "10,37": 2,
+      "10,38": 2,
+      "10,39": 2,
+      "10,40": 2,
+      "10,41": 2,
+      "10,42": 2,
+      "10,43": 2,
+      "10,44": 2,
+      "10,45": 2,
+      "10,46": 2,
+      "10,47": 0,
+      "11,0": 0,
+      "11,1": 2,
+      "11,2": 2,
+      "11,3": 3,
+      "11,4": 2,
+      "11,5": 2,
+      "11,6": 2,
+      "11,7": 2,
+      "11,8": 2,
+      "11,22": 2,
+      "11,23": 2,
+      "11,24": 2,
+      "11,25": 2,
+      "11,26": 3,
+      "11,27": 2,
+      "11,28": 2,
+      "11,29": 2,
+      "11,30": 2,
+      "11,31": 5,
+      "11,32": 0,
+      "11,33": 0,
+      "11,34": 0,
+      "11,35": 0,
+      "11,36": 0,
+      "11,37": 0,
+      "11,38": 0,
+      "11,39": 0,
+      "11,40": 0,
+      "11,41": 0,
+      "11,42": 0,
+      "11,43": 0,
+      "11,44": 0,
+      "11,45": 2,
+      "11,46": 2,
+      "11,47": 0,
+      "12,0": 0,
+      "12,1": 2,
+      "12,2": 2,
+      "12,3": 3,
+      "12,4": 2,
+      "12,5": 2,
+      "12,6": 2,
+      "12,7": 2,
+      "12,8": 2,
+      "12,9": 2,
+      "12,10": 2,
+      "12,11": 2,
+      "12,12": 2,
+      "12,13": 2,
+      "12,14": 2,
+      "12,15": 2,
+      "12,16": 2,
+      "12,17": 2,
+      "12,18": 2,
+      "12,19": 2,
+      "12,20": 2,
+      "12,21": 2,
+      "12,22": 2,
+      "12,23": 2,
+      "12,24": 2,
+      "12,25": 2,
+      "12,26": 3,
+      "12,27": 2,
+      "12,28": 2,
+      "12,29": 2,
+      "12,30": 2,
+      "12,31": 5,
+      "12,32": 5,
+      "12,33": 5,
+      "12,34": 5,
+      "12,35": 5,
+      "12,36": 5,
+      "12,37": 5,
+      "12,38": 5,
+      "12,39": 5,
+      "12,40": 5,
+      "12,41": 5,
+      "12,42": 5,
+      "12,43": 5,
+      "12,44": 5,
+      "12,45": 2,
+      "12,46": 2,
+      "12,47": 0,
+      "13,0": 0,
+      "13,1": 2,
+      "13,2": 2,
+      "13,3": 3,
+      "13,4": 2,
+      "13,5": 2,
+      "13,6": 2,
+      "13,7": 2,
+      "13,8": 6,
+      "13,22": 2,
+      "13,23": 2,
+      "13,24": 2,
+      "13,25": 2,
+      "13,26": 3,
+      "13,27": 2,
+      "13,28": 2,
+      "13,29": 2,
+      "13,30": 2,
+      "13,31": 5,
+      "13,32": 0,
+      "13,33": 0,
+      "13,34": 0,
+      "13,35": 0,
+      "13,36": 0,
+      "13,37": 0,
+      "13,38": 0,
+      "13,39": 0,
+      "13,40": 0,
+      "13,41": 0,
+      "13,42": 0,
+      "13,43": 0,
+      "13,44": 0,
+      "13,45": 2,
+      "13,46": 2,
+      "13,47": 0,
+      "14,0": 0,
+      "14,1": 2,
+      "14,2": 2,
+      "14,3": 3,
+      "14,4": 2,
+      "14,5": 2,
+      "14,6": 2,
+      "14,7": 2,
+      "14,8": 7,
+      "14,9": 0,
+      "14,10": 0,
+      "14,11": 2,
+      "14,12": 2,
+      "14,13": 2,
+      "14,14": 2,
+      "14,15": 2,
+      "14,16": 2,
+      "14,17": 2,
+      "14,18": 2,
+      "14,19": 2,
+      "14,20": 2,
+      "14,21": 2,
+      "14,22": 2,
+      "14,23": 2,
+      "14,24": 2,
+      "14,25": 2,
+      "14,26": 3,
+      "14,27": 2,
+      "14,28": 2,
+      "14,29": 2,
+      "14,30": 2,
+      "14,31": 5,
+      "14,32": 2,
+      "14,33": 2,
+      "14,34": 2,
+      "14,35": 2,
+      "14,36": 2,
+      "14,37": 2,
+      "14,38": 2,
+      "14,39": 2,
+      "14,40": 2,
+      "14,41": 2,
+      "14,42": 2,
+      "14,43": 2,
+      "14,44": 2,
+      "14,45": 2,
+      "14,46": 2,
+      "14,47": 0,
+      "15,0": 0,
+      "15,1": 0,
+      "15,2": 0,
+      "15,3": 0,
+      "15,4": 0,
+      "15,5": 0,
+      "15,6": 0,
+      "15,7": 0,
+      "15,8": 0,
+      "15,9": 0,
+      "15,10": 0,
+      "15,11": 0,
+      "15,12": 0,
+      "15,13": 0,
+      "15,14": 0,
+      "15,15": 0,
+      "15,16": 0,
+      "15,17": 0,
+      "15,18": 0,
+      "15,19": 0,
+      "15,20": 0,
+      "15,21": 0,
+      "15,22": 0,
+      "15,23": 0,
+      "15,24": 0,
+      "15,25": 0,
+      "15,26": 0,
+      "15,27": 0,
+      "15,28": 0,
+      "15,29": 0,
+      "15,30": 0,
+      "15,31": 0,
+      "15,32": 0,
+      "15,33": 0,
+      "15,34": 0,
+      "15,35": 0,
+      "15,36": 0,
+      "15,37": 0,
+      "15,38": 0,
+      "15,39": 0,
+      "15,40": 0,
+      "15,41": 0,
+      "15,42": 0,
+      "15,43": 0,
+      "15,44": 0,
+      "15,45": 0,
+      "15,46": 0,
+      "15,47": 0,
+      "18,1": 8,
+      "18,2": 9,
+      "18,3": 9,
+      "18,4": 9,
+      "18,5": 9,
+      "18,6": 9,
+      "18,7": 9,
+      "18,8": 9,
+      "18,9": 9,
+      "18,10": 9,
+      "18,11": 9,
+      "18,12": 9,
+      "18,13": 9,
+      "18,14": 9,
+      "18,15": 9,
+      "18,16": 9,
+      "18,17": 10,
+      "18,18": 9,
+      "18,19": 9,
+      "18,20": 9,
+      "18,21": 9,
+      "18,22": 11,
+      "18,23": 10,
+      "18,24": 10,
+      "18,25": 10,
+      "18,26": 10,
+      "18,27": 9,
+      "18,28": 9,
+      "18,29": 9,
+      "18,30": 9,
+      "18,31": 9,
+      "18,32": 9,
+      "18,33": 11,
+      "18,34": 10,
+      "18,35": 10,
+      "18,36": 10,
+      "18,37": 10,
+      "18,38": 10,
+      "18,39": 10,
+      "18,40": 10,
+      "18,41": 10,
+      "18,42": 10,
+      "18,43": 10,
+      "18,44": 10,
+      "18,45": 10,
+      "18,46": 12,
+      "19,1": 13,
+      "19,7": 14,
+      "19,17": 0,
+      "19,22": 0,
+      "19,23": 0,
+      "19,24": 0,
+      "19,25": 0,
+      "19,26": 15,
+      "19,33": 15,
+      "19,34": 0,
+      "19,35": 0,
+      "19,36": 0,
+      "19,37": 0,
+      "19,38": 0,
+      "19,39": 0,
+      "19,40": 15,
+      "19,41": 0,
+      "19,42": 0,
+      "19,43": 0,
+      "19,44": 0,
+      "19,45": 0,
+      "19,46": 16,
+      "20,1": 13,
+      "20,46": 17,
+      "21,1": 13,
+      "21,46": 17,
+      "22,1": 13,
+      "22,46": 17,
+      "23,1": 13,
+      "23,46": 17,
+      "24,1": 13,
+      "24,46": 17,
+      "25,1": 13,
+      "25,46": 17,
+      "26,1": 13,
+      "26,46": 17,
+      "27,1": 13,
+      "27,46": 17,
+      "28,1": 18,
+      "28,2": 19,
+      "28,3": 19,
+      "28,4": 19,
+      "28,5": 19,
+      "28,6": 19,
+      "28,7": 19,
+      "28,8": 19,
+      "28,9": 19,
+      "28,10": 19,
+      "28,11": 19,
+      "28,12": 19,
+      "28,13": 19,
+      "28,14": 19,
+      "28,15": 19,
+      "28,16": 19,
+      "28,17": 19,
+      "28,18": 19,
+      "28,19": 19,
+      "28,20": 19,
+      "28,21": 19,
+      "28,22": 19,
+      "28,23": 19,
+      "28,24": 19,
+      "28,25": 19,
+      "28,26": 19,
+      "28,27": 19,
+      "28,28": 19,
+      "28,29": 19,
+      "28,30": 19,
+      "28,31": 19,
+      "28,32": 19,
+      "28,33": 19,
+      "28,34": 19,
+      "28,35": 19,
+      "28,36": 19,
+      "28,37": 19,
+      "28,38": 19,
+      "28,39": 19,
+      "28,40": 19,
+      "28,41": 19,
+      "28,42": 19,
+      "28,43": 19,
+      "28,44": 19,
+      "28,45": 19,
+      "28,46": 20,
+      "29,1": 21,
+      "29,2": 22,
+      "29,3": 22,
+      "29,4": 22,
+      "29,5": 22,
+      "29,6": 22,
+      "29,7": 21,
+      "29,8": 22,
+      "29,9": 22,
+      "29,10": 22,
+      "29,11": 22,
+      "29,12": 22,
+      "29,13": 22,
+      "29,14": 22,
+      "29,15": 22,
+      "29,16": 22,
+      "29,17": 21,
+      "29,18": 22,
+      "29,19": 22,
+      "29,20": 22,
+      "29,21": 22,
+      "29,22": 23,
+      "29,23": 22,
+      "29,24": 22,
+      "29,25": 22,
+      "29,26": 21,
+      "29,27": 22,
+      "29,28": 22,
+      "29,29": 22,
+      "29,30": 22,
+      "29,31": 22,
+      "29,32": 22,
+      "29,33": 24,
+      "29,34": 22,
+      "29,35": 22,
+      "29,36": 22,
+      "29,37": 22,
+      "29,38": 22,
+      "29,39": 22,
+      "29,40": 24,
+      "29,41": 22,
+      "29,42": 22,
+      "29,43": 22,
+      "29,44": 22,
+      "29,45": 22,
+      "29,46": 22,
+      "31,1": 25,
+      "31,2": 0,
+      "31,3": 0,
+      "31,4": 25,
+      "31,5": 0,
+      "31,6": 0,
+      "31,7": 0,
+      "31,8": 25,
+      "31,9": 0,
+      "31,10": 0,
+      "31,11": 0
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "Spans": [
+    "14,8,1,3",
+    "5,31,1,12",
+    "5,43,1,2",
+    "7,43,1,2",
+    "5,8,1,14",
+    "7,8,1,14",
+    "9,8,1,14",
+    "9,31,1,14",
+    "11,31,1,14",
+    "13,31,1,14",
+    "7,31,1,12",
+    "11,8,1,14",
+    "13,8,1,14",
+    "16,1,1,9",
+    "29,1,1,6",
+    "29,7,1,10",
+    "29,17,1,5",
+    "29,22,1,4",
+    "29,26,1,7",
+    "29,33,1,7",
+    "29,40,1,7",
+    "31,1,1,3",
+    "31,4,1,4",
+    "31,8,1,4",
+    "19,1,1,6",
+    "19,7,1,10",
+    "19,17,1,5",
+    "19,22,1,4",
+    "19,26,1,7",
+    "19,33,1,7",
+    "19,40,1,7",
+    "1,1,2,5",
+    "20,1,9,46",
+    "18,1,1,6",
+    "18,7,1,10",
+    "18,17,1,5",
+    "18,22,1,4",
+    "18,26,1,7",
+    "18,33,1,7",
+    "18,40,1,7"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "MasterPageName": "마스터 페이지2",
+    "AuthorizeInfo": {
+      "VisitMode": 2
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "RelatedDataTableName": "견적상세자료"
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}//ya+MbXNnxhUYC1zPKR6bWVoZou4mrsO+Kqcl2hhABwwmW4LBzPnUi3YmJn8q9N3X7aeYTbhBtyvtyLxvvfMcHlhqxSZGdm0mkA4lOpPxbqCmA9cRp3RxobLewvYi12Mb+7NWr1D/Zshjvups/dEDb8IbswNeVCh4UzYP0o4MDRi7zZ0VFXme/pE+8UTzDyK52X5r/d8WUhIWlw6zFSp1NaDdeyKO5Y3p9OIXirh3CvUCa+ehyTLcEpYzQPPE9uEDL4gGScootv3h6m9esn1sqjwc5+XIH1ikVlJe0op2QJbpjj/kT6Y2qJj/lsdqu1GaZTHKFnnRRxdoOlXXorgJzBQ1c/ZOZ2yVmrdVYyvTzLq7UmzXOX9P/QJAgth1lXjlSXQROqcj0zBN+Y30axLD1aoE9MKOso/pUGEA6Q2RP7xFwZwKepdukHZeGifO3W8WzlommoW60Wcm7xztiSgKEexGtPlrfoIqPTbNjMGhyhRSIvQZaeoDLEIhF6kJZ1ilH976vvjTzythZM39LeoEhxHrzrmTXivSmAKoXrk6SJW3QAGs29fK6kKZuwlzd4Uduj1B2T4Y77yfWw93bat/9/a/6MVJWt1lZV557N2iCrc6IHts6NzCAQbcIWU3cGHdfsZ03PIUblJxRqTVpjSfi+D3E757l+1P85pMx9Uhgpes3SiQcMImns+aXpSRH1uCn+gnjj/j+JH3m081IuXEKSmmQSSdf04O/DKk/pwX3NntSOP5nD28WMiTehH7mQV2FXI/bVf3jSrl+FDlA+i9REKzMqyj42k6SATqSUnoQQrXIq/d4NTr/DAg+4h1AUSh8vtqA1VxBodkM5jB1oh1d/FUDlRBTuC9+p2NkIf+qVOhtd/QRumZ6yCFrQSRI4spwp7aryKQFEI9pY9ZkcVecw==|920

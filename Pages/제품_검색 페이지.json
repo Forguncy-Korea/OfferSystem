@@ -1,0 +1,613 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "20": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 25.0
+        }
+      }
+    },
+    "InLogicalVisibleIndexes": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "Count": 22
+  },
+  "Cols": {
+    "Count": 20
+  },
+  "Values": {
+    "0,1": "품목 검색",
+    "0,14": " Search",
+    "9,6": "검색 후 이용 바랍니다.",
+    "20,1": "신규",
+    "20,5": "닫기"
+  },
+  "AttachInfos": {
+    "0,6": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "WaterMark": "입력 "
+      }
+    },
+    "0,14": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+            "ConditionAndCommandPairList": [
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "='제품_검색 페이지'!G1"
+                      }
+                    ]
+                  },
+                  "value": "%Null%",
+                  "Id": "51a44d11-e6c7-4e9d-adff-6ba488598073"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.QueryCommand, ServerDesignerCommon",
+                    "TargetTableName": "제품",
+                    "SqlCondition": {
+                      "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                      "CompareType": 1,
+                      "ColumnBindingInfo": {
+                        "TableName": "제품",
+                        "ColumnName": "ID"
+                      },
+                      "Value": "%Null%",
+                      "Id": "879e784a-78fc-44ae-963c-67a0db8a92f9"
+                    },
+                    "Params": [],
+                    "ID": "312f2d88df004397941ecff42bc94b8d"
+                  }
+                ],
+                "ID": "143c1281-ea23-41b3-8024-c17aaba8fbbe"
+              },
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "='제품_검색 페이지'!G1"
+                      }
+                    ]
+                  },
+                  "value": "%Null%",
+                  "compareType": 1,
+                  "Id": "1f1a6e7e-5dca-4a65-b051-b1dbccf746bd"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.QueryCommand, ServerDesignerCommon",
+                    "TargetTableName": "제품",
+                    "SqlCondition": {
+                      "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                      "Condition1": {
+                        "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                        "Condition1": {
+                          "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                          "ColumnBindingInfo": {
+                            "TableName": "제품",
+                            "ColumnName": "ID"
+                          },
+                          "Value": {
+                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                            "SerializeProperty": "='제품_검색 페이지'!C13"
+                          },
+                          "Id": "645c2cd5-4119-4d02-bdaa-d002a6936f88"
+                        },
+                        "Condition2": {
+                          "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                          "CompareType": 6,
+                          "ColumnBindingInfo": {
+                            "TableName": "제품",
+                            "ColumnName": "품목구분"
+                          },
+                          "Value": {
+                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                            "SerializeProperty": "='제품_검색 페이지'!E13"
+                          },
+                          "Id": "869ddaef-373c-493c-a3d3-2af2189e6994"
+                        },
+                        "RelationType": 1,
+                        "Id": "0dcc3abe-53e4-4026-9190-1143b4103595"
+                      },
+                      "Condition2": {
+                        "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                        "CompareType": 6,
+                        "ColumnBindingInfo": {
+                          "TableName": "제품",
+                          "ColumnName": "제품명"
+                        },
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "='제품_검색 페이지'!K13"
+                        },
+                        "Id": "335acdc5-ef01-49d1-8a4e-1e5f4244cd38"
+                      },
+                      "RelationType": 1,
+                      "Id": "3e930865-b784-40c4-ab72-85552b058f15"
+                    },
+                    "Params": [
+                      "=C13",
+                      "=E13",
+                      "=K13"
+                    ],
+                    "ID": "63071288bf9746c688baeb2a9b39ff3a"
+                  }
+                ],
+                "ID": "09dad786-8f95-4ef8-8237-bcaf916f0320"
+              }
+            ]
+          },
+          {
+            "$type": "Forguncy.Model.SetRowColumnLayoutCommand, ServerDesignerCommon",
+            "PropertyItemsList": [
+              {
+                "Location": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "='제품_검색 페이지'!12:19"
+                },
+                "Value": true
+              },
+              {
+                "Location": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "='제품_검색 페이지'!2:10"
+                },
+                "Value": false
+              }
+            ]
+          }
+        ],
+        "Text": " Search",
+        "TemplateKey": "_RS_Normal_Style2",
+        "Icon": {
+          "Name": "Application/046_search_7.svg",
+          "BuiltIn": true,
+          "Color": "Background 1",
+          "UseCellTypeForeColor": true
+        }
+      }
+    },
+    "11,1": {
+      "ListViewInfo": {
+        "ShowColumnHeaderInDesigner": true,
+        "TableName": "제품",
+        "RowIndex": 11,
+        "ColumnIndex": 1,
+        "ColumnCount": 18,
+        "RowCount": 8,
+        "ColumnOperation": 2,
+        "ShowGridLine": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "Name": "리스트뷰1",
+        "TopCondition": null,
+        "ListViewStyleName": "_RS_Medium2"
+      }
+    },
+    "12,2": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+            "PropertyItemsList": [
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "='제품_검색 페이지'!G1"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "='제품_검색 페이지'!C13"
+                }
+              }
+            ]
+          },
+          {
+            "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon",
+            "PassValueBack": true,
+            "ReloadData": true,
+            "PassQueryCondition": true
+          }
+        ],
+        "ClickMode": 1
+      },
+      "BindingInfo": {
+        "TableName": "제품",
+        "ColumnName": "ID"
+      }
+    },
+    "12,4": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+            "PropertyItemsList": [
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "='제품_검색 페이지'!G1"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "='제품_검색 페이지'!C13"
+                }
+              }
+            ]
+          },
+          {
+            "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon",
+            "PassValueBack": true,
+            "ReloadData": true,
+            "PassQueryCondition": true
+          }
+        ],
+        "ClickMode": 1
+      },
+      "BindingInfo": {
+        "TableName": "제품",
+        "ColumnName": "품목코드"
+      }
+    },
+    "12,10": {
+      "BindingInfo": {
+        "TableName": "제품",
+        "ColumnName": "제품명"
+      }
+    },
+    "20,1": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "NavigateType": "back",
+            "PassValues": []
+          }
+        ],
+        "Text": "신규",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "20,5": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon"
+          }
+        ],
+        "Text": "닫기",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontWeight": 0
+      },
+      {
+        "Formatter": 1
+      },
+      {
+        "HorizontalAlignment": 2
+      },
+      {
+        "FontFamily": 3,
+        "Foreground": 4,
+        "Formatter": 5
+      },
+      {
+        "BorderTop": 0,
+        "BorderLeft": 0
+      },
+      {
+        "BorderTop": 0
+      },
+      {
+        "FontFamily": 3,
+        "BorderTop": 0
+      },
+      {
+        "BorderTop": 0,
+        "BorderRight": 0
+      },
+      {
+        "BorderLeft": 0
+      },
+      {
+        "Foreground": 7,
+        "Underline": true
+      },
+      {
+        "FontFamily": 3,
+        "Foreground": 7,
+        "Underline": true
+      },
+      {
+        "FontFamily": 3
+      },
+      {
+        "BorderRight": 0
+      },
+      {
+        "BorderBottom": 0,
+        "BorderLeft": 0
+      },
+      {
+        "BorderBottom": 0
+      },
+      {
+        "BorderBottom": 0,
+        "BorderRight": 0
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Bold",
+        "@",
+        "Left",
+        "Body",
+        "Text 1 50",
+        "[AUTO]General",
+        "DarkGray",
+        "Blue"
+      ],
+      "Borders": [
+        {
+          "Color": 6
+        }
+      ]
+    },
+    "CellStyles": {
+      "0,1": 0,
+      "0,6": 1,
+      "0,14": 2,
+      "1,1": 0,
+      "1,6": 1,
+      "1,7": 1,
+      "1,8": 1,
+      "1,9": 1,
+      "1,10": 1,
+      "1,11": 1,
+      "1,12": 1,
+      "1,14": 2,
+      "1,15": 2,
+      "1,16": 2,
+      "1,17": 2,
+      "1,18": 2,
+      "2,1": 0,
+      "2,6": 1,
+      "2,7": 1,
+      "2,8": 1,
+      "2,9": 1,
+      "2,10": 1,
+      "2,11": 1,
+      "2,12": 1,
+      "2,14": 2,
+      "2,15": 2,
+      "2,16": 2,
+      "2,17": 2,
+      "2,18": 2,
+      "3,1": 0,
+      "3,6": 1,
+      "3,7": 1,
+      "3,8": 1,
+      "3,9": 1,
+      "3,10": 1,
+      "3,11": 1,
+      "3,12": 1,
+      "3,14": 2,
+      "3,15": 2,
+      "3,16": 2,
+      "3,17": 2,
+      "3,18": 2,
+      "4,1": 0,
+      "4,6": 1,
+      "4,7": 1,
+      "4,8": 1,
+      "4,9": 1,
+      "4,10": 1,
+      "4,11": 1,
+      "4,12": 1,
+      "4,14": 2,
+      "4,15": 2,
+      "4,16": 2,
+      "4,17": 2,
+      "4,18": 2,
+      "5,1": 0,
+      "5,6": 1,
+      "5,7": 1,
+      "5,8": 1,
+      "5,9": 1,
+      "5,10": 1,
+      "5,11": 1,
+      "5,12": 1,
+      "5,14": 2,
+      "5,15": 2,
+      "5,16": 2,
+      "5,17": 2,
+      "5,18": 2,
+      "6,1": 0,
+      "6,6": 1,
+      "6,7": 1,
+      "6,8": 1,
+      "6,9": 1,
+      "6,10": 1,
+      "6,11": 1,
+      "6,12": 1,
+      "6,14": 2,
+      "6,15": 2,
+      "6,16": 2,
+      "6,17": 2,
+      "6,18": 2,
+      "7,1": 0,
+      "7,6": 1,
+      "7,7": 1,
+      "7,8": 1,
+      "7,9": 1,
+      "7,10": 1,
+      "7,11": 1,
+      "7,12": 1,
+      "7,14": 2,
+      "7,15": 2,
+      "7,16": 2,
+      "7,17": 2,
+      "7,18": 2,
+      "8,1": 0,
+      "8,6": 1,
+      "8,7": 1,
+      "8,8": 1,
+      "8,9": 1,
+      "8,10": 1,
+      "8,11": 1,
+      "8,12": 1,
+      "8,14": 2,
+      "8,15": 2,
+      "8,16": 2,
+      "8,17": 2,
+      "8,18": 2,
+      "9,6": 3,
+      "10,6": 3,
+      "11,1": 4,
+      "11,2": 5,
+      "11,3": 5,
+      "11,4": 6,
+      "11,5": 5,
+      "11,6": 5,
+      "11,7": 5,
+      "11,8": 5,
+      "11,9": 5,
+      "11,10": 6,
+      "11,11": 5,
+      "11,12": 5,
+      "11,13": 5,
+      "11,14": 5,
+      "11,15": 5,
+      "11,16": 5,
+      "11,17": 5,
+      "11,18": 7,
+      "12,1": 8,
+      "12,2": 9,
+      "12,4": 10,
+      "12,10": 11,
+      "12,18": 12,
+      "13,1": 8,
+      "13,18": 12,
+      "14,1": 8,
+      "14,18": 12,
+      "15,1": 8,
+      "15,18": 12,
+      "16,1": 8,
+      "16,18": 12,
+      "17,1": 8,
+      "17,18": 12,
+      "18,1": 13,
+      "18,2": 14,
+      "18,3": 14,
+      "18,4": 14,
+      "18,5": 14,
+      "18,6": 14,
+      "18,7": 14,
+      "18,8": 14,
+      "18,9": 14,
+      "18,10": 14,
+      "18,11": 14,
+      "18,12": 14,
+      "18,13": 14,
+      "18,14": 14,
+      "18,15": 14,
+      "18,16": 14,
+      "18,17": 14,
+      "18,18": 15
+    },
+    "SheetStyle": {
+      "FontFamily": 3
+    }
+  },
+  "Spans": [
+    "0,6,1,7",
+    "0,14,1,5",
+    "20,1,1,3",
+    "20,5,1,3",
+    "13,1,6,18",
+    "12,10,1,9",
+    "12,2,1,2",
+    "12,4,1,6",
+    "11,2,1,2",
+    "11,4,1,6",
+    "11,10,1,9"
+  ],
+  "Pictures": [
+    {
+      "ForguncyPictureName": "1490793870-user-interface25_82355.png",
+      "Stretch": 2,
+      "ForguncyPictureSourceType": 0,
+      "Name": "bf51ee89-c5d4-4d4e-82e9-d8a29ef416da.png",
+      "Location": "89,24",
+      "Size": "215,174"
+    }
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "PageLoadedCommandList": [
+      {
+        "$type": "Forguncy.Model.SetRowColumnLayoutCommand, ServerDesignerCommon",
+        "PropertyItemsList": [
+          {
+            "Location": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "='제품_검색 페이지'!12:19"
+            },
+            "Value": false
+          },
+          {
+            "Location": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "='제품_검색 페이지'!2:11"
+            },
+            "Value": true
+          }
+        ]
+      }
+    ],
+    "AuthorizeInfo": {
+      "VisitMode": 2
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}//TV686DxxygLdyCbOZ36fHry1PEJB9EoDLzcETnuTlE+rGDRPm7/psGPd6zKUlf445XAHtX6WWcYt7LFk4Usw/bYD3j2ULeoQCLe8AzUFRezrrlN+tPsKRdmFmANDAoNufP6GEcA5bFKf0j8NkRziLTYI5sZvfNzwyG8HF698WPD9sVzeU2793Yyx0l2rkeNlV9je3cxQPX9QUPT4de051DnU0ls6ChB+pLHrTNHykblsPmjBbMjnHeeVa95jw0/RVTZP3WSp9IC2O1TEP53K0pZVe3G9A3luNEMDE7+RMku8SieawEMF0eAw/Mom0TU/gMsSyI65FyF/GGuIJiVz15aZEMwMRMtJLLQFtCA+C25H405AkMKWPTAw3zr3DM0gYpfUocY4CIZdf8Jf2rwJ2fPDNZRuSaQatO6nxAhixbqc6zwLNRi6iCzREYwK34b2eJGTK1k8NAoZ/P7tT5bxceSPbTVqMYiPVbcAFPxXt0IlC6doC7hkwtCbwpLDLwRnTMmPKG65SPgNQ9DCPIUIq74oto9r5QrMSf7a1DnRbyEZdZFt6QUkcQ3ctztq8p4xPeqPcj5ux1YyKQzJOzPt0YPVnlqa6v/2ASLzJokmY/BDBZTkwvxtdadS38pOgavAy3FvyJHAvWHvR0qAuVgctghFTdkSYn13ELPq3KQ7ZRA5hri6G3OwtmcEjCrWifNYbyn4C64l6cRrg3NIu76gwcTSJOAo1vIN4zMmJa3I4BcSYYGtAK9urDz/jFfhQ/plIbag4mGvRANFAcf69AKFxK4t9o8KBNHa+MMbHVuIce+gCaIJ5H40r6W8pwvTY4xDSV4RuTB2m0IaV/niul9SKGzd8Mm0WzdSipZ/+SxygcXdTbVYoFWvan7m07ua2++ZV/oDERohyzMA0QEDejQVeg==|920

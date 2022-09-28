@@ -1,0 +1,420 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "IsHidden": true
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 8.0
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 8.0
+        }
+      },
+      "8": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "9": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 8.0
+        }
+      },
+      "10": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "14": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 25.0
+        }
+      }
+    },
+    "InLogicalVisibleIndexes": [
+      4
+    ],
+    "Count": 20
+  },
+  "Cols": {
+    "Count": 30
+  },
+  "Values": {
+    "0,0": "창고 등록",
+    "4,1": "창고코드",
+    "6,1": "창고명",
+    "8,1": "주소",
+    "10,1": "구분",
+    "14,1": "저장",
+    "14,5": "닫기"
+  },
+  "AttachInfos": {
+    "4,7": {
+      "BindingInfo": {
+        "TableName": "출하창고",
+        "ColumnName": "ID"
+      }
+    },
+    "6,7": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      },
+      "BindingInfo": {
+        "TableName": "출하창고",
+        "ColumnName": "창고명"
+      }
+    },
+    "8,7": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      },
+      "BindingInfo": {
+        "TableName": "출하창고",
+        "ColumnName": "주소"
+      }
+    },
+    "10,7": {
+      "CellType": {
+        "$type": "Forguncy.RadioGroupCellType, ServerDesignerCommon",
+        "NoneItemText": "<없음>",
+        "Style": 1,
+        "Items": [
+          {
+            "Value": "창고",
+            "DisplayValue": "창고"
+          },
+          {
+            "Value": "공장",
+            "DisplayValue": "공장"
+          },
+          {
+            "Value": "공장(외주비관리)",
+            "DisplayValue": "공장(외주비관리)"
+          }
+        ]
+      },
+      "BindingInfo": {
+        "TableName": "출하창고",
+        "ColumnName": "구분"
+      }
+    },
+    "14,1": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+            "ConditionAndCommandPairList": [
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "='창고 등록 페이지'!B15"
+                      }
+                    ]
+                  },
+                  "value": "저장",
+                  "Id": "d370f30f-a195-406f-bf4d-074b6b3915d3"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                    "TableName": "출하창고",
+                    "UpdateType": "add",
+                    "ShowConfirm": false,
+                    "ConfirmText": "데이터를 추가하시겠습니까?",
+                    "UpdateValues": [
+                      {
+                        "ColumnName": "사용",
+                        "Value": "YES"
+                      }
+                    ]
+                  }
+                ],
+                "ID": "e9eeaa38-7c7b-401c-90ac-8a9340bacce8"
+              },
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "='창고 등록 페이지'!B15"
+                      }
+                    ]
+                  },
+                  "value": "수정",
+                  "Id": "6bee720c-8dc2-4d3b-9fc8-e7112703d35c"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                    "TableName": "출하창고",
+                    "ShowConfirm": false,
+                    "ConfirmText": "데이터를 업데이트하시겠습니까?",
+                    "UpdateValues": []
+                  }
+                ],
+                "ID": "f59efad3-a88d-4ea3-982a-4f62edf635c5"
+              }
+            ]
+          },
+          {
+            "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon",
+            "PassValueBack": true,
+            "ReloadData": true,
+            "PassQueryCondition": true
+          }
+        ],
+        "Text": "저장",
+        "TemplateKey": "_RS_Shadow_Style2"
+      }
+    },
+    "14,5": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon"
+          }
+        ],
+        "Text": "닫기",
+        "TemplateKey": "스타일1"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "FontSize": 18.666666666666664,
+        "FontWeight": 1,
+        "Formatter": 2
+      },
+      {
+        "FontFamily": 3
+      },
+      {
+        "FontFamily": 3,
+        "FontSize": 18.666666666666664,
+        "FontWeight": 1,
+        "HorizontalAlignment": 4
+      },
+      {
+        "FontFamily": 3,
+        "FontSize": 14.666666666666666,
+        "FontWeight": 1,
+        "Formatter": 2,
+        "HorizontalAlignment": 5,
+        "VerticalAlignment": 6
+      },
+      {
+        "FontFamily": 3,
+        "Formatter": 2
+      },
+      {
+        "FontWeight": 1
+      },
+      {
+        "FontFamily": 3,
+        "Formatter": 7
+      },
+      {
+        "Background": 8
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "나눔스퀘어",
+        "Bold",
+        "[AUTO]General",
+        "Body",
+        "Center",
+        "Left",
+        "Top",
+        "@",
+        "Background 1 -5"
+      ]
+    },
+    "CellStyles": {
+      "0,0": 0,
+      "0,1": 1,
+      "0,2": 1,
+      "0,3": 1,
+      "0,4": 1,
+      "0,5": 1,
+      "0,6": 1,
+      "0,7": 1,
+      "0,8": 1,
+      "0,9": 1,
+      "0,10": 1,
+      "0,11": 1,
+      "0,12": 1,
+      "0,13": 1,
+      "0,14": 1,
+      "0,15": 1,
+      "0,16": 1,
+      "0,17": 1,
+      "0,18": 1,
+      "0,19": 1,
+      "0,20": 1,
+      "0,21": 1,
+      "0,22": 1,
+      "0,23": 1,
+      "0,24": 1,
+      "0,25": 1,
+      "0,26": 1,
+      "0,27": 1,
+      "0,28": 1,
+      "0,29": 1,
+      "1,0": 1,
+      "1,1": 1,
+      "1,2": 1,
+      "1,3": 1,
+      "1,4": 1,
+      "1,5": 2,
+      "1,6": 2,
+      "1,7": 2,
+      "1,8": 2,
+      "1,9": 2,
+      "1,10": 2,
+      "1,11": 2,
+      "1,12": 2,
+      "1,13": 2,
+      "1,14": 2,
+      "1,15": 2,
+      "1,16": 2,
+      "1,17": 2,
+      "1,18": 2,
+      "1,19": 2,
+      "1,20": 3,
+      "1,21": 3,
+      "1,22": 3,
+      "1,23": 3,
+      "1,24": 3,
+      "1,25": 3,
+      "1,26": 3,
+      "1,27": 3,
+      "1,28": 3,
+      "1,29": 3,
+      "2,0": 3,
+      "2,1": 3,
+      "2,2": 3,
+      "2,3": 3,
+      "2,4": 3,
+      "2,5": 3,
+      "2,6": 3,
+      "2,7": 3,
+      "2,8": 3,
+      "2,9": 3,
+      "2,10": 3,
+      "2,11": 3,
+      "2,12": 3,
+      "2,13": 3,
+      "2,14": 3,
+      "2,15": 3,
+      "2,16": 3,
+      "2,17": 3,
+      "2,18": 3,
+      "2,19": 3,
+      "2,20": 3,
+      "2,21": 3,
+      "2,22": 3,
+      "2,23": 3,
+      "2,24": 3,
+      "2,25": 3,
+      "2,26": 3,
+      "2,27": 3,
+      "2,28": 3,
+      "2,29": 3,
+      "4,1": 4,
+      "4,2": 1,
+      "4,6": 5,
+      "4,7": 1,
+      "5,1": 1,
+      "5,2": 1,
+      "6,1": 4,
+      "6,2": 1,
+      "6,6": 5,
+      "6,7": 6,
+      "7,1": 1,
+      "7,2": 1,
+      "8,1": 4,
+      "8,2": 1,
+      "8,6": 5,
+      "8,7": 6,
+      "14,1": 1,
+      "14,2": 1,
+      "14,3": 1,
+      "14,4": 1,
+      "14,5": 1,
+      "14,6": 1,
+      "14,7": 1,
+      "14,8": 1
+    },
+    "RowStyles": {
+      "3": 7,
+      "4": 7,
+      "5": 7,
+      "6": 7,
+      "7": 7,
+      "8": 7,
+      "9": 7,
+      "10": 7,
+      "11": 7
+    },
+    "SheetStyle": {
+      "FontFamily": 3
+    }
+  },
+  "Spans": [
+    "14,1,1,4",
+    "4,7,1,21",
+    "6,7,1,21",
+    "8,7,1,21",
+    "10,7,1,21",
+    "14,5,1,4",
+    "0,0,2,5"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "ShouldCheckDirty": true,
+    "AuthorizeInfo": {
+      "VisitMode": 2
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}//VGE4f5rvkO0XIzITGJHMfu53FNiiyiDiYqd6/HWjtndHZ2EyFaXv6PrXGqWy9JZGfPYHlOtej6RTFe11fuT4HQxS1/VZKhb1pr6f5kEWJxGzs6H9Phrfyh//kFi5qXMrsNGRgcHUSo5my8+YZd/cs1rUWvadF4ztblzpuF4/IJTigRjln/7LNOd6oj9P9fhvEFqtazdcj55il8QHeUvrVGEZFnWVgJA2Sor06FodHAr0OBFYCwNVMuLNHwcBAB8iaIWoT8kmWnTtUsi6UKx3lda5qyq3eG0HlVy/bqoLpf14FkO+vsyfas+xs+jbZFKOKptT8E/4h9lHskSwgxyo66HtSVE3piDhuxTv6ItxefV3o4pLgZSMdkIkUZ5XZroO64+ad4+nDiJ5576F0vM0XEGSPHXtOhlKUdRMMP7GyAfurWZqw3ehEoS6EeUGKT30Twk0/0DAGb80YAq3Ly1+8MxY1fQhk9FSBzWvCN6VNescPEbXyGnRbWJRalklmkT+5503G4j1heH9JRgTDCQvxkarpX8FaKDLV1DhynUWpI/XUcITcDEWzmRHnP8SkWBK+zBYs+anY2QPXgdMQYQt8fEmu1yIOu+HML9hEWzy+ZnlBVYZcTpXtBKmOdajs4Dbs29vpl/m1gETuRhS9ycCYVfvzoLd+kWZTpX7SRaz9QFrho2gjkc12ediN5sPz2bljEY0ntjn3rpzODxFusmQ5ID8qsTbRzfGHeNSCsXPBkzqKR/zasxfW73v9LnYiKHp0smSx5l7YeRjJFwskGyOXnqJwND1X58T/MnENUTKPFYgM0mmTyCN+9/XzKXoHg8gP3CGvdh2pcEi4DGTQSnoLCA8bTxYha0OcPk3/5nWSUgAvdiLSBStw6Ej+wSO5K2l+PcwpTRJzgXqzfXXLFOS0Q==|920

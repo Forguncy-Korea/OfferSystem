@@ -1,0 +1,192 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "16": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "18": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      }
+    },
+    "Count": 26
+  },
+  "Cols": {
+    "Count": 47
+  },
+  "Values": {
+    "5,11": "사용자 정보 편집",
+    "12,15": "계정 이미지",
+    "16,15": "표시 이름",
+    "16,16": "*",
+    "18,15": "이메일",
+    "18,16": "*",
+    "21,24": "저장",
+    "21,29": "취소"
+  },
+  "AttachInfos": {
+    "9,17": {
+      "CellType": {
+        "$type": "Forguncy.UploadImageCellType, ServerDesignerCommon",
+        "TemplateKey": "_RS_Shadow_EmptyText",
+        "UploadImageLimit": {
+          "IsCompressImage": true,
+          "MaxWidth": 300.0,
+          "MaxHeight": 300.0
+        },
+        "ForguncyAttribute": "ChangeProfile_Picture"
+      }
+    },
+    "16,17": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "ForguncyAttribute": "ChangeProfile_FullName"
+      },
+      "DataValidationInfo": {
+        "IgnoreBlank": false
+      }
+    },
+    "18,17": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "ForguncyAttribute": "ChangeProfile_Email"
+      },
+      "DataValidationInfo": {
+        "IgnoreBlank": false
+      }
+    },
+    "21,24": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "Text": "저장",
+        "AutoExecute": true,
+        "TemplateKey": "_RS_Normal_Style2",
+        "ForguncyAttribute": "ChangeProfile_Button"
+      }
+    },
+    "21,29": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "NavigateType": "back",
+            "PassValues": []
+          }
+        ],
+        "Text": "취소"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontSize": 37.333332061767578,
+        "Foreground": 0
+      },
+      {
+        "FontSize": 14.0,
+        "Foreground": 1,
+        "HorizontalAlignment": 2,
+        "Underline": false,
+        "Strikethrough": false
+      },
+      {
+        "Foreground": 3,
+        "VerticalAlignment": 4
+      },
+      {
+        "Formatter": 5
+      },
+      {
+        "FontWeight": 6
+      },
+      {
+        "FontWeight": 6,
+        "Foreground": 7,
+        "HorizontalAlignment": 8
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Text 1 25",
+        "Text 1 35",
+        "Right",
+        "#FFFF0000",
+        "Top",
+        "@",
+        "Bold",
+        "Accent 1 0",
+        "Center",
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "5,11": 0,
+      "12,15": 1,
+      "16,15": 1,
+      "16,16": 2,
+      "16,17": 3,
+      "18,15": 1,
+      "18,16": 2,
+      "18,17": 3,
+      "21,24": 4,
+      "21,29": 5
+    },
+    "SheetStyle": {
+      "FontFamily": 9,
+      "Underline": false,
+      "Strikethrough": false
+    }
+  },
+  "Spans": [
+    "5,11,3,18",
+    "9,17,6,16",
+    "16,17,1,16",
+    "18,17,1,16",
+    "21,24,2,5",
+    "21,29,2,5"
+  ],
+  "BackgroundPictures": [
+    {
+      "StyleInfo": {
+        "Fill": "Background 1 -5",
+        "Stroke": "Background 1 -25",
+        "StrokeThickness": 1.0
+      },
+      "IsAutomaticStroke": false,
+      "IsAutomaticFill": false,
+      "Name": "5eb739c3-15b6-4d8f-9c34-066f9a907711.png",
+      "Location": "200,80",
+      "Size": "540,440"
+    }
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "MasterPageName": "FGC_유저마스터페이지",
+    "MobilePageName": "FGC_사용자정보편집_모바일",
+    "Title": "사용자 정보 편집",
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "IsBuiltInPage": true
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}//+f/9wRnImJ9YPfNpA5SG8JWwIL3mHs4TCSTpqvLeup2N0SW/Z6sCyyzXfPhodzJqsfoIFGEQK0fNsp/ICenVy0nrVuODF/g3rXaNO6OluJDu00blfuIYgfzdWNfLN3sJPMWG+MXG2BCDOz9VG0h3qDj9/YcdGY8+yJGqV43s2f9RG6K3si5UPWAzyEnBJ/LtadhISmoecGmdq8c6MOf9sqSQ2Cu4BziLpbpyBhmQJpWjr+HPkzywEvJ6GknGt6hvGveRRUFVfQLVLYYQPRjusUw0pK/imLzhqgxP1VajbM27n2cV8J9vP1hucfOmc6BDhlQDVZy59HDgjDTRbwovWFDTL+KTo/eLH3UsjhAnQqOXN+gzqHHWflEwwjFhR6y5qcHTX76H8bsLdJEMbyvaUONgavAbN5bIdmM6NMWKU6YXv4v4mim0nXBThND5AeZAlxDs7I6xrhELeLWGRTNWXkC2FwBwnZVcEYS1SLL5Xg1IWrBfaG5sJapz10tdIhO4o/ZVp/DR3v6gvS6PvcS9m5dAPGiyVkMCl2DKnl/jcwLbEUw8Ay8b2xe5cAkVbGEIuEQWtOcZG3gmM8DskTqwk/qnlvx98Zui0o/eMY851um9TrxXhCUwY9upySEJ1eixGy/yAGfL5RMpnCW7wBYYhj1IDunOQDwYP6w6+rSGsDNDJJhiNThFtYHcDnLGoKkXH2dhx48ra6nSo9GuVaXof1dAiP3frQtiU5LmGMGqNeyzBS5OMR/cEL9RrH+XApggdOgCmKfaPJzlAhUTjsIekTsRcuszpQc3oFV87uXjy4fZRriK7uXN9OXyCoLPt10Ls9cxY0seB4OHNz4zbAnU5/IJ37Mt4DIdfvO5lPLswg3YhjQx8qGzOVbUA6Sxqc/8ldg82HaWGHCtkNfWDeKJuw==|920
