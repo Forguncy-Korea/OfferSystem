@@ -122,16 +122,7 @@
   },
   {
     "ModuleName": "PCPage/메인화면",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "DESKTOP-LV3CTK1\\hdg89",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2022-09-29T15:40:19.6577041+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\메인화면.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/견적서페이지",
