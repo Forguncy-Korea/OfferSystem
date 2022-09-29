@@ -76,99 +76,311 @@
   },
   {
     "ModuleName": "Pages/기본 제공 페이지",
-    "ModuleType": 6
+    "State": 1,
+    "LockedBy": {
+      "UserName": "DESKTOP-SFEU14D\\NamHee",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-09-29T15:36:15.4508858+09:00",
+    "ModuleType": 6,
+    "ToRemoveFiles": []
   },
   {
     "ModuleName": "PCPage/FGC_401_권한없음",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "DESKTOP-SFEU14D\\NamHee",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-09-29T15:36:15.4508858+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\기본 제공 페이지\\FGC_401_권한없음.json"
+    ]
   },
   {
     "ModuleName": "PCPage/FGC_비밀번호변경",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "DESKTOP-SFEU14D\\NamHee",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-09-29T15:36:15.4508858+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\기본 제공 페이지\\FGC_비밀번호변경.json"
+    ]
   },
   {
     "ModuleName": "PCPage/FGC_비밀번호분실",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "DESKTOP-SFEU14D\\NamHee",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-09-29T15:36:15.4508858+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\기본 제공 페이지\\FGC_비밀번호분실.json"
+    ]
   },
   {
     "ModuleName": "PCPage/FGC_이메일알림설정",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "DESKTOP-SFEU14D\\NamHee",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-09-29T15:36:15.4508858+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\기본 제공 페이지\\FGC_이메일알림설정.json"
+    ]
   },
   {
     "ModuleName": "PCPage/FGC_임시점검중",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "DESKTOP-SFEU14D\\NamHee",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-09-29T15:36:15.4508858+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\기본 제공 페이지\\FGC_임시점검중.json"
+    ]
   },
   {
     "ModuleName": "PCPage/FGC_2단계인증_인증코드",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "DESKTOP-SFEU14D\\NamHee",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-09-29T15:36:15.4508858+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\기본 제공 페이지\\FGC_2단계인증_인증코드.json"
+    ]
   },
   {
     "ModuleName": "PCPage/FGC_2단계인증_코드확인",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "DESKTOP-SFEU14D\\NamHee",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-09-29T15:36:15.4508858+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\기본 제공 페이지\\FGC_2단계인증_코드확인.json"
+    ]
   },
   {
     "ModuleName": "PCPage/FGC_사용자정보편집",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "DESKTOP-SFEU14D\\NamHee",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-09-29T15:36:15.4508858+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\기본 제공 페이지\\FGC_사용자정보편집.json"
+    ]
   },
   {
     "ModuleName": "PCPage/FGC_비밀번호재설정",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "DESKTOP-SFEU14D\\NamHee",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-09-29T15:36:15.4508858+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\기본 제공 페이지\\FGC_비밀번호재설정.json"
+    ]
   },
   {
     "ModuleName": "PCPage/FGC_비밀번호재설정링크보내기",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "DESKTOP-SFEU14D\\NamHee",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-09-29T15:36:15.4508858+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\기본 제공 페이지\\FGC_비밀번호재설정링크보내기.json"
+    ]
   },
   {
     "ModuleName": "PCPage/FGC_로그인",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "DESKTOP-SFEU14D\\NamHee",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-09-29T15:36:15.4508858+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\기본 제공 페이지\\FGC_로그인.json"
+    ]
   },
   {
     "ModuleName": "Pages/기본 제공 모바일 페이지",
-    "ModuleType": 6
+    "State": 1,
+    "LockedBy": {
+      "UserName": "DESKTOP-SFEU14D\\NamHee",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-09-29T15:36:15.4508858+09:00",
+    "ModuleType": 6,
+    "ToRemoveFiles": []
   },
   {
     "ModuleName": "MobilePage/FGC_401_권한없음_모바일",
-    "ModuleType": 2
+    "State": 1,
+    "LockedBy": {
+      "UserName": "DESKTOP-SFEU14D\\NamHee",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-09-29T15:36:15.4508858+09:00",
+    "ModuleType": 2,
+    "ToRemoveFiles": [
+      "Pages\\기본 제공 모바일 페이지\\FGC_401_권한없음_모바일.json"
+    ]
   },
   {
     "ModuleName": "MobilePage/FGC_비밀번호변경_모바일",
-    "ModuleType": 2
+    "State": 1,
+    "LockedBy": {
+      "UserName": "DESKTOP-SFEU14D\\NamHee",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-09-29T15:36:15.4508858+09:00",
+    "ModuleType": 2,
+    "ToRemoveFiles": [
+      "Pages\\기본 제공 모바일 페이지\\FGC_비밀번호변경_모바일.json"
+    ]
   },
   {
     "ModuleName": "MobilePage/FGC_비밀번호분실_모바일",
-    "ModuleType": 2
+    "State": 1,
+    "LockedBy": {
+      "UserName": "DESKTOP-SFEU14D\\NamHee",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-09-29T15:36:15.4508858+09:00",
+    "ModuleType": 2,
+    "ToRemoveFiles": [
+      "Pages\\기본 제공 모바일 페이지\\FGC_비밀번호분실_모바일.json"
+    ]
   },
   {
     "ModuleName": "MobilePage/FGC_이메일알림설정_모바일",
-    "ModuleType": 2
+    "State": 1,
+    "LockedBy": {
+      "UserName": "DESKTOP-SFEU14D\\NamHee",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-09-29T15:36:15.4508858+09:00",
+    "ModuleType": 2,
+    "ToRemoveFiles": [
+      "Pages\\기본 제공 모바일 페이지\\FGC_이메일알림설정_모바일.json"
+    ]
   },
   {
     "ModuleName": "MobilePage/FGC_임시점검중_모바일",
-    "ModuleType": 2
+    "State": 1,
+    "LockedBy": {
+      "UserName": "DESKTOP-SFEU14D\\NamHee",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-09-29T15:36:15.4508858+09:00",
+    "ModuleType": 2,
+    "ToRemoveFiles": [
+      "Pages\\기본 제공 모바일 페이지\\FGC_임시점검중_모바일.json"
+    ]
   },
   {
     "ModuleName": "MobilePage/FGC_2단계인증_인증코드_모바일",
-    "ModuleType": 2
+    "State": 1,
+    "LockedBy": {
+      "UserName": "DESKTOP-SFEU14D\\NamHee",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-09-29T15:36:15.4508858+09:00",
+    "ModuleType": 2,
+    "ToRemoveFiles": [
+      "Pages\\기본 제공 모바일 페이지\\FGC_2단계인증_인증코드_모바일.json"
+    ]
   },
   {
     "ModuleName": "MobilePage/FGC_2단계인증_코드확인_모바일",
-    "ModuleType": 2
+    "State": 1,
+    "LockedBy": {
+      "UserName": "DESKTOP-SFEU14D\\NamHee",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-09-29T15:36:15.4508858+09:00",
+    "ModuleType": 2,
+    "ToRemoveFiles": [
+      "Pages\\기본 제공 모바일 페이지\\FGC_2단계인증_코드확인_모바일.json"
+    ]
   },
   {
     "ModuleName": "MobilePage/FGC_사용자정보편집_모바일",
-    "ModuleType": 2
+    "State": 1,
+    "LockedBy": {
+      "UserName": "DESKTOP-SFEU14D\\NamHee",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-09-29T15:36:15.4508858+09:00",
+    "ModuleType": 2,
+    "ToRemoveFiles": [
+      "Pages\\기본 제공 모바일 페이지\\FGC_사용자정보편집_모바일.json"
+    ]
   },
   {
     "ModuleName": "MobilePage/FGC_비밀번호재설정링크보내기_모바일",
-    "ModuleType": 2
+    "State": 1,
+    "LockedBy": {
+      "UserName": "DESKTOP-SFEU14D\\NamHee",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-09-29T15:36:15.4508858+09:00",
+    "ModuleType": 2,
+    "ToRemoveFiles": [
+      "Pages\\기본 제공 모바일 페이지\\FGC_비밀번호재설정링크보내기_모바일.json"
+    ]
   },
   {
     "ModuleName": "MobilePage/FGC_비밀번호재설정_모바일",
-    "ModuleType": 2
+    "State": 1,
+    "LockedBy": {
+      "UserName": "DESKTOP-SFEU14D\\NamHee",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-09-29T15:36:15.4508858+09:00",
+    "ModuleType": 2,
+    "ToRemoveFiles": [
+      "Pages\\기본 제공 모바일 페이지\\FGC_비밀번호재설정_모바일.json"
+    ]
   },
   {
     "ModuleName": "MobilePage/FGC_로그인_모바일",
-    "ModuleType": 2
+    "State": 1,
+    "LockedBy": {
+      "UserName": "DESKTOP-SFEU14D\\NamHee",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-09-29T15:36:15.4508858+09:00",
+    "ModuleType": 2,
+    "ToRemoveFiles": [
+      "Pages\\기본 제공 모바일 페이지\\FGC_로그인_모바일.json"
+    ]
   },
   {
     "ModuleName": "PCPage/메인화면",
@@ -177,7 +389,7 @@
       "UserName": "DESKTOP-SFEU14D\\NamHee",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2022-09-28T15:55:41.6402313+09:00",
+    "LockDateTime": "2022-09-29T15:36:15.4508858+09:00",
     "ModuleType": 1,
     "ToRemoveFiles": [
       "Pages\\메인화면.json"
@@ -185,7 +397,16 @@
   },
   {
     "ModuleName": "PCPage/견적서페이지",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "DESKTOP-SFEU14D\\NamHee",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-09-29T15:36:15.4519279+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\견적서페이지.json"
+    ]
   },
   {
     "ModuleName": "PCPage/견적데이터목록페이지",
@@ -194,7 +415,7 @@
       "UserName": "DESKTOP-SFEU14D\\NamHee",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2022-09-29T13:20:57.0773138+09:00",
+    "LockDateTime": "2022-09-29T15:36:15.4524293+09:00",
     "ModuleType": 1,
     "ToRemoveFiles": [
       "Pages\\견적데이터목록페이지.json"
@@ -202,11 +423,29 @@
   },
   {
     "ModuleName": "PCPage/거래처등록페이지",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "DESKTOP-SFEU14D\\NamHee",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-09-29T15:36:15.4524293+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\거래처등록페이지.json"
+    ]
   },
   {
     "ModuleName": "PCPage/견적서입력페이지",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "DESKTOP-SFEU14D\\NamHee",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-09-29T15:36:15.4508858+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\견적서입력페이지.json"
+    ]
   },
   {
     "ModuleName": "PCPage/거래처목록페이지",
@@ -215,7 +454,7 @@
       "UserName": "DESKTOP-SFEU14D\\NamHee",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2022-09-29T13:22:25.3912077+09:00",
+    "LockDateTime": "2022-09-29T15:36:15.4524293+09:00",
     "ModuleType": 1,
     "ToRemoveFiles": [
       "Pages\\거래처목록페이지.json"
@@ -223,7 +462,16 @@
   },
   {
     "ModuleName": "PCPage/제품_검색 페이지",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "DESKTOP-SFEU14D\\NamHee",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-09-29T15:36:15.4524293+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\제품_검색 페이지.json"
+    ]
   },
   {
     "ModuleName": "PCPage/품목 등록 페이지",
@@ -245,7 +493,7 @@
       "UserName": "DESKTOP-SFEU14D\\NamHee",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2022-09-29T13:29:33.3499314+09:00",
+    "LockDateTime": "2022-09-29T15:36:15.4524293+09:00",
     "ModuleType": 1,
     "ToRemoveFiles": [
       "Pages\\제품_목록 페이지.json"
@@ -253,11 +501,29 @@
   },
   {
     "ModuleName": "PCPage/제품바코드페이지",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "DESKTOP-SFEU14D\\NamHee",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-09-29T15:36:15.4524293+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\제품바코드페이지.json"
+    ]
   },
   {
     "ModuleName": "PCPage/견적서저장확인페이지",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "DESKTOP-SFEU14D\\NamHee",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-09-29T15:36:15.4508858+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\견적서저장확인페이지.json"
+    ]
   },
   {
     "ModuleName": "PCPage/견적서수정페이지",
@@ -274,7 +540,16 @@
   },
   {
     "ModuleName": "PCPage/거래처검색페이지",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "DESKTOP-SFEU14D\\NamHee",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-09-29T15:36:15.4524293+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\거래처검색페이지.json"
+    ]
   },
   {
     "ModuleName": "PCPage/출하창고검색페이지",
@@ -283,7 +558,7 @@
       "UserName": "DESKTOP-SFEU14D\\NamHee",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2022-09-29T13:30:58.016259+09:00",
+    "LockDateTime": "2022-09-29T15:36:15.4524293+09:00",
     "ModuleType": 1,
     "ToRemoveFiles": [
       "Pages\\출하창고검색페이지.json"
@@ -309,7 +584,7 @@
       "UserName": "DESKTOP-SFEU14D\\NamHee",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2022-09-29T13:30:58.016259+09:00",
+    "LockDateTime": "2022-09-29T15:36:15.4524293+09:00",
     "ModuleType": 1,
     "ToRemoveFiles": [
       "Pages\\출하창고_목록 페이지.json"
@@ -322,7 +597,7 @@
       "UserName": "DESKTOP-SFEU14D\\NamHee",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2022-09-29T13:32:39.2384217+09:00",
+    "LockDateTime": "2022-09-29T15:36:15.4535051+09:00",
     "ModuleType": 1,
     "ToRemoveFiles": [
       "Pages\\판매입력페이지.json"
@@ -330,7 +605,16 @@
   },
   {
     "ModuleName": "PCPage/판매조회페이지",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "DESKTOP-SFEU14D\\NamHee",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-09-29T15:36:15.4535051+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\판매조회페이지.json"
+    ]
   },
   {
     "ModuleName": "PCPage/견적서조회",
@@ -347,7 +631,16 @@
   },
   {
     "ModuleName": "PCPage/거래명세서",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "DESKTOP-SFEU14D\\NamHee",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-09-29T15:36:15.4544349+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\거래명세서.json"
+    ]
   },
   {
     "ModuleName": "MasterPCPage/FGC_유저마스터페이지",
@@ -425,7 +718,7 @@
       "UserName": "DESKTOP-SFEU14D\\NamHee",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2022-09-29T13:29:33.3499314+09:00",
+    "LockDateTime": "2022-09-29T15:36:15.4524293+09:00",
     "ModuleType": 1
   },
   {
@@ -435,7 +728,7 @@
       "UserName": "DESKTOP-SFEU14D\\NamHee",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2022-09-29T13:30:58.016259+09:00",
+    "LockDateTime": "2022-09-29T15:36:15.4524293+09:00",
     "ModuleType": 1
   },
   {
@@ -445,7 +738,7 @@
       "UserName": "DESKTOP-SFEU14D\\NamHee",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2022-09-29T13:32:39.2384217+09:00",
+    "LockDateTime": "2022-09-29T15:36:15.4544349+09:00",
     "ModuleType": 1
   }
 ]
