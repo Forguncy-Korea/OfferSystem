@@ -211,7 +211,16 @@
   },
   {
     "ModuleName": "PCPage/견적서수정페이지",
-    "ModuleType": 1
+    "State": 2,
+    "LockedBy": {
+      "UserName": "DESKTOP-SFEU14D\\NamHee",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-09-29T13:30:35.4633871+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\견적서수정페이지.json"
+    ]
   },
   {
     "ModuleName": "PCPage/거래처검색페이지",
