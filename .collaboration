@@ -216,7 +216,16 @@
   },
   {
     "ModuleName": "TaskScheduler/예약된 작업1",
-    "ModuleType": 16
+    "State": 2,
+    "LockedBy": {
+      "UserName": "DESKTOP-SFEU14D\\NamHee",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-09-29T16:19:32.2436518+09:00",
+    "ModuleType": 16,
+    "ToRemoveFiles": [
+      "SchedulerTasks\\예약된 작업1.json"
+    ]
   },
   {
     "ModuleName": "PageReport/인보이스",
@@ -273,5 +282,15 @@
   {
     "ModuleName": "PCPage/판매_견적서조회",
     "ModuleType": 1
+  },
+  {
+    "ModuleName": "TaskScheduler/샘플외데이터삭제",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "DESKTOP-SFEU14D\\NamHee",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-09-29T16:19:32.2436518+09:00",
+    "ModuleType": 16
   }
 ]
