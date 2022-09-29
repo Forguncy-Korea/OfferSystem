@@ -644,7 +644,16 @@
   },
   {
     "ModuleName": "MasterPCPage/FGC_유저마스터페이지",
-    "ModuleType": 3
+    "State": 1,
+    "LockedBy": {
+      "UserName": "DESKTOP-SFEU14D\\NamHee",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-09-29T15:36:30.2323966+09:00",
+    "ModuleType": 3,
+    "ToRemoveFiles": [
+      "MasterPages\\FGC_유저마스터페이지.json"
+    ]
   },
   {
     "ModuleName": "MasterPCPage/마스터 페이지2",
@@ -653,7 +662,7 @@
       "UserName": "DESKTOP-SFEU14D\\NamHee",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2022-09-28T16:03:55.3883021+09:00",
+    "LockDateTime": "2022-09-29T15:36:30.2323966+09:00",
     "ModuleType": 3,
     "ToRemoveFiles": [
       "MasterPages\\마스터 페이지2.json"
@@ -661,7 +670,16 @@
   },
   {
     "ModuleName": "MasterPCPage/마스터 페이지1",
-    "ModuleType": 3
+    "State": 1,
+    "LockedBy": {
+      "UserName": "DESKTOP-SFEU14D\\NamHee",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-09-29T15:36:30.2323966+09:00",
+    "ModuleType": 3,
+    "ToRemoveFiles": [
+      "MasterPages\\마스터 페이지1.json"
+    ]
   },
   {
     "ModuleName": "TaskScheduler/예약된 작업1",
