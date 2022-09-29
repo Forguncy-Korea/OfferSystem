@@ -99,7 +99,7 @@
                     ]
                   },
                   "value": "%Null%",
-                  "Id": "c7a09041-adf9-45cd-bd2c-12f6508721bf"
+                  "Id": "d545f845-6627-4070-adda-4500ceadd087"
                 },
                 "CommandList": [
                   {
@@ -113,13 +113,13 @@
                         "ColumnName": "ID"
                       },
                       "Value": "%Null%",
-                      "Id": "2ea18373-6f31-41f3-84c5-1db609a80a37"
+                      "Id": "6f825a6b-5da7-456d-b4b1-4dadafac4cc9"
                     },
                     "Params": [],
-                    "ID": "4b953227c3224d2bac04049b1166ee7d"
+                    "ID": "b69824bbc6424ddda81be7b89e916850"
                   }
                 ],
-                "ID": "a17e1eaf-0d46-436c-a002-32ebd29d80a0"
+                "ID": "e880fc72-eea9-40e0-b31e-dd731868a802"
               },
               {
                 "Condition": {
@@ -134,7 +134,7 @@
                   },
                   "value": "%Null%",
                   "compareType": 1,
-                  "Id": "17733639-e222-4584-abdf-d7ccabb6542c"
+                  "Id": "3151ea0b-87e0-4f73-bc22-b8ed7890ee78"
                 },
                 "CommandList": [
                   {
@@ -153,7 +153,7 @@
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                           "SerializeProperty": "='제품_목록 페이지'!Y2"
                         },
-                        "Id": "ff62619c-7a3e-4d9c-9269-1466eaa78973"
+                        "Id": "2f25f983-e66b-423a-8d15-3e4551033382"
                       },
                       "Condition2": {
                         "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
@@ -166,19 +166,19 @@
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                           "SerializeProperty": "='제품_목록 페이지'!M7"
                         },
-                        "Id": "35182e74-42e2-4b83-bcfd-ac0a2ef77290"
+                        "Id": "6e9d486f-11ae-4408-bdd6-48213e4f959b"
                       },
                       "RelationType": 1,
-                      "Id": "d28dffa9-b093-4187-ab32-305188f05fc1"
+                      "Id": "82d18cad-4393-43c6-a6bc-02b55db68bf7"
                     },
                     "Params": [
                       "=Y2",
                       "=M7"
                     ],
-                    "ID": "5d929e0b36f74ad8bb84bef92e282852"
+                    "ID": "b947736c267449ad918fdbee82eb05f9"
                   }
                 ],
-                "ID": "c5c1988b-0b75-40ce-b9ae-723b6591796c"
+                "ID": "3cd45916-1bc4-4ba0-9ddb-f58d706af390"
               }
             ]
           }
@@ -247,12 +247,12 @@
         "CommandList": [
           {
             "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
-            "PageName": "품목 등록 페이지",
+            "PageName": "제품 등록 페이지",
             "PassValues": [
               {
                 "Source": "수정",
                 "TargetCell": {
-                  "SerializeProperty": "='품목 등록 페이지'!B21"
+                  "SerializeProperty": "='제품 등록 페이지'!B21"
                 }
               }
             ],
@@ -268,18 +268,6 @@
       "NameUsedInJavaScript": "품목코드"
     },
     "6,12": {
-      "CellType": {
-        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
-        "CommandList": [
-          {
-            "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
-            "NavigateType": "back",
-            "PassValues": [],
-            "LoadBindingDataOption": 1
-          }
-        ],
-        "ClickMode": 1
-      },
       "BindingInfo": {
         "TableName": "제품",
         "ColumnName": "제품명"
@@ -347,7 +335,7 @@
         "CommandList": [
           {
             "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
-            "PageName": "품목 등록 페이지",
+            "PageName": "제품 등록 페이지",
             "PassValues": [],
             "LoadBindingDataOption": 2
           }
@@ -415,7 +403,7 @@
                     ]
                   },
                   "value": "YES",
-                  "Id": "6ea4f1c3-c856-47c8-be2f-3c5b33ae62d0"
+                  "Id": "1aca7cce-6411-4da8-af7c-fbb561ebaca9"
                 },
                 "CommandList": [
                   {
@@ -437,7 +425,7 @@
                     "ListviewName": "리스트뷰1"
                   }
                 ],
-                "ID": "4c7d7bb4-c948-467d-a234-687d1253ef35"
+                "ID": "ce3f732c-8aa3-4e4d-8c43-1b243429c3b7"
               },
               {
                 "Condition": {
@@ -451,7 +439,7 @@
                     ]
                   },
                   "value": "NO",
-                  "Id": "40046571-8f89-443b-9626-c4ec79787410"
+                  "Id": "57ff9e45-4d08-43f5-b1c1-12e8ee3611ac"
                 },
                 "CommandList": [
                   {
@@ -473,7 +461,7 @@
                     "ListviewName": "리스트뷰1"
                   }
                 ],
-                "ID": "ddaac40c-e953-4cf4-9ca3-13e0443dca7e"
+                "ID": "8ec7b879-cdcc-41b7-a468-aaf88f2cd3c6"
               }
             ]
           }
@@ -627,9 +615,7 @@
       },
       {
         "FontFamily": 4,
-        "Foreground": 10,
-        "WordWrap": true,
-        "Underline": true
+        "WordWrap": true
       },
       {
         "FontFamily": 4,
@@ -820,21 +806,6 @@
       "5,10": 1,
       "5,11": 1,
       "5,12": 1,
-      "5,13": 1,
-      "5,14": 1,
-      "5,15": 1,
-      "5,16": 1,
-      "5,17": 1,
-      "5,18": 1,
-      "5,19": 1,
-      "5,20": 1,
-      "5,21": 1,
-      "5,22": 1,
-      "5,23": 1,
-      "5,24": 1,
-      "5,25": 1,
-      "5,26": 1,
-      "5,27": 1,
       "5,28": 1,
       "5,29": 1,
       "5,30": 1,
@@ -875,21 +846,6 @@
       "6,10": 1,
       "6,11": 1,
       "6,12": 10,
-      "6,13": 1,
-      "6,14": 1,
-      "6,15": 1,
-      "6,16": 1,
-      "6,17": 1,
-      "6,18": 1,
-      "6,19": 1,
-      "6,20": 1,
-      "6,21": 1,
-      "6,22": 1,
-      "6,23": 1,
-      "6,24": 1,
-      "6,25": 1,
-      "6,26": 1,
-      "6,27": 1,
       "6,28": 11,
       "6,29": 1,
       "6,30": 1,
@@ -2113,13 +2069,13 @@
     "34,2,9,14",
     "7,1,20,55",
     "6,5,1,7",
-    "6,12,1,16",
     "6,28,1,8",
     "6,36,1,5",
     "6,41,1,5",
     "6,46,1,5",
     "6,51,1,5",
     "29,4,1,4",
+    "6,12,1,16",
     "5,1,1,2",
     "5,5,1,7",
     "5,12,1,16",
@@ -2144,10 +2100,10 @@
             "ColumnName": "ID"
           },
           "Value": "%Null%",
-          "Id": "4c929652-745e-43e4-8e13-7e2bf46a877c"
+          "Id": "3fbd8134-9d21-450e-8fbb-a7e129ad5393"
         },
         "Params": [],
-        "ID": "d4e052e1ff374c69817043231caef169"
+        "ID": "ffee3ca407e34b7eb1daee736b6f05e7"
       }
     ],
     "AuthorizeInfo": {
@@ -2160,4 +2116,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}//OkivQq0ohQPLmFUbFcsnNMuZx5+padTcug3pbCA4XlONFtcdqDY6LBVy+uak+lbj+REYQD01hgZOieFO78dF7gxsWNaP/ikR5lcJFu2lr7PIDPuW3yEqDl9SjKSrGtosqy+Dssz8LqtMD0T9MT3cl+dQCvTXCp7lQ6HcUJVISOKHL29IMnBYtjBUhbVVOIDv0SUaDqfb1p76jACGEWvfZk+8uSAeRlcXlREJyjDBz1dCIa08bz4mjAwwepFnDikObCnPLstSvXAMEjYV3QEG7ANCZH6kBfzhq/5d+8qD9ZwQz/mdnFKsaKPkkihjUM7/y3V6He6lopGWTT/z+hMIMORs/zU8J2M0+O/pmVd5kfswqq2e9cDW7meXarCI7a26KNMre8VQ7Ah5Utnoem1Zj28CHUDm8RyzgSJuq6UxgDQmepPw6d4RBTTDoN+ACzO/MKADBmBxPgfSuG/CronN/HwuYZ7C71qamGZx+EqYeq3iWVG4SUbYtT7AEbLRg1PtC4vnX6fkbxqZnP8GPhydtLSHanNMP6Mdao0Ahqowria7QNMyShNczQVpAJ31sRuX93sFHKRyUp/W3EEs6FIM+bIQPXaCepWtXHTivpz+uHn97kuO67t2iIyhhM3Vo4xQaDaPDtwA3ApJOZIQpUsv5YU0OztTbpQNPqDWK9wZXNdcr/NGLo+SM1480zbOTA0R6dWw8+3xHYxOE/bJJQKqwkhfOI30nG/tWgbLgFvh+6K5VRkoiVVc0jloFkb0soip9KsGOU1/6OgZProE45EnDYQqcsy87LqalKjcbm6NJClH0WwcG+CA5l1GOf9JhVmXHw+kKJeKa52/reQ/5ebYKeNCEc1cNjBTJMM6bJwmJuDrKvHIGWXxdReLANucLiKKRo+SzFba+iVTHikLRuzMSA==|920
+}//xWeZqBlsnG5kWWjzYE3gQ70bfl6P24cX9+/M1bXWgLcEkNN5wjj+Ye1YuQQyGAmhD5DSuV6tTSpqcuR6oWowc2VMdUHVqp56KIV0988tyUAmaP/HBciANXeca2DvuK1ISsdjYHwQxae9a0DHpi38P4N58ITN8UlbGXp1ddfGctqEI8wu9WeL0Cv1Zyp6rJ2I6ExaY0IMNfRNJbhPTQvoBfKoveD2klX9pOKRPvs1kJk/yMIxAJ1RApxp5BluWk8aR6++ZDo9Il14xxIF+ydNaqkcLCsj9LUcvfXbrePFW4fjfgiJ7O9qNSs3wqxUdVq192LjU7CGG/BYwhMAMI5wzNevusgbv2Q3gmDDM5p+KYqpeOtINp3cvLS0eUzo9ELzYQCrO3795D4FfGIQb+MBTUI5ZXb+Yp913ZTrWUvsJkYicVMsT4ZGgDaSRunTlC/FwDSzN9GKiUf7tOazBWJ/zhhI6rYgW5o2sxR9chc1KOH5fir6lelHigP7HZIma8iJoeViXNp9dDL0m99ilHZWWlQadgC8tUudgOEOyxzJJ4MTtAnRkLvgcsW3ETD7ro7ZAuhFZJUG2cXw7xGDP4a/EoixbehKO6cCYVWuosfogjTvOyqMj9lJ+iILgh0kHF53AAk32opuLClSUGz/jZULuPb0+eZHwaPkpk5OPDAGgl01+ZN5YIPxqi2yZfSgL510FhVt5VMzmWET1JNRmSYk4pJx1jn/viTwjo7FONJhtLw4w8oqYi2fA4MM67Gj11I9y7uMyJkmAyiOCwRZ2yb7CG2Oq0Es9R8l8mI0Pc8saMja4fPxvUm78Goo0inrBw5s/WrvFJl08rkx0RP4gWoJNTDA0ThFLtA5P4y0T+/Q9vh3/MJx8WvFfelV/KK+lf0Evqp9mNg0Vsmh+olyBi1nNQ==|920

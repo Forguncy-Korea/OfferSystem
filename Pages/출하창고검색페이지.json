@@ -64,7 +64,7 @@
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                   "SerializeProperty": "=출하창고검색페이지!G1"
                 },
-                "Id": "53051e66-e63c-4f74-9cd3-db2dc3c0526f"
+                "Id": "5775d56d-c9ce-4f5a-8a45-71868bd8a7e9"
               },
               "Condition2": {
                 "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
@@ -77,14 +77,14 @@
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                   "SerializeProperty": "=출하창고검색페이지!G1"
                 },
-                "Id": "79c4a496-164a-43a9-bbb4-8d9eeb4c42f6"
+                "Id": "a6c262df-4d3b-4d62-9acb-d946977731c2"
               },
-              "Id": "22920dd2-a625-48e5-9f3b-118ad8eba1e0"
+              "Id": "c3c27b94-417a-4de2-a54b-d503025783ee"
             },
             "Params": [
               "=G1"
             ],
-            "ID": "c679fa80fb7c48229c64d4a81752d77a"
+            "ID": "e1ecfe33babc47dfbd6b92860fc60b1d"
           },
           {
             "$type": "Forguncy.Model.SetRowColumnLayoutCommand, ServerDesignerCommon",
@@ -211,7 +211,7 @@
         "CommandList": [
           {
             "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
-            "PageName": "창고 등록 페이지",
+            "PageName": "출하창고 등록 페이지",
             "PassValues": []
           }
         ],
@@ -521,4 +521,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}//0ehXohsD3qLKyWjOsWTTkmquIqVQ9u7gnfTOViHdEy81FM/xf97Ki9mVyNrF4rYFYzkvm8j4LZMgTLTx3fT909KZTWt967diadZra7noh5RPl+jbBFnAzOOz0ak7/RXzcuAN9CYioo/R0Am9gprMUxAndmnFjF6T+yCt+L+NkbP36vQvf9u5b+K5TCg0ha88e+P9n1tfp6Y1PAagD9k1oFvZxzTYehob8HKQIbvmoWFuPxQUvR3Wb78TjAUn6Eg6YnUWwCJcRUzm/eRv0YA0IGkRNU0V/SsfOAXjAH11fkdl0Nx7+qaaxR9s6tVVl0hGrdAtAeIPOvH/m23kU/ZiYLlAnAvRV6JsUckrsrlajTIvuAcSlwuOhtP26MSS820+oSqUqJZAwu1xf4gzwKYLVTcrE9B6LpFTvutS5IcA3LIb7lSixHXH2pOg1pyKHeUOduqaU0HnoSOYgkcd/A4515HkPDkf6UXC7Z0vp7YwWhj1piUvgIzwcNsl6DPe7uIUzCG+TnqUAEMbW00/Aswnb/VNDO6wDyiLU8kfzCQVQGiQCcfnxp39KsdOmU3p9nA/FXhshUXiORs4zevown6C5omMwgDqpIb9436YDiAobIOuO+ocmG2CEeH4XWOBXH17XZYNM6CrYBF9596Pw25ht7yxGNjW2jMvj/IX/yHhVam/A660v+u3gUF2SoUbVq0ULXkiEU/sQ2AxAb7KyTH+Np4ZQMHIaBHTvaVhNN/tVVVf8D0wLZM2djFUMXCouMl9R3kfbOkNxxbxJyxVkbpWMUZ3c1HqeI5c6vLFBTtfj5EertpBNd/vwIyfBbRIuQAue1/1OI0ynuXplQTpS8LtPem+HuB9hIjWfJjsSVLRWjO+mm2+Njk7SAIc0vc0BFJYdT9sm+QebSEmKjgm0WjKVw==|920
+}//yChtgxG8mcaKSne/HZHpgBK4cLFxMRh2sQxdjK3RKsjAAZxkBSFiSW0MOXn9Y58IDsZXz1ClVfGOx93m2LxtqfvVbPHUjy0qz7JTIEyy7fxuyoiViIE+9+E4ODJbRgl2pU64ao1h+FXGh23VcpYNflxQTE6tUPQOqW3HFFKLIv78SpPBu/LvC5K4a4pzFbC82TsHWaJTK2wjAZfRxB7dXCtKVXCmIl0fWb4jeDuwhzPqJ/157za2mu3oC5O1uafs/dqYRrkC9pxvmVfgtSDdesI6wm9Mi8+pa4szeNFsSliMtjkrV5A/LQJzg8v6nrHPOZfHd5OU0eYOXhXchVYcaxb/9IQh0vpwJgCL3rGIAa73hlIOfNjpyiJH7o+ibLmkIe684eNq4sp2ahhtOX8LQxhRO1VQGxlH9qD5Yh1ds3VxGnyaFILE2x8qK03yC+Ud9DrcA2wsKQHyRPSNvMURbr1mDX7aTtn++UzLUdIyywTCNxMIQjuHy3nTfOyoJwKgsMRmujKheFAyvrXJUWGR6Is9cRN7shmiHWVdKj92A+aLaBemS7A72mrSnIzh5GYWdaFyHxsM866xZ01Ybs3OHG2GizqAyXh/JrPict9oPVVbuY1dXY3HLcPfmKZU/d+8tPDshqAK1dnpQjX8VLdVmsWsZGearX5HWYK2Img7YGrHpPjlTCpu7K1ZdIIYydi3Q1cnRkExldWjpB+aHSO5kx7pACpY+nSVcjRJlsCBD7rLuTXHHnR9f+t0Bg75xyzhm6s+9xYItG357KVqRt7iyKzUKSRB51XGtx1Zu3WZu73AkGSTcaoCdHrn5Mv46ZuJU16Yb4aU0is1X7qWQ6JbstjN+fqdMsQrYRnRrRHHl77kZFL2T74QXvkK1/O9Pgcj4WN9jiCiJ0GbsdPJvd7sFw==|920

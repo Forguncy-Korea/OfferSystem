@@ -88,7 +88,7 @@
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                   "SerializeProperty": "='출하창고_목록 페이지'!AA2"
                 },
-                "Id": "307cc144-ab39-424e-b7c5-9980e5ac1ce9"
+                "Id": "c1bc345e-490e-43da-ad91-efa096f53561"
               },
               "Condition2": {
                 "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
@@ -101,15 +101,15 @@
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                   "SerializeProperty": "='출하창고_목록 페이지'!AA2"
                 },
-                "Id": "577ae51e-fddb-4bbc-9d50-f4efffee5e16"
+                "Id": "df091a6f-dc2e-4423-b5bf-8da5ff849bed"
               },
               "RelationType": 1,
-              "Id": "b4289d38-9600-42a1-b22e-cc5a38841137"
+              "Id": "9101d2ac-dff9-4863-b3ca-461a5433596c"
             },
             "Params": [
               "=AA2"
             ],
-            "ID": "9341eab46c7d4484913266c2195af973"
+            "ID": "149e8a7edd8e480984d4b6c998dfc2f0"
           }
         ],
         "Text": "Search",
@@ -168,12 +168,12 @@
         "CommandList": [
           {
             "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
-            "PageName": "창고 등록 페이지",
+            "PageName": "출하창고 등록 페이지",
             "PassValues": [
               {
                 "Source": "수정",
                 "TargetCell": {
-                  "SerializeProperty": "='창고 등록 페이지'!B15"
+                  "SerializeProperty": "='출하창고 등록 페이지'!B15"
                 }
               }
             ],
@@ -193,12 +193,12 @@
         "CommandList": [
           {
             "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
-            "PageName": "창고 등록 페이지",
+            "PageName": "출하창고 등록 페이지",
             "PassValues": [
               {
                 "Source": "수정",
                 "TargetCell": {
-                  "SerializeProperty": "='창고 등록 페이지'!B15"
+                  "SerializeProperty": "='출하창고 등록 페이지'!B15"
                 }
               }
             ],
@@ -249,7 +249,7 @@
         "CommandList": [
           {
             "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
-            "PageName": "창고 등록 페이지",
+            "PageName": "출하창고 등록 페이지",
             "PassValues": [],
             "LoadBindingDataOption": 2
           }
@@ -277,7 +277,7 @@
                     ]
                   },
                   "value": "YES",
-                  "Id": "99e7b9f8-fbc3-4f0d-871b-f5bc74eb8067"
+                  "Id": "60329dc8-d12b-4119-81e4-c413cfb2bc8a"
                 },
                 "CommandList": [
                   {
@@ -299,7 +299,7 @@
                     "ListviewName": "리스트뷰1"
                   }
                 ],
-                "ID": "c2a87d81-6c97-46c8-a1ac-3626a90e0c3c"
+                "ID": "7991c245-89a9-4485-9803-bae81eac0dd2"
               },
               {
                 "Condition": {
@@ -313,7 +313,7 @@
                     ]
                   },
                   "value": "NO",
-                  "Id": "bdd23b9b-4a67-402a-b213-a5ee71994605"
+                  "Id": "76f6a4e2-a868-442f-9ca1-b30264320fa3"
                 },
                 "CommandList": [
                   {
@@ -335,7 +335,7 @@
                     "ListviewName": "리스트뷰1"
                   }
                 ],
-                "ID": "a6013da9-5047-4ca3-8c52-dae3dea6b3cf"
+                "ID": "2a3583a9-232d-436c-8540-a581d591185f"
               }
             ]
           }
@@ -803,10 +803,10 @@
             "ColumnName": "ID"
           },
           "Value": "%Null%",
-          "Id": "17912310-47a3-4fda-a660-b001d8351779"
+          "Id": "5fad3286-ffb7-4424-b6b7-daab7deceec9"
         },
         "Params": [],
-        "ID": "a73f487023ba4a0588ab23471a9b183f"
+        "ID": "e3392d9f0d1746e9901115a4a61b647d"
       }
     ],
     "AuthorizeInfo": {
@@ -819,4 +819,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}//8ZCsqRpLmSAm9p9gPGx4RmqNZklX8pOYm0om+Qrtlx5DUInlcPnECmmyCd7vb7Or4d/DaexK61+eNefxHvHOz0ZAjjI2jr+GJvcoVYHnUXA3+7bCV6FeoalmEryfgc/S64lQD8rGbWc81jkwIz6+EyJ1k5P9ETAEM2PY9O/VBknb+nU+lwiDpg6EBp5jEvw+gFJk4MqXoyknKjv1Lf45GENcPd03ItG0m4KfFOS/5cwZk4uMq6UHzdi1xz2+audESWRvfK3pSvQfxZdYRvFR8T1/IlObAia0LHxoxv1pAnFo1OP8MNZeGnm5oZuyQVXBZaUed9UJN1y0pXTd8fm04YgoCfUBML3jSQkItfKZrytBmp14zk/CpJ3ohsVPbMo/kDYaDGXkGvDKoHa9dFgucChEh0F4l5g+QTYzUMF9MnF3MuhF+ZfIxdM2LXYgJGvxYjadQ7eH+hOGYI1t+uw5tyznAjdVVvZ1l3AJPPloMbLKnDY79IKODWG6GmzT0HCIDZ8OfsV7Z/2S5VnyJo3WDyuKqFLnEi4jC0czi9o8E5VXiBtGFBqG6SOsX+GQbZUanABx6fWbDayIJ9XrlKDeikTyG7MFm1kMqw3FNYNPQ7Kf9rATOkAcv4iRs52DIRv5WPbR2CcrQQQrAv09vdhvSjdtW+lPgITQhXN7z4/Pnm3Ln6vaKQILXUQMTxTumdSa5UZLeZ3xrFho6SapKUM4gGYa577PDPJ6+g6HIm3diKm7P1Oa1OEHSMw3fIKMvyRWPih0JKvmS79WCOD2hJRQ7WNNEVyQ20SB0znM6gsUAzPCToiLogcOk9QLFroCzsoo6NbmMwRt1kdqQ+EWYw4fQMfM/++JyWQpwS+7bGqxguv4JRDPJQjpya2EUbEJDI0JrpIFMiEoEDQeeMVC5TybfA==|920
+}//D/gPbmNqF1st0cYDvdN3XRTnLCNP9m/LPi0DzxXxTVd4wEG0gn4veQjbRKoQonX9EVxSENiaVRmds6abuV4TZ37uUkef6XqdEK5D1UJeDQBNfi5rrZwCjBB7tVj96/M1w8LHvxZQPwKD1kT/38Xc8eA96F2e7lYmiE2wit9Pybr6bC/ft8xMzuRXUtm4cFhJPzbxhnlxbTpyMeaN58YCc3Tz0ZrlcFPJnVpnnGjwAwV/ke1PCO3s3ibNgr5R/ErTvs5bsJ53cMb7vNRqHCO+iwF10gOVnbc1CrzadF0d6i0VDvUSuUJQvUkGxGZT2IyIzbs1u262+Aw0OwoY3fNrtFbwsdtcBQjPq2rwhra5DoCEX6TTlwgA5kaagf64UnMTxXbQWLlqW0gtfoa+omz9PvXiYRTgURgRJxjYefmsqAh4cG5nReipVG1m3itaEgT6ThDJ0X/ajoKChpMLJI5ZsgkLr6KX5jcIOYKiXRyo+YnryC2crO2s1O1vo57wY68CwygGweRqGyBYl1l6CEk2NNAQgc0oEcskttoOyIepPlQCt3dv7PET5rJSD2uVRywx4BlJOUFmE3gl+5fg2Waz4pPfk3BWZoRbW1GtH3tKuXWAnYCuPFwYqEkL1db/vraLnWcL/pvpfLj3OQmFVM315Ds84P2WzDVpsb4G6cXCNok/5fCSYWjnRGeuA40XMw9D2OBueJfdAQAd7dYHDy03H1Ba+ONw2mXFflCw0qB8d6RkT2NUbeZLkqJ9H70dyhBl7i6dxE79W3U28nps3RaZi3EJooRJZJOnYcKaiKdTlyWkhrrHKQ8NvhurkxjiDKN6/apb7BhS3aU4gOlmQyeBO477ZeodZJqz3E2g0uXpkJSQzUB/nqmVQAvgRPuJ+8QLFU5Zv+coGHnQ1hRf1qQg+A==|920
