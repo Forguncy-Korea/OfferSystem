@@ -1,77 +1,27 @@
 [
   {
     "ModuleName": "Table/거래처",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "DESKTOP-SFEU14D\\NamHee",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2022-09-29T16:28:49.786118+09:00",
     "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\거래처.json",
-      "ForguncyDB.sqlite3"
-    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/제품",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "DESKTOP-SFEU14D\\NamHee",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2022-09-29T16:28:49.786118+09:00",
     "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\제품.json",
-      "ForguncyDB.sqlite3"
-    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/견적상세자료",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "DESKTOP-SFEU14D\\NamHee",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2022-09-29T16:28:49.786118+09:00",
     "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\견적상세자료.json",
-      "ForguncyDB.sqlite3"
-    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/견적데이터",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "DESKTOP-SFEU14D\\NamHee",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2022-09-29T16:28:49.786118+09:00",
     "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\견적데이터.json",
-      "ForguncyDB.sqlite3"
-    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/출하창고",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "DESKTOP-SFEU14D\\NamHee",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2022-09-29T16:28:49.786118+09:00",
     "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\출하창고.json",
-      "ForguncyDB.sqlite3"
-    ],
     "ExclusiveType": 0
   },
   {
@@ -308,12 +258,6 @@
   },
   {
     "ModuleName": "TaskScheduler/샘플데이터생성",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "DESKTOP-SFEU14D\\NamHee",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2022-09-29T16:24:01.2922123+09:00",
     "ModuleType": 16
   }
 ]
