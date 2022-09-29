@@ -267,7 +267,16 @@
   },
   {
     "ModuleName": "PCPage/판매입력페이지",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "DESKTOP-SFEU14D\\NamHee",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-09-29T13:32:39.2384217+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\판매입력페이지.json"
+    ]
   },
   {
     "ModuleName": "PCPage/판매조회페이지",
@@ -275,7 +284,16 @@
   },
   {
     "ModuleName": "PCPage/견적서조회",
-    "ModuleType": 1
+    "State": 2,
+    "LockedBy": {
+      "UserName": "DESKTOP-SFEU14D\\NamHee",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-09-29T13:32:39.2384217+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\견적서조회.json"
+    ]
   },
   {
     "ModuleName": "PCPage/거래명세서",
@@ -368,6 +386,16 @@
       "Email": "example@example.com"
     },
     "LockDateTime": "2022-09-29T13:30:58.016259+09:00",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/판매_견적서조회",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "DESKTOP-SFEU14D\\NamHee",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-09-29T13:32:39.2384217+09:00",
     "ModuleType": 1
   }
 ]
