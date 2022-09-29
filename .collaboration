@@ -177,11 +177,29 @@
   },
   {
     "ModuleName": "PCPage/품목 등록 페이지",
-    "ModuleType": 1
+    "State": 2,
+    "LockedBy": {
+      "UserName": "DESKTOP-SFEU14D\\NamHee",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-09-29T13:29:33.3499314+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\품목 등록 페이지.json"
+    ]
   },
   {
     "ModuleName": "PCPage/제품_목록 페이지",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "DESKTOP-SFEU14D\\NamHee",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-09-29T13:29:33.3499314+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\제품_목록 페이지.json"
+    ]
   },
   {
     "ModuleName": "PCPage/제품바코드페이지",
@@ -295,5 +313,15 @@
   {
     "ModuleName": "Upload",
     "ModuleType": 26
+  },
+  {
+    "ModuleName": "PCPage/제품 등록 페이지",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "DESKTOP-SFEU14D\\NamHee",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-09-29T13:29:33.3499314+09:00",
+    "ModuleType": 1
   }
 ]
