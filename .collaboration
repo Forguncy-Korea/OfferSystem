@@ -327,7 +327,16 @@
   },
   {
     "ModuleName": "PCPage/판매_견적서조회",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "DESKTOP-SFEU14D\\NamHee",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-09-30T08:38:24.7212836+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\판매_견적서조회.json"
+    ]
   },
   {
     "ModuleName": "TaskScheduler/샘플외데이터삭제",
