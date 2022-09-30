@@ -93,7 +93,7 @@
     "2,24": " 예상매출",
     "2,36": "견적대비판매비율",
     "2,50": "1=1BE10",
-    "6,20": "견적현황 (리스트뷰)",
+    "6,20": "견적상세현황 ",
     "7,20": "거래처",
     "7,47": "상태",
     "8,47": "ㅑㄹ(",
@@ -3497,7 +3497,13 @@
             "ShowSeriesName": false,
             "ShowValue": false
           },
-          "MarkerSize": "7,7"
+          "MarkerSize": "7,7",
+          "StyleInfo": {
+            "Fill": "Accent 1",
+            "Stroke": "Accent 1"
+          },
+          "IsAutomaticStroke": false,
+          "IsAutomaticFill": false
         }
       ],
       "XAxises": [
@@ -3674,7 +3680,16 @@
           },
           "MarkerSize": "7,7",
           "DataPoints": [
-            {}
+            {
+              "StyleInfo": {
+                "Fill": "Accent 1",
+                "StrokeDashType": 8,
+                "Stroke": "Background 1",
+                "StrokeThickness": 2.0
+              },
+              "IsAutomaticStroke": false,
+              "IsAutomaticFill": false
+            }
           ]
         }
       ],
@@ -3804,4 +3819,4 @@
       "Formula": "메인화면!$AD$1"
     }
   ]
-}//tfvkygzJ+rK5rGDthohhUiKNIuV+4QNFxYdndQULp7gjRQ0jKcjRM7AaT/AlG8/++IAFJjlajzkWOIy6ijq8GVvOUAp5R1QOgrBfblk9N1lLwShIK6Q7nz0R94STNA2StewQQ7Luf3eAEi53kFjAcdSTqBFe4EpQVYK4Vgk9eXMqCqNPdrbsRwtamJxp983Ak1WUSBQiUfAg/fH7S6kpXHCTQ62/vQJj6V5E1R+uq9SKHph5x4tlHB5rDtBTMIhVrR4x1NsinDT5cGyd8jUrVebzi/uJFG49eMiDX/2tPDdnQtoBVsqsQ1sDm42UKAgsJVHxAmX2yzrK6fJl7zMN/3hvr8+b17l26ZWJoxnlSUjlX2wkrEdaQXOaMG1nyNOU2laPoSincHgbZ1o+NZxPnqZD0derBkqB8AnfNAe08fJUJF5G4jwYJG9IbnyjW++Y1HMD2J9psoCsdvXpKdl/6pn8JNdr47VOVKWjYY3PtWhcC2eFJzPQxgGkeGD+/k/9jeVq0QTyuBcmxKeazfwg89uVL0o8IsSm8/EPNw4IX3lAlGceP1hZt9qxgdfFL5HPmB6qQmhFqcVbTFQ9DfSX/v/MGDa2jXY0oOq8XDa1QIxX5w0y0IVrQUgPqvkBG90UQSkPc8Q7KGuK9AgLjL91NnzrMHNGpTEZgsxx6JkUoR6abwY44uXksfCS4Ntu9hyjpleJ2TZuttD4AlWVDBhcoTolaBQWK6hp7D/86iwfcMVbwh3E1dV17+h7/AYeCkS3kRkKDE/LzbbViJ/6Zy/lPCLkaHwHPz6eU/dty03Gdkwj/L79JAC3FoQ07W7hz2IFhZ16gBLfC97SpZaZQpwVrJ5052M/P/0PVUw7zws/mNlfo+ta98rRPDzfpLDOMUW+u4UXmIGGbPwkcxg6wUFLKg==|920
+}//rszI8QcfGEMWKVSX/w2j+UwO0D9nJFJKmdEc0QgVcRtGBWc+KIz8BaPzz4ct1fflnZEU2/CNljbRTKE26CE3fBD0lj52sMfRmGMoo+4+s95jedFRxiVwmg5hIve+0uF7CC9zi+uTSJoMW3tSnIDhJgzQB66z5muGLOeDOt3Z5sRvrOD+vZhYD9ypgF18cwXlp3pvw4UruMkuglrGwP6zadxCPc/BJJRV6WTCHLOsmKMSLvO8MZiGcKq+ilU2WvPm1F/Ct3SFo0v1w4mFBUsmCPJJ0JJbDWqVJzov22i4/lgPco0cRt8x2y3IfoJP7TqeUZaoZkV/42KcvT8KkOeHfApoFVei/5rXgCpMj54QsO3vpOvkKqCCdvA+B2u6h7igD4q6z6aEAF5bbRwbG90bnSt8lJR/BTUANufR+avchhq+2QHJ6Rm1v+YjALxtQmoXOue8IqRl22tT/ugpopLHVvEYmh3K0IAiT0TWSDhVrOhby/tkulrQ5FQ5lQqh/iLTHFgmJ2qrRIQ1qFaOYa5xrBzWInCg2mI37jrnAXFHpGT97fF9U+AX3cvnFULb08WoWI33IbV4TdEpZoIzXqtF8l7POp8oE5rn/9Zi6gVdWwVAwOfM63QhX2iV/hPrWNhmQ44Ov/JNwnwwsV3OKjOoZnmZ5hSOJ0KOLj+tGdKIVK7Z66+DxJ4PsvoxRq/MeEts6QeSlu5zfJlRW9cGQL4/nR018HorMFIVnf786NMs7v1dSXq18U6Mv2Z8qccp0LsK63gIQO/69yuJnbZhSGTx1/ggj5Hb6RHHuhdhEpilXIykeM5+iSAnxwttFnOyyq8/1cSZzTMZzQIs4mgInK8Iwxex7fDGG1pqIvA4vdQCBGnWUySulV1Cwmh211gLGEEaQ/xHWMaJaZGJ/G8h2egUJQ==|920
