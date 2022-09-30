@@ -1,0 +1,41 @@
+{
+  "Enabled": true,
+  "Triggers": [
+    {
+      "$type": "Forguncy.ServerCommands.Models.DailyScheduleTrigger, ServerDesignerCommon",
+      "StartDateTime": 44835.0,
+      "ScheduleRunInDebugServer": false
+    }
+  ],
+  "Commands": [
+    {
+      "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+      "TableName": "견적데이터",
+      "ShowConfirm": false,
+      "ConfirmText": "데이터를 업데이트하시겠습니까?",
+      "RowsToUpdate": 1,
+      "RowsToUpdateCondition": {
+        "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+        "ColumnBindingInfo": {
+          "TableName": "견적데이터",
+          "ColumnName": "주문일"
+        },
+        "Value": {
+          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+          "SerializeProperty": "=TODAY()-180"
+        },
+        "Id": "025667e2-ab06-40f5-9d57-42c10da6884c"
+      },
+      "UpdateValues": [
+        {
+          "ColumnName": "주문일",
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=TODAY()"
+          }
+        }
+      ]
+    }
+  ],
+  "Name": "샘플데이터수정"
+}
