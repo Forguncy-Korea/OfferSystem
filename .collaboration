@@ -366,6 +366,25 @@
   },
   {
     "ModuleName": "TaskScheduler/샘플데이터생성",
+    "State": 2,
+    "LockedBy": {
+      "UserName": "DESKTOP-SFEU14D\\NamHee",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-09-30T14:12:06.6702869+09:00",
+    "ModuleType": 16,
+    "ToRemoveFiles": [
+      "SchedulerTasks\\샘플데이터생성.json"
+    ]
+  },
+  {
+    "ModuleName": "TaskScheduler/샘플데이터수정",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "DESKTOP-SFEU14D\\NamHee",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-09-30T14:12:06.6702869+09:00",
     "ModuleType": 16
   }
 ]
