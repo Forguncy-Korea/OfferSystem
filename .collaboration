@@ -250,7 +250,16 @@
   },
   {
     "ModuleName": "PCPage/거래명세서",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "DESKTOP-SFEU14D\\NamHee",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-10-07T14:54:05.4660601+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\거래명세서.json"
+    ]
   },
   {
     "ModuleName": "MasterPCPage/FGC_유저마스터페이지",
