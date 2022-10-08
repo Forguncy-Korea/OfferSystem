@@ -136,7 +136,7 @@
     "12,3": {
       "ListViewInfo": {
         "ShowColumnHeaderInDesigner": true,
-        "TableName": "견적상세자료",
+        "TableName": "주문상세자료",
         "RowIndex": 12,
         "ColumnIndex": 3,
         "ColumnCount": 33,
@@ -149,7 +149,7 @@
         "DetailListViewInfo": {
           "MasterTable": "주문데이터",
           "ColumnOfMasterTable": "ID",
-          "ColumnOfDetailTable": "견적_ID",
+          "ColumnOfDetailTable": "주문_ID",
           "DataCommitType": 2
         },
         "TopCondition": null,
@@ -159,12 +159,12 @@
     },
     "13,3": {
       "BindingInfo": {
-        "TableName": "견적상세자료",
-        "ColumnName": "견적_ID",
+        "TableName": "주문상세자료",
+        "ColumnName": "주문_ID",
         "RelationBinding": {
           "RelatedTable": "주문데이터",
           "RelatedColumn": "ID",
-          "DisplayColumn": "주문일"
+          "DisplayColumn": "견적일"
         }
       }
     },
@@ -197,7 +197,7 @@
         }
       },
       "BindingInfo": {
-        "TableName": "견적상세자료",
+        "TableName": "주문상세자료",
         "ColumnName": "제품ID"
       },
       "DataValidationInfo": {
@@ -206,13 +206,13 @@
     },
     "13,19": {
       "BindingInfo": {
-        "TableName": "견적상세자료",
+        "TableName": "주문상세자료",
         "ColumnName": "주문수량"
       }
     },
     "13,21": {
       "BindingInfo": {
-        "TableName": "견적상세자료",
+        "TableName": "주문상세자료",
         "ColumnName": "제품ID",
         "RelationBinding": {
           "RelatedTable": "제품",
@@ -1433,7 +1433,7 @@
     },
     "RowBreakLines": [],
     "RepeatRangeSettings": [],
-    "RelatedDataTableName": "견적상세자료"
+    "RelatedDataTableName": "주문상세자료"
   },
   "PrintInfo": {
     "ColumnStart": 3,
@@ -1443,4 +1443,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}//BNcjoIcvsKhcbraHvQX4YEAYfjOMhbTvgGF7pPRzL1h51HXkUMl1frcXiK6PrE14V/f6bpkCocVYhxNun9yd9Sxh+r6F0QbjBvZHlI+acZ9TMREDrrkAzELHfP2jfG2+sODequtydK/sHYf4KbmrGGJBahETaSAXfY5OHLc7cFfqk100ytqYoyUoi6apCIln9L6oGs5X9gp0OJn36/cO5n7akOxIGrytL40heoShW5K7VFY/HapRd+XWrNpLNn2lTKRnb92uEwQWUe//41LFGHmRgU4mAZmoo6JyEVvQJQD8LEvZ4w3aVfrdkQRoYljdtB3n2ocjGfcgwoWLOoi64DRAy1AF9zj2EC6cqzdvurK0mzmhUqtXwu69QSlL2Dw/DmVdI0JnUFtXboXUwjhPyQzdfqEzP/ZvM5L0fgEeYCOZ4sknlsUUoT0PoxlAf6AEJQLQOn3L4Z7ht8tPe0ALu9z+6pdHiaDcZK93KrIE5rdhMdE8lCCEnl/pmr0VaEnCplgyynLLTWqyFOjhhYmtduHbC06H7zTbaFsY2u4BUSeI56H6grzgC5v+8WfPosneivporH03tNjzFEKklrYL+uq4m4w97P3MDMVMfwtym8D8Q2T1V57JhR3IwmS6SuLKSr85QM9wWw83/9DPaUFsRbsYCvxCiiRLke8HhnOKBsodG2gopibG/OtL1k8YEGdzBGUA2fmKKazZwRpjZZJC/cMHc2p+yp2LRRLGW/nA0mfF4RBIyEeE4wWuFQGLR+iKOGFfGoLJ/XT3eMX4EzsGpR1iE/+yxH3aLPTFkLpTgrWJVgQk+8M5MOvP3nm7PLWcIRKmqbK8fjtTcmj3YrVJLUkBpEh9Va2DPnmnxqf+NtObUUgMi9BuIo0/gmBxnVLbs1NP/vX+SqaEr8Fsp0zcEw==|920
+}//w8Cg3WORiq0nW5BU/1yc5Oib4zxz3JtruZLhTFvh+ugwenLVWNEGK1sAREyzzK+nMc2JbUL62NswOXl8PXug6FXh6qlsFkfiSixEuADHswwygd3GNaveNARYVctkcBtxD63aglbTh3kpKSW9d9SikPcXTE2bISAMHJWyYL6P6oxIWq94l2rNcgIGbYQ4oyyszyhYRqotyGjxPcSzADefpp4gh0FO+AZVO4/BDlVovEfQhIb8vhEvpji8+1wFoAhmDayVZob/tmjlxQ9WMkKwg38JnWVgkoLtdxVN4XASYtRmHKOT+vH12DrEZxKB0CQBMoHvr7lSjnfXR/9Xt5qQUORFyVK5FgcQAihCG/5zQVfwC1vPdH4WL4VUL3dq7aZtBbPppoh/c+WN2gOpfPg65FYHMyjpQypIdRhhdEiWNCPlc1OXnFddPJhrg9kb7SORMsAICpg0ybeBJwiAGuzViyAv0M/f4bVGwBjNd24fhFPCopXOxZEmNC7DxwvtpRJD1OtLaMkKyjqpKRThtzJrvNAXyyZ2Y9SxRfqSfjxXWDq5e+bB1ws1C+Npu6rqjfopIyjzdkMdfUwQQZ+X3OX83nXWPgH6HW9VRVojMFS5OprDrpwt5kUKQHAambG6dC0B+YQY9LG87R6NNXGh6U8DAGMsLQ2jWMrACu4/dOLV32Q6efA1EAuNyfOF/+vyl1exOIM55icKX0sS36L86dTD4ri2+s6HaaQ4vDI/qD3Kq2lK50v6vH0wtyGIq/gCVyEeZIH+VX1PzyvWCN9gxrSFiWr0OAcSHoX7gLZ+oX66607Vf4SGVoPm4HzxXkUqS57U1QE1sbwgPF34dy3OL0xp0HBC0UtCgYOlX/y8os5EoCkDsFi2diFlsGj+M5g72VekeVuH/sbExKoVr4b0k4QUSw==|920
