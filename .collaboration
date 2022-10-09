@@ -194,11 +194,29 @@
   },
   {
     "ModuleName": "PCPage/판매입력페이지",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "DESKTOP-SFEU14D\\NamHee",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-10-09T18:03:54.3522097+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\판매입력페이지.json"
+    ]
   },
   {
     "ModuleName": "PCPage/판매조회페이지",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "DESKTOP-SFEU14D\\NamHee",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-10-09T18:03:54.3532036+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\판매조회페이지.json"
+    ]
   },
   {
     "ModuleName": "PCPage/거래명세서",
