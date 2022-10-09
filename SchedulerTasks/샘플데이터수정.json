@@ -18,7 +18,7 @@
         "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
         "ColumnBindingInfo": {
           "TableName": "주문데이터",
-          "ColumnName": "견적일"
+          "ColumnName": "주문일"
         },
         "Value": {
           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
@@ -28,7 +28,7 @@
       },
       "UpdateValues": [
         {
-          "ColumnName": "견적일",
+          "ColumnName": "주문일",
           "Value": {
             "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
             "SerializeProperty": "=TODAY()"
