@@ -10,14 +10,14 @@
   "Commands": [
     {
       "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
-      "TableName": "주문데이터",
+      "TableName": "견적데이터",
       "ShowConfirm": false,
       "ConfirmText": "데이터를 업데이트하시겠습니까?",
       "RowsToUpdate": 1,
       "RowsToUpdateCondition": {
         "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
         "ColumnBindingInfo": {
-          "TableName": "주문데이터",
+          "TableName": "견적데이터",
           "ColumnName": "견적일"
         },
         "Value": {

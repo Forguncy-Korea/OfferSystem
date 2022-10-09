@@ -107,13 +107,13 @@
   "AttachInfos": {
     "2,24": {
       "BindingInfo": {
-        "TableName": "주문데이터",
+        "TableName": "견적데이터",
         "ColumnName": "견적번호"
       }
     },
     "5,3": {
       "BindingInfo": {
-        "TableName": "주문데이터",
+        "TableName": "견적데이터",
         "ColumnName": "거래처_ID",
         "RelationBinding": {
           "RelatedTable": "거래처",
@@ -124,7 +124,7 @@
     },
     "7,7": {
       "BindingInfo": {
-        "TableName": "주문데이터",
+        "TableName": "견적데이터",
         "ColumnName": "거래처_ID",
         "RelationBinding": {
           "RelatedTable": "거래처",
@@ -136,7 +136,7 @@
     "12,3": {
       "ListViewInfo": {
         "ShowColumnHeaderInDesigner": true,
-        "TableName": "주문상세자료",
+        "TableName": "견적상세자료",
         "RowIndex": 12,
         "ColumnIndex": 3,
         "ColumnCount": 33,
@@ -147,7 +147,7 @@
         "UseSimpleBar": true,
         "Name": "리스트뷰1",
         "DetailListViewInfo": {
-          "MasterTable": "주문데이터",
+          "MasterTable": "견적데이터",
           "ColumnOfMasterTable": "ID",
           "ColumnOfDetailTable": "주문_ID",
           "DataCommitType": 2
@@ -159,10 +159,10 @@
     },
     "13,3": {
       "BindingInfo": {
-        "TableName": "주문상세자료",
+        "TableName": "견적상세자료",
         "ColumnName": "주문_ID",
         "RelationBinding": {
-          "RelatedTable": "주문데이터",
+          "RelatedTable": "견적데이터",
           "RelatedColumn": "ID",
           "DisplayColumn": "견적일"
         }
@@ -197,7 +197,7 @@
         }
       },
       "BindingInfo": {
-        "TableName": "주문상세자료",
+        "TableName": "견적상세자료",
         "ColumnName": "제품ID"
       },
       "DataValidationInfo": {
@@ -206,13 +206,13 @@
     },
     "13,19": {
       "BindingInfo": {
-        "TableName": "주문상세자료",
+        "TableName": "견적상세자료",
         "ColumnName": "주문수량"
       }
     },
     "13,21": {
       "BindingInfo": {
-        "TableName": "주문상세자료",
+        "TableName": "견적상세자료",
         "ColumnName": "제품ID",
         "RelationBinding": {
           "RelatedTable": "제품",
@@ -223,7 +223,7 @@
     },
     "22,8": {
       "BindingInfo": {
-        "TableName": "주문데이터",
+        "TableName": "견적데이터",
         "ColumnName": "참조"
       }
     },
@@ -1433,7 +1433,7 @@
     },
     "RowBreakLines": [],
     "RepeatRangeSettings": [],
-    "RelatedDataTableName": "주문상세자료"
+    "RelatedDataTableName": "견적상세자료"
   },
   "PrintInfo": {
     "ColumnStart": 3,
@@ -1443,4 +1443,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}//w8Cg3WORiq0nW5BU/1yc5Oib4zxz3JtruZLhTFvh+ugwenLVWNEGK1sAREyzzK+nMc2JbUL62NswOXl8PXug6FXh6qlsFkfiSixEuADHswwygd3GNaveNARYVctkcBtxD63aglbTh3kpKSW9d9SikPcXTE2bISAMHJWyYL6P6oxIWq94l2rNcgIGbYQ4oyyszyhYRqotyGjxPcSzADefpp4gh0FO+AZVO4/BDlVovEfQhIb8vhEvpji8+1wFoAhmDayVZob/tmjlxQ9WMkKwg38JnWVgkoLtdxVN4XASYtRmHKOT+vH12DrEZxKB0CQBMoHvr7lSjnfXR/9Xt5qQUORFyVK5FgcQAihCG/5zQVfwC1vPdH4WL4VUL3dq7aZtBbPppoh/c+WN2gOpfPg65FYHMyjpQypIdRhhdEiWNCPlc1OXnFddPJhrg9kb7SORMsAICpg0ybeBJwiAGuzViyAv0M/f4bVGwBjNd24fhFPCopXOxZEmNC7DxwvtpRJD1OtLaMkKyjqpKRThtzJrvNAXyyZ2Y9SxRfqSfjxXWDq5e+bB1ws1C+Npu6rqjfopIyjzdkMdfUwQQZ+X3OX83nXWPgH6HW9VRVojMFS5OprDrpwt5kUKQHAambG6dC0B+YQY9LG87R6NNXGh6U8DAGMsLQ2jWMrACu4/dOLV32Q6efA1EAuNyfOF/+vyl1exOIM55icKX0sS36L86dTD4ri2+s6HaaQ4vDI/qD3Kq2lK50v6vH0wtyGIq/gCVyEeZIH+VX1PzyvWCN9gxrSFiWr0OAcSHoX7gLZ+oX66607Vf4SGVoPm4HzxXkUqS57U1QE1sbwgPF34dy3OL0xp0HBC0UtCgYOlX/y8os5EoCkDsFi2diFlsGj+M5g72VekeVuH/sbExKoVr4b0k4QUSw==|920
+}//YsPhsIXwPq5fTtAIKHb1ssiOS/sP8kqz/WEKsgzzDzxAOpcAM6Ipv20H0ztSv0m0fVVO0UWZ5cEmsFq7oUlMGp+FTcSaQnhK54wUPaOvcUJtYsouyoDVjS2u+m/o7E5WtQ7QDZV6NU9xxZOvjOkIoJc9G8llW1gd1DG/ppx/8IHt+/os4zg9rwBVpat+fMbT6E/ykW3ru+es8LXTbFDA/elKzEbOyGe7VayE8gAmi6b0qZjCQFZSPNfQyLwnaoDodewFwETVx4LJ77WY1Y3CHpzr5Mb0ervCact9CKNw2jLwCwXkRja6j0XHaGG4gGIM80wVLyAoIdB/Fy5D53TjixsC92YmAMU+7J7fXiIJfQqu/Sh2fHPt/LTGsfgWJZUJytFd4JHeYdl/GYXGNoa5AtWjndrPVvO9/3gJ9/WRoJi3nqbry6SNhAlFCtxEPyA+h/lErMDdYcApXEVB0HPTYVUnEsCJb8ZXnpwelI4lQod3294CbBqHz9KZJFWlF8DTmk1e4fp7ZfIZuuGXEp8skL08P+3OpfYMJ+ZEPvDUHVeDDCWmZ7zZScbzXV9vIZG3M09FM78atlHVLMVPxRKvn6TGyn0sJ0yPa7Oc2inei3Ajn1OLdKkmSK5niBSOb9gc5PRtPLjS/X0NBWAhdggqehgBFom1QrG9rlUuY8+5Gv1DIdXmhQE4uewoLyi7m0qBPebjqHM0bqerVHT6ElZhPwbUzvWi/BVlgBK5hIzrUVzur0JEf8fUFnUB3BBqKcgmio8YNVqbUIScPdap0KjslKARqGLwsQHT5dOsk9yHk773nf3hernXi0GU0Fxeo9nlsQrevYLg5kMmSylke4VKypRn4wsn34mR+OlJiMDFXkP9BziLgS1ANKHukQotoMvh/GooDfDZI+OAUfden2fSng==|920
