@@ -143,7 +143,7 @@
         }
       },
       "BindingInfo": {
-        "TableName": "주문데이터",
+        "TableName": "견적데이터",
         "ColumnName": "거래처_ID"
       }
     },
@@ -168,7 +168,7 @@
         "UseSimpleBar": true,
         "Name": "리스트뷰1",
         "DetailListViewInfo": {
-          "MasterTable": "주문데이터",
+          "MasterTable": "견적데이터",
           "ColumnOfMasterTable": "ID",
           "ColumnOfDetailTable": "견적_ID",
           "DataCommitType": 2
@@ -273,7 +273,7 @@
         "ReadOnly": true
       },
       "BindingInfo": {
-        "TableName": "주문데이터",
+        "TableName": "견적데이터",
         "ColumnName": "주문일"
       },
       "DataValidationInfo": {}
@@ -1378,4 +1378,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}//at2IbiSaM2ImFGS1gKcQ1RNj/sN1vCUJQSsQnUdQkbiCiSYBivzWFTZLlJqqBBrrUUeWU7EPLBUEvy0rOTAH7yqBZBUyRodm24t/lpuPkx5DWJ9PJWujf2zSwPdkHKSr+4b/SVH9Oo3/C2xmNrjD3TD7KtkyP6spjuu9pKkhnuTk1IqPULtyOSA3sguam0TIIL7oxh+bVZuihMqmzUhCWFejXFJcIhcm44vU0ut7z9Zvp3R4A6z5teoa2EKPT1t8ZSs1JTNDoGUVijVKeTyn/BO/SUe5l7zjECDf4m+FCjPcJFSKB7bcyTXj+qedgvueajZuYRWmKveVSAG6h7rF8Wj/X4MmhDLw8gEhpcTeJtC5cY7NQDaqO8Z+JEjnf3L37FRwFxR/eghe/SEnKBixsif/ThebMSzcOvYWV6GWI8QbAJS6dq7pbCWTsOHZHS4IJvKt9J3cl/+J7AkaryPlILa3olgEnj1NBvq2aqAwSyAusFHS+A/YhH2NpS1SsCVJVGug4hqZk3DkxHHwHjPBqSGX87a803k1jU3WDtSvCoS7R5NWq6sMAv8ZAncwfnvVq9X5f9brm1n3lPnuPxzrXyfHy5AibEjyX4twB5HyPTYm984Wlr6tPIBSx0AJJn7t4cIwLsVf2sIZ+SymQezBjLQHlgtqK/8yNk+5hSzE5vcsp91QZ4srN/iKuBhWPkufhs+p+HZoQ5uvz2QmzDfKA8SHSv0uH6j85iIk+c6A0XXkrezczcjC+Zy/cvYzM9vd06A3+LgqDn1+ut+AWt7UcPpO0uIuA6D8qI6d/iWqL7nsWDpCn7hfAh8kjRau64vbsAmy2ThuOlAATf/hQ5O1e1glSZPfIysMzzt6MI/wRV04SXZh7hZ4IrMiLYvlbFq4+WdJssLfj+Wx4dDJe7/eHQ==|920
+}//vgrqIEK8SRAu0qa4oYA4Jgq3070kFpwTI0x6H5kdjsWUPUgmH6wxyQ25v/CFU596WuPpQWy2UwP40uOC1xl03vX3dYOLgY6H1usFo9W7Dhez3EiVSgxdC96YMP7IdD0J67fYja/GMsq6ynbpWSdS8n4wyzf9tQC2k/eObdsnIl0pN0Yo8DWduJfR+KUnDfSsVEhd2KzrqYiHyC8/ylJZS43eIIU+nHst2W9IXdnj9qoNh8sFGFElEcgDiRKTrBL6rjQZ56nP91iKlN77ZywK4l8xJgVhKNltFFjLocj9YLT3V3h+xstuZA6iC1xmJObUyrFZSl9gOp+NmjJPOFKlvl2+UCOXaHqNvJlGXuXyCE9BhyF4mhtu7jzQZQn+a4ifoIqvm9pvEjZDCr4hnOThW4hEy8XuVv2QlYEeZMW+4lsoFDCoLtcNmCXdJNnKdRF/4qN/ZaOoy3zkiYgGLB6U//Ar8M3sENCOk+UVzFX9lZd0EaklE3Rsrm8iaIRn+nfT3pOamJuD9b6miwc6va8MwNsBoOSx+nVQ6YvlsNbWyLcRxuYUzJD3JDruM/6acNs/o7pE/QtJBlVMGPBMWXnICz1+CupxkNxDAOTW9tPcbVfWO90KeLXLJZEgC/NIH0MFoe/YNdxPr/Seanuy1L8eR4jljpPYtEufsF4ZQGXOgNG2RipRcwdoneqbVuY5vMMHIAQIHyfn5WKPHex5t/j9wHcHPfC+PsK1nUHYN6Dk9XZufPCm0rjtUJ00se6WwfZirB3qR70j19HswRWvYOy/UGdltIBwrprKug4oNaU6ou/yVQr0b86UbMylZoaHKJEGdoyq0wmPtaIOKKcnYoL3x4jvc+/lbCiPHhZ+3S9veDNMLir++R2igaPI88qLpu99x767t7TeTgiFLnkhT4k7+A==|920

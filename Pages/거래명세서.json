@@ -107,13 +107,13 @@
   "AttachInfos": {
     "2,24": {
       "BindingInfo": {
-        "TableName": "주문데이터",
+        "TableName": "견적데이터",
         "ColumnName": "견적번호"
       }
     },
     "5,3": {
       "BindingInfo": {
-        "TableName": "주문데이터",
+        "TableName": "견적데이터",
         "ColumnName": "거래처_ID",
         "RelationBinding": {
           "RelatedTable": "거래처",
@@ -124,7 +124,7 @@
     },
     "7,7": {
       "BindingInfo": {
-        "TableName": "주문데이터",
+        "TableName": "견적데이터",
         "ColumnName": "거래처_ID",
         "RelationBinding": {
           "RelatedTable": "거래처",
@@ -147,7 +147,7 @@
         "UseSimpleBar": true,
         "Name": "리스트뷰1",
         "DetailListViewInfo": {
-          "MasterTable": "주문데이터",
+          "MasterTable": "견적데이터",
           "ColumnOfMasterTable": "ID",
           "ColumnOfDetailTable": "견적_ID",
           "DataCommitType": 2
@@ -162,7 +162,7 @@
         "TableName": "견적상세자료",
         "ColumnName": "견적_ID",
         "RelationBinding": {
-          "RelatedTable": "주문데이터",
+          "RelatedTable": "견적데이터",
           "RelatedColumn": "ID",
           "DisplayColumn": "주문일"
         }
@@ -223,7 +223,7 @@
     },
     "22,8": {
       "BindingInfo": {
-        "TableName": "주문데이터",
+        "TableName": "견적데이터",
         "ColumnName": "참조"
       }
     },
@@ -1443,4 +1443,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}//BNcjoIcvsKhcbraHvQX4YEAYfjOMhbTvgGF7pPRzL1h51HXkUMl1frcXiK6PrE14V/f6bpkCocVYhxNun9yd9Sxh+r6F0QbjBvZHlI+acZ9TMREDrrkAzELHfP2jfG2+sODequtydK/sHYf4KbmrGGJBahETaSAXfY5OHLc7cFfqk100ytqYoyUoi6apCIln9L6oGs5X9gp0OJn36/cO5n7akOxIGrytL40heoShW5K7VFY/HapRd+XWrNpLNn2lTKRnb92uEwQWUe//41LFGHmRgU4mAZmoo6JyEVvQJQD8LEvZ4w3aVfrdkQRoYljdtB3n2ocjGfcgwoWLOoi64DRAy1AF9zj2EC6cqzdvurK0mzmhUqtXwu69QSlL2Dw/DmVdI0JnUFtXboXUwjhPyQzdfqEzP/ZvM5L0fgEeYCOZ4sknlsUUoT0PoxlAf6AEJQLQOn3L4Z7ht8tPe0ALu9z+6pdHiaDcZK93KrIE5rdhMdE8lCCEnl/pmr0VaEnCplgyynLLTWqyFOjhhYmtduHbC06H7zTbaFsY2u4BUSeI56H6grzgC5v+8WfPosneivporH03tNjzFEKklrYL+uq4m4w97P3MDMVMfwtym8D8Q2T1V57JhR3IwmS6SuLKSr85QM9wWw83/9DPaUFsRbsYCvxCiiRLke8HhnOKBsodG2gopibG/OtL1k8YEGdzBGUA2fmKKazZwRpjZZJC/cMHc2p+yp2LRRLGW/nA0mfF4RBIyEeE4wWuFQGLR+iKOGFfGoLJ/XT3eMX4EzsGpR1iE/+yxH3aLPTFkLpTgrWJVgQk+8M5MOvP3nm7PLWcIRKmqbK8fjtTcmj3YrVJLUkBpEh9Va2DPnmnxqf+NtObUUgMi9BuIo0/gmBxnVLbs1NP/vX+SqaEr8Fsp0zcEw==|920
+}//A9tIBSB96zmxjLsQURD29JV8b33/fFtn+0cunjxSoWipivkYpwvJDBbRIoRzlF69Z+M2g0p5XVEZ8x0DpvtO9bjGUJBwVoyCeGnR3avln94gkWmsASEKmvuDH86w4Pv9Jnug3NwFCkNJcPTVPJTmLdd3MiyiQOCEUe5KNhJ4N3+RKu1c3KEbnDAlK0UrRXVO0JwQeSczNORx9JBWHKFuc5FLkjYFVGjEEj5WXI3LBgtpRKg6nUeIKLPfHD/sELDYtYGyydA8h+TDGa6uoVs3tAUYwbLejRnW+TITHW0xhPx4058+f29CKJR9jw+Hbr3DeZKy4dffSXw2nuy3/xvBTAkR0i0tMNti0MKnVCZpeKxEeLjusaM4hCO9NWbXuenqNnWFNjvIRB1LgKk7HmRDjquygUt/Ns+OH2FKQsdpGmVqxP6on767nkcIW1svOJAFWvHmYKXAoWR+ISz9RxSsS2e4CYjTqQtespq1pUCt0jVCFNv3EfpFUlBv+HL6CtxaLiAzHZPUHUFewcXzHz8x2fqlm+9ABBCrqdIPJAYbfBJ4EG6XSJ3R2/tvWf0vTK3J+kZh1MvjF5w6KTZmk9Ztnj8h0OsrDXCyTlmmGpARV64f6dwNn6prwYz3HeGNLCAsiYdq19mMws6os+FMpYIRFaIlSWL9w/FE/3JMuUOjPIGkjds8WMxnSJkYGMuVEprlBdWHJO8VYcayZ0pcrqsM+0JyObXv4JK7PQ8q8rhF83FMgHyIC/kkyjAD8TX9eOKqEH/EPXPO21M2QqnKzy5RkIjPEKvWiD7KbfK0o16HjPoLakj/HMBOBk/aypDfd5aB3jSMpvYOl3xRp2SH4272g74vIHmE6dOyHqdrw48+pCe8O3b1YqFWb5wrZv9bMfqqAOF7OqmsEOfS784l6eZpyQ==|920
