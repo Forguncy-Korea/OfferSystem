@@ -187,7 +187,16 @@
   },
   {
     "ModuleName": "PCPage/메인화면",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "DESKTOP-SFEU14D\\NamHee",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-10-10T11:33:51.9481616+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\메인화면.json"
+    ]
   },
   {
     "ModuleName": "PCPage/견적서입력페이지",
