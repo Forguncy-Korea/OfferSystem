@@ -1,22 +1,62 @@
 [
   {
     "ModuleName": "Table/거래처",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "DESKTOP-SFEU14D\\NamHee",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-10-10T10:48:49.9294611+09:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\거래처.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/제품",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "DESKTOP-SFEU14D\\NamHee",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-10-10T10:48:49.9294611+09:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\제품.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/견적상세자료",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "DESKTOP-SFEU14D\\NamHee",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-10-10T10:48:49.9294611+09:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\견적상세자료.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/출하창고",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "DESKTOP-SFEU14D\\NamHee",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-10-10T10:48:49.9294611+09:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\출하창고.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
@@ -257,11 +297,42 @@
   },
   {
     "ModuleName": "Table/판매테이블",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "DESKTOP-SFEU14D\\NamHee",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-10-10T10:48:49.9294611+09:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\판매테이블.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/견적데이터",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "DESKTOP-SFEU14D\\NamHee",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-10-10T10:48:49.9294611+09:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\견적데이터.json",
+      "ForguncyDB.sqlite3"
+    ],
+    "ExclusiveType": 0
+  },
+  {
+    "ModuleName": "Table/판매상세자료",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "DESKTOP-SFEU14D\\NamHee",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-10-10T10:48:49.9294611+09:00",
     "ModuleType": 7,
     "ExclusiveType": 0
   }
