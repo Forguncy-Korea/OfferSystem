@@ -117,14 +117,14 @@
     "31,8": "리스트"
   },
   "Formulas": {
-    "19,40": "AH20*0.1",
-    "29,40": "SUM(AO20)",
     "19,1": "ODATA(\"제품?$select=품목코드&$filter=ID eq \"&IF(ISBLANK(H20),\"null\",H20))",
+    "29,40": "SUM(AO20)",
+    "19,40": "AH20*0.1",
     "19,26": "ODATA(\"제품?$select=가격&$filter=ID eq \"&IF(ISBLANK(H20),\"null\",H20))",
     "19,33": "AA20*W20",
-    "29,22": "SUM(W20)",
+    "19,17": "ODATA(\"제품?$select=규격명&$filter=ID eq \"&IF(ISBLANK(H20),\"null\",H20))",
     "29,33": "SUM(AH20)",
-    "19,17": "ODATA(\"제품?$select=규격명&$filter=ID eq \"&IF(ISBLANK(H20),\"null\",H20))"
+    "29,22": "SUM(W20)"
   },
   "AttachInfos": {
     "5,8": {
@@ -133,12 +133,10 @@
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
       },
       "BindingInfo": {
-        "TableName": "견적데이터",
-        "ColumnName": "견적일"
+        "TableName": "주문데이터",
+        "ColumnName": "판매일"
       },
-      "DataValidationInfo": {
-        "IgnoreBlank": false
-      }
+      "DataValidationInfo": {}
     },
     "5,31": {
       "CellType": {
@@ -171,7 +169,7 @@
         }
       },
       "BindingInfo": {
-        "TableName": "견적데이터",
+        "TableName": "주문데이터",
         "ColumnName": "거래처_ID"
       },
       "DataValidationInfo": {
@@ -219,7 +217,7 @@
         }
       },
       "BindingInfo": {
-        "TableName": "견적데이터",
+        "TableName": "주문데이터",
         "ColumnName": "담당자"
       }
     },
@@ -254,7 +252,7 @@
         }
       },
       "BindingInfo": {
-        "TableName": "견적데이터",
+        "TableName": "주문데이터",
         "ColumnName": "출하창고_ID"
       },
       "DataValidationInfo": {}
@@ -332,7 +330,7 @@
         ]
       },
       "BindingInfo": {
-        "TableName": "견적데이터",
+        "TableName": "주문데이터",
         "ColumnName": "거래유형"
       }
     },
@@ -362,21 +360,17 @@
         "CellDefaultValue": "내자"
       },
       "BindingInfo": {
-        "TableName": "견적데이터",
+        "TableName": "주문데이터",
         "ColumnName": "통화"
       }
     },
     "11,8": {
       "CellType": {
         "$type": "Forguncy.DateCellType, ServerDesignerCommon",
-        "CellDefaultValue": {
-          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-          "SerializeProperty": "=TODAY()"
-        },
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
       },
       "BindingInfo": {
-        "TableName": "견적데이터",
+        "TableName": "주문데이터",
         "ColumnName": "납기일자"
       },
       "DataValidationInfo": {}
@@ -393,7 +387,7 @@
         "WaterMark": "참조"
       },
       "BindingInfo": {
-        "TableName": "견적데이터",
+        "TableName": "주문데이터",
         "ColumnName": "참조"
       }
     },
@@ -407,7 +401,7 @@
         "TemplateKey": "_RS_Normal_Style2"
       },
       "BindingInfo": {
-        "TableName": "견적데이터",
+        "TableName": "주문데이터",
         "ColumnName": "첨부파일"
       }
     },
@@ -453,7 +447,7 @@
         "UseSimpleBar": true,
         "Name": "리스트뷰1",
         "DetailListViewInfo": {
-          "MasterTable": "견적데이터",
+          "MasterTable": "주문데이터",
           "ColumnOfMasterTable": "ID",
           "ColumnOfDetailTable": "견적_ID",
           "DataCommitType": 2
@@ -558,12 +552,12 @@
                     ]
                   },
                   "value": "저장",
-                  "Id": "8fa0009b-72c2-4d57-bb66-0895e585caf0"
+                  "Id": "a2840d3c-4823-48ef-af30-616bb49a4805"
                 },
                 "CommandList": [
                   {
                     "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
-                    "TableName": "견적데이터",
+                    "TableName": "주문데이터",
                     "UpdateType": "add",
                     "ShowConfirm": false,
                     "ConfirmText": "데이터를 추가하시겠습니까?",
@@ -590,7 +584,7 @@
                         }
                       },
                       {
-                        "ColumnName": "견적일",
+                        "ColumnName": "판매일",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                           "SerializeProperty": "=판매입력페이지!I6"
@@ -664,109 +658,9 @@
                         }
                       }
                     ]
-                  },
-                  {
-                    "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
-                    "TableName": "판매테이블",
-                    "UpdateType": "add",
-                    "ShowConfirm": false,
-                    "ConfirmText": "데이터를 추가하시겠습니까?",
-                    "UpdateValues": [
-                      {
-                        "ColumnName": "거래처_ID",
-                        "Value": {
-                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "=판매입력페이지!AF6"
-                        }
-                      },
-                      {
-                        "ColumnName": "제품_ID",
-                        "Value": {
-                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "=판매입력페이지!H20"
-                        }
-                      },
-                      {
-                        "ColumnName": "총공급가",
-                        "Value": {
-                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "=판매입력페이지!AH30"
-                        }
-                      },
-                      {
-                        "ColumnName": "공급가액합계",
-                        "Value": {
-                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "=판매입력페이지!AH30"
-                        }
-                      },
-                      {
-                        "ColumnName": "주문수량",
-                        "Value": {
-                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "=판매입력페이지!W30"
-                        }
-                      },
-                      {
-                        "ColumnName": "출하창고_ID",
-                        "Value": {
-                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "=판매입력페이지!AF8"
-                        }
-                      },
-                      {
-                        "ColumnName": "담당자",
-                        "Value": {
-                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "=판매입력페이지!I8"
-                        }
-                      },
-                      {
-                        "ColumnName": "통화",
-                        "Value": {
-                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "=판매입력페이지!AF10"
-                        }
-                      },
-                      {
-                        "ColumnName": "첨부파일",
-                        "Value": {
-                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "=판매입력페이지!I14"
-                        }
-                      },
-                      {
-                        "ColumnName": "부가세합계",
-                        "Value": {
-                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "=판매입력페이지!AO30"
-                        }
-                      },
-                      {
-                        "ColumnName": "납기일자",
-                        "Value": {
-                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "=판매입력페이지!I12"
-                        }
-                      },
-                      {
-                        "ColumnName": "거래유형",
-                        "Value": {
-                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "=판매입력페이지!I10"
-                        }
-                      },
-                      {
-                        "ColumnName": "참조",
-                        "Value": {
-                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "=판매입력페이지!AF12"
-                        }
-                      }
-                    ]
                   }
                 ],
-                "ID": "9a689485-09e2-43dd-b056-cf3b2901c113"
+                "ID": "63eea5b6-adc3-453c-963c-b41a0afaa757"
               },
               {
                 "Condition": {
@@ -780,12 +674,12 @@
                     ]
                   },
                   "value": "수정",
-                  "Id": "fa6eed7b-8e8d-42a9-b125-3d5d206073ed"
+                  "Id": "a69bea5a-0288-48e6-8f4c-b50a5d2d484c"
                 },
                 "CommandList": [
                   {
                     "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
-                    "TableName": "견적데이터",
+                    "TableName": "주문데이터",
                     "ShowConfirm": false,
                     "ConfirmText": "데이터를 업데이트하시겠습니까?",
                     "UpdateValues": [
@@ -823,109 +717,9 @@
                         }
                       }
                     ]
-                  },
-                  {
-                    "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
-                    "TableName": "판매테이블",
-                    "UpdateType": "add",
-                    "ShowConfirm": false,
-                    "ConfirmText": "데이터를 추가하시겠습니까?",
-                    "UpdateValues": [
-                      {
-                        "ColumnName": "거래처_ID",
-                        "Value": {
-                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "=판매입력페이지!AF6"
-                        }
-                      },
-                      {
-                        "ColumnName": "제품_ID",
-                        "Value": {
-                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "=판매입력페이지!H20"
-                        }
-                      },
-                      {
-                        "ColumnName": "총공급가",
-                        "Value": {
-                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "=판매입력페이지!AH30"
-                        }
-                      },
-                      {
-                        "ColumnName": "공급가액합계",
-                        "Value": {
-                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "=판매입력페이지!AH30"
-                        }
-                      },
-                      {
-                        "ColumnName": "주문수량",
-                        "Value": {
-                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "=판매입력페이지!W30"
-                        }
-                      },
-                      {
-                        "ColumnName": "출하창고_ID",
-                        "Value": {
-                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "=판매입력페이지!AF8"
-                        }
-                      },
-                      {
-                        "ColumnName": "담당자",
-                        "Value": {
-                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "=판매입력페이지!I8"
-                        }
-                      },
-                      {
-                        "ColumnName": "통화",
-                        "Value": {
-                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "=판매입력페이지!AF10"
-                        }
-                      },
-                      {
-                        "ColumnName": "첨부파일",
-                        "Value": {
-                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "=판매입력페이지!I14"
-                        }
-                      },
-                      {
-                        "ColumnName": "부가세합계",
-                        "Value": {
-                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "=판매입력페이지!AO30"
-                        }
-                      },
-                      {
-                        "ColumnName": "납기일자",
-                        "Value": {
-                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "=판매입력페이지!I12"
-                        }
-                      },
-                      {
-                        "ColumnName": "거래유형",
-                        "Value": {
-                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "=판매입력페이지!I10"
-                        }
-                      },
-                      {
-                        "ColumnName": "참조",
-                        "Value": {
-                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "=판매입력페이지!AF12"
-                        }
-                      }
-                    ]
                   }
                 ],
-                "ID": "93bfc8c6-f8d8-4b11-9b2e-baa9cbda1806"
+                "ID": "62fac8cb-56cf-42ed-bfb2-b1e5809f9717"
               }
             ]
           },
@@ -2060,7 +1854,6 @@
     "19,33,1,7",
     "19,40,1,7",
     "1,1,2,5",
-    "5,8,1,14",
     "20,1,9,46",
     "18,1,1,6",
     "18,7,1,10",
@@ -2068,7 +1861,8 @@
     "18,22,1,4",
     "18,26,1,7",
     "18,33,1,7",
-    "18,40,1,7"
+    "18,40,1,7",
+    "5,8,1,14"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
@@ -2084,4 +1878,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}//zy5kXnhJK88LowwkBrUsEoA+K01aF8rODT0fg88yb2TSdHnQiW08Yo/mF71VF90gmlb9YL1luZvU88YgF/jOlB0lCZsstwYp26pHJMGLp1sswzvB7DVuJSwWVn7h6t9LuRqz30wIB79lR71t/lz7qXvhXout9ZyQPw1ZaFxUchvLesMceKl9m3nJII32RhSLNZQnaJ0O4fAmo9jnuf3LxkXBHFBqxVXkKuMMrrSRD+Qexj99nLIstaKwxviFm/G1Ug/eKmPMh9FuWQM2ZVFawsUBpRdeixKMYnEoZzdyd4HYDCPtqdqEzr3Miln7LIdCn+5Wzhxg5kFh6dEoIJmZHy3g73JsN3U1Wi7Sh92xj5z+2EOPxzAAb9qsyiue/4NOEzMfbfW2H8bZmkhSyhrCbNHs83OO7GPNeDgmCWTadUDOG7aKmkzAcplI+wH0dotBrU4HOZdlv6vrD5zYbxT65kJ/bMfGMgU6NBuLmarjEyk2ECvXDUvcxudbZhiBTCg+u5DtEsD9ZWAS0Gm4Li5qlssAvIDFQB5/LVGj+2y04TvGpJzdh6fopGBRAB+luVWXj/y4623jMZbG5soz04s60VW3vGgvBL45k6VxUMczvezdeD4Xg7qb3Phf7qMvtDuIKUR4Bp6f0QJ95Aqz2YHIVmKETKdtqb1rrfJ9oBdPXW5cOJZmNap9iWSZfLDrbz0zxrGMeYaa3gmAzjl+jy00jR85PjHEd6MD4gbG31VxtWRMw+U8oXgc95iMeFXvlMfWhIsnFVNyagVqhpBAQ3PQUELC1f6TCuoAdAoC2/P6aI5g5hwEhJ3h/tNHCEtk7t2pJHut1e11wdABwIB+Y/TKRS15GM1tveE9GTeR6BzcVyI4ecOwM5uwU/oV39lXPcBefzS2HI7NDYVOVSGqcVm3xA==|920
+}//88gVrjAnoI3Uzi4tgnShx1RLgltityVm3BnxUfi6XORvAHvoOq7tvsmGQlfM4eEPmJ6ZPq2WXTKz9Ql8sRyaiKNamGVtPYe9vc2k6AmHAAoAzSIGXhIXISDeIzDfOdXfMhIuCWSmSirf43N6GIz+CTvxgrZBUIRbXOrF3DJkukXE0xd4KdOu//QOCS84YBTP7nueKls84lPqTBgTfVC8QjV0VIlkt/oqrhBTEdXO82QCDEtEEwHXk15L+lRJtuofz42OsTD95D1/dXFvj31qq8nrWLsQ1bp03KX55r3v7611n/PAmpEzJum9x4uI5NB/jGfUvR6hFmg208Lim1HNqpJE499iWWVFPzSGlTcX3XqavI5wecm3NFu4PnONaBZjTtPaiHtiYMLJ6lxjYJOBkQJXAiF6ZdsYgY0HLYCicWSvk18u7ljgakpQkBCFog/cGYmqaBX+Zd3A0ReZiG72q+v+b8PiexIzHKKP4t0zPFD6B/lqSGkEYa4T6nUCt/X1T/hzClUR305N5qThmqL0qrntKsK21lrp+yAaqSqXTKQAOltzb5nCegV/ziQspwWu+b06xwp7HArYVBeD2ttvSQmlr/CN5VEVjAWOAM51xb6ZcB4eZqq1cYh+NXEzG3MVwSjkYgkmN67t5af5TA2Ler/WPMzEvf+k7RQ9FdPP7VLrCB5WAcgIX3S4ZNNDEOXV91yF9LfOEOcWR9XRNQ+9zA8tUUtLm35u+Sm09AkkK8BKNcikKZddXsBSNXO/tNGgHJ8FCC/2ZmwN+WVHhPbd78rx4XLX/NIOIZo7hbUFAr17PmI1PxtR0BK8hywwtuO6IASZXyTD0biibqwNIidDlTiBDVikvwfg9iyNiqr8i7IJFnRLLYozPT+GwkhwRdu6sZpnnsliet79a+RNV2DSeQ==|920

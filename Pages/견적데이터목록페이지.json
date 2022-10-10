@@ -219,7 +219,7 @@
         "CommandList": [
           {
             "$type": "Forguncy.Model.QueryCommand, ServerDesignerCommon",
-            "TargetTableName": "견적데이터",
+            "TargetTableName": "주문데이터",
             "SqlCondition": {
               "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
               "Condition1": {
@@ -232,7 +232,7 @@
                       "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
                       "CompareType": 6,
                       "ColumnBindingInfo": {
-                        "TableName": "견적데이터",
+                        "TableName": "주문데이터",
                         "ColumnName": "출하창고_ID",
                         "RelationBinding": {
                           "RelatedTable": "출하창고",
@@ -245,13 +245,13 @@
                         "SerializeProperty": "=견적데이터목록페이지!U2"
                       },
                       "LeftBracket": 1,
-                      "Id": "8c340d76-287d-43a2-bc49-cc55afac511a"
+                      "Id": "cdc49adf-cd71-4123-8845-428decb6db0b"
                     },
                     "Condition2": {
                       "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
                       "CompareType": 6,
                       "ColumnBindingInfo": {
-                        "TableName": "견적데이터",
+                        "TableName": "주문데이터",
                         "ColumnName": "거래처_ID",
                         "RelationBinding": {
                           "RelatedTable": "거래처",
@@ -263,16 +263,16 @@
                         "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                         "SerializeProperty": "=견적데이터목록페이지!U2"
                       },
-                      "Id": "5ef11434-b285-4429-b328-8a2e18983910"
+                      "Id": "8b35bed8-ee9f-4092-a095-6a9346cf676d"
                     },
                     "RelationType": 1,
-                    "Id": "2803c38c-f1f1-4ae6-8908-cdd5704c29bf"
+                    "Id": "73e36873-8644-438d-ac55-9cd8aceca6a8"
                   },
                   "Condition2": {
                     "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
                     "CompareType": 6,
                     "ColumnBindingInfo": {
-                      "TableName": "견적데이터",
+                      "TableName": "주문데이터",
                       "ColumnName": "제품_ID",
                       "RelationBinding": {
                         "RelatedTable": "제품",
@@ -284,16 +284,16 @@
                       "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                       "SerializeProperty": "=견적데이터목록페이지!U2"
                     },
-                    "Id": "8f79c416-7bf8-40aa-98db-a9d84eab3cf9"
+                    "Id": "c8614695-a7c7-45b7-be98-f908141b56f5"
                   },
                   "RelationType": 1,
-                  "Id": "53cf8d13-f849-478f-9149-ca22fa00c5ec"
+                  "Id": "a39cea3c-f553-4984-bebb-89880d0ae224"
                 },
                 "Condition2": {
                   "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
                   "CompareType": 6,
                   "ColumnBindingInfo": {
-                    "TableName": "견적데이터",
+                    "TableName": "주문데이터",
                     "ColumnName": "Contact"
                   },
                   "Value": {
@@ -301,30 +301,30 @@
                     "SerializeProperty": "=견적데이터목록페이지!U2"
                   },
                   "RightBracket": 1,
-                  "Id": "d5bd95b9-7f4b-4818-b9f2-79e0491b3cf4"
+                  "Id": "e844d907-3f66-4b30-91dd-b8e20033d66a"
                 },
                 "RelationType": 1,
-                "Id": "dc5118bf-2252-4b6a-add3-4da78341d923"
+                "Id": "66a0d234-4c97-47e8-82ec-9a3f9feba6a0"
               },
               "Condition2": {
                 "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
                 "ColumnBindingInfo": {
-                  "TableName": "견적데이터",
+                  "TableName": "주문데이터",
                   "ColumnName": "종결여부"
                 },
                 "Value": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                   "SerializeProperty": "=견적데이터목록페이지!C17"
                 },
-                "Id": "7e263f29-3658-420a-a6ec-8eb2a7de463b"
+                "Id": "1543a07b-cae6-4fa2-917d-354ac98086d2"
               },
-              "Id": "7fb01219-75e9-4c85-9deb-c5d98a3418a2"
+              "Id": "1063f2f9-5fd3-4d68-8184-e0e94905f83a"
             },
             "Params": [
               "=U2",
               "=C17"
             ],
-            "ID": "33c4fbb3bfd540348f5b4171c76ba6f0"
+            "ID": "db047204af5049bbb5bafdeaad4e3350"
           }
         ],
         "Text": "Search",
@@ -370,7 +370,7 @@
           },
           {
             "$type": "Forguncy.Model.QueryCommand, ServerDesignerCommon",
-            "TargetTableName": "견적데이터",
+            "TargetTableName": "주문데이터",
             "SqlCondition": {
               "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
               "Condition1": {
@@ -383,20 +383,20 @@
                       "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
                       "CompareType": 6,
                       "ColumnBindingInfo": {
-                        "TableName": "견적데이터",
+                        "TableName": "주문데이터",
                         "ColumnName": "견적번호"
                       },
                       "Value": {
                         "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                         "SerializeProperty": "=견적데이터목록페이지!Z2"
                       },
-                      "Id": "554bdf10-94d5-4f1c-85f3-0bf17395480c"
+                      "Id": "dd13bed5-4095-4fd0-8959-758edaf73838"
                     },
                     "Condition2": {
                       "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
                       "CompareType": 6,
                       "ColumnBindingInfo": {
-                        "TableName": "견적데이터",
+                        "TableName": "주문데이터",
                         "ColumnName": "거래처_ID",
                         "RelationBinding": {
                           "RelatedTable": "거래처",
@@ -408,16 +408,16 @@
                         "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                         "SerializeProperty": "=견적데이터목록페이지!Z2"
                       },
-                      "Id": "11123ebf-bd31-4d31-b0dc-e92ae4e36c6f"
+                      "Id": "a265c299-f864-4888-bffe-69cbe1a8b746"
                     },
                     "RelationType": 1,
-                    "Id": "c69d9407-7660-4ef5-9672-6520bd1caa17"
+                    "Id": "dc292d3d-36b9-42cc-b1db-06356bfbdcd0"
                   },
                   "Condition2": {
                     "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
                     "CompareType": 6,
                     "ColumnBindingInfo": {
-                      "TableName": "견적데이터",
+                      "TableName": "주문데이터",
                       "ColumnName": "출하창고_ID",
                       "RelationBinding": {
                         "RelatedTable": "출하창고",
@@ -429,16 +429,16 @@
                       "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                       "SerializeProperty": "=견적데이터목록페이지!Z2"
                     },
-                    "Id": "29507ada-8471-45ea-9d50-94a1d10350ea"
+                    "Id": "b13fba76-8f07-4395-94d6-d0f9c8595ff4"
                   },
                   "RelationType": 1,
-                  "Id": "d41f130f-c6fa-45fb-8259-18c8ea3df54a"
+                  "Id": "fc4f0923-b98b-4057-a3e7-971983944b8c"
                 },
                 "Condition2": {
                   "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
                   "CompareType": 6,
                   "ColumnBindingInfo": {
-                    "TableName": "견적데이터",
+                    "TableName": "주문데이터",
                     "ColumnName": "제품_ID",
                     "RelationBinding": {
                       "RelatedTable": "제품",
@@ -450,31 +450,31 @@
                     "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                     "SerializeProperty": "=견적데이터목록페이지!Z2"
                   },
-                  "Id": "6bd8cfcb-ddb3-4c67-b72c-c99413322903"
+                  "Id": "c763c70a-2d46-4fb3-92d1-d502a8df6294"
                 },
                 "RelationType": 1,
-                "Id": "705f5dd5-d457-4006-9598-c2a4c5e3eb53"
+                "Id": "ae667c90-9a7f-4207-a20f-b3eabefcd83b"
               },
               "Condition2": {
                 "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
                 "CompareType": 6,
                 "ColumnBindingInfo": {
-                  "TableName": "견적데이터",
+                  "TableName": "주문데이터",
                   "ColumnName": "Contact"
                 },
                 "Value": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                   "SerializeProperty": "=견적데이터목록페이지!Z2"
                 },
-                "Id": "8f4a8547-2575-426f-a4e0-2bf497e15c67"
+                "Id": "ad09b5e4-5fad-4a02-9c49-82e10f1aa94d"
               },
               "RelationType": 1,
-              "Id": "7427b4e0-7f80-4f32-8040-10f3627664d8"
+              "Id": "57fe01d4-6473-4834-89fd-2c90bbd855f0"
             },
             "Params": [
               "=Z2"
             ],
-            "ID": "629ecd692b4345e5ba6953fe328a6780"
+            "ID": "b4a6a37914c74a67b7e6e98d7d8d68a0"
           }
         ],
         "Text": "상세검색",
@@ -690,7 +690,7 @@
         "CommandList": [
           {
             "$type": "Forguncy.Model.QueryCommand, ServerDesignerCommon",
-            "TargetTableName": "견적데이터",
+            "TargetTableName": "주문데이터",
             "SqlCondition": {
               "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
               "Condition1": {
@@ -705,92 +705,92 @@
                         "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
                         "CompareType": 3,
                         "ColumnBindingInfo": {
-                          "TableName": "견적데이터",
-                          "ColumnName": "견적일"
+                          "TableName": "주문데이터",
+                          "ColumnName": "주문일"
                         },
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                           "SerializeProperty": "=견적데이터목록페이지!H5"
                         },
                         "LeftBracket": 1,
-                        "Id": "13899c2b-eb16-4f8d-84bf-f142abd195ce"
+                        "Id": "38ccff71-7a85-4489-8ac1-27e5e5494809"
                       },
                       "Condition2": {
                         "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
                         "CompareType": 5,
                         "ColumnBindingInfo": {
-                          "TableName": "견적데이터",
-                          "ColumnName": "견적일"
+                          "TableName": "주문데이터",
+                          "ColumnName": "주문일"
                         },
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                           "SerializeProperty": "=견적데이터목록페이지!U5"
                         },
                         "RightBracket": 1,
-                        "Id": "7ea80f57-7a43-4ce4-917b-59b7623c5e02"
+                        "Id": "fa93acbb-8e5f-43ef-8fd3-e794cb18ea2f"
                       },
-                      "Id": "9a5d82e1-6537-4162-ac9a-c7642d9157e2"
+                      "Id": "fba49e1b-c465-4eff-a955-17006ba0a36e"
                     },
                     "Condition2": {
                       "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
                       "ColumnBindingInfo": {
-                        "TableName": "견적데이터",
+                        "TableName": "주문데이터",
                         "ColumnName": "출하창고_ID"
                       },
                       "Value": {
                         "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                         "SerializeProperty": "=견적데이터목록페이지!J7"
                       },
-                      "Id": "0e089449-a9cc-4712-aa46-d2f7799cfca9"
+                      "Id": "7049dde5-e61e-4f15-acd0-f875e22f9696"
                     },
                     "RelationType": 1,
-                    "Id": "92fbf1b4-0c5d-4f53-9997-b684e9764909"
+                    "Id": "3a02434f-cae7-4bfa-935a-e5a1be002495"
                   },
                   "Condition2": {
                     "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
                     "ColumnBindingInfo": {
-                      "TableName": "견적데이터",
+                      "TableName": "주문데이터",
                       "ColumnName": "거래처_ID"
                     },
                     "Value": {
                       "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                       "SerializeProperty": "=견적데이터목록페이지!J9"
                     },
-                    "Id": "8b5520f4-483e-4807-a242-4f33302890d2"
+                    "Id": "2ae62d85-34a1-41bc-9782-ee8f0cefd3f8"
                   },
                   "RelationType": 1,
-                  "Id": "d0d8820c-bde2-4234-8081-01e2e57672f8"
+                  "Id": "a5862f48-eae7-4b7b-9669-24e648b92ca0"
                 },
                 "Condition2": {
                   "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
                   "CompareType": 6,
                   "ColumnBindingInfo": {
-                    "TableName": "견적데이터",
+                    "TableName": "주문데이터",
                     "ColumnName": "Contact"
                   },
                   "Value": {
                     "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                     "SerializeProperty": "=견적데이터목록페이지!H13"
                   },
-                  "Id": "18695287-4195-4966-a0b3-68ea68ef22e8"
+                  "Id": "38077ccc-d9ef-451f-9665-1551fa12edb8"
                 },
                 "RelationType": 1,
-                "Id": "4af45a12-e001-4f69-9563-e0f6b2d84314"
+                "Id": "d4906ad7-24cc-4906-bc61-cb6d9e7c6188"
               },
               "Condition2": {
                 "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
                 "ColumnBindingInfo": {
-                  "TableName": "견적데이터",
+                  "TableName": "주문데이터",
                   "ColumnName": "제품_ID"
                 },
                 "Value": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                   "SerializeProperty": "=견적데이터목록페이지!J11"
                 },
-                "Id": "3e7664db-d92c-4b4e-a99b-3c6350f0d71f"
+                "Id": "bc5bcba8-4985-42bb-b724-e7fd493a52c8"
               },
               "RelationType": 1,
-              "Id": "133d60f4-331d-4a62-a6a4-e0bcb689e048"
+              "Id": "b6bd611f-86ef-4fd3-90ef-4ef0a89225de"
             },
             "Params": [
               "=H5",
@@ -800,7 +800,7 @@
               "=H13",
               "=J11"
             ],
-            "ID": "fc145a329e3443f7be13e9bff99afee2"
+            "ID": "d863063f3bea441f870da55d137f5894"
           }
         ],
         "Text": "검색",
@@ -886,23 +886,23 @@
                     ]
                   },
                   "value": "전체",
-                  "Id": "ab19e4ee-cea0-4b23-a1be-30e205f020ab"
+                  "Id": "861b804f-fd97-4450-bf55-6042c5a744ae"
                 },
                 "CommandList": [
                   {
                     "$type": "Forguncy.Model.QueryCommand, ServerDesignerCommon",
-                    "TargetTableName": "견적데이터",
+                    "TargetTableName": "주문데이터",
                     "SqlCondition": {
                       "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
                       "Condition1": {
                         "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
                         "CompareType": 1,
                         "ColumnBindingInfo": {
-                          "TableName": "견적데이터",
+                          "TableName": "주문데이터",
                           "ColumnName": "ID"
                         },
                         "Value": "%Null%",
-                        "Id": "ca9cf2a9-396e-453d-94f0-f86331314bfa"
+                        "Id": "27f154e5-0eb3-46a4-be1e-ecc789710fee"
                       },
                       "Condition2": {
                         "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
@@ -914,7 +914,7 @@
                               "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
                               "CompareType": 6,
                               "ColumnBindingInfo": {
-                                "TableName": "견적데이터",
+                                "TableName": "주문데이터",
                                 "ColumnName": "거래처_ID",
                                 "RelationBinding": {
                                   "RelatedTable": "거래처",
@@ -927,13 +927,13 @@
                                 "SerializeProperty": "=견적데이터목록페이지!U2"
                               },
                               "LeftBracket": 1,
-                              "Id": "94215ac1-1c88-4e65-b471-56270674adc8"
+                              "Id": "6cc980fa-10ee-441c-91db-715d00eea227"
                             },
                             "Condition2": {
                               "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
                               "CompareType": 6,
                               "ColumnBindingInfo": {
-                                "TableName": "견적데이터",
+                                "TableName": "주문데이터",
                                 "ColumnName": "출하창고_ID",
                                 "RelationBinding": {
                                   "RelatedTable": "출하창고",
@@ -945,16 +945,16 @@
                                 "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                                 "SerializeProperty": "=견적데이터목록페이지!U2"
                               },
-                              "Id": "2cf8e48e-8b1c-42d3-8c49-f091ee448ede"
+                              "Id": "564dc5c3-4aac-4068-92d7-750b082d5feb"
                             },
                             "RelationType": 1,
-                            "Id": "71be70a6-a5c8-4711-b60f-a68ab6ea46e2"
+                            "Id": "89a4239f-839a-41c0-a36e-7097147cf017"
                           },
                           "Condition2": {
                             "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
                             "CompareType": 6,
                             "ColumnBindingInfo": {
-                              "TableName": "견적데이터",
+                              "TableName": "주문데이터",
                               "ColumnName": "제품_ID",
                               "RelationBinding": {
                                 "RelatedTable": "제품",
@@ -966,16 +966,16 @@
                               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                               "SerializeProperty": "=견적데이터목록페이지!U2"
                             },
-                            "Id": "23064947-b637-43aa-9b8b-33343fb3f740"
+                            "Id": "1e508b1a-5fbb-4149-a200-a1c9b294800d"
                           },
                           "RelationType": 1,
-                          "Id": "adb5c1d9-c339-4fee-b7bb-e78b019b40f5"
+                          "Id": "bb78afb8-7846-42f1-9af3-6b5a021c8d5e"
                         },
                         "Condition2": {
                           "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
                           "CompareType": 6,
                           "ColumnBindingInfo": {
-                            "TableName": "견적데이터",
+                            "TableName": "주문데이터",
                             "ColumnName": "Contact"
                           },
                           "Value": {
@@ -983,20 +983,20 @@
                             "SerializeProperty": "=견적데이터목록페이지!U2"
                           },
                           "RightBracket": 1,
-                          "Id": "35e5c6cf-0a1e-4972-b745-c1f567f3017a"
+                          "Id": "57351ece-869e-4ba9-a960-e41c8bcba26b"
                         },
                         "RelationType": 1,
-                        "Id": "980e3a95-01a2-4e0e-8a39-6c20d426288b"
+                        "Id": "924c2161-87bb-45c3-982f-83ed25939c64"
                       },
-                      "Id": "5f8a233d-29c8-4e3f-b37d-f639881b7800"
+                      "Id": "56578184-e5b5-4421-b8ef-544855ce4a4d"
                     },
                     "Params": [
                       "=U2"
                     ],
-                    "ID": "e468d5cca647485f8a4744657299f1fe"
+                    "ID": "956e9e88a4e04ab4b34648b49bb684fd"
                   }
                 ],
-                "ID": "013c37f6-7423-43e7-9020-89c52340ab0f"
+                "ID": "90d41827-17b9-49c3-9295-7a4209836a57"
               },
               {
                 "Condition": {
@@ -1010,22 +1010,22 @@
                     ]
                   },
                   "value": "진행중",
-                  "Id": "e0b22d20-0a46-468e-92fd-31f6b1da7592"
+                  "Id": "759d476b-126a-469a-8fd4-fe1a10609ec7"
                 },
                 "CommandList": [
                   {
                     "$type": "Forguncy.Model.QueryCommand, ServerDesignerCommon",
-                    "TargetTableName": "견적데이터",
+                    "TargetTableName": "주문데이터",
                     "SqlCondition": {
                       "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
                       "Condition1": {
                         "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
                         "ColumnBindingInfo": {
-                          "TableName": "견적데이터",
+                          "TableName": "주문데이터",
                           "ColumnName": "종결여부"
                         },
                         "Value": "진행중",
-                        "Id": "9ae8bc28-74ca-4293-bbdd-0530c644eab6"
+                        "Id": "6a8016e4-5ba4-40ee-9dd9-912191261b36"
                       },
                       "Condition2": {
                         "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
@@ -1037,7 +1037,7 @@
                               "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
                               "CompareType": 6,
                               "ColumnBindingInfo": {
-                                "TableName": "견적데이터",
+                                "TableName": "주문데이터",
                                 "ColumnName": "거래처_ID",
                                 "RelationBinding": {
                                   "RelatedTable": "거래처",
@@ -1050,13 +1050,13 @@
                                 "SerializeProperty": "=견적데이터목록페이지!U2"
                               },
                               "LeftBracket": 1,
-                              "Id": "32a4c840-f7fd-42ba-aff9-1e12b22e61ff"
+                              "Id": "365e73c2-467c-470e-bfcd-c388bb8988bd"
                             },
                             "Condition2": {
                               "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
                               "CompareType": 6,
                               "ColumnBindingInfo": {
-                                "TableName": "견적데이터",
+                                "TableName": "주문데이터",
                                 "ColumnName": "출하창고_ID",
                                 "RelationBinding": {
                                   "RelatedTable": "출하창고",
@@ -1068,16 +1068,16 @@
                                 "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                                 "SerializeProperty": "=견적데이터목록페이지!U2"
                               },
-                              "Id": "8bab352b-66dd-4910-91f9-aba6bd09ba4c"
+                              "Id": "e058b2e4-fe25-4eb9-944d-115e136d053d"
                             },
                             "RelationType": 1,
-                            "Id": "0cd7de58-cb4b-47d4-afd6-9071fcbc4dde"
+                            "Id": "1966036d-a172-42bb-9c3f-80bec6614b77"
                           },
                           "Condition2": {
                             "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
                             "CompareType": 6,
                             "ColumnBindingInfo": {
-                              "TableName": "견적데이터",
+                              "TableName": "주문데이터",
                               "ColumnName": "제품_ID",
                               "RelationBinding": {
                                 "RelatedTable": "제품",
@@ -1089,16 +1089,16 @@
                               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                               "SerializeProperty": "=견적데이터목록페이지!U2"
                             },
-                            "Id": "d376e915-1f92-40bd-8d4d-071f1a228808"
+                            "Id": "45c7fadb-e0ee-447b-b094-89c2d34dc08c"
                           },
                           "RelationType": 1,
-                          "Id": "ebc61c6c-ad6a-47f8-bd40-c0e6f9a54580"
+                          "Id": "20d5ebec-31f2-4d5f-a8da-34d2c8c948e2"
                         },
                         "Condition2": {
                           "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
                           "CompareType": 6,
                           "ColumnBindingInfo": {
-                            "TableName": "견적데이터",
+                            "TableName": "주문데이터",
                             "ColumnName": "Contact"
                           },
                           "Value": {
@@ -1106,20 +1106,20 @@
                             "SerializeProperty": "=견적데이터목록페이지!U2"
                           },
                           "RightBracket": 1,
-                          "Id": "75518e25-8abd-42bd-ada8-f7f3cb334429"
+                          "Id": "bb1c461e-eaae-454d-98ee-55c4269a97af"
                         },
                         "RelationType": 1,
-                        "Id": "9c5bc7f0-b397-4097-bbe2-76a386d7b610"
+                        "Id": "be79afbf-f8e8-4be7-8d3e-082f648a50ea"
                       },
-                      "Id": "c6aeb3ef-c734-42aa-b1ec-fd4919c266cf"
+                      "Id": "0e505c91-5625-4a47-951f-7d8e63a78d0b"
                     },
                     "Params": [
                       "=U2"
                     ],
-                    "ID": "a280878cf15e48ed85a5d778c2586e57"
+                    "ID": "19686c9dd444453685e16bb64e5e7502"
                   }
                 ],
-                "ID": "8885956c-f83d-4298-af1f-4fd4c40f8686"
+                "ID": "47c9beb3-bf59-4281-b85e-e48f8522bcf8"
               },
               {
                 "Condition": {
@@ -1133,22 +1133,22 @@
                     ]
                   },
                   "value": "완료",
-                  "Id": "c4e96339-7ecd-44db-91cb-03a594e27c6c"
+                  "Id": "d1fb520b-d5cd-4d6f-b5a3-cdf8fae17765"
                 },
                 "CommandList": [
                   {
                     "$type": "Forguncy.Model.QueryCommand, ServerDesignerCommon",
-                    "TargetTableName": "견적데이터",
+                    "TargetTableName": "주문데이터",
                     "SqlCondition": {
                       "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
                       "Condition1": {
                         "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
                         "ColumnBindingInfo": {
-                          "TableName": "견적데이터",
+                          "TableName": "주문데이터",
                           "ColumnName": "종결여부"
                         },
                         "Value": "완료",
-                        "Id": "7fbe1dfa-362f-426b-8694-31112d664d2a"
+                        "Id": "ea0e9c2f-73d3-4b2c-9a0a-70ecf3e521f3"
                       },
                       "Condition2": {
                         "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
@@ -1160,7 +1160,7 @@
                               "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
                               "CompareType": 6,
                               "ColumnBindingInfo": {
-                                "TableName": "견적데이터",
+                                "TableName": "주문데이터",
                                 "ColumnName": "거래처_ID",
                                 "RelationBinding": {
                                   "RelatedTable": "거래처",
@@ -1173,13 +1173,13 @@
                                 "SerializeProperty": "=견적데이터목록페이지!U2"
                               },
                               "LeftBracket": 1,
-                              "Id": "fbcf450a-65b5-4a18-871d-2434eea1fe8b"
+                              "Id": "b16c7c29-36ac-40ec-ad3a-d69a218e266e"
                             },
                             "Condition2": {
                               "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
                               "CompareType": 6,
                               "ColumnBindingInfo": {
-                                "TableName": "견적데이터",
+                                "TableName": "주문데이터",
                                 "ColumnName": "출하창고_ID",
                                 "RelationBinding": {
                                   "RelatedTable": "출하창고",
@@ -1191,16 +1191,16 @@
                                 "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                                 "SerializeProperty": "=견적데이터목록페이지!U2"
                               },
-                              "Id": "ac9434cb-41b6-4da7-97bf-cbab3dbcb935"
+                              "Id": "c10267d5-7e8a-45ba-9a74-2bf0c3ce635e"
                             },
                             "RelationType": 1,
-                            "Id": "db35431a-72b0-47a2-a49c-7772de346ab5"
+                            "Id": "857a78ce-4555-4921-a2ed-cbfc2f61dd51"
                           },
                           "Condition2": {
                             "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
                             "CompareType": 6,
                             "ColumnBindingInfo": {
-                              "TableName": "견적데이터",
+                              "TableName": "주문데이터",
                               "ColumnName": "제품_ID",
                               "RelationBinding": {
                                 "RelatedTable": "제품",
@@ -1212,16 +1212,16 @@
                               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                               "SerializeProperty": "=견적데이터목록페이지!U2"
                             },
-                            "Id": "3001e7bb-dacc-4346-8c2a-b2b5305b5c6c"
+                            "Id": "eaa7e4fd-f3a4-44ea-affb-2c84b3ae4035"
                           },
                           "RelationType": 1,
-                          "Id": "deb49752-640b-48c5-9bae-1db7f370d68e"
+                          "Id": "b4268387-d7d5-4e0a-93fb-a5f756bfc11b"
                         },
                         "Condition2": {
                           "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
                           "CompareType": 6,
                           "ColumnBindingInfo": {
-                            "TableName": "견적데이터",
+                            "TableName": "주문데이터",
                             "ColumnName": "Contact"
                           },
                           "Value": {
@@ -1229,20 +1229,20 @@
                             "SerializeProperty": "=견적데이터목록페이지!U2"
                           },
                           "RightBracket": 1,
-                          "Id": "f80b86b6-2c9e-452c-860f-5a81ddff68da"
+                          "Id": "0c95b060-b3cd-4aa4-890a-5fe38e256fca"
                         },
                         "RelationType": 1,
-                        "Id": "33f07865-2886-40e0-933b-1aceb98e7c25"
+                        "Id": "bc2366fb-8d50-46d8-870e-d2d7811dc1c0"
                       },
-                      "Id": "da4cdb61-8468-4b47-9131-64b4ac954975"
+                      "Id": "3b640efc-cab2-4fad-8053-9ff34038418a"
                     },
                     "Params": [
                       "=U2"
                     ],
-                    "ID": "a902c24ed02c487aaf42021e1d2d0334"
+                    "ID": "71ad151d1c4c4b26b4500344800f2ccd"
                   }
                 ],
-                "ID": "b4c822f5-4e2c-4f95-9fd9-2a3acf8829cb"
+                "ID": "84b0d3b7-d06f-49fd-8db3-29e1b0bd647e"
               }
             ]
           }
@@ -1278,7 +1278,7 @@
     "20,1": {
       "ListViewInfo": {
         "ShowColumnHeaderInDesigner": true,
-        "TableName": "견적데이터",
+        "TableName": "주문데이터",
         "RowIndex": 20,
         "ColumnIndex": 1,
         "ColumnCount": 69,
@@ -1294,31 +1294,31 @@
           "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
           "CompareType": 1,
           "ColumnBindingInfo": {
-            "TableName": "견적데이터",
+            "TableName": "주문데이터",
             "ColumnName": "ID"
           },
           "Value": "%Null%",
-          "Id": "4f758d63-6657-43d9-95aa-ed811abc2f0d"
+          "Id": "30b7c131-303f-49a8-bd03-f71ee72f3c5a"
         },
         "TopCondition": null,
         "OrderByCondition": {
           "OrderByColumns": [
             {
               "ColumnBindingInfo": {
-                "TableName": "견적데이터",
-                "ColumnName": "견적일"
+                "TableName": "주문데이터",
+                "ColumnName": "주문일"
               },
               "Order": 0
             }
           ],
-          "Id": "04fd9c4c-5dd6-4f23-8011-72a491c8b76a"
+          "Id": "f2e9633d-f24e-402e-925b-aace9f890f9e"
         },
         "ListViewStyleName": "사용자 정의2"
       }
     },
     "21,3": {
       "BindingInfo": {
-        "TableName": "견적데이터",
+        "TableName": "주문데이터",
         "ColumnName": "ID"
       }
     },
@@ -1343,7 +1343,7 @@
         "ClickMode": 1
       },
       "BindingInfo": {
-        "TableName": "견적데이터",
+        "TableName": "주문데이터",
         "ColumnName": "견적번호"
       }
     },
@@ -1352,8 +1352,8 @@
         "$type": "Forguncy.DateCellType, ServerDesignerCommon"
       },
       "BindingInfo": {
-        "TableName": "견적데이터",
-        "ColumnName": "견적일"
+        "TableName": "주문데이터",
+        "ColumnName": "주문일"
       },
       "DataValidationInfo": {
         "IgnoreBlank": false
@@ -1361,7 +1361,7 @@
     },
     "21,12": {
       "BindingInfo": {
-        "TableName": "견적데이터",
+        "TableName": "주문데이터",
         "ColumnName": "거래처_ID",
         "RelationBinding": {
           "RelatedTable": "거래처",
@@ -1372,13 +1372,13 @@
     },
     "21,17": {
       "BindingInfo": {
-        "TableName": "견적데이터",
+        "TableName": "주문데이터",
         "ColumnName": "담당자"
       }
     },
     "21,22": {
       "BindingInfo": {
-        "TableName": "견적데이터",
+        "TableName": "주문데이터",
         "ColumnName": "제품_ID",
         "RelationBinding": {
           "RelatedTable": "제품",
@@ -1389,31 +1389,31 @@
     },
     "21,31": {
       "BindingInfo": {
-        "TableName": "견적데이터",
+        "TableName": "주문데이터",
         "ColumnName": "견적공급가액합계"
       }
     },
     "21,36": {
       "BindingInfo": {
-        "TableName": "견적데이터",
+        "TableName": "주문데이터",
         "ColumnName": "견적부가세합계"
       }
     },
     "21,42": {
       "BindingInfo": {
-        "TableName": "견적데이터",
+        "TableName": "주문데이터",
         "ColumnName": "총공급가"
       }
     },
     "21,47": {
       "BindingInfo": {
-        "TableName": "견적데이터",
+        "TableName": "주문데이터",
         "ColumnName": "주문수량"
       }
     },
     "21,50": {
       "BindingInfo": {
-        "TableName": "견적데이터",
+        "TableName": "주문데이터",
         "ColumnName": "종결여부"
       },
       "ConditionFormatRulesCollection": {
@@ -1441,19 +1441,19 @@
     },
     "21,53": {
       "BindingInfo": {
-        "TableName": "견적데이터",
+        "TableName": "주문데이터",
         "ColumnName": "참조"
       }
     },
     "21,57": {
       "BindingInfo": {
-        "TableName": "견적데이터",
+        "TableName": "주문데이터",
         "ColumnName": "Contact"
       }
     },
     "21,61": {
       "BindingInfo": {
-        "TableName": "견적데이터",
+        "TableName": "주문데이터",
         "ColumnName": "거래처_ID",
         "RelationBinding": {
           "RelatedTable": "거래처",
@@ -4548,9 +4548,9 @@
       },
       {
         "$type": "Forguncy.Model.QueryCommand, ServerDesignerCommon",
-        "TargetTableName": "견적데이터",
+        "TargetTableName": "주문데이터",
         "Params": [],
-        "ID": "39f771f1ad7245a58a270bbc944f3a98"
+        "ID": "e8e9f038657f486885c4bedfe87cdbd1"
       }
     ],
     "AuthorizeInfo": {
@@ -4564,4 +4564,4 @@
     "Orientation": 2,
     "PaperSize": {}
   }
-}//2BEZ1mFTXbPxA2nA0JGbzSx063NjsM6vXCWdduF9+mlADZWk+lGSrS4zCC+oSn1CPkHFEqfI6/aUF01OWTlqOeB+RNXETr2q2AmI1yuDGFiNzg7XDp+47Da3C/dYx/X8DYp3jTz4M5QJHZnE7+0JCAQHpN/WFjhfufl56jdfhM1h83vo1gIvHYh7Oy90OKWpax2Tv1MJcQEMWKkoF8XONMzpBVW03CQ8fL/ldEAY89uX+7ZAnv6y41GNQCsj3EkSlKg1M/PWJfFmUb5yq6ZiHAdk0jl4K8ls4N9sQTFoLcPJ0NGGDduzE4yA4UDXULVtiDD3j69zI7KsKIhJPibl/TJLxI24UsHfzjo92LgOaBPDCDH793o+oEylN4CXs5Nep6JKl0Tek/XHYiM03zPFgb7lCz/k2IKT/yyvlYk+Z4KvV9jZZzrR7n5ICUhCAvBaKCCg7I5IH+dN2O52k2mWcsVIVFNvqMeRsXOTLtCIjxUYT8nJP/81aO+jgx5RuH5hYorgY3KHqKWDcUV7/RSJfiGvTLQQm1z7Hq4P9MP1dJM9482zfYxV/OPxaYW435itgduhH6aJ5RIW/jl8y2x9xyooLggsNQLfLFAHOaM/jtTojp2RBSZtwdLyBN5oZ3PtdCIk0ntqLmWlz5FwDmdSta57zYFuKJWMrklTGTO5zk/q4veYKpklajxNbKA8VWQK9ijSXtuCjUBDKEaWPTK5Ffa6QxdYvcFsLN6zu+Cr64yhFGIUW9QA7Vfqj/1g/TbNllq7EhI+AgtJvdW88BjKpYF9ZefB9AVKCcn+ZeApZZG0MWDoWTWOIjZB8zshmR1TxkH0cuwkTyXgVLuFmiqzSQggtxusUAeRRhnzrOCFiRXlBEAfBsa0+TspAv380sQj7E4uj0zpt1W9RpG8DE9G2Q==|920
+}///mAabX5a5YvdT1P47H/qBtlGrby7rek0Jz04XZgYfIFPNum1oQB3dnK4YwxePLcc/CY1S9/PIJNuo4nCLeIwRpEqwwV0E2hXrpHCfWg9YjUy+GXkGMO1XsmrMrfCjYbKnGj76VS0TcK2MB5jcfAsj+jbF+ASK8rRErW5FtFvRY/uYdQGlOOGHMGBY0yKPUFJhYXxVnYoAOrKBgtWsktU1lyiLnCNWkVik/OLcnxxixEl6TCESyQw+Lz9R+I0FIYDhdUNM9sJuWWXlcxRHA8WRpt5ya6/2ame4a48107KE7AOzI5wekly4pY43Vo/bWaEIbzRopyk64tE+MouJ0Ri0eg3hC8CuiylmtOUiks43hZM/dyLFg9Gq/1jfB+TTKIHj6+InfBQp7g1y5fjXIigGb20t3CT79fS2YH522dXVLNeRAzJoccC4rNUfiVbPvjPmI9ybAsFQx9oKLI/P7S7bKL8eOkuzYCaTdZUoO2JGTKzlylr0DLybk10Hp4Q+g9PsgEtbAOnLr2iLRaRRdMDxHMsZ/znJbyTuhq99pUzA0ZzYeA8yMrpBS0bzRRPSlmz1RkTcpRHdokVpNg9QMq/a6qc/22r882bDQbq4h50q3u5qQd8s5Vw+bu8eOJ5mU6gKJAs/zBj/3Z7YQ4DlvUTu/AXSHtw2STH/2Mu9uMPimK0YxKuzLIHENdyRwvp+WvgR3DeOnE0+0E8YklBiuHffnZzHXs7y1PeJEP7WXCl65g6t6GAJ5BIJq1swd88LPN9cXCt46zOYYIBZX61EEGxVbzHx9hxt+laE1zIMEQgV74A7Ytu9t8bPtj4dYff3YHnxH97fV9KJzBnXC352oDBP86io/xbP5AlonK0QV2of9N5F5aSxmpsq1nkvVfokRTN8QHgzakou9ravTenv5Z7OQ==|920

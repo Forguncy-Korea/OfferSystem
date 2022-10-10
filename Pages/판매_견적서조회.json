@@ -58,7 +58,7 @@
     "4,1": {
       "ListViewInfo": {
         "ShowColumnHeaderInDesigner": true,
-        "TableName": "견적데이터",
+        "TableName": "주문데이터",
         "RowIndex": 4,
         "ColumnIndex": 1,
         "ColumnCount": 57,
@@ -77,13 +77,13 @@
           "OrderByColumns": [
             {
               "ColumnBindingInfo": {
-                "TableName": "견적데이터",
+                "TableName": "주문데이터",
                 "ColumnName": "견적번호"
               },
               "Order": 0
             }
           ],
-          "Id": "8d5e2a65-5402-42c9-9628-194360065906"
+          "Id": "3083e5d4-e371-481f-b65f-1f5b211ec006"
         },
         "ListViewStyleName": "사용자 정의2"
       }
@@ -102,7 +102,7 @@
         "ClickMode": 1
       },
       "BindingInfo": {
-        "TableName": "견적데이터",
+        "TableName": "주문데이터",
         "ColumnName": "견적번호"
       }
     },
@@ -111,8 +111,8 @@
         "$type": "Forguncy.DateCellType, ServerDesignerCommon"
       },
       "BindingInfo": {
-        "TableName": "견적데이터",
-        "ColumnName": "견적일"
+        "TableName": "주문데이터",
+        "ColumnName": "주문일"
       },
       "DataValidationInfo": {
         "IgnoreBlank": false
@@ -120,7 +120,7 @@
     },
     "5,10": {
       "BindingInfo": {
-        "TableName": "견적데이터",
+        "TableName": "주문데이터",
         "ColumnName": "거래처_ID",
         "RelationBinding": {
           "RelatedTable": "거래처",
@@ -131,13 +131,13 @@
     },
     "5,16": {
       "BindingInfo": {
-        "TableName": "견적데이터",
+        "TableName": "주문데이터",
         "ColumnName": "담당자"
       }
     },
     "5,21": {
       "BindingInfo": {
-        "TableName": "견적데이터",
+        "TableName": "주문데이터",
         "ColumnName": "제품_ID",
         "RelationBinding": {
           "RelatedTable": "제품",
@@ -148,19 +148,19 @@
     },
     "5,30": {
       "BindingInfo": {
-        "TableName": "견적데이터",
+        "TableName": "주문데이터",
         "ColumnName": "견적공급가액합계"
       }
     },
     "5,37": {
       "BindingInfo": {
-        "TableName": "견적데이터",
+        "TableName": "주문데이터",
         "ColumnName": "견적부가세합계"
       }
     },
     "5,43": {
       "BindingInfo": {
-        "TableName": "견적데이터",
+        "TableName": "주문데이터",
         "ColumnName": "총공급가"
       }
     },
@@ -179,7 +179,7 @@
         ]
       },
       "BindingInfo": {
-        "TableName": "견적데이터",
+        "TableName": "주문데이터",
         "ColumnName": "종결여부"
       },
       "ConditionFormatRulesCollection": {
@@ -207,13 +207,13 @@
     },
     "5,52": {
       "BindingInfo": {
-        "TableName": "견적데이터",
+        "TableName": "주문데이터",
         "ColumnName": "참조"
       }
     },
     "5,54": {
       "BindingInfo": {
-        "TableName": "견적데이터",
+        "TableName": "주문데이터",
         "ColumnName": "Contact"
       }
     }
@@ -1925,19 +1925,19 @@
     "PageLoadedCommandList": [
       {
         "$type": "Forguncy.Model.QueryCommand, ServerDesignerCommon",
-        "TargetTableName": "견적데이터",
+        "TargetTableName": "주문데이터",
         "SqlCondition": {
           "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
           "CompareType": 1,
           "ColumnBindingInfo": {
-            "TableName": "견적데이터",
+            "TableName": "주문데이터",
             "ColumnName": "ID"
           },
           "Value": "%Null%",
-          "Id": "8d063201-7039-4ede-8939-7c06b0fbdec9"
+          "Id": "7891ccc6-cd13-49e9-aa0a-b35f026982d4"
         },
         "Params": [],
-        "ID": "baa7019b430a4ac1bdbed3074d3eb14c"
+        "ID": "1ff2c9c01e784733b4f361ecce411011"
       }
     ],
     "AuthorizeInfo": {
@@ -1956,4 +1956,4 @@
     "ZoomFactor": 0.69999999999999973,
     "PaperSize": {}
   }
-}//leFtNDOYFUuy3ZIHVkDZTgistqJ7C6/OU+a2LH4aFDVuRaImpXYXe8wznuON5b2ECOiDvZHNFjKrG38h1wk0ZmTEIAiSxuNYNsl9U3vnMTQ6hmgYPWKrhtwJui8SIqR4siHjdCnLMDV1F620shHZNbD243qgOLGtof+ZvzRBri2gH9fy7dOp0T8li/jEhd7hpOlk2ZUNdpHy8Mg8JjfGIcVmoAUk99Ht8DarShafKVnCNJtMLp7US2Z+VMHPSPgP43xObAu4nnPLUiyiDrcHfOgXcUmsaAYfH4AHkVRuPKJuaSoB06QyALtdLvl/JrZk25ALzVp7ZShqKLJQuXqEBgL3BEpfX4WQNzsQUL51ktK01Lesh8p7piUdGKIiRRw9o3gDXSU+L50k9/5P3lzGrT7Nd2C840gpSvnSx2r1y6yvQ+ftNRHyy3W11M1gg4BZsfw3kE6jvopExwrQxe/OmgyF6vrnECZ1C0Quf0tVXE+lFLZurkGVc6s+xZ7PXJxZnoQYmN2pFHlirgVBbddO0bCg9wYjxJmfIH/makdQ0fmXhQBR+txCczNjaQD2b2fuk88SN/4z5SkPcQ/YIlJfF2PEm9kLKi3uh9DBDuDe6QLcTGjMAkv3zxl2Q8lm7Wn+LK8s6BrbyytwCMTeKOCM4GDq562KiF0WzYSdbK1/NOogdrjMQSXfeqX5s5NskooBIUOw6pG+95TB+yOWQLrpLw7WaHsdTlWI5Ruuh9nRnKg4BUke7BczYGEVrh/9KPOAkcz92Ct1Jk+6oA8Tn7C5mW1DRaMXHY9TVldnxuVsCgpir1vBI46XU9TygGaoWb7HGDJp2K7yhXaEc5G3qJFFBMWxqc9DQODFm3rg8O1lGKFy8s+pkTXN9atFKHgM640PlTseyxpN/Q6Ovyh9ITmoGA==|920
+}//SgBYUW5gWch5kznxJ1J2PozRkvKfsIm5ufH/9PysvG8UDPSAKCy7wRz/Gjc8AhUmLedw7mawCg1xoyLpA6jxvdiP92wA3eXTUmdVhoP38AvkitGhuiMoeNlNqSlCsw0KKYcbn/NNd16BE/xn8nhY05i2NfUSUIOXFRFlgueAG6wquME0X/93F/+g5brMiTPXzjDjofwUeOMbtQOnQj/OTcyYO3mpAJ6/SLGUH2ioHBzT/7UPaE6X/RtNxvAN4FI83Kh2o6OC4OwY9CeDmVVylb/2QNbN6NLnmArGIgDPHwZszKytI5t4hKmxGT7F9ZnnSN9fVYIVBaBamLeklSutZlWZDeTHQxlgsL+mpjlyoMp9U4kOI+xX4zAOJhXGUreNlar2p1ybHxx/L8ObDnv7zOOdcIGUWsZ3ozvbTAO/MxG4oBzmcH6bHeKvv/HA+0RiP0CnKK9Y0qvjGnRuCekipfJk9W5w4aTZipW9D544doyLPOC9kjD3yGQhvaIyHzu7cmFDhlbv5aFaxyrYMoLO0L3sZ+jCM2qwLt2Pk5rpZqEzyqc/FcrMXIQCPI/yYedjsSwwNLOVIQ8TFwVSI4XShMWA8LzkdOYxbJguBB+rGG8cuIZHBqiNHlnrar2Q+yJXrem03AhwKiEqIEvNlcCZhEIMqZWRbTd8rfe7X4rKR0IFXulbg48Ona2nTGgqwVkJv6OvXoPzfOZajrAZ7M0F7KU/C4JoCe7lL6AgVcrHQOFlOuRVRMMxlzcRfU/7xMgWmFIfulpPIN4mjB72GTQZs9eHQ1KRDazkrGlAhIn9DOZkhWJRalm1R32LP3jP56ry3htic51yZaiFjwYoU8dH1UFOrxTz3FBPs+XBf1/ChV4D82IL7ySOxdDOJoELqEIxil0Bwq2/ko6eg+uNpUqjng==|920
