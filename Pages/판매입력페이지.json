@@ -367,6 +367,10 @@
     "11,8": {
       "CellType": {
         "$type": "Forguncy.DateCellType, ServerDesignerCommon",
+        "CellDefaultValue": {
+          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+          "SerializeProperty": "=TODAY()"
+        },
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
       },
       "BindingInfo": {
@@ -552,7 +556,7 @@
                     ]
                   },
                   "value": "저장",
-                  "Id": "a2840d3c-4823-48ef-af30-616bb49a4805"
+                  "Id": "a291f317-0c9b-40eb-89fd-17d98aee61e1"
                 },
                 "CommandList": [
                   {
@@ -660,7 +664,7 @@
                     ]
                   }
                 ],
-                "ID": "63eea5b6-adc3-453c-963c-b41a0afaa757"
+                "ID": "b5e68a9c-e0f9-474a-93d0-a93dd40bad5d"
               },
               {
                 "Condition": {
@@ -674,7 +678,7 @@
                     ]
                   },
                   "value": "수정",
-                  "Id": "a69bea5a-0288-48e6-8f4c-b50a5d2d484c"
+                  "Id": "b1079e8f-d6c1-43a6-8f8d-3ea3d3835af1"
                 },
                 "CommandList": [
                   {
@@ -692,6 +696,13 @@
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                           "SerializeProperty": "=판매입력페이지!W30"
+                        }
+                      },
+                      {
+                        "ColumnName": "납기일자",
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=판매입력페이지!I12"
                         }
                       }
                     ]
@@ -719,7 +730,7 @@
                     ]
                   }
                 ],
-                "ID": "62fac8cb-56cf-42ed-bfb2-b1e5809f9717"
+                "ID": "8116d26d-2ca1-4653-8f95-a22b526e0209"
               }
             ]
           },
@@ -1855,14 +1866,14 @@
     "19,40,1,7",
     "1,1,2,5",
     "20,1,9,46",
+    "5,8,1,14",
     "18,1,1,6",
     "18,7,1,10",
     "18,17,1,5",
     "18,22,1,4",
     "18,26,1,7",
     "18,33,1,7",
-    "18,40,1,7",
-    "5,8,1,14"
+    "18,40,1,7"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
@@ -1878,4 +1889,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}//88gVrjAnoI3Uzi4tgnShx1RLgltityVm3BnxUfi6XORvAHvoOq7tvsmGQlfM4eEPmJ6ZPq2WXTKz9Ql8sRyaiKNamGVtPYe9vc2k6AmHAAoAzSIGXhIXISDeIzDfOdXfMhIuCWSmSirf43N6GIz+CTvxgrZBUIRbXOrF3DJkukXE0xd4KdOu//QOCS84YBTP7nueKls84lPqTBgTfVC8QjV0VIlkt/oqrhBTEdXO82QCDEtEEwHXk15L+lRJtuofz42OsTD95D1/dXFvj31qq8nrWLsQ1bp03KX55r3v7611n/PAmpEzJum9x4uI5NB/jGfUvR6hFmg208Lim1HNqpJE499iWWVFPzSGlTcX3XqavI5wecm3NFu4PnONaBZjTtPaiHtiYMLJ6lxjYJOBkQJXAiF6ZdsYgY0HLYCicWSvk18u7ljgakpQkBCFog/cGYmqaBX+Zd3A0ReZiG72q+v+b8PiexIzHKKP4t0zPFD6B/lqSGkEYa4T6nUCt/X1T/hzClUR305N5qThmqL0qrntKsK21lrp+yAaqSqXTKQAOltzb5nCegV/ziQspwWu+b06xwp7HArYVBeD2ttvSQmlr/CN5VEVjAWOAM51xb6ZcB4eZqq1cYh+NXEzG3MVwSjkYgkmN67t5af5TA2Ler/WPMzEvf+k7RQ9FdPP7VLrCB5WAcgIX3S4ZNNDEOXV91yF9LfOEOcWR9XRNQ+9zA8tUUtLm35u+Sm09AkkK8BKNcikKZddXsBSNXO/tNGgHJ8FCC/2ZmwN+WVHhPbd78rx4XLX/NIOIZo7hbUFAr17PmI1PxtR0BK8hywwtuO6IASZXyTD0biibqwNIidDlTiBDVikvwfg9iyNiqr8i7IJFnRLLYozPT+GwkhwRdu6sZpnnsliet79a+RNV2DSeQ==|920
+}//4Fv2e38qyhh/3YXj5/sjWEkhW7Yu/qfkndp4prH5Bwo7XYoTQw5QfK0gpYYU8r9+rV/mm3mSTp4z6BmpEy+/AFyacA3g4XXb9eHor6mKSxs/bIPGQErDtlPeas2toE3foF2uo2EiXG8NfhVykO4YqQYQUtvAepd82W29A2OGvQz95n9opL42kxkyTB0crOLBjj+cQANoLYQsT3LmvbSLAc9zSJYu7jYEzFGdRclCqrSl5YBJYsCrHu6uWcjeJgntBYO7frd2JMWTZn5rVz6yzGXj49YuhYjrAIk+eA6fXHWSJPNuNaGzlpkT6pUEvVDJewYDn6YNQotSqBJyXu4/b8Gnu3bPz0iD8D0wa8KroyEf1Pp/jZLF9jvZPue33TIIy3kChYD0jOVX4h8vgk/BCInwusZPjW5mbj8JdWhH7WZXleMKDZIqzub4lGMB3PQWzDK+A6mbW3kzW628KDFdIvgiS9PhNaWQwtfAPYDQvlsGronFP12i0KCl4DgNqTIKuQii9orypRvqpHQXrV3D3VabgO77l1a7f51TxPwK7pW5OOpwRZ6dOnQ8bsFTBcNSGqg6izXC8jNXqaJBlPcrHdI39R0NbO0u3zJ2CMAYTzuTZQir4cBrO1YzIjXzZXlUvcjbShfyqvRY24PUfxHGv+2djXbTi3PtXGlSHD9aSI5Zsy7YANfe3zbsuCzEDzTUHQQNF6sFqCD4SqarnNyqg+FVe4yiSVVn9EFxk10p6dFsjXIGU5rfPqmbfIvsnSWDvL6lP1KAT6vHGHnD/x1fUIWNVtwG5PHPvsN+PlqmnuOfakgTTFzPoWsp1ToMmUj5pmF6EGdLEngOVq6QVuzSBKnMXTKlY41VFjN5FIEBsg4XBHKOBZZDPXxApV6vbAHNOeDkPkMvFhsTe52xLL6yDg==|920
