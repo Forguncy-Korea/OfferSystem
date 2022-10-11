@@ -134,7 +134,7 @@
       },
       "BindingInfo": {
         "TableName": "주문데이터",
-        "ColumnName": "주문일"
+        "ColumnName": "견적일"
       },
       "DataValidationInfo": {
         "IgnoreBlank": false
@@ -579,7 +579,7 @@
                     ]
                   },
                   "value": "저장",
-                  "Id": "26015f78-1217-4da0-81b6-bd69607a4a08"
+                  "Id": "09e9e83f-12d1-4cd7-b588-4831f17a4614"
                 },
                 "CommandList": [
                   {
@@ -590,7 +590,7 @@
                     "ConfirmText": "데이터를 추가하시겠습니까?",
                     "UpdateValues": [
                       {
-                        "ColumnName": "주문일",
+                        "ColumnName": "견적일",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                           "SerializeProperty": "=견적서입력페이지!I6"
@@ -715,7 +715,7 @@
                     ]
                   }
                 ],
-                "ID": "2bea3467-47d7-4256-a60b-d36eb454d812"
+                "ID": "49810163-1202-43b2-8d70-b6daa4c3eb05"
               },
               {
                 "Condition": {
@@ -729,7 +729,7 @@
                     ]
                   },
                   "value": "수정",
-                  "Id": "9e48710a-305e-4bd3-9aeb-6a63ce2a1992"
+                  "Id": "d4764452-ead8-41f0-84d0-4e5442938e47"
                 },
                 "CommandList": [
                   {
@@ -767,7 +767,7 @@
                         }
                       },
                       {
-                        "ColumnName": "주문일",
+                        "ColumnName": "견적일",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                           "SerializeProperty": "=견적서입력페이지!I6"
@@ -857,7 +857,7 @@
                     ]
                   }
                 ],
-                "ID": "f0a82d7b-8780-4d5c-960d-d7f3474bc26e"
+                "ID": "489b56ef-4026-460e-a134-050554affe43"
               }
             ]
           },
@@ -2447,4 +2447,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}//3g63d3dk84EPuy37qKZgZ+4y2uvT1sNDcPHUWmp5POb40mDdbv0E1zSX0sADjK7TKb+c3Rnf/oK4/F/c6byQr+kFdHK1iEYCtPAwR5XZmFAKLC848ZXxWsnN0hEIixkelfSzjf9WW9SzuJDKYMV58UVttflCpo8efHsaeOv6sFGLBC4zoL5G1+amFA6nwooUtG/IcelyxFnHHLQUEAhH3/uUvprV+GhM1GHSsggLmruSvYJXj2dlolcpKKxP5wl/wrBxeoSOaab3siJM0mVoQqjTVbR6nqo+fTFxS5yrkF436Ja5mzFntVhicvtr3D8SbHfm7zC3YbasyuFTLZLKD4TgC4ZnWZmdZQmkfTwBFbYMy4BsIjjG40ReFCHOvmkVBJv6WbM++j/KaogHa3ir4FEMAbHaQjM78Ab7RNq07C8UwrO8WTl2EBFYcu7Ykd06tp2IrrJO66TLqdp6VX81h+BsyzUjz5kLevDgTb/+sr337Pbx2cES0welhw/gLFdiwVgP+rKc3Xz9NjLBbWHadEir1jN2a86mTgwl4rH/OIXkAaR1trfpZvy9QUDj1wl65p2rablJUdW4VASsJ/R6xZCmrds+SkCU5ufHH4rsrzwkj0L23NlVV3DOQIoZ/Gu0DZo3ae98/9fi1+lDKdvl3Jvp7DUm1WWxK94PWbt25Y9L0CsZPUc6DXVTnfJkM07E27ueddbttWKuSNSIxucrJYzWpLF+q2YrZ8ir8+9PbvihuxT4d6WwLD3GWqtl2XbqyKbIp/dfASDVydrAi7Kg/gqEAXUVx4ApEZEo894Sj0baOSLhaOHE7Aqx2KRP58M1dgrYHgLVr7mlzrx5VClZgs5ZmFZSeV8tvJtRtSU3FfejNL5LQD9KwC4Zdt4827w/+T1Eojhq8BU96LQCVue7Xw==|920
+}//qF9hG+K3e/A2IDPcXWMiVwnY403bAHxNkF7fqQcVWERTmtZ+WCsZxPbe4PoMYxqSlUtwXkxrmSrfMdGGx2BhSiAVAYhFv56WbokgHQ5VCSeGrsNNFYjlJBOdoTQ4tq51tTYpg/5xbTfZ6x7fLFR+Fs95WCY4otrDchhDQ6mQeYrJ5YRjXK9QPq/mj5NsUJZbMNnMQaVFdNl3W4c6Rf42FSdyk+U/jPdc/kFnAZGhSwXQcnmcXB/lHLzV1mdK74KNryBTayphlQ/cBYDKhasEa/w9juJmJkDxkj5s15q2aLiWXvdnR/qMVefR1vAh3MKSUBoeEq7axYpmbGAKhw8zfmdLvZ5393PuEANVg9WLGfnM5YUZYNbuG5ogtlN5rFTrGF2VhC8W9f3mB6JPcSI0AvV5V7UJN0j+CxZKZxWt7mCbqMtwX4T+Up38pFKVHnqm34PFVJsxpN3BAh7UpnPYqAblfr80h/Uco2HfoNY3XaiVOADoV/31b4VwTv5PsZZ024agefeI7XZMqqzJcZrQ1ZNYrYxxFmH/6ff9nQP+nv3m70+qHw96w88Icr0IJgM4B5eUd1NtvVNzNXO7t530VWDxfKLaA4x44ye7ZzL5/ETcM0EMhM2UvG9tFIBkDpZam+WzvX5ZJooe2f2RlF60sUa/MdMa648+8U4pFvYn4Ln7RPAkm8qf85QMmrQumod5KtWPJZ9mibACB9USwBzBC4z2ihq/386+SDYoIjMekxHByb7SpIihQv5RXD4wDifTBSyCbx7WvTpWywQewIFgXsFsR2OLI8VCNsFVHgEpEIcj2n1jz5AmExZnGbE5KBiSA2k1lWG6YT3sCXMQOiJsDel+JjbxlvwHnR6Wrcv4kq3RMzJ1tTFs7EW9goC82rDoy0Re89PJVlwGSuxen8MyVQ==|920

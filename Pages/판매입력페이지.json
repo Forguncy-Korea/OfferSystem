@@ -134,9 +134,11 @@
       },
       "BindingInfo": {
         "TableName": "주문데이터",
-        "ColumnName": "판매일"
+        "ColumnName": "견적일"
       },
-      "DataValidationInfo": {}
+      "DataValidationInfo": {
+        "IgnoreBlank": false
+      }
     },
     "5,31": {
       "CellType": {
@@ -367,10 +369,6 @@
     "11,8": {
       "CellType": {
         "$type": "Forguncy.DateCellType, ServerDesignerCommon",
-        "CellDefaultValue": {
-          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-          "SerializeProperty": "=TODAY()"
-        },
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
       },
       "BindingInfo": {
@@ -556,7 +554,7 @@
                     ]
                   },
                   "value": "저장",
-                  "Id": "a291f317-0c9b-40eb-89fd-17d98aee61e1"
+                  "Id": "c8444111-5af7-4c48-887f-59a11e54d587"
                 },
                 "CommandList": [
                   {
@@ -585,13 +583,6 @@
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                           "SerializeProperty": "=판매입력페이지!AO30"
-                        }
-                      },
-                      {
-                        "ColumnName": "판매일",
-                        "Value": {
-                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "=판매입력페이지!I6"
                         }
                       },
                       {
@@ -633,7 +624,7 @@
                         "ColumnName": "납기일자",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "=판매입력페이지!I12"
+                          "SerializeProperty": "=TODAY()"
                         }
                       },
                       {
@@ -660,11 +651,18 @@
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                           "SerializeProperty": "=판매입력페이지!W30"
                         }
+                      },
+                      {
+                        "ColumnName": "견적일",
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=판매입력페이지!I6"
+                        }
                       }
                     ]
                   }
                 ],
-                "ID": "b5e68a9c-e0f9-474a-93d0-a93dd40bad5d"
+                "ID": "4db7a847-640d-4ef1-865f-74451f561178"
               },
               {
                 "Condition": {
@@ -678,59 +676,204 @@
                     ]
                   },
                   "value": "수정",
-                  "Id": "b1079e8f-d6c1-43a6-8f8d-3ea3d3835af1"
+                  "Id": "7d95a92a-7d9f-49e3-9da5-ee144d459279"
                 },
                 "CommandList": [
                   {
-                    "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
-                    "TableName": "주문데이터",
-                    "ShowConfirm": false,
-                    "ConfirmText": "데이터를 업데이트하시겠습니까?",
-                    "UpdateValues": [
+                    "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+                    "ConditionAndCommandPairList": [
                       {
-                        "ColumnName": "종결여부",
-                        "Value": "완료"
+                        "Condition": {
+                          "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                          "param": {
+                            "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                            "cellLocations": [
+                              {
+                                "SerializeProperty": "=판매입력페이지!I12"
+                              }
+                            ]
+                          },
+                          "Id": "f59e7018-e358-4d2e-9345-ee4476b1450d"
+                        },
+                        "CommandList": [
+                          {
+                            "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                            "TableName": "주문데이터",
+                            "ShowConfirm": false,
+                            "ConfirmText": "데이터를 업데이트하시겠습니까?",
+                            "UpdateValues": [
+                              {
+                                "ColumnName": "종결여부",
+                                "Value": "완료"
+                              },
+                              {
+                                "ColumnName": "주문수량",
+                                "Value": {
+                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                  "SerializeProperty": "=판매입력페이지!W30"
+                                }
+                              },
+                              {
+                                "ColumnName": "납기일자",
+                                "Value": {
+                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                  "SerializeProperty": "=TODAY()"
+                                }
+                              },
+                              {
+                                "ColumnName": "견적일",
+                                "Value": {
+                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                  "SerializeProperty": "=판매입력페이지!I6"
+                                }
+                              },
+                              {
+                                "ColumnName": "거래유형",
+                                "Value": {
+                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                  "SerializeProperty": "=판매입력페이지!I10"
+                                }
+                              },
+                              {
+                                "ColumnName": "통화",
+                                "Value": {
+                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                  "SerializeProperty": "=판매입력페이지!AF10"
+                                }
+                              },
+                              {
+                                "ColumnName": "참조",
+                                "Value": {
+                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                  "SerializeProperty": "=판매입력페이지!AF12"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                            "TableName": "제품",
+                            "ShowConfirm": false,
+                            "ConfirmText": "데이터를 업데이트하시겠습니까?",
+                            "UpdateValues": [
+                              {
+                                "ColumnName": "가격",
+                                "Value": {
+                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                  "SerializeProperty": "=판매입력페이지!AW20"
+                                }
+                              },
+                              {
+                                "ColumnName": "제품명",
+                                "Value": {
+                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                  "SerializeProperty": "=판매입력페이지!H20"
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "ID": "592f32d7-2a14-4ba8-b118-783ed18e5847"
                       },
                       {
-                        "ColumnName": "주문수량",
-                        "Value": {
-                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "=판매입력페이지!W30"
-                        }
-                      },
-                      {
-                        "ColumnName": "납기일자",
-                        "Value": {
-                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "=판매입력페이지!I12"
-                        }
-                      }
-                    ]
-                  },
-                  {
-                    "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
-                    "TableName": "제품",
-                    "ShowConfirm": false,
-                    "ConfirmText": "데이터를 업데이트하시겠습니까?",
-                    "UpdateValues": [
-                      {
-                        "ColumnName": "가격",
-                        "Value": {
-                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "=판매입력페이지!AW20"
-                        }
-                      },
-                      {
-                        "ColumnName": "제품명",
-                        "Value": {
-                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "=판매입력페이지!H20"
-                        }
+                        "Condition": {
+                          "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                          "param": {
+                            "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                            "cellLocations": [
+                              {
+                                "SerializeProperty": "=판매입력페이지!I12"
+                              }
+                            ]
+                          },
+                          "value": "%Null%",
+                          "compareType": 1,
+                          "Id": "a3d8241e-c515-48a9-bbd9-2d0ffd6ae2c3"
+                        },
+                        "CommandList": [
+                          {
+                            "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                            "TableName": "주문데이터",
+                            "ShowConfirm": false,
+                            "ConfirmText": "데이터를 업데이트하시겠습니까?",
+                            "UpdateValues": [
+                              {
+                                "ColumnName": "종결여부",
+                                "Value": "완료"
+                              },
+                              {
+                                "ColumnName": "주문수량",
+                                "Value": {
+                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                  "SerializeProperty": "=판매입력페이지!W30"
+                                }
+                              },
+                              {
+                                "ColumnName": "납기일자",
+                                "Value": {
+                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                  "SerializeProperty": "=판매입력페이지!I12"
+                                }
+                              },
+                              {
+                                "ColumnName": "견적일",
+                                "Value": {
+                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                  "SerializeProperty": "=판매입력페이지!I6"
+                                }
+                              },
+                              {
+                                "ColumnName": "거래유형",
+                                "Value": {
+                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                  "SerializeProperty": "=판매입력페이지!I10"
+                                }
+                              },
+                              {
+                                "ColumnName": "통화",
+                                "Value": {
+                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                  "SerializeProperty": "=판매입력페이지!AF10"
+                                }
+                              },
+                              {
+                                "ColumnName": "참조",
+                                "Value": {
+                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                  "SerializeProperty": "=판매입력페이지!AF12"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                            "TableName": "제품",
+                            "ShowConfirm": false,
+                            "ConfirmText": "데이터를 업데이트하시겠습니까?",
+                            "UpdateValues": [
+                              {
+                                "ColumnName": "가격",
+                                "Value": {
+                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                  "SerializeProperty": "=판매입력페이지!AW20"
+                                }
+                              },
+                              {
+                                "ColumnName": "제품명",
+                                "Value": {
+                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                  "SerializeProperty": "=판매입력페이지!H20"
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "ID": "1dcd5ed5-bca7-4a9a-aa06-4c335f7c2da7"
                       }
                     ]
                   }
                 ],
-                "ID": "8116d26d-2ca1-4653-8f95-a22b526e0209"
+                "ID": "c55e7064-3823-4bfb-8221-851fbaa18cf8"
               }
             ]
           },
@@ -1866,14 +2009,14 @@
     "19,40,1,7",
     "1,1,2,5",
     "20,1,9,46",
-    "5,8,1,14",
     "18,1,1,6",
     "18,7,1,10",
     "18,17,1,5",
     "18,22,1,4",
     "18,26,1,7",
     "18,33,1,7",
-    "18,40,1,7"
+    "18,40,1,7",
+    "5,8,1,14"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
@@ -1889,4 +2032,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}//4Fv2e38qyhh/3YXj5/sjWEkhW7Yu/qfkndp4prH5Bwo7XYoTQw5QfK0gpYYU8r9+rV/mm3mSTp4z6BmpEy+/AFyacA3g4XXb9eHor6mKSxs/bIPGQErDtlPeas2toE3foF2uo2EiXG8NfhVykO4YqQYQUtvAepd82W29A2OGvQz95n9opL42kxkyTB0crOLBjj+cQANoLYQsT3LmvbSLAc9zSJYu7jYEzFGdRclCqrSl5YBJYsCrHu6uWcjeJgntBYO7frd2JMWTZn5rVz6yzGXj49YuhYjrAIk+eA6fXHWSJPNuNaGzlpkT6pUEvVDJewYDn6YNQotSqBJyXu4/b8Gnu3bPz0iD8D0wa8KroyEf1Pp/jZLF9jvZPue33TIIy3kChYD0jOVX4h8vgk/BCInwusZPjW5mbj8JdWhH7WZXleMKDZIqzub4lGMB3PQWzDK+A6mbW3kzW628KDFdIvgiS9PhNaWQwtfAPYDQvlsGronFP12i0KCl4DgNqTIKuQii9orypRvqpHQXrV3D3VabgO77l1a7f51TxPwK7pW5OOpwRZ6dOnQ8bsFTBcNSGqg6izXC8jNXqaJBlPcrHdI39R0NbO0u3zJ2CMAYTzuTZQir4cBrO1YzIjXzZXlUvcjbShfyqvRY24PUfxHGv+2djXbTi3PtXGlSHD9aSI5Zsy7YANfe3zbsuCzEDzTUHQQNF6sFqCD4SqarnNyqg+FVe4yiSVVn9EFxk10p6dFsjXIGU5rfPqmbfIvsnSWDvL6lP1KAT6vHGHnD/x1fUIWNVtwG5PHPvsN+PlqmnuOfakgTTFzPoWsp1ToMmUj5pmF6EGdLEngOVq6QVuzSBKnMXTKlY41VFjN5FIEBsg4XBHKOBZZDPXxApV6vbAHNOeDkPkMvFhsTe52xLL6yDg==|920
+}//mD3y7niGDd+L+YDuanUfnrVCQUjYowF1HTgcL8UhhZ8GCpUyj5g/v+Bt8ARHVzUg7huKXyZnDlP7FAD7LTeHPhtGwNe5lyRSiiXfbu2fqfSgWizF8PfVk41YAzFRMtlkdufw+M72+AYdBQG5G7AX3+6aiHc58M6JXzrPeOEphyPg/DMzMsra+/U26fGQu/ZGePv5R3t9bXKoDw1oCuwCXkYIkNcH/ZAbJ1/YAaNgmoLjvSucbdZEFq2SQK232ASeZxwepfvrOiqgZ2GK57avFeh0vdkLNUUChDyo1+rPAMyIIjGII7RAn7TliNR4B2ob51ykqbj7CPGkL0/fjcRZ4BR8Gq/xEuo6p0A/QNEUVDm3TdYZqaFdoM404AIyiN4bolgdQQrmub82r0HMITzgCbKnRHlrX1W+0NxXVF4/uSA1S4LhvEZcDX2/yEJ26KYxMjTFLVaAlyMFj6xHYgndlYKBw0GW8jPF0GMmyO+XGPJlQ2EZ8hU+rDTi7L8qDRt0Fx/zBlEkzMS2BWbvNJUU+oxeeuRH8JmKw06iXdXhWx9NlipBD6cZnT8o6v5J6qcoEXAYNWxd+IXDURHKVStKqrazUsxPLb4FGkcYZdTXRfzKGNwhmR8ohDqoaKKKM+QLwlV5WE/G8g8u+EQakc068mIFYj1OailxOYs/6qX7+B9hdnBHTc4+0d2UrtFaUtjxKqmJjOXP+L4qNlS4npGEcWsYg5L0B6+4q1fN7HOxDEgo1NNvoeIKrkQSbgLEjZVIiQTBScwKiq9QHwFYeexpMwG/Y2dJR6+UkTb9l3kG17LZOQlUffGsfjo1MIAPVhoPedL3c0Ch695ZmXABUukY4l+YB43BPD5Q+6Mx0gB5rrGiIE6xG6LiJ5uwDd/jhy83v6iIz6atgpDDIx4UvpC6Ig==|920
