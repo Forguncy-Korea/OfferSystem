@@ -129,7 +129,7 @@
     "14,2": "검색",
     "14,6": "닫기",
     "18,3": "ID",
-    "18,4": "판매번호",
+    "18,4": "납기일자",
     "18,8": "거래처명",
     "18,19": "품목",
     "18,32": "주문\r\n수량",
@@ -745,12 +745,12 @@
             {
               "ColumnBindingInfo": {
                 "TableName": "주문데이터",
-                "ColumnName": "견적일"
+                "ColumnName": "납기일자"
               },
-              "Order": 0
+              "Order": 1
             }
           ],
-          "Id": "584c7eb5-5327-440a-81bc-47ed7d7d0fda"
+          "Id": "f24a2a8b-24f0-456a-af86-c147e5cdeb2f"
         },
         "ListViewStyleName": "사용자 정의2"
       }
@@ -783,7 +783,7 @@
       },
       "BindingInfo": {
         "TableName": "주문데이터",
-        "ColumnName": "견적번호"
+        "ColumnName": "납기일자"
       }
     },
     "19,8": {
@@ -1146,6 +1146,10 @@
       },
       {
         "FontFamily": 0,
+        "FontSize": 14.67
+      },
+      {
+        "FontFamily": 0,
         "FontSize": 14.67,
         "BorderBottom": null,
         "BorderTop": null,
@@ -1172,6 +1176,12 @@
       {
         "FontFamily": 0,
         "Foreground": 12,
+        "Formatter": 13,
+        "Underline": true
+      },
+      {
+        "FontFamily": 0,
+        "Foreground": 12,
         "Underline": true,
         "BorderBottom": null,
         "BorderTop": null,
@@ -1180,7 +1190,7 @@
       },
       {
         "FontFamily": 0,
-        "Formatter": 13,
+        "Formatter": 14,
         "BorderBottom": null,
         "BorderTop": null,
         "BorderLeft": null,
@@ -1209,6 +1219,7 @@
         "Background 1 -15",
         "#FF000000",
         "Blue",
+        "yy\"/\"m\"/\"d",
         "₩#,##0_);[Red](₩#,##0)"
       ]
     },
@@ -2034,10 +2045,7 @@
       "18,2": 23,
       "18,3": 22,
       "18,4": 24,
-      "18,5": 22,
-      "18,6": 22,
-      "18,7": 22,
-      "18,8": 24,
+      "18,8": 25,
       "18,9": 22,
       "18,10": 22,
       "18,11": 22,
@@ -2048,7 +2056,7 @@
       "18,16": 22,
       "18,17": 22,
       "18,18": 22,
-      "18,19": 24,
+      "18,19": 25,
       "18,20": 22,
       "18,21": 22,
       "18,22": 22,
@@ -2061,7 +2069,7 @@
       "18,29": 22,
       "18,30": 22,
       "18,31": 22,
-      "18,32": 25,
+      "18,32": 26,
       "18,33": 22,
       "18,34": 22,
       "18,35": 22,
@@ -2070,7 +2078,7 @@
       "18,38": 22,
       "18,39": 22,
       "18,40": 22,
-      "18,41": 24,
+      "18,41": 25,
       "18,42": 22,
       "18,43": 22,
       "18,44": 22,
@@ -2093,17 +2101,14 @@
       "18,61": 22,
       "18,62": 22,
       "18,63": 22,
-      "18,64": 26,
+      "18,64": 27,
       "18,65": 22,
       "18,66": 22,
       "19,1": 22,
       "19,2": 23,
       "19,3": 22,
-      "19,4": 27,
-      "19,5": 22,
-      "19,6": 22,
-      "19,7": 22,
-      "19,8": 27,
+      "19,4": 28,
+      "19,8": 29,
       "19,9": 22,
       "19,10": 22,
       "19,11": 22,
@@ -2130,13 +2135,13 @@
       "19,32": 22,
       "19,33": 22,
       "19,34": 22,
-      "19,35": 28,
+      "19,35": 30,
       "19,36": 22,
       "19,37": 22,
       "19,38": 22,
       "19,39": 22,
       "19,40": 22,
-      "19,41": 28,
+      "19,41": 30,
       "19,42": 22,
       "19,43": 22,
       "19,44": 22,
@@ -2156,10 +2161,10 @@
       "19,58": 22,
       "19,59": 22,
       "19,60": 22,
-      "19,61": 27,
+      "19,61": 29,
       "19,62": 22,
       "19,63": 22,
-      "19,64": 27,
+      "19,64": 29,
       "19,65": 22,
       "19,66": 22,
       "20,1": 22,
@@ -3713,15 +3718,15 @@
       "46,6": 0,
       "46,7": 0,
       "46,8": 0,
-      "46,9": 29,
+      "46,9": 31,
       "46,10": 0,
       "46,11": 0,
       "46,12": 0,
-      "46,13": 29,
+      "46,13": 31,
       "46,14": 0,
       "46,15": 0,
       "46,16": 0,
-      "46,17": 29,
+      "46,17": 31,
       "46,18": 0,
       "46,19": 0,
       "46,20": 0,
@@ -3931,14 +3936,13 @@
       "54,24": 0
     },
     "RowStyles": {
-      "16": 30
+      "16": 32
     },
     "SheetStyle": {
       "FontFamily": 0
     }
   },
   "Spans": [
-    "19,4,1,4",
     "19,8,1,7",
     "19,15,1,4",
     "19,19,1,13",
@@ -3972,7 +3976,6 @@
     "46,9,1,4",
     "46,13,1,4",
     "49,3,3,7",
-    "18,4,1,4",
     "18,8,1,7",
     "18,15,1,4",
     "18,19,1,13",
@@ -3983,7 +3986,9 @@
     "18,51,1,5",
     "18,56,1,5",
     "18,61,1,3",
-    "18,64,1,3"
+    "18,64,1,3",
+    "19,4,1,4",
+    "18,4,1,4"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
@@ -4020,4 +4025,4 @@
     "ZoomFactor": 0.84999999999999987,
     "PaperSize": {}
   }
-}//io438HHXmJooREFbaRjY9Yz0m9oPAA2oitF/tnbUtR18Jxf0cEnRgfR3FLmkvR57BIfUId0CxLbZVpVOZLbKxQsT/y9gOwVKI0vNZGWKp/nNjAbPem2U4rPEoy4tJvsJP3k0Ej83xMd3GX2GXEaUY3FpDJmGZ7ZpiQ27wK6+neeaWnqQwmjH3sF5b/sRAS11oNH4bDC7dy51+tUcdgMpna5ExOQjhvfc+Tjy49h5Vxl0PtEwpM7sTlLA3lO3+w7qM8DXYKnesd7+kIAxVy9eoQ0EyB3UMR/6sTH8tX6O2bdvEVHkn8WffmRxtiWJr8Y+D6JiizghL1fyhPGfvCHHNa9VD55H8wlzVAxplCaBR0bUXODrAcWsFN+78TY1C7+cdsKzUQfBIIYmScX/RC3+45imnoBiN/amCl5MJSE6lQ40M/BWoIbpUCpvQlFY71TNnhbOtmwo2gF2wamc9V65b31NeYqJx43lth67tel2GkipxMNJ97VeYDW9xt63DuFffEqzzo+GRwd2X/GausW7h5npjAYHOqxFsFEO/YyngGEr09qpIYhUSlwT84GqFa3wKZAruTvezdJWZ9Rc5/wT/shX0udT8DJkKKilvxt3EnVCucykoEsy1rBbOideNWvzzMb3DkT5zDsJ1yxlJakzClVD/+JyWm/qZxAk6T1D2A9qTdR6sWo+Hak0qnMXdXGo2t3Ho7KQFVBw3d1Lcifa3wZH+qtPW+iVon0pSrG4o+ZWXNWhYelebhF60Xv7OxpgNXU6v59F3sbb9n++W/BQl3LWssk55GaI5gKKOzmlf7F4N9shaQdXWzHHvvPwoXbv618Z1ndvhv+aTTLpE1AKYvwsI8W5x4/TNooOGXEDbHigp956OMp0+OnHr6NuQNEtj7It17BYUVw4biaJAvRJeA==|920
+}//+YLuB/De3I8lV7+KZjKSxaxRs7kXI4J4heeQhBmKibykKR/VaBEzwEXQaTs92xOHHOJDcXg9i/ULuwIHgdvq5cXVqVoAUQCJ441S/7HGefXAwql5wu7Rv6hXwaXoBWS2iyQ/HMZMpLC+KrWxfqxzuGIs9kIAztVT9D6HiimNgwg08AIZfubcm3qFN5kRqeU2DPtdfctcZYfSi8TJDqgiWi09s0IChPCtSARKwt7jyT9TgDjeRnEXKqSpWWxbkMXSUHn4Qq2Q7IrpPVVD7KFQfX5fiwxIHEsMvxV+J1s7En3LpVoZkYrH/TtqnqovnRmzjhtWA21pAqUe76vmziShbC22T+krPcR+BcXg5jCqOxBSd5vmFSHxTKfllE9LH9hBJUw+SuplLryb1KSetWRfp0X/uzORTkdMznR9SL7vpYBWMkJRRONvxRtLJYujEOpPSe1/dwOFt8KFk32dU0ROZqvpEMFycKJZvf8x8TMvC6lYU9cCWjEzTWsRKs8h28hgVomJNXKeUkgF6Fc9C1P6OFBrYfx7KX/B81B21FXbrV4rjES9rtbXBfQZgr4BKk6NRqG5cUe0OGvWz/D9qwb2upaKnFUZgrZr8c+b7Sn7ePGa3r13avdSwspfAR0bEbcqgc5g2Dk4R90U5F3wUxVx6g3jx2l3By9OcdFSWJoRhHC/UMtI44r1zRJY9Z/xtGCZPMWngPHNizbplekPWZVGIlupTh8vONfpQH2AH7o3YR6iAKG/OmoiQkWHt1scvY8Bp12uwlusqkOUCfrDG4MxanUDbWLTBNtsYBI0iPF2OrHSLf7Wsqs/TiTRyhPobsDFSBwcPxgWfRkTp8K2QAvFOKW8JUHOeamlLASYXHUOkBDTttw7Hs0DS5pukug+uG72wxi8ffMnuHdRzIqSbiGMDg==|920

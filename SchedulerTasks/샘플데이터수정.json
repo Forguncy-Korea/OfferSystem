@@ -24,11 +24,18 @@
           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
           "SerializeProperty": "=TODAY()-180"
         },
-        "Id": "c5a03b6b-1280-4aa7-8212-772d0890825b"
+        "Id": "f4ad8372-007e-47a0-b6ad-5e9cc242e88b"
       },
       "UpdateValues": [
         {
           "ColumnName": "견적일",
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=TODAY()-1"
+          }
+        },
+        {
+          "ColumnName": "납기일자",
           "Value": {
             "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
             "SerializeProperty": "=TODAY()"
