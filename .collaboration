@@ -264,7 +264,16 @@
   },
   {
     "ModuleName": "TaskScheduler/샘플데이터수정",
-    "ModuleType": 16
+    "State": 1,
+    "LockedBy": {
+      "UserName": "DESKTOP-SFEU14D\\NamHee",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-10-11T13:07:38.4308543+09:00",
+    "ModuleType": 16,
+    "ToRemoveFiles": [
+      "SchedulerTasks\\샘플데이터수정.json"
+    ]
   },
   {
     "ModuleName": "PageReport/인보이스",
