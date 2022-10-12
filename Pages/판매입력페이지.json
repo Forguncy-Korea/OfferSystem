@@ -143,6 +143,7 @@
     "5,31": {
       "CellType": {
         "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
+        "ShowDropdownButtonWhenGetFocus": 1,
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
         "WaterMark": "거래처",
         "IsBounding": true,
@@ -192,7 +193,7 @@
                   "SerializeProperty": "=판매입력페이지!AF6"
                 },
                 "TargetCell": {
-                  "SerializeProperty": "=거래처검색페이지!G1"
+                  "SerializeProperty": "=거래처검색페이지!G2"
                 }
               }
             ]
@@ -226,6 +227,7 @@
     "7,31": {
       "CellType": {
         "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
+        "ShowDropdownButtonWhenGetFocus": 1,
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
         "WaterMark": "출하창고",
         "IsBounding": true,
@@ -273,7 +275,7 @@
                   "SerializeProperty": "=판매입력페이지!AF8"
                 },
                 "TargetCell": {
-                  "SerializeProperty": "=출하창고검색페이지!G1"
+                  "SerializeProperty": "=출하창고검색페이지!G2"
                 }
               }
             ]
@@ -554,7 +556,7 @@
                     ]
                   },
                   "value": "저장",
-                  "Id": "c8444111-5af7-4c48-887f-59a11e54d587"
+                  "Id": "e2525e4d-95e2-4f3b-8239-964cdc4e6ede"
                 },
                 "CommandList": [
                   {
@@ -662,7 +664,7 @@
                     ]
                   }
                 ],
-                "ID": "4db7a847-640d-4ef1-865f-74451f561178"
+                "ID": "acca5431-13ba-4f30-b620-6b2cc7e160f2"
               },
               {
                 "Condition": {
@@ -676,7 +678,7 @@
                     ]
                   },
                   "value": "수정",
-                  "Id": "7d95a92a-7d9f-49e3-9da5-ee144d459279"
+                  "Id": "c3242360-c166-4720-af26-9ce8c8ef7fb6"
                 },
                 "CommandList": [
                   {
@@ -693,7 +695,7 @@
                               }
                             ]
                           },
-                          "Id": "f59e7018-e358-4d2e-9345-ee4476b1450d"
+                          "Id": "0d06952b-0fb3-4302-b2e1-32d04e581d9a"
                         },
                         "CommandList": [
                           {
@@ -773,7 +775,7 @@
                             ]
                           }
                         ],
-                        "ID": "592f32d7-2a14-4ba8-b118-783ed18e5847"
+                        "ID": "fefad56e-d026-472b-9fa4-57353e4b837a"
                       },
                       {
                         "Condition": {
@@ -788,7 +790,7 @@
                           },
                           "value": "%Null%",
                           "compareType": 1,
-                          "Id": "a3d8241e-c515-48a9-bbd9-2d0ffd6ae2c3"
+                          "Id": "dd7ea1f8-f4c4-4692-8540-cf7a58616d40"
                         },
                         "CommandList": [
                           {
@@ -868,12 +870,12 @@
                             ]
                           }
                         ],
-                        "ID": "1dcd5ed5-bca7-4a9a-aa06-4c335f7c2da7"
+                        "ID": "16fe1773-2030-4c77-a189-e010235d07ea"
                       }
                     ]
                   }
                 ],
-                "ID": "c55e7064-3823-4bfb-8221-851fbaa18cf8"
+                "ID": "f8d2f86f-9cd8-4d4d-b894-383c7ffd43a6"
               }
             ]
           },
@@ -2013,14 +2015,14 @@
     "19,40,1,7",
     "1,1,2,5",
     "20,1,9,46",
+    "5,8,1,14",
     "18,1,1,6",
     "18,7,1,10",
     "18,17,1,5",
     "18,22,1,4",
     "18,26,1,7",
     "18,33,1,7",
-    "18,40,1,7",
-    "5,8,1,14"
+    "18,40,1,7"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
@@ -2036,4 +2038,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}//l38NTsdi4jLCovyqrcrwd0hipMeFpYf+L04RCwJ9Lv56gH8v1SH1Q7uSMoRFDpVKuzJzrO1GorV7A4ozzHEd1RGOifatJSgNW4H4FnsFb7vItDwpFNXyECKEQN0nNBljQZrlSi0LJGvrh3CBkyVBGhIpNuuepmZL2xZUWM041bUQ4ZqOlMF/dsgARpeigKD/S/EmwNn5jkaLTJQqrOpzyu6C+ciUYax0c/NmW0ICaACv/8e+aAn6jJdiqL6rcPLxIahFrZhWdf5b6YN0AdoqPmSz/VnMNqe+bgC1V+96tn7o9uf9lOK1haBb/WySZrI9ADXz2rH5iydw2moG1/6l0gVMhznr9xWCx3EKFHc0BPG9GXAVhSO0FZiudH0IJnY841sxKOvynEtIWNypNU5gu8mckKnsnKTFX1D54I3WNQcEL3tNVZ0cX38H8UEveeaxLeVuWzSvDYB7BY0Y62gsCSCQIVEEiOQRxLDdt7+u/bFgx3Is2Yw2+ILjUqx2v+ttlIfqQXU8rbSXDn/U0iZeMn57+fTMo9nz+2fdX0eimUlByRi+jIbwvA97eTW2N4vjkqEz73Zzgt4/mKVA7LWixeE1MuMxmJifHtsmBwiuZaXotu5lapKTuuZFBwnJE7NPKceUT1Fc7q1aPP4mfJB7TSvskcgLMyUQmN1FLopxUlVF+YNvAhUcHjlzOfulfxLd7B5EvaPqp4n3rG1agfAs07YlcyOPxJl9rut+NrCo0IlxXbzKfm10L9Ss6n388KG7aRp+MlMjMG6NWXgs+rsQotu+xl4ZD2jcXcaW7+eMhUxy1OdxBRa0vuWlgGhhmHUY0U+UFssB5d8Qpt/J15oYMv0bfJw0HVGf1Uw6IVCTtrcIdkQhZBPhZNEGrYjBIGDHk8X0H+L9qD+BilF0mio25Q==|920
+}//qDiGk7iyRpJVitEtrOSubcWbFyffiBClfHbG/6UHd7TZMYrABG8oAMfNRoBGO5UmSO/F36ZVL7adKXXf2XCYgaOCpWXIQGCLqlzudG/oXV/TQyYOGSURYhl65JwC9I9l+mNHqOQ8zjAeTqmGdKmGhAfCjeqGEU0fpEIeQFLpv7L/N+WAJMhlcYg7m4H6EMqw6/6nfNmb/FQx8rc1TEtdQImUIAUaERzmAjm76KOjFkANLqCKLO/1swORbaVkN5DoLBEOyi+FoWFOI8MRZZm/GHwHrme/sAecB/lfkxFsQmilgLArPepqUDZ5+hYBtyti8V7vVT44YrbmT6VRTjytCzeCGa1K7uxkxWdSd7OqtTUKcNBYHuNz2iHq3e8E5ucVqj5XFuGkomE28aqQVaQCWDPaPDA1285zUKggA7zPauNOtPcgqjrpEDx0y4PIhvhyp87ZrS1qWGvVbq8GrKgf8yFG6wl2dmCBT1aDKzZGacfOU8QMmJbc5IazfbIPYEeJ2Xquf6I4oWMBO4e24RDPKOD4vaMp77jqkSRvjWQdrX2AU6GK+583XO1e0B7sFclYsjyq0pMcGGdf49l3bPyNnHlx+XnvxEKuvfJSme9KS4EPrwjxnNC001u2ZuPEXpWY+U5+oZNxmTMwxy+QjRX024av4kCnXpd+TXvL1JW+v7+223gsEd3F9IlENuRz62v1WofORaX2Bae82AqRsBIOce6oqSMTN7gy050NUobepoVcfwVhxuVX1REBuxbedKEnOP68raJFBxNvt30Tj3BXPai5U5/wA1+u3R8cea0oX9YcYOQ2kxA8A8KJEU8CXDx0NU7dbOx6mRBH3EW7G3cIm6jgWroEpyTeiP+LfllBop8XmKuNHAYWF7xtTKX62rEwyBH0EmppT/5X1sLEBwD4Sw==|920
