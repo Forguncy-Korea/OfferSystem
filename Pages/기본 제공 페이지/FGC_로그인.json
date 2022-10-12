@@ -16,14 +16,14 @@
           "DesignLengthInPixel": 15.0
         }
       },
-      "33": {
-        "GridRowColumnDefinition": {
-          "DesignLengthInPixel": 25.0
-        }
-      },
       "31": {
         "GridRowColumnDefinition": {
           "DesignLengthInPixel": 11.0
+        }
+      },
+      "33": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 25.0
         }
       }
     },
@@ -38,10 +38,10 @@
     "18,21": "비밀번호:",
     "24,21": "로그인",
     "27,21": "비밀번호를 잊으셨습니까?",
-    "29,22": "관리자",
-    "29,25": "사용자이름: Administrator",
+    "29,22": "User1",
+    "29,25": "사용자이름: 김사과",
     "30,25": "비밀번호: 123456",
-    "32,22": "사용자",
+    "32,22": "User2",
     "32,25": "사용자이름: 김포도",
     "33,25": "비밀번호: 123456"
   },
@@ -265,4 +265,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}//Wk6YamK3HUEDn1+KvwkRjWJoAGUYemhu+iXW9mXUKMVNl0g9Hj8yQQGIGbir6BTmyNByAYA5ORF20eJhqN1hkC9p7s+VJp3TCjTSa7gMqJnG8Ov1I5sgPDL58hH3IAAbDaAogTJTFQtavap2q90JrRSE9XBHir6zzcGK94XqIIM7r8uWqPUW7cfke/7qe5CrkO+STlwaVnhWbPocIWIe3bPCidz6fD5dDQMllaLWxAjU1lRkSF59vy/FZfNrKGQVLdkTWUCckrEC8gAYuck5Z+tehJ9tMWZwuAGaZG1HPT6HupbE7fk8IGY4mDTOT5OHxll/GbpwGLyKNxBQSLItmyk+0EOsPJ3ot8XMc4eoBmsQvqLc8QNP7COXa0Yqbb9kIDHvCPxnFSH+Gg1lBQFd0EO90zbC0MHP6cWDCc7mq3mfX+2qBiMRs9xlZHnbPNCCPmJsv3RMpRauYUiA7GQL1422IeA1dU+EiPb9yjQxzhY+ShRJmizMucb6TIxrP+u2n7rMa3NFPZqoE8hR1PFkTDggfzTdFn0RsYHFC/cfFMBhtfyaNn+K3OcXIZZOa5KDcxDZ4Owm1CBGeyJtXk2NZZwng7AoGsJiuBdxEC0YuZRi8P4ANRkUd2vZiwOKlFk/ZAlzYbfhEpiAz8oWEIV7kKHDCqxKE+fiTUU33jn3TfyvSQp1jcLkHitkgU0VpXzGKaGOh7YnL5NREynjUMT5I3Qq35Pq+jkiGujEb13bcIST3uFOV93jLQoi3g7um18hSnlMWMfsAFzbXCMBM/4vjPOK+3yZCyi1GrhxGEqvth5KSlAQSzFhgLaSAH8Di0Q7Qt1uGjwgd0vIFbqKP8XzPgORJpqS6jp3uG5ajeTDwFu2yz7MQKQPFAbwycOGvA1P8co28EKav2FRfqnEFpAKxA==|920
+}//LJ9L6I8zaU05TZ8D/8awii0ceUzQW54GCPxBFS2gWv6nkskSLCaomyilLw6io7A7zqifIuIZmvv6q4Bip4tVXqS4REs+kdUacTFZ92zPwMxWWIqJ5dNSLdp0Th2KKF4xtpTuEN2oZ2+EIdX2aBe8V0BTYKvYVeuTfhS+N8bWegy+S4UBNFu897SjP3TV1yh7jvqTC1mZi7NW8IVINCe+NRPBW/stARvVA2etGTVEjJ76Cemlk8TZdBtCEKhaBRbHXhU4l3Y0tBXv7jqu8Ju/LHNmcuLM0vn5u+n5QWiE94ZaUesd2axFImCnis+w3HmflxHccRKIM4dIPh/Ak6DzX5ms45K1acGXuQXehY7bOyjSoJG38vE3su1tXhto/zBBrwIZ9hHDi2+k1ImRv4UPKar8Xg8KCvKOLeQHnuTbJSbmgU5nYMxwfcFi4fpmmxT0O4FRBD/OKwKRaClAHeZCJlH9np7Y6vihy8aDSr1lfyVINl/SvNTQmH7gBtNFM4tFR74jySZeREpUBE2Et2K2yYrHia/gPlZpreNpJM1hMeDGLC4J7E2+X9CYVRawPXs81/Ec0iZqjLK33lhVtOiSY9dd5hSMZNzmtBRo8km7/rgUZGvtn8hTttfruscU5Dc4py3lR3iIjMXdWgkTcSrZYViI4wn/9f3hmk3IE8cIbbThHncrCSyeL9EvEje6ZVX9mvWlHVoF8us1J/QxMJ3tajezyctecP55E05MfpkBJBXNb3rOAGawqId6eShVLL04TwKDiYvrlzxRY9/evIIy6leR/uWD/+gCZd5QniQ8k2ObawAcJAGmQnxOIoXX7mJ8kdMP5IOY1tHM8xNcGqRQSIQ9HPL/HhfnmE6uAEHZyKcIJ4Hyta3ZyJ6sBc4aQP3kJtPH6Wr+nQSotBH4EcMs+w==|920
