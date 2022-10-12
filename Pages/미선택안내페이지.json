@@ -1,0 +1,88 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "8": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 24.0
+        }
+      }
+    },
+    "Count": 10
+  },
+  "Cols": {
+    "Count": 15
+  },
+  "Values": {
+    "1,1": "리스트에 선택된 자료가 없습니다.",
+    "3,1": "체크박스에 체크한 후 다시 시도 바랍니다.",
+    "8,1": "확인"
+  },
+  "AttachInfos": {
+    "8,1": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon",
+            "PassValueBack": true,
+            "ReloadData": true,
+            "PassQueryCondition": true
+          }
+        ],
+        "Text": "확인",
+        "TemplateKey": "스타일5"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "FontSize": 13.333333333333332,
+        "HorizontalAlignment": 1
+      },
+      {
+        "FontFamily": 0,
+        "FontWeight": 2,
+        "HorizontalAlignment": 3
+      },
+      {
+        "FontFamily": 0
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "Left",
+        "Bold",
+        "Center"
+      ]
+    },
+    "CellStyles": {
+      "1,1": 0,
+      "3,1": 0,
+      "8,1": 1,
+      "8,2": 2,
+      "8,3": 2
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "Spans": [
+    "8,1,1,3"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "Title": "알림",
+    "AuthorizeInfo": {
+      "VisitMode": 2
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}//j6jJ+Lz5prvolKP/KpOVic6YT24ZuzrsUMv1BhAoKUUIrpzb3qGVPbAhUATDSB9+YYVXcaRKX8nMyfEhgwex98PVxGhaMnVAdWmChU8j7/lTHiESTz4MXk9R8o0UigBFPlETA6FNuOXLjEniHwHNCoQrRnknvzMumxq46FcHCPjviwu8Rvs6I7oVSw08j/hh1Qq8bDz5XMwCT2tBuch0YFCU6pgqBVbuGzScSyKFwmYFYVh2039LhqlaitvzIubJC5R5mrfbCeOvi56mK5elX2C/MotRV2ujiUlHaE/e0Ez807qfPKC2YUBKTHGoLbG/WiGilvH+2lpN7CnPRNuMwm1n1QXriLGFvW0fqG0Fb1K3l6I3i1VjX+Suz3YEmbnFDYWn2laXiASFLlh0UORYkDuCLc27Q5GXo3o3Jf4+pz89minwqzC/ooAZLiNx1a2Plu9S/2Jd/3b7/Xj0GRjDUoUZ84lQYYmjWwIotZ40AbyZE8xh/SrGkSgY5fodKqxAenBOskwB/C3daypjzl2CEN0iYFb5rxEr/uzkxBtzCDmRaT3K8Es4kZaYImfAkjy+5SiXv234D+Bl1z+dPx9mUMiYt0NfLPRvB4xicg8KajrkNZGqf6XMfsTsnbnEgKp9e9yM841kcPLpUr8Bgz2xwLRY1qtocLidDO4VzP3qr1eXF2vgGnPwBvoYV2n+f62q0wpNNedNLOA98iGjPJ5Jk5UOh5wPwmwH4ygcjvpdab1f/EZzLNFkS+WJHilDmD/Jvb1h42s6phbpeZ0+liBZAsxtnYbKdcS1nRVfq1/cTdUI9/WEH9KgSOUEMAwcgZd0oW2wOLj9vjx5MBhrZ6HiFvNwi6CiOkSGE07kUjoFCEfElH26TpO3QvbVikmqDySxf1KBxn91NklcJlI3uIZW4w==|920

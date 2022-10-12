@@ -1,0 +1,72 @@
+{
+  "Rows": {
+    "Count": 10
+  },
+  "Cols": {
+    "Count": 15
+  },
+  "Values": {
+    "2,1": "변경이 완료 되었습니다.",
+    "8,1": "확인"
+  },
+  "AttachInfos": {
+    "8,1": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon",
+            "PassValueBack": true,
+            "ReloadData": true,
+            "PassQueryCondition": true
+          }
+        ],
+        "Text": "확인",
+        "TemplateKey": "스타일5"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "FontWeight": 1,
+        "HorizontalAlignment": 2
+      },
+      {
+        "FontFamily": 0
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "Bold",
+        "Center"
+      ]
+    },
+    "CellStyles": {
+      "8,1": 0,
+      "8,2": 1,
+      "8,3": 1
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "Spans": [
+    "8,1,1,3"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "Title": "알림",
+    "AuthorizeInfo": {
+      "VisitMode": 2
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}//tHHKT6S+1TlPxksPA/wmJdurvpgpEME1ihpHg6D0EiJc9q+Blm2DE0veTSMDEO6SHEx0A61ZZfpkvrIr/89SiS6VDNburS0meYIrljbyOWe8w/KmBpadSvufYZ7uJczs1vnFb21hZhLiWX+O2e9G3JMeH/YHpFg+2TT3QNiME3FLhYIjMk5yjWvVEhkGVcYgkch/A6LraBMt9sbl8QpWCau0mK7DGxYMXKAetCrzvGTL45HcHCXlaO0mDGnud7IiXq1WbObUyErAS0yrDRgZHusRihSYemm5V7f1gDVZf8DE0LJDQdr8mtkzW9/oQwvPadiZacrHX8nKFat6W86Q1XXaoSWjC1rxOAlJBNuZvE0Gdh4V1tMXCDQPT96Q5PK4oIPpJaZPJ2XjSZ3hp2ZK6hDQgZvuZYs9rhG/hGTragU08EsrX1+yeIjuTFnCd6gIxLFFGs5CBLaGkXBGu29YZU47Seq+v91/KJTBeHqCy7R0guiJkSiej5sDC9Hy/Frmex3whXdn27q2VMN+6qY/hn2XcV9GCZ7VBA6JN9VqJ5CWaPnBO1wWqeG+EvN0oT8ZsV8OKtJ67x88UHx6JQ40ICEnLjbzft3HjadABhqvqTwN71RPaOJtYGKPlI/j1q5x3xb52xU162dABPZEQeLT+bD7etRDdyEXHQa0rT2TMOHF5es+/pxY43sUKFIskK/wZanL03csUF72lfT+33yDEJ52M9Jo2zKcT8CH4eZ7F+uwgq8f/CUQHPdgBi2/k12QjoiAxcpbVKWB8lqEpDZlCOdd/ZZoM1ymygWBAWVFl4W7CmqfH8sj9aenNodDekv8aeBrl5hEuwIvTgWrl4P9AqNmkdu73KbEEPC5ja7gKyQEeJvByr0E6f2NYJCWuMfYFm6puEiwvhVdft0AkM8tsw==|920

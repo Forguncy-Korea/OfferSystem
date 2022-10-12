@@ -65,7 +65,7 @@
     "29,8": "변경",
     "29,11": "사용중단/재사용",
     "29,18": "Excel다운로드",
-    "29,24": "Excel업로드"
+    "29,24": "웹자료업로드"
   },
   "AttachInfos": {
     "1,24": {
@@ -99,7 +99,7 @@
                     ]
                   },
                   "value": "%Null%",
-                  "Id": "d545f845-6627-4070-adda-4500ceadd087"
+                  "Id": "890ea946-32cd-42aa-ab7d-566209279c22"
                 },
                 "CommandList": [
                   {
@@ -113,13 +113,13 @@
                         "ColumnName": "ID"
                       },
                       "Value": "%Null%",
-                      "Id": "6f825a6b-5da7-456d-b4b1-4dadafac4cc9"
+                      "Id": "0312cd39-473e-4859-8898-6c55985c94af"
                     },
                     "Params": [],
-                    "ID": "b69824bbc6424ddda81be7b89e916850"
+                    "ID": "9fd6348c252548ae81084e13d7ca529c"
                   }
                 ],
-                "ID": "e880fc72-eea9-40e0-b31e-dd731868a802"
+                "ID": "3a4f5ee1-123f-4413-b542-c26d675fe0c1"
               },
               {
                 "Condition": {
@@ -134,7 +134,7 @@
                   },
                   "value": "%Null%",
                   "compareType": 1,
-                  "Id": "3151ea0b-87e0-4f73-bc22-b8ed7890ee78"
+                  "Id": "77fc3b57-0b71-4ed8-bba8-66876be4d95f"
                 },
                 "CommandList": [
                   {
@@ -153,7 +153,7 @@
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                           "SerializeProperty": "='제품_목록 페이지'!Y2"
                         },
-                        "Id": "2f25f983-e66b-423a-8d15-3e4551033382"
+                        "Id": "796df24c-bc65-47da-8730-3de37b6a2e8d"
                       },
                       "Condition2": {
                         "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
@@ -166,19 +166,19 @@
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                           "SerializeProperty": "='제품_목록 페이지'!M7"
                         },
-                        "Id": "6e9d486f-11ae-4408-bdd6-48213e4f959b"
+                        "Id": "1f1c8e78-c235-448b-bf37-3b17f4e80d70"
                       },
                       "RelationType": 1,
-                      "Id": "82d18cad-4393-43c6-a6bc-02b55db68bf7"
+                      "Id": "9e285f4f-ddeb-4638-9a3b-58b7fda39089"
                     },
                     "Params": [
                       "=Y2",
                       "=M7"
                     ],
-                    "ID": "b947736c267449ad918fdbee82eb05f9"
+                    "ID": "c30f00fb237246da95d8a22607216643"
                   }
                 ],
-                "ID": "3cd45916-1bc4-4ba0-9ddb-f58d706af390"
+                "ID": "f72b1e5f-f240-4c76-901a-8767ed8bd8c5"
               }
             ]
           }
@@ -224,7 +224,6 @@
         "RowCount": 22,
         "IsRowHeaderVisible": true,
         "IsRowHeaderCheckBoxVisible": true,
-        "AllowEditInListview": true,
         "AutoFitRowHeight": true,
         "ColumnOperation": 2,
         "ShowGridLine": true,
@@ -398,34 +397,21 @@
                     "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                     "cellLocations": [
                       {
-                        "SerializeProperty": "='제품_목록 페이지'!AU7"
+                        "SerializeProperty": "='제품_목록 페이지'!C35"
                       }
                     ]
                   },
-                  "value": "YES",
-                  "Id": "1aca7cce-6411-4da8-af7c-fbb561ebaca9"
+                  "value": "%Null%",
+                  "Id": "b42d13eb-1bf8-475c-9973-d2e818069066"
                 },
                 "CommandList": [
                   {
-                    "$type": "Forguncy.Model.UpdateListviewCommand, ServerDesignerCommon",
-                    "ListviewName": "리스트뷰1",
-                    "UpdateValues": [
-                      {
-                        "Column": {
-                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='제품_목록 페이지'!AU7"
-                        },
-                        "Value": "NO"
-                      }
-                    ]
-                  },
-                  {
-                    "$type": "Forguncy.Model.UpdateListviewCommand, ServerDesignerCommon",
-                    "UpdateType": 3,
-                    "ListviewName": "리스트뷰1"
+                    "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
+                    "PageName": "미선택안내페이지",
+                    "PassValues": []
                   }
                 ],
-                "ID": "ce3f732c-8aa3-4e4d-8c43-1b243429c3b7"
+                "ID": "5041af50-7b0b-4742-9bb5-7e0e44d4482c"
               },
               {
                 "Condition": {
@@ -434,34 +420,100 @@
                     "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                     "cellLocations": [
                       {
-                        "SerializeProperty": "='제품_목록 페이지'!AU7"
+                        "SerializeProperty": "='제품_목록 페이지'!C35"
                       }
                     ]
                   },
-                  "value": "NO",
-                  "Id": "57ff9e45-4d08-43f5-b1c1-12e8ee3611ac"
+                  "value": "%Null%",
+                  "compareType": 1,
+                  "Id": "cdb847fb-4f1a-41fd-82df-f4cd742fe680"
                 },
                 "CommandList": [
                   {
-                    "$type": "Forguncy.Model.UpdateListviewCommand, ServerDesignerCommon",
-                    "ListviewName": "리스트뷰1",
-                    "UpdateValues": [
+                    "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+                    "ConditionAndCommandPairList": [
                       {
-                        "Column": {
-                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='제품_목록 페이지'!AU7"
+                        "Condition": {
+                          "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                          "param": {
+                            "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                            "cellLocations": [
+                              {
+                                "SerializeProperty": "='제품_목록 페이지'!AU7"
+                              }
+                            ]
+                          },
+                          "value": "YES",
+                          "Id": "03a270fe-fc47-4437-9104-e27745fbbb97"
                         },
-                        "Value": "YES"
+                        "CommandList": [
+                          {
+                            "$type": "Forguncy.Model.UpdateListviewCommand, ServerDesignerCommon",
+                            "ListviewName": "리스트뷰1",
+                            "UpdateValues": [
+                              {
+                                "Column": {
+                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                  "SerializeProperty": "='제품_목록 페이지'!AU7"
+                                },
+                                "Value": "NO"
+                              }
+                            ]
+                          },
+                          {
+                            "$type": "Forguncy.Model.UpdateListviewCommand, ServerDesignerCommon",
+                            "UpdateType": 3,
+                            "ListviewName": "리스트뷰1"
+                          }
+                        ],
+                        "ID": "ae05cae6-05b0-4cab-bbe1-97809770b57d"
+                      },
+                      {
+                        "Condition": {
+                          "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                          "param": {
+                            "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                            "cellLocations": [
+                              {
+                                "SerializeProperty": "='제품_목록 페이지'!AU7"
+                              }
+                            ]
+                          },
+                          "value": "YES",
+                          "compareType": 1,
+                          "Id": "7496900f-3e4e-4e2c-b20b-92844c51a74c"
+                        },
+                        "CommandList": [
+                          {
+                            "$type": "Forguncy.Model.UpdateListviewCommand, ServerDesignerCommon",
+                            "ListviewName": "리스트뷰1",
+                            "UpdateValues": [
+                              {
+                                "Column": {
+                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                  "SerializeProperty": "='제품_목록 페이지'!AU7"
+                                },
+                                "Value": "YES"
+                              }
+                            ]
+                          },
+                          {
+                            "$type": "Forguncy.Model.UpdateListviewCommand, ServerDesignerCommon",
+                            "UpdateType": 3,
+                            "ListviewName": "리스트뷰1"
+                          }
+                        ],
+                        "ID": "81c6e783-3460-4d51-93b6-db57001589f4"
                       }
                     ]
                   },
                   {
-                    "$type": "Forguncy.Model.UpdateListviewCommand, ServerDesignerCommon",
-                    "UpdateType": 3,
-                    "ListviewName": "리스트뷰1"
+                    "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
+                    "PageName": "적용완료페이지",
+                    "PassValues": []
                   }
                 ],
-                "ID": "8ec7b879-cdcc-41b7-a468-aaf88f2cd3c6"
+                "ID": "b3d9a0d4-0be2-4dcf-97c3-9eb09941e162"
               }
             ]
           }
@@ -490,59 +542,12 @@
         "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
         "CommandList": [
           {
-            "$type": "Forguncy.Model.ImportExcelToListViewCommand, ServerDesignerCommon",
-            "ListViewName": "리스트뷰1",
-            "ImportExcelToListViewMode": 1,
-            "ImportExcelToListViewColumnInfos": [
-              {
-                "Column": {
-                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "='제품_목록 페이지'!F7"
-                },
-                "ColumnName": "품목코드",
-                "IsPrimaryKey": true
-              },
-              {
-                "Column": {
-                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "='제품_목록 페이지'!M7"
-                },
-                "ColumnName": "제품명"
-              },
-              {
-                "Column": {
-                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "='제품_목록 페이지'!AC7"
-                },
-                "ColumnName": "가격"
-              },
-              {
-                "Column": {
-                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "='제품_목록 페이지'!AK7"
-                },
-                "ColumnName": "품목구분"
-              },
-              {
-                "Column": {
-                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "='제품_목록 페이지'!AP7"
-                },
-                "ColumnName": "규격명"
-              },
-              {
-                "Column": {
-                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "='제품_목록 페이지'!AU7"
-                },
-                "ColumnName": "사용구분"
-              }
-            ],
-            "IsShowSuccessAlert": true,
-            "SuccessMessage": "Excel 파일 가져오기가 완료되었습니다."
+            "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
+            "PageName": "제품업로드",
+            "PassValues": []
           }
         ],
-        "Text": "Excel업로드",
+        "Text": "웹자료업로드",
         "TemplateKey": "스타일5"
       }
     },
@@ -2100,10 +2105,10 @@
             "ColumnName": "ID"
           },
           "Value": "%Null%",
-          "Id": "3fbd8134-9d21-450e-8fbb-a7e129ad5393"
+          "Id": "130605d9-aa7a-4758-be84-df624844c617"
         },
         "Params": [],
-        "ID": "ffee3ca407e34b7eb1daee736b6f05e7"
+        "ID": "505c238d539749f6808febc21d00d6b2"
       }
     ],
     "AuthorizeInfo": {
@@ -2116,4 +2121,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}//xWeZqBlsnG5kWWjzYE3gQ70bfl6P24cX9+/M1bXWgLcEkNN5wjj+Ye1YuQQyGAmhD5DSuV6tTSpqcuR6oWowc2VMdUHVqp56KIV0988tyUAmaP/HBciANXeca2DvuK1ISsdjYHwQxae9a0DHpi38P4N58ITN8UlbGXp1ddfGctqEI8wu9WeL0Cv1Zyp6rJ2I6ExaY0IMNfRNJbhPTQvoBfKoveD2klX9pOKRPvs1kJk/yMIxAJ1RApxp5BluWk8aR6++ZDo9Il14xxIF+ydNaqkcLCsj9LUcvfXbrePFW4fjfgiJ7O9qNSs3wqxUdVq192LjU7CGG/BYwhMAMI5wzNevusgbv2Q3gmDDM5p+KYqpeOtINp3cvLS0eUzo9ELzYQCrO3795D4FfGIQb+MBTUI5ZXb+Yp913ZTrWUvsJkYicVMsT4ZGgDaSRunTlC/FwDSzN9GKiUf7tOazBWJ/zhhI6rYgW5o2sxR9chc1KOH5fir6lelHigP7HZIma8iJoeViXNp9dDL0m99ilHZWWlQadgC8tUudgOEOyxzJJ4MTtAnRkLvgcsW3ETD7ro7ZAuhFZJUG2cXw7xGDP4a/EoixbehKO6cCYVWuosfogjTvOyqMj9lJ+iILgh0kHF53AAk32opuLClSUGz/jZULuPb0+eZHwaPkpk5OPDAGgl01+ZN5YIPxqi2yZfSgL510FhVt5VMzmWET1JNRmSYk4pJx1jn/viTwjo7FONJhtLw4w8oqYi2fA4MM67Gj11I9y7uMyJkmAyiOCwRZ2yb7CG2Oq0Es9R8l8mI0Pc8saMja4fPxvUm78Goo0inrBw5s/WrvFJl08rkx0RP4gWoJNTDA0ThFLtA5P4y0T+/Q9vh3/MJx8WvFfelV/KK+lf0Evqp9mNg0Vsmh+olyBi1nNQ==|920
+}//QoX0XXZv+yLSHhvuiwk8Gz/e4o218gJ5vmp6Kc5G8tvC/xJF75lTGSbFEwpRJgmDkGVJIB0d7Q9eEfWO2dLmynXi0LgZumGSytBtBNHQ8A4BzeKUuH049tU3eikeCJWZfO+kdPS8fOSh0J4LpYgQfMVnSsnXn1fZNMK9CsI+I/l0V4tc4m3kknp7AfNyEoAJ6nridUib+tR1D8osJpt3/2Ead94AfsFZ8yW/DkoO4s4GyyZjck6Mg3v+qAIMXIuCTFW96aIrg2nlN0SkVzVdw9SyxClHpazSwYahlQltXg0S9fYXIjXjtFYRUN3fJ/PoSgSWkMYm+lnDcmKeclTAqfavitvqFBCfFkD6x30cMfMOZu8Kn24ZG4+aqB84a+ozAa/BBnxPOcszdj3f+lr1Mrq1RBX/va061h8bCHo8C3GD5FuuXLE3KP53Q8pnDn6jT/rhgBSuGq80MCmaqcVNPuIF1+WtxMXaf7xbKVkipGD+mZS+mOn6HhGRuubpMBvlLnGVZlSU8a8/3LbOjZ/C56zXVvcOctsuwLhAq0MezGDZxCBkg1yO+y3H/CD+nU1HMRiNQev5gSWWGPFwwFL5qj+98XlpLwyAdzc/6kZne/pCgRxVxBCdfk4lHhCm36yULkys5qTSkrwowJX2UwIM1LSrlZC7egKprw3UziUMNIGHUcbEcA494CWM/wfvrnIT7qMtlNZLjiuCvuhU05TRr/Zga32eRekvPQ84lQUU4cepEqbIGTrqEziybs5fcqeS9malgU134v6iGhwADX3yXfQa2/A+sqBnbgx7+daFsRTmCdngM8Z/suY1L9qgDL3fH/IfYthlMj9iEuzDFrMLENo1fRoIS2XDJ+FZYG2p9TCgzEvs53yrXcLJAyCD26qujai47XoboQCyE1Ei8kWHhg==|920

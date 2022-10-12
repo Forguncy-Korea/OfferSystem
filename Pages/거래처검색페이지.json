@@ -64,7 +64,7 @@
                     ]
                   },
                   "value": "%Null%",
-                  "Id": "c8072ac8-a437-448b-a510-b8fbe5815785"
+                  "Id": "c110ca0c-399b-401c-bb60-224736e36962"
                 },
                 "CommandList": [
                   {
@@ -78,13 +78,13 @@
                         "ColumnName": "ID"
                       },
                       "Value": "%Null%",
-                      "Id": "367e9c85-de65-4630-880e-62b03e9d3a0a"
+                      "Id": "f97d242e-854b-49b5-8f80-02aa3184aea7"
                     },
                     "Params": [],
-                    "ID": "a03519461f9f49bbb92f03b99f0bb75d"
+                    "ID": "af4fba59ed864c078b49f8e098783d75"
                   }
                 ],
-                "ID": "53ec01de-dd40-4db9-b162-3b48c1d53352"
+                "ID": "b02b8458-41dd-47b4-bb55-64726c551522"
               },
               {
                 "Condition": {
@@ -99,7 +99,7 @@
                   },
                   "value": "%Null%",
                   "compareType": 1,
-                  "Id": "e30f82f3-ee73-4376-91fb-4a6343da3ae6"
+                  "Id": "80a8e741-5328-48bb-9ce1-68f5ce41387a"
                 },
                 "CommandList": [
                   {
@@ -120,7 +120,7 @@
                             "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                             "SerializeProperty": "=거래처검색페이지!G2"
                           },
-                          "Id": "a3041957-4c69-48d2-927c-ef7e1c0145fb"
+                          "Id": "5bd5c768-8257-4ce0-ab51-2390d14d5c37"
                         },
                         "Condition2": {
                           "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
@@ -133,10 +133,10 @@
                             "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                             "SerializeProperty": "=거래처검색페이지!G2"
                           },
-                          "Id": "e7d5083b-03a3-4dfe-9008-f165e5997efa"
+                          "Id": "16c313b8-efe9-4850-9b03-d8af4b906094"
                         },
                         "RelationType": 1,
-                        "Id": "bc7b86d7-31f9-4fc9-aa2d-e00b9ec9db30"
+                        "Id": "72175e0c-4cf3-4479-8dcd-1de0bcc562c1"
                       },
                       "Condition2": {
                         "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
@@ -149,19 +149,19 @@
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                           "SerializeProperty": "=거래처검색페이지!P14"
                         },
-                        "Id": "a8c6a20e-8718-4687-973b-c54e14e4d31b"
+                        "Id": "cd2ee377-8ea3-4e90-adbf-69dd03204452"
                       },
                       "RelationType": 1,
-                      "Id": "0df9a4a4-5472-4947-bb87-dec852652fbb"
+                      "Id": "ecfda2ce-73ef-457a-9e5b-bb61964c6205"
                     },
                     "Params": [
                       "=G2",
                       "=P14"
                     ],
-                    "ID": "4868bc3d617341e59d424e0a9a2593ed"
+                    "ID": "8ee5070a60ad49698b22effd1ac2741b"
                   }
                 ],
-                "ID": "20ffc489-a608-4965-86d9-7ca6ccaa2868"
+                "ID": "e9be2ed5-a233-4538-ac99-edb383a13478"
               }
             ]
           },
@@ -233,7 +233,7 @@
                     ]
                   },
                   "value": "조회",
-                  "Id": "72817dfe-ea4c-433e-9b1f-35af240d80f0"
+                  "Id": "d46ff801-7c6d-443c-a033-8202dbde3867"
                 },
                 "CommandList": [
                   {
@@ -252,7 +252,7 @@
                     ]
                   }
                 ],
-                "ID": "e8ac18a7-e9f9-4046-8757-e8adb8c6375f"
+                "ID": "754787b4-92d1-4682-8678-57eb9190e2b4"
               },
               {
                 "Condition": {
@@ -267,7 +267,7 @@
                   },
                   "value": "조회",
                   "compareType": 1,
-                  "Id": "9c03da0a-9a85-43a7-9c8c-482f484749a8"
+                  "Id": "acf6abeb-4653-4c3a-97c5-982419b45699"
                 },
                 "CommandList": [
                   {
@@ -286,7 +286,7 @@
                     ]
                   }
                 ],
-                "ID": "acdda288-e3c9-4f89-8bee-df85c0ee9e0d"
+                "ID": "1b0811cb-42e3-4140-aa91-153bf3d21ddc"
               }
             ]
           },
@@ -323,7 +323,7 @@
                     ]
                   },
                   "value": "조회",
-                  "Id": "a9f08a74-2b9b-470e-a78e-32510c857ef0"
+                  "Id": "07ce9c10-c1e0-4a11-a650-b80fc30e38dc"
                 },
                 "CommandList": [
                   {
@@ -342,7 +342,7 @@
                     ]
                   }
                 ],
-                "ID": "bba61540-86a8-4cc2-9431-c9f75a90d212"
+                "ID": "752ac6da-fdd8-4d77-a3aa-5aa0ed45db25"
               },
               {
                 "Condition": {
@@ -357,7 +357,7 @@
                   },
                   "value": "조회",
                   "compareType": 1,
-                  "Id": "321757da-42d4-4e36-a681-ff008fadea8e"
+                  "Id": "b876cc13-30c7-43fa-ab42-efb2017b6735"
                 },
                 "CommandList": [
                   {
@@ -376,7 +376,7 @@
                     ]
                   }
                 ],
-                "ID": "605b58b7-58c3-4cac-836a-94eb5bb3d6e7"
+                "ID": "df46060a-94b6-4d2d-b7b2-37f6eeae8b9c"
               }
             ]
           },
@@ -411,8 +411,8 @@
         "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
         "CommandList": [
           {
-            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
-            "NavigateType": "back",
+            "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
+            "PageName": "거래처등록페이지",
             "PassValues": []
           }
         ],
@@ -592,11 +592,11 @@
     "13,10,1,5",
     "13,5,1,5",
     "13,2,1,3",
+    "14,1,6,18",
     "12,2,1,3",
     "12,5,1,5",
     "12,10,1,5",
-    "12,15,1,4",
-    "14,1,6,18"
+    "12,15,1,4"
   ],
   "Pictures": [
     {
@@ -641,4 +641,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}//2FOKzsNg+AxpTKg24YPOqP3VKD/nSyOrPhIN+YaupLzEBH3uF6TbR9DmmYCZX2HAMHjBoqXAxgjpIeZ/xkxMrVdLg4bp8jU81AgGc9avsdrK/PIzqWuSCgFEr50DWc//nVZMdaqPH94aSaa4k9G+piEaViBfJRetPzaRLHXzHbgZg1z3/qsUDX+UXemXQLLwvkcdAhpwF23e+YiHbTdZao1zvIDl16/Jr4+D/vz0VGiyGZXXThnEqgziARGfEM48aAheEyhK91jP+XZeK2PE+MXSUBOehn4u6KHrehoyD75ETuLAQ7AYroHcb/FqEvTbII5nDXQMeG06lQ7oA2zLat9tnFkiItH3DeCbve3h2U5OI4Ex6bJMQldINCCR7xM+lfnn2B4GWWFhJVUHiJLtFrjnrlAArNK0Cipwyqb35/HETg6oiaNAow/aA6PBIwQLI2Fl6mU2s4GkvPUl6JoVysmXkp4MIJdmQjCX0bX2GsfMK6E6c7IYHR8VFsixmAmEb4NiXJacidFT17oHinAUSFOkWiB/TyQQd4IxY7zZsO6DGl5jhCy7B5o6CBw/x02GFq4LUCHqE663iBUYThj2MiPpgmyzbZPW2YlfVJD3muGfsUoN6jFvf/frUW8ga+yiqs6cV1dBZwHd1Wp0bBlyLVtpUno/I+MQ3ny8DLCHiZfrWJm/Jyb5/xlJ53Tm/Pzns8RgZmUl0/bX7If8vZ1ByrPvRfKOCknpQgL1L7qWgYpGSHfBnNnvvIT+DYCznA1U1ewWn91YPhONd7YggiWcg/GsIZGoCnCdJHKSf91y/jI75g2tmg1qaAM56dtrOz1PenAOowAO7legbXcWwFqsCUpIym37EOv1abMovUm2yZlo34LtGlCEdtE/jQq05dqt6qZor0KSxHhY7WCys2ODVA==|920
+}//dFdO2z7OjveMENa2fMtWa50qdu/DrtcVFEj3CEUmY5loEtYQRRhYlh8j8JMZcPOuOV48i1NtEUogIOidIOeHXKtIMhuNeOZKLmEgu+YuC8SBWBZ7LmpXUKOPwy9kEPUIeS38jgLTmM13tL+TB4Ktzz1MwYHaj2qBXGNNjNBOlJTpjm+d4PdG8bVGjsasLlXCa7VP7LCzufWOFSP8T37q9iDHv/tEDaZXwN+Licw45KCfYQTCl6ncw5dlRTgf//wblcz9bfiQS1YG0G0MEGnktd0qZRjIEakErLhKQIfu//hYxUwZbILRUDLSTBmyUHk3YSsRCu804VpKa6YtQzwS7SUhKEdF23edkqFwdhuZKYqprgtYXstXicbMgL7if6BVZm2KuaYexRhIqqsAocCtwNfptxZJFBhWwfPxWqRz6eivMxGzlFfF2xC3NdN8FluLNggV2b0uN+gYdDoA8Rbsceie+WUqlrj20XbPpwYdVPtuR/sN1ec5KydidNeMNDXNaR82itXPAXVAnVKbLOJJ4LABM1HGIHEJ3wwhQZpspsLsva0Hc4Fy0X7mVnPU7kCpLgkBAKqWx8HRQxHXsUBJ9zb23HUNQNPk++6vcreFrp2xkMVzBwQAPY3cW5rqzJm95JZ5bcLybPvSDn9exbjvapFcnXIwJS3AtZVbHkubzRaRfeN8C/4L5ZVnIA0JDfxL4wYLOcZjzOSAaiXsiO/vY7oMWNboGAsCJUyqt8ehvG9LTD2+soWoRg7FulUryFJZ/O9H6YUIvnn9UR3hYVbUxp+ZJcaQcQvMEhCeR56HqXXz65hur4WpVYu2MvXwLODH0yOxjDYQpgMGO5lpXVcdMn/qhbmFJNv//b0CwwW0whdUjZkfZ8uubIrTuIJryB1ApRmKz8MD+eST3IBsvEOQaw==|920

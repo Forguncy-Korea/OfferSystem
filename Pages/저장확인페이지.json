@@ -1,0 +1,119 @@
+{
+  "Rows": {
+    "Count": 10
+  },
+  "Cols": {
+    "Count": 10
+  },
+  "Values": {
+    "1,1": "저장되었습니다.",
+    "7,2": "확인"
+  },
+  "AttachInfos": {
+    "7,2": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "PageName": "견적데이터목록페이지",
+            "PassValues": []
+          }
+        ],
+        "Text": "확인",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "WordWrap": true
+      },
+      {
+        "FontFamily": 0
+      },
+      {
+        "FontFamily": 0,
+        "Formatter": 1
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "[AUTO]General"
+      ]
+    },
+    "CellStyles": {
+      "1,1": 0,
+      "1,2": 1,
+      "1,3": 1,
+      "1,4": 1,
+      "1,5": 1,
+      "1,6": 1,
+      "1,7": 1,
+      "1,8": 1,
+      "2,1": 1,
+      "2,2": 1,
+      "2,3": 1,
+      "2,4": 1,
+      "2,5": 1,
+      "2,6": 1,
+      "2,7": 1,
+      "2,8": 1,
+      "3,1": 1,
+      "3,2": 1,
+      "3,3": 1,
+      "3,4": 1,
+      "3,5": 1,
+      "3,6": 1,
+      "3,7": 1,
+      "3,8": 1,
+      "4,1": 1,
+      "4,2": 1,
+      "4,3": 1,
+      "4,4": 1,
+      "4,5": 1,
+      "4,6": 1,
+      "4,7": 1,
+      "4,8": 1,
+      "5,1": 1,
+      "5,2": 1,
+      "5,3": 1,
+      "5,4": 1,
+      "5,5": 1,
+      "5,6": 1,
+      "5,7": 1,
+      "5,8": 1,
+      "6,1": 1,
+      "6,2": 1,
+      "6,3": 1,
+      "6,4": 1,
+      "6,5": 1,
+      "6,6": 1,
+      "6,7": 1,
+      "6,8": 1,
+      "7,2": 2
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "Spans": [
+    "1,1,6,8",
+    "7,2,2,5"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "AuthorizeInfo": {
+      "VisitMode": 2
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}//3qEHo7wCfsJh7y700+xeRIYPoJ875VaCX3xoYgO7e+K86tUMW+I6U38Li43AF5ee1lWyVfJEhJ5OmvxZM3AULWjVVfaqvGdUTx6QcVuXlvZ5dONF5iZtRODYgv+vGCGbKAPij4JWQfZE8/AbF2tovRm/yvPBbO+KtYyufGEyTGsMLb4qNKE4Keb4dHWo+QEbw3SQLYJRalcXQ72pCV7ylIXWLoN0wMoNIm9Hi4R7YzLLw5iwMoGB5OBuiZFsKK4/c3oBiVbzQRadWBPmKGERU8SOR90jF9hpJgRfXT7r54vYBiwJl4N+HVfL94XEidvjg0NOwOgcUMCiuR7vT4JQdAhzRAFFLak88mWBaxZLk8hs/Dq64j8Ng40jWvlG7OyHMGmMFWjriC5WNd/sjm1JPB5hD5lz3DFTughdjwzisjHfRnoZVzMPmfWzZ6H1j4TSySAPssqfeC+9A2R4v6bP1ODPLCrDBi/1ou406yF5/qedJSBWhBnYFiwt7GFhpE3x9roSDhppHcqsH9y2ht5MYThkicXNEv4G5Ni/kynEbf1hdcR+7XS1/y76rJMbFeAw6v3QxD41DDV03eVBcxqx7AC9/neNMBpi4JPCa7xhi2g/HvRvhQAnL94XxZYzkSiBfPyoJDXnGS46nm0k8pzrZdttZyGs0IPMa7DhKQJ+CDRFNO/bKccz6A1lZfok4h4PP0Ojy70IYMTikRxiK4pw7rl/22d4bzvU3mq9T/O9w4H2q1Il1nUUo9M6eUsLF0HmXgNF9ElzbWR2qnHcIrQDq7oikp6L0aF+zlzjWRVMov0CLM8oL//dajrA1VR6JSvDX51pNKvkFuzTe3U7dCUBbiLgAhHhkQFlM5DTisyqjzQx4WuA3bmfuMBCrM6YT+lB5VQv9cuSknM3Dd6djDfOIA==|920
