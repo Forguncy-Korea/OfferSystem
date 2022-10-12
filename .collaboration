@@ -420,5 +420,15 @@
     },
     "LockDateTime": "2022-10-12T19:47:24.3527166+09:00",
     "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/적용완료페이지",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "DESKTOP-SFEU14D\\NamHee",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-10-12T19:52:17.1851818+09:00",
+    "ModuleType": 1
   }
 ]
