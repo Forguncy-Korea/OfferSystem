@@ -203,7 +203,16 @@
   },
   {
     "ModuleName": "PCPage/제품 등록 페이지",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "DESKTOP-LV3CTK1\\hdg89",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-10-13T17:14:05.5126996+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\제품 등록 페이지.json"
+    ]
   },
   {
     "ModuleName": "PCPage/제품_목록 페이지",
@@ -212,7 +221,7 @@
       "UserName": "DESKTOP-LV3CTK1\\hdg89",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2022-10-13T14:14:25.3832025+09:00",
+    "LockDateTime": "2022-10-13T17:14:05.5136969+09:00",
     "ModuleType": 1,
     "ToRemoveFiles": [
       "Pages\\제품_목록 페이지.json"
