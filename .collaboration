@@ -341,7 +341,16 @@
   },
   {
     "ModuleName": "MasterPCPage/마스터 페이지1",
-    "ModuleType": 3
+    "State": 2,
+    "LockedBy": {
+      "UserName": "DESKTOP-LV3CTK1\\hdg89",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-10-13T17:25:51.3424791+09:00",
+    "ModuleType": 3,
+    "ToRemoveFiles": [
+      "MasterPages\\마스터 페이지1.json"
+    ]
   },
   {
     "ModuleName": "TaskScheduler/샘플외데이터삭제",
