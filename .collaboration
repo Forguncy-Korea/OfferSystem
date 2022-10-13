@@ -127,7 +127,7 @@
       "UserName": "DESKTOP-LV3CTK1\\hdg89",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2022-10-13T14:14:25.3832025+09:00",
+    "LockDateTime": "2022-10-13T17:26:11.4784982+09:00",
     "ModuleType": 1,
     "ToRemoveFiles": [
       "Pages\\메인화면.json"
@@ -140,7 +140,7 @@
       "UserName": "DESKTOP-LV3CTK1\\hdg89",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2022-10-13T14:14:25.3822302+09:00",
+    "LockDateTime": "2022-10-13T17:26:11.4795292+09:00",
     "ModuleType": 1,
     "ToRemoveFiles": [
       "Pages\\견적서입력페이지.json"
@@ -170,7 +170,7 @@
       "UserName": "DESKTOP-LV3CTK1\\hdg89",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2022-10-13T14:14:25.3822302+09:00",
+    "LockDateTime": "2022-10-13T17:26:11.4795292+09:00",
     "ModuleType": 1,
     "ToRemoveFiles": [
       "Pages\\견적데이터목록페이지.json"
@@ -187,7 +187,7 @@
       "UserName": "DESKTOP-LV3CTK1\\hdg89",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2022-10-13T14:14:25.3812393+09:00",
+    "LockDateTime": "2022-10-13T17:26:11.4804933+09:00",
     "ModuleType": 1,
     "ToRemoveFiles": [
       "Pages\\거래처목록페이지.json"
@@ -221,7 +221,7 @@
       "UserName": "DESKTOP-LV3CTK1\\hdg89",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2022-10-13T17:14:05.5136969+09:00",
+    "LockDateTime": "2022-10-13T17:26:11.4784982+09:00",
     "ModuleType": 1,
     "ToRemoveFiles": [
       "Pages\\제품_목록 페이지.json"
@@ -264,7 +264,7 @@
       "UserName": "DESKTOP-LV3CTK1\\hdg89",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2022-10-13T17:17:46.1590828+09:00",
+    "LockDateTime": "2022-10-13T17:26:11.4784982+09:00",
     "ModuleType": 1,
     "ToRemoveFiles": [
       "Pages\\출하창고_목록 페이지.json"
@@ -277,7 +277,7 @@
       "UserName": "DESKTOP-LV3CTK1\\hdg89",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2022-10-13T14:14:25.3842326+09:00",
+    "LockDateTime": "2022-10-13T17:26:11.4784982+09:00",
     "ModuleType": 1,
     "ToRemoveFiles": [
       "Pages\\판매입력페이지.json"
@@ -290,7 +290,7 @@
       "UserName": "DESKTOP-LV3CTK1\\hdg89",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2022-10-13T14:14:25.3852295+09:00",
+    "LockDateTime": "2022-10-13T17:26:11.4804933+09:00",
     "ModuleType": 1,
     "ToRemoveFiles": [
       "Pages\\판매조회페이지.json"
@@ -328,12 +328,12 @@
   },
   {
     "ModuleName": "MasterPCPage/마스터 페이지2",
-    "State": 1,
+    "State": 2,
     "LockedBy": {
       "UserName": "DESKTOP-LV3CTK1\\hdg89",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2022-10-13T14:23:54.4756852+09:00",
+    "LockDateTime": "2022-10-13T17:26:11.4775344+09:00",
     "ModuleType": 3,
     "ToRemoveFiles": [
       "MasterPages\\마스터 페이지2.json"
@@ -442,5 +442,15 @@
   {
     "ModuleName": "PCPage/적용완료페이지",
     "ModuleType": 1
+  },
+  {
+    "ModuleName": "MasterPCPage/주문관리 마스터 페이지",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "DESKTOP-LV3CTK1\\hdg89",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-10-13T17:26:11.4775344+09:00",
+    "ModuleType": 3
   }
 ]
