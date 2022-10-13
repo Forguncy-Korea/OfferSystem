@@ -6,42 +6,63 @@
           "DesignLengthInPixel": 55.0
         }
       },
-      "16": {
+      "14": {
         "GridRowColumnDefinition": {
           "DesignLengthInPixel": 20.0
         }
       },
-      "17": {
+      "15": {
         "GridRowColumnDefinition": {
           "DesignLengthInPixel": 27.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 41.0
         }
       }
     },
     "InLogicalVisibleIndexes": [
       1
     ],
-    "Count": 22
+    "Count": 18
   },
   "Cols": {
-    "Count": 24
+    "RowColumnAttachedInfos": {
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 5.0
+        }
+      },
+      "8": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 5.0
+        }
+      },
+      "9": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      }
+    },
+    "Count": 27
   },
   "Values": {
-    "2,12": "바코드",
-    "3,12": 12345,
-    "17,1": "바코드인쇄",
-    "17,6": "닫기"
+    "2,15": "바코드",
+    "3,15": 12345,
+    "15,2": "바코드인쇄",
+    "15,8": "닫기"
   },
   "AttachInfos": {
-    "2,1": {
+    "2,2": {
       "ListViewInfo": {
         "ShowColumnHeaderInDesigner": true,
         "TableName": "제품",
         "RowIndex": 2,
-        "ColumnIndex": 1,
-        "ColumnCount": 21,
+        "ColumnIndex": 2,
+        "ColumnCount": 23,
         "RowCount": 12,
         "ColumnOperation": 2,
-        "ShowGridLine": true,
         "ShowEditStatusIcon": true,
         "UseSimpleBar": true,
         "Name": "리스트뷰1",
@@ -54,27 +75,27 @@
           },
           "Value": {
             "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-            "SerializeProperty": "=제품바코드페이지!B2"
+            "SerializeProperty": "=제품바코드페이지!C2"
           },
-          "Id": "718cc094-984b-4b74-af2b-73344d473d4b"
+          "Id": "f26df8e2-939e-4bd9-b5ed-13921e7b9f25"
         },
         "TopCondition": null,
-        "ListViewStyleName": "사용자 정의2"
+        "ListViewStyleName": "주문관리_리스트뷰_스타일"
       }
     },
-    "3,1": {
+    "3,2": {
       "BindingInfo": {
         "TableName": "제품",
         "ColumnName": "품목코드"
       }
     },
-    "3,5": {
+    "3,6": {
       "BindingInfo": {
         "TableName": "제품",
         "ColumnName": "제품명"
       }
     },
-    "3,12": {
+    "3,15": {
       "CellType": {
         "$type": "Forguncy.BarcodeCellType, ServerDesignerCommon"
       },
@@ -83,7 +104,7 @@
         "ColumnName": "품목코드"
       }
     },
-    "17,1": {
+    "15,2": {
       "CellType": {
         "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
         "CommandList": [
@@ -97,7 +118,7 @@
         "TemplateKey": "스타일4"
       }
     },
-    "17,6": {
+    "15,8": {
       "CellType": {
         "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
         "CommandList": [
@@ -113,6 +134,8 @@
   "StyleDatas": {
     "Styles": [
       {
+        "Background": 0,
+        "FontWeight": 1,
         "BorderTop": 0,
         "BorderLeft": 0
       },
@@ -120,7 +143,8 @@
         "BorderTop": 0
       },
       {
-        "FontFamily": 1,
+        "Background": 0,
+        "FontWeight": 1,
         "BorderTop": 0
       },
       {
@@ -131,11 +155,7 @@
         "BorderLeft": 0
       },
       {
-        "FontFamily": 1,
         "WordWrap": true
-      },
-      {
-        "FontFamily": 1
       },
       {
         "BorderRight": 0
@@ -150,148 +170,118 @@
       {
         "BorderBottom": 0,
         "BorderRight": 0
+      },
+      {
+        "FontFamily": 3
+      },
+      {
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       }
     ],
     "Types": {
       "Strs": [
-        "DarkGray",
-        "Body"
+        "#FFF7F7F7",
+        "Bold",
+        "#FFE1E4E8",
+        "나눔스퀘어"
       ],
       "Borders": [
         {
-          "Color": 0
+          "Color": 2
         }
       ]
     },
     "CellStyles": {
-      "2,1": 0,
-      "2,2": 1,
+      "2,2": 0,
       "2,3": 1,
       "2,4": 1,
-      "2,5": 2,
-      "2,6": 1,
+      "2,5": 1,
+      "2,6": 2,
       "2,7": 1,
       "2,8": 1,
       "2,9": 1,
       "2,10": 1,
       "2,11": 1,
-      "2,12": 2,
+      "2,12": 1,
       "2,13": 1,
       "2,14": 1,
-      "2,15": 1,
+      "2,15": 2,
       "2,16": 1,
       "2,17": 1,
       "2,18": 1,
       "2,19": 1,
       "2,20": 1,
-      "2,21": 3,
-      "3,1": 4,
-      "3,5": 5,
-      "3,12": 6,
-      "3,21": 7,
-      "4,1": 4,
-      "4,21": 7,
-      "5,1": 4,
-      "5,21": 7,
-      "6,1": 4,
-      "6,21": 7,
-      "7,1": 4,
-      "7,21": 7,
-      "8,1": 4,
-      "8,21": 7,
-      "9,1": 4,
-      "9,21": 7,
-      "10,1": 4,
-      "10,21": 7,
-      "11,1": 4,
-      "11,21": 7,
-      "12,1": 4,
-      "12,21": 7,
-      "13,1": 8,
-      "13,2": 9,
-      "13,3": 9,
-      "13,4": 9,
-      "13,5": 9,
-      "13,6": 9,
-      "13,7": 9,
-      "13,8": 9,
-      "13,9": 9,
-      "13,10": 9,
-      "13,11": 9,
-      "13,12": 9,
-      "13,13": 9,
-      "13,14": 9,
-      "13,15": 9,
-      "13,16": 9,
-      "13,17": 9,
-      "13,18": 9,
-      "13,19": 9,
-      "13,20": 9,
-      "13,21": 10,
-      "16,0": 6,
-      "16,1": 6,
-      "16,2": 6,
-      "16,3": 6,
-      "16,4": 6,
-      "16,5": 6,
-      "16,6": 6,
-      "16,7": 6,
-      "16,8": 6,
-      "16,9": 6,
-      "16,10": 6,
-      "16,11": 6,
-      "17,0": 6,
-      "17,1": 6,
-      "17,2": 6,
-      "17,3": 6,
-      "17,4": 6,
-      "17,5": 6,
-      "17,6": 6,
-      "17,7": 6,
-      "17,8": 6,
-      "17,9": 6,
-      "17,10": 6,
-      "17,11": 6,
-      "18,0": 6,
-      "18,1": 6,
-      "18,2": 6,
-      "18,3": 6,
-      "18,4": 6,
-      "18,5": 6,
-      "18,6": 6,
-      "18,7": 6,
-      "18,8": 6,
-      "18,9": 6,
-      "18,10": 6,
-      "18,11": 6,
-      "19,0": 6,
-      "19,1": 6,
-      "19,2": 6,
-      "19,3": 6,
-      "19,4": 6,
-      "19,5": 6,
-      "19,6": 6,
-      "19,7": 6,
-      "19,8": 6,
-      "19,9": 6,
-      "19,10": 6,
-      "19,11": 6
+      "2,21": 1,
+      "2,22": 1,
+      "2,23": 1,
+      "2,24": 3,
+      "3,2": 4,
+      "3,6": 5,
+      "3,24": 6,
+      "4,2": 4,
+      "4,24": 6,
+      "5,2": 4,
+      "5,24": 6,
+      "6,2": 4,
+      "6,24": 6,
+      "7,2": 4,
+      "7,24": 6,
+      "8,2": 4,
+      "8,24": 6,
+      "9,2": 4,
+      "9,24": 6,
+      "10,2": 4,
+      "10,24": 6,
+      "11,2": 4,
+      "11,24": 6,
+      "12,2": 4,
+      "12,24": 6,
+      "13,2": 7,
+      "13,3": 8,
+      "13,4": 8,
+      "13,5": 8,
+      "13,6": 8,
+      "13,7": 8,
+      "13,8": 8,
+      "13,9": 8,
+      "13,10": 8,
+      "13,11": 8,
+      "13,12": 8,
+      "13,13": 8,
+      "13,14": 8,
+      "13,15": 8,
+      "13,16": 8,
+      "13,17": 8,
+      "13,18": 8,
+      "13,19": 8,
+      "13,20": 8,
+      "13,21": 8,
+      "13,22": 8,
+      "13,23": 8,
+      "13,24": 9,
+      "15,8": 10,
+      "15,9": 10,
+      "15,10": 10,
+      "17,21": 11
     },
     "SheetStyle": {
-      "FontFamily": 1
+      "FontFamily": 3
     }
   },
   "Spans": [
-    "1,1,1,3",
-    "17,1,1,5",
-    "17,6,1,3",
-    "4,1,10,21",
-    "3,1,1,4",
-    "3,5,1,7",
-    "3,12,1,10",
-    "2,1,1,4",
-    "2,5,1,7",
-    "2,12,1,10"
+    "1,2,1,3",
+    "3,2,1,4",
+    "3,6,1,9",
+    "3,15,1,10",
+    "15,2,1,5",
+    "15,8,1,3",
+    "4,2,10,23",
+    "2,2,1,4",
+    "2,6,1,9",
+    "2,15,1,10"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
@@ -303,12 +293,12 @@
     "RepeatRangeSettings": []
   },
   "PrintInfo": {
-    "ColumnStart": 1,
-    "ColumnEnd": 21,
+    "ColumnStart": 2,
+    "ColumnEnd": 24,
     "RowStart": 1,
     "RowEnd": 13,
     "Margin": {},
     "ZoomFactor": 1.5,
     "PaperSize": {}
   }
-}//wkQOJkON76t4ZLki/K2iwzzAFmjNY5LxjT+dEMs5RTmr3V0RSd1T+NgrRR1t83VzN5dVU3KmRHlNBqd6P5ejiwgOsDrMrjglGqnNwObAJedmIwIRehONedm6wAy5vRMpzTE5CIODjSNiaFX1gjJNMWe+JbkXH4N59dVL1fnvZ305ZY5B4u5Fgyt+I6xr/1BhXW+b0VvxsMkan6rxyObi0WkNIJVPzms5UgBCAFeZqF8fXNYHv9nZFwVZYI+4LPv4qi5TmVCI1iC+YLY05z79dc2ZgbAe7TgNLKApyR4jr7S4sxYCDFon0/kcjmRFcvDRU4ZrYnpPc3hOvQNU6DppxuK7lZMd84esDrpiT2TrujLKBchM8PilcPnhdEjqVILiGU6xf83T0cbnn7p0Lo0DKdznXzXTSRJcKZaQPVgJv64mxAkSRPzezC95jU2UYW2UtxLgXdfK/R2RWt8fYp9eZASAnr6qg4oH4ZysYootlndXVrFPLS+nU0ectBTg3JwAq0KUEGXJhEJc8cn5HV2rF8+Z4ypMDUYKd6YwrfqpeSpflSUs/H3GFHDs1v25s90Szr5W0w42snHOc6c3BvqmS5ua/nko32lDO6PI4sRidWEqiiwTbyKJmvrCcy6x+3KKPCDKRDc2FZjWMI5l3BXXVOVlhACJAFyVxBczd2VirARhR7fbAmU4Vmg92WrxwVCal0n6tyso2U7A8JFlCtZ69c2pNg8aM7+PrcaNFLFt+W4dY7c43bW5iQ0P/I8fnRRHh/1FJNx2qhF5+kCKRT6ea5XK5su72IJsgYLQoSquJunekJDmT/xCPYLd11th3oY7yiC1ry2TkbWMOiXmNyYawfTByY3azhNekyIaIJhe2IIhv0GSIUgsO1o3DHPfxixp5YFFXkEcZIax9eV5ECDsiQ==|920
+}//2QQWzdOBEPVS4zK1QaoWxTrZ6AcwA3sgBlMOFOrctvfQtrBW+jcfLE37+7FPcmL2tzXl9hDAQzml98gQHe5lyV2aZOEykqUw4CuhCdftZX4zoumdHsib5uHeUfElbHEKD8lEysgWYHo36zAQU6RS+oE6HYRqwCG2Q0FfIco7X8DY9oGvHiP2afum0XGeba8zdpsSoYhtlnYVFZBW58GBVw6m8f4CY/qh1/9GQR5g6KI5a657wuRGFazuT9wtyWMYJgTU+KJOeZrnHdv4V6GSeRQQYCPHddzj8WfUXyYmQIsHRvjMnJoTmMEOE+KTKRk5kUf8deYSMfWmmxdNkVuDLf1qKMjw50fytpZojuFffVv1HfPfGdjLKw8vdFQaSM95ueEssXuFjhcD3VyrSdhRRb+1HWLHvttgAyC4g6gzI7NXmCncAOfsPtVRFhSxTYDSZu3RjgOQUVW5KkOGJljDplG/lRz1naWNYjMsXgvIRioU4+Iw/1qFeBHFUDcZti6cP3lYk4faBesCVr64pEgTUiMxjCpll9EEwYHm3xBFCl2/K5bYKG9eB5DvWf152CcSiYpgzAjvzc4yEGZVl73vyXKlnv1mOvLXA2Nm0CtVP9UsMhdhiQVaMNZs+aElc3r04DBv4yYqWxcXNXBwEzc8Y1TUzqqUhHfRisL9x1iMTjXPnW8vgyIklUQC3HgZCkYUWexQ9b2mCd2YWoekqrDaN/cK+zdMFSAWWSnriEO9NOrzUjW7VgujCFlQn5S1aezvgjr+oF1QOvZ9KORa+m4H6Wsi/5HVAjqLWbLTgH7qQbKpwK4XJ3FxaU8PgN44Z4mSDzJ2DPcx1N+mopUM3DwpNKcRnaiW2a+2ybecNH51ImeGSz7+mE7ovp2e8sdxKoavTXhPcivCu80w/hwPztt64A==|920

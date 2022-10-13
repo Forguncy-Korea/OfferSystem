@@ -1,73 +1,110 @@
 {
   "Rows": {
     "RowColumnAttachedInfos": {
-      "4": {
+      "5": {
         "GridRowColumnDefinition": {
           "DesignLengthInPixel": 30.0,
           "IsHidden": true
         }
       },
-      "5": {
-        "GridRowColumnDefinition": {
-          "DesignLengthInPixel": 8.0
-        }
-      },
       "6": {
         "GridRowColumnDefinition": {
-          "DesignLengthInPixel": 30.0
+          "DesignLengthInPixel": 8.0
         }
       },
       "7": {
         "GridRowColumnDefinition": {
-          "DesignLengthInPixel": 8.0
+          "DesignLengthInPixel": 30.0
         }
       },
       "8": {
         "GridRowColumnDefinition": {
-          "DesignLengthInPixel": 30.0
+          "DesignLengthInPixel": 8.0
         }
       },
       "9": {
         "GridRowColumnDefinition": {
-          "DesignLengthInPixel": 8.0
+          "DesignLengthInPixel": 30.0
         }
       },
       "10": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 8.0
+        }
+      },
+      "11": {
         "GridRowColumnDefinition": {
           "DesignLengthInPixel": 30.0
         }
       },
       "14": {
         "GridRowColumnDefinition": {
-          "DesignLengthInPixel": 25.0
+          "DesignLengthInPixel": 29.0
+        }
+      },
+      "15": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
         }
       }
     },
     "InLogicalVisibleIndexes": [
-      4
+      5
     ],
-    "Count": 20
+    "Count": 16
   },
   "Cols": {
-    "Count": 30
+    "RowColumnAttachedInfos": {
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 5.0
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 5.0
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "8": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 5.0
+        }
+      },
+      "9": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 5.0
+        }
+      },
+      "10": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      }
+    },
+    "Count": 35
   },
   "Values": {
-    "0,0": "창고 등록",
-    "4,1": "창고코드",
-    "6,1": "창고명",
-    "8,1": "주소",
-    "10,1": "구분",
+    "1,1": "창고 등록",
+    "5,2": "창고코드",
+    "7,2": "창고명",
+    "9,2": "주소",
+    "11,2": "구분",
     "14,1": "저장",
-    "14,5": "닫기"
+    "14,6": "닫기"
   },
   "AttachInfos": {
-    "4,7": {
+    "5,12": {
       "BindingInfo": {
         "TableName": "출하창고",
         "ColumnName": "ID"
       }
     },
-    "6,7": {
+    "7,12": {
       "CellType": {
         "$type": "Forguncy.TextCellType, ServerDesignerCommon",
         "SavedValidators": [
@@ -82,7 +119,7 @@
         "ColumnName": "창고명"
       }
     },
-    "8,7": {
+    "9,12": {
       "CellType": {
         "$type": "Forguncy.TextCellType, ServerDesignerCommon",
         "SavedValidators": [
@@ -97,7 +134,7 @@
         "ColumnName": "주소"
       }
     },
-    "10,7": {
+    "11,12": {
       "CellType": {
         "$type": "Forguncy.RadioGroupCellType, ServerDesignerCommon",
         "NoneItemText": "<없음>",
@@ -141,7 +178,7 @@
                     ]
                   },
                   "value": "저장",
-                  "Id": "789f6517-2985-4f30-afd1-a4b7d06291e5"
+                  "Id": "ac93c6cc-26eb-4c53-b54a-bce97d81761d"
                 },
                 "CommandList": [
                   {
@@ -158,7 +195,7 @@
                     ]
                   }
                 ],
-                "ID": "a1768f31-476e-41d4-9ae3-77a4ddf60919"
+                "ID": "0b1b4161-3077-4c93-86b1-adbee8d4b3e8"
               },
               {
                 "Condition": {
@@ -172,7 +209,7 @@
                     ]
                   },
                   "value": "수정",
-                  "Id": "4c27fb0e-1a30-44a7-84c7-7897a02340e0"
+                  "Id": "e19b2b89-6c79-4475-b7b0-58cfeb10eaee"
                 },
                 "CommandList": [
                   {
@@ -183,7 +220,7 @@
                     "UpdateValues": []
                   }
                 ],
-                "ID": "5d3b9183-d618-4b22-ac75-2bb6b528b228"
+                "ID": "cb17e0ce-3978-4fbc-84c4-2c0d4c184432"
               }
             ]
           },
@@ -195,10 +232,10 @@
           }
         ],
         "Text": "저장",
-        "TemplateKey": "_RS_Shadow_Style2"
+        "TemplateKey": "스타일4"
       }
     },
-    "14,5": {
+    "14,6": {
       "CellType": {
         "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
         "CommandList": [
@@ -207,45 +244,45 @@
           }
         ],
         "Text": "닫기",
-        "TemplateKey": "스타일1"
+        "TemplateKey": "스타일5"
       }
     }
   },
   "StyleDatas": {
     "Styles": [
       {
-        "FontFamily": 0,
         "FontSize": 18.666666666666664,
-        "FontWeight": 1,
-        "Formatter": 2
+        "FontWeight": 0,
+        "Formatter": 1
       },
       {
-        "FontFamily": 3
-      },
-      {
-        "FontFamily": 3,
         "FontSize": 18.666666666666664,
-        "FontWeight": 1,
-        "HorizontalAlignment": 4
+        "FontWeight": 0,
+        "HorizontalAlignment": 2
       },
       {
-        "FontFamily": 3,
         "FontSize": 14.666666666666666,
-        "FontWeight": 1,
-        "Formatter": 2,
-        "HorizontalAlignment": 5,
-        "VerticalAlignment": 6
+        "FontWeight": 0,
+        "Formatter": 1,
+        "HorizontalAlignment": 3,
+        "VerticalAlignment": 4
       },
       {
-        "FontFamily": 3,
-        "Formatter": 2
+        "Background": null
       },
       {
-        "FontWeight": 1
+        "FontWeight": 0,
+        "Formatter": 1
       },
       {
-        "FontFamily": 3,
-        "Formatter": 7
+        "FontWeight": 0
+      },
+      {
+        "Background": 5,
+        "Formatter": 6
+      },
+      {
+        "FontFamily": 7
       },
       {
         "Background": 8
@@ -253,156 +290,145 @@
     ],
     "Types": {
       "Strs": [
-        "나눔스퀘어",
         "Bold",
         "[AUTO]General",
-        "Body",
         "Center",
         "Left",
         "Top",
+        "Background 1 0",
         "@",
+        "나눔스퀘어",
         "Background 1 -5"
       ]
     },
     "CellStyles": {
-      "0,0": 0,
-      "0,1": 1,
-      "0,2": 1,
-      "0,3": 1,
-      "0,4": 1,
-      "0,5": 1,
-      "0,6": 1,
-      "0,7": 1,
-      "0,8": 1,
-      "0,9": 1,
-      "0,10": 1,
-      "0,11": 1,
-      "0,12": 1,
-      "0,13": 1,
-      "0,14": 1,
-      "0,15": 1,
-      "0,16": 1,
-      "0,17": 1,
-      "0,18": 1,
-      "0,19": 1,
-      "0,20": 1,
-      "0,21": 1,
-      "0,22": 1,
-      "0,23": 1,
-      "0,24": 1,
-      "0,25": 1,
-      "0,26": 1,
-      "0,27": 1,
-      "0,28": 1,
-      "0,29": 1,
-      "1,0": 1,
-      "1,1": 1,
-      "1,2": 1,
-      "1,3": 1,
-      "1,4": 1,
-      "1,5": 2,
-      "1,6": 2,
-      "1,7": 2,
-      "1,8": 2,
-      "1,9": 2,
-      "1,10": 2,
-      "1,11": 2,
-      "1,12": 2,
-      "1,13": 2,
-      "1,14": 2,
-      "1,15": 2,
-      "1,16": 2,
-      "1,17": 2,
-      "1,18": 2,
-      "1,19": 2,
-      "1,20": 3,
-      "1,21": 3,
-      "1,22": 3,
-      "1,23": 3,
-      "1,24": 3,
-      "1,25": 3,
-      "1,26": 3,
-      "1,27": 3,
-      "1,28": 3,
-      "1,29": 3,
-      "2,0": 3,
-      "2,1": 3,
-      "2,2": 3,
-      "2,3": 3,
-      "2,4": 3,
-      "2,5": 3,
-      "2,6": 3,
-      "2,7": 3,
-      "2,8": 3,
-      "2,9": 3,
-      "2,10": 3,
-      "2,11": 3,
-      "2,12": 3,
-      "2,13": 3,
-      "2,14": 3,
-      "2,15": 3,
-      "2,16": 3,
-      "2,17": 3,
-      "2,18": 3,
-      "2,19": 3,
-      "2,20": 3,
-      "2,21": 3,
-      "2,22": 3,
-      "2,23": 3,
-      "2,24": 3,
-      "2,25": 3,
-      "2,26": 3,
-      "2,27": 3,
-      "2,28": 3,
-      "2,29": 3,
-      "4,1": 4,
-      "4,2": 1,
-      "4,6": 5,
-      "4,7": 1,
-      "5,1": 1,
-      "5,2": 1,
-      "6,1": 4,
-      "6,2": 1,
-      "6,6": 5,
-      "6,7": 6,
-      "7,1": 1,
-      "7,2": 1,
-      "8,1": 4,
-      "8,2": 1,
-      "8,6": 5,
-      "8,7": 6,
-      "14,1": 1,
-      "14,2": 1,
-      "14,3": 1,
-      "14,4": 1,
-      "14,5": 1,
-      "14,6": 1,
-      "14,7": 1,
-      "14,8": 1
+      "1,1": 0,
+      "1,7": 0,
+      "2,7": 0,
+      "2,8": 1,
+      "2,9": 1,
+      "2,10": 1,
+      "2,11": 1,
+      "2,12": 1,
+      "2,13": 1,
+      "2,14": 1,
+      "2,15": 1,
+      "2,16": 1,
+      "2,17": 1,
+      "2,18": 1,
+      "2,19": 1,
+      "2,20": 1,
+      "2,21": 1,
+      "2,22": 1,
+      "2,23": 1,
+      "2,24": 1,
+      "2,25": 2,
+      "2,26": 2,
+      "2,27": 2,
+      "2,28": 2,
+      "2,29": 2,
+      "2,30": 2,
+      "2,31": 2,
+      "2,32": 2,
+      "2,33": 2,
+      "2,34": 2,
+      "3,1": 2,
+      "3,2": 2,
+      "3,3": 2,
+      "3,4": 2,
+      "3,5": 2,
+      "3,6": 2,
+      "3,7": 2,
+      "3,8": 2,
+      "3,9": 2,
+      "3,10": 2,
+      "3,11": 2,
+      "3,12": 2,
+      "3,13": 2,
+      "3,14": 2,
+      "3,15": 2,
+      "3,16": 2,
+      "3,17": 2,
+      "3,18": 2,
+      "3,19": 2,
+      "3,20": 2,
+      "3,21": 2,
+      "3,22": 2,
+      "3,23": 2,
+      "3,24": 2,
+      "3,25": 2,
+      "3,26": 2,
+      "3,27": 2,
+      "3,28": 2,
+      "3,29": 2,
+      "3,30": 2,
+      "3,31": 2,
+      "3,32": 2,
+      "3,33": 2,
+      "3,34": 2,
+      "4,0": 3,
+      "4,34": 3,
+      "5,0": 3,
+      "5,2": 4,
+      "5,11": 5,
+      "5,34": 3,
+      "6,0": 3,
+      "6,2": 5,
+      "6,34": 3,
+      "7,0": 3,
+      "7,2": 4,
+      "7,11": 5,
+      "7,12": 6,
+      "7,34": 3,
+      "8,0": 3,
+      "8,2": 5,
+      "8,34": 3,
+      "9,0": 3,
+      "9,2": 4,
+      "9,11": 5,
+      "9,12": 6,
+      "9,34": 3,
+      "10,0": 3,
+      "10,2": 5,
+      "10,34": 3,
+      "11,0": 3,
+      "11,2": 5,
+      "11,34": 3,
+      "12,0": 3,
+      "12,34": 3,
+      "14,1": 7,
+      "14,2": 7,
+      "14,3": 7,
+      "14,4": 7,
+      "14,5": 7,
+      "14,6": 7
     },
     "RowStyles": {
-      "3": 7,
-      "4": 7,
-      "5": 7,
-      "6": 7,
-      "7": 7,
-      "8": 7,
-      "9": 7,
-      "10": 7,
-      "11": 7
+      "4": 8,
+      "5": 8,
+      "6": 8,
+      "7": 8,
+      "8": 8,
+      "9": 8,
+      "10": 8,
+      "11": 8,
+      "12": 8
+    },
+    "ColStyles": {
+      "34": 3
     },
     "SheetStyle": {
-      "FontFamily": 3
+      "FontFamily": 7
     }
   },
   "Spans": [
+    "5,12,1,21",
+    "7,12,1,21",
+    "9,12,1,21",
+    "11,12,1,21",
+    "1,1,2,7",
     "14,1,1,4",
-    "4,7,1,21",
-    "6,7,1,21",
-    "8,7,1,21",
-    "10,7,1,21",
-    "14,5,1,4",
-    "0,0,2,5"
+    "14,6,1,6"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
@@ -417,4 +443,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}//mxH0OYnMONVK0LU8nMZZ4IJiwGh4kT8dYT+MLDpALZpPswaq3OQ/IgxP4Y17NZ4nNUNtRjkyo8cqcuTR3nfB14sB20d4wIwDmn8ld9NYwHT0l4/t2CjeOXRd0HuETyt8pD5KL6J1EUim58fXR62wt+XE2lPypBqskV/sjeQYUrYWbc/5GO3coTq2USB1PJjAiFk1SxS20K75LfGvDeXuHjCJ1FgiItnBf99LvTiBzjETqlUmAWruB5Lem7ImU3okH+kwvzP/ENBgRqBPEgS25AvD/MH1a/qEhlvTrmH5ibdOrm2aQwIjHavxeoajpa2iVXnNIkDWOtm4WO9GsmTsU3JfJJmZQfxoJJZLNhOWi88EH7S/59vka9BG7FfuyKZ+Qw25r3wFzHojNWTPWgdf2wnjmWaGsukRXyYuZUYje+3iUKhyktXRFM60ePOM87tHKUc5IPqkwW9a2uDZrkA6GOGnGbDNOl7PAlPeDWA8KzIwfIJmRBZrqLbkWTuR5duaGT5sHGnotCcXXtWSG1GQOuA8NXELLLHFKoBZpIH0I/WeZ0LIk6V12Z8SGjTOmWYpjpUQz5HI6QxgZqQj5z4tta1XATEV3iVGw1H4kUybVyzgDE3B0FNVwSP1fYkvbl7O3epalCqMHCLP48eGrkx3f78/cGZnNbhKla4id0wDs+VKQhwppmGvB44nofR+pcgHH6wtiYntvEkjwqiyemmpLY84ysb1ilDfopJlVdr5to2nAyfqNlQpu2ygelC0ShzuS/8NSDwSqOBMOAnPU+Ihq1mf0jO7t3r5w7AvXpsMTVUHmbHqnXS8TQrcT5pggVG+bOt4YIYTc6z+0qdkLyVo3RfDgVxhwK1XNAS0AOgex/4Uj8G1NRdTRn/fielIArgJzTIqc4zlkX3kuJONWZZeGA==|920
+}//W/SKGsO40/jb7+ASo4FR7B6j1YND0I/QIaPM0CQS4FgZgxS7bY64ogNuHyV92Rq0Gn3L93owCCxrTrJQa2gKxmUD+SzoSHPM3Eo+4m1O4shV+jO4ErmKd/oLDU5kuKgsDNg8EBsOlf+9UiSDSyj4ocQPXDPWX2DEi1ySpgA5eLCHTY47q4WyowoL1wx5BLMMQpvkEfK+P4rydRbahv8dHKLZVyLdyGqQ2NE3w+QkMfxyZXnUC2IHeNU7fKM8WaKp4WNORRPDjy6EVIPwgwGRVY1MQPGt+knvIjnpONwDXoCk7OtcBevarxxZ/BHosrSGXM0mQtWTgqk+Z+c1AHn+ku/ajlVjjOYYLv2vBBFY4FqF4F/jHVZr2H8hz4bLWm2IZmkPJj4nIBQnPXpAXWZxaF/grxGsHGe5iUf6/rkWIeKXRDqL7cz55NX0kvU5IR2SJrbq2VvflOK7wEYZkfwqrO/bYUs8Ptv7Ce1IntNh+LEAvabIygLr3g3EMNoewy4J3lAGqZFvEdkvEAkP0A1HBFG7jX4XbakfUDL+YXFdaGuphQ8im+/cnd1sgBu5uK+P/qkrPxsqfYUU11zxHCRwqDE73moyr/xFkTkiR8ojMher1jDm7Odywn63OE2X0n95DbFMCriIwGjYBZ4x7v99XRry6FAdUSPP+bBke3aLD6reyGB3gsD3DUh1PcOvUiuOWE4XQj8lIha/0+J6c4S+0LmF/2kuYgLRAStEjjrsi4QEDoWjkvkfLWI90HxptF3V2/ebDUau5omTi1y9jMN31/eeKMaySdSjh45RY4S5IYf49/7FQrPGFJJc7ijOIUy8DPC+bU73luVfo3dY1bgMmlQgo8KjpMl4U79w1Q5K68LNaPZ0jHINhOi8Pn0iXtF+EUOtWoIU/s7orQH5TW9uaQ==|920
