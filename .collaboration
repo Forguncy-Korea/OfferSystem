@@ -310,7 +310,16 @@
   },
   {
     "ModuleName": "MasterPCPage/마스터 페이지2",
-    "ModuleType": 3
+    "State": 1,
+    "LockedBy": {
+      "UserName": "DESKTOP-LV3CTK1\\hdg89",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-10-13T14:23:54.4756852+09:00",
+    "ModuleType": 3,
+    "ToRemoveFiles": [
+      "MasterPages\\마스터 페이지2.json"
+    ]
   },
   {
     "ModuleName": "MasterPCPage/마스터 페이지1",
