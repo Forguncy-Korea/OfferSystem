@@ -48,13 +48,13 @@
       }
     },
     "InLogicalVisibleIndexes": [
+      24,
       25,
       26,
       27,
-      28,
-      29
+      28
     ],
-    "Count": 30
+    "Count": 29
   },
   "Cols": {
     "RowColumnAttachedInfos": {
@@ -147,7 +147,7 @@
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                   "SerializeProperty": "='출하창고_목록 페이지'!AF3"
                 },
-                "Id": "0984d03b-eb7c-433e-9d9d-6f3c6de82869"
+                "Id": "b293b7a3-bdf8-4d5e-9420-9cbcce03659a"
               },
               "Condition2": {
                 "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
@@ -160,15 +160,15 @@
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                   "SerializeProperty": "='출하창고_목록 페이지'!AF3"
                 },
-                "Id": "0e05a33b-0512-488a-95cb-3623b4b4a7fd"
+                "Id": "5b86f2b3-0109-4b6a-bc35-d750c2f764dc"
               },
               "RelationType": 1,
-              "Id": "1be3d47c-3766-4b57-ab08-051c94a10f35"
+              "Id": "57a363bf-6461-4c91-9bf2-5b57a6bec0ed"
             },
             "Params": [
               "=AF3"
             ],
-            "ID": "047a21668ebd4f2fb5ef7cc417205edd"
+            "ID": "a8126cbc5524455c99997638b525b33d"
           }
         ],
         "Text": "Search",
@@ -330,12 +330,12 @@
                     "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                     "cellLocations": [
                       {
-                        "SerializeProperty": "='출하창고_목록 페이지'!C26"
+                        "SerializeProperty": "='출하창고_목록 페이지'!C25"
                       }
                     ]
                   },
                   "value": "%Null%",
-                  "Id": "caad7f2e-0918-4f1f-8265-ab58adc0e42d"
+                  "Id": "236d0451-320a-4a1b-a35f-18149c8a7168"
                 },
                 "CommandList": [
                   {
@@ -344,7 +344,7 @@
                     "PassValues": []
                   }
                 ],
-                "ID": "b438036f-302f-4662-a8d9-f684afa5e67b"
+                "ID": "546f6a76-90a3-4de4-be45-cd6f199250ef"
               },
               {
                 "Condition": {
@@ -353,13 +353,13 @@
                     "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                     "cellLocations": [
                       {
-                        "SerializeProperty": "='출하창고_목록 페이지'!C26"
+                        "SerializeProperty": "='출하창고_목록 페이지'!C25"
                       }
                     ]
                   },
                   "value": "%Null%",
                   "compareType": 1,
-                  "Id": "ec494b56-c828-4148-b07b-858ff33af81d"
+                  "Id": "b20a1b47-8588-47d5-b88f-9885c2147096"
                 },
                 "CommandList": [
                   {
@@ -377,7 +377,7 @@
                             ]
                           },
                           "value": "YES",
-                          "Id": "ea2af742-48b5-4fa4-a38f-9b63a7fc3489"
+                          "Id": "9256b297-340c-470b-bfbd-a6e091d4f347"
                         },
                         "CommandList": [
                           {
@@ -399,7 +399,7 @@
                             "ListviewName": "리스트뷰1"
                           }
                         ],
-                        "ID": "a963aaeb-03b0-484f-bce7-049ca95b727c"
+                        "ID": "621561d0-c2ff-4c8a-8ba9-38c27d35de1e"
                       },
                       {
                         "Condition": {
@@ -413,7 +413,7 @@
                             ]
                           },
                           "value": "NO",
-                          "Id": "dc322491-db14-480a-8383-9cc539a72e48"
+                          "Id": "1a94a9f6-8041-49d1-8912-6baa7115e999"
                         },
                         "CommandList": [
                           {
@@ -435,7 +435,7 @@
                             "ListviewName": "리스트뷰1"
                           }
                         ],
-                        "ID": "affa3c9a-2e42-4238-97ff-2cf74a49c1c3"
+                        "ID": "0990f8d6-efaf-4934-8869-25bfd6c05960"
                       }
                     ]
                   },
@@ -445,7 +445,7 @@
                     "PassValues": []
                   }
                 ],
-                "ID": "b2a1be1b-c049-4854-abb4-9693547a8e70"
+                "ID": "41ce51b9-caef-404a-a395-be74be184010"
               }
             ]
           }
@@ -469,7 +469,7 @@
         "TemplateKey": "스타일5"
       }
     },
-    "25,2": {
+    "24,2": {
       "CellType": {
         "$type": "SelectionPanel.SelectionPanel, SelectionPanel",
         "ListViewName": "리스트뷰1"
@@ -558,7 +558,7 @@
         "#FFE1E4E8",
         "#FF2CAAD3",
         "Right",
-        "나눔스퀘어"
+        "나눔스퀘어 네오 OTF Regular"
       ],
       "Borders": [
         {
@@ -738,7 +738,7 @@
     "7,28,1,13",
     "7,41,1,12",
     "4,2,1,10",
-    "25,2,5,14",
+    "24,2,5,14",
     "2,31,1,16",
     "22,6,1,7",
     "22,14,1,5",
@@ -764,10 +764,10 @@
             "ColumnName": "ID"
           },
           "Value": "%Null%",
-          "Id": "66922a9f-4b65-49da-91a3-6e9fa08b8bae"
+          "Id": "4423394f-09cd-4b9d-828e-31d753bf393a"
         },
         "Params": [],
-        "ID": "c3d92a9bbc3f4fe6b56c57c118e02857"
+        "ID": "cf96e9badf874d4091e39d47cfa44225"
       }
     ],
     "AuthorizeInfo": {
@@ -780,4 +780,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}//S6JYHkyEDCLs96AEFvcKScQ1NZF0tLyD5Uc3wKz2UoI/95y5JewiYTTjrYB42dChnQmfHXZasznA156U1W0Cj1gU/noyqBNR084TGuaee8w3+B2fraOvFLWMdK+YeGoc15gNEMEDPugEiCJoNsnLqdNg4Ucvg5OUSwWVeomMBpRqMuz1osu0BAwRaCLN57XGnpxGIqItIgS4SLVJEa3Cz5ftVXq52VkoBz0n0f0/s0tIz5RZh1vZfwT1YKFoYChSPMlMQ+Lt1Aa9btaDDRUQmsEu30bFtE9Papi8uG5id1xXIFQmv7k1+nRP9m0zp7bAs7vOkhZffyaqtZ1jbdDoPq93eyH1noLESAkMFA49lpiL0X+2ZyIMvBwtqjW0KhHaNUVC0uBcyHBJrY1eVf7066mndJ1qTSbrMkTInQ5a1D7/dvAFmj6KPQ7E5NAk6y7OJfMCpySvzRxiv1D379V+/bObhjhBYUfk852+jIFs4XfwsUfKWhEm/XvkaCWGm0B+Xeo6sVtqp8i8dCNUbxgWHdXFc9TlrZlJbKR8JJcDBWsFC1nvCXuqEZNGas/nzYv5q9xv6jh9XN2/JP3xaytye5ZDXs5jlwRghgRYAJU16l7QhMPJ3trK8jN9PdjWdzsJgw60BBQECEd+eZO7CJZB8OqvanWcageAlcdtwKxNUuINBcPQmDs6BBIGvoHTcA8lhV0xaX8uxKKW3UFeJsAlDriKzpHgacBvYXjFoCFjJLvR5c3cNr8JyM3G4sEc+f3v8VsVg5GHcEhewqdQOMZLL5k601pX5KcfEvJEakYh3/RLFbSTgRCNcDeuWS+Y1QiXM6VG3pgO81Wnszz8fICiPPhEeMcbbu6Y4DPjPfvyspyQuTtgAJJuPOqMWA8OGtvcdCTqJtxHo1Ql5KiUllMSAg==|920
+}//28Pp3rmcBds1rOvLUO73eiGQ3JMGqvbm35EqqqYJiVZQ/A714heJy9YUE0NYWBEOIocfpYNaek59UNFpIg8FyolqVqiOqM0CfT0unWHsJ//YVqPFwnZwVLSisJZhTTlfd7fnpgFD1iiKx5SVc5BLleu5tR9Ny9MOtqoGnlLE2sYszzztXux9hTLEsbBRVs6m5+jvQ3k9uELnlpF5Xx/JNxyqcYGSjy1cNFqQ1ubVlZ1OnDVLcbXpgCvedKkvwy3PhZXniGcr5WtPC458YazDxQIFqyJCUBCP9KR1uWO3h6t6ngf0+amdGqywSOdtsIbhe0Gdn8RfcOztuXQhNcdJl476DIn6Lezgwy30TOzYbAX7PRsMBC4qV6UtRa2IsCtUZV7jJiyuwx0HHB87QkQsymlVjHXsafrtxBeBJ4gA+Da1QjJ55THl6+irXJF93UJHE5Z5rxKIYoMlF4ZiqM9O+iRA5VeXKwFMviuwfjWiqNeO5xeSLXOz4GVXIMTj3S2USJuzXfl10/hOALBHZWNeKnalDMvFMinfZGqJHrcwSmnjxrNUd2e8BgPpYspcSOLAf+/75IAX9PzCVl5CfRbAbjp+keRS0BeW8a/INGsOEtspMRFRycbNRd129M5COW2FYwqm9iY6B924liv6hSUB+99kwXcwprktrJMKH+AlvItbeKKxZiY/BGCaBa5XOlyt7FREKdHB2gEvOtH6HnyzvuPPD5Bdeg2FRMd46uSYo41W4Lp3CMVJmL1G/zLYfbAuEvkB7dj+e7zqIdygSj6ruUIDR6GKFksA96x1+AyijMrHuTAsop4CA4yaycfQ6KmqmG4DbXLCnNoDyPKxYY4SscPF31iupsTjX5lfnRm52AgeH3VRKf4TCLSvMmfiVpdVBkA/xurLW0Z9621Hn08j8w==|920
