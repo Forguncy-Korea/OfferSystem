@@ -135,7 +135,16 @@
   },
   {
     "ModuleName": "PCPage/견적서입력페이지",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "DESKTOP-LV3CTK1\\hdg89",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-10-14T16:18:02.5193907+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\견적서입력페이지.json"
+    ]
   },
   {
     "ModuleName": "PCPage/견적서저장확인페이지",
