@@ -172,16 +172,7 @@
   },
   {
     "ModuleName": "PCPage/메인화면",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "DESKTOP-LV3CTK1\\hdg89",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2022-10-14T10:58:56.6191479+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\메인화면.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/견적서입력페이지",
@@ -198,16 +189,7 @@
   },
   {
     "ModuleName": "PCPage/견적서저장확인페이지",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "DESKTOP-LV3CTK1\\hdg89",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2022-10-14T10:58:24.0444661+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\견적서저장확인페이지.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/견적서페이지",
@@ -274,16 +256,7 @@
   },
   {
     "ModuleName": "PCPage/출하창고검색페이지",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "DESKTOP-LV3CTK1\\hdg89",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2022-10-14T10:53:00.932235+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\출하창고검색페이지.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/출하창고 등록 페이지",
