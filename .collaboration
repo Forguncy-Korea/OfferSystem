@@ -162,7 +162,16 @@
   },
   {
     "ModuleName": "PCPage/제품_목록 페이지",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "DESKTOP-SFEU14D\\NamHee",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-10-14T09:04:37.2898448+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\제품_목록 페이지.json"
+    ]
   },
   {
     "ModuleName": "PCPage/제품바코드페이지",
