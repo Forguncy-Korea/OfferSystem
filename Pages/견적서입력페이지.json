@@ -246,7 +246,7 @@
                     ]
                   },
                   "value": "%Null%",
-                  "Id": "aab6ad70-3afc-41c2-b666-9a54f1ae3abd"
+                  "Id": "82ae6518-474f-4512-913e-b05c222b90ed"
                 },
                 "CommandList": [
                   {
@@ -259,13 +259,13 @@
                           "SerializeProperty": "=견적서입력페이지!AL8"
                         },
                         "TargetCell": {
-                          "SerializeProperty": "=거래처검색페이지!I2"
+                          "SerializeProperty": "=거래처검색페이지!I3"
                         }
                       }
                     ]
                   }
                 ],
-                "ID": "1858e656-fc31-4da0-98b9-864c20348622"
+                "ID": "460ce16a-c0ca-42fc-981d-5ab75f1b50ae"
               },
               {
                 "Condition": {
@@ -280,7 +280,7 @@
                   },
                   "value": "%Null%",
                   "compareType": 1,
-                  "Id": "d8293c82-3aed-425b-a3bd-ffec66a1e07e"
+                  "Id": "ec1be9d1-6600-4308-ae4a-bb95ee22b480"
                 },
                 "CommandList": [
                   {
@@ -293,13 +293,13 @@
                           "SerializeProperty": "=견적서입력페이지!BB1"
                         },
                         "TargetCell": {
-                          "SerializeProperty": "=거래처검색페이지!I2"
+                          "SerializeProperty": "=거래처검색페이지!I3"
                         }
                       }
                     ]
                   }
                 ],
-                "ID": "eb75818d-d12d-4037-9580-5bf6d5a34dd5"
+                "ID": "5d0dcab4-bef8-49ce-bba4-2eda2c3e66d1"
               }
             ]
           }
@@ -386,7 +386,7 @@
                     ]
                   },
                   "value": "%Null%",
-                  "Id": "4b106a5f-12fb-4e97-86a4-9b8fd26b1b59"
+                  "Id": "2e0823b1-6813-4658-97f7-c6dcf6db9a6c"
                 },
                 "CommandList": [
                   {
@@ -399,13 +399,13 @@
                           "SerializeProperty": "=견적서입력페이지!AL10"
                         },
                         "TargetCell": {
-                          "SerializeProperty": "=출하창고검색페이지!I2"
+                          "SerializeProperty": "=출하창고검색페이지!I3"
                         }
                       }
                     ]
                   }
                 ],
-                "ID": "0add713b-4f70-430b-8ae0-74b75b35d28e"
+                "ID": "d92572a0-07bd-4bc1-a829-564d0c14cfcf"
               },
               {
                 "Condition": {
@@ -420,7 +420,7 @@
                   },
                   "value": "%Null%",
                   "compareType": 1,
-                  "Id": "9e441513-2582-406c-8cd1-7bd5807f9d94"
+                  "Id": "0b847768-e784-4a38-8569-a6b7fa21f01a"
                 },
                 "CommandList": [
                   {
@@ -433,13 +433,13 @@
                           "SerializeProperty": "=견적서입력페이지!BC1"
                         },
                         "TargetCell": {
-                          "SerializeProperty": "=출하창고검색페이지!I2"
+                          "SerializeProperty": "=출하창고검색페이지!I3"
                         }
                       }
                     ]
                   }
                 ],
-                "ID": "6bc29946-3dd3-4696-8ec4-fe366cb0a6d0"
+                "ID": "650b8042-8f7e-4500-8eee-38fd4c7dee0a"
               }
             ]
           }
@@ -749,7 +749,7 @@
                     ]
                   },
                   "value": "저장",
-                  "Id": "0fc1bf40-346c-479b-93c0-4a92cdb41842"
+                  "Id": "5f233840-81f0-4172-a827-f6bde38072dc"
                 },
                 "CommandList": [
                   {
@@ -885,7 +885,7 @@
                     ]
                   }
                 ],
-                "ID": "3f3df023-5760-4dea-acb1-254b82a9a0d5"
+                "ID": "581929f9-6c4b-474e-b909-21b4b76b55dd"
               },
               {
                 "Condition": {
@@ -899,7 +899,7 @@
                     ]
                   },
                   "value": "수정",
-                  "Id": "e3daee50-054b-410f-9180-68ad1ee6ed7f"
+                  "Id": "cad33763-a8f5-406d-b0c9-06b5b8c6230e"
                 },
                 "CommandList": [
                   {
@@ -1027,7 +1027,7 @@
                     ]
                   }
                 ],
-                "ID": "952eaa84-9837-4336-95f0-51fd9f0b990d"
+                "ID": "e43bca10-4781-441f-81db-2abeea366c49"
               }
             ]
           },
@@ -2577,4 +2577,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}//M3UzTMUUlsi3wbKfU0hAVYLA4WmkWXcU3orCdxMJzK5A/yJgKRUwilGvwCFLt6XgJvYRu5w312NP3tzWkvgFAtLfoRqy4nzBCGhjywoFm4vmln7zZ9vTYiljERALvkqU/sHa5PVqWn3RY7VJSiX8q9qUM00JJqzOQ2kOEzWtH1I3jArf60KApw61irfT90Hhjeemrj/TCN1wm+HUMVdFww3w2KKsClpUhd0Hw+e2K8a01sPdQmnTgLVIyOFwwQhIe0Mq4fiJ0AEhQGIBUZJRCVYA95AfMeSrHRjl6gNTvmdr5Ycs9grtyWRTX08U0RZ7L3V+Kj+GgwID27TXBmyoXTmA9jk68Zorh7Wcu7uvhdAgN8pGTFh3FO/ojm9nwJjmncXX184ahhL0GaaIDBbDUcdvxXTPy3Tw636G9jjMxjNHw4MmZUPl2swhCwI7umoLpz8XPD/IZlrLvcuz5QI5CXOQXY0q2NfqVGi3ELMgliVze3NqIUQ01kqcw5MYi4SEI7y7SMHrcDTp5jxRaylM79NIu1sWebcBhiPHIPmx/idlA0FRAx3zpUlCKGYwXD+Oh75cC6fIRUEw6tMs1JKKB5QqdJK+uSQ93MmcY+4UT5ad45m2SpX6rhwsUbi4eosdpQGHPyCJwftTn9cRpKatE7fbyCJvvBLQkeM5fxSMazh0O3u9ygyNyaNPakwKIyHh2xybuxLWRhPGdtHYyJYOtDBD2J252utmlC8N7RbCj11Kz71qM5N0LCJqH/oEKLUMUvzsv179J2f0/MfuUxZ7snM3iL/ovQjwStABNsTFEc9kU7YBRTFQTgKVuC/H7f2zV0jVN7AiMIOIPbTm/5b5ehI8HRBlfe+UvvMxiArXtiL8c9sTJ4i8wUGTGVXtiLGoSB7iNgK2C638PuEqETMYyg==|920
+}//f1q7VFYNUV4bxEAPuHnYFfVoauwuu+1jSchMJfTSDUho5UlJRu1iEP4ZPqPY9ZfOCyDGYvLtY8sl2f2jG4KIHtSABsFFi6jNNDnTnfTiC8zptb4h8kfT33xGq/SW+zRF3i83ToKEf7uFj1Htm2QgZ/xq9F/nj1IWn3BU+5z2crPySBKx4PvoFs1gbzuCd7YvBIw9nMtlqzm7gbdC7s1v2YZVGFmvSjUHaG1H1Qa2wLLTjZ/SdE8E46dFfwQQagPalNJgUVhuT40gJUSkosZOyih9wiYxWGrmtrZ0xJBL/sa0X7948jQsxkumQS/Bj8E2c+rP4IdEFtswbnWtgNrC9iuyvfWNuRYUGYI1IL68BgOd8fGfFgIs8F/JAdm3OZ+vfhB+2/YIWThpiJM6lfEaAsfa62cbdrGEkhNDZqsRZaKR1YG+7CgRiaAm2hBnYI7TzhNFjMpxaTIgIzijaJ8pDbmt6BexEBqs9Mxq0NUWZFM3QyPagIY2MXIXi9hk5caQJQlrgnGHuKqC8WAjReTg6t4fZp9XWZmcBbDsFP6bTRi/wIpMoWyMoXEgtAm7lDvamvyfJ7vmHvQOibnorQt85wirDYtrrV1G6DYW2EiQuzNLmYUQ299MTcnhkgooFAUPZHuYSIa4TqcAQMxVv0iKiMmmqsu5nG0PWN+6MWL5naqRh2lFE4jMZWOn77l0knesvE8GYw7fNyJX6ghknbxLT2/HwJkuizq083ksHAAHNsXK2jbKyhRh7QvIvjfzLRaAGoZgrEpi25azs4YruvSVWy4LTWAH6eNnAz3ytHpptVHjnbl2VDkml3o6QvHyJy9YvyiqSYqIYh9IOsT2XwfcQT9kr7XlnkTqDpptgxQzhsYvbgXnNV8mx5d4sPEvzhHeIypwOwjV2VX7wzc3dmULKQ==|920

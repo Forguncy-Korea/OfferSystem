@@ -143,6 +143,11 @@
           "DesignLengthInPixel": 10.0
         }
       },
+      "9": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
       "10": {
         "GridRowColumnDefinition": {
           "DesignLengthInPixel": 29.0
@@ -179,6 +184,21 @@
         }
       },
       "23": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 5.0
+        }
+      },
+      "42": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "43": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 5.0
+        }
+      },
+      "44": {
         "GridRowColumnDefinition": {
           "DesignLengthInPixel": 5.0
         }
@@ -226,26 +246,6 @@
       "66": {
         "GridRowColumnDefinition": {
           "DesignLengthInPixel": 30.0
-        }
-      },
-      "9": {
-        "GridRowColumnDefinition": {
-          "DesignLengthInPixel": 10.0
-        }
-      },
-      "42": {
-        "GridRowColumnDefinition": {
-          "DesignLengthInPixel": 10.0
-        }
-      },
-      "43": {
-        "GridRowColumnDefinition": {
-          "DesignLengthInPixel": 5.0
-        }
-      },
-      "44": {
-        "GridRowColumnDefinition": {
-          "DesignLengthInPixel": 5.0
         }
       }
     },
@@ -318,7 +318,7 @@
                     ]
                   },
                   "value": "전체",
-                  "Id": "2772060e-6830-4800-8a42-4ecda93bf336"
+                  "Id": "8c3940ac-23b0-43d9-aacf-65a6d29427ab"
                 },
                 "CommandList": [
                   {
@@ -347,7 +347,7 @@
                               "SerializeProperty": "=견적데이터목록페이지!AC3"
                             },
                             "LeftBracket": 1,
-                            "Id": "f2395a8f-b634-450a-8275-8a4bd05a1d66"
+                            "Id": "194c20d5-6be7-4807-8219-3efb456131d0"
                           },
                           "Condition2": {
                             "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
@@ -365,10 +365,10 @@
                               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                               "SerializeProperty": "=견적데이터목록페이지!AC3"
                             },
-                            "Id": "4ed6ed7a-1ffb-401e-a916-22c1cccc0468"
+                            "Id": "3e470c98-eca4-4864-ae6f-91dc2cce243b"
                           },
                           "RelationType": 1,
-                          "Id": "2e0b4b0f-27a5-4169-aba6-eba2a0cbafce"
+                          "Id": "9ae39a20-3a90-4e8d-8b4e-51ac4640a458"
                         },
                         "Condition2": {
                           "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
@@ -386,10 +386,10 @@
                             "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                             "SerializeProperty": "=견적데이터목록페이지!AC3"
                           },
-                          "Id": "188e0d6d-00d3-44bc-8708-ea1a9d00565a"
+                          "Id": "524b3709-84c5-40ad-8be1-cfd9aa32e32d"
                         },
                         "RelationType": 1,
-                        "Id": "f65689ca-f6a7-48d9-8f22-0bb5d6eeb1c9"
+                        "Id": "afaf21dd-d61d-4f67-8f88-e8a3aee0e9cf"
                       },
                       "Condition2": {
                         "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
@@ -403,18 +403,18 @@
                           "SerializeProperty": "=견적데이터목록페이지!AC3"
                         },
                         "RightBracket": 1,
-                        "Id": "e19a136c-92b6-43b7-b4d2-03116a683572"
+                        "Id": "a153213f-ae55-42d4-8b00-ecd31cf66829"
                       },
                       "RelationType": 1,
-                      "Id": "51b82318-7389-4dc9-a940-f2cad2c12b62"
+                      "Id": "0a2888c0-2589-44eb-9723-cbb0a3712f96"
                     },
                     "Params": [
                       "=AC3"
                     ],
-                    "ID": "11d9c8eb2ddc472e879ce72ba1ef9fe9"
+                    "ID": "735442ac76524c2da23d61d9d078852d"
                   }
                 ],
-                "ID": "bf20462e-3f84-4d21-8df2-3706eed0d9be"
+                "ID": "a4a84523-464a-4b38-87f7-2c6e07da899d"
               },
               {
                 "CommandList": [
@@ -446,7 +446,7 @@
                                 "SerializeProperty": "=견적데이터목록페이지!AC3"
                               },
                               "LeftBracket": 1,
-                              "Id": "766e0d08-cb7e-4f85-b1b6-884fdaae1dfc"
+                              "Id": "03ba39dc-3933-4066-bdf2-b5f2705e7b61"
                             },
                             "Condition2": {
                               "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
@@ -464,10 +464,10 @@
                                 "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                                 "SerializeProperty": "=견적데이터목록페이지!AC3"
                               },
-                              "Id": "9d3cc70f-339b-4d93-aa52-2e9104fa0e67"
+                              "Id": "28b9a1a4-b112-4c65-a0fa-2c8cb956d354"
                             },
                             "RelationType": 1,
-                            "Id": "b2226c6f-0c6d-4e1c-98c2-808235e9de1a"
+                            "Id": "9a218e63-84fb-4a2e-9000-4c1e1ae1fda4"
                           },
                           "Condition2": {
                             "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
@@ -485,10 +485,10 @@
                               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                               "SerializeProperty": "=견적데이터목록페이지!AC3"
                             },
-                            "Id": "0820c0ac-2491-4b34-8a0d-12c3b61a4463"
+                            "Id": "bacc6e05-bc46-485c-8989-627280006777"
                           },
                           "RelationType": 1,
-                          "Id": "a48a9e86-a576-4e41-b965-6829244da442"
+                          "Id": "f5337b7e-39fa-4bf5-afaa-f16c00dab432"
                         },
                         "Condition2": {
                           "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
@@ -502,10 +502,10 @@
                             "SerializeProperty": "=견적데이터목록페이지!AC3"
                           },
                           "RightBracket": 1,
-                          "Id": "fc9c5ed2-51cc-43a0-94b6-ec93f798e1ad"
+                          "Id": "200cb111-de10-4667-97b9-be35bf419b25"
                         },
                         "RelationType": 1,
-                        "Id": "28e95589-a715-4fa7-a4be-1d8e86a82c3f"
+                        "Id": "e9f2d0b1-c751-4efe-9f38-c7da5036ae9d"
                       },
                       "Condition2": {
                         "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
@@ -517,18 +517,18 @@
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                           "SerializeProperty": "=견적데이터목록페이지!D18"
                         },
-                        "Id": "1dcc53a1-4eef-4a99-b20d-2e189d0f8429"
+                        "Id": "736ca09a-63f2-40bf-bc8e-9a81335668fc"
                       },
-                      "Id": "dc1a8f0f-0fd5-40f6-b062-444a068ac6dc"
+                      "Id": "0e0bda7b-94bc-4085-a020-08ecfe066593"
                     },
                     "Params": [
                       "=AC3",
                       "=D18"
                     ],
-                    "ID": "7f3f4141cd2749d8acf7d7f322c3fc50"
+                    "ID": "bb11074558664901960ee574ab91a56e"
                   }
                 ],
-                "ID": "b4949286-5f58-4b43-a10c-8aecd39d473f"
+                "ID": "39bb20e6-3d8f-4230-b26a-d3a5e55f3c94"
               }
             ]
           }
@@ -596,7 +596,7 @@
                         "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                         "SerializeProperty": "=견적데이터목록페이지!AH3"
                       },
-                      "Id": "88d4bd7d-8e2c-4d88-b24d-02bc913077bc"
+                      "Id": "93262440-25a4-42fc-906a-e4d38806b361"
                     },
                     "Condition2": {
                       "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
@@ -614,10 +614,10 @@
                         "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                         "SerializeProperty": "=견적데이터목록페이지!AH3"
                       },
-                      "Id": "94c476af-f2db-4d56-8b36-e5cfb726d02f"
+                      "Id": "1fcce0ae-ae3d-4d02-a10d-ed6649f5ff6f"
                     },
                     "RelationType": 1,
-                    "Id": "1ccde091-637a-4c37-8312-a8cad5b65de9"
+                    "Id": "6b3b76c9-abb3-48e3-8a7b-9f94bcb46bf1"
                   },
                   "Condition2": {
                     "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
@@ -635,10 +635,10 @@
                       "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                       "SerializeProperty": "=견적데이터목록페이지!AH3"
                     },
-                    "Id": "2a15a381-49ad-451f-8eca-0b7e74bb274b"
+                    "Id": "91426412-5771-4443-b30c-10db6b76a580"
                   },
                   "RelationType": 1,
-                  "Id": "95e65c07-d235-4e6f-90d1-f35377793591"
+                  "Id": "52ee3cc2-0567-47ca-a4ef-7b2bb262e688"
                 },
                 "Condition2": {
                   "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
@@ -656,10 +656,10 @@
                     "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                     "SerializeProperty": "=견적데이터목록페이지!AH3"
                   },
-                  "Id": "0c5517c3-0b5a-4060-a80e-c4a440773f37"
+                  "Id": "b4644f40-1526-4899-8e7b-9e8d94669e7d"
                 },
                 "RelationType": 1,
-                "Id": "08380937-2132-42a9-ba36-67f44edb91d2"
+                "Id": "e47118da-2581-442d-a2fc-e7a5a6425ea1"
               },
               "Condition2": {
                 "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
@@ -672,15 +672,15 @@
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                   "SerializeProperty": "=견적데이터목록페이지!AH3"
                 },
-                "Id": "9b8a5a5f-cd1d-4106-ba7a-468ad7d62873"
+                "Id": "e89c18f3-0d90-4b20-ace4-acd4ceac1cf2"
               },
               "RelationType": 1,
-              "Id": "60e5c342-2e6c-40a7-aee9-945eba8ce3d4"
+              "Id": "78cadda6-bc20-49fc-9828-44c237da34c8"
             },
             "Params": [
               "=AH3"
             ],
-            "ID": "58d6f5f8b15e4ba091c4cb8228427df5"
+            "ID": "7d10f8760f0246c89ea7c5a17383bc69"
           }
         ],
         "Text": "상세검색",
@@ -713,13 +713,13 @@
                   "SerializeProperty": "=견적데이터목록페이지!N8"
                 },
                 "TargetCell": {
-                  "SerializeProperty": "=출하창고검색페이지!I2"
+                  "SerializeProperty": "=출하창고검색페이지!I3"
                 }
               },
               {
                 "Source": "조회",
                 "TargetCell": {
-                  "SerializeProperty": "=출하창고검색페이지!A1"
+                  "SerializeProperty": "=#REF!"
                 }
               }
             ]
@@ -760,7 +760,7 @@
                   "SerializeProperty": "=견적데이터목록페이지!N10"
                 },
                 "TargetCell": {
-                  "SerializeProperty": "=거래처검색페이지!I2"
+                  "SerializeProperty": "=거래처검색페이지!I3"
                 }
               },
               {
@@ -807,7 +807,7 @@
                   "SerializeProperty": "=견적데이터목록페이지!N12"
                 },
                 "TargetCell": {
-                  "SerializeProperty": "='제품_검색 페이지'!G2"
+                  "SerializeProperty": "='제품_검색 페이지'!I3"
                 }
               },
               {
@@ -880,7 +880,7 @@
                           "SerializeProperty": "=견적데이터목록페이지!L6"
                         },
                         "LeftBracket": 1,
-                        "Id": "7b7d7408-ebde-4191-847f-fee643804564"
+                        "Id": "544098ce-8371-461c-870b-f6e36846b96a"
                       },
                       "Condition2": {
                         "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
@@ -894,9 +894,9 @@
                           "SerializeProperty": "=견적데이터목록페이지!AC6"
                         },
                         "RightBracket": 1,
-                        "Id": "29a02922-40c2-4c9f-8283-d505fc020f71"
+                        "Id": "58c53a26-ef02-4b5c-aa05-9677e8d35a99"
                       },
-                      "Id": "015b28f5-e458-4f1f-a0c7-3f5add187bb4"
+                      "Id": "03f4f2c3-677e-447f-bea2-bd408c92f67e"
                     },
                     "Condition2": {
                       "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
@@ -913,9 +913,9 @@
                         "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                         "SerializeProperty": "=견적데이터목록페이지!N8"
                       },
-                      "Id": "8896d819-5539-43e8-b53b-4d617fdbb423"
+                      "Id": "8a600fe1-fcfa-4c46-ab61-fd32fe324e95"
                     },
-                    "Id": "8852b26a-44e4-41e9-a319-43f2682b5236"
+                    "Id": "fba9520c-a388-4bf8-9fa0-c5e617c0f753"
                   },
                   "Condition2": {
                     "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
@@ -932,9 +932,9 @@
                       "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                       "SerializeProperty": "=견적데이터목록페이지!N10"
                     },
-                    "Id": "79db6b07-7143-4d6e-9ea1-a8fd730cb680"
+                    "Id": "42860aa8-11ac-45af-86ad-dbfd24ead54d"
                   },
-                  "Id": "c15537f9-46b9-45a6-8d1d-37c8665ad73a"
+                  "Id": "2d6d4c86-2a59-4899-88ea-9f25ea151170"
                 },
                 "Condition2": {
                   "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
@@ -947,9 +947,9 @@
                     "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                     "SerializeProperty": "=견적데이터목록페이지!L14"
                   },
-                  "Id": "d553501d-b86b-4003-8f28-51f69dace141"
+                  "Id": "c57d6fcb-5383-4bf9-ae93-6f47b801e7c8"
                 },
-                "Id": "0561f513-746c-4710-9522-c5761374c96c"
+                "Id": "62260198-6455-4d1c-a56a-3be34e66e64c"
               },
               "Condition2": {
                 "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
@@ -966,9 +966,9 @@
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                   "SerializeProperty": "=견적데이터목록페이지!N12"
                 },
-                "Id": "d1b1579b-511a-46ce-a970-56fa78155bb4"
+                "Id": "8f1599dc-cd6f-43a7-ac93-02c6b0a5276a"
               },
-              "Id": "0911a9b8-096d-47cb-9dd8-305ee25d235b"
+              "Id": "fe6140cd-1910-476c-85c7-6b4604753168"
             },
             "Params": [
               "=L6",
@@ -978,7 +978,7 @@
               "=L14",
               "=N12"
             ],
-            "ID": "54d20502d7ab48509ed165f4e2afa14f"
+            "ID": "32933d8b6d9a43d887cf703198491311"
           }
         ],
         "Text": "검색",
@@ -1064,7 +1064,7 @@
                     ]
                   },
                   "value": "전체",
-                  "Id": "8b8980a8-781e-455b-8b75-973b75c5e42d"
+                  "Id": "d213efe7-043a-4ea0-9d4b-5cf8f3433036"
                 },
                 "CommandList": [
                   {
@@ -1080,7 +1080,7 @@
                           "ColumnName": "ID"
                         },
                         "Value": "%Null%",
-                        "Id": "ce38e76a-c38e-4adc-b8e2-daf695d349dc"
+                        "Id": "edb4ee81-2d19-413c-99ab-ea36fdcaea61"
                       },
                       "Condition2": {
                         "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
@@ -1105,7 +1105,7 @@
                                 "SerializeProperty": "=견적데이터목록페이지!AC3"
                               },
                               "LeftBracket": 1,
-                              "Id": "ed0d650e-b0f6-4d4a-b09e-01a8ea59407c"
+                              "Id": "dc9df674-4f48-400f-9d4e-704bb38b30c4"
                             },
                             "Condition2": {
                               "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
@@ -1123,10 +1123,10 @@
                                 "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                                 "SerializeProperty": "=견적데이터목록페이지!AC3"
                               },
-                              "Id": "aeea9e8a-a2d4-4384-9f4a-2aef902ba29b"
+                              "Id": "09e07bde-ec10-4a1d-82c0-85bec6e2efab"
                             },
                             "RelationType": 1,
-                            "Id": "217c17ff-1908-498b-be77-109d51633ae2"
+                            "Id": "36f8e91b-f331-435a-972e-492a9aaa4ed4"
                           },
                           "Condition2": {
                             "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
@@ -1144,10 +1144,10 @@
                               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                               "SerializeProperty": "=견적데이터목록페이지!AC3"
                             },
-                            "Id": "44467117-2299-45ea-b71a-d276f164dd6a"
+                            "Id": "4aa77684-6dda-4db2-b800-f0b3d4ef6ed2"
                           },
                           "RelationType": 1,
-                          "Id": "a4c9ca30-cfb1-4ac9-887a-381f7829d63d"
+                          "Id": "ab7c959a-ad0a-43ef-bfcf-3f357939052f"
                         },
                         "Condition2": {
                           "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
@@ -1161,20 +1161,20 @@
                             "SerializeProperty": "=견적데이터목록페이지!AC3"
                           },
                           "RightBracket": 1,
-                          "Id": "1504837d-d49f-4f13-a511-b256f4b23c04"
+                          "Id": "88f077a1-7dcf-4f0a-bd11-e4ceba590b29"
                         },
                         "RelationType": 1,
-                        "Id": "918ae8eb-c55d-49bb-a736-2a466de1596d"
+                        "Id": "4b341815-f42e-4271-a412-4e2089b02a5e"
                       },
-                      "Id": "591a791a-6c51-4c5e-9b18-8636f85eb27f"
+                      "Id": "fa44aa5e-8832-407a-8595-50b9ad517173"
                     },
                     "Params": [
                       "=AC3"
                     ],
-                    "ID": "b6f49974ce63491da061642c3496cd9a"
+                    "ID": "56b1471c8005424ba40140220f2b1b63"
                   }
                 ],
-                "ID": "649847d2-f93c-4058-a287-a9c9f0024ba3"
+                "ID": "ca0dd91a-844e-4e3d-9d96-a047356a391f"
               },
               {
                 "Condition": {
@@ -1188,7 +1188,7 @@
                     ]
                   },
                   "value": "진행중",
-                  "Id": "560737ab-bd5c-4974-bc25-de7fbd24d0cf"
+                  "Id": "59b4a930-3b8b-49be-84a3-2f53959935ca"
                 },
                 "CommandList": [
                   {
@@ -1203,7 +1203,7 @@
                           "ColumnName": "종결여부"
                         },
                         "Value": "진행중",
-                        "Id": "e520fc8f-1075-433e-9c63-ec3c9186d90b"
+                        "Id": "80d2423e-c895-4597-b2f0-0a0865507a26"
                       },
                       "Condition2": {
                         "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
@@ -1228,7 +1228,7 @@
                                 "SerializeProperty": "=견적데이터목록페이지!AC3"
                               },
                               "LeftBracket": 1,
-                              "Id": "e2073873-c6cc-4c10-a68c-10a348715e16"
+                              "Id": "d553344b-f9e5-47e8-90fb-672bd71bfb30"
                             },
                             "Condition2": {
                               "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
@@ -1246,10 +1246,10 @@
                                 "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                                 "SerializeProperty": "=견적데이터목록페이지!AC3"
                               },
-                              "Id": "efabf974-94dd-4643-97ed-4ea2c957375e"
+                              "Id": "4d8d2ffa-6186-462c-93cc-fffad92cdf6c"
                             },
                             "RelationType": 1,
-                            "Id": "b0b9285d-7836-4348-b6d8-41460dfc83c8"
+                            "Id": "6250c9e0-2d09-46c7-b8a4-43982b04fc48"
                           },
                           "Condition2": {
                             "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
@@ -1267,10 +1267,10 @@
                               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                               "SerializeProperty": "=견적데이터목록페이지!AC3"
                             },
-                            "Id": "8cfa7247-5d21-4d34-bbf2-b2cf0549a879"
+                            "Id": "770380b9-58d1-4dbb-8dcc-671446ef4e4a"
                           },
                           "RelationType": 1,
-                          "Id": "4210f3d8-864e-4736-b732-efb729f1f470"
+                          "Id": "ba63850d-f184-4a80-86c3-c6ca1531feac"
                         },
                         "Condition2": {
                           "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
@@ -1284,20 +1284,20 @@
                             "SerializeProperty": "=견적데이터목록페이지!AC3"
                           },
                           "RightBracket": 1,
-                          "Id": "a3bc7475-2a17-45b7-820f-c80a1f6dbc4d"
+                          "Id": "4e83d0fe-bfe2-46fb-8ee6-bce4719f7675"
                         },
                         "RelationType": 1,
-                        "Id": "3a6ba8ad-3b12-48ef-b8ef-dd9072578f3e"
+                        "Id": "82ffbe3c-0ef5-46c1-9efd-ba651f1856e5"
                       },
-                      "Id": "f34f7114-8f6d-470c-a0e9-f58cc0479f73"
+                      "Id": "561257da-622c-48b7-934c-09de072ecd16"
                     },
                     "Params": [
                       "=AC3"
                     ],
-                    "ID": "cf0dbc6f2fb147258f79fd3ae4e47f75"
+                    "ID": "6807b230b2b546818d7147ec9842b891"
                   }
                 ],
-                "ID": "f5d8190a-9ac4-42cd-bbcf-f569f2b26aef"
+                "ID": "beef48f2-ebc7-4a0b-8a78-297e55345f1e"
               },
               {
                 "Condition": {
@@ -1311,7 +1311,7 @@
                     ]
                   },
                   "value": "완료",
-                  "Id": "31546c0e-d15e-4242-ade9-5b39bf8a2441"
+                  "Id": "7168bfb3-bdd1-4148-b806-a40a39b883b4"
                 },
                 "CommandList": [
                   {
@@ -1326,7 +1326,7 @@
                           "ColumnName": "종결여부"
                         },
                         "Value": "완료",
-                        "Id": "f5624361-0e04-4249-b36b-143416c1b7f4"
+                        "Id": "7ae4e2e9-f2c2-401b-9dff-4482ae7697c8"
                       },
                       "Condition2": {
                         "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
@@ -1351,7 +1351,7 @@
                                 "SerializeProperty": "=견적데이터목록페이지!AC3"
                               },
                               "LeftBracket": 1,
-                              "Id": "c15abae6-ec06-4505-a90b-cfc797244f89"
+                              "Id": "6b1ed92c-902f-40f4-ada0-a7d630f601ce"
                             },
                             "Condition2": {
                               "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
@@ -1369,10 +1369,10 @@
                                 "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                                 "SerializeProperty": "=견적데이터목록페이지!AC3"
                               },
-                              "Id": "ba60fda4-8258-4066-80f1-d8322882e73b"
+                              "Id": "641d9c44-f28a-4111-b4c0-dfbcda0bd54a"
                             },
                             "RelationType": 1,
-                            "Id": "6c168b4a-6cfb-464e-85ce-88a77245717a"
+                            "Id": "335d0d9d-2be3-4939-8b34-f24b859a2046"
                           },
                           "Condition2": {
                             "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
@@ -1390,10 +1390,10 @@
                               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                               "SerializeProperty": "=견적데이터목록페이지!AC3"
                             },
-                            "Id": "dae16f65-28b3-4903-8090-b5de09382d5f"
+                            "Id": "b1ba79f7-168a-483a-9016-281811cb0755"
                           },
                           "RelationType": 1,
-                          "Id": "19889649-77e9-4d85-9fc3-67c25447b3d7"
+                          "Id": "736f5f5b-e785-43f3-9afe-31ad19aa53a1"
                         },
                         "Condition2": {
                           "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
@@ -1407,20 +1407,20 @@
                             "SerializeProperty": "=견적데이터목록페이지!AC3"
                           },
                           "RightBracket": 1,
-                          "Id": "b7cbd3fb-4a55-4889-bf94-cbccd3effc4e"
+                          "Id": "1c483b22-c39c-4528-bfa9-2429d083b306"
                         },
                         "RelationType": 1,
-                        "Id": "e07eccde-736f-4994-9054-de531176bd60"
+                        "Id": "34c03b01-41bf-4001-95e6-34feef7abb5f"
                       },
-                      "Id": "1f0df42a-06a9-4bac-8d07-2bdb992b5c13"
+                      "Id": "8c22d09b-fcfc-4a29-83a5-677baf137749"
                     },
                     "Params": [
                       "=AC3"
                     ],
-                    "ID": "9a0010ec1cef473fb92e1c889564ff73"
+                    "ID": "467bacc00cc44c029c63d94a224ab7c9"
                   }
                 ],
-                "ID": "e5028973-a882-442e-83a3-38bdf09eab2e"
+                "ID": "ae74676b-1f61-4cae-a13f-8ea856275890"
               }
             ]
           }
@@ -1476,7 +1476,7 @@
             "ColumnName": "ID"
           },
           "Value": "%Null%",
-          "Id": "c761ff25-506a-48a0-beca-1f72c16c9fc8"
+          "Id": "c74b2a76-496d-428c-8bcf-c324be2b774a"
         },
         "TopCondition": null,
         "OrderByCondition": {
@@ -1496,7 +1496,7 @@
               "Order": 1
             }
           ],
-          "Id": "bffc0ae1-053f-463f-bdc8-b445d066f4ee"
+          "Id": "f0623bd5-64fa-4a12-a496-69aaa4ea8264"
         },
         "ListViewStyleName": "주문관리_리스트뷰_스타일"
       }
@@ -5094,7 +5094,7 @@
         "$type": "Forguncy.Model.QueryCommand, ServerDesignerCommon",
         "TargetTableName": "주문데이터",
         "Params": [],
-        "ID": "78647a20150e4db6a3df5617923b7697"
+        "ID": "432f90ccd527400aaa9b3367af728493"
       }
     ],
     "AuthorizeInfo": {
@@ -5108,4 +5108,4 @@
     "Orientation": 2,
     "PaperSize": {}
   }
-}//brTX17bU7MflwZ89EIBPZQYpCPA9KU74eQ9p4wEuSbyhnKHeHwzIpVI8w91aY1QJf7gsBs/SySRr/FXReejxM3fZJiXNWaBrCPukHkGlzwOo5gl6w2MtZKAXKdKJm1Oz5PEGxZQ3HomLkoOUeuqCngbV/uI4ULJvxxjwUh70Ot+rGe2f/S/Nk956giM4eTmktkJ0Oduk3O4gOMmKJILiSszo4Pun00KdQLA5lu1ccnNRSsTbcaFB/wIGVZUCD72EdtBD+jT02AnyKAGQhjop9gwKi0Ll0ZBmdGr95Uub3touiNifkjCBEYj6VUyPC4IjJalIgggAQeHbNVbHzJcH7dz6hN00D+Go8KPgYhyMfJmkjf8264V4o9qwkKWnXo1nvTzYAboKyJ19H/CUdKcoPGSm8Leh+qW8kikFR+dUKkMfVDaisGqCTqn5UjCnR6EYBb27BzI8wgy0+JQOOeYlO35jtQ2dQG5pYloBbcY49eA8uyA8aJOKMf6EXvm56xu0+GOOaBZMqCMYwCG6ECJ8InPuaHaKebL1Mdbl8C7y8IDCG+sIswPeE46MpmOhFIfCc0SGiN1JHGuqjnD/eWElcoxtKcZzF3go9HEk9EAL2aKWg0o3jz7Bgy1c044cCch877gcIWVrvk2cGkNlb9loLDMhOiJnrnyw04qAvWA9sXnDxJkubuRu3zpNgbFmr87OGCs4WdXLx95fOviokPSlBEGX7BUdQ7QZVsMGrtFOiy/Lstqh7OjsJQYwGLUl1AJ1viVt6oj3qK0By9oncCpOorWwcJ9eLc0ZfKGCnvNPsm9aZPV0xruio2xTHm+jXDjE2d76SuZBjDoKlUrmviXf3j3H5oc3xS9oP8AbGA+SwZRAZzw7/2UcZOlR881tsm2ZCV9dgKPz2g2aDmT7hzTSjA==|920
+}//UQCsJxW8emZF0HrPtsIGJE9l+y2aqTzj7KPze0anFMJm4SXuQwyaINIyRHMvAY4elGMlSGu9WAFkv3nBQkJag6X6XsD1Ig9YsI/wJtsSpCTR/oIt9q2eDOYOUTXrHARQoTrFu1yYpK1Qy0Lzd5RhyqCnPgVlS5twxYoGCGN2Wn2z9SHTvLKjGzAFaoUV6NAJhOCRctT58cjHJcMLdiea1avawSm9wC9stpxmvzqtn94en+m4Ut53uGxZzLu4Ml0R+s5q8+s1Ngc6RlATkhdi8oP6/URQH8yEvvaDQk86iWUslAV3cWnzDIgGFRkJfSK5w9Edm7x1IFb1kuIs2FHu0anXbTBGOrruAUa64MNXriyrSeegU0wYUW0ER6YSMddVqVN7ifJhdZp9S45QNR9/ItpznDgEatifDYbmArMyByKhFBUyFtX7h23ZfEMyFL//0uiXn1xXc8vp59j29J1IEAkx5UPcI08KwLttyEm3iu/DctzOu/z9xp/bjyqWrxe6ZaBEl1ZwdODw3KUCV+z+IjT/ncDlP8dFZfEsoXO7kRy4/E/70UpMPxyJVppLGpY5y8E74EJ9xVSHU87IECH2URMc1XZ1rnX18Y5FoqNNpcucTxIq4yDj69L2Hko88pPtGQ4Awd+GlUfuutU//ykQDS8rFlhicCxex+XpFBYT5iCQZvwNETT5IXxMSSDXaVzsbq4TucbsVe5Ka8giAgez+KW652ioJER8V7zH2RXSn1dHTKvPGr2Pq5GFo9oCO3gL9FSfBBCULxPYD86fNlAp5MCWhCbzagqB2d2LvsifVcv1vWYxz0UzTS8Q2swg0SGNx24B9JtifeuYaKe+JuLFelCDMweIEXJuyBxw5jKthqk/vBNDV+JN6Qt8uUDA9q8SNnWwLKYyMUgWorfJMpMFxw==|920
