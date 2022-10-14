@@ -1,0 +1,80 @@
+﻿.Department1_up{
+    background-color:#8892D6 !important;
+    -webkit-border-radius:10px 10px 0 0;
+    -moz-border-radius:10px 10px 0 0;
+    -ms-border-radius:10px 10px 0 0; 
+    -o-border-radius:10px 10px 0 0;
+   }
+   
+.Department1_down{
+    background-color:#8892D6 !important;
+   -webkit-border-radius:0 0 10px 10px ;
+   -moz-border-radius:0 0 10px 10px ;
+   -ms-border-radius:0 0 10px 10px ;
+   -o-border-radius:0 0 10px 10px ;
+}
+
+
+.Department2_up{
+    background-color:#45BBE0 !important;
+    -webkit-border-radius:10px 10px 0 0;
+    -moz-border-radius:10px 10px 0 0;
+    -ms-border-radius:10px 10px 0 0; 
+    -o-border-radius:10px 10px 0 0;
+   }
+   
+.Department2_down{
+    background-color:#45BBE0 !important;
+   -webkit-border-radius:0 0 10px 10px ;
+   -moz-border-radius:0 0 10px 10px ;
+   -ms-border-radius:0 0 10px 10px ;
+   -o-border-radius:0 0 10px 10px ;
+}
+
+.Department3_up{
+    background-color:#F06292 !important;
+    -webkit-border-radius:10px 10px 0 0;
+    -moz-border-radius:10px 10px 0 0;
+    -ms-border-radius:10px 10px 0 0; 
+    -o-border-radius:10px 10px 0 0;
+   }
+   
+.Department3_down{
+    background-color:#F06292 !important;
+   -webkit-border-radius:0 0 10px 10px ;
+   -moz-border-radius:0 0 10px 10px ;
+   -ms-border-radius:0 0 10px 10px ;
+   -o-border-radius:0 0 10px 10px ;
+}
+
+.Department4_up{
+    background-color:#78C350 !important;
+    -webkit-border-radius:10px 10px 0 0;
+    -moz-border-radius:10px 10px 0 0;
+    -ms-border-radius:10px 10px 0 0; 
+    -o-border-radius:10px 10px 0 0;
+   }
+   
+.Department4_down{
+    background-color:#78C350 !important;
+   -webkit-border-radius:0 0 10px 10px ;
+   -moz-border-radius:0 0 10px 10px ;
+   -ms-border-radius:0 0 10px 10px ;
+   -o-border-radius:0 0 10px 10px ;
+}
+
+.dashboardsection_up{            
+    background-color:#ffffff !important;
+    -webkit-border-radius:10px 10px 0 0;
+    -moz-border-radius:10px 10px 0 0;
+    -ms-border-radius:10px 10px 0 0; 
+    -o-border-radius:10px 10px 0 0;
+   }
+   
+.dashboardsection_down{    
+    background-color:#ffffff  !important;
+   -webkit-border-radius:0 0 10px 10px ;
+   -moz-border-radius:0 0 10px 10px ;
+   -ms-border-radius:0 0 10px 10px ;
+   -o-border-radius:0 0 10px 10px ;
+}

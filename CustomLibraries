@@ -1,2 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<CustomLibraries />
+<CustomLibraries>
+  <UserCSSFileList>
+    <Item class="Forguncy.Model.UserJSOrCssFile" assembly="ServerDesignerCommon">
+      <Name>MainPageCSS.css</Name>
+    </Item>
+  </UserCSSFileList>
+</CustomLibraries>
