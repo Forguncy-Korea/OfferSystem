@@ -254,17 +254,7 @@
   },
   {
     "ModuleName": "PCPage/제품업로드",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "DESKTOP-SFEU14D\\NamHee",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2022-10-14T14:06:13.7181384+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\제품업로드.json",
-      "UserTemplateFile\\Templatec386686c8ef14db280bdfe243bc96a1a.xlsx"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/저장확인페이지",
