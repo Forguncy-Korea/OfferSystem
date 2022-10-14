@@ -205,7 +205,16 @@
   },
   {
     "ModuleName": "PCPage/출하창고_목록 페이지",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "DESKTOP-LV3CTK1\\hdg89",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-10-14T17:41:26.4334565+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\출하창고_목록 페이지.json"
+    ]
   },
   {
     "ModuleName": "PCPage/판매입력페이지",
