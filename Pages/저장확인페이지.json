@@ -16,7 +16,7 @@
         "CommandList": [
           {
             "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
-            "PageName": "견적데이터목록페이지",
+            "PageName": "제품_목록 페이지",
             "PassValues": []
           }
         ],
@@ -116,4 +116,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}//3qEHo7wCfsJh7y700+xeRIYPoJ875VaCX3xoYgO7e+K86tUMW+I6U38Li43AF5ee1lWyVfJEhJ5OmvxZM3AULWjVVfaqvGdUTx6QcVuXlvZ5dONF5iZtRODYgv+vGCGbKAPij4JWQfZE8/AbF2tovRm/yvPBbO+KtYyufGEyTGsMLb4qNKE4Keb4dHWo+QEbw3SQLYJRalcXQ72pCV7ylIXWLoN0wMoNIm9Hi4R7YzLLw5iwMoGB5OBuiZFsKK4/c3oBiVbzQRadWBPmKGERU8SOR90jF9hpJgRfXT7r54vYBiwJl4N+HVfL94XEidvjg0NOwOgcUMCiuR7vT4JQdAhzRAFFLak88mWBaxZLk8hs/Dq64j8Ng40jWvlG7OyHMGmMFWjriC5WNd/sjm1JPB5hD5lz3DFTughdjwzisjHfRnoZVzMPmfWzZ6H1j4TSySAPssqfeC+9A2R4v6bP1ODPLCrDBi/1ou406yF5/qedJSBWhBnYFiwt7GFhpE3x9roSDhppHcqsH9y2ht5MYThkicXNEv4G5Ni/kynEbf1hdcR+7XS1/y76rJMbFeAw6v3QxD41DDV03eVBcxqx7AC9/neNMBpi4JPCa7xhi2g/HvRvhQAnL94XxZYzkSiBfPyoJDXnGS46nm0k8pzrZdttZyGs0IPMa7DhKQJ+CDRFNO/bKccz6A1lZfok4h4PP0Ojy70IYMTikRxiK4pw7rl/22d4bzvU3mq9T/O9w4H2q1Il1nUUo9M6eUsLF0HmXgNF9ElzbWR2qnHcIrQDq7oikp6L0aF+zlzjWRVMov0CLM8oL//dajrA1VR6JSvDX51pNKvkFuzTe3U7dCUBbiLgAhHhkQFlM5DTisyqjzQx4WuA3bmfuMBCrM6YT+lB5VQv9cuSknM3Dd6djDfOIA==|920
+}///W24R7E/Wfm04GQmCRtRQ4H+o7HHnSWGhCxvTqcrBiBYKNbZd7MtSGNcsEDuFWn3DEoEHnVEMmIUcy2TC7bVPR8/WaiX7FBgm0Gy+WwPZFdM7Yl3o5BG2+nig+RovBNlVjYXc+yANrja6xicXqpQDp//jnDyT775cVTfFwWAa/5mpmkcgNoogwjKMc85+VfgS3zv1sc+wNP3ThDb0srsCsm8t6a0I+DS7ttDCtlhKuUXRKDpJPRY1y8MuztGshqzLUjKIFMJuv71JPkfVk54pUfkwj3xYcJMc3hFAtuz7XzfS6vZB5VuA0HQSu/l7Ku/pax7g+uTEC41PHWsj3RC4ZTAhQkKhwYknvD8IfwUQ/VpTNyK8uTKi6XmMG5KpIsDxdK00MCymmGU6jBXAJbRn4J6te1PlK3BDZOZlpI9+Xi9tXiog52PIyICWB4NDiqd+R2glSJhLkH+cyg28AnzhGwVFtCMC1cyZ/LcK95zm3EizjT97x8Mu6q8HSScIBcFu+kUB+bvTwhx8sN4vJT2u64ssanOeib8E20DBBX9dESGuLC6VyT0iQPoZURsRimgdOK1IeO6HegtJ1CO07qxrg0Z4mZi5Qo3Kyv+DBWwuUssZAmeW3jocMqY4cQ5SQvG4SvMJ+e0/ZoHJKSmdnhfNOBSnJ97Y+QLd3xGYtlyMDrXzeNR5T9QLJbaS422yg4SzwP5dX0oGDncJhncwlUlg1YbX7aEmEz81i3lPW5MNo38ON9ZvNnUY/BllNJW4+TVm8BWzGURy3/LtSlbSyNOJxQ1HQYdwJGs+ycRBsZ9rlCwEIbV8fbmF6DuXE2omYDd990TAvowd1e1CuAKlb3FBrwVhxqmqFPgjKrtuyS6secdgkFYWIOlB0JMr8NsqckoLFPgCd1tCa3f2qzOT3tfqQ==|920

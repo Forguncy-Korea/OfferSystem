@@ -18,8 +18,7 @@
       },
       "8": {
         "GridRowColumnDefinition": {
-          "DesignLengthInPixel": 29.0,
-          "IsHidden": true
+          "DesignLengthInPixel": 29.0
         }
       },
       "9": {
@@ -140,6 +139,7 @@
     "8,4": "담당자",
     "8,31": "출하창고",
     "10,4": "거래유형",
+    "10,13": "세금계산서",
     "10,31": "통화",
     "10,36": "내자",
     "12,4": "결제조건",
@@ -173,6 +173,10 @@
     "6,13": {
       "CellType": {
         "$type": "Forguncy.DateCellType, ServerDesignerCommon",
+        "CellDefaultValue": {
+          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+          "SerializeProperty": "=TODAY()"
+        },
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
       },
       "BindingInfo": {
@@ -242,7 +246,7 @@
                     ]
                   },
                   "value": "%Null%",
-                  "Id": "1db64397-da42-48f0-9778-f7acb7fc843b"
+                  "Id": "4c66a354-4494-41f3-ac79-023472205524"
                 },
                 "CommandList": [
                   {
@@ -261,7 +265,7 @@
                     ]
                   }
                 ],
-                "ID": "8f6b65aa-84ec-4caf-bb31-2c5d60d0888f"
+                "ID": "02767fc1-8f41-494d-b73e-d7c948624cd0"
               },
               {
                 "Condition": {
@@ -276,7 +280,7 @@
                   },
                   "value": "%Null%",
                   "compareType": 1,
-                  "Id": "9d9f3586-8b1f-4ec3-ad4a-59a447f5c8d7"
+                  "Id": "a0b325f1-8a8a-4c1d-a2ca-cb3371bb5e5b"
                 },
                 "CommandList": [
                   {
@@ -295,7 +299,7 @@
                     ]
                   }
                 ],
-                "ID": "91db409f-1e83-4a09-ae2a-8cbb74171a7e"
+                "ID": "797a4158-951b-402f-b18b-2179d72627f3"
               }
             ]
           }
@@ -382,7 +386,7 @@
                     ]
                   },
                   "value": "%Null%",
-                  "Id": "9fbadb53-f70c-4512-8c9f-65cf93f48922"
+                  "Id": "ce769b2c-c060-438d-9afb-1ddc9a6f394e"
                 },
                 "CommandList": [
                   {
@@ -401,7 +405,7 @@
                     ]
                   }
                 ],
-                "ID": "0d464c4b-7f19-40fa-bf32-0d44ab858f0a"
+                "ID": "42423103-641e-4fe7-8976-83c981e40460"
               },
               {
                 "Condition": {
@@ -416,7 +420,7 @@
                   },
                   "value": "%Null%",
                   "compareType": 1,
-                  "Id": "9ddd39f3-f39c-4b8a-a5dc-089c9767054e"
+                  "Id": "78f579d3-6b31-4045-8b37-2209bbf4f98a"
                 },
                 "CommandList": [
                   {
@@ -435,7 +439,7 @@
                     ]
                   }
                 ],
-                "ID": "49df4459-3260-4c1a-a9b2-10b6983d13bc"
+                "ID": "b7b966bf-4920-4f32-96d5-4b5de4c36490"
               }
             ]
           }
@@ -490,7 +494,8 @@
             "Value": "기타",
             "DisplayValue": "기타"
           }
-        ]
+        ],
+        "CellDefaultValue": "세금계산서"
       },
       "BindingInfo": {
         "TableName": "주문데이터",
@@ -744,7 +749,7 @@
                     ]
                   },
                   "value": "저장",
-                  "Id": "375ef62d-f464-46cd-a895-c4caff94ec3f"
+                  "Id": "fa429dbd-1d22-4edb-a32b-79318dd79eba"
                 },
                 "CommandList": [
                   {
@@ -880,7 +885,7 @@
                     ]
                   }
                 ],
-                "ID": "f7b17791-85a4-4bac-8c23-d8115e4768cd"
+                "ID": "13c63bd7-1af6-4d88-a96f-47d98f747e68"
               },
               {
                 "Condition": {
@@ -894,7 +899,7 @@
                     ]
                   },
                   "value": "수정",
-                  "Id": "95cf8835-df64-4ca5-8c68-b850b8825e41"
+                  "Id": "a6e7105a-6347-413d-85ee-8017b035775d"
                 },
                 "CommandList": [
                   {
@@ -1022,7 +1027,7 @@
                     ]
                   }
                 ],
-                "ID": "4d2ca572-7ca8-40c5-90c2-af46d9c0fa9f"
+                "ID": "dcdb89b0-705c-4dae-b699-36726e830e7c"
               }
             ]
           },
@@ -2766,4 +2771,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}//PRXlw3KDW5zBBBpTGCukFV8XcIQQPH2y7GcYzNkYq0U/1kM1jE/PCeKiRobce+N1dQZEG1eK54WgCypH0TFgrOuTmNqDBnCT/wM2HDWZve4EJByJnB4rigyhafwcfQ5vcwAoLxmNw/E7RpVptu6jTAlIfkoAgJNH6Y/r/cW+xr3f0IvnVas3jDKWXkKz1l1RWUzywduR0CCY8luulipPNNfRAg6tzQ0/yZNo+pCatVQ94SlKTwRrk2MJ8YO5W7GppU67W7p9z8RsNNSnYVaLGvry83GkLjGSp5KtyHUW14kmzYURbJajSMVQWLDASCYjOcsRknaDyiM4m7EoS1VHJk7Kvf/lh58UC1woPugVQ1BBdNrf6sXEDzyjoZVMPwsX12HqvqKFtCYhDr9ZbxVIxryOeHe5wnRk3i1M/rtwpp1uduMG7QCwyY1SL5MiA4s6U7q4DKmgWYEzPFfGInyknc9uouz7WhAdof98mtr3Vqtjo7OFQjSh27ZvjalQvALlE6E+B/QgGzO/yV/KDbbsycPCrVYqx5rMuqKodazO/CTVuj271ECxk+JJVF6qerEO0wM5BpxhZBUWMjLuRpQ0V6ZmuGNGn+TJWgLhr2+fWrC01BCa/c1SP4rUTBX2U72MYbXtNX1MbdoshVxBFcEA+4wW3b43XEEH6R9hROrC6e1OuUiRb6rW+RaR6b1tjac3OegkSkkYfnfY3fHNdYuyUALr2ZPhYvGf2vNkxEa0qWmNOqd8UMIvzRjD5aOOhDPCh8CJ0BRvY+e/+ykB0wZcpHoF78hLVeSe340iAXdnGyS52WKcjfZY/O2mQWqQwedavDk2goA4+654iDDRzGT/KGsTkG9rcuuiIcnF5UVkbkbZyVK2fEG/u04JL3ogXZYW8Mgh2sDI6otKUhbrKG93mw==|920
+}//uctkDxRPjLr+M2WgVfRTq+UDcAp6/4keAcDc/Ktk5/5TUVKM6Rf19dECrZPpH5B8bMUGkFVlXZzm4Ft+AgW4cvNVpQpGnitY2BAwfwaxEtkHoGxp63TMo5gNo4b3H9pT0I14rZ/ncMTW3UfdFVCejzobAy9dXMWfYdbdHhlu19T+B9b/MvPnwYDGJIQJTxDmtcfihCyOZzR68WE5JryhtJ7XSJ9wnFgz0cPYLTFYyz+/cVXSBp+/LoBQQ73O9pmxExhLGXDPnU2JD72zRBejNOn5l8JgZZOLo90svNq4lX7IWvjP0hWgN0M9CfhjKtej5PuazIcS8tMjaWDzhejpikRFGyjG5yz65QnRDwLs2w9mlDFfvkhdwGRB+G1u95s5/hAgL8Ll8Fc7wJiJ5NBo0uBF4Gpf/N4k/5u/NT2qZTs4W9qa04Ch1QGL0WLI3F6JUatLK7rmmka7oCAqHnIuwHwK3GMdciLKVMGU4zCF9zQOdn5fWRqQzUx2o/QMgSsVj63ikq1AU0eBnzDXR6oyBRG8YeJzvHJi2vr9S6zXYN3ddj3ETkPeZOxXCPDmJ/TmbJRFs3GNUAhsqzG6Ul5gUDPYgueDw7sH8z6L4yrNvtCwme/nizsq5wY62fNoHZX8/LXeAWp8vAaWTgP3IQDPQkJfRRQK9arM3pOVjw47AlRxldNfMS/qNurFhpaIiQ8drZzGxQk/zz2+q/CCakSlrGs36USOrkycUTZJy66mfqTuFwiXgeYaI0AFZBB2ZZpUA/GBVwH7K0uqHJhmvxMzwKvDHEVKQFS9281vcigor+zEOFbADTTJfDT+RUkZSH8UQSwtdp0x9kQqUJNhBGTG8NNMEDbSY7/tH1WZ142zoQFjF815hn586LRhDWj3bOU5BpSFnA7bHFRuRpF6tl8F5Q==|920

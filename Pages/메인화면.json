@@ -68,6 +68,7 @@
       }
     },
     "InLogicalVisibleIndexes": [
+      44,
       45,
       46,
       47,
@@ -76,8 +77,7 @@
       50,
       51,
       52,
-      53,
-      54
+      53
     ],
     "Count": 55
   },
@@ -125,67 +125,68 @@
     "28,23": "월별 매출 현황",
     "45,2": "견적현황 차트 피봇테이블",
     "45,15": "제품별 매출 현황 리스트뷰",
-    "45,35": "월별 매출 현황 셀 범위",
+    "45,33": "제품별 매출 현황 피봇테이블",
+    "45,45": "월별 매출 현황 셀 범위",
     "46,15": "거래처",
     "46,30": "제품군",
-    "46,35": "월초",
-    "46,36": "DATE(YEAR(STARTDATE),MONTH(STARTDATE)+1,1)",
-    "46,37": "DATE(YEAR(STARTDATE),MONTH(STARTDATE)+1,1)",
-    "46,38": "DATE(YEAR(STARTDATE),MONTH(STARTDATE)+1,1)",
-    "46,39": "DATE(YEAR(STARTDATE),MONTH(STARTDATE)+1,1)",
-    "46,40": "DATE(YEAR(STARTDATE),MONTH(STARTDATE)+1,1)",
-    "46,43": "DATE(YEAR(STARTDATE),MONTH(STARTDATE)+1,1)",
-    "47,35": "월말",
-    "47,36": "DATE(YEAR(STARTDATE),MONTH(STARTDATE)+1,1)",
-    "47,37": "DATE(YEAR(STARTDATE),MONTH(STARTDATE)+1,1)",
-    "47,38": "DATE(YEAR(STARTDATE),MONTH(STARTDATE)+1,1)",
-    "47,39": "DATE(YEAR(STARTDATE),MONTH(STARTDATE)+1,31)",
-    "47,43": "DATE(YEAR(STARTDATE),MONTH(STARTDATE)+1,31)",
-    "48,35": "월",
-    "49,35": "판매",
-    "49,37": "DATE(YEAR(STARTDATE)-3,MONTH(STARTDATE)-3,1",
-    "49,38": "DATE(YEAR(STARTDATE)-3,MONTH(STARTDATE)-3,1",
-    "50,35": "견적",
-    "50,37": "DATE(YEAR(STARTDATE)-3,MONTH(STARTDATE)-3,1",
-    "50,38": "DATE(YEAR(STARTDATE)-3,MONTH(STARTDATE)-3,1"
+    "46,45": "월초",
+    "46,46": "DATE(YEAR(STARTDATE),MONTH(STARTDATE)+1,1)",
+    "46,47": "DATE(YEAR(STARTDATE),MONTH(STARTDATE)+1,1)",
+    "46,48": "DATE(YEAR(STARTDATE),MONTH(STARTDATE)+1,1)",
+    "46,49": "DATE(YEAR(STARTDATE),MONTH(STARTDATE)+1,1)",
+    "46,50": "DATE(YEAR(STARTDATE),MONTH(STARTDATE)+1,1)",
+    "46,51": "DATE(YEAR(STARTDATE),MONTH(STARTDATE)+1,1)",
+    "47,45": "월말",
+    "47,46": "DATE(YEAR(STARTDATE),MONTH(STARTDATE)+1,1)",
+    "47,47": "DATE(YEAR(STARTDATE),MONTH(STARTDATE)+1,1)",
+    "47,48": "DATE(YEAR(STARTDATE),MONTH(STARTDATE)+1,1)",
+    "47,49": "DATE(YEAR(STARTDATE),MONTH(STARTDATE)+1,31)",
+    "47,51": "DATE(YEAR(STARTDATE),MONTH(STARTDATE)+1,31)",
+    "48,45": "월",
+    "49,45": "판매",
+    "49,47": "DATE(YEAR(STARTDATE)-3,MONTH(STARTDATE)-3,1",
+    "49,48": "DATE(YEAR(STARTDATE)-3,MONTH(STARTDATE)-3,1",
+    "50,45": "견적",
+    "50,47": "DATE(YEAR(STARTDATE)-3,MONTH(STARTDATE)-3,1",
+    "50,48": "DATE(YEAR(STARTDATE)-3,MONTH(STARTDATE)-3,1"
   },
   "Formulas": {
-    "48,38": "MONTH(DATE(YEAR(STARTDATE),MONTH(STARTDATE)-3,1))",
-    "46,40": "DATE(YEAR(STARTDATE),MONTH(STARTDATE)-1,1)",
-    "50,38": "IFERROR(SUM(ODATA(\"주문데이터?$select=총공급가&$filter=견적일 ge \"&IF(ISBLANK(AM47),\"null\",TEXT(AM47,\"yyyy-MM-ddThh:mm:ssZ\"))&\" and 견적일 le \"&IF(ISBLANK(AM48),\"null\",TEXT(AM48,\"yyyy-MM-ddThh:mm:ssZ\")))),\"\")",
+    "50,51": "IFERROR(SUM(ODATA(\"주문데이터?$select=총공급가&$filter=견적일 ge \"&IF(ISBLANK(AZ47),\"null\",TEXT(AZ47,\"yyyy-MM-ddThh:mm:ssZ\"))&\" and 견적일 le \"&IF(ISBLANK(AZ48),\"null\",TEXT(AZ48,\"yyyy-MM-ddThh:mm:ssZ\")))),\"\")",
+    "50,50": "IFERROR(SUM(ODATA(\"주문데이터?$select=총공급가&$filter=견적일 ge \"&IF(ISBLANK(AY47),\"null\",TEXT(AY47,\"yyyy-MM-ddThh:mm:ssZ\"))&\" and 견적일 le \"&IF(ISBLANK(AY48),\"null\",TEXT(AY48,\"yyyy-MM-ddThh:mm:ssZ\")))),\"\")",
+    "50,49": "IFERROR(SUM(ODATA(\"주문데이터?$select=총공급가&$filter=견적일 ge \"&IF(ISBLANK(AX47),\"null\",TEXT(AX47,\"yyyy-MM-ddThh:mm:ssZ\"))&\" and 견적일 le \"&IF(ISBLANK(AX48),\"null\",TEXT(AX48,\"yyyy-MM-ddThh:mm:ssZ\")))),\"\")",
     "6,6": "IFERROR(SUM(ODATA(\"주문데이터?$select=총공급가&$filter=납기일자 ge \"&IF(ISBLANK(STARTDATE),\"null\",TEXT(STARTDATE,\"yyyy-MM-ddThh:mm:ssZ\"))&\" and 납기일자 le \"&IF(ISBLANK(ENDDATA),\"null\",TEXT(ENDDATA,\"yyyy-MM-ddThh:mm:ssZ\"))&\" and 종결여부 eq '완료'\")),\"\")",
-    "46,43": "DATE(YEAR(STARTDATE),MONTH(STARTDATE),1)",
+    "50,46": "IFERROR(SUM(ODATA(\"주문데이터?$select=총공급가&$filter=견적일 ge \"&IF(ISBLANK(AU47),\"null\",TEXT(AU47,\"yyyy-MM-ddThh:mm:ssZ\"))&\" and 견적일 le \"&IF(ISBLANK(AU48),\"null\",TEXT(AU48,\"yyyy-MM-ddThh:mm:ssZ\")))),\"\")",
     "6,30": "IFERROR(SUM(ODATA(\"주문데이터?$select=총공급가&$filter=견적일 ge \"&IF(ISBLANK(AF3),\"null\",TEXT(AF3,\"yyyy-MM-ddThh:mm:ssZ\"))&\" and 견적일 le \"&IF(ISBLANK(AR3),\"null\",TEXT(AR3,\"yyyy-MM-ddThh:mm:ssZ\")))),\"\")",
-    "48,40": "MONTH(DATE(YEAR(STARTDATE),MONTH(STARTDATE)-1,1))",
-    "48,37": "MONTH(DATE(YEAR(STARTDATE),MONTH(STARTDATE)-4,1))",
-    "47,43": "EOMONTH(STARTDATE,0)",
+    "48,51": "MONTH(STARTDATE)",
+    "49,50": "IFERROR(SUM(ODATA(\"주문데이터?$select=총공급가&$filter=납기일자 ge \"&IF(ISBLANK(AY47),\"null\",TEXT(AY47,\"yyyy-MM-ddThh:mm:ssZ\"))&\" and 납기일자 le \"&IF(ISBLANK(AY48),\"null\",TEXT(AY48,\"yyyy-MM-ddThh:mm:ssZ\"))&\" and 종결여부 eq '완료'\")),\"\")",
+    "49,49": "IFERROR(SUM(ODATA(\"주문데이터?$select=총공급가&$filter=납기일자 ge \"&IF(ISBLANK(AX47),\"null\",TEXT(AX47,\"yyyy-MM-ddThh:mm:ssZ\"))&\" and 납기일자 le \"&IF(ISBLANK(AX48),\"null\",TEXT(AX48,\"yyyy-MM-ddThh:mm:ssZ\"))&\" and 종결여부 eq '완료'\")),\"\")",
     "6,44": "IFERROR(ODATA(\"주문데이터/$count?$filter=견적일 ge \"&IF(ISBLANK(AF3),\"null\",TEXT(AF3,\"yyyy-MM-ddThh:mm:ssZ\"))&\" and 견적일 le \"&IF(ISBLANK(AR3),\"null\",TEXT(AR3,\"yyyy-MM-ddThh:mm:ssZ\"))&\" and 종결여부 eq '완료'\")/BF3,\"\")",
-    "46,39": "DATE(YEAR(STARTDATE),MONTH(STARTDATE)-2,1)",
-    "50,40": "IFERROR(SUM(ODATA(\"주문데이터?$select=총공급가&$filter=견적일 ge \"&IF(ISBLANK(AO47),\"null\",TEXT(AO47,\"yyyy-MM-ddThh:mm:ssZ\"))&\" and 견적일 le \"&IF(ISBLANK(AO48),\"null\",TEXT(AO48,\"yyyy-MM-ddThh:mm:ssZ\")))),\"\")",
-    "47,39": "EOMONTH(STARTDATE,-2)",
-    "50,39": "IFERROR(SUM(ODATA(\"주문데이터?$select=총공급가&$filter=견적일 ge \"&IF(ISBLANK(AN47),\"null\",TEXT(AN47,\"yyyy-MM-ddThh:mm:ssZ\"))&\" and 견적일 le \"&IF(ISBLANK(AN48),\"null\",TEXT(AN48,\"yyyy-MM-ddThh:mm:ssZ\")))),\"\")",
-    "47,30": "IF(T48=\"SpreadJS 배포\",\"Spread\",IF(T48=\"GCExcel프로젝트 \",\"GCExcel\",IF(T48=\"ActiveReportsJS 개발자 \",\"ActiveReports\",IF(T48=\"ActiveReportsJS 배포 \",\"ActiveReports\",IF(T48=\"ActiveReports.NET 개발자 (Pro)\",\"ActiveReports\",IF(T48=\"ActiveReports.NET 개발자 (Pro) \",\"ActiveReports\",IF(T48=\"SpreadJS 디자이너 컴포넌트\",\"SpreadJS\",IF(T48=\"Wijmo 개발자 \",\"Wijmo\",IF(T48=\"SpreadJS 개발자 \",\"Spread\",IF(T48=\"Wijmo 배포 \",\"Wijmo\",IF(T48=\"Forguncy 개발\",\"Forguncy\",IF(T48=\"Forguncy 동접자\",\"Forguncy\",IF(T48=\"ComponentOne Enterprise\",\"C1\",IF(T48=\"Forguncy 배포\",\"Forguncy\",\"기타\"))))))))))))))",
-    "49,43": "IFERROR(SUM(ODATA(\"주문데이터?$select=총공급가&$filter=납기일자 ge \"&IF(ISBLANK(AR47),\"null\",TEXT(AR47,\"yyyy-MM-ddThh:mm:ssZ\"))&\" and 납기일자 le \"&IF(ISBLANK(AR48),\"null\",TEXT(AR48,\"yyyy-MM-ddThh:mm:ssZ\"))&\" and 종결여부 eq '완료'\")),\"\")",
-    "50,37": "IFERROR(SUM(ODATA(\"주문데이터?$select=총공급가&$filter=견적일 ge \"&IF(ISBLANK(AL47),\"null\",TEXT(AL47,\"yyyy-MM-ddThh:mm:ssZ\"))&\" and 견적일 le \"&IF(ISBLANK(AL48),\"null\",TEXT(AL48,\"yyyy-MM-ddThh:mm:ssZ\")))),\"\")",
-    "47,40": "EOMONTH(STARTDATE,-1)",
-    "49,36": "IFERROR(SUM(ODATA(\"주문데이터?$select=총공급가&$filter=납기일자 ge \"&IF(ISBLANK(AK47),\"null\",TEXT(AK47,\"yyyy-MM-ddThh:mm:ssZ\"))&\" and 납기일자 le \"&IF(ISBLANK(AK48),\"null\",TEXT(AK48,\"yyyy-MM-ddThh:mm:ssZ\")))),\"\")",
-    "48,39": "MONTH(DATE(YEAR(STARTDATE),MONTH(STARTDATE)-2,1))",
+    "49,48": "IFERROR(SUM(ODATA(\"주문데이터?$select=총공급가&$filter=납기일자 ge \"&IF(ISBLANK(AW47),\"null\",TEXT(AW47,\"yyyy-MM-ddThh:mm:ssZ\"))&\" and 납기일자 le \"&IF(ISBLANK(AW48),\"null\",TEXT(AW48,\"yyyy-MM-ddThh:mm:ssZ\"))&\" and 종결여부 eq '완료'\")),\"\")",
+    "49,47": "IFERROR(SUM(ODATA(\"주문데이터?$select=총공급가&$filter=납기일자 ge \"&IF(ISBLANK(AV47),\"null\",TEXT(AV47,\"yyyy-MM-ddThh:mm:ssZ\"))&\" and 납기일자 le \"&IF(ISBLANK(AV48),\"null\",TEXT(AV48,\"yyyy-MM-ddThh:mm:ssZ\")))),\"\")",
+    "49,51": "IFERROR(SUM(ODATA(\"주문데이터?$select=총공급가&$filter=납기일자 ge \"&IF(ISBLANK(AZ47),\"null\",TEXT(AZ47,\"yyyy-MM-ddThh:mm:ssZ\"))&\" and 납기일자 le \"&IF(ISBLANK(AZ48),\"null\",TEXT(AZ48,\"yyyy-MM-ddThh:mm:ssZ\"))&\" and 종결여부 eq '완료'\")),\"\")",
+    "48,50": "MONTH(DATE(YEAR(STARTDATE),MONTH(STARTDATE)-1,1))",
+    "47,30": "IF(T48=\"SpreadJS 배포\",\"Spread\",IF(T48=\"GCExcel프로젝트 \",\"GCExcel\",IF(T48=\"ActiveReportsJS 개발자 \",\"ActiveReports\",IF(T48=\"ActiveReportsJS 배포 \",\"ActiveReports\",IF(T48=\"ActiveReports.NET 개발자 (Pro)\",\"ActiveReports\",IF(T48=\"ActiveReports.NET 개발자 (Pro) \",\"ActiveReports\",IF(T48=\"SpreadJS 디자이너 컴포넌트\",\"Spread\",IF(T48=\"Wijmo 개발자 \",\"Wijmo\",IF(T48=\"SpreadJS 개발자\",\"Spread\",IF(T48=\"Wijmo 배포 \",\"Wijmo\",IF(T48=\"Forguncy 개발\",\"Forguncy\",IF(T48=\"Forguncy 동접자\",\"Forguncy\",IF(T48=\"ComponentOne Enterprise\",\"C1\",IF(T48=\"Forguncy 배포\",\"Forguncy\",\"기타\"))))))))))))))",
+    "48,49": "MONTH(DATE(YEAR(STARTDATE),MONTH(STARTDATE)-2,1))",
+    "48,48": "MONTH(DATE(YEAR(STARTDATE),MONTH(STARTDATE)-3,1))",
+    "49,46": "IFERROR(SUM(ODATA(\"주문데이터?$select=총공급가&$filter=납기일자 ge \"&IF(ISBLANK(AU47),\"null\",TEXT(AU47,\"yyyy-MM-ddThh:mm:ssZ\"))&\" and 납기일자 le \"&IF(ISBLANK(AU48),\"null\",TEXT(AU48,\"yyyy-MM-ddThh:mm:ssZ\")))),\"\")",
+    "47,51": "EOMONTH(STARTDATE,0)",
+    "47,48": "EOMONTH(STARTDATE,-3)",
     "6,18": "IFERROR((ODATA(\"주문데이터/$count?$filter=납기일자 ge \"&IF(ISBLANK(AF3),\"null\",TEXT(AF3,\"yyyy-MM-ddThh:mm:ssZ\"))&\" and 납기일자 le \"&IF(ISBLANK(AR3),\"null\",TEXT(AR3,\"yyyy-MM-ddThh:mm:ssZ\"))&\" and 종결여부 eq '완료'\")),\"\")",
-    "46,38": "DATE(YEAR(STARTDATE),MONTH(STARTDATE)-3,1)",
-    "49,39": "IFERROR(SUM(ODATA(\"주문데이터?$select=총공급가&$filter=납기일자 ge \"&IF(ISBLANK(AN47),\"null\",TEXT(AN47,\"yyyy-MM-ddThh:mm:ssZ\"))&\" and 납기일자 le \"&IF(ISBLANK(AN48),\"null\",TEXT(AN48,\"yyyy-MM-ddThh:mm:ssZ\"))&\" and 종결여부 eq '완료'\")),\"\")",
-    "47,38": "EOMONTH(STARTDATE,-3)",
+    "50,47": "IFERROR(SUM(ODATA(\"주문데이터?$select=총공급가&$filter=견적일 ge \"&IF(ISBLANK(AV47),\"null\",TEXT(AV47,\"yyyy-MM-ddThh:mm:ssZ\"))&\" and 견적일 le \"&IF(ISBLANK(AV48),\"null\",TEXT(AV48,\"yyyy-MM-ddThh:mm:ssZ\")))),\"\")",
+    "47,47": "EOMONTH(STARTDATE,-4)",
+    "50,48": "IFERROR(SUM(ODATA(\"주문데이터?$select=총공급가&$filter=견적일 ge \"&IF(ISBLANK(AW47),\"null\",TEXT(AW47,\"yyyy-MM-ddThh:mm:ssZ\"))&\" and 견적일 le \"&IF(ISBLANK(AW48),\"null\",TEXT(AW48,\"yyyy-MM-ddThh:mm:ssZ\")))),\"\")",
     "2,57": "ODATA(\"주문데이터/$count?$filter=견적일 ge \"&IF(ISBLANK(STARTDATE),\"null\",TEXT(STARTDATE,\"yyyy-MM-ddThh:mm:ssZ\"))&\" and 견적일 le \"&IF(ISBLANK(ENDDATA),\"null\",TEXT(ENDDATA,\"yyyy-MM-ddThh:mm:ssZ\")))",
-    "49,38": "IFERROR(SUM(ODATA(\"주문데이터?$select=총공급가&$filter=납기일자 ge \"&IF(ISBLANK(AM47),\"null\",TEXT(AM47,\"yyyy-MM-ddThh:mm:ssZ\"))&\" and 납기일자 le \"&IF(ISBLANK(AM48),\"null\",TEXT(AM48,\"yyyy-MM-ddThh:mm:ssZ\"))&\" and 종결여부 eq '완료'\")),\"\")",
-    "46,37": "DATE(YEAR(STARTDATE),MONTH(STARTDATE)-4,1)",
-    "46,36": "DATE(YEAR(STARTDATE),MONTH(STARTDATE)-5,1)",
-    "49,37": "IFERROR(SUM(ODATA(\"주문데이터?$select=총공급가&$filter=납기일자 ge \"&IF(ISBLANK(AL47),\"null\",TEXT(AL47,\"yyyy-MM-ddThh:mm:ssZ\"))&\" and 납기일자 le \"&IF(ISBLANK(AL48),\"null\",TEXT(AL48,\"yyyy-MM-ddThh:mm:ssZ\")))),\"\")",
-    "47,36": "EOMONTH(STARTDATE,-5)",
-    "50,36": "IFERROR(SUM(ODATA(\"주문데이터?$select=총공급가&$filter=견적일 ge \"&IF(ISBLANK(AK47),\"null\",TEXT(AK47,\"yyyy-MM-ddThh:mm:ssZ\"))&\" and 견적일 le \"&IF(ISBLANK(AK48),\"null\",TEXT(AK48,\"yyyy-MM-ddThh:mm:ssZ\")))),\"\")",
-    "48,43": "MONTH(STARTDATE)",
-    "48,36": "MONTH(DATE(YEAR(STARTDATE),MONTH(STARTDATE)-5,1))",
-    "50,43": "IFERROR(SUM(ODATA(\"주문데이터?$select=총공급가&$filter=견적일 ge \"&IF(ISBLANK(AR47),\"null\",TEXT(AR47,\"yyyy-MM-ddThh:mm:ssZ\"))&\" and 견적일 le \"&IF(ISBLANK(AR48),\"null\",TEXT(AR48,\"yyyy-MM-ddThh:mm:ssZ\")))),\"\")",
-    "49,40": "IFERROR(SUM(ODATA(\"주문데이터?$select=총공급가&$filter=납기일자 ge \"&IF(ISBLANK(AO47),\"null\",TEXT(AO47,\"yyyy-MM-ddThh:mm:ssZ\"))&\" and 납기일자 le \"&IF(ISBLANK(AO48),\"null\",TEXT(AO48,\"yyyy-MM-ddThh:mm:ssZ\"))&\" and 종결여부 eq '완료'\")),\"\")",
-    "47,37": "EOMONTH(STARTDATE,-4)"
+    "47,46": "EOMONTH(STARTDATE,-5)",
+    "48,46": "MONTH(DATE(YEAR(STARTDATE),MONTH(STARTDATE)-5,1))",
+    "47,49": "EOMONTH(STARTDATE,-2)",
+    "46,51": "DATE(YEAR(STARTDATE),MONTH(STARTDATE),1)",
+    "47,50": "EOMONTH(STARTDATE,-1)",
+    "46,50": "DATE(YEAR(STARTDATE),MONTH(STARTDATE)-1,1)",
+    "46,49": "DATE(YEAR(STARTDATE),MONTH(STARTDATE)-2,1)",
+    "46,48": "DATE(YEAR(STARTDATE),MONTH(STARTDATE)-3,1)",
+    "46,47": "DATE(YEAR(STARTDATE),MONTH(STARTDATE)-4,1)",
+    "46,46": "DATE(YEAR(STARTDATE),MONTH(STARTDATE)-5,1)",
+    "48,47": "MONTH(DATE(YEAR(STARTDATE),MONTH(STARTDATE)-4,1))"
   },
   "AttachInfos": {
     "2,31": {
@@ -347,7 +348,7 @@
                 "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                 "SerializeProperty": "=메인화면!AF3"
               },
-              "Id": "e80630b7-95c6-4819-be08-fa3b81e9abe3"
+              "Id": "39c077ed-9367-4c52-bf20-b238f90b2128"
             },
             "Condition2": {
               "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
@@ -360,9 +361,9 @@
                 "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                 "SerializeProperty": "=메인화면!AR3"
               },
-              "Id": "86dd97fe-6ad4-4981-9673-d80e03628001"
+              "Id": "3b564dcb-ddaf-44d1-b806-d53e934ed69b"
             },
-            "Id": "f077e46c-70d8-47a2-babb-2a3535773533"
+            "Id": "7aaf8733-22f8-4cad-a640-c8331ecd3760"
           },
           "Condition2": {
             "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
@@ -378,7 +379,7 @@
                 "SerializeProperty": "=메인화면!STARTDATE"
               },
               "LeftBracket": 1,
-              "Id": "e924fd8b-ad0f-482a-b02e-f234152e1856"
+              "Id": "967e3560-a59d-4f8b-b08b-064d5c004a72"
             },
             "Condition2": {
               "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
@@ -392,12 +393,12 @@
                 "SerializeProperty": "=메인화면!ENDDATA"
               },
               "RightBracket": 1,
-              "Id": "042816e9-2c6e-4740-b642-70b2d207b997"
+              "Id": "9d4eeb40-95cb-4110-b179-8c1ed67aec6f"
             },
-            "Id": "8b36e114-8428-404b-b77e-2918507148a7"
+            "Id": "9e3b8ed3-71d0-4c01-ad69-ab5c72cfb74b"
           },
           "RelationType": 1,
-          "Id": "af2a4d45-ded0-46a4-b979-a25ae3c9bc13"
+          "Id": "11fe5a78-46dd-432b-b891-61d2d89328d3"
         },
         "TopCondition": null,
         "ListViewStyleName": "대시보드_리스뷰_스타일"
@@ -580,7 +581,7 @@
                 "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                 "SerializeProperty": "=메인화면!STARTDATE"
               },
-              "Id": "9b57ae0c-ff63-4b4a-b838-2b937f4aa65b"
+              "Id": "7157394e-9ef4-4c98-b316-8dc156c8a5bf"
             },
             "Condition2": {
               "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
@@ -593,9 +594,9 @@
                 "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                 "SerializeProperty": "=메인화면!ENDDATA"
               },
-              "Id": "a86e743e-2225-41e8-9705-ab69930dc87c"
+              "Id": "2b2050fb-c999-46cb-856d-aca6352db8d5"
             },
-            "Id": "e9afe5bc-bb00-4e3f-abbc-53ec3d05f89c"
+            "Id": "f0bea85e-9f7d-48d1-a231-42f5a080aa09"
           },
           "Condition2": {
             "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
@@ -604,9 +605,9 @@
               "ColumnName": "종결여부"
             },
             "Value": "완료",
-            "Id": "74d280f9-c2a2-4457-a722-7d4373158e71"
+            "Id": "9fe4ea55-17fe-4134-aef4-5b197351172f"
           },
-          "Id": "1404409c-10b9-465b-8ad0-6ee608e20871"
+          "Id": "f8684061-709b-4bba-8cc8-9699ab79ba4d"
         },
         "TopCondition": null,
         "OrderByCondition": {
@@ -623,9 +624,91 @@
               "Order": 0
             }
           ],
-          "Id": "56fd1cba-4284-4666-9aab-1c8f293a0983"
+          "Id": "e2e621f1-fc43-4c6a-b242-d9dbe572ccd2"
         },
         "ListViewStyleName": "_RS_Light8"
+      }
+    },
+    "46,33": {
+      "CellType": {
+        "$type": "Forguncy.PivotTableCellType, ServerDesignerCommon",
+        "PivotTableSetting": {
+          "SelectedListViewName": "리스트뷰3",
+          "Rows": [
+            {
+              "DatabaseColumnName": "제품군",
+              "DisplayName": "제품군",
+              "ColumnCell": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=메인화면!AE48"
+              },
+              "BackgroundValue": {}
+            }
+          ],
+          "Values": [
+            {
+              "DatabaseColumnName": "총공급가",
+              "DisplayName": "총공급가",
+              "ColumnCell": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=메인화면!X48"
+              },
+              "Aggregator": 0,
+              "TotalAggregator": 0,
+              "BackgroundValue": {}
+            }
+          ],
+          "DatabaseColumns": [
+            {
+              "DatabaseColumnName": "거래처",
+              "ColumnCell": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=메인화면!P48"
+              }
+            },
+            {
+              "DatabaseColumnName": "제품명",
+              "ColumnCell": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=메인화면!T48"
+              }
+            },
+            {
+              "DatabaseColumnName": "총공급가",
+              "ColumnCell": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=메인화면!X48"
+              }
+            },
+            {
+              "DatabaseColumnName": "종결여부",
+              "ColumnCell": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=메인화면!AB48"
+              }
+            },
+            {
+              "DatabaseColumnName": "제품군",
+              "ColumnCell": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=메인화면!AE48"
+              }
+            },
+            {
+              "DatabaseColumnName": "규격명",
+              "ColumnCell": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=메인화면!AG48"
+              }
+            }
+          ],
+          "ForceFrozenRowHeader": true
+        },
+        "PivotTableStyle": {
+          "UseSimpleBar": true
+        },
+        "PivotTableID": "9a8afb47-fc36-4101-9527-642b290699eb",
+        "TemplateKey": "Accent_1_3"
       }
     },
     "47,15": {
@@ -665,10 +748,11 @@
     "47,32": {
       "BindingInfo": {
         "TableName": "주문데이터",
-        "ColumnName": "판매일",
-        "AttachType": {
-          "$type": "ForguncyDataAccess.DateColumnAttachObj, ForguncyDataAccess",
-          "ColumnAttachType": 4
+        "ColumnName": "제품_ID",
+        "RelationBinding": {
+          "RelatedTable": "제품",
+          "RelatedColumn": "ID",
+          "DisplayColumn": "규격명"
         }
       }
     }
@@ -1071,15 +1155,27 @@
         "Foreground": 8
       },
       {
+        "Background": 4,
+        "FontFamily": 5,
+        "HorizontalAlignment": 6
+      },
+      {
         "FontWeight": 0,
         "Foreground": 25
       },
       {
-        "FontSize": 14.666666666666666,
+        "Background": 4,
         "FontWeight": 0,
-        "Foreground": 25,
-        "Formatter": 3,
-        "HorizontalAlignment": 6,
+        "Foreground": 25
+      },
+      {
+        "Background": 4,
+        "FontFamily": 5,
+        "FontWeight": 0,
+        "Foreground": 25
+      },
+      {
+        "Background": 4,
         "BorderTop": 2,
         "BorderLeft": 2
       },
@@ -1087,11 +1183,27 @@
         "BorderTop": 2
       },
       {
+        "BorderTop": 2,
+        "BorderRight": 2
+      },
+      {
+        "FontSize": 14.666666666666666,
+        "FontWeight": 0,
+        "Foreground": 25,
+        "Formatter": 3,
+        "HorizontalAlignment": 6,
+        "BorderTop": 3,
+        "BorderLeft": 3
+      },
+      {
+        "BorderTop": 3
+      },
+      {
         "FontSize": 14.666666666666666,
         "FontWeight": 0,
         "Foreground": 25,
         "HorizontalAlignment": 6,
-        "BorderTop": 2
+        "BorderTop": 3
       },
       {
         "FontSize": 13.333333333333332,
@@ -1099,44 +1211,80 @@
         "Foreground": 25,
         "Formatter": 3,
         "HorizontalAlignment": 6,
-        "BorderTop": 2
+        "BorderTop": 3
       },
       {
         "Foreground": 25,
-        "BorderTop": 2,
-        "BorderRight": 2
+        "BorderTop": 3
       },
       {
+        "Background": 4,
+        "BorderTop": 3,
+        "BorderLeft": 3
+      },
+      {
+        "BorderTop": 3,
+        "BorderRight": 3
+      },
+      {
+        "Background": 4,
+        "FontFamily": 5,
         "FontSize": 8.0,
         "Foreground": 25,
-        "BorderBottom": 3,
-        "BorderTop": 3,
-        "BorderLeft": 3,
-        "BorderRight": 3
+        "BorderBottom": 4,
+        "BorderTop": 4,
+        "BorderLeft": 4,
+        "BorderRight": 4
       },
       {
+        "Background": 4,
+        "FontFamily": 5,
         "Foreground": 22,
         "Formatter": 3,
-        "BorderBottom": 3,
-        "BorderTop": 3,
-        "BorderLeft": 3,
-        "BorderRight": 3
+        "BorderBottom": 4,
+        "BorderTop": 4,
+        "BorderLeft": 4,
+        "BorderRight": 4
       },
       {
+        "Background": 4,
+        "FontFamily": 5,
+        "Foreground": 22,
+        "Formatter": 3,
+        "HorizontalAlignment": 6,
+        "BorderBottom": 4,
+        "BorderTop": 4,
+        "BorderLeft": 4,
+        "BorderRight": 4
+      },
+      {
+        "Background": 4,
+        "FontFamily": 5,
         "Foreground": 22,
         "Formatter": 3,
         "WordWrap": true,
-        "BorderBottom": 3,
-        "BorderTop": 3,
-        "BorderLeft": 3,
-        "BorderRight": 3
+        "BorderBottom": 4,
+        "BorderTop": 4,
+        "BorderLeft": 4
+      },
+      {
+        "Background": 4,
+        "FontFamily": 5,
+        "Foreground": 22,
+        "Formatter": 3
+      },
+      {
+        "BorderLeft": 2
+      },
+      {
+        "BorderRight": 2
       },
       {
         "FontSize": 13.333333333333332,
         "FontWeight": 20,
         "Foreground": 25,
         "HorizontalAlignment": 6,
-        "BorderLeft": 2
+        "BorderLeft": 3
       },
       {
         "FontSize": 13.333333333333332,
@@ -1163,8 +1311,13 @@
         "HorizontalAlignment": 6
       },
       {
-        "Foreground": 25,
-        "BorderRight": 2
+        "Foreground": 25
+      },
+      {
+        "BorderLeft": 3
+      },
+      {
+        "BorderRight": 3
       },
       {
         "Background": null,
@@ -1173,75 +1326,132 @@
         "FontWeight": 20,
         "Foreground": null,
         "HorizontalAlignment": 14,
-        "BorderLeft": 2
+        "BorderLeft": 3
       },
       {
-        "Background": null,
-        "FontFamily": 24,
-        "FontSize": -1.0,
-        "FontWeight": 20,
-        "Foreground": null,
-        "HorizontalAlignment": 14,
-        "BorderRight": 2
-      },
-      {
+        "Background": 4,
+        "FontFamily": 5,
         "FontSize": 12.0,
         "Foreground": 25,
-        "BorderBottom": 3,
-        "BorderTop": 3,
-        "BorderLeft": 3,
-        "BorderRight": 3
+        "BorderBottom": 4,
+        "BorderTop": 4,
+        "BorderLeft": 4,
+        "BorderRight": 4
       },
       {
+        "Background": 4,
+        "FontFamily": 5,
         "Foreground": 22,
-        "BorderBottom": 3,
-        "BorderTop": 3,
-        "BorderLeft": 3,
-        "BorderRight": 3
+        "BorderBottom": 4,
+        "BorderTop": 4,
+        "BorderLeft": 4,
+        "BorderRight": 4
       },
       {
+        "Background": 4,
+        "FontFamily": 5,
+        "Foreground": 22,
+        "HorizontalAlignment": 6,
+        "BorderBottom": 4,
+        "BorderTop": 4,
+        "BorderLeft": 4,
+        "BorderRight": 4
+      },
+      {
+        "Background": 4,
+        "FontFamily": 5,
+        "Foreground": 22,
+        "BorderBottom": 4,
+        "BorderTop": 4,
+        "BorderLeft": 4
+      },
+      {
+        "Background": 4,
+        "FontFamily": 5,
+        "Foreground": 22
+      },
+      {
+        "Background": 4,
+        "FontFamily": 5,
         "Foreground": 25,
-        "BorderBottom": 3,
-        "BorderTop": 3,
-        "BorderLeft": 3,
-        "BorderRight": 3
+        "BorderBottom": 4,
+        "BorderTop": 4,
+        "BorderLeft": 4,
+        "BorderRight": 4
       },
       {
+        "Background": 4,
+        "FontFamily": 5,
         "Foreground": 25,
         "Formatter": 3,
-        "BorderBottom": 3,
-        "BorderTop": 3,
-        "BorderLeft": 3,
-        "BorderRight": 3
+        "BorderBottom": 4,
+        "BorderTop": 4,
+        "BorderLeft": 4,
+        "BorderRight": 4
       },
       {
-        "Background": null,
-        "FontFamily": 24,
-        "FontSize": -1.0,
-        "FontWeight": 20,
-        "Foreground": null,
-        "HorizontalAlignment": 14,
+        "Background": 4,
+        "FontFamily": 5,
+        "Foreground": 25,
+        "HorizontalAlignment": 6,
+        "BorderBottom": 4,
+        "BorderTop": 4,
+        "BorderLeft": 4,
+        "BorderRight": 4
+      },
+      {
+        "Background": 4,
+        "FontFamily": 5,
+        "Foreground": 25,
+        "BorderBottom": 4,
+        "BorderTop": 4,
+        "BorderLeft": 4
+      },
+      {
+        "Background": 4,
+        "FontFamily": 5,
+        "Foreground": 25
+      },
+      {
         "BorderBottom": 2,
         "BorderLeft": 2
       },
       {
-        "Background": null,
-        "FontFamily": 24,
-        "FontSize": -1.0,
-        "FontWeight": 20,
-        "Foreground": null,
-        "HorizontalAlignment": 14,
         "BorderBottom": 2
       },
       {
+        "BorderBottom": 2,
+        "BorderRight": 2
+      },
+      {
         "Background": null,
         "FontFamily": 24,
         "FontSize": -1.0,
         "FontWeight": 20,
         "Foreground": null,
         "HorizontalAlignment": 14,
-        "BorderBottom": 2,
-        "BorderRight": 2
+        "BorderBottom": 3,
+        "BorderLeft": 3
+      },
+      {
+        "Background": null,
+        "FontFamily": 24,
+        "FontSize": -1.0,
+        "FontWeight": 20,
+        "Foreground": null,
+        "HorizontalAlignment": 14,
+        "BorderBottom": 3
+      },
+      {
+        "BorderBottom": 3,
+        "BorderLeft": 3
+      },
+      {
+        "BorderBottom": 3
+      },
+      {
+        "BorderBottom": 3,
+        "BorderRight": 3
       },
       {
         "FontSize": 26.666666666666664,
@@ -1278,6 +1488,7 @@
         "#FFE1E4E8",
         "Body",
         "Background 1 -25",
+        "Background 1 -35",
         "DarkGray",
         "black"
       ],
@@ -1294,6 +1505,9 @@
         },
         {
           "Color": 27
+        },
+        {
+          "Color": 28
         }
       ]
     },
@@ -2826,52 +3040,109 @@
       "43,48": 7,
       "43,49": 7,
       "43,50": 7,
-      "45,2": 61,
-      "45,15": 61,
-      "45,35": 61,
-      "46,15": 62,
-      "46,16": 63,
-      "46,17": 63,
-      "46,18": 63,
-      "46,19": 64,
-      "46,20": 63,
-      "46,21": 63,
-      "46,22": 63,
-      "46,23": 64,
-      "46,24": 63,
-      "46,25": 63,
-      "46,26": 63,
-      "46,27": 64,
-      "46,28": 63,
-      "46,29": 63,
-      "46,30": 65,
-      "46,31": 63,
-      "46,32": 66,
-      "46,35": 67,
-      "46,36": 68,
-      "46,37": 68,
-      "46,38": 68,
-      "46,39": 68,
-      "46,40": 68,
-      "46,41": 68,
-      "46,42": 68,
-      "46,43": 69,
-      "47,15": 70,
-      "47,19": 71,
-      "47,23": 72,
-      "47,27": 73,
-      "47,30": 74,
-      "47,32": 75,
-      "47,35": 67,
-      "47,36": 68,
-      "47,37": 68,
-      "47,38": 68,
-      "47,39": 68,
-      "47,40": 68,
-      "47,41": 68,
-      "47,42": 68,
-      "47,43": 69,
-      "48,15": 76,
+      "44,44": 2,
+      "44,45": 2,
+      "44,46": 2,
+      "44,47": 2,
+      "44,48": 2,
+      "44,49": 2,
+      "44,50": 61,
+      "44,51": 61,
+      "44,52": 2,
+      "44,53": 2,
+      "44,54": 2,
+      "44,55": 2,
+      "45,2": 62,
+      "45,15": 62,
+      "45,33": 63,
+      "45,44": 2,
+      "45,45": 64,
+      "45,46": 2,
+      "45,47": 2,
+      "45,48": 2,
+      "45,49": 2,
+      "45,50": 61,
+      "45,51": 61,
+      "45,52": 2,
+      "45,53": 2,
+      "45,54": 2,
+      "45,55": 2,
+      "46,2": 65,
+      "46,3": 66,
+      "46,4": 66,
+      "46,5": 66,
+      "46,6": 66,
+      "46,7": 66,
+      "46,8": 66,
+      "46,9": 66,
+      "46,10": 66,
+      "46,11": 66,
+      "46,12": 66,
+      "46,13": 67,
+      "46,15": 68,
+      "46,16": 69,
+      "46,17": 69,
+      "46,18": 69,
+      "46,19": 70,
+      "46,20": 69,
+      "46,21": 69,
+      "46,22": 69,
+      "46,23": 70,
+      "46,24": 69,
+      "46,25": 69,
+      "46,26": 69,
+      "46,27": 70,
+      "46,28": 69,
+      "46,29": 69,
+      "46,30": 71,
+      "46,31": 69,
+      "46,32": 72,
+      "46,33": 73,
+      "46,34": 69,
+      "46,35": 69,
+      "46,36": 69,
+      "46,37": 69,
+      "46,38": 69,
+      "46,39": 69,
+      "46,40": 69,
+      "46,41": 69,
+      "46,42": 69,
+      "46,43": 74,
+      "46,44": 2,
+      "46,45": 75,
+      "46,46": 76,
+      "46,47": 76,
+      "46,48": 76,
+      "46,49": 76,
+      "46,50": 77,
+      "46,51": 78,
+      "46,52": 79,
+      "46,54": 2,
+      "46,55": 2,
+      "47,2": 80,
+      "47,13": 81,
+      "47,15": 82,
+      "47,19": 83,
+      "47,23": 84,
+      "47,27": 85,
+      "47,30": 86,
+      "47,32": 87,
+      "47,33": 88,
+      "47,43": 89,
+      "47,44": 2,
+      "47,45": 75,
+      "47,46": 76,
+      "47,47": 76,
+      "47,48": 76,
+      "47,49": 76,
+      "47,50": 77,
+      "47,51": 78,
+      "47,52": 79,
+      "47,54": 2,
+      "47,55": 2,
+      "48,2": 80,
+      "48,13": 81,
+      "48,15": 90,
       "48,16": 56,
       "48,17": 56,
       "48,18": 56,
@@ -2888,17 +3159,23 @@
       "48,29": 56,
       "48,30": 56,
       "48,31": 56,
-      "48,32": 77,
-      "48,35": 78,
-      "48,36": 79,
-      "48,37": 79,
-      "48,38": 79,
-      "48,39": 79,
-      "48,40": 79,
-      "48,41": 79,
-      "48,42": 79,
-      "48,43": 79,
-      "49,15": 76,
+      "48,32": 56,
+      "48,33": 88,
+      "48,43": 89,
+      "48,44": 2,
+      "48,45": 91,
+      "48,46": 92,
+      "48,47": 92,
+      "48,48": 92,
+      "48,49": 92,
+      "48,50": 93,
+      "48,51": 94,
+      "48,52": 95,
+      "48,54": 2,
+      "48,55": 2,
+      "49,2": 80,
+      "49,13": 81,
+      "49,15": 90,
       "49,16": 56,
       "49,17": 56,
       "49,18": 56,
@@ -2915,17 +3192,23 @@
       "49,29": 56,
       "49,30": 56,
       "49,31": 56,
-      "49,32": 77,
-      "49,35": 68,
-      "49,36": 80,
-      "49,37": 81,
-      "49,38": 81,
-      "49,39": 80,
-      "49,40": 80,
-      "49,41": 80,
-      "49,42": 80,
-      "49,43": 80,
-      "50,15": 76,
+      "49,32": 56,
+      "49,33": 88,
+      "49,43": 89,
+      "49,44": 2,
+      "49,45": 76,
+      "49,46": 96,
+      "49,47": 97,
+      "49,48": 97,
+      "49,49": 96,
+      "49,50": 98,
+      "49,51": 99,
+      "49,52": 100,
+      "49,54": 2,
+      "49,55": 2,
+      "50,2": 80,
+      "50,13": 81,
+      "50,15": 90,
       "50,16": 56,
       "50,17": 56,
       "50,18": 56,
@@ -2942,17 +3225,23 @@
       "50,29": 56,
       "50,30": 56,
       "50,31": 56,
-      "50,32": 77,
-      "50,35": 68,
-      "50,36": 80,
-      "50,37": 81,
-      "50,38": 81,
-      "50,39": 80,
-      "50,40": 80,
-      "50,41": 80,
-      "50,42": 80,
-      "50,43": 80,
-      "51,15": 76,
+      "50,32": 56,
+      "50,33": 88,
+      "50,43": 89,
+      "50,44": 2,
+      "50,45": 76,
+      "50,46": 96,
+      "50,47": 97,
+      "50,48": 97,
+      "50,49": 96,
+      "50,50": 98,
+      "50,51": 99,
+      "50,52": 100,
+      "50,54": 2,
+      "50,55": 2,
+      "51,2": 80,
+      "51,13": 81,
+      "51,15": 90,
       "51,16": 56,
       "51,17": 56,
       "51,18": 56,
@@ -2969,25 +3258,62 @@
       "51,29": 56,
       "51,30": 56,
       "51,31": 56,
-      "51,32": 77,
-      "52,15": 82,
-      "52,16": 83,
-      "52,17": 83,
-      "52,18": 83,
-      "52,19": 83,
-      "52,20": 83,
-      "52,21": 83,
-      "52,22": 83,
-      "52,23": 83,
-      "52,24": 83,
-      "52,25": 83,
-      "52,26": 83,
-      "52,27": 83,
-      "52,28": 83,
-      "52,29": 83,
-      "52,30": 83,
-      "52,31": 83,
-      "52,32": 84
+      "51,32": 56,
+      "51,33": 88,
+      "51,43": 89,
+      "51,44": 2,
+      "51,45": 2,
+      "51,46": 2,
+      "51,47": 2,
+      "51,48": 2,
+      "51,49": 2,
+      "51,50": 61,
+      "51,51": 61,
+      "51,52": 2,
+      "51,53": 2,
+      "51,54": 2,
+      "51,55": 2,
+      "52,2": 101,
+      "52,3": 102,
+      "52,4": 102,
+      "52,5": 102,
+      "52,6": 102,
+      "52,7": 102,
+      "52,8": 102,
+      "52,9": 102,
+      "52,10": 102,
+      "52,11": 102,
+      "52,12": 102,
+      "52,13": 103,
+      "52,15": 104,
+      "52,16": 105,
+      "52,17": 105,
+      "52,18": 105,
+      "52,19": 105,
+      "52,20": 105,
+      "52,21": 105,
+      "52,22": 105,
+      "52,23": 105,
+      "52,24": 105,
+      "52,25": 105,
+      "52,26": 105,
+      "52,27": 105,
+      "52,28": 105,
+      "52,29": 105,
+      "52,30": 105,
+      "52,31": 105,
+      "52,32": 105,
+      "52,33": 106,
+      "52,34": 107,
+      "52,35": 107,
+      "52,36": 107,
+      "52,37": 107,
+      "52,38": 107,
+      "52,39": 107,
+      "52,40": 107,
+      "52,41": 107,
+      "52,42": 107,
+      "52,43": 108
     },
     "RowStyles": {
       "5": 30,
@@ -3003,7 +3329,7 @@
       "15": 30,
       "16": 30,
       "17": 30,
-      "18": 85
+      "18": 109
     },
     "ColStyles": {
       "40": 5,
@@ -3069,7 +3395,8 @@
     "46,19,1,4",
     "46,23,1,4",
     "46,27,1,3",
-    "46,30,1,2"
+    "46,30,1,2",
+    "46,33,7,11"
   ],
   "Charts": [
     {
@@ -3097,8 +3424,8 @@
       "DataSeries": [
         {
           "Values": [
-            115186620.0,
-            43919428.0
+            109189620.0,
+            50255228.0
           ],
           "Name": "총공급가",
           "DataLabelStyle": {
@@ -3182,8 +3509,7 @@
             60000000.0,
             80000000.0,
             100000000.0,
-            120000000.0,
-            140000000.0
+            120000000.0
           ],
           "Orientation": 1,
           "LabelFormatter": "General",
@@ -3282,679 +3608,6 @@
       "Size": "354,306"
     },
     {
-      "ChartType": 22,
-      "DisplayHidden": true,
-      "ChartColorPalette": {
-        "RepeatAlgorithmTint": [
-          0.0,
-          -40.0,
-          20.0,
-          -20.0,
-          40.0,
-          -50.0,
-          30.0,
-          -30.0,
-          50.0
-        ],
-        "ColorList": [
-          "Accent 6",
-          "Accent 5",
-          "Accent 4"
-        ]
-      },
-      "DataSeries": [
-        {
-          "ChartType": 22,
-          "Values": [
-            2785200.0,
-            257888.0,
-            4930200.0,
-            17499000.0,
-            9984000.0,
-            12297000.0,
-            4701332.0,
-            7196000.0,
-            1600000.0,
-            7872000.0,
-            6082000.0,
-            7000000.0,
-            300000.0,
-            11666000.0,
-            300000.0,
-            10661000.0,
-            200000.0,
-            468888.0,
-            10661000.0,
-            300000.0
-          ],
-          "Name": "총공급가",
-          "DataLabelStyle": {
-            "StyleInfo": {
-              "Fill": null,
-              "FontFamily": "Body",
-              "FontSize": 14.670000076293945,
-              "FontStyle": "Normal",
-              "FontWeight": "Normal",
-              "Foreground": null,
-              "Stroke": null,
-              "StrokeThickness": 1.0
-            },
-            "IsAutomaticStroke": false,
-            "IsAutomaticFill": false
-          },
-          "DataLabelSettings": {
-            "ShowBubbleSize": false,
-            "ShowPercent": false,
-            "ShowSeriesName": false,
-            "ShowValue": false
-          },
-          "MarkerSize": "7,7",
-          "DataPoints": [
-            {
-              "StyleInfo": {
-                "Fill": "Accent 6",
-                "StrokeDashType": 8,
-                "Stroke": "Background 1",
-                "StrokeThickness": 2.0
-              },
-              "IsAutomaticStroke": false,
-              "IsAutomaticFill": false
-            },
-            {
-              "PointIndex": 1,
-              "StyleInfo": {
-                "Fill": "Accent 5",
-                "StrokeDashType": 8,
-                "Stroke": "Background 1",
-                "StrokeThickness": 2.0
-              },
-              "IsAutomaticStroke": false,
-              "IsAutomaticFill": false
-            },
-            {
-              "PointIndex": 2,
-              "StyleInfo": {
-                "Fill": "Accent 4",
-                "StrokeDashType": 8,
-                "Stroke": "Background 1",
-                "StrokeThickness": 2.0
-              },
-              "IsAutomaticStroke": false,
-              "IsAutomaticFill": false
-            },
-            {
-              "PointIndex": 3,
-              "StyleInfo": {
-                "Fill": "Accent 6 -40",
-                "StrokeDashType": 8,
-                "Stroke": "Background 1",
-                "StrokeThickness": 2.0
-              },
-              "IsAutomaticStroke": false,
-              "IsAutomaticFill": false
-            },
-            {
-              "PointIndex": 4,
-              "StyleInfo": {
-                "Fill": "Accent 5 -40",
-                "StrokeDashType": 8,
-                "Stroke": "Background 1",
-                "StrokeThickness": 2.0
-              },
-              "IsAutomaticStroke": false,
-              "IsAutomaticFill": false
-            },
-            {
-              "PointIndex": 5,
-              "StyleInfo": {
-                "Fill": "Accent 4 -40",
-                "StrokeDashType": 8,
-                "Stroke": "Background 1",
-                "StrokeThickness": 2.0
-              },
-              "IsAutomaticStroke": false,
-              "IsAutomaticFill": false
-            },
-            {
-              "PointIndex": 6,
-              "StyleInfo": {
-                "Fill": "Accent 6 20",
-                "StrokeDashType": 8,
-                "Stroke": "Background 1",
-                "StrokeThickness": 2.0
-              },
-              "IsAutomaticStroke": false,
-              "IsAutomaticFill": false
-            },
-            {
-              "PointIndex": 7,
-              "StyleInfo": {
-                "Fill": "Accent 5 20",
-                "StrokeDashType": 8,
-                "Stroke": "Background 1",
-                "StrokeThickness": 2.0
-              },
-              "IsAutomaticStroke": false,
-              "IsAutomaticFill": false
-            },
-            {
-              "PointIndex": 8,
-              "StyleInfo": {
-                "Fill": "Accent 4 20",
-                "StrokeDashType": 8,
-                "Stroke": "Background 1",
-                "StrokeThickness": 2.0
-              },
-              "IsAutomaticStroke": false,
-              "IsAutomaticFill": false
-            },
-            {
-              "PointIndex": 9,
-              "StyleInfo": {
-                "Fill": "Accent 6 -20",
-                "StrokeDashType": 8,
-                "Stroke": "Background 1",
-                "StrokeThickness": 2.0
-              },
-              "IsAutomaticStroke": false,
-              "IsAutomaticFill": false
-            },
-            {
-              "PointIndex": 10,
-              "StyleInfo": {
-                "Fill": "Accent 5 -20",
-                "StrokeDashType": 8,
-                "Stroke": "Background 1",
-                "StrokeThickness": 2.0
-              },
-              "IsAutomaticStroke": false,
-              "IsAutomaticFill": false
-            },
-            {
-              "PointIndex": 11,
-              "StyleInfo": {
-                "Fill": "Accent 4 -20",
-                "StrokeDashType": 8,
-                "Stroke": "Background 1",
-                "StrokeThickness": 2.0
-              },
-              "IsAutomaticStroke": false,
-              "IsAutomaticFill": false
-            },
-            {
-              "PointIndex": 12,
-              "StyleInfo": {
-                "Fill": "Accent 6 40",
-                "StrokeDashType": 8,
-                "Stroke": "Background 1",
-                "StrokeThickness": 2.0
-              },
-              "IsAutomaticStroke": false,
-              "IsAutomaticFill": false
-            },
-            {
-              "PointIndex": 13,
-              "StyleInfo": {
-                "Fill": "Accent 5 40",
-                "StrokeDashType": 8,
-                "Stroke": "Background 1",
-                "StrokeThickness": 2.0
-              },
-              "IsAutomaticStroke": false,
-              "IsAutomaticFill": false
-            },
-            {
-              "PointIndex": 14,
-              "StyleInfo": {
-                "Fill": "Accent 4 40",
-                "StrokeDashType": 8,
-                "Stroke": "Background 1",
-                "StrokeThickness": 2.0
-              },
-              "IsAutomaticStroke": false,
-              "IsAutomaticFill": false
-            },
-            {
-              "PointIndex": 15,
-              "StyleInfo": {
-                "Fill": "Accent 6 -50",
-                "StrokeDashType": 8,
-                "Stroke": "Background 1",
-                "StrokeThickness": 2.0
-              },
-              "IsAutomaticStroke": false,
-              "IsAutomaticFill": false
-            },
-            {
-              "PointIndex": 16,
-              "StyleInfo": {
-                "Fill": "Accent 5 -50",
-                "StrokeDashType": 8,
-                "Stroke": "Background 1",
-                "StrokeThickness": 2.0
-              },
-              "IsAutomaticStroke": false,
-              "IsAutomaticFill": false
-            },
-            {
-              "PointIndex": 17,
-              "StyleInfo": {
-                "Fill": "Accent 4 -50",
-                "StrokeDashType": 8,
-                "Stroke": "Background 1",
-                "StrokeThickness": 2.0
-              },
-              "IsAutomaticStroke": false,
-              "IsAutomaticFill": false
-            },
-            {
-              "PointIndex": 18,
-              "StyleInfo": {
-                "Fill": "Accent 6 30",
-                "StrokeDashType": 8,
-                "Stroke": "Background 1",
-                "StrokeThickness": 2.0
-              },
-              "IsAutomaticStroke": false,
-              "IsAutomaticFill": false
-            },
-            {
-              "PointIndex": 19,
-              "StyleInfo": {
-                "Fill": "Accent 5 30",
-                "StrokeDashType": 8,
-                "Stroke": "Background 1",
-                "StrokeThickness": 2.0
-              },
-              "IsAutomaticStroke": false,
-              "IsAutomaticFill": false
-            }
-          ]
-        },
-        {
-          "ChartType": 22,
-          "Values": [
-            "NaN",
-            "NaN",
-            "NaN",
-            "NaN",
-            "NaN",
-            "NaN",
-            "NaN",
-            "NaN",
-            "NaN",
-            "NaN",
-            "NaN",
-            "NaN",
-            "NaN",
-            "NaN",
-            "NaN",
-            "NaN",
-            "NaN",
-            "NaN",
-            "NaN",
-            "NaN"
-          ],
-          "Name": "판매일.월",
-          "DataLabelStyle": {
-            "StyleInfo": {
-              "Fill": null,
-              "FontFamily": "Body",
-              "FontSize": 14.670000076293945,
-              "FontStyle": "Normal",
-              "FontWeight": "Normal",
-              "Foreground": null,
-              "Stroke": null,
-              "StrokeThickness": 1.0
-            },
-            "IsAutomaticStroke": false,
-            "IsAutomaticFill": false
-          },
-          "DataLabelSettings": {
-            "ShowBubbleSize": false,
-            "ShowPercent": false,
-            "ShowSeriesName": false,
-            "ShowValue": false
-          },
-          "MarkerSize": "7,7",
-          "DataPoints": [
-            {},
-            {
-              "PointIndex": 1
-            },
-            {
-              "PointIndex": 2
-            },
-            {
-              "PointIndex": 3
-            },
-            {
-              "PointIndex": 4
-            },
-            {
-              "PointIndex": 5
-            },
-            {
-              "PointIndex": 6
-            },
-            {
-              "PointIndex": 7
-            },
-            {
-              "PointIndex": 8
-            },
-            {
-              "PointIndex": 9
-            },
-            {
-              "PointIndex": 10
-            },
-            {
-              "PointIndex": 11
-            },
-            {
-              "PointIndex": 12
-            },
-            {
-              "PointIndex": 13
-            },
-            {
-              "PointIndex": 14
-            },
-            {
-              "PointIndex": 15
-            },
-            {
-              "PointIndex": 16
-            },
-            {
-              "PointIndex": 17
-            },
-            {
-              "PointIndex": 18
-            },
-            {
-              "PointIndex": 19
-            }
-          ]
-        },
-        {
-          "ChartType": 22,
-          "Values": [
-            "NaN",
-            "NaN",
-            "NaN",
-            "NaN",
-            "NaN",
-            "NaN",
-            "NaN",
-            "NaN",
-            "NaN",
-            "NaN",
-            "NaN",
-            "NaN",
-            "NaN",
-            "NaN",
-            "NaN",
-            "NaN",
-            "NaN",
-            "NaN",
-            "NaN",
-            "NaN"
-          ],
-          "Name": "주문일.월",
-          "DataLabelStyle": {
-            "StyleInfo": {
-              "Fill": null,
-              "FontFamily": "Body",
-              "FontSize": 14.670000076293945,
-              "FontStyle": "Normal",
-              "FontWeight": "Normal",
-              "Foreground": null,
-              "Stroke": null,
-              "StrokeThickness": 1.0
-            },
-            "IsAutomaticStroke": false,
-            "IsAutomaticFill": false
-          },
-          "DataLabelSettings": {
-            "ShowBubbleSize": false,
-            "ShowPercent": false,
-            "ShowSeriesName": false,
-            "ShowValue": false
-          },
-          "MarkerSize": "7,7",
-          "DataPoints": [
-            {},
-            {
-              "PointIndex": 1
-            },
-            {
-              "PointIndex": 2
-            },
-            {
-              "PointIndex": 3
-            },
-            {
-              "PointIndex": 4
-            },
-            {
-              "PointIndex": 5
-            },
-            {
-              "PointIndex": 6
-            },
-            {
-              "PointIndex": 7
-            },
-            {
-              "PointIndex": 8
-            },
-            {
-              "PointIndex": 9
-            },
-            {
-              "PointIndex": 10
-            },
-            {
-              "PointIndex": 11
-            },
-            {
-              "PointIndex": 12
-            },
-            {
-              "PointIndex": 13
-            },
-            {
-              "PointIndex": 14
-            },
-            {
-              "PointIndex": 15
-            },
-            {
-              "PointIndex": 16
-            },
-            {
-              "PointIndex": 17
-            },
-            {
-              "PointIndex": 18
-            },
-            {
-              "PointIndex": 19
-            }
-          ]
-        }
-      ],
-      "XAxises": [
-        {
-          "Items": [
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null
-          ],
-          "UseCustomItems": true,
-          "LabelFormatter": "General",
-          "ShowMajorGridlines": false,
-          "MajorTickStroke": "#868686",
-          "MajorUnit": 1.0,
-          "MinorTickStroke": "#868686",
-          "MinorUnit": 0.5,
-          "StyleInfo": {
-            "FontFamily": "Body",
-            "FontSize": 14.67,
-            "FontStyle": "Normal",
-            "FontWeight": "Normal",
-            "Foreground": null,
-            "StrokeDashType": 8,
-            "Stroke": "Text 1",
-            "StrokeThickness": 1.0
-          },
-          "IsAutomaticStroke": false
-        }
-      ],
-      "YAxises": [
-        {
-          "Items": [
-            0.0,
-            5000000.0,
-            10000000.0,
-            15000000.0,
-            20000000.0
-          ],
-          "Orientation": 1,
-          "LabelFormatter": "General",
-          "MajorTickStroke": "#868686",
-          "MajorUnit": 5000000.0,
-          "MinorTickStroke": "#868686",
-          "MinorUnit": 1000000.0,
-          "StyleInfo": {
-            "FontFamily": "Body",
-            "FontSize": 14.67,
-            "FontStyle": "Normal",
-            "FontWeight": "Normal",
-            "Foreground": null,
-            "StrokeDashType": 8,
-            "Stroke": "Text 1",
-            "StrokeThickness": 1.0
-          },
-          "IsAutomaticStroke": false
-        },
-        {
-          "Orientation": 1,
-          "LabelFormatter": "General",
-          "ShowMajorGridlines": false,
-          "MajorTickStroke": "#868686",
-          "MajorUnit": 1.0,
-          "MinorTickStroke": "#868686",
-          "MinorUnit": 0.02,
-          "Visible": false,
-          "AxisPosition": 1,
-          "StyleInfo": {
-            "FontFamily": "Body",
-            "FontSize": 14.67,
-            "FontStyle": "Normal",
-            "FontWeight": "Normal",
-            "Foreground": null,
-            "StrokeDashType": 8,
-            "Stroke": "Text 1",
-            "StrokeThickness": 1.0
-          },
-          "IsAutomaticStroke": false
-        }
-      ],
-      "Legend": {
-        "Orientation": 0,
-        "Alignment": 6,
-        "StyleInfo": {
-          "Fill": "transparent",
-          "FontFamily": "나눔스퀘어",
-          "FontSize": 14.67,
-          "FontStretch": "Normal",
-          "FontStyle": "Normal",
-          "FontWeight": "Normal",
-          "Foreground": null,
-          "StrokeDashType": 8,
-          "Stroke": "transparent",
-          "StrokeThickness": 1.0
-        },
-        "IsAutomaticStroke": false,
-        "IsAutomaticFill": false
-      },
-      "PlotArea": {},
-      "Tag": {
-        "$type": "Forguncy.Model.ChartDataMapping, ServerDesignerCommon",
-        "ChartName": "Chart2",
-        "DataSeriesMapping": [
-          {
-            "SheetName": "메인화면",
-            "ListViewName": "리스트뷰3",
-            "ListViewColumnFormula": {
-              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=메인화면!X48"
-            }
-          },
-          {
-            "SheetName": "메인화면",
-            "ListViewName": "리스트뷰3",
-            "ListViewColumnFormula": {
-              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=메인화면!AG48"
-            }
-          },
-          {
-            "SheetName": "메인화면",
-            "ListViewName": "리스트뷰3",
-            "ListViewColumnFormula": {
-              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=메인화면!U47"
-            }
-          }
-        ],
-        "ItemsMapping": {
-          "SheetName": "메인화면",
-          "ListViewName": "리스트뷰3",
-          "ListViewColumnFormula": {
-            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-            "SerializeProperty": "=메인화면!AE48"
-          }
-        }
-      },
-      "StyleInfo": {
-        "Fill": null,
-        "FontFamily": "Body",
-        "FontSize": 14.67,
-        "FontStyle": "Normal",
-        "FontWeight": "Normal",
-        "Foreground": null,
-        "StrokeDashType": 8,
-        "Stroke": "#FF868686",
-        "StrokeThickness": 0.0
-      },
-      "IsAutomaticStroke": false,
-      "IsAutomaticFill": false,
-      "Name": "Chart2",
-      "Location": "53,639",
-      "Size": "355,313"
-    },
-    {
       "ChartType": 7,
       "DataOrientation": 1,
       "DisplayHidden": true,
@@ -3979,7 +3632,7 @@
       "DataSeries": [
         {
           "ChartType": 7,
-          "ValueFormula": "메인화면!AK50:AR50",
+          "ValueFormula": "메인화면!AU50:AZ50",
           "Name": "판매",
           "DataLabelStyle": {
             "StyleInfo": {
@@ -4014,7 +3667,7 @@
         },
         {
           "ChartType": 7,
-          "ValueFormula": "메인화면!AK51:AR51",
+          "ValueFormula": "메인화면!AU51:AZ51",
           "Name": "견적",
           "DataLabelStyle": {
             "StyleInfo": {
@@ -4049,7 +3702,7 @@
       ],
       "XAxises": [
         {
-          "ItemsFormula": "메인화면!$AK$49:$AR$49",
+          "ItemsFormula": "메인화면!$AU$49:$AZ$49",
           "LabelFormatter": "General",
           "ShowMajorGridlines": false,
           "MajorGridlinesStroke": "#868686",
@@ -4206,8 +3859,144 @@
       "IsAutomaticStroke": false,
       "IsAutomaticFill": false,
       "Name": "Chart3",
-      "Location": "453,684",
+      "Location": "452,684",
       "Size": "517,249"
+    },
+    {
+      "ChartType": 22,
+      "DisplayHidden": true,
+      "ChartColorPalette": {
+        "RepeatAlgorithmTint": [
+          0.0,
+          -40.0,
+          20.0,
+          -20.0,
+          40.0,
+          -50.0,
+          30.0,
+          -30.0,
+          50.0
+        ],
+        "ColorList": [
+          "Accent 1",
+          "Accent 2",
+          "Accent 3",
+          "Accent 4",
+          "Accent 5",
+          "Accent 6"
+        ]
+      },
+      "DataSeries": [
+        {
+          "Values": [
+            159444848.0
+          ],
+          "Name": "총공급가",
+          "DataLabelStyle": {
+            "StyleInfo": {
+              "Stroke": null,
+              "StrokeThickness": 1.0
+            },
+            "IsAutomaticStroke": false
+          },
+          "DataLabelSettings": {
+            "ShowBubbleSize": false,
+            "ShowCategoryName": false,
+            "ShowPercent": false,
+            "ShowSeriesName": false,
+            "ShowValue": false
+          },
+          "MarkerSize": "7,7",
+          "DataPoints": [
+            {
+              "StyleInfo": {
+                "Fill": "Accent 1",
+                "StrokeDashType": 8,
+                "Stroke": "Background 1",
+                "StrokeThickness": 2.0
+              },
+              "IsAutomaticStroke": false,
+              "IsAutomaticFill": false
+            }
+          ]
+        }
+      ],
+      "XAxises": [
+        {
+          "Items": [
+            ""
+          ],
+          "UseCustomItems": true,
+          "LabelFormatter": "General",
+          "ShowMajorGridlines": false,
+          "MajorTickStroke": "#868686",
+          "MajorUnit": 1.0,
+          "MinorTickStroke": "#868686",
+          "MinorUnit": 0.5
+        }
+      ],
+      "YAxises": [
+        {
+          "Items": [
+            0.0,
+            50000000.0,
+            100000000.0,
+            150000000.0,
+            200000000.0
+          ],
+          "Orientation": 1,
+          "LabelFormatter": "General",
+          "MajorTickStroke": "#868686",
+          "MajorUnit": 50000000.0,
+          "MinorTickStroke": "#868686",
+          "MinorUnit": 10000000.0
+        },
+        {
+          "Orientation": 1,
+          "LabelFormatter": "General",
+          "ShowMajorGridlines": false,
+          "MajorTickStroke": "#868686",
+          "MajorUnit": 1.0,
+          "MinorTickStroke": "#868686",
+          "MinorUnit": 0.02,
+          "Visible": false,
+          "AxisPosition": 1
+        }
+      ],
+      "Legend": {
+        "StyleInfo": {
+          "Fill": "transparent",
+          "FontFamily": "Body",
+          "FontSize": 13.333333333333332,
+          "FontStretch": "Normal",
+          "FontStyle": "Normal",
+          "FontWeight": "Normal",
+          "Foreground": null,
+          "StrokeDashType": 8,
+          "Stroke": "transparent",
+          "StrokeThickness": 1.0
+        },
+        "IsAutomaticStroke": false,
+        "IsAutomaticFill": false
+      },
+      "PlotArea": {},
+      "Tag": {
+        "$type": "Forguncy.Model.ChartDataMapping, ServerDesignerCommon",
+        "SourcePivotTableID": "9a8afb47-fc36-4101-9527-642b290699eb",
+        "ChartName": "Chart2",
+        "DataSeriesMapping": []
+      },
+      "StyleInfo": {
+        "Fill": "Background 1",
+        "StrokeDashType": 8,
+        "Stroke": "#FF868686",
+        "StrokeThickness": 0.0
+      },
+      "IsAutomaticStroke": false,
+      "IsAutomaticFill": false,
+      "Name": "Chart2",
+      "Location": "42,682",
+      "Size": "373,253"
     }
   ],
   "PageInfo": {
@@ -4235,4 +4024,4 @@
       "Formula": "메인화면!$AF$3"
     }
   ]
-}//6nAlIVIepdJq9hnyRBJjR+aLkPOXgzb1m+wzPUyfg0F8YvYmKb+I4zVtdgYtPgxClJww7jxshTfGymdermKl3qG+L+J31XQJPUQ9IpKA2sBDh6lGACdeNyVoYB4qw4VM2jmQybAIh9qbYtjqeNSzC0zpAehMI5K1QtUJLZvhKSPpvIWkHkMiQdKCo6HB/G+hJT+qlVRJ01hPMip1puXtyONhBumIkHpXSbBhPKBX4XublImZ+TLMXpJ1YTO908f/f4ISlOyXzI3eecOF7M6KKXaCulgKUbA2k0aJgtHkBvrFGLlMkQ3LZBl9FzC/5Pi44FGj/qGYZQVIxub6i90hMz/8ZIjyRKA6gPfGyu7iIi7e7F/u2QsJOL/GRLUl6GikRj7rgGLP7cl7Nw+LF9LZL45i+hMWdb0OpgvQq0WnVJWKWn1FzBNMdPNxQuBwj/Kao+LZ+aSLsZaiWBT5nPDzvmTwVOzF2ifGHqJPlbQglhoYDwY9k9H57B0hhdPfX7O7wYJj9/Tu7/IDtXjvLr24vwIkUp+bysvZBSiREAn9re6ASCE0EhEWe/IQT2SoSyEzBdzIM3uLpDFwjqGRGrDwpo4xruHvYDjSJfELNV4CO2eVVAcww6R2NrGgpTscRrVenjJoNYGknVuRBeqoOYUUR8rxfIvLPTAxfy8/RPF0x1m1ypl7+m+ah+lQ9ZmuA6JPvPEld0aRxWRHJuPu+bIXb7YpBIQwWDKHBE14ABDIanfvPA1oGVDpYN/IrfzkelkG3Ty7O+8JeJbSCbLxgIQaQyZ0KyF9xijO8NSlI05DhC4OCkFpFhb4cKGOhFNXQlo2nSvacvFYfwJ7YzmVa8o26EBh/TJvg9Tjq3+514L6HuW3V5QB0XHPHsDvG5B2dvlKkxkrgiup/Fey29OUW8o/Gg==|920
+}//fSQdl15PKFn7LWc43XJyWwzUlbQdlMuZfzFWLu1F5zJ/QCitArhrOLWiypEma35m88AG8aZnR/FA3ry2sNtDeoSHM0pL5Bt8TN/B3w4DsquHU0ZXKoq6vv2JcE1J2x/CS02P1TT1lGAXn3btLZVlM1Vh5CxQ+1h1Tk1U0ojQWnNOanmCl8azAmi5gjJ/HaUBNY8oDdR8HAwG+J/6Q1op2CPs7pLG0WjhiAzkUXMR5Zt9/HavoAXm45LsCzw++0JyJW0/ABv0qJeMQjj9O5A/tUNE73D4TWsdz/p3nL0TJUJr32dLPxKCp6nLWlFXp5Pu30d7FvSPtHs/pGdcd92iLmnJun5xXYbJx/auV0gwjAOcwGPVanKdvoozHjpaYclIE3YK3M42P/NvEJBuiwpbK/tQrZdyRDthYVEncmWct3CrQLFQQEu+ZXhm5isj8VLNXppqLsejVBwkt1GcO01RvMpyfkhVhNVffYvLmn21ZzlMB83w3Ph7n7dn4PZlV2eTJJqyspa0qQ3rBy+hHxh8/l0NLGrw885/CzeB14s4xgP7g0ZJjr59Ha3IihdYFlX3nxqrjeWUMVXWgzNxTQem8b9EHbz1cP73AuDgnrreIS5Kw3bW+NbiI61nkpB1a5zw+q6EKUoq72ocO2wc/tErtkPc3HLqGhJmh1rPT2RxOsqbpf4fh4Tt+LKd4tFZBBNQEIEYw6jhkZA2vbfUZ4iH96VqX6Kki1JmHliBD3Qd3EBY2GQo58pB2f1D8IPLHNJ6VOPc+AQSJxsZd9YjtJjua599Z1YgpYNN2UWGqJ/aW5pp7qxxwAs8N+NvDmARPyvQHBg0VstzxR40A/bGZkrF9sbcs2cbgG+kCWXEszJeEj3hoitRgzgCzUecQwMEQv3wbgwBC+ffFpMimun0qZujKw==|920
