@@ -152,7 +152,7 @@
       "UserName": "DESKTOP-LV3CTK1\\hdg89",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2022-10-14T17:55:31.3840692+09:00",
+    "LockDateTime": "2022-10-14T17:56:25.5765135+09:00",
     "ModuleType": 1,
     "ToRemoveFiles": [
       "Pages\\견적데이터목록페이지.json"
@@ -181,7 +181,16 @@
   },
   {
     "ModuleName": "PCPage/제품_검색 페이지",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "DESKTOP-LV3CTK1\\hdg89",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-10-14T17:56:25.575516+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\제품_검색 페이지.json"
+    ]
   },
   {
     "ModuleName": "PCPage/제품 등록 페이지",
@@ -236,7 +245,7 @@
       "UserName": "DESKTOP-LV3CTK1\\hdg89",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2022-10-14T17:55:31.3850676+09:00",
+    "LockDateTime": "2022-10-14T17:56:25.5765135+09:00",
     "ModuleType": 1,
     "ToRemoveFiles": [
       "Pages\\판매조회페이지.json"
