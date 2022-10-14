@@ -188,7 +188,16 @@
   },
   {
     "ModuleName": "PCPage/출하창고검색페이지",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "DESKTOP-SFEU14D\\NamHee",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-10-14T16:56:23.3582547+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\출하창고검색페이지.json"
+    ]
   },
   {
     "ModuleName": "PCPage/출하창고 등록 페이지",
