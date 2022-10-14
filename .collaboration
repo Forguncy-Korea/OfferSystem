@@ -140,7 +140,7 @@
       "UserName": "DESKTOP-LV3CTK1\\hdg89",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2022-10-14T16:18:02.5193907+09:00",
+    "LockDateTime": "2022-10-14T16:21:57.5001657+09:00",
     "ModuleType": 1,
     "ToRemoveFiles": [
       "Pages\\견적서입력페이지.json"
@@ -156,7 +156,16 @@
   },
   {
     "ModuleName": "PCPage/견적데이터목록페이지",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "DESKTOP-LV3CTK1\\hdg89",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-10-14T16:21:57.5011625+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\견적데이터목록페이지.json"
+    ]
   },
   {
     "ModuleName": "PCPage/거래처등록페이지",
