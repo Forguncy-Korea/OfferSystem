@@ -158,14 +158,14 @@
   "Formulas": {
     "30,45": "SUM(AT21)",
     "30,27": "SUM(AB21)",
-    "20,45": "AM21*0.1",
-    "20,2": "ODATA(\"제품?$select=품목코드&$filter=ID eq \"&IF(ISBLANK(K21),\"null\",K21))",
+    "20,3": "ODATA(\"제품?$select=품목코드&$filter=ID eq \"&IF(ISBLANK(K21),\"null\",K21))",
+    "20,31": "ODATA(\"제품?$select=가격&$filter=ID eq \"&IF(ISBLANK(K21),\"null\",K21))",
     "0,51": "ODATA(\"출하창고?$select=창고명&$filter=ID eq \"&IF(ISBLANK(AK9),\"null\",AK9))",
     "30,38": "SUM(AM21)",
-    "20,38": "AF21*AB21",
     "20,22": "ODATA(\"제품?$select=규격명&$filter=ID eq \"&IF(ISBLANK(K21),\"null\",K21))",
+    "20,38": "AF21*AB21",
     "0,50": "ODATA(\"거래처?$select=회사명&$filter=ID eq \"&IF(ISBLANK(AK7),\"null\",AK7))",
-    "20,31": "ODATA(\"제품?$select=가격&$filter=ID eq \"&IF(ISBLANK(K21),\"null\",K21))"
+    "20,45": "AM21*0.1"
   },
   "AttachInfos": {
     "6,13": {
@@ -243,7 +243,7 @@
                     ]
                   },
                   "value": "%Null%",
-                  "Id": "e2d547ea-d121-4d57-b582-93493262c3d0"
+                  "Id": "877e52f9-eb6f-4742-9427-abc15920ef63"
                 },
                 "CommandList": [
                   {
@@ -262,7 +262,7 @@
                     ]
                   }
                 ],
-                "ID": "d1195dbc-440d-46da-8146-5fec14315c25"
+                "ID": "6d34bbd5-d523-44ae-aebb-9322ce7a69a8"
               },
               {
                 "Condition": {
@@ -277,7 +277,7 @@
                   },
                   "value": "%Null%",
                   "compareType": 1,
-                  "Id": "14190a99-6e24-4237-8649-13f415dee5bc"
+                  "Id": "feb9bda6-26ef-4242-a03f-f026ae73c4e3"
                 },
                 "CommandList": [
                   {
@@ -296,7 +296,7 @@
                     ]
                   }
                 ],
-                "ID": "b29c6b6b-6434-4131-bbcf-fc47a2e6b0a9"
+                "ID": "de7c895e-d44e-40ad-80f9-d966b519bcb5"
               }
             ]
           }
@@ -382,7 +382,7 @@
                     ]
                   },
                   "value": "%Null%",
-                  "Id": "3427e92e-ef9f-434b-ac8e-55ce7b6ab53e"
+                  "Id": "442b629a-db9a-44e8-a3ec-6685a9c0c248"
                 },
                 "CommandList": [
                   {
@@ -401,7 +401,7 @@
                     ]
                   }
                 ],
-                "ID": "a03a7b11-0676-40df-9046-b81863bdcb79"
+                "ID": "e9e09380-e705-4671-a559-f4b9c0cfb837"
               },
               {
                 "Condition": {
@@ -416,7 +416,7 @@
                   },
                   "value": "%Null%",
                   "compareType": 1,
-                  "Id": "a1d5a53d-dcbc-4a37-9cbe-e5c1193c097d"
+                  "Id": "83e587f4-1228-46f3-89f9-9c8e472cdc9a"
                 },
                 "CommandList": [
                   {
@@ -435,7 +435,7 @@
                     ]
                   }
                 ],
-                "ID": "f5a2ad80-08b5-44db-853d-111865e1d765"
+                "ID": "fb84878e-c1a7-4810-81fc-f4b523300134"
               }
             ]
           }
@@ -607,6 +607,7 @@
         "ColumnIndex": 2,
         "ColumnCount": 50,
         "RowCount": 11,
+        "IsRowHeaderVisible": true,
         "AllowEditInListview": true,
         "AllowAddNewRow": true,
         "ColumnOperation": 2,
@@ -626,7 +627,7 @@
         "ListViewStyleName": "주문관리_리스트뷰_스타일"
       }
     },
-    "20,2": {
+    "20,3": {
       "BindingInfo": {
         "TableName": "견적상세자료",
         "ColumnName": "제품ID",
@@ -720,7 +721,7 @@
                     ]
                   },
                   "value": "저장",
-                  "Id": "1032a2fd-d787-430c-8d29-386a53e2d713"
+                  "Id": "4656a8ea-db79-4ed6-9d34-9e40e843e31c"
                 },
                 "CommandList": [
                   {
@@ -828,7 +829,7 @@
                     ]
                   }
                 ],
-                "ID": "94d86712-1f71-4058-8155-e94ccf792898"
+                "ID": "323f2e12-1d16-4d08-86f6-c4f2670b545a"
               },
               {
                 "Condition": {
@@ -842,7 +843,7 @@
                     ]
                   },
                   "value": "수정",
-                  "Id": "655cd5e0-b0b2-47de-ac23-92ac51ae5181"
+                  "Id": "30029ae9-7a04-4c26-be7f-d8a1dc55651a"
                 },
                 "CommandList": [
                   {
@@ -859,7 +860,7 @@
                               }
                             ]
                           },
-                          "Id": "4674945a-c857-48bb-a42c-82b3b26d3c7c"
+                          "Id": "565f40ee-03c2-420b-87e0-633864f413ad"
                         },
                         "CommandList": [
                           {
@@ -939,7 +940,7 @@
                             ]
                           }
                         ],
-                        "ID": "15aa6908-bcae-4b2e-aeda-37a5308de73c"
+                        "ID": "6e415e46-378e-4136-89f9-4a9b3b9c6ba9"
                       },
                       {
                         "Condition": {
@@ -954,7 +955,7 @@
                           },
                           "value": "%Null%",
                           "compareType": 1,
-                          "Id": "44578115-54b7-472e-9ab2-9be86048ca02"
+                          "Id": "e85a5d33-70c3-4803-b3c8-08010cfd0524"
                         },
                         "CommandList": [
                           {
@@ -1034,12 +1035,12 @@
                             ]
                           }
                         ],
-                        "ID": "ad04ee5b-d4ac-4a9b-aa31-b9459b9a6d50"
+                        "ID": "a9c683a1-cd73-47fd-aa16-2aed01d039ef"
                       }
                     ]
                   }
                 ],
-                "ID": "4c10404d-7422-437d-8936-7b0741796d35"
+                "ID": "cdc01ec8-c749-4cf7-922e-766a5606915b"
               }
             ]
           },
@@ -1124,6 +1125,7 @@
         "FontWeight": 1
       },
       {
+        "FontFamily": 5,
         "FontWeight": 1,
         "BorderTop": 0,
         "BorderLeft": 0
@@ -1155,16 +1157,20 @@
         "BorderRight": 0
       },
       {
+        "FontFamily": 5,
         "BorderLeft": 0
       },
       {
         "WordWrap": true
       },
       {
-        "Formatter": 6
+        "Formatter": 7
       },
       {
         "BorderRight": 0
+      },
+      {
+        "BorderLeft": 0
       },
       {
         "BorderBottom": 0,
@@ -1178,7 +1184,7 @@
         "BorderRight": 0
       },
       {
-        "Background": 7,
+        "Background": 8,
         "BorderBottom": 1,
         "BorderLeft": 1,
         "BorderRight": 1
@@ -1189,15 +1195,15 @@
         "BorderRight": 1
       },
       {
-        "Background": 7,
-        "Formatter": 9,
+        "Background": 8,
+        "Formatter": 10,
         "BorderBottom": 1,
         "BorderLeft": 1,
         "BorderRight": 1
       },
       {
-        "Background": 7,
-        "Formatter": 6,
+        "Background": 8,
+        "Formatter": 7,
         "BorderBottom": 1,
         "BorderLeft": 1,
         "BorderRight": 1
@@ -1213,19 +1219,19 @@
         "[AUTO]General",
         "Right",
         "@",
+        "나눔스퀘어",
         "#FFE1E4E8",
         "₩#,##0_);[Red](₩#,##0)",
         "Background 1 -15",
         "Background 1 -25",
-        "General",
-        "나눔스퀘어"
+        "General"
       ],
       "Borders": [
         {
-          "Color": 5
+          "Color": 6
         },
         {
-          "Color": 8
+          "Color": 9
         }
       ]
     },
@@ -1646,8 +1652,7 @@
       "15,50": 0,
       "15,51": 0,
       "17,2": 9,
-      "19,2": 10,
-      "19,3": 11,
+      "19,3": 10,
       "19,4": 11,
       "19,5": 11,
       "19,6": 11,
@@ -1696,7 +1701,7 @@
       "19,49": 15,
       "19,50": 15,
       "19,51": 16,
-      "20,2": 17,
+      "20,3": 17,
       "20,10": 18,
       "20,11": 18,
       "20,12": 18,
@@ -1704,128 +1709,128 @@
       "20,38": 19,
       "20,45": 19,
       "20,51": 20,
-      "21,2": 17,
+      "21,2": 21,
       "21,51": 20,
-      "22,2": 17,
+      "22,2": 21,
       "22,51": 20,
-      "23,2": 17,
+      "23,2": 21,
       "23,51": 20,
-      "24,2": 17,
+      "24,2": 21,
       "24,51": 20,
-      "25,2": 17,
+      "25,2": 21,
       "25,51": 20,
-      "26,2": 17,
+      "26,2": 21,
       "26,51": 20,
-      "27,2": 17,
+      "27,2": 21,
       "27,51": 20,
-      "28,2": 17,
+      "28,2": 21,
       "28,51": 20,
-      "29,2": 21,
-      "29,3": 22,
-      "29,4": 22,
-      "29,5": 22,
-      "29,6": 22,
-      "29,7": 22,
-      "29,8": 22,
-      "29,9": 22,
-      "29,10": 22,
-      "29,11": 22,
-      "29,12": 22,
-      "29,13": 22,
-      "29,14": 22,
-      "29,15": 22,
-      "29,16": 22,
-      "29,17": 22,
-      "29,18": 22,
-      "29,19": 22,
-      "29,20": 22,
-      "29,21": 22,
-      "29,22": 22,
-      "29,23": 22,
-      "29,24": 22,
-      "29,25": 22,
-      "29,26": 22,
-      "29,27": 22,
-      "29,28": 22,
-      "29,29": 22,
-      "29,30": 22,
-      "29,31": 22,
-      "29,32": 22,
-      "29,33": 22,
-      "29,34": 22,
-      "29,35": 22,
-      "29,36": 22,
-      "29,37": 22,
-      "29,38": 22,
-      "29,39": 22,
-      "29,40": 22,
-      "29,41": 22,
-      "29,42": 22,
-      "29,43": 22,
-      "29,44": 22,
-      "29,45": 22,
-      "29,46": 22,
-      "29,47": 22,
-      "29,48": 22,
-      "29,49": 22,
-      "29,50": 22,
-      "29,51": 23,
-      "30,2": 24,
-      "30,3": 25,
-      "30,4": 25,
-      "30,5": 25,
-      "30,6": 25,
-      "30,7": 25,
-      "30,8": 25,
-      "30,9": 25,
-      "30,10": 24,
-      "30,11": 25,
-      "30,12": 25,
-      "30,13": 25,
-      "30,14": 25,
-      "30,15": 25,
-      "30,16": 25,
-      "30,17": 25,
-      "30,18": 25,
-      "30,19": 25,
-      "30,20": 25,
-      "30,21": 25,
-      "30,22": 24,
-      "30,23": 25,
-      "30,24": 25,
-      "30,25": 25,
-      "30,26": 25,
-      "30,27": 26,
-      "30,28": 25,
-      "30,29": 25,
-      "30,30": 25,
-      "30,31": 24,
-      "30,32": 25,
-      "30,33": 25,
-      "30,34": 25,
-      "30,35": 25,
-      "30,36": 25,
-      "30,37": 25,
-      "30,38": 27,
-      "30,39": 25,
-      "30,40": 25,
-      "30,41": 25,
-      "30,42": 25,
-      "30,43": 25,
-      "30,44": 25,
-      "30,45": 27,
-      "30,46": 25,
-      "30,47": 25,
-      "30,48": 25,
-      "30,49": 25,
-      "30,50": 25,
-      "30,51": 25,
-      "32,2": 28,
-      "32,6": 28,
-      "32,12": 28
+      "29,2": 22,
+      "29,3": 23,
+      "29,4": 23,
+      "29,5": 23,
+      "29,6": 23,
+      "29,7": 23,
+      "29,8": 23,
+      "29,9": 23,
+      "29,10": 23,
+      "29,11": 23,
+      "29,12": 23,
+      "29,13": 23,
+      "29,14": 23,
+      "29,15": 23,
+      "29,16": 23,
+      "29,17": 23,
+      "29,18": 23,
+      "29,19": 23,
+      "29,20": 23,
+      "29,21": 23,
+      "29,22": 23,
+      "29,23": 23,
+      "29,24": 23,
+      "29,25": 23,
+      "29,26": 23,
+      "29,27": 23,
+      "29,28": 23,
+      "29,29": 23,
+      "29,30": 23,
+      "29,31": 23,
+      "29,32": 23,
+      "29,33": 23,
+      "29,34": 23,
+      "29,35": 23,
+      "29,36": 23,
+      "29,37": 23,
+      "29,38": 23,
+      "29,39": 23,
+      "29,40": 23,
+      "29,41": 23,
+      "29,42": 23,
+      "29,43": 23,
+      "29,44": 23,
+      "29,45": 23,
+      "29,46": 23,
+      "29,47": 23,
+      "29,48": 23,
+      "29,49": 23,
+      "29,50": 23,
+      "29,51": 24,
+      "30,2": 25,
+      "30,3": 26,
+      "30,4": 26,
+      "30,5": 26,
+      "30,6": 26,
+      "30,7": 26,
+      "30,8": 26,
+      "30,9": 26,
+      "30,10": 25,
+      "30,11": 26,
+      "30,12": 26,
+      "30,13": 26,
+      "30,14": 26,
+      "30,15": 26,
+      "30,16": 26,
+      "30,17": 26,
+      "30,18": 26,
+      "30,19": 26,
+      "30,20": 26,
+      "30,21": 26,
+      "30,22": 25,
+      "30,23": 26,
+      "30,24": 26,
+      "30,25": 26,
+      "30,26": 26,
+      "30,27": 27,
+      "30,28": 26,
+      "30,29": 26,
+      "30,30": 26,
+      "30,31": 25,
+      "30,32": 26,
+      "30,33": 26,
+      "30,34": 26,
+      "30,35": 26,
+      "30,36": 26,
+      "30,37": 26,
+      "30,38": 28,
+      "30,39": 26,
+      "30,40": 26,
+      "30,41": 26,
+      "30,42": 26,
+      "30,43": 26,
+      "30,44": 26,
+      "30,45": 28,
+      "30,46": 26,
+      "30,47": 26,
+      "30,48": 26,
+      "30,49": 26,
+      "30,50": 26,
+      "30,51": 26,
+      "32,2": 29,
+      "32,6": 29,
+      "32,12": 29
     },
     "SheetStyle": {
-      "FontFamily": 10
+      "FontFamily": 5
     }
   },
   "Spans": [
@@ -1849,20 +1854,20 @@
     "30,31,1,7",
     "30,38,1,7",
     "30,45,1,7",
-    "20,2,1,8",
+    "2,2,2,7",
+    "6,13,1,14",
+    "32,6,1,5",
+    "32,12,1,4",
+    "32,2,1,3",
     "20,10,1,12",
     "20,22,1,5",
     "20,27,1,4",
     "20,31,1,7",
     "20,38,1,7",
     "20,45,1,7",
-    "2,2,2,7",
-    "6,13,1,14",
     "21,2,9,50",
-    "32,6,1,5",
-    "32,12,1,4",
-    "32,2,1,3",
-    "19,2,1,8",
+    "20,3,1,7",
+    "19,3,1,7",
     "19,10,1,12",
     "19,22,1,5",
     "19,27,1,4",
@@ -1884,4 +1889,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}//tsO2+LFe7QlzlMxbBMghnJkSyT01ClX42OU4xPKO+dk7NVuwiqeLphJLpfx3P8zlWiDYBTimexG9wHd9X1/xFSE5u1nTrAl+93rX5i4Ze1hdReJcGqxIriiyPKp4no1e1ZWsobSS1AVqbz3YuxKVrn4Abp2ZcODmtdevnJwhgJX5+Bxme+6Y0mQi3YHiQD2Um/r3HLh/2Xo7MyglCIDOdPnrxCBqySdmkOmdrShyoHh0Z2dse3XDXXS0bJ5MU0bZWS7Fyraca/EsWZBj6JZqOQwUKMo1fTmW+kI0gQILCWbSxHcAC1cY06dP/c5GEeteRb3YxupWBld6QUHUIB1TZ3RQFVi+hpRPN/qdd/xveYbQrlmA1Wrsqa25XKNSX7BwJrAEQB+khK7A82Yw/lOWRXHA2dN1O0BLuirhEDXmelrJeO11sMEo1Qe3eSsKGLP1XBe6PyF97xzZffYMduikAWvHJEn31OMUXKtrQIgz06mAfsn6VKSvzimVMY9VY0md5NkD0WG4WnEBUrN88IWV5Kff737eUFDHPviGRy8IuAj0Ein6yu22aqqxQEsnAml2385gVpxevtVMay2fTio9LspyAAlJ0hvCTkB3h6RCxtVkGzogXyDvIykNJARpv94OWvt53qJLC99sF0bBRjy+3hDlyoFbwehL4zWB7A+TFWM9+GGM2ldUCm3ElZz1rJQlrxiDb2dwMKb5cHMoAJ1ZlJVb468at/ZYpsYQiYCZzTH3ZGTJrdpPYb1e2a6BPqXK/Jmqn22pU0G+fIWakDs+SVEpovSLiWw8HmWIFKsHPjDjiPKzn/LVO2WGxefPhNcke02tB3TcosjkXu+cegQBgY2QVihupXFepaP8pH7TbSERUQauB27zE+4ehwDFAHRwzJeoe+VYzABbF2dAHCmVtw==|920
+}//A7HJQtD5zRdcrU7sHRuH3d49bDYT10c8D8tdWIGuKKv3W3Et9+N5oRh0N4VgUvXk/lURn6S1YLptdmz54za4G+KxB4PyiOplOvCNRJ4Rb/e2Y/YYLmkxsyF16fxZy/fELA7H68UMHFFS14iZpZmD8QwR1yNSQwMVpjD21I/ifsJTJJgqLr65uuKVrdACYhoElYwGXL5kOnnLJJIKtqCumTb8w7xwcEc1+ZUxSF9cEU/XUcsg4LA4NVNi/GPYme4QXw+FlJtruxZqTGSQqraLGtfihcAwUvDgkjb4FfPKmknXFR4jvN+96cnLWRFpkwbztLuxwO3HXXHSPR3D7h+yXYMrGVpNpH5zJqPc6K2qvCxJErx6wAnnO6/ZJdSH+TCYxzzg4eBPkaAMqv9AJsKOW3cUzmxHOliszv5iMVTRgXKZVZTZVh2gr8GGqqJQgFI4vy6ymakI/iiOJ7gDWC8b9KbEQFQs5shLj+BdHPdbcfDVDzPUlh//LEruP3m/nWZO2iCLbodhgnKgbZuK8KFFyH2WgFMGL5/MVVF3BrPVLyBC548891bIp0Nj4n4csKqE1hYeMEB/lfpW4vETxNVysJGw/KI0f1NRt7dbO9YSTTjmqSZH/7Nyrq6/o3IW/sQsVQ3dG4NvGVp+HuWSE/cIYrDQ/kSWxeZieOBiuuDF1txIScZQ3HA0AblvBUYMswA2BPWOB6bm8AR6ms83sgFkNL1b9c6GnMbq7VPtOqOTapBbF7mCwSPMtao6z6ax5AUx0iY0uSlFyg/UrsiDMHW8gSEjMamtfFG8eF4QFQWH1TXb2HLnf/h4qRgbzglwXMPL3OytPBSbfEUlOAy0n0xYhqAdzPznUehNohhoEgdRhxzetTZkVPnMmZtYbhTMMUHjrI1DdHIcaycexmVrVtpHlg==|920
