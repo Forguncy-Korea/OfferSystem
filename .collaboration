@@ -208,7 +208,16 @@
   },
   {
     "ModuleName": "PCPage/판매_견적서조회",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "DESKTOP-LV3CTK1\\hdg89",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-10-18T10:35:43.8058424+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\판매_견적서조회.json"
+    ]
   },
   {
     "ModuleName": "PCPage/거래명세서",
