@@ -326,7 +326,17 @@
   },
   {
     "ModuleName": "PCPage/제품업로드",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "DESKTOP-LV3CTK1\\hdg89",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-10-18T10:49:59.6556056+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\제품업로드.json",
+      "UserTemplateFile\\Templatec386686c8ef14db280bdfe243bc96a1a.xlsx"
+    ]
   },
   {
     "ModuleName": "PCPage/저장확인페이지",
