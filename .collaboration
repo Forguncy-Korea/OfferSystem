@@ -146,7 +146,16 @@
   },
   {
     "ModuleName": "PCPage/거래처목록페이지",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "DESKTOP-LV3CTK1\\hdg89",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-10-18T11:18:55.7689608+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\거래처목록페이지.json"
+    ]
   },
   {
     "ModuleName": "PCPage/거래처검색페이지",
