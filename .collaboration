@@ -185,7 +185,16 @@
   },
   {
     "ModuleName": "PCPage/제품 등록 페이지",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "DESKTOP-LV3CTK1\\hdg89",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-10-18T10:49:30.4803852+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\제품 등록 페이지.json"
+    ]
   },
   {
     "ModuleName": "PCPage/제품_목록 페이지",
