@@ -361,6 +361,11 @@
       "BindingInfo": {
         "TableName": "거래처",
         "ColumnName": "전화번호"
+      },
+      "DataValidationInfo": {
+        "NumberType": 8,
+        "FirstParamValue": "^\\d{2,3}-\\d{3,4}-\\d{4}$",
+        "ErrorMessage": "올바른 전화번호 양식을 입력해주세요"
       }
     },
     "24,11": {
@@ -376,6 +381,11 @@
       "BindingInfo": {
         "TableName": "거래처",
         "ColumnName": "핸드폰번호"
+      },
+      "DataValidationInfo": {
+        "NumberType": 8,
+        "FirstParamValue": "^\\d{3}-\\d{3,4}-\\d{4}$",
+        "ErrorMessage": "올바른 핸드폰 번호를 입력해주세요."
       }
     },
     "26,11": {
@@ -427,7 +437,7 @@
                     ]
                   },
                   "value": "저장",
-                  "Id": "de5baa44-de3e-4553-b303-e18db9863c56"
+                  "Id": "c1e6503b-3634-42d7-9560-bc0aedb47402"
                 },
                 "CommandList": [
                   {
@@ -444,7 +454,7 @@
                     ]
                   }
                 ],
-                "ID": "8fc736b8-ce81-4b7f-bb6d-8619b1505045"
+                "ID": "2dfd7870-ba0e-44be-9a93-daf842cd2958"
               },
               {
                 "Condition": {
@@ -458,7 +468,7 @@
                     ]
                   },
                   "value": "수정",
-                  "Id": "ba61d108-6018-45b3-bbd1-4e6cdbafe657"
+                  "Id": "eae47308-da0e-4142-a681-95e394e29efc"
                 },
                 "CommandList": [
                   {
@@ -468,7 +478,7 @@
                     "UpdateValues": []
                   }
                 ],
-                "ID": "85ac3f70-5ff6-4a06-966e-87869e152307"
+                "ID": "6dffceeb-b991-4345-8e75-2bb5fabd2869"
               }
             ]
           },
@@ -870,4 +880,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}//cD+EVtR26XrvNeLGA0DCuzdH/j1mWgo6KTIXLmek9nAzz/vsve5hRCVamHHcD7Mz/+APyc/7NT0cl7QFWWRMQiEF6VewXtbLm7J3luPFRXAY7pE+AIhOZ75DEQF5uMWgRZQCKCXRFbbe6lM+2/HT8tMZDAQjoaVxlGbyAMKde7I6ow06+XJF7sONxi0aGQeNijMi4Rr5qOtKBHHqYdxpMutzCObHDxBuTJ4YqADUY6Sek1UFGUYiPvgb5sDcx14U3AK5MxgbM+Fh/im1DRj/qBvlPnUEf+1bICfhw+uKgkzDlo0WeSGL4rmukqryzV2jsA0Jvsv/CBak6A4fRaUX3b1zq55tD2jfjyZsNzG1WrBClUMr4hJedBIl0qlzFESrvt62M6QSJBEVJsqTPt5CtlvkZ2Px5X3E5rzoDnn6Odk7OAGv65eoZaNH8WMbv1fTQsVLJW5GEM7nqMy4lLOWWKJy7srYrx7L+/YqRnOzihCEOeJ5bwH4n6VPKwqElr6NfGT72AL7I+oy4tkWFUL0ZoPILAm8zkyi4H9iUjxbpi9yGwO8V/3TbWSdANfyTWF7kNHyrnMhmc5GxNksEwKV+pLwtGG7Zh/zRTY4GI1KhJ7/ma44Rc0GkjjbxY6jv9cvdGurNhMKZ4SuyTFivnUrvwcI/hx2VEbDMrT3lfKXYQp/GXZjblXxqW3pZ8LA09cfV68oSrzHZ8GfJc0aL4MMnh5RQhOE4qlGSnyBQTxsLYbxn4zlT4W7Do7JKwUUIfnmyubnXpFPe5FgNWFIzf58s0Ibb5Q0a4Sb++32fUlYGhluLLaGgCv2tROyjvJzrszIjOgaB3tAT1c6F0fFRCnZ4Gx0MFkWOEpiUfTOc2LW+M5Dv/oW4m5iIsJbjiXbOM/j5FwPaNGgmEqep3V9lukq4w==|920
+}//pQpm2xSe6qOMJXlMtTqwODipQMzeWBXtjq39CfLPhH8gmN7b1QVjIftqWUTOaDdJIxzrAudoyWgjCgFsx98u4QwNjvKk1FjQitvUhC0YM7GXm41Mmny2L9adznPA4adFuf2dr1DCkykSE7c0xTOzKIEFKIpOlWvlYFb+H+Sb1Rgle4Elrwh9OlV0wxvUIGaUgmPeV1UgvHH427sagTNBuVylOEhiowPQqfGnuAYMkGKE0dWm/YR0aeJI//YBT7wCeVl1bTF38xHeCkSqhnKwX1e7SGhtl7ki0JS+fkj+/bOspSBFyZ87X7DaAyDbeIRdjU7laTXh2k/06HD0Q/PzuCqDGyy6Nwj90G0kCDpoXkl8xH1L9EVt0UfXWN8LdoSx25BLPOfaddUCVVp87i+7KTZkY/bt2nOkpRW7A8mDdM7qsRptTLw2xhzGW1zLds12Ks8zFl5AABKvANAk7HExJtPD9CmcWnvDZt3tMna1d/B2K7MGGL0a5CDO+uH1X8k9j/4sw0j5PlmVsOSsxoK48xkAy20yg62fh4h1yIJ6wCrgOrDGHR2yLjZ/pqlTMCs1zHbRRe87Zb1Oz8gDtbSTRhzl5hZjvhH7qOdHqZgDl4wf/DRVhncIHVdWumoyq5pgx47+rpG9UsrnLEV+dW7HS+WhdpMYV5AfV/9lWGtFchhvJKtDfz9rSGFy42VsdtufO0/awYw+5KzZR30pzVaYm5hETny1mMZRsFtGWqaWdA9cM3tIGGrM1lE1vfvid4SL/EfZ258ZZh/OJeFO/rdmotqHE5NNi4uw/A1jfRkVCn+xqh3g77U55B2qkOz7EfsnkZpt30+fNAmYRXGgCr6M+MslVvdJSNV6/55ka9nmZI+My1Ghs6yAAg9Cu+lTW315FFlH8d9iNmviXM+YF45jlw==|920
