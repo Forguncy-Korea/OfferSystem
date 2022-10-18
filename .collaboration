@@ -1,77 +1,27 @@
 [
   {
     "ModuleName": "Table/거래처",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "DESKTOP-LV3CTK1\\hdg89",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2022-10-18T11:13:38.9224751+09:00",
     "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\거래처.json",
-      "ForguncyDB.sqlite3"
-    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/제품",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "DESKTOP-LV3CTK1\\hdg89",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2022-10-18T11:13:38.9224751+09:00",
     "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\제품.json",
-      "ForguncyDB.sqlite3"
-    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/견적상세자료",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "DESKTOP-LV3CTK1\\hdg89",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2022-10-18T11:13:38.9224751+09:00",
     "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\견적상세자료.json",
-      "ForguncyDB.sqlite3"
-    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/출하창고",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "DESKTOP-LV3CTK1\\hdg89",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2022-10-18T11:13:38.9224751+09:00",
     "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\출하창고.json",
-      "ForguncyDB.sqlite3"
-    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/주문데이터",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "DESKTOP-LV3CTK1\\hdg89",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2022-10-18T11:13:38.9224751+09:00",
     "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\주문데이터.json",
-      "ForguncyDB.sqlite3"
-    ],
     "ExclusiveType": 0
   },
   {
