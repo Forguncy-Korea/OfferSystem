@@ -7,10 +7,10 @@
   },
   "Values": {
     "1,1": "저장되었습니다.",
-    "7,2": "확인"
+    "7,3": "확인"
   },
   "AttachInfos": {
-    "7,2": {
+    "7,3": {
       "CellType": {
         "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
         "CommandList": [
@@ -21,88 +21,42 @@
           }
         ],
         "Text": "확인",
-        "TemplateKey": "_RS_Normal_Style2"
+        "TemplateKey": "스타일4"
       }
     }
   },
   "StyleDatas": {
     "Styles": [
       {
-        "FontFamily": 0,
         "WordWrap": true
       },
       {
-        "FontFamily": 0
-      },
-      {
         "FontFamily": 0,
-        "Formatter": 1
+        "FontWeight": 1,
+        "Formatter": 2,
+        "HorizontalAlignment": 3
       }
     ],
     "Types": {
       "Strs": [
-        "Body",
-        "[AUTO]General"
+        "나눔스퀘어 네오 OTF Regular",
+        "Bold",
+        "[AUTO]General",
+        "Center"
       ]
     },
     "CellStyles": {
       "1,1": 0,
-      "1,2": 1,
-      "1,3": 1,
-      "1,4": 1,
-      "1,5": 1,
-      "1,6": 1,
-      "1,7": 1,
-      "1,8": 1,
-      "2,1": 1,
-      "2,2": 1,
-      "2,3": 1,
-      "2,4": 1,
-      "2,5": 1,
-      "2,6": 1,
-      "2,7": 1,
-      "2,8": 1,
-      "3,1": 1,
-      "3,2": 1,
-      "3,3": 1,
-      "3,4": 1,
-      "3,5": 1,
-      "3,6": 1,
-      "3,7": 1,
-      "3,8": 1,
-      "4,1": 1,
-      "4,2": 1,
-      "4,3": 1,
-      "4,4": 1,
-      "4,5": 1,
-      "4,6": 1,
-      "4,7": 1,
-      "4,8": 1,
-      "5,1": 1,
-      "5,2": 1,
-      "5,3": 1,
-      "5,4": 1,
-      "5,5": 1,
-      "5,6": 1,
-      "5,7": 1,
-      "5,8": 1,
-      "6,1": 1,
-      "6,2": 1,
-      "6,3": 1,
-      "6,4": 1,
-      "6,5": 1,
-      "6,6": 1,
-      "6,7": 1,
-      "6,8": 1,
-      "7,2": 2
+      "7,3": 1
     },
     "SheetStyle": {
-      "FontFamily": 0
+      "FontFamily": 0,
+      "HorizontalAlignment": 3
     }
   },
   "Spans": [
     "1,1,6,8",
-    "7,2,2,5"
+    "7,3,2,4"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
@@ -116,4 +70,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}///W24R7E/Wfm04GQmCRtRQ4H+o7HHnSWGhCxvTqcrBiBYKNbZd7MtSGNcsEDuFWn3DEoEHnVEMmIUcy2TC7bVPR8/WaiX7FBgm0Gy+WwPZFdM7Yl3o5BG2+nig+RovBNlVjYXc+yANrja6xicXqpQDp//jnDyT775cVTfFwWAa/5mpmkcgNoogwjKMc85+VfgS3zv1sc+wNP3ThDb0srsCsm8t6a0I+DS7ttDCtlhKuUXRKDpJPRY1y8MuztGshqzLUjKIFMJuv71JPkfVk54pUfkwj3xYcJMc3hFAtuz7XzfS6vZB5VuA0HQSu/l7Ku/pax7g+uTEC41PHWsj3RC4ZTAhQkKhwYknvD8IfwUQ/VpTNyK8uTKi6XmMG5KpIsDxdK00MCymmGU6jBXAJbRn4J6te1PlK3BDZOZlpI9+Xi9tXiog52PIyICWB4NDiqd+R2glSJhLkH+cyg28AnzhGwVFtCMC1cyZ/LcK95zm3EizjT97x8Mu6q8HSScIBcFu+kUB+bvTwhx8sN4vJT2u64ssanOeib8E20DBBX9dESGuLC6VyT0iQPoZURsRimgdOK1IeO6HegtJ1CO07qxrg0Z4mZi5Qo3Kyv+DBWwuUssZAmeW3jocMqY4cQ5SQvG4SvMJ+e0/ZoHJKSmdnhfNOBSnJ97Y+QLd3xGYtlyMDrXzeNR5T9QLJbaS422yg4SzwP5dX0oGDncJhncwlUlg1YbX7aEmEz81i3lPW5MNo38ON9ZvNnUY/BllNJW4+TVm8BWzGURy3/LtSlbSyNOJxQ1HQYdwJGs+ycRBsZ9rlCwEIbV8fbmF6DuXE2omYDd990TAvowd1e1CuAKlb3FBrwVhxqmqFPgjKrtuyS6secdgkFYWIOlB0JMr8NsqckoLFPgCd1tCa3f2qzOT3tfqQ==|920
+}//RW4SuaJBfmJcLDr+Sz5TuXwp7jfeJlBgPlijiZLUMsCmYjLvC6nXpL96o1rMEkA6cqDQPKuMtFiyfKnQ7gsVPJhvR9TfHGX/5x2wbJJ9uPE6VpzxJLUSCZo7R4S/7zskiucOO2j8zLJkwJke+Pg30TD0PzQg7ncRFzBL2hhcB2Lv5bBpm+YRnrT1hdfBBDCrTWLS6PlZWifCWwsMWMJO1duTydMMn/rtQi/ObpVjebxB3x+ytnptOEC4qKKcfDZ87dsLzUdnOsCiB/abG54k1q6VZoSfMdi8z6kDCczc/Pdo1vr0/fJGwqZSILp3B8lst2cOLFeE6pQ8iTQvi2/OcQbngDgF0E8kDaqfEqnYGiwVNDUQSR8JOM2gzdA1wmCwtJEi775L/47VgZGllkSf8HxbLX1Eto2pAX+dtx5u57lKYiW/9AHzWRFMUi4IYla8Qc6ev7K66l3N7DCyNThvvgQGlQb0QYFEikPV6ONI98/rkqNYIRRCYIGxqQ8eA2w8oUxCdJZyMHyb21rEKk5NM0jtT+KThJChwpiCpZpL5n2SdJBSvigqiomNF0rZ3t5z4UiOB50vtzRBpDxW6S8mHDLxgaEF90K6O8Qntw6tqGHKIoExl4u2rLDV4UWpDQHJJ63iJw7pSs/xyy8ZXMnCfOrtsFs2YHdaNlx0T7pl5U/gaYOVZkThY4coGpdm2G235VLLbxBTeKvA1Ltdq9pBVFEuRKbpWLXnuYRhOHAK6B/b2zqcfGNixy66g4U5NPBEpl6q+p/V6ANUfNrHY7+pL5ZyWwuGkSemuAbydDGvthGPaQMnxXq9UKY/Ipl50Jk8XXt8qb235C/UiT/prdJX44I1eYzT19DYuYx9MsjCDCkQGeIrbfNp8236+jUiB2/8FMcWSQuM+hExt1RWYA+cUw==|920

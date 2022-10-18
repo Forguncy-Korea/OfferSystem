@@ -130,16 +130,7 @@
   },
   {
     "ModuleName": "PCPage/견적서저장확인페이지",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "DESKTOP-LV3CTK1\\hdg89",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2022-10-18T10:46:40.670998+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\견적서저장확인페이지.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/견적서페이지",
@@ -147,29 +138,11 @@
   },
   {
     "ModuleName": "PCPage/견적데이터목록페이지",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "DESKTOP-LV3CTK1\\hdg89",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2022-10-18T10:47:38.5204509+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\견적데이터목록페이지.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/거래처등록페이지",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "DESKTOP-LV3CTK1\\hdg89",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2022-10-18T10:49:00.4644639+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\거래처등록페이지.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/거래처목록페이지",
@@ -185,29 +158,11 @@
   },
   {
     "ModuleName": "PCPage/제품 등록 페이지",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "DESKTOP-LV3CTK1\\hdg89",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2022-10-18T10:49:30.4803852+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\제품 등록 페이지.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/제품_목록 페이지",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "DESKTOP-LV3CTK1\\hdg89",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2022-10-18T10:45:30.0653701+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\제품_목록 페이지.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/제품바코드페이지",
@@ -219,29 +174,11 @@
   },
   {
     "ModuleName": "PCPage/출하창고 등록 페이지",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "DESKTOP-LV3CTK1\\hdg89",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2022-10-18T10:49:42.5725075+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\출하창고 등록 페이지.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/출하창고_목록 페이지",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "DESKTOP-LV3CTK1\\hdg89",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2022-10-18T10:50:52.126563+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\출하창고_목록 페이지.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/판매입력페이지",
@@ -335,56 +272,19 @@
   },
   {
     "ModuleName": "PCPage/제품업로드",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "DESKTOP-LV3CTK1\\hdg89",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2022-10-18T10:49:59.6556056+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\제품업로드.json",
-      "UserTemplateFile\\Templatec386686c8ef14db280bdfe243bc96a1a.xlsx"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/저장확인페이지",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "DESKTOP-LV3CTK1\\hdg89",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2022-10-18T10:44:30.9829815+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\저장확인페이지.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/미선택안내페이지",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "DESKTOP-LV3CTK1\\hdg89",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2022-10-18T10:44:09.4521913+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\미선택안내페이지.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/적용완료페이지",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "DESKTOP-LV3CTK1\\hdg89",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2022-10-18T10:50:13.5631691+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\적용완료페이지.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "MasterPCPage/주문관리 마스터 페이지",
