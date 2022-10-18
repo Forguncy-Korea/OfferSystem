@@ -25,9 +25,14 @@
         "GridRowColumnDefinition": {
           "DesignLengthInPixel": 20.0
         }
+      },
+      "30": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 28.0
+        }
       }
     },
-    "Count": 30
+    "Count": 33
   },
   "Cols": {
     "RowColumnAttachedInfos": {
@@ -45,7 +50,8 @@
     "4,10": "거래처명",
     "4,43": "금액",
     "4,49": "종결\r\n여부",
-    "4,54": "거래처담당자"
+    "4,54": "거래처담당자",
+    "30,1": "닫기"
   },
   "AttachInfos": {
     "1,46": {
@@ -95,7 +101,7 @@
               "Order": 1
             }
           ],
-          "Id": "4ea40b66-df01-497c-85a3-8cf6a428a9c3"
+          "Id": "f703e39e-bb69-4dbf-98e9-db5adfad1459"
         },
         "ListViewStyleName": "주문관리_리스트뷰_스타일"
       }
@@ -227,6 +233,18 @@
       "BindingInfo": {
         "TableName": "주문데이터",
         "ColumnName": "Contact"
+      }
+    },
+    "30,1": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon"
+          }
+        ],
+        "Text": "닫기",
+        "TemplateKey": "스타일5"
       }
     }
   },
@@ -1853,7 +1871,18 @@
       "28,55": 24,
       "28,56": 24,
       "28,57": 25,
-      "29,4": 26
+      "29,4": 26,
+      "30,5": 26,
+      "30,6": 26,
+      "30,7": 26,
+      "31,4": 26,
+      "31,5": 26,
+      "31,6": 26,
+      "31,7": 26,
+      "32,4": 26,
+      "32,5": 26,
+      "32,6": 26,
+      "32,7": 26
     },
     "RowStyles": {
       "4": 27
@@ -1879,6 +1908,7 @@
     "5,54,1,4",
     "5,2,1,3",
     "6,1,23,57",
+    "30,1,1,4",
     "4,2,1,3",
     "4,5,1,5",
     "4,10,1,6",
@@ -1905,10 +1935,10 @@
             "ColumnName": "ID"
           },
           "Value": "%Null%",
-          "Id": "7e373152-a2ee-4b0c-9e80-09c9c68ad44a"
+          "Id": "d200f9ef-5358-4edf-ad9b-dbbe52014008"
         },
         "Params": [],
-        "ID": "e299aa8c3c7c4021bfe81bf4b1762ac0"
+        "ID": "95de42f1721a4239be306cabd5bb5738"
       }
     ],
     "AuthorizeInfo": {
@@ -1927,4 +1957,4 @@
     "ZoomFactor": 0.69999999999999973,
     "PaperSize": {}
   }
-}//gDlkqeOHo0qtLR9x8Ah+xac11wZHJOm42BiXM3RioeqWkuTzluW23iC6bzrN6wDidplKZwWF1x2+o7izfaHw98JfCbE8WSc71TiR0UcHf8rIhIW++/lELVcPJ61J0xjdDmDn8XLTfAHF+rD3uVbmKhPbnbKvThklTkj/hXOm31K00EODOBe1bMRuYpOSTBK+/4Mcury7woJYZ1MfzpnyyXfUHReHZknFozf4laIMIOCvpI1CUI3JY3KYkiWsuts89xmLiGbPDiUcIJC1u+NvJhYWtQCKXXiJswpSK9hENr1451TW38Tf1TnUNfrVURo0CKbgWYUriZRuePHKY0oihQp/WYHLFURPZFCza1XVwCPPgBM5V0fVsh+I+T8ZYkCMYfu9mAD6urIDwxmviF467kFX9cyoCuU8EhzGi7NwUbUxG+lyewY0vZYVsSXJX4GfXUxUk7ZVv9+Mqc0A0Fd861UdpL/BbgO2KmB641CR/dvJjk4rkbCG00YJdbzgyem/Fjhtx3n3JK0u7aGc6yg5ZDRV5/mBVlh9Bokn0UfkP2Q/AvuLS6LoKnCDXdNUg8tocWIjVWiV/XXjWDJbyGOLEOZKokJF9QN2KAKSPdhM061Rs74NocnGSXb8kF7y9mIgEe4PomYZFeE9vzKZXQO2GyqWxg5gbcvs5Gnzn7LFmZiiY+DVYIRdCGRN8Zi231d+pP5rXplHDqQbfOkvngQvxuEXktlGMSeLfdvtvDu6rqJAh+JtH+6IQPXIjpb0yvwWUa+NYHljaD4o7FcHglb5u/qUEnGBPYjcYyGlWdAwf0aVOH/qAdK9XCsv+rdEXW3uaJVdnAKimI+u4bvr+HwlZ+Ze4+3xwQEbtKQpgkqf+ltqqsy86ji8YIpI6Jwbc9Y5Mncu4JFahou0a895M77VcA==|920
+}//uQzcyFvrUTSfrOSw+BZN70tNtSdyVHl5m4ENyU3CTWo8KElKeyE+aEoL5pRW0fraHpB51H7LFN8624yLBV+6Njjeu8FkQqqRly2H5+XMoVY+JCKHlmL4JzUD+c+HMeGcAdDFQw4Oi2fopN6jC3QHyCuBZY10il2Rvwm6rApJB1khepvhdfy0DSCTw1xBK1BJFGYwYPVIVib5sZv4Dw55a/VQouY/NVKU0HQuMvbpfsLVMgBkNzKwY1CFrQUgrlfm4NWXeDPxOO4H4PJ0ji/dndC9cXulryMtn8XQpwEOxY9cf9oevzkHO/ED2j2qWdjaVBQ4facvi8fkfSvSqKBLkK1fq89pNse1Hq3ADi25i/ZSCVtvIVNERJEy0kX7NDHAGjTwFtfV2KDaSS2dRScSyimqVnDcNeFQjfRBwdV70q3NrtJ3s+tfFJhUXBGABKVUL7ETC+a+ELLzcDN9VaxA4zcGh1KNN2lpoSbHYxHwFqdCpoX/kjEDlPJYmMd7x5b1pYkwmrE/372y8+RrFnagoQAaiMrLPtnIrgK/4kIXqnQ21DZD7dLeRUBrD75sZe8YY2graAVNiQQpa1dZjLAC8Jyzo28SF9hJlreSenvXqNlzvIf2erx1LqqiiibytzvrSKxtHF0ZOluAhvcVPcw+9UOC3LLtS5tVONNMHALCbNKYS4gsUXKUiYKAQUSvNf2JJDT8IkcsKQx5l8lHbwpBcZ4K1S83467P/CTq0kwT/non5YeC93qRB6iMuW1JIVG3v88QsVB1z865WSAS4QDVL3ePzI1mgcT6aW69ls2vsyGWG6svIuhLWT0W2bjvcV/7pMIxjJ2uaefUUD0XajBgrEPh5N/Rph/tgS6v29PY1BgAV2fG0RTwj9rSDwbIocLVLi3JgqBkwisC/sXhi6DlDQ==|920
