@@ -120,7 +120,16 @@
   },
   {
     "ModuleName": "PCPage/FGC_로그인",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "DESKTOP-LV3CTK1\\hdg89",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-10-18T16:06:30.9522145+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\기본 제공 페이지\\FGC_로그인.json"
+    ]
   },
   {
     "ModuleName": "Pages/기본 제공 모바일 페이지",
