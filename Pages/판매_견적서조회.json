@@ -93,7 +93,7 @@
                         "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                         "SerializeProperty": "=판매_견적서조회!AQ2"
                       },
-                      "Id": "f940cd80-ce0c-40cc-91d9-4103da198386"
+                      "Id": "14b54b2e-9f75-444e-a8ab-11f4ced9a3ca"
                     },
                     "Condition2": {
                       "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
@@ -111,10 +111,10 @@
                         "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                         "SerializeProperty": "=판매_견적서조회!AQ2"
                       },
-                      "Id": "2d734c35-358c-4cf7-b211-3241b3d92136"
+                      "Id": "dee99a01-4c58-4ef6-9180-c3aed6b3872c"
                     },
                     "RelationType": 1,
-                    "Id": "dccb8304-b6e9-4471-8372-e95e4eedbd32"
+                    "Id": "3b4c9546-bb2b-4462-a26a-d8c5b0ff86e8"
                   },
                   "Condition2": {
                     "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
@@ -127,10 +127,10 @@
                       "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                       "SerializeProperty": "=판매_견적서조회!AQ2"
                     },
-                    "Id": "4718287a-f5e3-4893-85fe-adcebfb5af90"
+                    "Id": "c73746ed-8038-497f-81de-f112b8d8c06e"
                   },
                   "RelationType": 1,
-                  "Id": "394779a1-0429-4c1e-a509-af74082e07c2"
+                  "Id": "3e1883c8-8e63-400b-bc97-62d84f08c9eb"
                 },
                 "Condition2": {
                   "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
@@ -148,10 +148,10 @@
                     "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                     "SerializeProperty": "=판매_견적서조회!AQ2"
                   },
-                  "Id": "6c047f86-f31d-4424-a980-329600c55cfd"
+                  "Id": "658e09db-301e-4f4e-b782-4f8585d6dcea"
                 },
                 "RelationType": 1,
-                "Id": "97da975a-662f-4452-b7c8-2b7d7a7c1c2b"
+                "Id": "3896b157-78d9-4bcd-abf4-dc474f89f113"
               },
               "Condition2": {
                 "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
@@ -164,15 +164,15 @@
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                   "SerializeProperty": "=판매_견적서조회!AQ2"
                 },
-                "Id": "4d74ec62-2fba-43b9-9b1c-4c22bc07efff"
+                "Id": "48274ea5-b700-4cc6-80e0-3dc44ebd4d13"
               },
               "RelationType": 1,
-              "Id": "c466f4ba-23a1-4d33-b83d-12c7e8e735e8"
+              "Id": "1fcc758f-e86f-4d5e-ae79-e7fb44c423ab"
             },
             "Params": [
               "=AQ2"
             ],
-            "ID": "3283c227c7ab44ecb3be33f870687f84"
+            "ID": "b7558b1a815b4853be5482454ca80606"
           }
         ],
         "Text": "검색",
@@ -188,11 +188,11 @@
         "ColumnCount": 57,
         "RowCount": 25,
         "IsRowHeaderVisible": true,
-        "AllowEditInListview": true,
+        "SelectionMode": 1,
+        "DisableAutoSelectRow": true,
         "AutoFitRowHeight": true,
         "ColumnOperation": 2,
         "ShowGridLine": true,
-        "PaddingBlankRow": true,
         "ShowEditStatusIcon": true,
         "UseSimpleBar": true,
         "Name": "리스트뷰1",
@@ -214,8 +214,9 @@
               "Order": 1
             }
           ],
-          "Id": "dc6a96b4-8c54-4a63-a8fb-8b4eef9c4fd3"
+          "Id": "579f5c9d-28eb-4c54-986f-d558ebde8714"
         },
+        "CommitType": 1,
         "ListViewStyleName": "주문관리_리스트뷰_스타일"
       }
     },
@@ -352,6 +353,21 @@
       "CellType": {
         "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
         "CommandList": [
+          {
+            "$type": "Forguncy.Model.QueryCommand, ServerDesignerCommon",
+            "TargetTableName": "주문데이터",
+            "SqlCondition": {
+              "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+              "ColumnBindingInfo": {
+                "TableName": "주문데이터",
+                "ColumnName": "ID"
+              },
+              "Value": "%Null%",
+              "Id": "44decfa4-84a8-4ba5-9f09-6cd02ea0a8d4"
+            },
+            "Params": [],
+            "ID": "f045f386746e46a49bfe6c4c602d1587"
+          },
           {
             "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon"
           }
@@ -2023,6 +2039,7 @@
     "6,1,23,57",
     "30,1,1,4",
     "1,42,1,12",
+    "1,55,1,3",
     "4,2,1,3",
     "4,5,1,5",
     "4,10,1,6",
@@ -2033,27 +2050,22 @@
     "4,43,1,6",
     "4,49,1,3",
     "4,52,1,2",
-    "4,54,1,4",
-    "1,55,1,3"
+    "4,54,1,4"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "IgnoreDirtyCells": [
+      {
+        "PageDirtyElementType": 1,
+        "Value": "리스트뷰1"
+      }
+    ],
     "PageLoadedCommandList": [
       {
         "$type": "Forguncy.Model.QueryCommand, ServerDesignerCommon",
         "TargetTableName": "주문데이터",
-        "SqlCondition": {
-          "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
-          "CompareType": 1,
-          "ColumnBindingInfo": {
-            "TableName": "주문데이터",
-            "ColumnName": "ID"
-          },
-          "Value": "%Null%",
-          "Id": "4701be07-2467-48d8-b913-1204c79e91f0"
-        },
         "Params": [],
-        "ID": "7be88ba51816424c8d50d61d0256a210"
+        "ID": "f04fa04b48f7407daa4bb4abf16e7904"
       }
     ],
     "AuthorizeInfo": {
@@ -2072,4 +2084,4 @@
     "ZoomFactor": 0.69999999999999973,
     "PaperSize": {}
   }
-}//5pYcfDwpXoyMh03Wxp2E230/BHic47T921/Pi/TC+Ok+42zrb+84bx4PWp+qvUTWBUDhveWbV3NOd+8B145uSrK3EpJiFeIQsgw//eFKrKm6XWtM6oSf01Pv5TWHFgpbVGOl1Y9ULeinnq1w//pyhrpeChB/K9xvvdybnsvSrbTo1F8Ev3ox3qPW+bBCblPcnt9Wa2y5XpVIGrW7q/cC5AXAujFsqrf6U/Zo4SYxpWwHmgh+7FISNC7RUs71IeRmbPZZwPnx9gyUMPdi/xusmjUfQVLCtY5y6oyh3lys7AHChDb7+7O/NzGmqHshKAm3gPqVOZZ9DDGaYRO6AQBJdv2Nat+nt5qnxFc3gA2KOJwMsQx9RjtC/OY8Zbyy4tewZh3Io9py44SdMAP1OxvSJwk+FKpFVTNeOWFLIgmV3yvVAv71D+kiIvOFjB8sCm+RRBle7wcBVtXVQjL/pXT+aLHrkH7pkgqvOTGtS6gGySM8jOm2uuUAgA3bbk5vo04sA7/L7nOZ36C6aBSuQxzmBmaRi5cZE/d1j24GjZ2ekbn6xueyRDmF1A3t5tnowvieqGv2v5QUphbsZ7Uuidi2kbY4WMvi457lxTRN+dEq6uwks5YRDcXYNR52xPrXy3hx0V//DZgCt9jqCYYxwrTdfPHNbexBt1Zej8sFR2p3apgGC7vhVd05Gd6Hr1kVQVHAToESckCiLiuRf8DwRIuFbQ4j4nL9j4CRonwMf7I2V7rgeO4ZRSTuDAfGHtkyBwmpbD1neT+OKk6tzhnSE5KEb8ZRUhoyQq8FzD7hEUq+FlUlKs41ibUETiILl2SSBPCLO+4dAi1ZSYpuv2aNJLfHwLZV2tz6L6/To5oXCuz/wMGcrO8oWDsZfUSQxt+68D0/od/t9YdQBbFWdOJF0tnxMw==|920
+}//vvHlwO4UVtjsA3LS+fhr6Dyte4/sKXCIhPNZibR//Ywa7sOrmUo9rIzCgJ4gWGB0L3NdM0iKace2zEMHEPxet344AXxu1W/oBx45SII5toKdhhRN+dQHuZK0OXU+j/5Bkx77d2GpEunz+cc26WPmGu4z6ywbEsqfGW+lv/I774DfA8aQonExrJcrQu6r/p61w3QbDWXrLZmRhlbpBcGBLX41OiH5hb9Kjq092+cWawunuw7M9pM2klZSXMrutsXUKJs58xz9ItpkjyPiGimMCx2sNV3iefFjc+xq2ArPKqpRGUbeOe8RP3EiWruD9uWrbGvmQPaWoMxbpGhlJXMAyPeJnw8HiVVdwj720HzPeQH0VLsrms8NTBu87u9b01WO09DLUKaU3+fP3vbZaErPd63ENtz3oQ6AOemlefX16ewBcgSLD6vmWBA+lY/EOmKCQZmHeoRkdgT9LEbFrPgNDlvM6fqYA0WVaeSKGmVWyPwyTwSvbobW5N07dW00E178xk9adpuxKTHHHpEX1Pa1tRgmqgPdbAZlt5mzqDvUtx0+ZNpm6Zz8Tlow1xpD606NRxUEgHeTef1tOtiy5AQ6FKIH6yF6Q8CZ7Fxdj2jWMXp8BJtjcSmzsLcylCSt6GtQyeGD+4ptkBeyXLXP8aSsX3EMh/dYCXl57F4WpsSJXUSw3s5yIossH/2CfcfPXYffzHrpJ6i2Qvvefa9dIg/7y2M5BGWgjtPJloN+/1uLifdEUuHxKOHqo5IBeUpfGIxMfaPnuS/2SWNoQxEAKqbHnUO3gVi3LAySFm+GYBWb690L4LHDkOqtRBxFAmnjgJRvtf6qBAvBrwLF8doh67IIC7IA2/g/mcUpmgia2MV50+5cEg7McKNOV50Aig4vgsJjM0ImriP4LYFW9EVQHtxmmA==|920
