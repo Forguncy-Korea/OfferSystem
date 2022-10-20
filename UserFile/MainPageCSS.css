@@ -1,5 +1,5 @@
 ﻿.Department1_up{
-    background-color:#8892D6 !important;
+    background-color:#6d7be2 !important;
     -webkit-border-radius:10px 10px 0 0;
     -moz-border-radius:10px 10px 0 0;
     -ms-border-radius:10px 10px 0 0; 
@@ -7,7 +7,7 @@
    }
    
 .Department1_down{
-    background-color:#8892D6 !important;
+    background-color:#6d7be2 !important;
    -webkit-border-radius:0 0 10px 10px ;
    -moz-border-radius:0 0 10px 10px ;
    -ms-border-radius:0 0 10px 10px ;
@@ -16,7 +16,7 @@
 
 
 .Department2_up{
-    background-color:#45BBE0 !important;
+    background-color:#45b5e5 !important;
     -webkit-border-radius:10px 10px 0 0;
     -moz-border-radius:10px 10px 0 0;
     -ms-border-radius:10px 10px 0 0; 
@@ -24,7 +24,7 @@
    }
    
 .Department2_down{
-    background-color:#45BBE0 !important;
+    background-color:#45b5e5 !important;
    -webkit-border-radius:0 0 10px 10px ;
    -moz-border-radius:0 0 10px 10px ;
    -ms-border-radius:0 0 10px 10px ;
@@ -32,7 +32,7 @@
 }
 
 .Department3_up{
-    background-color:#F06292 !important;
+    background-color:#f47184 !important;
     -webkit-border-radius:10px 10px 0 0;
     -moz-border-radius:10px 10px 0 0;
     -ms-border-radius:10px 10px 0 0; 
@@ -40,7 +40,7 @@
    }
    
 .Department3_down{
-    background-color:#F06292 !important;
+    background-color:#f47184 !important;
    -webkit-border-radius:0 0 10px 10px ;
    -moz-border-radius:0 0 10px 10px ;
    -ms-border-radius:0 0 10px 10px ;
@@ -48,7 +48,7 @@
 }
 
 .Department4_up{
-    background-color:#78C350 !important;
+    background-color:#ffbc54 !important;
     -webkit-border-radius:10px 10px 0 0;
     -moz-border-radius:10px 10px 0 0;
     -ms-border-radius:10px 10px 0 0; 
@@ -56,7 +56,7 @@
    }
    
 .Department4_down{
-    background-color:#78C350 !important;
+    background-color:#ffbc54 !important;
    -webkit-border-radius:0 0 10px 10px ;
    -moz-border-radius:0 0 10px 10px ;
    -ms-border-radius:0 0 10px 10px ;
