@@ -122,16 +122,7 @@
   },
   {
     "ModuleName": "PCPage/메인화면",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "DESKTOP-SFEU14D\\NamHee",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2022-10-20T15:59:11.1724054+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\메인화면.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/견적서입력페이지",
@@ -156,16 +147,7 @@
   },
   {
     "ModuleName": "PCPage/견적데이터목록페이지",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "DESKTOP-SFEU14D\\NamHee",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2022-10-20T16:11:12.6799579+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\견적데이터목록페이지.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/거래처등록페이지",
@@ -213,16 +195,7 @@
   },
   {
     "ModuleName": "PCPage/판매조회페이지",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "DESKTOP-SFEU14D\\NamHee",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2022-10-20T16:11:34.2567962+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\판매조회페이지.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/판매_견적서조회",

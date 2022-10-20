@@ -135,13 +135,14 @@
     "46,45": "월별 매출 현황 셀 범위",
     "47,5": "완료",
     "47,6": "진행중",
-    "47,15": "Spread",
-    "47,16": "ActiveReports",
-    "47,17": "Wijmo",
-    "47,18": "ComponentOne",
-    "47,19": "기타",
+    "47,15": "Spread.NET",
+    "47,16": "SpreadJS",
+    "47,17": "ActiveReports",
+    "47,18": "Wijmo",
+    "47,19": "ComponentOne",
+    "47,20": "기타",
     "47,26": "거래처",
-    "47,41": "제품군",
+    "47,39": "제품군",
     "47,45": "월초",
     "47,46": "DATE(YEAR(STARTDATE),MONTH(STARTDATE)+1,1)",
     "47,47": "DATE(YEAR(STARTDATE),MONTH(STARTDATE)+1,1)",
@@ -191,7 +192,7 @@
     "2,57": "ODATA(\"주문데이터/$count?$filter=견적일 ge \"&IF(ISBLANK(STARTDATE),\"null\",TEXT(STARTDATE,\"yyyy-MM-ddThh:mm:ssZ\"))&\" and 견적일 le \"&IF(ISBLANK(ENDDATA),\"null\",TEXT(ENDDATA,\"yyyy-MM-ddThh:mm:ssZ\")))",
     "47,47": "DATE(YEAR(STARTDATE),MONTH(STARTDATE)-4,1)",
     "48,51": "EOMONTH(STARTDATE,0)",
-    "48,41": "IF(AE49=\"SpreadJS 배포\",\"Spread\",IF(AE49=\"GCExcel프로젝트 \",\"GCExcel\",IF(AE49=\"ActiveReportsJS 개발자 \",\"ActiveReports\",IF(AE49=\"ActiveReportsJS 배포 \",\"ActiveReports\",IF(AE49=\"ActiveReports.NET 개발자 (Pro)\",\"ActiveReports\",IF(AE49=\"ActiveReports.NET 개발자 (Pro) \",\"ActiveReports\",IF(AE49=\"SpreadJS 디자이너 컴포넌트\",\"Spread\",IF(AE49=\"Wijmo 개발자 \",\"Wijmo\",IF(AE49=\"SpreadJS 개발자\",\"Spread\",IF(AE49=\"Wijmo 배포 \",\"Wijmo\",IF(AE49=\"Forguncy 개발\",\"Forguncy\",IF(AE49=\"Forguncy 동접자\",\"Forguncy\",IF(AE49=\"ComponentOne Enterprise\",\"C1\",IF(AE49=\"Forguncy 배포\",\"Forguncy\",\"기타\"))))))))))))))",
+    "48,39": "IF(AE49=\"SpreadJS 배포\",\"SpreadJS\",IF(AE49=\"GCExcel프로젝트 \",\"GCExcel\",IF(AE49=\"Spread.NET 개발자 라이선스\",\"Spread.NET\",IF(AE49=\"ActiveReportsJS 개발자 \",\"ActiveReports\",IF(AE49=\"ActiveReportsJS 배포 \",\"ActiveReports\",IF(AE49=\"ActiveReports.NET 개발자 (Pro)\",\"ActiveReports\",IF(AE49=\"ActiveReports.NET 개발자 (Pro) \",\"ActiveReports\",IF(AE49=\"SpreadJS 디자이너 컴포넌트\",\"SpreadJS\",IF(AE49=\"Wijmo 개발자 \",\"Wijmo\",IF(AE49=\"SpreadJS 개발자\",\"Spread\",IF(AE49=\"Wijmo 배포 \",\"Wijmo\",IF(AE49=\"Forguncy 개발\",\"Forguncy\",IF(AE49=\"Forguncy 동접자\",\"Forguncy\",IF(AE49=\"ComponentOne Enterprise\",\"C1\",IF(AE49=\"Forguncy 배포\",\"Forguncy\",\"기타\")))))))))))))))",
     "51,48": "IFERROR(SUM(ODATA(\"주문데이터?$select=총공급가&$filter=견적일 ge \"&IF(ISBLANK(AW48),\"null\",TEXT(AW48,\"yyyy-MM-ddThh:mm:ssZ\"))&\" and 견적일 le \"&IF(ISBLANK(AW49),\"null\",TEXT(AW49,\"yyyy-MM-ddThh:mm:ssZ\")))),\"\")",
     "50,46": "IFERROR(SUM(ODATA(\"주문데이터?$select=총공급가&$filter=납기일자 ge \"&IF(ISBLANK(AU48),\"null\",TEXT(AU48,\"yyyy-MM-ddThh:mm:ssZ\"))&\" and 납기일자 le \"&IF(ISBLANK(AU49),\"null\",TEXT(AU49,\"yyyy-MM-ddThh:mm:ssZ\")))),\"\")",
     "49,48": "MONTH(DATE(YEAR(STARTDATE),MONTH(STARTDATE)-3,1))",
@@ -200,13 +201,14 @@
     "48,46": "EOMONTH(STARTDATE,-5)",
     "48,47": "EOMONTH(STARTDATE,-4)",
     "51,51": "IFERROR(SUM(ODATA(\"주문데이터?$select=총공급가&$filter=견적일 ge \"&IF(ISBLANK(AZ48),\"null\",TEXT(AZ48,\"yyyy-MM-ddThh:mm:ssZ\"))&\" and 견적일 le \"&IF(ISBLANK(AZ49),\"null\",TEXT(AZ49,\"yyyy-MM-ddThh:mm:ssZ\")))),\"\")",
-    "48,15": "SUMIF($AP$49,P48,$AI$49)",
+    "48,15": "SUMIF($AN$49,P48,$AI$49)",
     "48,6": "SUM(ODATA(\"주문데이터?$select=총공급가&$filter=종결여부 eq '진행중' and (견적일 ge \"&IF(ISBLANK(STARTDATE),\"null\",TEXT(STARTDATE,\"yyyy-MM-ddThh:mm:ssZ\"))&\" and 견적일 le \"&IF(ISBLANK(ENDDATA),\"null\",TEXT(ENDDATA,\"yyyy-MM-ddThh:mm:ssZ\"))&\")\"))",
     "48,5": "SUM(ODATA(\"주문데이터?$select=총공급가&$filter=종결여부 eq '완료' and (견적일 ge \"&IF(ISBLANK(STARTDATE),\"null\",TEXT(STARTDATE,\"yyyy-MM-ddThh:mm:ssZ\"))&\" and 견적일 le \"&IF(ISBLANK(ENDDATA),\"null\",TEXT(ENDDATA,\"yyyy-MM-ddThh:mm:ssZ\"))&\") or (납기일자 ge \"&IF(ISBLANK(STARTDATE),\"null\",TEXT(STARTDATE,\"yyyy-MM-ddThh:mm:ssZ\"))&\" and 납기일자 le \"&IF(ISBLANK(ENDDATA),\"null\",TEXT(ENDDATA,\"yyyy-MM-ddThh:mm:ssZ\"))&\")\"))",
-    "48,16": "SUMIF($AP$49,Q48,$AI$49)",
-    "48,18": "SUMIF($AP$49,S48,$AI$49)",
-    "48,17": "SUMIF($AP$49,R48,$AI$49)",
-    "48,19": "SUMIF($AP$49,T48,$AI$49)"
+    "48,16": "SUMIF($AN$49,Q48,$AI$49)",
+    "48,18": "SUMIF($AN$49,S48,$AI$49)",
+    "48,17": "SUMIF($AN$49,R48,$AI$49)",
+    "48,19": "SUMIF($AN$49,T48,$AI$49)",
+    "48,20": "SUMIF($AN$49,\"GCExcel\",$AI$49)"
   },
   "AttachInfos": {
     "2,31": {
@@ -368,7 +370,7 @@
                 "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                 "SerializeProperty": "=메인화면!AF3"
               },
-              "Id": "1366a651-a1cc-4195-93f4-cba0223ab079"
+              "Id": "0bbf7358-e766-4d33-825d-37d2ae57d9f1"
             },
             "Condition2": {
               "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
@@ -381,9 +383,9 @@
                 "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                 "SerializeProperty": "=메인화면!AR3"
               },
-              "Id": "aadebdd1-96c8-41df-bbbf-e71d0970a661"
+              "Id": "14bcbd92-41c5-4aa4-a54d-a88ab862e2fb"
             },
-            "Id": "455368d9-3483-4a89-a29a-8fa88a53118b"
+            "Id": "ab2af51e-b1e2-48b4-b767-c100f4bd811d"
           },
           "Condition2": {
             "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
@@ -399,7 +401,7 @@
                 "SerializeProperty": "=메인화면!STARTDATE"
               },
               "LeftBracket": 1,
-              "Id": "a0bad97e-9c52-4790-9525-c27495866751"
+              "Id": "1d22cb6f-eb76-4271-9995-946b9eb92024"
             },
             "Condition2": {
               "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
@@ -413,12 +415,12 @@
                 "SerializeProperty": "=메인화면!ENDDATA"
               },
               "RightBracket": 1,
-              "Id": "2e964105-006c-4238-8536-65d180b28a06"
+              "Id": "7574b350-9777-45c2-a069-bd6ab20ea386"
             },
-            "Id": "e1009bab-12bb-4f5c-8e4a-eb9c34f136b1"
+            "Id": "706def0d-540f-4101-afe9-bbf53b0836ae"
           },
           "RelationType": 1,
-          "Id": "0ae18520-79ac-4a4c-805f-dc27d31ab7b1"
+          "Id": "fc6f4786-e5bc-4616-aca7-e94cd7153f84"
         },
         "TopCondition": null,
         "ListViewStyleName": "대시보드_리스뷰_스타일"
@@ -511,7 +513,7 @@
                 "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                 "SerializeProperty": "=메인화면!STARTDATE"
               },
-              "Id": "6eeebd8a-6953-49b1-af02-7a8894dbf093"
+              "Id": "f97de5e0-112e-422f-9dfc-4c8269e1d337"
             },
             "Condition2": {
               "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
@@ -524,9 +526,9 @@
                 "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                 "SerializeProperty": "=메인화면!ENDDATA"
               },
-              "Id": "979efb24-5383-47fd-bc06-7555ccab0548"
+              "Id": "2df2af28-2d20-48d1-ab3b-dc99d482b587"
             },
-            "Id": "2474002b-9afd-447e-9cd5-f9020b4c6f5b"
+            "Id": "082a4f84-d11e-45e5-8a8e-1c52005658d0"
           },
           "Condition2": {
             "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
@@ -535,9 +537,9 @@
               "ColumnName": "종결여부"
             },
             "Value": "완료",
-            "Id": "efcbed29-3965-41d5-8d3a-c2595c5edf82"
+            "Id": "fae0bc52-ceba-497c-99be-5b4000dbc4e2"
           },
-          "Id": "71c2f535-f3eb-460e-bdbe-e55a08f61f20"
+          "Id": "c93e2032-e910-402b-ad16-d9fc9d0cca56"
         },
         "TopCondition": null,
         "OrderByCondition": {
@@ -554,7 +556,7 @@
               "Order": 0
             }
           ],
-          "Id": "668f90e3-5617-46bf-95e9-b6f94f66fdf3"
+          "Id": "0c3fab8e-7471-4e19-898e-f06e87144cd6"
         },
         "ListViewStyleName": "_RS_Light8"
       }
@@ -591,17 +593,6 @@
       "BindingInfo": {
         "TableName": "주문데이터",
         "ColumnName": "종결여부"
-      }
-    },
-    "48,43": {
-      "BindingInfo": {
-        "TableName": "주문데이터",
-        "ColumnName": "제품_ID",
-        "RelationBinding": {
-          "RelatedTable": "제품",
-          "RelatedColumn": "ID",
-          "DisplayColumn": "규격명"
-        }
       }
     }
   },
@@ -1046,7 +1037,22 @@
       {
         "Background": 26,
         "FontWeight": 0,
-        "Foreground": 25,
+        "Foreground": 28,
+        "BorderBottom": 2,
+        "BorderTop": 2,
+        "BorderLeft": 2,
+        "BorderRight": 2
+      },
+      {
+        "Background": 26,
+        "FontWeight": 0,
+        "Foreground": 28
+      },
+      {
+        "Background": 26,
+        "FontFamily": 5,
+        "FontWeight": 0,
+        "Foreground": 28,
         "BorderBottom": 2,
         "BorderTop": 2,
         "BorderLeft": 2,
@@ -1083,14 +1089,7 @@
         "FontWeight": 0,
         "Foreground": 25,
         "Formatter": 3,
-        "HorizontalAlignment": 6,
-        "BorderTop": 3
-      },
-      {
-        "Background": 4,
-        "FontFamily": 5,
-        "Foreground": 25,
-        "BorderTop": 3
+        "HorizontalAlignment": 6
       },
       {
         "Background": 26,
@@ -1155,13 +1154,6 @@
         "BorderRight": 2
       },
       {
-        "Foreground": 25,
-        "BorderBottom": 2,
-        "BorderTop": 2,
-        "BorderLeft": 2,
-        "BorderRight": 2
-      },
-      {
         "Background": 4,
         "FontFamily": 5,
         "FontSize": 13.333333333333332,
@@ -1192,11 +1184,6 @@
         "FontSize": 13.333333333333332,
         "Foreground": 25,
         "HorizontalAlignment": 6
-      },
-      {
-        "Background": 4,
-        "FontFamily": 5,
-        "Foreground": 25
       },
       {
         "Background": 26,
@@ -1278,6 +1265,11 @@
         "BorderLeft": 2
       },
       {
+        "Background": 4,
+        "FontFamily": 5,
+        "Foreground": 25
+      },
+      {
         "Background": null,
         "FontFamily": 24,
         "FontSize": -1.0,
@@ -1323,6 +1315,7 @@
         "Background 1 -25",
         "Background 1 -15",
         "black",
+        "Background 1 -35",
         "DarkGray"
       ],
       "Borders": [
@@ -1337,7 +1330,7 @@
           "Color": 27
         },
         {
-          "Color": 28
+          "Color": 29
         }
       ]
     },
@@ -2934,49 +2927,45 @@
       "47,7": 2,
       "47,8": 2,
       "47,15": 67,
-      "47,16": 67,
-      "47,17": 67,
-      "47,18": 67,
-      "47,19": 67,
-      "47,20": 67,
-      "47,26": 68,
-      "47,27": 69,
-      "47,28": 69,
-      "47,29": 69,
-      "47,30": 70,
-      "47,31": 69,
-      "47,32": 69,
-      "47,33": 69,
-      "47,34": 70,
-      "47,35": 69,
-      "47,36": 69,
-      "47,37": 69,
-      "47,38": 70,
-      "47,39": 69,
-      "47,40": 69,
-      "47,41": 71,
-      "47,42": 69,
-      "47,43": 72,
-      "47,45": 73,
-      "47,46": 74,
-      "47,47": 74,
-      "47,48": 74,
-      "47,49": 74,
-      "47,50": 75,
-      "47,51": 76,
-      "47,52": 77,
+      "47,16": 68,
+      "47,17": 69,
+      "47,18": 69,
+      "47,19": 69,
+      "47,20": 69,
+      "47,26": 70,
+      "47,27": 71,
+      "47,28": 71,
+      "47,29": 71,
+      "47,30": 72,
+      "47,31": 71,
+      "47,32": 71,
+      "47,33": 71,
+      "47,34": 72,
+      "47,35": 71,
+      "47,36": 71,
+      "47,37": 71,
+      "47,38": 72,
+      "47,39": 73,
+      "47,45": 74,
+      "47,46": 75,
+      "47,47": 75,
+      "47,48": 75,
+      "47,49": 75,
+      "47,50": 76,
+      "47,51": 77,
+      "47,52": 78,
       "47,54": 2,
       "47,55": 2,
-      "48,2": 78,
-      "48,5": 79,
-      "48,6": 79,
+      "48,2": 79,
+      "48,5": 80,
+      "48,6": 80,
       "48,7": 2,
       "48,8": 2,
-      "48,15": 79,
-      "48,16": 79,
-      "48,17": 79,
-      "48,18": 79,
-      "48,19": 79,
+      "48,15": 80,
+      "48,16": 80,
+      "48,17": 80,
+      "48,18": 80,
+      "48,19": 80,
       "48,20": 80,
       "48,26": 81,
       "48,27": 2,
@@ -2991,22 +2980,18 @@
       "48,36": 2,
       "48,37": 2,
       "48,38": 83,
-      "48,39": 2,
-      "48,40": 2,
-      "48,41": 84,
-      "48,42": 2,
-      "48,43": 85,
-      "48,45": 73,
-      "48,46": 74,
-      "48,47": 74,
-      "48,48": 74,
-      "48,49": 74,
-      "48,50": 75,
-      "48,51": 76,
-      "48,52": 77,
+      "48,39": 84,
+      "48,45": 74,
+      "48,46": 75,
+      "48,47": 75,
+      "48,48": 75,
+      "48,49": 75,
+      "48,50": 76,
+      "48,51": 77,
+      "48,52": 78,
       "48,54": 2,
       "48,55": 2,
-      "49,2": 78,
+      "49,2": 79,
       "49,3": 2,
       "49,26": 56,
       "49,27": 56,
@@ -3026,14 +3011,14 @@
       "49,41": 56,
       "49,42": 56,
       "49,43": 56,
-      "49,45": 86,
-      "49,46": 87,
-      "49,47": 87,
-      "49,48": 87,
-      "49,49": 87,
-      "49,50": 88,
-      "49,51": 89,
-      "49,52": 90,
+      "49,45": 85,
+      "49,46": 86,
+      "49,47": 86,
+      "49,48": 86,
+      "49,49": 86,
+      "49,50": 87,
+      "49,51": 88,
+      "49,52": 89,
       "49,54": 2,
       "49,55": 2,
       "50,26": 56,
@@ -3054,14 +3039,14 @@
       "50,41": 56,
       "50,42": 56,
       "50,43": 56,
-      "50,45": 74,
-      "50,46": 91,
-      "50,47": 92,
-      "50,48": 92,
-      "50,49": 91,
-      "50,50": 93,
-      "50,51": 94,
-      "50,52": 85,
+      "50,45": 75,
+      "50,46": 90,
+      "50,47": 91,
+      "50,48": 91,
+      "50,49": 90,
+      "50,50": 92,
+      "50,51": 93,
+      "50,52": 94,
       "50,54": 2,
       "50,55": 2,
       "51,26": 56,
@@ -3082,14 +3067,14 @@
       "51,41": 56,
       "51,42": 56,
       "51,43": 56,
-      "51,45": 74,
-      "51,46": 91,
-      "51,47": 92,
-      "51,48": 92,
-      "51,49": 91,
-      "51,50": 93,
-      "51,51": 94,
-      "51,52": 85,
+      "51,45": 75,
+      "51,46": 90,
+      "51,47": 91,
+      "51,48": 91,
+      "51,49": 90,
+      "51,50": 92,
+      "51,51": 93,
+      "51,52": 94,
       "51,54": 2,
       "51,55": 2,
       "52,26": 56,
@@ -3210,8 +3195,7 @@
     "48,26,1,4",
     "48,30,1,4",
     "48,34,1,4",
-    "48,38,1,3",
-    "48,41,1,2",
+    "48,39,1,5",
     "14,23,1,6",
     "14,29,1,8",
     "14,37,1,10",
@@ -3219,8 +3203,7 @@
     "47,26,1,4",
     "47,30,1,4",
     "47,34,1,4",
-    "47,38,1,3",
-    "47,41,1,2"
+    "47,39,1,5"
   ],
   "Charts": [
     {
@@ -3632,7 +3615,7 @@
       "DataSeries": [
         {
           "ChartType": 22,
-          "ValueFormula": "메인화면!P49:T49",
+          "ValueFormula": "메인화면!P49:U49",
           "Name": "매출액",
           "MarkerSize": "7,7",
           "DataPoints": [
@@ -3648,6 +3631,9 @@
             },
             {
               "PointIndex": 4
+            },
+            {
+              "PointIndex": 5
             }
           ],
           "ConditionalFormatCollection": {
@@ -3745,7 +3731,7 @@
       ],
       "XAxises": [
         {
-          "ItemsFormula": "메인화면!$P$48:$T$48",
+          "ItemsFormula": "메인화면!$P$48:$U$48",
           "LabelFormatter": "General",
           "ShowMajorGridlines": false,
           "MajorTickStroke": "#868686",
@@ -3824,4 +3810,4 @@
       "Formula": "메인화면!$AF$3"
     }
   ]
-}//XWQ4gNrO+AQPuyHGfuearZuqleaPb3wJtTilu2WGLmu6MP5MdUnENdahFqxy6wrq1wpLkl9zXB+PXauZZjZFhyH+1NhrRIz55JTG/XMbNI14cMpRu9kI/WF03292KiuGNlLcOS+oaRdKq5k6HjhuybvsPA8pXsq6vodIxLmfboLBYR2keF4RQg14QvcOuTwUqI/xj7U4nYI0yPrSk9ZbRo4E9JRIH/Crsw8dEP3jF8WMPY6TZ4l65JNuc6QCTCbapqvLev5mBkLC16567CZ0HAr0eog3sWp6bKVOni5zRuRcg4Rp90ofW9rwvwGYlLNja9WFiHElflcwj8Tg8Imim39+9taDKLnSOr0uqg4PpgR3gkRZ93uYpSlMIeR4+ozhND68XAUX0IW57HTmJHffcGRpAgudoMOm2cT2HZEP67ZmURPBDdzwgurkR78qWFsY4oV+OOJgb4Ls3n2ZvJqC3FB3J6biYh4+nFAEMlEzmOF5wFuXnpFO2ZQbI5rTxEh3zyeGzPpUZckTCIJb+xmwhv8Ik5XDif32kFBg+/P1GWjU3rkv/SxpAwGqv83qHpIL0KzPo4PGDrCu1lvPi4FQCh8JOOGeHtEIXhYIjTbcdEzCP1NIQhOWut+Qk1eiAZ1wgK6R9RtN1S1HRdMzX1tAvvLAgaJiewL7+9flGXDPDZrLz6J0O8MAUAWCTl1javKfCcxwgEeLHug06CJLPxzwLKI80d3yNAem8lHcoqgtUKJM7+2q3DQxRpllTi/P4oALoAJsoB07bDsvf+iDESqTWdObUraTbCY2Qg7wDcsjf+rqsDbGOTfDSwukhrChuxffV1OLo2Qq93LDjSBm3lemuox5PtbXt6+ywKqD4KpcbXwWPvn8uakGpzxOr0MOGkfGNboGvBygUcDWZL92D4/P9g==|920
+}//wWCdSVvDg0OZcpM5br9OiFN8mc32HutLpaXaYJy1GI2UCgJXaOGItMTbzhpPVBoruYCGEuKb+CTf8C4orHpGhfzAtzo7wKegnY9dyiaoo3FUnt6//vWVQattcmPraiYqYSywH2nmlCbKkfpI6CNJo2FORBxGkdnpOqu2rI/We1wO7e2ZdtFIvcrQAa2ty+mQKVsmbpazHD8l570dnw9I39VpIO7MdDScrVa8RepOHoFzJeUQd/m8eb4cAkYKEdfM/Tvfy0JjBmvnzBWCkW8yJu5C8GHhPF7o5FjEs0eG+Q3R3jDF6zq09OwHGkUGavjVlc90PaqgeRgXDQ/wU9/bw5ByI4F8bIObtoEKa3/iJ2hgs/d+W99CSjaWjL+J5TQKGe3jMIQ1qOqo8kPKs3uBpvWQvpMQcj+QbmNYRWvSWwk+7Vc9AXI1HDCAzcf3u2ecDfzDVtTcuy9TNPFLtgZ5WFtLtYgZaRIheUdeisp/8x1k8+3BEIfctEm4aoRU/lcQJhha8FOEEzy6gL9Jrz5/yH3kFha7SBiyUTkC8NT9pUTzhEstXUMcnoGHSrFe5I+14JjbXTAqixeYElxTk3oAfjZlwdQj/Sm16y7l9BuG9rH96dBKvJumFJXvOCpfmR+11du3YGBc08tUkigw0csVDUQ8ESJd4+r42OWZ5Y9/s+fN9Kz4n5nr0II2SrMI/gd5BPwcVOnDSkiCoLSW8s1M0hPE9UFZos/ZUZ9WiR4iwY9FbYi2EbBC/LUaBO/GcMA9QaqdMNWf7xIT+z04np/DCWztjA9gOds/Nu0GDqR03Y40RLhVT1WgG1ttRKyPZ7A8mHyiV7RsyxVPVvJhPo8M1MwLyEGLx63+fW7yOKD9TLLNudRWl1sdF24x814PAs5a7+j7DMThFmYvZmB1IlC5pA==|920
