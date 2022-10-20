@@ -368,7 +368,7 @@
                 "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                 "SerializeProperty": "=메인화면!AF3"
               },
-              "Id": "ae97037e-e253-4cd6-9508-143519942479"
+              "Id": "cb3cc215-caea-479b-b3cc-6dff2f9e9b4d"
             },
             "Condition2": {
               "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
@@ -381,9 +381,9 @@
                 "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                 "SerializeProperty": "=메인화면!AR3"
               },
-              "Id": "6a8dcc52-28ff-4b36-bb23-ec9531cc1cca"
+              "Id": "8791ba20-cdcb-46a6-b344-13f86bf56ea9"
             },
-            "Id": "426ba8ce-0190-4d2f-ac3a-57b49eeab98c"
+            "Id": "9902af25-8fde-4ec5-888c-0be563ce152d"
           },
           "Condition2": {
             "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
@@ -399,7 +399,7 @@
                 "SerializeProperty": "=메인화면!STARTDATE"
               },
               "LeftBracket": 1,
-              "Id": "abdb38c5-0ee5-419d-9ebe-64e382caced9"
+              "Id": "04e067dd-f05f-458a-847f-e845a36dffcb"
             },
             "Condition2": {
               "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
@@ -413,12 +413,12 @@
                 "SerializeProperty": "=메인화면!ENDDATA"
               },
               "RightBracket": 1,
-              "Id": "f0a33098-6009-41c8-aafc-a691adfa8be7"
+              "Id": "a1ce382d-26c4-4cf6-98f5-2db44865e623"
             },
-            "Id": "194c4d8c-1f9d-4569-8bda-9fc14eb6cf3e"
+            "Id": "0506883e-1aee-4ec5-ad14-0a2b9233c2a9"
           },
           "RelationType": 1,
-          "Id": "951f75f7-148a-48fa-9678-cb3c832e6772"
+          "Id": "28b00022-8d34-4357-90ba-278b3a596086"
         },
         "TopCondition": null,
         "ListViewStyleName": "대시보드_리스뷰_스타일"
@@ -505,28 +505,28 @@
               "CompareType": 3,
               "ColumnBindingInfo": {
                 "TableName": "주문데이터",
-                "ColumnName": "견적일"
+                "ColumnName": "납기일자"
               },
               "Value": {
                 "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                 "SerializeProperty": "=메인화면!STARTDATE"
               },
-              "Id": "c8035410-ff03-4665-9e45-a4aeaf7fb6ff"
+              "Id": "f481e51a-ae36-4018-9b4e-314371806a1b"
             },
             "Condition2": {
               "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
               "CompareType": 5,
               "ColumnBindingInfo": {
                 "TableName": "주문데이터",
-                "ColumnName": "견적일"
+                "ColumnName": "납기일자"
               },
               "Value": {
                 "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                 "SerializeProperty": "=메인화면!ENDDATA"
               },
-              "Id": "110d1a52-b108-4906-9ea8-38b46e2566b6"
+              "Id": "680cc311-796a-485f-99bc-44bf16f7c7f5"
             },
-            "Id": "36dcac78-2af6-4d5b-9bc8-8d26e9c634c0"
+            "Id": "bcccab59-8858-4300-b014-698d6029d5f5"
           },
           "Condition2": {
             "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
@@ -535,9 +535,9 @@
               "ColumnName": "종결여부"
             },
             "Value": "완료",
-            "Id": "81b57488-8a92-413e-bdae-f7e7da7631b8"
+            "Id": "ada898fb-a270-434a-b2cb-aa9494ca184b"
           },
-          "Id": "5ad7c4ba-4a0b-4e87-bb7c-992dbab11f75"
+          "Id": "cf70a2c8-ce2c-4c5f-bc2e-179a6021b66a"
         },
         "TopCondition": null,
         "OrderByCondition": {
@@ -554,7 +554,7 @@
               "Order": 0
             }
           ],
-          "Id": "799ea3c8-736d-4f46-89b4-a12696a0ef06"
+          "Id": "e5bf54bf-1f9a-479c-a953-628630c85819"
         },
         "ListViewStyleName": "_RS_Light8"
       }
@@ -3504,7 +3504,7 @@
         {
           "ChartType": 22,
           "ValueFormula": "메인화면!F49:G49",
-          "Name": "Series1",
+          "Name": "총공급가",
           "MarkerSize": "7,7",
           "DataPoints": [
             {},
@@ -3599,7 +3599,7 @@
         {
           "ChartType": 22,
           "ValueFormula": "메인화면!P49:T49",
-          "Name": "Series1",
+          "Name": "매출액",
           "MarkerSize": "7,7",
           "DataPoints": [
             {},
@@ -3699,4 +3699,4 @@
       "Formula": "메인화면!$AF$3"
     }
   ]
-}//B/EeNw/KTk2nO93pM24xETk3Vbc+glivin1ANt/SMhQZ2krGsQyU+oHhB441kZjmoRzbNauY91L4lS6m2+35rekj2XvrHqZrTbBda4F6SV7ITXScjWGQO+zsH7DlRFbEdevTKsrOJDqA23ux1dfDW/ZeOcVP2qOWf/xKlJYgXlQV7UVGr17P3AherAdj7IaW5QwAfYeIiBjI65Z+3apH7yVR8lLXaBjkmRpjn/TbbAXp+ukw3PxJpBbtkd1Yp1w7gQynU3OKtBrbJkyOqkWHMHjVbvHTgMahMHqe/pPA9G5U4oF6Vu210V8KtXFijXbtH5o9j3cES0aX99ah0tGf/IOWo8JqXPhiE6AUxRdDXZtnJ84WeKZSOCNniOqOYUS3wf9011869AouBuhCLeR7uvbRPMZ8k++pnPTBFWK9EHFOICjnGhSBi+euoi+FUdqyX07BB3jFjoCPYwv3OXhIiwnYRGS8aVqL8BC1eyJvZixz2fFK7zdE9R/KCT6OagOznGy5ciaWhVrHF5SD/s9e55WaDaXiG9S7q4spKTZLGNFQSk02sSKhDxUd2oUXYTdM3Qv/wESu+IacqkH9UUj4AqQAE4gIdp4EG1s3WhSsbC5+tf6xjJacmuFqLV/E84MhB7Bto/EB8WxX8G+c3Q6HacjNja4WGJr0q0Sbx7IuD9yG09o5KLn8gIFlyVqJpbrYq2mKlN0IRXsmYo3uNospW+PmskdwP5mNcT9kNuRYL3n7tvTwuA7o3UVIYnkk8GvTqAMrTV/8x+s6f1E05HO6cpGv4TFwE1KljRh0IcGUPPo1AU91ZLxRrPU7sU4cfJbSmxu6rlWYFEPbnaB1zmeqjuY6OuYZXhtEH8pmcBbPcFSBxGm4NdDFxrvnUluKp3dsJybLrC9KsFcSBh+Jgozc/A==|920
+}//QVE4Ep7YEEglnjZ65ueN5oY9JS5Q19z9i5KOtU2slnugRkJReEiRaY8BysRNc+pyo2jOssDbYwkQ0G4z+OBPOhCVc3GBKDgh38AO11L3RVtMMUBRrtshL5xHUjMLvZkYr/JeIZh5H/txG0/5Y8VrQh5GTfJ7PmUThBVwkQamRh78Pm7T5kUwRHnCW4DoSM8rlUqBt69+Xet/Tc/cVDmPGX5nywGXjAuHT2mIlLpUGzoOWyziDOr/iZx2NxPbHpA/4DDRAEKysjFUgpDSSDxL8n2WXQjJ+3kveQvs5fAqfARNO6cBzfGQ+kwg7Bkt6HA1o8todhH+CFjLcSBcigL+fhjDOMQrPD+HA652IjfEiF7XyLL38mkDezFrJdmePMFaytFeFxbZbNhQQ6wVL4nZZuiiMImlZZqpp9LwCV9lPNLVxQGnq9DengFLYO8IHv+UV6NWeukrO4YxLpQly1i33uA16+DNN+f3x49tjokYg66ExMywKLtj2usavLuypJ5q1Y1ohXe+C7KIC++/FZzbrmDJ1tw+jLQSPtdpbTXefhedc7TxO98zRx5sfodcLqMJmb8pFDZQSswp+C5wIsC68zY6A4AQ7iSU2PxfmpMkJ7xGU+K2QsEAoZv74fdBF4Q5Eu5+RkaBsEuwTepCzfaY6bSi7VcEemfFvieg9l3GBe2dc3PVGbGV9uXMl6epJglgtHOyqyaddehvxQR7p1KInNgOsFvOzTaY0qkSG5/jdbf2j2EMxzm0ZoyIwHi2x8tJm9IBhLakhpfmeITmToiGwhX/zP2ScYVeXmdyCXLPm48E8lC+ursV21R1DIHbS1oZzPnRlp/ez/rq/RxA6ofr+ZURf2R/5TOrjigzcnwksOM2D68AA3XebaaDtMvitbe/RbYuRbu08asCTPrfzcImjA==|920
