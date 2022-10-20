@@ -93,7 +93,7 @@
                         "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                         "SerializeProperty": "=판매_견적서조회!AQ2"
                       },
-                      "Id": "14b54b2e-9f75-444e-a8ab-11f4ced9a3ca"
+                      "Id": "9a6ad979-20b8-4675-90e4-76de0c893b1b"
                     },
                     "Condition2": {
                       "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
@@ -111,10 +111,10 @@
                         "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                         "SerializeProperty": "=판매_견적서조회!AQ2"
                       },
-                      "Id": "dee99a01-4c58-4ef6-9180-c3aed6b3872c"
+                      "Id": "68ebde25-e173-44bc-b658-1f2aa9ee8617"
                     },
                     "RelationType": 1,
-                    "Id": "3b4c9546-bb2b-4462-a26a-d8c5b0ff86e8"
+                    "Id": "683282e5-bde1-4718-92b1-c1934dd3c900"
                   },
                   "Condition2": {
                     "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
@@ -127,10 +127,10 @@
                       "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                       "SerializeProperty": "=판매_견적서조회!AQ2"
                     },
-                    "Id": "c73746ed-8038-497f-81de-f112b8d8c06e"
+                    "Id": "44afe3ca-3c0b-4dd3-89ac-299ae0a582d5"
                   },
                   "RelationType": 1,
-                  "Id": "3e1883c8-8e63-400b-bc97-62d84f08c9eb"
+                  "Id": "bfa7757d-9a2a-4f3a-beca-fcbfa313a411"
                 },
                 "Condition2": {
                   "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
@@ -148,10 +148,10 @@
                     "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                     "SerializeProperty": "=판매_견적서조회!AQ2"
                   },
-                  "Id": "658e09db-301e-4f4e-b782-4f8585d6dcea"
+                  "Id": "c835ee17-b829-43c3-a5ac-8f3b04db49b6"
                 },
                 "RelationType": 1,
-                "Id": "3896b157-78d9-4bcd-abf4-dc474f89f113"
+                "Id": "5dcf7630-8454-409e-ad89-fbedbd9b229a"
               },
               "Condition2": {
                 "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
@@ -164,15 +164,15 @@
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                   "SerializeProperty": "=판매_견적서조회!AQ2"
                 },
-                "Id": "48274ea5-b700-4cc6-80e0-3dc44ebd4d13"
+                "Id": "536e4dfb-9b26-41e1-abca-d96f81f3c456"
               },
               "RelationType": 1,
-              "Id": "1fcc758f-e86f-4d5e-ae79-e7fb44c423ab"
+              "Id": "b01b8338-26d8-46b7-896f-c5f8e6dc58bf"
             },
             "Params": [
               "=AQ2"
             ],
-            "ID": "b7558b1a815b4853be5482454ca80606"
+            "ID": "3bfc22d64dea4066b06720ae556c3f36"
           }
         ],
         "Text": "검색",
@@ -214,7 +214,7 @@
               "Order": 1
             }
           ],
-          "Id": "579f5c9d-28eb-4c54-986f-d558ebde8714"
+          "Id": "42d621fd-d0ae-4a6d-aa43-5d854308920f"
         },
         "CommitType": 1,
         "ListViewStyleName": "주문관리_리스트뷰_스타일"
@@ -238,7 +238,7 @@
         "ColumnName": "견적번호"
       }
     },
-    "5,5": {
+    "5,6": {
       "CellType": {
         "$type": "Forguncy.DateCellType, ServerDesignerCommon"
       },
@@ -363,10 +363,10 @@
                 "ColumnName": "ID"
               },
               "Value": "%Null%",
-              "Id": "44decfa4-84a8-4ba5-9f09-6cd02ea0a8d4"
+              "Id": "8a3a5820-2fbc-4127-ba81-b59e026e4e00"
             },
             "Params": [],
-            "ID": "f045f386746e46a49bfe6c4c602d1587"
+            "ID": "f620b2412b5d4c9dbbda8afeeebe0d97"
           },
           {
             "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon"
@@ -414,11 +414,7 @@
       {
         "FontFamily": 4,
         "FontSize": 13.333333333333332,
-        "WordWrap": true,
-        "BorderTop": 1
-      },
-      {
-        "BorderTop": 1
+        "WordWrap": true
       },
       {
         "FontFamily": 4,
@@ -427,7 +423,6 @@
         "BorderTop": 1
       },
       {
-        "FontWeight": 0,
         "BorderTop": 1
       },
       {
@@ -435,6 +430,10 @@
         "FontSize": 13.333333333333332,
         "FontWeight": 0,
         "Formatter": 2,
+        "BorderTop": 1
+      },
+      {
+        "FontWeight": 0,
         "BorderTop": 1
       },
       {
@@ -622,64 +621,61 @@
       "1,53": 4,
       "4,1": 5,
       "4,2": 6,
-      "4,3": 7,
-      "4,4": 7,
-      "4,5": 8,
-      "4,6": 9,
-      "4,7": 9,
-      "4,8": 9,
-      "4,9": 9,
-      "4,10": 10,
-      "4,11": 9,
-      "4,12": 9,
-      "4,13": 9,
-      "4,14": 9,
-      "4,15": 9,
-      "4,16": 8,
-      "4,17": 9,
-      "4,18": 9,
-      "4,19": 9,
-      "4,20": 9,
-      "4,21": 8,
-      "4,22": 9,
-      "4,23": 9,
-      "4,24": 9,
-      "4,25": 9,
-      "4,26": 9,
-      "4,27": 9,
-      "4,28": 9,
-      "4,29": 9,
-      "4,30": 8,
-      "4,31": 9,
-      "4,32": 9,
-      "4,33": 9,
-      "4,34": 9,
-      "4,35": 9,
-      "4,36": 9,
-      "4,37": 8,
-      "4,38": 9,
-      "4,39": 9,
-      "4,40": 9,
-      "4,41": 9,
-      "4,42": 9,
-      "4,43": 10,
-      "4,44": 9,
-      "4,45": 9,
-      "4,46": 9,
-      "4,47": 9,
-      "4,48": 9,
+      "4,6": 7,
+      "4,7": 8,
+      "4,8": 8,
+      "4,9": 8,
+      "4,10": 9,
+      "4,11": 10,
+      "4,12": 10,
+      "4,13": 10,
+      "4,14": 10,
+      "4,15": 10,
+      "4,16": 7,
+      "4,17": 10,
+      "4,18": 10,
+      "4,19": 10,
+      "4,20": 10,
+      "4,21": 7,
+      "4,22": 10,
+      "4,23": 10,
+      "4,24": 10,
+      "4,25": 10,
+      "4,26": 10,
+      "4,27": 10,
+      "4,28": 10,
+      "4,29": 10,
+      "4,30": 7,
+      "4,31": 10,
+      "4,32": 10,
+      "4,33": 10,
+      "4,34": 10,
+      "4,35": 10,
+      "4,36": 10,
+      "4,37": 7,
+      "4,38": 10,
+      "4,39": 10,
+      "4,40": 10,
+      "4,41": 10,
+      "4,42": 10,
+      "4,43": 9,
+      "4,44": 10,
+      "4,45": 10,
+      "4,46": 10,
+      "4,47": 10,
+      "4,48": 10,
       "4,49": 11,
-      "4,50": 9,
-      "4,51": 9,
-      "4,52": 8,
-      "4,53": 9,
-      "4,54": 10,
-      "4,55": 9,
-      "4,56": 9,
+      "4,50": 10,
+      "4,51": 10,
+      "4,52": 7,
+      "4,53": 10,
+      "4,54": 9,
+      "4,55": 10,
+      "4,56": 10,
       "4,57": 12,
       "5,1": 13,
       "5,2": 14,
-      "5,5": 15,
+      "5,6": 15,
       "5,10": 16,
       "5,16": 15,
       "5,21": 17,
@@ -2025,7 +2021,6 @@
     "29,1,1,3",
     "29,4,1,4",
     "29,8,1,4",
-    "5,5,1,5",
     "5,10,1,6",
     "5,16,1,5",
     "5,21,1,9",
@@ -2035,13 +2030,10 @@
     "5,49,1,3",
     "5,52,1,2",
     "5,54,1,4",
-    "5,2,1,3",
     "6,1,23,57",
     "30,1,1,4",
     "1,42,1,12",
     "1,55,1,3",
-    "4,2,1,3",
-    "4,5,1,5",
     "4,10,1,6",
     "4,16,1,5",
     "4,21,1,9",
@@ -2050,7 +2042,11 @@
     "4,43,1,6",
     "4,49,1,3",
     "4,52,1,2",
-    "4,54,1,4"
+    "4,54,1,4",
+    "4,6,1,4",
+    "5,6,1,4",
+    "4,2,1,4",
+    "5,2,1,4"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
@@ -2065,7 +2061,7 @@
         "$type": "Forguncy.Model.QueryCommand, ServerDesignerCommon",
         "TargetTableName": "주문데이터",
         "Params": [],
-        "ID": "f04fa04b48f7407daa4bb4abf16e7904"
+        "ID": "08ab94c0bc1346cea28970580e9fb5f1"
       }
     ],
     "AuthorizeInfo": {
@@ -2084,4 +2080,4 @@
     "ZoomFactor": 0.69999999999999973,
     "PaperSize": {}
   }
-}//vvHlwO4UVtjsA3LS+fhr6Dyte4/sKXCIhPNZibR//Ywa7sOrmUo9rIzCgJ4gWGB0L3NdM0iKace2zEMHEPxet344AXxu1W/oBx45SII5toKdhhRN+dQHuZK0OXU+j/5Bkx77d2GpEunz+cc26WPmGu4z6ywbEsqfGW+lv/I774DfA8aQonExrJcrQu6r/p61w3QbDWXrLZmRhlbpBcGBLX41OiH5hb9Kjq092+cWawunuw7M9pM2klZSXMrutsXUKJs58xz9ItpkjyPiGimMCx2sNV3iefFjc+xq2ArPKqpRGUbeOe8RP3EiWruD9uWrbGvmQPaWoMxbpGhlJXMAyPeJnw8HiVVdwj720HzPeQH0VLsrms8NTBu87u9b01WO09DLUKaU3+fP3vbZaErPd63ENtz3oQ6AOemlefX16ewBcgSLD6vmWBA+lY/EOmKCQZmHeoRkdgT9LEbFrPgNDlvM6fqYA0WVaeSKGmVWyPwyTwSvbobW5N07dW00E178xk9adpuxKTHHHpEX1Pa1tRgmqgPdbAZlt5mzqDvUtx0+ZNpm6Zz8Tlow1xpD606NRxUEgHeTef1tOtiy5AQ6FKIH6yF6Q8CZ7Fxdj2jWMXp8BJtjcSmzsLcylCSt6GtQyeGD+4ptkBeyXLXP8aSsX3EMh/dYCXl57F4WpsSJXUSw3s5yIossH/2CfcfPXYffzHrpJ6i2Qvvefa9dIg/7y2M5BGWgjtPJloN+/1uLifdEUuHxKOHqo5IBeUpfGIxMfaPnuS/2SWNoQxEAKqbHnUO3gVi3LAySFm+GYBWb690L4LHDkOqtRBxFAmnjgJRvtf6qBAvBrwLF8doh67IIC7IA2/g/mcUpmgia2MV50+5cEg7McKNOV50Aig4vgsJjM0ImriP4LYFW9EVQHtxmmA==|920
+}//WKiL+6ZRj89tJvtF+ClpBoxANlj0Hhm2BmhcEr1nHO7qiEcQfregErWLLU8tVj7cQ0QP9EFFC/fgBVdzh/i3bBup15FUENjvP1aHCx3XgTIAMwIzI46y88UFAOEIDDf5u+9eUut1ni7cb5ppXP2Fxo1sH9uwvTX5/YJkNHs6MfvlWYptkukCpgSqNWu4baBq1Ckqk7NkCpA0n9+SRa0Ym8PIdDEnT4bVZ4Gjz1CpkyAsKEfDRFE5hz/kHOSjX4rHZhLxLdQNH1qJVb+aFDr+0ryzlHcQo2dNFRMrhaekGJttbU6x9SzVF5SJWWp7Fr/4bEAcK/fiQYOdfY1Z5aEuQf0in9sav3pkT89pRJYytFu5n2UAeMusuv4gW1oNG2iwffv4JW3RVtnfnKE3q/uh83vyjK/NKMZlGR7PhhukCJSHn+JqwU0ZFfvP2zZJjzjQB9w8Ktn7cKC/uKiSrAvt5BL9yXGmfXqcQmyxD+GrMxgbED7Q7oBy/8FIJ9n6lI23NQOHMAPnCkkKjjil+Hwg63k4RkPZXUZEhqvGE8PVGz5xrM5UyXrPuuJCp23GAzf3SVbSQhp5fEjvs7+yM+RAtQbHAE/rrYLda7xmFgxRTEc9p9H/rkZOlQY5T8mT65FcuommFXv1l8PhYsknvz9ZkIGtf9/D3nzRAD0YLS4GmMnfgFxsQf26iXmjMrADH77ZdgjjCkmXjdCzZV7irDKByAeTHQRwDKxAu5XukvASrmC8mCleDOs+r1UNOXZcvGC7HEhjrPWfvdrxaho2t2V+0f+tF+8oGllBe9+oABNqQ2Q5ARO/rC9WhZsxGz5O4UbEzrZvntuc4RVfC46joxvhK7yDsJVID2gYKiCkmv+yag95Lh+AOnUVMsZMdWK4y+Y8tmGfPkVplsgmWIElCu6TpA==|920

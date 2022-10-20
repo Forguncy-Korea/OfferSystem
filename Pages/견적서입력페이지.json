@@ -165,7 +165,7 @@
     "23,4": "ODATA(\"제품?$select=품목코드&$filter=ID eq \"&IF(ISBLANK(O24),\"null\",O24))",
     "35,24": "SUM(Y24)",
     "23,27": "ODATA(\"제품?$select=가격&$filter=ID eq \"&IF(ISBLANK(O24),\"null\",O24))",
-    "35,41": "SUM(AB36,AI36)",
+    "35,41": "SUM(AP24)+AI36",
     "0,54": "IFERROR(ODATA(\"출하창고?$select=창고명&$filter=ID eq \"&IF(ISBLANK(AL11),\"null\",AL11)),\"\")",
     "23,34": "AB24*Y24"
   },
@@ -246,7 +246,7 @@
                     ]
                   },
                   "value": "%Null%",
-                  "Id": "91a98b44-dd54-40ae-8450-5babd549f5f8"
+                  "Id": "3682db19-aaa5-4914-ad52-fc2188388851"
                 },
                 "CommandList": [
                   {
@@ -265,7 +265,7 @@
                     ]
                   }
                 ],
-                "ID": "72f9a76b-f8c4-4cb3-a07c-0804d62e7e25"
+                "ID": "a9007dc2-17ff-4f22-9e7f-af4e36ae384e"
               },
               {
                 "Condition": {
@@ -280,7 +280,7 @@
                   },
                   "value": "%Null%",
                   "compareType": 1,
-                  "Id": "e9614403-4c01-417e-a2fd-6bd9fde17f67"
+                  "Id": "19bb4643-fe9f-477e-a8a3-af42b6339945"
                 },
                 "CommandList": [
                   {
@@ -299,7 +299,7 @@
                     ]
                   }
                 ],
-                "ID": "8439c291-3911-4554-84cd-25acefa24276"
+                "ID": "a52ff643-5f4c-4ddf-b6d8-917d629a282c"
               }
             ]
           }
@@ -386,7 +386,7 @@
                     ]
                   },
                   "value": "%Null%",
-                  "Id": "3745783a-d243-4c72-8982-e404166cd1b9"
+                  "Id": "59c33b33-ae9a-4156-a353-a8b451023c94"
                 },
                 "CommandList": [
                   {
@@ -405,7 +405,7 @@
                     ]
                   }
                 ],
-                "ID": "4728c9e3-7fcc-4179-a57a-98b01d92b0fe"
+                "ID": "1b522f43-cba3-470e-a88e-6bdadaef973a"
               },
               {
                 "Condition": {
@@ -420,7 +420,7 @@
                   },
                   "value": "%Null%",
                   "compareType": 1,
-                  "Id": "8f182752-ebc5-4058-8844-92747b6f547f"
+                  "Id": "bbf12ef7-54d8-47cc-b3ce-86342d2a093d"
                 },
                 "CommandList": [
                   {
@@ -439,7 +439,7 @@
                     ]
                   }
                 ],
-                "ID": "6fa71af4-50bd-4e84-ade2-341ca3ea4cc4"
+                "ID": "bcd52812-60ed-4ce9-a855-0d71e9075021"
               }
             ]
           }
@@ -750,7 +750,7 @@
                     ]
                   },
                   "value": "저장",
-                  "Id": "bc433dc4-1025-49da-a5b3-9b64072b9338"
+                  "Id": "aa1235ce-b13c-41e7-8b90-f69debb2dfd2"
                 },
                 "CommandList": [
                   {
@@ -886,7 +886,7 @@
                     ]
                   }
                 ],
-                "ID": "94f29772-da31-4b93-ac6c-47ecc447cdf8"
+                "ID": "29b68ae5-5a59-428b-acce-66cc92ea3be8"
               },
               {
                 "Condition": {
@@ -900,7 +900,7 @@
                     ]
                   },
                   "value": "수정",
-                  "Id": "a92a0ec5-71a4-471a-b0f0-0d3d6533a655"
+                  "Id": "2b86896b-b219-4c89-be8c-1f376620510c"
                 },
                 "CommandList": [
                   {
@@ -1028,7 +1028,7 @@
                     ]
                   }
                 ],
-                "ID": "cda4d411-5258-456e-9778-466e606f740f"
+                "ID": "a1d3ef24-0afa-4d87-808a-539e1d134b69"
               }
             ]
           },
@@ -2591,14 +2591,14 @@
     "10,49,1,2",
     "37,7,1,5",
     "37,13,1,4",
+    "24,3,11,50",
     "22,4,1,10",
     "22,14,1,10",
     "22,24,1,3",
     "22,27,1,7",
     "22,34,1,7",
     "22,41,1,7",
-    "22,48,1,5",
-    "24,3,11,50"
+    "22,48,1,5"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
@@ -2614,4 +2614,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}//G7fTxeqzBiXlQeZeCbZpZa5WRBIa7zCk694PnalczxNB/Fg0D/CnqozenkePblgj69xhxYPSriB2Z1a6pd3Q7uV9r22luU4katzektC8UycTVWefzckxhPFNiOMRIwcPMTRIH+f6DiJiFs9e0IZyij+LideA+OSE81oNZOUBoxvS7tnlh87ds7fAY3p2lBUGhBO+GWM266pGMAgJXlR75fJwVH9La69T5o8TiRvjJ82Gvu89APBhSdj5uEphTvuNwdft7URIkwaZ6wSx/xw4PB7K0rCW+RY1I1a53TliZY7N337g9TLX15CZjCCgEfaOeZV5Jc6pHIPdWTVnlVx5w2IfcksbPfueiIbPh0vaOJfU/wvoJJSfKNj3lPwplv9gvIjCdPSK/nL/Y9sreZtDRPVeICeONTECpH+VstqGwA1l1qsbtxR03+LRv61qzq4f7BZoDBrMXA6hFl0DNa4hvuiQafBNBEgK2jeYxC52pjRaWeFCpszScCxIKUgZvcE0tL8jMYzbT/vfqkuH8PBRhSEyaP88D+hx+7+LEfoq59j6NaeKKi00uJol/zN0GfwmAXtxBX+F68gml5TyZ3PEljBoAPdUTXNrgisxG98STtdXJGVpHnZ/B+fH6CxZqkrC3zaOriaMeCry3jpTgLB5Sym/l+FPcPAC8UWdu+lNgk4V00tJWmn6yCNQOJ45nNt7abM43iyHK8cNPD7EBzopYAXP8SI7EKZgNhdM0lCaTOTk+gCim8xWQWQBxqpAWDFnaFfDiSGt4A2BIba2swddybFcle4CK8v5G0WcspmDAMSgCwan5NH3d975u2PXn1c6KUxokq1HgmbB9k7cSjre1QpWUvj1x91dt89ASRo04Gf52sREzPTvEJWyl+6WMvWjmgVwjJLbQiDva1Cx5QJtqQ==|920
+}//lRmLNl21tEPC24mo1sgQnZshvh+Jug9zyCka7BAgwcKdogG4/Tv4+luuAKMA1aypqK0Qo8nMFwK7HHzgi83N4+zLcNkRaIk2kxABlAAGH8aOMzBNzIbsguOv6kAUCTMZURy/zKLTDB249J2JoauRY/cmZDZr5BEYn9VdQEYDD9uFknQbDNkNzStxsA1Mr1Rj+Gn+Z8TA32VetwSrYVaF5poWuG7vUW/4xowvx2OQyj3hneUQ+ttfhjhXTGSKfvicBJcdpRr+Sy73tghCLrTy04guLgLwS16w/1XWovgrzlukAVwgczLQ7nhva/kZWK4c0lchU1RQ3nDPQaW21CM8WYXEBxd//yjgkHBAwlUYM3M//TRwes9eLa7+12tq2EI2KDITwgpg7u1RcrtJBWoQvMRgvVQzFTBQdnQSfh+btajJDIgkZghKOrWCqmbEIGGDCqfPe5HnPbtdI35Ja1hVODOPgdw2BicXysbi9nAO+0lBLUuziTC8W1sVam1sw0L72G3kGpcqfv6jDh544Peq8ALC7M4dt9OGUEg+y0ZFR4YSE42Ctzwm7GsLeGL6XDEha/7f5StsvUh94G5RnXb5Mds9ARxHanXvoZRqC9Bm5CvVpzMgMjmjYY/q3KO4I8EauDpPEy/WaVbg+DhaSScv5sFOdqK1WCxArcDsbdd0sTgXZ7RejaXwia70MG4vtS7kJ/VoKg/Eq1uMqH4Ll1UE+bc4bnYLW7o3CBrdqkeXpgjjSn+bCKmXRnVDO5rEo1slzCFIhrHBJ0wYPc47u9b8+tI655V0sgVtrM5pnYJ4XEob8FYy8pY+7vUDbaza4hmyW23SidUh/6hJ4zLKOmtPCH50IYNGAkN6mn1wguNWPYPfi2b3j+mGp3ZAchjCFCOTOVkBMq+Ap9K0HuOxmn3/CA==|920
