@@ -193,16 +193,7 @@
   },
   {
     "ModuleName": "PCPage/견적서페이지",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "DESKTOP-LV3CTK1\\hdg89",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2022-10-20T16:00:17.2371651+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\견적서페이지.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/견적데이터목록페이지",
