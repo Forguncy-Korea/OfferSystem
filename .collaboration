@@ -243,7 +243,17 @@
   },
   {
     "ModuleName": "CustomLibrary",
-    "ModuleType": 12
+    "State": 1,
+    "LockedBy": {
+      "UserName": "DESKTOP-LV3CTK1\\hdg89",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-10-27T15:24:39.8797636+09:00",
+    "ModuleType": 12,
+    "ToRemoveFiles": [
+      "CustomLibraries",
+      "UserFile\\MainPageCSS.css"
+    ]
   },
   {
     "ModuleName": "ShareCommand",
