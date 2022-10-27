@@ -1,4 +1,25 @@
-﻿.Department1_up{
+﻿@font-face {
+    font-family: "나눔스퀘어 네오 OTF Light";
+    src: url("NanumSquareNeoOTF-aLt.otf");
+}
+@font-face {
+    font-family: "나눔스퀘어 네오 OTF Regular";
+    src: url("NanumSquareNeoOTF-bRg.otf");
+}
+@font-face {
+    font-family: "나눔스퀘어 네오 OTF ExtraBold";
+    src: url("NanumSquareNeoOTF-dEb.otf");
+}
+@font-face {
+    font-family: "나눔스퀘어 네오 OTF Bold";
+    src: url("NanumSquareNeoOTF-cBd.otf");
+}
+@font-face {
+    font-family: "나눔스퀘어 네오 OTF Heavy";
+    src: url("NanumSquareNeoOTF-eHv.otf");
+}
+
+.Department1_up{
     background-color:#6d7be2 !important;
     -webkit-border-radius:10px 10px 0 0;
     -moz-border-radius:10px 10px 0 0;
