@@ -330,5 +330,15 @@
   {
     "ModuleName": "MasterPCPage/주문관리 마스터 페이지",
     "ModuleType": 3
+  },
+  {
+    "ModuleName": "TaskScheduler/월초데이터",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "DESKTOP-SFEU14D\\NamHee",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-11-04T14:29:28.298021+09:00",
+    "ModuleType": 16
   }
 ]
