@@ -116,7 +116,6 @@
   "Values": {
     "2,27": "Date : ",
     "2,40": "~",
-    "5,56": "1=1BE10",
     "6,23": "개",
     "9,6": "매출 | Total Sales ",
     "9,18": "거래개수 | Deals ",
@@ -369,7 +368,7 @@
                 "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                 "SerializeProperty": "=메인화면!AF3"
               },
-              "Id": "9ae055e0-3e45-4f65-aaea-654dd35391bb"
+              "Id": "c9f9afc1-1327-4f09-9dbf-698e31ab92cd"
             },
             "Condition2": {
               "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
@@ -382,9 +381,9 @@
                 "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                 "SerializeProperty": "=메인화면!AR3"
               },
-              "Id": "2c171f95-7606-4840-bd85-08032d778d34"
+              "Id": "5c48f0a5-da80-4acd-8778-79854731b637"
             },
-            "Id": "73576ee4-e916-42fb-b617-7b806099c274"
+            "Id": "8259f28a-b904-44e6-b5f1-e393702e9bc9"
           },
           "Condition2": {
             "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
@@ -400,7 +399,7 @@
                 "SerializeProperty": "=메인화면!STARTDATE"
               },
               "LeftBracket": 1,
-              "Id": "7af30907-4111-4917-84e6-b6841386972a"
+              "Id": "b9a54f4a-5f73-49b0-a4fe-dcf0d4b9c59f"
             },
             "Condition2": {
               "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
@@ -414,12 +413,12 @@
                 "SerializeProperty": "=메인화면!ENDDATA"
               },
               "RightBracket": 1,
-              "Id": "6e920b2d-5e05-4eb1-9df3-81437eb6f1d4"
+              "Id": "afc30a84-4f8c-47b7-b391-8e8e1511edc1"
             },
-            "Id": "988e0bd8-8d31-45d7-a7d7-989525cd8fef"
+            "Id": "48f7174d-f4fc-4e1a-b338-2f2521431d44"
           },
           "RelationType": 1,
-          "Id": "e47e955b-1859-4fa6-8d3d-506db90b7b30"
+          "Id": "e4d553cd-e886-422d-897d-62b8c4c30d81"
         },
         "TopCondition": null,
         "ListViewStyleName": "대시보드_리스뷰_스타일"
@@ -512,7 +511,7 @@
                 "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                 "SerializeProperty": "=메인화면!STARTDATE"
               },
-              "Id": "dc5b3d37-78ff-43b1-8e68-a7cef21ed7b9"
+              "Id": "ac7c3537-e75e-449d-95d0-a7c3702aaafd"
             },
             "Condition2": {
               "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
@@ -525,9 +524,9 @@
                 "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                 "SerializeProperty": "=메인화면!ENDDATA"
               },
-              "Id": "cede5c96-aa97-4ea8-af42-38a9a20577fc"
+              "Id": "d858293c-00f4-4579-9a4e-726e18fe09ee"
             },
-            "Id": "db891071-3445-4dba-b18f-180ff34cc6fb"
+            "Id": "776b6277-9f73-4dfd-b43f-cd897b5153c8"
           },
           "Condition2": {
             "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
@@ -536,9 +535,9 @@
               "ColumnName": "종결여부"
             },
             "Value": "완료",
-            "Id": "ead2c52f-ce85-40f0-99f3-a4909a07f4a9"
+            "Id": "06faaa02-5180-4514-b5fd-76c1896b43a3"
           },
-          "Id": "18ae9291-afb3-492a-aa36-aeb3f5793305"
+          "Id": "625c0735-e0cb-49c0-8823-d8f69f3e7e62"
         },
         "TopCondition": null,
         "OrderByCondition": {
@@ -555,7 +554,7 @@
               "Order": 0
             }
           ],
-          "Id": "7774b8bd-d3bb-4033-9374-c872824e0ebc"
+          "Id": "62f48ca7-5cdd-4d86-ab04-4a16552920ed"
         },
         "ListViewStyleName": "_RS_Light8"
       }
@@ -3809,4 +3808,4 @@
       "Formula": "메인화면!$AF$3"
     }
   ]
-}//pNZTv7h4ikPPg/i733+bXuEcCHICDysI7zvXE+RRDtM95s/easfdTOYIJADrN9wPWtp9YS03cVPoC6lNZDq0NBmjIKuUTtvq4zwa5VnXWtSkKrf6jK18besnPmB+IHZhpF8FRMp4dLZjik4UxhV0UpHr/b38RQ2HZYix06Rv/aaHwCvLMRBSykAhJaYkqwCru54qQ/Gy4rsjvkUN6SdxEiqgkXPi+XcJ/t/mYhII4meirKB5tQA+UWWECgsd3EO9BdvMl+fE6pzYmHxQeQ9MlAr3niRZZ9h3P+AFXEQH70SQynHSaX1DfqV8XqPQI5YFpAGxOYClfBWYnWEgKAyWABTHe0cZ1/xsavolDLjE95qwtN+5AnMmG9ZPs3UG87VDI5kihjiDJ0k20nMU4Oi7bqZb4LbxmXKF8iHxDusUIymXX2DurT+0o3suYOueJD+RKhQkxlulliNS3e6eiwG3FZrXFmnp9g1yfAcGO79NjabNGJW7j1oiAerIh6u12HL2YPWQtRwJfT0NPkRY3NNz2wV0UI1CfLTaH9pqqrh5PjGHGsGBWZYg3OH2UalIrZ2m40VBNW6/fP1yE4iSo7Ry6d9EYZcZZ2r7mISQQAzQ4K0eBpn27AIaodoj/fVjYTAU+8X+WdgqLicmEArgJIrYHE1gJyNRmw/ce6LoorXn2aKLhbd0VBf2uDUKuWZTU+tTCPYPkoqkUSKHnE3TKjw5c5gAq9u5pJiV+piqWbBc53FYw81HQD8908m7zaEQUlkN8M7M4nEEg3vybvNa7P6xsudWf/AesPmAkfh3So8moeTNRLx4twW6xl4lMMxvV2O7uPMNdNg5pGlWywUjndt6nl9KLDv3dL4wclTH6zr5DUVB78cw7e/8fFHstKCMnWJOlfqPh/QWb61/bNxhDVd9Mw==|920
+}//pTaK/nBWg3JBcAdT3GDzAbabQspZ7wiChLjQMP/hX7qZYcJAMVnIFFFLROAckL3gL9NSAltJwRFyw9k6TUZ9HOFOEZ3wMjIp1vCB8V/Yjq6sxchWAoMr6TbXyjbQkp+0HLprWvayhpqvPjjJQ87I8BVTBybpQ0SJeTcM2YUVAOlvNizDbCTylumzfM0qpOfuxkLMIMOSx+MzK9PQ/1bjACruVn7E1AJOcqMfnqjdkIcsjmMuRsP6MphmBH7jkIK2rfSKddEp1NNttV823T1hrlHomRLqC1sBpn2etCs8V8Tcbc1TI4D8Yn89Uun7RnPqgsNIiTtvf+bUp+r1u0CmRRguoKSHFV+6ToTLzUPG50+it6aLeVbdSShcjbQ2po7ux9JfVBq8w0dmCgMKhYDhx/+fcv67Fy63UQiV1Zg2jFzCP29kQdNEj/9gKRM4AnnLxYHkc0I8kDD/2QpHLvD0tcmEM4KHVZpISqBlfrBlXCnxFNqHHdglylq2D+4zqDuVv7nItopSMoYQfQ0Qt7Rz7lE6sHaY6TShuWEoZEQ/VYTOCjCmI/nogOeuWtDd8RSnen2TpMvdXTqMEpntaRkxA91+fJiaZM5fVXHF4MiV5J8M8N4WxhTeTY545bPCgRSEDE3nlhQxVxMdWpN2VfvAIMXvLr5MUog8rfqSzR7EVHX2VOi2Myoyutz+jSiyc+iw4BalTtq7d1nsFNvq/pDrOxDUmc9I8VmYDGvSD/CHO0Aumx60tniKd2qdP2c27NpUbIwk6dNAoScb8ViQ3tzghA0pF5rUwwl3pp1Jm62QbvzhD0anml2C+mCyRm42n3UmVSENNOmoIQCAfgs47HeQjxTePsG0W2wDpY+m3PwghbUjMART+IadlZ5JuXOgsrWHtJdn9rt8s8i8HwLtJAjrJw==|920
