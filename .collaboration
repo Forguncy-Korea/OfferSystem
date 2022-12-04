@@ -333,6 +333,15 @@
   },
   {
     "ModuleName": "TaskScheduler/월초데이터",
-    "ModuleType": 16
+    "State": 1,
+    "LockedBy": {
+      "UserName": "DESKTOP-SFEU14D\\NamHee",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-12-05T08:44:54.6468706+09:00",
+    "ModuleType": 16,
+    "ToRemoveFiles": [
+      "SchedulerTasks\\월초데이터.json"
+    ]
   }
 ]
