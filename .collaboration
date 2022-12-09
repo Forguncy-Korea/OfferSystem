@@ -293,7 +293,22 @@
   },
   {
     "ModuleName": "CustomLibrary",
-    "ModuleType": 12
+    "State": 1,
+    "LockedBy": {
+      "UserName": "DESKTOP-SFEU14D\\NamHee",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-12-09T14:41:40.2483041+09:00",
+    "ModuleType": 12,
+    "ToRemoveFiles": [
+      "CustomLibraries",
+      "UserFile\\MainPageCSS.css",
+      "UserFile\\NanumSquareNeoOTF-aLt.otf",
+      "UserFile\\NanumSquareNeoOTF-bRg.otf",
+      "UserFile\\NanumSquareNeoOTF-cBd.otf",
+      "UserFile\\NanumSquareNeoOTF-dEb.otf",
+      "UserFile\\NanumSquareNeoOTF-eHv.otf"
+    ]
   },
   {
     "ModuleName": "ShareCommand",
