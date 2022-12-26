@@ -201,7 +201,16 @@
   },
   {
     "ModuleName": "PCPage/거래처등록페이지",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "DESKTOP-SFEU14D\\NamHee",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-12-26T15:27:27.4951836+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\거래처등록페이지.json"
+    ]
   },
   {
     "ModuleName": "PCPage/거래처목록페이지",
