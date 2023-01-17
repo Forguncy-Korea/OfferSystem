@@ -6,7 +6,7 @@
       "UserName": "DESKTOP-SFEU14D\\NamHee",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2022-12-05T08:44:49.2218946+09:00",
+    "LockDateTime": "2023-01-17T14:48:50.1218096+09:00",
     "ModuleType": 7,
     "ToRemoveFiles": [
       "Tables\\거래처.json",
@@ -21,7 +21,7 @@
       "UserName": "DESKTOP-SFEU14D\\NamHee",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2022-12-05T08:44:49.2218946+09:00",
+    "LockDateTime": "2023-01-17T14:48:50.1218096+09:00",
     "ModuleType": 7,
     "ToRemoveFiles": [
       "Tables\\제품.json",
@@ -36,7 +36,7 @@
       "UserName": "DESKTOP-SFEU14D\\NamHee",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2022-12-05T08:44:49.2218946+09:00",
+    "LockDateTime": "2023-01-17T14:48:50.1218096+09:00",
     "ModuleType": 7,
     "ToRemoveFiles": [
       "Tables\\견적상세자료.json",
@@ -51,7 +51,7 @@
       "UserName": "DESKTOP-SFEU14D\\NamHee",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2022-12-05T08:44:49.2218946+09:00",
+    "LockDateTime": "2023-01-17T14:48:50.1218096+09:00",
     "ModuleType": 7,
     "ToRemoveFiles": [
       "Tables\\출하창고.json",
@@ -66,7 +66,7 @@
       "UserName": "DESKTOP-SFEU14D\\NamHee",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2022-12-05T08:44:49.2218946+09:00",
+    "LockDateTime": "2023-01-17T14:48:50.1218096+09:00",
     "ModuleType": 7,
     "ToRemoveFiles": [
       "Tables\\주문데이터.json",
@@ -185,7 +185,16 @@
   },
   {
     "ModuleName": "PCPage/견적서입력페이지",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "DESKTOP-SFEU14D\\NamHee",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2023-01-17T14:48:50.1218096+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\견적서입력페이지.json"
+    ]
   },
   {
     "ModuleName": "PCPage/견적서저장확인페이지",
@@ -193,7 +202,16 @@
   },
   {
     "ModuleName": "PCPage/견적서페이지",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "DESKTOP-SFEU14D\\NamHee",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2023-01-17T14:48:50.1228025+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\견적서페이지.json"
+    ]
   },
   {
     "ModuleName": "PCPage/견적데이터목록페이지",
@@ -277,7 +295,16 @@
   },
   {
     "ModuleName": "PCPage/판매입력페이지",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "DESKTOP-SFEU14D\\NamHee",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2023-01-17T14:48:50.1228025+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\판매입력페이지.json"
+    ]
   },
   {
     "ModuleName": "PCPage/판매조회페이지",
@@ -289,7 +316,16 @@
   },
   {
     "ModuleName": "PCPage/거래명세서",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "DESKTOP-SFEU14D\\NamHee",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2023-01-17T14:48:50.1218096+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\거래명세서.json"
+    ]
   },
   {
     "ModuleName": "MasterPCPage/FGC_유저마스터페이지",
@@ -314,11 +350,31 @@
   },
   {
     "ModuleName": "PageReport/인보이스",
-    "ModuleType": 17
+    "State": 1,
+    "LockedBy": {
+      "UserName": "DESKTOP-SFEU14D\\NamHee",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2023-01-17T14:48:50.1228025+09:00",
+    "ModuleType": 17,
+    "ToRemoveFiles": [
+      "Reports\\인보이스.json",
+      "Reports\\인보이스.rdlx"
+    ]
   },
   {
     "ModuleName": "PageReport/거래명세서",
-    "ModuleType": 17
+    "State": 1,
+    "LockedBy": {
+      "UserName": "DESKTOP-SFEU14D\\NamHee",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2023-01-17T14:48:50.1228025+09:00",
+    "ModuleType": 17,
+    "ToRemoveFiles": [
+      "Reports\\거래명세서.json",
+      "Reports\\거래명세서.rdlx"
+    ]
   },
   {
     "ModuleName": "ApplicationSetting",
