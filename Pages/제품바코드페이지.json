@@ -1,6 +1,11 @@
 {
   "Rows": {
     "RowColumnAttachedInfos": {
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 41.0
+        }
+      },
       "3": {
         "GridRowColumnDefinition": {
           "DesignLengthInPixel": 55.0
@@ -14,11 +19,6 @@
       "15": {
         "GridRowColumnDefinition": {
           "DesignLengthInPixel": 27.0
-        }
-      },
-      "2": {
-        "GridRowColumnDefinition": {
-          "DesignLengthInPixel": 41.0
         }
       }
     },
@@ -71,13 +71,13 @@
           "CompareType": 8,
           "ColumnBindingInfo": {
             "TableName": "제품",
-            "ColumnName": "ID"
+            "ColumnName": "품목코드"
           },
           "Value": {
             "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
             "SerializeProperty": "=제품바코드페이지!C2"
           },
-          "Id": "f26df8e2-939e-4bd9-b5ed-13921e7b9f25"
+          "Id": "7764a370-27c6-4db3-9a6e-afa795b90236"
         },
         "TopCondition": null,
         "ListViewStyleName": "주문관리_리스트뷰_스타일"
@@ -301,4 +301,4 @@
     "ZoomFactor": 1.5,
     "PaperSize": {}
   }
-}//2QQWzdOBEPVS4zK1QaoWxTrZ6AcwA3sgBlMOFOrctvfQtrBW+jcfLE37+7FPcmL2tzXl9hDAQzml98gQHe5lyV2aZOEykqUw4CuhCdftZX4zoumdHsib5uHeUfElbHEKD8lEysgWYHo36zAQU6RS+oE6HYRqwCG2Q0FfIco7X8DY9oGvHiP2afum0XGeba8zdpsSoYhtlnYVFZBW58GBVw6m8f4CY/qh1/9GQR5g6KI5a657wuRGFazuT9wtyWMYJgTU+KJOeZrnHdv4V6GSeRQQYCPHddzj8WfUXyYmQIsHRvjMnJoTmMEOE+KTKRk5kUf8deYSMfWmmxdNkVuDLf1qKMjw50fytpZojuFffVv1HfPfGdjLKw8vdFQaSM95ueEssXuFjhcD3VyrSdhRRb+1HWLHvttgAyC4g6gzI7NXmCncAOfsPtVRFhSxTYDSZu3RjgOQUVW5KkOGJljDplG/lRz1naWNYjMsXgvIRioU4+Iw/1qFeBHFUDcZti6cP3lYk4faBesCVr64pEgTUiMxjCpll9EEwYHm3xBFCl2/K5bYKG9eB5DvWf152CcSiYpgzAjvzc4yEGZVl73vyXKlnv1mOvLXA2Nm0CtVP9UsMhdhiQVaMNZs+aElc3r04DBv4yYqWxcXNXBwEzc8Y1TUzqqUhHfRisL9x1iMTjXPnW8vgyIklUQC3HgZCkYUWexQ9b2mCd2YWoekqrDaN/cK+zdMFSAWWSnriEO9NOrzUjW7VgujCFlQn5S1aezvgjr+oF1QOvZ9KORa+m4H6Wsi/5HVAjqLWbLTgH7qQbKpwK4XJ3FxaU8PgN44Z4mSDzJ2DPcx1N+mopUM3DwpNKcRnaiW2a+2ybecNH51ImeGSz7+mE7ovp2e8sdxKoavTXhPcivCu80w/hwPztt64A==|920
+}//hXUfY+TkujNU/6GcVa1AuybILu1PQbm1BMubrsd5R4Nt6p3aLJgAR+8xv74PqvEQXbIwYk3LfGqYp5CTQ9f0ftBpO9XQiy/4z6HAT0Mx3V3DlIV/ueWsBplez2BWZO6SSUuUOSt4LY3Qk6N8yNcpV+JgCJxwFJH43GQZ+P/J6l7svfR4dzVAkjI5Cc6w7Kv76j02Hf0So8dhOZdBjfRbiLSSvcwPGV+MW3om3hs+k3uxhx0+Nu24XK8Eu/Ebhu9w/jiZmzTrK5zWoONYOnrJ7ubptbVICofj438UZ2PZ4mA4+2j1pX+efs3AiuNv4CWTJhZ5sT3iviiWtcVct5DphiOkqobzffdWzeyiZyhK1qPSKyiYlGiYdcUSUG4JgyYhsPIhs5wdm1qxMtzWuO9kAc2yGpZuNiLWMUgzibpNK1E1Eoeyh9XLHAQg/dkr9tKAdAHTF2BmxtBiGZjJ8+Er/m0VK7g7/htv6WjJ6lewVa3/ENOIa50jfnvH5SsNjr+XUmYCkS14XrJW1vqhn9gTeYpXdrMI1d4Zu0uRqEl8ppMP/0eF0K4tmqW3QTJRWQZDZzapvFgTlv3uNwG8Pz34N8x9kFnYF4IhenhgyC9u4P4SaHUVeMnlb2zytnFLfc3rOV09HZZ/opVASuksHe2veSpxcIWCvTc0U1jsnnKibSiF0PVgs4rvnHLXPVQAutCaz89s9wIYY+QBsV2EbEUFKL+2d/NZ8skVfIN6uQjxX5CtUr15d5VdU6nWPTIgV6hP1GWyzensUpLnaht9a9vzzvBiKfnlypFYhzYWhED2mhzHJF8Wt+xhynxewgIIiITd9EPvNCIqZq+YAZxLvkmBMY+EfJBTheUvNQeSXfYBGa3H1VvfryRgi+zD+lNB8fZDZntXxdI6wXCaUxZK3jl4rg==|920

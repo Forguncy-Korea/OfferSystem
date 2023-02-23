@@ -2,7 +2,24 @@
   "Enabled": true,
   "Triggers": [
     {
-      "$type": "Forguncy.ServerCommands.Models.DailyScheduleTrigger, ServerDesignerCommon",
+      "$type": "Forguncy.ServerCommands.Models.MonthlyAndDaysOfMonthScheduleTrigger, ServerDesignerCommon",
+      "DaysOfMonth": [
+        1
+      ],
+      "Months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
       "StartDateTime": 44835.0,
       "ScheduleRunInDebugServer": false
     }
@@ -16,15 +33,16 @@
       "RowsToUpdate": 1,
       "RowsToUpdateCondition": {
         "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+        "CompareType": 5,
         "ColumnBindingInfo": {
           "TableName": "주문데이터",
           "ColumnName": "견적일"
         },
         "Value": {
           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-          "SerializeProperty": "=TODAY()-180"
+          "SerializeProperty": "=TODAY()-170"
         },
-        "Id": "f4ad8372-007e-47a0-b6ad-5e9cc242e88b"
+        "Id": "ec95d001-8889-471f-9eeb-49387584007f"
       },
       "UpdateValues": [
         {

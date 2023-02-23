@@ -11,6 +11,11 @@
           "DesignLengthInPixel": 24.0
         }
       },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
       "7": {
         "GridRowColumnDefinition": {
           "DesignLengthInPixel": 49.0
@@ -39,11 +44,6 @@
       "30": {
         "GridRowColumnDefinition": {
           "DesignLengthInPixel": 31.0
-        }
-      },
-      "6": {
-        "GridRowColumnDefinition": {
-          "DesignLengthInPixel": 10.0
         }
       }
     },
@@ -225,7 +225,7 @@
                     ]
                   },
                   "value": "%Null%",
-                  "Id": "d368179b-3a8e-440e-a607-2cf4dc90d7ff"
+                  "Id": "77ef0c3b-5732-45a2-b7be-9c69a9cb64e9"
                 },
                 "CommandList": [
                   {
@@ -239,13 +239,13 @@
                         "ColumnName": "ID"
                       },
                       "Value": "%Null%",
-                      "Id": "8738e038-251f-4e6b-b467-80078ffe0ff4"
+                      "Id": "498ba16c-92ae-452b-848b-e4d69980ba10"
                     },
                     "Params": [],
-                    "ID": "bac5af66d70a4925992796358b49194b"
+                    "ID": "76dacf786e80483590db090b71199819"
                   }
                 ],
-                "ID": "cfc8ba0d-0a41-46d2-b613-25eb49212eab"
+                "ID": "cc7792d2-fdf0-4abb-b0f2-59133bea72fd"
               },
               {
                 "Condition": {
@@ -260,7 +260,7 @@
                   },
                   "value": "%Null%",
                   "compareType": 1,
-                  "Id": "fd40d217-984e-4873-bb68-fa2b87d3ac31"
+                  "Id": "dd46fafa-e89e-4a70-96ad-d53204b4c797"
                 },
                 "CommandList": [
                   {
@@ -279,7 +279,7 @@
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                           "SerializeProperty": "='제품_목록 페이지'!AX4"
                         },
-                        "Id": "53a69dd4-d830-452b-aadc-754d31dab5b8"
+                        "Id": "41be3a66-ca33-49bb-be2e-98cca4dc12a2"
                       },
                       "Condition2": {
                         "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
@@ -292,19 +292,19 @@
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                           "SerializeProperty": "='제품_목록 페이지'!R9"
                         },
-                        "Id": "b591fa08-fcdd-4136-b5e0-988603b9fdb7"
+                        "Id": "4f1bcf58-670c-45e7-b326-45ae3fee0bbc"
                       },
                       "RelationType": 1,
-                      "Id": "c59cd246-4b50-4af5-81a2-575bf74b59ce"
+                      "Id": "60ee1923-2e61-4175-bcad-dfde2db7aad6"
                     },
                     "Params": [
                       "=AX4",
                       "=R9"
                     ],
-                    "ID": "6470b3b016184220bf50072e1cff5850"
+                    "ID": "1613bbeb7fd04715ba8d618baad5ab5c"
                   }
                 ],
-                "ID": "bda29180-45d0-4a67-8052-7bdda8cbfc63"
+                "ID": "89f3b590-821a-49ef-bc7d-75d36776eebd"
               }
             ]
           }
@@ -513,7 +513,7 @@
                     ]
                   },
                   "value": "%Null%",
-                  "Id": "ed1f4995-1380-4f9e-8339-b445f082bb9b"
+                  "Id": "fb2880fd-1130-4eb2-980f-ec1e638f6963"
                 },
                 "CommandList": [
                   {
@@ -522,7 +522,7 @@
                     "PassValues": []
                   }
                 ],
-                "ID": "0b5cb77c-72a1-4ab1-bca4-835fe3c9ee0e"
+                "ID": "3e5b904d-0b4a-444a-90f2-c517908538b0"
               },
               {
                 "Condition": {
@@ -537,7 +537,7 @@
                   },
                   "value": "%Null%",
                   "compareType": 1,
-                  "Id": "12c87103-a661-4fde-876c-d47ce76272d3"
+                  "Id": "8c77fc3a-dadf-4561-8c98-baa6b5d88668"
                 },
                 "CommandList": [
                   {
@@ -555,7 +555,7 @@
                             ]
                           },
                           "value": "YES",
-                          "Id": "e88e86af-b6c2-4044-bd48-439b4133aac0"
+                          "Id": "10bb5374-b414-498b-b8b1-0d39039995b1"
                         },
                         "CommandList": [
                           {
@@ -577,7 +577,7 @@
                             "ListviewName": "리스트뷰1"
                           }
                         ],
-                        "ID": "324c1d84-478c-4633-9ece-30c33a42a359"
+                        "ID": "47fc80f2-0fee-441c-9024-0dd2dde115dd"
                       },
                       {
                         "Condition": {
@@ -592,7 +592,7 @@
                           },
                           "value": "YES",
                           "compareType": 1,
-                          "Id": "e3705d21-dc38-4fe1-88f9-35fccf7430df"
+                          "Id": "94e36953-f001-4329-94fd-a07c348b0e6d"
                         },
                         "CommandList": [
                           {
@@ -614,7 +614,7 @@
                             "ListviewName": "리스트뷰1"
                           }
                         ],
-                        "ID": "64dbaa8c-dcf8-45ed-bc7a-1d65374926f0"
+                        "ID": "c35cabf2-fd32-421e-9295-efa875e27cae"
                       }
                     ]
                   },
@@ -624,7 +624,7 @@
                     "PassValues": []
                   }
                 ],
-                "ID": "f3d99966-5dee-41a7-a135-c30947480bdd"
+                "ID": "09081efc-ab20-41bd-b01b-41bce9ed37a4"
               }
             ]
           }
@@ -2331,10 +2331,10 @@
             "ColumnName": "ID"
           },
           "Value": "%Null%",
-          "Id": "08864136-dc2f-4f79-b860-2ca46156664e"
+          "Id": "7ed8b8ff-cf9c-46f7-a6e5-b46daa3b71ad"
         },
         "Params": [],
-        "ID": "2715070ed9054fb8a3211ea416f7185a"
+        "ID": "fc5068b89e1247c68181dd6d8b989c9c"
       }
     ],
     "AuthorizeInfo": {
@@ -2347,4 +2347,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}//SC0rckFHazPiK6yWsy0HmHXrVDtqK809kkr2vPeIPaMHlX08QoAP0Rrvc/GER48o02SPkDTu62FgD7IU737XsIWldzmP/ZuKzFZ93vStf2UxIfwOZcz2M5v9kEiISfDOqdglhn0CboOVKo4H29fVv5MYW+A87e631kIRozmiog76/sMe5cVE/2tYdncuk+hWeBks+mngS9OQsUob/MF5MV7+N2q6cgS3lfSSf1AM43DV3lhMhnX0D2mb+xZ+JkaP/AG9FbimcoxsEiHIZSUv0VuHWR1mzxR1eas7Q9Uz7q5SwkPmI5lhUEFQfRooC76v4IjVFrLwbYdp/WhB33X3mRNdoW7cNaA7CmQgIWkCr9EFqXh2ThI/MEflmoHy75ePbD8+/2M8wewRckS6DU8IBgSnQoIgBIfQZG2dlJ1LRzEp+efUQ/R+R0PASNFOeTM0FpGd2S5aLCltB5vCPNraXL2C2Qn64KUefp5ZK0Nq+iXs+xbnoFYo8M96g3fTxvGU3NHZx9xYoymh/DBCXt79BE1g+vr6131eVHvsosHgGoERXBYLOy3buIeHneLXJfkM6/a/wm5Mo+aOElGbo1u10VdE/3bUGyO71ymk7Xzhxd1CxLLoaU7Kjc/IlQXuVkimw+b8W+5TrU2qMvnhFpYZS9SZPIz04VlJExH3wemvLBgMg5JWpTGlt/39potXxooHDFjb8ZVkBD7YLCe20PV9FT3wNinGn9YkN+pxW5yvxAepaPdXpishvd7rNWAWYoEQR+iPhnl0wYrQn0n4lhjWagh+jS4zvzqkyXwn15X1o63GybbjxWxpinHlqrmNfuIg0HCuqxlT8/n+qoBfbHTbxbIc7E0OfvD32XzufmDK0Rp8xlTSixQomX8kBvmbhA2tbfnjwZRzGLiRUCkb+q7EDg==|920
+}//acx2kDdXmX4QgLYkOODdOcN4/vWZ3N962Hx9y6u06U+0RcWJQNLEh8i+tf8glOuhJMcopLQ3LvC9zWiv64aXKPA/W9mIiHL5mqAppBoTiVPRqen1GSZ0QNIEJpejq6dx7dxaWHyxnxLzQoqGBdFDezIXakNYBsk8h5b0D/q7V+bChk2CCsB/xOhLP0iot0PZGId0ExnVeCrWtErPdn9TtfDpfJ0L59WO8ak2V8js6tviEb6i796xkutj8JohuW+jBA90LGBl/3s1QemvI/VzkZafWZjc1u4Q4hhG9styfsubZpi4ql4V/AgxVMdzoZaMryMDsbuK1+JSEDiqrKsfpgSTPdEnPXP+4lUHzovgkF/PW6GWUqn4vPAAZejDPzANiCIvlvA8t1khTUwRq7w2HqiatrSfwngBOBoERiCNc1tGxtMCP5InHAMnOuHr/yDRXVzpbB739NGupNPyrMDE+E1usnmrp7A+PjZc9EsdqoKII/KXsw/Ue5+EEK5OBZmmRVw8V5ZZHD58aw0BmBYKeQBxDCid8tRI+t0qnegYhdX/KjVDNO0vLVCQJJmUmKdClZEM1xmg8Q2u83xpfbLqxhKzTL416jgUiiYRIejfz3ySJHTSJJu+ggo8h45NJc58aLvXkDklBXHy2Quuxurb4CXcGmD9Yw04iKSB7TAeKkUo8wMnokKlX5Db3c7I7L5yoINc+09JGKf2qkdkX7qYCKKZhlCnoabTcTFHkgOxX+jz1AG3fwdxcCf6L7mElDVmPTvQpLkGCxmj4aa8GccfE5oXLfGvmKk7RvTvyaDvU12isybnEE/VA06qyLdojAoqvJRUeOO/BTQAyHNQQcFwhtdsAH3zYLVS3k2vFFgzyxoq45xk/RDfVE7+OAnf8J4Kj1uEDJtOSwF/zTWuLhWAOA==|920

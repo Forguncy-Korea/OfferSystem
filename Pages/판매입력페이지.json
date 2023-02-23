@@ -84,11 +84,6 @@
           "IsHidden": true
         }
       },
-      "47": {
-        "GridRowColumnDefinition": {
-          "DesignLengthInPixel": 25.0
-        }
-      },
       "34": {
         "GridRowColumnDefinition": {
           "DesignLengthInPixel": 44.0
@@ -102,6 +97,11 @@
       "45": {
         "GridRowColumnDefinition": {
           "DesignLengthInPixel": 32.0
+        }
+      },
+      "47": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 25.0
         }
       }
     },
@@ -293,7 +293,7 @@
                     ]
                   },
                   "value": "%Null%",
-                  "Id": "1ff9a6c7-626d-4008-acab-c06719f09880"
+                  "Id": "2598c43a-b40d-4290-9ba6-5051f517dcbd"
                 },
                 "CommandList": [
                   {
@@ -312,7 +312,7 @@
                     ]
                   }
                 ],
-                "ID": "ecc16584-ca27-42a3-b9c7-210902ebe5ec"
+                "ID": "c9576738-1ff4-4821-a76b-e39442b8561e"
               },
               {
                 "Condition": {
@@ -327,7 +327,7 @@
                   },
                   "value": "%Null%",
                   "compareType": 1,
-                  "Id": "d5a530a7-ac99-4ffc-9f1a-47d38d687ded"
+                  "Id": "f9953b37-d5d8-4c93-b59b-d922f16b5d51"
                 },
                 "CommandList": [
                   {
@@ -346,7 +346,7 @@
                     ]
                   }
                 ],
-                "ID": "9e350952-a811-4035-bdb8-9b06e9a7c737"
+                "ID": "cda4ac58-3e61-48e0-9504-a91e5d3b71ba"
               }
             ]
           },
@@ -360,10 +360,10 @@
                 "ColumnName": "ID"
               },
               "Value": "%Null%",
-              "Id": "acd3e029-3078-4f4d-ae00-58795afb4436"
+              "Id": "f62b85a0-f5ee-414b-8b4e-b46cabdd175c"
             },
             "Params": [],
-            "ID": "a8d592fa74f34ab8b5825dd624261ed6"
+            "ID": "5337cdc9c56e448690523651920af138"
           }
         ],
         "TemplateKey": "스타일4",
@@ -447,7 +447,7 @@
                     ]
                   },
                   "value": "%Null%",
-                  "Id": "93ab5daf-f851-4c31-bcc2-3719d26d558f"
+                  "Id": "9aa13f0b-2bd7-4e4a-8524-eb1541fb0a9e"
                 },
                 "CommandList": [
                   {
@@ -466,7 +466,7 @@
                     ]
                   }
                 ],
-                "ID": "936ecb55-3cfc-4bd3-8b30-f8458bbe16de"
+                "ID": "279db0ee-f85a-4356-b976-bc5ee218fc8d"
               },
               {
                 "Condition": {
@@ -481,7 +481,7 @@
                   },
                   "value": "%Null%",
                   "compareType": 1,
-                  "Id": "b3dab3f4-0ca0-44db-a5d4-b47071426379"
+                  "Id": "2f1ba0ef-c843-4300-9dd8-abb35843dce0"
                 },
                 "CommandList": [
                   {
@@ -500,7 +500,7 @@
                     ]
                   }
                 ],
-                "ID": "acf31ec7-fa68-4cba-ad39-747b822345b5"
+                "ID": "d1d08edb-a6f1-4d4f-a1f0-cc2606dcf636"
               }
             ]
           },
@@ -514,10 +514,10 @@
                 "ColumnName": "ID"
               },
               "Value": "%Null%",
-              "Id": "4d8b3350-98ff-4cfd-be39-7e6d65afd24a"
+              "Id": "1508cff3-f127-4ac3-a4b0-7aef73bf9338"
             },
             "Params": [],
-            "ID": "f82aeefd23de4357bad25d6b501e4395"
+            "ID": "5688e8cc25034497999d2d2162c2e805"
           }
         ],
         "TemplateKey": "스타일4",
@@ -668,10 +668,10 @@
                 "ColumnName": "ID"
               },
               "Value": "%Null%",
-              "Id": "707c36ed-b32e-45cd-8e03-f793b78541df"
+              "Id": "4a3845ca-f4b8-4fdf-92ed-fa1f8a57f8f0"
             },
             "Params": [],
-            "ID": "6c31848e33124b6fa8f77b64bd8fd1cf"
+            "ID": "d0392ae28d2c4c05ac886150ce742e1c"
           },
           {
             "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
@@ -717,13 +717,13 @@
           "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
           "ColumnBindingInfo": {
             "TableName": "견적상세자료",
-            "ColumnName": "견적_ID"
+            "ColumnName": "주문_ID"
           },
           "Value": {
             "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
             "SerializeProperty": "=판매입력페이지!A1"
           },
-          "Id": "e32ce622-0ad8-477d-91d4-ee13654bc859"
+          "Id": "1ab19ca8-efa4-41fd-a8db-996009e0d105"
         },
         "TopCondition": null,
         "CommitType": 1,
@@ -826,7 +826,7 @@
         "DetailListViewInfo": {
           "MasterTable": "주문데이터",
           "ColumnOfMasterTable": "ID",
-          "ColumnOfDetailTable": "견적_ID",
+          "ColumnOfDetailTable": "주문_ID",
           "DataCommitType": 2
         },
         "TopCondition": null,
@@ -929,7 +929,7 @@
                     ]
                   },
                   "value": "저장",
-                  "Id": "1e88f8e8-9fcf-46cd-833d-b171e517668f"
+                  "Id": "be279ece-c582-4acb-8bae-f2688f2092a3"
                 },
                 "CommandList": [
                   {
@@ -1037,7 +1037,7 @@
                     ]
                   }
                 ],
-                "ID": "de8d7abf-a29c-475a-bff8-5f373dcda64d"
+                "ID": "f4a91cc1-38e7-438d-91aa-5de2e2911989"
               },
               {
                 "Condition": {
@@ -1051,7 +1051,7 @@
                     ]
                   },
                   "value": "수정",
-                  "Id": "7cc641ce-4ae8-4360-885a-09e0313d919c"
+                  "Id": "447679b0-8d64-4d47-94d0-e95ab2e0d3b6"
                 },
                 "CommandList": [
                   {
@@ -1087,7 +1087,7 @@
                               }
                             ]
                           },
-                          "Id": "8b414945-feff-4898-aaf0-5cbe23922841"
+                          "Id": "6ad391bd-424b-4a00-948f-d306b91e9cf8"
                         },
                         "CommandList": [
                           {
@@ -1150,7 +1150,7 @@
                             "ListviewName": "리스트뷰1"
                           }
                         ],
-                        "ID": "ff966898-f716-4fdb-baf6-f6ad18a21246"
+                        "ID": "78ff0461-72fc-45f9-b4e3-2600a3e97ceb"
                       },
                       {
                         "Condition": {
@@ -1165,7 +1165,7 @@
                           },
                           "value": "%Null%",
                           "compareType": 1,
-                          "Id": "79e4c031-225c-42fa-a060-a07418336a94"
+                          "Id": "a8be78d7-b899-4782-887c-2bb5ecf78fb5"
                         },
                         "CommandList": [
                           {
@@ -1228,12 +1228,12 @@
                             "ListviewName": "리스트뷰1"
                           }
                         ],
-                        "ID": "5ade266f-59c0-4fab-9b81-07a668f24819"
+                        "ID": "ef511515-728f-40d7-962c-033dc8537c47"
                       }
                     ]
                   }
                 ],
-                "ID": "1b048059-1454-4d46-8953-c9c10d244af1"
+                "ID": "7ad8ef37-0d9b-4849-a4b5-076df02b04b8"
               }
             ]
           },
@@ -2827,4 +2827,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}//3jSJt8Kj/P8qhfDhBPT85+bLhSk8mK+WHPNU7rHW/p6YpcrqXDNZ5SP5zLsj8eIbLBiec1JJLcEv+qDGqHU5oENjQ9GVmdR/udiSIee+pvFcf0wr7aV9RugHjlvMguZQdpn7VDiqrzWe3jh9lqvkhhcw666wyrH9Oz76J51NWSV7nVq7uN+iYuBBdyZ/1wYy/xrOpzeXlADs75FD4Fp1cgfbz5jYw4bqK7kAHG+SuBCoOeDIIVdK8tru+usC+KkKxU6RgtrbyCN8O98pKZJNfiU0THe9h8A/+2/GgFBum+MxTpHQOiAhJe4inb1CAFadalOy7hncsZ65UuYg0Akyg7nHkKTFJF44sVcYJernO9a4e1YH48EoP/ilNri5yXE2Djj7I47X1jOMieVPy0qQ0SpzlJ4HkRs5PabAD33xQLfq7m7jgBaZDmp8mQlFVpp8Amac+GMaRwoN7q/g/UDwIgF/AKlgIgWBoiaAxmYZcEfGPgx+wvglu3UM42j2QvdYGYXOHAuWWkwghkBeNo1WcSpq3D5JFSQaf1RWqP2QwrxDXqy9c59NYEoPLtxBkWzG73PwYNbarzneu3n0g/dvXcfJ5Z925kaoWf/zbr2xpM/R/QRz9c1wDpNllyhb8GK1ov2vdd79ti3o5vTyt7HQZg4a7mlQ1xMmqP2S5cPwVeDxvf2cZNJcyzpqmTKZBxQGlEr3LgToCViaLYhXA5+s5lwceBE/SX8gb2qYXycG5ZAWFI/DdO6O8F/LFALHsLpk5npP23z8a4vpTGOZQtIUnttS7gdaSQJehUMKxUAldVKCbRo/VedHOxl4jD926Cy8N00l14zT4ryvY+BsdpO2TvCSkYn7le5tCXPv+/RVJISHvGkpbJh3rFHebEUS/km2Rfemuy3JBSXc/3XXD4/dlQ==|920
+}//ZIaFQ+Q3IxP8fMQUyXfpsKVO//ffsiHs2dlsKhREpEkIxtgJVJKHuZW7BVglekJgkucYFqIa2YigC4WSvhrX0u0fo+auxXf0JwLNO/aY7TteMf2I9XZJ9vxGTnoGKjFdCfQLNkB/rUxUZVcg6oLO9TRiJWAfiy2qZK4XIEIbK3mKt8l0zOROMUJSB4MJbQKClVwlZr6c8lkKHIbbRRaGSVWuyJ01pCQY9qaXi0H2n5ct4ZRkyMYd9U8BnRdjeZxG91myGmSEQOdzbTKq9oXWZrfzNqwVpLpxJkEddVomYSE6DDoX+cTPA2CWCnx2Rnqi/wbJDnNF65KEPkDGY9X/lZtqArt3/qwt4m/9u1pnild/wrp2lQMMI8j+9eSRa2EhrBczdHY0CXp5lr4UbIVOiL80MR+LltVHfQjbZcXww4hazOq8lN3RdnPPETM4xKRbubu2zGHSjE6sIvBR3ZGreKiONLM6LkkHEnTqSP0QNHA9YMBK+nTYbHO/dXWnBiseVol3+or/zp/CzZPMfdfoTUlqK3LTjqq6Qg0bVxNoYA+0WFGLNX+UdUmlANlFnqvcXIdLQ60sfZHRayAvPEnTtra/FtDCha3ciUBnHghKTmPePmSNu6j+AEMknLz6oQgf3WHnGVQgM9dKg2jEV7yvASbJmjOmgHqIDtRyikBMWdm1HqDRaDV6tpLtaKzDcP6L3C32UlOh/AhK1wWwDyArDrCNYTnBa5u9Kv9BdB8YJF+/WxNhvbc1KfrFjkSNcVPk5v32Z5WZceXyO7AgPdg5VvpBYaiJdZ4zJWKgSN09JFF3tuD9eJQoJjnr1VDca8suPvipIkAj5BIXupUv3tbKDoQD5H9W9o8/egutXxKsPfFR0pytnrj3tswe2IkfNSAOCrXlpVi4XTAQ8meS9vdwxw==|920
