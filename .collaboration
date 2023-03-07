@@ -126,16 +126,7 @@
   },
   {
     "ModuleName": "PCPage/견적서입력페이지",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "DESKTOP-SFEU14D\\NamHee",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2023-03-06T13:25:57.6577863+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\견적서입력페이지.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/견적서저장확인페이지",
@@ -243,22 +234,7 @@
   },
   {
     "ModuleName": "CustomLibrary",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "DESKTOP-SFEU14D\\NamHee",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2023-03-07T10:02:10.7963178+09:00",
-    "ModuleType": 12,
-    "ToRemoveFiles": [
-      "CustomLibraries",
-      "UserFile\\MainPageCSS.css",
-      "UserFile\\NanumSquareNeoOTF-aLt.otf",
-      "UserFile\\NanumSquareNeoOTF-bRg.otf",
-      "UserFile\\NanumSquareNeoOTF-cBd.otf",
-      "UserFile\\NanumSquareNeoOTF-dEb.otf",
-      "UserFile\\NanumSquareNeoOTF-eHv.otf"
-    ]
+    "ModuleType": 12
   },
   {
     "ModuleName": "ShareCommand",
