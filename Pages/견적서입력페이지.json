@@ -246,7 +246,7 @@
                     ]
                   },
                   "value": "%Null%",
-                  "Id": "84299cb0-efd4-4f8c-8fa6-8d9598fab6a9"
+                  "Id": "2ccba8a8-923a-4734-ae2a-3a4ead89dd06"
                 },
                 "CommandList": [
                   {
@@ -265,7 +265,7 @@
                     ]
                   }
                 ],
-                "ID": "e931847d-0054-461b-8f26-a80e771448df"
+                "ID": "ce330f77-8273-41e7-a14d-f889ccaa828f"
               },
               {
                 "Condition": {
@@ -280,7 +280,7 @@
                   },
                   "value": "%Null%",
                   "compareType": 1,
-                  "Id": "ba3aab45-3ae1-4ff1-bb8d-9b5f133aa8a5"
+                  "Id": "4b85c03a-2517-4ab0-a2ae-443a5d7ecf1e"
                 },
                 "CommandList": [
                   {
@@ -299,7 +299,7 @@
                     ]
                   }
                 ],
-                "ID": "6efa3da4-46f0-40ec-bb68-b2b6e5fead27"
+                "ID": "cde0b597-9c7c-404d-a1a2-2e87e1d59a54"
               }
             ]
           }
@@ -386,7 +386,7 @@
                     ]
                   },
                   "value": "%Null%",
-                  "Id": "c166a858-4c03-47c4-99fe-5ebcb0891b46"
+                  "Id": "df2ab824-c11e-4fa4-8fe1-00a4d544ad6f"
                 },
                 "CommandList": [
                   {
@@ -405,7 +405,7 @@
                     ]
                   }
                 ],
-                "ID": "56dbbfc2-d43f-4f4b-a461-52ab8273df06"
+                "ID": "ef9ad117-dd1a-439d-bf12-fa88afa9625d"
               },
               {
                 "Condition": {
@@ -420,7 +420,7 @@
                   },
                   "value": "%Null%",
                   "compareType": 1,
-                  "Id": "b796b524-e784-4884-a16b-b43926da9a83"
+                  "Id": "344166d2-66b2-4714-b502-28ebf0aafec3"
                 },
                 "CommandList": [
                   {
@@ -439,7 +439,7 @@
                     ]
                   }
                 ],
-                "ID": "901b8a12-e439-480b-8297-48692d192779"
+                "ID": "8131154a-5f51-44d1-acf6-26cda765fb5d"
               }
             ]
           }
@@ -750,7 +750,7 @@
                     ]
                   },
                   "value": "저장",
-                  "Id": "4e9fa2fe-98b9-4d97-87c8-253fc1b205d1"
+                  "Id": "9bdf73d3-c88d-41c7-a5eb-436131740c97"
                 },
                 "CommandList": [
                   {
@@ -760,20 +760,6 @@
                     "ShowConfirm": false,
                     "ConfirmText": "데이터를 추가하시겠습니까?",
                     "UpdateValues": [
-                      {
-                        "ColumnName": "견적일",
-                        "Value": {
-                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "=견적서입력페이지!O9"
-                        }
-                      },
-                      {
-                        "ColumnName": "거래처_ID",
-                        "Value": {
-                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "=견적서입력페이지!AL9"
-                        }
-                      },
                       {
                         "ColumnName": "제품_ID",
                         "Value": {
@@ -786,76 +772,6 @@
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                           "SerializeProperty": "=견적서입력페이지!AP36"
-                        }
-                      },
-                      {
-                        "ColumnName": "출하창고_ID",
-                        "Value": {
-                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "=견적서입력페이지!AL11"
-                        }
-                      },
-                      {
-                        "ColumnName": "첨부파일",
-                        "Value": {
-                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "=견적서입력페이지!O19"
-                        }
-                      },
-                      {
-                        "ColumnName": "거래유형",
-                        "Value": {
-                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "=견적서입력페이지!O13"
-                        }
-                      },
-                      {
-                        "ColumnName": "결제조건",
-                        "Value": {
-                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "=견적서입력페이지!O15"
-                        }
-                      },
-                      {
-                        "ColumnName": "견적유효기간",
-                        "Value": {
-                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "=견적서입력페이지!O17"
-                        }
-                      },
-                      {
-                        "ColumnName": "통화",
-                        "Value": {
-                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "=견적서입력페이지!AL13"
-                        }
-                      },
-                      {
-                        "ColumnName": "참조",
-                        "Value": {
-                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "=견적서입력페이지!AL15"
-                        }
-                      },
-                      {
-                        "ColumnName": "유효기간",
-                        "Value": {
-                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "=견적서입력페이지!AL17"
-                        }
-                      },
-                      {
-                        "ColumnName": "Contact",
-                        "Value": {
-                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "=견적서입력페이지!AL19"
-                        }
-                      },
-                      {
-                        "ColumnName": "담당자",
-                        "Value": {
-                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "=견적서입력페이지!O11"
                         }
                       },
                       {
@@ -886,7 +802,7 @@
                     ]
                   }
                 ],
-                "ID": "ad19a785-78a2-4560-8c6a-9e9f2bf9a40b"
+                "ID": "1b0f33ab-f482-4039-a3e0-d40551eb3026"
               },
               {
                 "Condition": {
@@ -900,7 +816,7 @@
                     ]
                   },
                   "value": "수정",
-                  "Id": "cdc4a89f-2d8b-430e-9c65-82252315a8ed"
+                  "Id": "f3022247-b452-493f-8d36-39233cb4e761"
                 },
                 "CommandList": [
                   {
@@ -909,13 +825,6 @@
                     "ShowConfirm": false,
                     "ConfirmText": "데이터를 업데이트하시겠습니까?",
                     "UpdateValues": [
-                      {
-                        "ColumnName": "거래처_ID",
-                        "Value": {
-                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "=견적서입력페이지!AL9"
-                        }
-                      },
                       {
                         "ColumnName": "제품_ID",
                         "Value": {
@@ -931,73 +840,10 @@
                         }
                       },
                       {
-                        "ColumnName": "출하창고_ID",
-                        "Value": {
-                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "=견적서입력페이지!AL11"
-                        }
-                      },
-                      {
-                        "ColumnName": "견적일",
-                        "Value": {
-                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "=견적서입력페이지!O9"
-                        }
-                      },
-                      {
-                        "ColumnName": "첨부파일",
-                        "Value": {
-                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "=견적서입력페이지!O19"
-                        }
-                      },
-                      {
-                        "ColumnName": "거래유형",
-                        "Value": {
-                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "=견적서입력페이지!O13"
-                        }
-                      },
-                      {
-                        "ColumnName": "통화",
-                        "Value": {
-                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "=견적서입력페이지!AL13"
-                        }
-                      },
-                      {
-                        "ColumnName": "유효기간",
-                        "Value": {
-                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "=견적서입력페이지!AL17"
-                        }
-                      },
-                      {
-                        "ColumnName": "Contact",
-                        "Value": {
-                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "=견적서입력페이지!AL19"
-                        }
-                      },
-                      {
                         "ColumnName": "견적공급가액합계",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                           "SerializeProperty": "=견적서입력페이지!AB36"
-                        }
-                      },
-                      {
-                        "ColumnName": "견적유효기간",
-                        "Value": {
-                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "=견적서입력페이지!O17"
-                        }
-                      },
-                      {
-                        "ColumnName": "담당자",
-                        "Value": {
-                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "=견적서입력페이지!O11"
                         }
                       },
                       {
@@ -1017,18 +863,11 @@
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                           "SerializeProperty": "=견적서입력페이지!AI36"
                         }
-                      },
-                      {
-                        "ColumnName": "참조",
-                        "Value": {
-                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "=견적서입력페이지!AL15"
-                        }
                       }
                     ]
                   }
                 ],
-                "ID": "1ec16ecf-89ae-4cfb-99b3-4212b02b5ae7"
+                "ID": "32d2f9e3-7f76-4f30-a7cc-8afd148b3ce5"
               }
             ]
           },
@@ -2614,4 +2453,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}//XGN1ZzYhucWeOZ06wDNGBmmhjr1u65dMihGSdPENznJNGBzykjPezLKwSKoKq43p5NCrTCKhxiOvSJnzAl0xN7v2KDIucRAvZp5SGozYAhc/NTD0NfoJWKDEUpfnm0T5tdO4J7ZIwtRglnxV7jTsk9EQOPTVXKFGU/zil4lfVT2Tqq713uF4fxsyTwIcSoFrxhK5S0ycD10jOdTtjFIg004AWjK20wosi6LThnm0AX9MSk0M64K2D0vqFgfdy2pZu6FPOzVhknSzaDLzMGarX7P1/vAs664cSELYxjs1hTNluST6cWMWl4Ez9mg4v123U4ARzlxu1tkdTXTNzebzbMx1VxX6fA0Fdbhf8iPs3yf3eAt2vgzbdSaTyLq0/Y8rXFk94dcdzMBqglz767ZeWDyAKNhQMM+h2Jiqkb6zdexzp8BR5aDUzBuxWdsZEpDYEBiCsRyeZRwncLwqsWSdt/8MtTcHFtS081Bow124fTD5Hn+tp6H/uXydPMLJfjPD+xntus0x4d7DjjrCwDvxPK9y90Dy4hqzPKyaLJB41UdMLTZDLrfc73amCUgWQA9m/Z54t5UPJnB6FwVMBgcVSncRDrooagPl5d9QT2GUL8g11sIeApxhyfEHkFs8nBuphz67kH+TmixC23t+3UtxyrnosYp7iTmlwHThy6or8WWnaPuyOWPAA71T1Hiqhj16rx+t5s0ckQ4AyU+cS5kvjzD5f6GdFcLCTQsDFUhq/q2dtgdsg52K36OMZAjGL8KSfz+H96qgtQm8pgfoKagRq/SoPPkWtPKs6DS9tReeFjGciKgYWxcLS/Z37T2yCpZrpVZtw00mS6GjTekIRh7GilP3taQYRm9vguk9vFGkB8L6zOuG+qEESkbzLrk7fz/cB9LV8zCUPSZBxgSHmgUi3Q==|920
+}//gCk2/ncYIMC1tkYt201Syg1JMyHyFO8KjjkhV4NnBy+tDlVxAXouVURs+tLdwfEI+StsnuiXmDOyXqIwpHLrsVQTDA1e41SZyytHUi6jAgrSNq3jKicCpYINvfDoGwfFW+5HEzb8/a2lRdjlEk1ll2GBzAr4ld1egOfJcD0u9h+r5bwa8iLMvbtUlmmM7RurwHOAgbHq9Y4LbWA+LdBW1/ceNvIvMbteu5cHaVlzlpuNf0i4kt8k7ekYxGaKH8pRibTBVetYt+u75EsGd2qGOxxTdOKuk0RJ/xoKFjvI23JqX5+EOMC1EmepNvqMS6jVaBvrfJb+kex3PoUV7di6QU8xi+32+nyD0WbvTJ2pvn5H5xrpyENQ0eK7sh2ZeBHa7FIhK/qtDI9vFi1u6jooFuLn4nyiSXLF4Bge6bSDARrtIXTT+8VpSZgrWOZqMZTqKxtkxW+zcnve69Z7SvuOKbFUtR6Bo846U6dEzDCmic4FMvvh+WRsvzJqiABdtlWWFApZE76UD8B75+5PVnfjbI03k4H1WFhgsKFGB+yJYLCyYVhgNmjs8sOD+oP9puQZfWHmVUDHkO2tc9NfbKWO3yWMmQXKbUZlczqjLScpDjPuIFnQq2UZcUe4rRGOgWL5bU9aAeydoCGXR9hf4CUvHK1B6EE5WU6pICnG3iN72W6FdTBNClixjR2LE8u6e1/QNZ2Tbr0ecEqREbg6/eXPiZe8QhEf9jaHvZxKDPGCTHVdhXOncJWMCv0Mzb62MWediCphSrU9yrt9l5ec0wJPb+TUjRXQmC6wC+PwLbn/kNyIRs6OyBIv0QTgbZtiVPmzAFbwwBt2UsMtPDVJDh7TjE6SZ0Wi55KmIQuhggOyUjBv14BZoUr4xYkI3p+O+/CsgNtHYtyK5rVhWJxJ8B9yog==|920
