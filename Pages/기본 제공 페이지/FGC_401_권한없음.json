@@ -30,7 +30,7 @@
   "StyleDatas": {
     "Styles": [
       {
-        "FontSize": 37.333332061767578,
+        "FontSize": 37.33333206176758,
         "VerticalAlignment": 0
       },
       {
@@ -99,8 +99,36 @@
     "12,12,2,24",
     "10,12,2,24"
   ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "MasterPageName": "FGC_유저마스터페이지",
+    "MobilePageName": "FGC_401_권한없음_모바일",
+    "Title": "401페이지",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_Anonymous"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "IsBuiltInPage": true
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  },
   "BackgroundPictures": [
     {
+      "Name": "2e7e546e-a7f1-4e86-b8d4-dcb02575df77.png",
       "DisplayName": "배경 이미지1",
       "StyleInfo": {
         "Fill": "Background 1 -5",
@@ -109,22 +137,8 @@
       },
       "IsAutomaticStroke": false,
       "IsAutomaticFill": false,
-      "Name": "2e7e546e-a7f1-4e86-b8d4-dcb02575df77.png",
       "Location": "200,80",
       "Size": "540,360"
     }
-  ],
-  "PageInfo": {
-    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
-    "MasterPageName": "FGC_유저마스터페이지",
-    "MobilePageName": "FGC_401_권한없음_모바일",
-    "Title": "401페이지",
-    "RowBreakLines": [],
-    "RepeatRangeSettings": [],
-    "IsBuiltInPage": true
-  },
-  "PrintInfo": {
-    "Margin": {},
-    "PaperSize": {}
-  }
-}//c4/RWoVc11cPUXHYIuaQCcLVSzJ7oeZiRAPx31AyprVoh0jVOydEciddmlBaQQvIvJ70l4KSnt7+p0N7YNgav55wNGYbMsKMdzIarBaTScM0f09yDYjsAsBfVBCfTvnFyD2uLi69khpIPpKxeFrvFj8fc2IUwDBpxxOV68MdH0n3BkvYXmmc/q/dkXV5QJH1V7E60QSALY8IyUgZ+0dj/X1aSdMLBGeJJP0SjERfadaZ4KHEsdCa8yPiWnZ5IiHhjrd76DrgO+Y7IXhmbH1Ufk6cGHTpVskyaYltmhcF/vVE3KRF2gTHtr7aInIBQw+4f0cgwNSm6qN717Ce9b5kvWNyuW0d5lfBU//hrROIq2eYzx6x5Z595kf9UuybrSKl3fkJBdq/Q8urRuu/AoGgrdt9JPORTjcKDCQvs5mCaFPU6/SQ5Uoc7YgaMQvmgEhgCgWSOglBgRXgmSMcpR2dShHrcFqSVNvFQKTvmv7I2DKEYTszT7Y2nyO5VTcJD9yphXtaLUvn6UTWpB0i5Si25aQi1bSWetvQrWIo8v04ebtZHaBgvTxIWY7+5V/gOFv7/w5gg/lq9U6p2v0WCves4AxxM5EDISCK/ytCIIpCy16qSB6hIu2HDcy4+Ra4o+sjuQ+I0LU5pxyDXAQ5prvOf1WXxDuDniErwE2mdQH5rgmhw0Rtw0uCDRgkDIAG326fWU3bfNDjOC5sxuzMkU7jsTRCWJcR/VrbobMI5ZkBQP9cbeZlFQHHFYULCnko0DTuzPn0fOx7CnTFfOYfe8FVz4zYY+sJygsAfUd3gCk7gGAWFQsrK2G/i35VYYTte+3V2+mHwjLy8Q1S/avcajsJ05CRyxjPBfDLvWuLAFWgVh6Q9FesyOGiYgbcgqM82BZ26iH2MeO3MSXulZeVjBLp9g==|920
+  ]
+}//ajXPUwZltNzaAUgBpDPDmYwUauu82lw81NY73MOO11fMLL5VDBYyVuR63CWEH7n2cdY2eUbKBIZKApfGCeLIXhQA7hyryxiIfuOhUK/VTQPPi0qpEWIN8gh/3LIpR90UqrHYcjCC8PyHFq5Ehrrh2DHrw24Rs1Y8F7BDZRWKmwy4mqrSECxKXw6G75KhTqzBy2YVrZ3nEex+VixH3saZzQJSrzkWH+GftIj/GqITxJWihbYeQOBhctTy/F91Ibqmoef9aRL6I8V5wDzYNPbtuwCIF5hjB9MjmVYJXKD7ZPNrAkRdG22AXPQd3org8Mew/mHelVn6SdpbSnuq3S9xNY0wlsoH7BkdHbJ8ju08SGCpJHWGnrudz8vIj2hty8wZzksyj5hrfV+fAK3rOrU/HAq9qNIQmOrEpBcH6nOpybLcoUMheQOEz2NE0LasswvvVaQZRP8fGmO5dU6abTmTcjcGqFPYNb/v64qjIS2MCWmDXnp7O+RWZIdpGX387y/zZnpiipAAY8Cy4SuwRTv9gB1pRs8nUUA/taQ0HhlxMa1sEoQPEXMXe/CFlFEPYB+HIy3+lVkAVt7BsRRrN9xSPo30TtDGGt6L58O/72a3WI0jZD8rTO5u6kO5C2PkKBmBCP+JS6aFhFzEUrotKPwzs6mqwF3USWJg4vlfDdKb6awrO8RhAQaVqn9Oj8H9XSY2qtmXPGF0nZK4vk4imgYVUjqBoI38CDFfgh3hNXNMkWoOUZ0bkpzHrh+kjtkAcB0GIxpiWYCPKVY+LDa3e0fV3lYIfgD8iMIbMazMWddwZ2Rw2JwI3V+7WpwnyGQAhinxfbRIPKNrRLukMsYxfi9XxzEr6cIhuCEtwIMlZ9ZcExYQwOwW6dd6LPT72MNEtqWygv4irznoY/h6YitjZhat5g==|920

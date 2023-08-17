@@ -172,60 +172,51 @@
     "0,0": {
       "BindingInfo": {
         "TableName": "주문데이터",
-        "ColumnName": "ID"
+        "ColumnName": "ID",
+        "GUID": "6f426dd2-08b5-4e7d-850d-a535258f116a"
       }
     },
     "8,14": {
+      "BindingInfo": {
+        "TableName": "주문데이터",
+        "ColumnName": "견적일",
+        "GUID": "30d34dd7-dabe-4819-9866-5a70ca464ebd"
+      },
       "CellType": {
         "$type": "Forguncy.DateCellType, ServerDesignerCommon",
         "CellDefaultValue": {
           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
           "SerializeProperty": "=TODAY()"
         },
-        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
-      },
-      "BindingInfo": {
-        "TableName": "주문데이터",
-        "ColumnName": "견적일"
+        "TemplateKey": "스타일2"
       },
       "DataValidationInfo": {
         "IgnoreBlank": false
       }
     },
     "8,37": {
+      "BindingInfo": {
+        "TableName": "주문데이터",
+        "ColumnName": "거래처_ID",
+        "GUID": "03fc8108-69ba-484f-b1d9-c020aa959a10"
+      },
       "CellType": {
         "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
         "ShowDropdownButtonWhenGetFocus": 1,
-        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "TemplateKey": "스타일2",
         "WaterMark": "거래처",
         "IsBounding": true,
-        "Items": [
-          {
-            "Value": "항목1",
-            "DisplayValue": "항목1"
-          },
-          {
-            "Value": "항목2",
-            "DisplayValue": "항목2"
-          },
-          {
-            "Value": "항목3",
-            "DisplayValue": "항목3"
-          }
-        ],
         "DataSource": "거래처",
         "ValueColumnBindingInfo": {
           "TableName": "거래처",
-          "ColumnName": "ID"
+          "ColumnName": "ID",
+          "GUID": "ee817e10-8223-42c2-a996-fdc9e7d700ca"
         },
         "DisplayColumnBindingInfo": {
           "TableName": "거래처",
-          "ColumnName": "회사명"
+          "ColumnName": "회사명",
+          "GUID": "9a8b0b20-3518-435e-a21a-c81cb56d459e"
         }
-      },
-      "BindingInfo": {
-        "TableName": "주문데이터",
-        "ColumnName": "거래처_ID"
       },
       "DataValidationInfo": {
         "IgnoreBlank": false
@@ -249,8 +240,7 @@
                       }
                     ]
                   },
-                  "value": "%Null%",
-                  "Id": "d1036d99-983f-4e89-9fb9-caaa47fbbb4a"
+                  "value": "%Null%"
                 },
                 "CommandList": [
                   {
@@ -266,10 +256,11 @@
                           "SerializeProperty": "=거래처검색페이지!I3"
                         }
                       }
-                    ]
+                    ],
+                    "IgnoreTargetPageCachedCurrentRowInfo": false
                   }
                 ],
-                "ID": "970ff757-ad60-4e80-9b6e-3be3a8e426c4"
+                "ID": "a60443e9-9d48-4f0c-b14a-b2249f68ae4e"
               },
               {
                 "Condition": {
@@ -283,8 +274,7 @@
                     ]
                   },
                   "value": "%Null%",
-                  "compareType": 1,
-                  "Id": "69bdbcb1-e09e-4c7c-96a2-9a83e6785032"
+                  "compareType": 1
                 },
                 "CommandList": [
                   {
@@ -300,10 +290,11 @@
                           "SerializeProperty": "=거래처검색페이지!I3"
                         }
                       }
-                    ]
+                    ],
+                    "IgnoreTargetPageCachedCurrentRowInfo": false
                   }
                 ],
-                "ID": "1806d8da-e7ba-43d9-ae4a-d95a0ac437fe"
+                "ID": "866baa0c-0e33-44b8-9075-4285bbaed8a8"
               }
             ]
           },
@@ -314,13 +305,12 @@
               "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
               "ColumnBindingInfo": {
                 "TableName": "견적상세자료",
-                "ColumnName": "ID"
+                "ColumnName": "ID",
+                "GUID": "75ea5034-6b95-4604-bc5f-b0c1ea2d223d"
               },
-              "Value": "%Null%",
-              "Id": "20e5b601-5b61-4a7e-afde-96ac94db9c3a"
+              "Value": "%Null%"
             },
-            "Params": [],
-            "ID": "00b753494ddb463ba9b227dbfd119e4b"
+            "ID": "2435cf33b05e4a07b4d36c2df7bcb9dd"
           }
         ],
         "TemplateKey": "스타일4",
@@ -333,6 +323,11 @@
       }
     },
     "10,14": {
+      "BindingInfo": {
+        "TableName": "주문데이터",
+        "ColumnName": "담당자",
+        "GUID": "41273716-c5eb-4026-b030-cab87edbdd24"
+      },
       "CellType": {
         "$type": "Forguncy.CurrentUserCellType, ServerDesignerCommon",
         "CellCustomValue": "%CurrentUser%",
@@ -342,46 +337,31 @@
         "NavigateSettingWhenLogout": {
           "NavigateWhenLogoutMode": 1
         }
-      },
-      "BindingInfo": {
-        "TableName": "주문데이터",
-        "ColumnName": "담당자"
       }
     },
     "10,37": {
+      "BindingInfo": {
+        "TableName": "주문데이터",
+        "ColumnName": "출하창고_ID",
+        "GUID": "64cb06a4-06ca-4231-89b0-66418e34cb88"
+      },
       "CellType": {
         "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
         "ShowDropdownButtonWhenGetFocus": 1,
-        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "TemplateKey": "스타일2",
         "WaterMark": "출하창고",
         "IsBounding": true,
-        "Items": [
-          {
-            "Value": "항목1",
-            "DisplayValue": "항목1"
-          },
-          {
-            "Value": "항목2",
-            "DisplayValue": "항목2"
-          },
-          {
-            "Value": "항목3",
-            "DisplayValue": "항목3"
-          }
-        ],
         "DataSource": "출하창고",
         "ValueColumnBindingInfo": {
           "TableName": "출하창고",
-          "ColumnName": "ID"
+          "ColumnName": "ID",
+          "GUID": "e83f6ed9-b533-4b70-aa75-6d767f3d1cc6"
         },
         "DisplayColumnBindingInfo": {
           "TableName": "출하창고",
-          "ColumnName": "창고명"
+          "ColumnName": "창고명",
+          "GUID": "56f94f00-b5d8-4946-b6cb-f56f3b129a6f"
         }
-      },
-      "BindingInfo": {
-        "TableName": "주문데이터",
-        "ColumnName": "출하창고_ID"
       },
       "DataValidationInfo": {}
     },
@@ -403,8 +383,7 @@
                       }
                     ]
                   },
-                  "value": "%Null%",
-                  "Id": "d99f4ec0-5d2c-4b6f-a671-bb53c7d74c2c"
+                  "value": "%Null%"
                 },
                 "CommandList": [
                   {
@@ -420,10 +399,11 @@
                           "SerializeProperty": "=출하창고검색페이지!I3"
                         }
                       }
-                    ]
+                    ],
+                    "IgnoreTargetPageCachedCurrentRowInfo": false
                   }
                 ],
-                "ID": "d2235567-c902-443c-a0c2-1d977d99d5b6"
+                "ID": "21ec5130-2343-4fb6-8e68-0d0af2a7f75d"
               },
               {
                 "Condition": {
@@ -437,8 +417,7 @@
                     ]
                   },
                   "value": "%Null%",
-                  "compareType": 1,
-                  "Id": "55842f57-51c4-4ea3-95cd-dd692672c4ce"
+                  "compareType": 1
                 },
                 "CommandList": [
                   {
@@ -454,10 +433,11 @@
                           "SerializeProperty": "=출하창고검색페이지!I3"
                         }
                       }
-                    ]
+                    ],
+                    "IgnoreTargetPageCachedCurrentRowInfo": false
                   }
                 ],
-                "ID": "b3fcff5c-c3aa-4dad-8856-a321f255df51"
+                "ID": "4a02d634-1e8a-44f6-923e-3a6908fc516b"
               }
             ]
           },
@@ -468,13 +448,12 @@
               "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
               "ColumnBindingInfo": {
                 "TableName": "견적상세자료",
-                "ColumnName": "ID"
+                "ColumnName": "ID",
+                "GUID": "c16d31f6-d7a6-40df-a1d9-42d6fde507e8"
               },
-              "Value": "%Null%",
-              "Id": "2ccd450e-3a3c-495d-90a5-a86890aedd6c"
+              "Value": "%Null%"
             },
-            "Params": [],
-            "ID": "d105989a9f12496f96ab34787637f1c5"
+            "ID": "5668556d93834517ab8e7a6a85892542"
           }
         ],
         "TemplateKey": "스타일4",
@@ -487,9 +466,14 @@
       }
     },
     "12,14": {
+      "BindingInfo": {
+        "TableName": "주문데이터",
+        "ColumnName": "거래유형",
+        "GUID": "92acb01e-df16-4f53-9be8-08d522447e43"
+      },
       "CellType": {
         "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
-        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "TemplateKey": "스타일2",
         "Items": [
           {
             "Value": "세금계산서",
@@ -529,16 +513,17 @@
           }
         ],
         "CellDefaultValue": "세금계산서"
-      },
-      "BindingInfo": {
-        "TableName": "주문데이터",
-        "ColumnName": "거래유형"
       }
     },
     "12,37": {
+      "BindingInfo": {
+        "TableName": "주문데이터",
+        "ColumnName": "통화",
+        "GUID": "77f5eed0-84d5-47e3-aa75-27c745529769"
+      },
       "CellType": {
         "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
-        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "TemplateKey": "스타일2",
         "WaterMark": "통화",
         "Items": [
           {
@@ -559,28 +544,30 @@
           }
         ],
         "CellDefaultValue": "내자"
-      },
-      "BindingInfo": {
-        "TableName": "주문데이터",
-        "ColumnName": "통화"
       }
     },
     "14,14": {
+      "BindingInfo": {
+        "TableName": "주문데이터",
+        "ColumnName": "납기일자",
+        "GUID": "35331a33-7303-47ca-b595-0b273ea73086"
+      },
       "CellType": {
         "$type": "Forguncy.DateCellType, ServerDesignerCommon",
         "CellDefaultValue": {
           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
           "SerializeProperty": "=TODAY()"
         },
-        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
-      },
-      "BindingInfo": {
-        "TableName": "주문데이터",
-        "ColumnName": "납기일자"
+        "TemplateKey": "스타일2"
       },
       "DataValidationInfo": {}
     },
     "14,37": {
+      "BindingInfo": {
+        "TableName": "주문데이터",
+        "ColumnName": "참조",
+        "GUID": "07ab4818-92c0-4b77-be68-3695653f9383"
+      },
       "CellType": {
         "$type": "Forguncy.TextCellType, ServerDesignerCommon",
         "SavedValidators": [
@@ -588,26 +575,22 @@
             "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
           }
         ],
-        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "TemplateKey": "스타일2",
         "WaterMark": "참조"
-      },
-      "BindingInfo": {
-        "TableName": "주문데이터",
-        "ColumnName": "참조"
       }
     },
     "16,14": {
+      "BindingInfo": {
+        "TableName": "주문데이터",
+        "ColumnName": "첨부파일",
+        "GUID": "69511a61-7a82-4171-8f23-a2f4fdd6dc29"
+      },
       "CellType": {
         "$type": "Forguncy.AttachmentCelltype, ServerDesignerCommon",
         "UploadLimit": {
-          "ExtensionFilter": ".jpg, .jpeg, .png, .gif, .bmp, .xlsx, .docx, .doc, .xls, .pdf",
-          "ReplaceWhenOneFile": true
+          "ExtensionFilter": ".jpg, .jpeg, .png, .gif, .bmp, .xlsx, .docx, .doc, .xls, .pdf"
         },
-        "TemplateKey": "_RS_Normal_Style2"
-      },
-      "BindingInfo": {
-        "TableName": "주문데이터",
-        "ColumnName": "첨부파일"
+        "TemplateKey": "스타일1"
       }
     },
     "19,3": {
@@ -622,13 +605,12 @@
               "CompareType": 1,
               "ColumnBindingInfo": {
                 "TableName": "주문데이터",
-                "ColumnName": "ID"
+                "ColumnName": "ID",
+                "GUID": "4006c037-bb51-457d-9132-6603b00649e5"
               },
-              "Value": "%Null%",
-              "Id": "53818b0f-0f8a-4bf0-a1ff-c548927cc661"
+              "Value": "%Null%"
             },
-            "Params": [],
-            "ID": "78e6f9b4beb84f898f40fda0ea34ba6a",
+            "ID": "eb2d95cc2cb446978d776cd559a30901",
             "Disabled": true
           },
           {
@@ -647,7 +629,7 @@
           {
             "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
             "PageName": "판매_견적서조회",
-            "PassValues": [],
+            "IgnoreTargetPageCachedCurrentRowInfo": false,
             "LoadBindingDataOption": 2
           }
         ],
@@ -657,37 +639,38 @@
     },
     "22,3": {
       "ListViewInfo": {
-        "ShowColumnHeaderInDesigner": true,
+        "Name": "리스트뷰2",
         "TableName": "견적상세자료",
         "RowIndex": 22,
         "ColumnIndex": 3,
-        "ColumnCount": 50,
         "RowCount": 11,
+        "ColumnCount": 50,
+        "DetailListViewInfo": {
+          "ColumnOfDetailTable": "주문_ID",
+          "MasterTable": "주문데이터",
+          "ColumnOfMasterTable": "ID",
+          "DataCommitType": 2
+        },
+        "TopCondition": null,
+        "ListViewStyleName": "스타일1",
+        "ShowColumnHeaderInDesigner": true,
         "IsRowHeaderVisible": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
         "AllowEditInListview": true,
         "AllowAddNewRow": true,
         "ColumnOperation": 2,
         "AllowGetFocus": false,
-        "ShowGridLine": true,
-        "ShowEditStatusIcon": true,
-        "UseSimpleBar": true,
-        "Name": "리스트뷰2",
-        "DetailListViewInfo": {
-          "MasterTable": "주문데이터",
-          "ColumnOfMasterTable": "ID",
-          "ColumnOfDetailTable": "주문_ID",
-          "DataCommitType": 2
-        },
-        "TopCondition": null,
         "CommitType": 1,
         "DoNotLoadDataWhenLoadPage": true,
-        "ListViewStyleName": "주문관리_리스트뷰_스타일"
+        "ShowGridLine": true
       }
     },
     "23,4": {
       "BindingInfo": {
         "TableName": "견적상세자료",
         "ColumnName": "제품ID",
+        "GUID": "69085905-ee1b-4d64-9d05-8fba387e5b5b",
         "RelationBinding": {
           "RelatedTable": "제품",
           "RelatedColumn": "ID",
@@ -696,36 +679,25 @@
       }
     },
     "23,11": {
+      "BindingInfo": {
+        "TableName": "견적상세자료",
+        "ColumnName": "제품ID",
+        "GUID": "37b4d704-a68b-4c92-8e75-7b970316241f"
+      },
       "CellType": {
         "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
         "IsBounding": true,
-        "Items": [
-          {
-            "Value": "항목1",
-            "DisplayValue": "항목1"
-          },
-          {
-            "Value": "항목2",
-            "DisplayValue": "항목2"
-          },
-          {
-            "Value": "항목3",
-            "DisplayValue": "항목3"
-          }
-        ],
         "DataSource": "제품",
         "ValueColumnBindingInfo": {
           "TableName": "제품",
-          "ColumnName": "ID"
+          "ColumnName": "ID",
+          "GUID": "0de4fe32-6e84-4fb3-be3d-231eb78df015"
         },
         "DisplayColumnBindingInfo": {
           "TableName": "제품",
-          "ColumnName": "제품명"
+          "ColumnName": "제품명",
+          "GUID": "63dc7f17-257d-4320-9937-4985e0d5f6dd"
         }
-      },
-      "BindingInfo": {
-        "TableName": "견적상세자료",
-        "ColumnName": "제품ID"
       },
       "DataValidationInfo": {
         "IgnoreBlank": false
@@ -735,6 +707,7 @@
       "BindingInfo": {
         "TableName": "견적상세자료",
         "ColumnName": "제품ID",
+        "GUID": "282dc2c2-ed06-4432-b045-80d34ef5d0f8",
         "RelationBinding": {
           "RelatedTable": "제품",
           "RelatedColumn": "ID",
@@ -745,13 +718,15 @@
     "23,28": {
       "BindingInfo": {
         "TableName": "견적상세자료",
-        "ColumnName": "주문수량"
+        "ColumnName": "주문수량",
+        "GUID": "d6392864-67e5-485f-9bb8-b122893c4915"
       }
     },
     "23,32": {
       "BindingInfo": {
         "TableName": "견적상세자료",
         "ColumnName": "제품ID",
+        "GUID": "400ddea3-22b3-4aeb-aaee-56d9fcc364f8",
         "RelationBinding": {
           "RelatedTable": "제품",
           "RelatedColumn": "ID",
@@ -762,19 +737,22 @@
     "33,28": {
       "BindingInfo": {
         "TableName": "주문데이터",
-        "ColumnName": "주문수량"
+        "ColumnName": "주문수량",
+        "GUID": "ec61c879-a97b-428e-bb31-a1bd1d4f6ab1"
       }
     },
     "33,39": {
       "BindingInfo": {
         "TableName": "주문데이터",
-        "ColumnName": "견적공급가액합계"
+        "ColumnName": "견적공급가액합계",
+        "GUID": "3d9440ab-5503-4009-bcfe-4a441e0c771a"
       }
     },
     "33,46": {
       "BindingInfo": {
         "TableName": "주문데이터",
-        "ColumnName": "견적부가세합계"
+        "ColumnName": "견적부가세합계",
+        "GUID": "f4f4e077-bac9-4b65-9373-e7b975b96760"
       }
     },
     "35,3": {
@@ -795,8 +773,7 @@
                       }
                     ]
                   },
-                  "value": "저장",
-                  "Id": "56a229e1-d0aa-4e02-8ab9-64cfe4dc02ed"
+                  "value": "저장"
                 },
                 "CommandList": [
                   {
@@ -804,23 +781,30 @@
                     "TableName": "주문데이터",
                     "UpdateType": "add",
                     "ShowConfirm": false,
-                    "ConfirmText": "데이터를 추가하시겠습니까?",
-                    "UpdateValues": [
+                    "UpdateBindingValues": [
                       {
-                        "ColumnName": "제품_ID",
+                        "BindingInfo": {
+                          "TableName": "주문데이터",
+                          "ColumnName": "제품_ID",
+                          "GUID": "1578c866-1d2e-42a2-b3db-2de9728238f1"
+                        },
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                           "SerializeProperty": "=판매입력페이지!L24"
                         }
                       },
                       {
-                        "ColumnName": "종결여부",
+                        "BindingInfo": {
+                          "TableName": "주문데이터",
+                          "ColumnName": "종결여부",
+                          "GUID": "d693ee34-cd92-4e96-b814-4c29fcf0de11"
+                        },
                         "Value": "완료"
                       }
                     ]
                   }
                 ],
-                "ID": "71225cd4-f796-4b07-80e0-eb752fb1e343"
+                "ID": "dcb88429-12fe-445d-b701-f1d49f703511"
               },
               {
                 "Condition": {
@@ -833,22 +817,28 @@
                       }
                     ]
                   },
-                  "value": "수정",
-                  "Id": "14c5fd23-4c5d-4c7c-9d7b-02e93dd1c1c0"
+                  "value": "수정"
                 },
                 "CommandList": [
                   {
                     "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
                     "TableName": "주문데이터",
                     "ShowConfirm": false,
-                    "ConfirmText": "데이터를 업데이트하시겠습니까?",
-                    "UpdateValues": [
+                    "UpdateBindingValues": [
                       {
-                        "ColumnName": "종결여부",
+                        "BindingInfo": {
+                          "TableName": "주문데이터",
+                          "ColumnName": "종결여부",
+                          "GUID": "bbfacbcc-d6d8-4d1b-8d54-faf5ac653b06"
+                        },
                         "Value": "완료"
                       },
                       {
-                        "ColumnName": "제품_ID",
+                        "BindingInfo": {
+                          "TableName": "주문데이터",
+                          "ColumnName": "제품_ID",
+                          "GUID": "1e93e1da-70c6-4c7f-af04-408440b45dc6"
+                        },
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                           "SerializeProperty": "=판매입력페이지!L24"
@@ -857,14 +847,14 @@
                     ]
                   }
                 ],
-                "ID": "f751cf74-144c-42d5-8c27-410db12183db"
+                "ID": "81702b58-268d-488d-9f36-297a427cbdd0"
               }
             ]
           },
           {
             "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
             "PageName": "판매조회페이지",
-            "PassValues": [],
+            "IgnoreTargetPageCachedCurrentRowInfo": false,
             "DeleteCachedQuery": true
           }
         ],
@@ -879,7 +869,7 @@
           {
             "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
             "PageName": "판매입력페이지",
-            "PassValues": []
+            "IgnoreTargetPageCachedCurrentRowInfo": false
           }
         ],
         "Text": "다시작성",
@@ -893,7 +883,7 @@
           {
             "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
             "PageName": "판매조회페이지",
-            "PassValues": []
+            "IgnoreTargetPageCachedCurrentRowInfo": false
           }
         ],
         "Text": "리스트",
@@ -2150,29 +2140,40 @@
     "35,7,1,5",
     "35,13,1,4",
     "24,3,9,50",
+    "33,28,1,4",
+    "33,39,1,7",
+    "33,46,1,7",
     "22,4,1,7",
     "22,11,1,12",
     "22,23,1,5",
     "22,28,1,4",
     "22,32,1,7",
     "22,39,1,7",
-    "22,46,1,7",
-    "33,28,1,4",
-    "33,39,1,7",
-    "33,46,1,7"
+    "22,46,1,7"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
     "MasterPageName": "주문관리 마스터 페이지",
-    "AuthorizeInfo": {
-      "VisitMode": 2
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
     },
     "RowBreakLines": [],
     "RepeatRangeSettings": [],
     "RelatedDataTableName": "주문데이터"
   },
   "PrintInfo": {
-    "Margin": {},
-    "PaperSize": {}
+    "PaperSize": {},
+    "Margin": {}
   }
-}//W/zEIzyWvqo01cRZY7E/Xj7WpyiQMFVO17WGwUcktb4dNlaHiN7U5nvprBTVm8+oBQlu8yShDy7k7SnQF98NYDoz4onfUQfEcSM8lUT1SDOKINELP18gGKpvJfbsMJlxJpNBSglZekz2WsRkvPFgui4Q+xsQEpckJhFW949TeNetc/bTH3QcxwTkwCrdZc1ydmneYNSY8VhRW6E99x9ZrUupdHpa7HFl3wAcDcscFv+JkOYA2+DtlYiEUPyyjHux0kUwGyvEi+jssXqZZkFMOO3zmAfgSFQojXODcQ7ClVVHtChVtunVHs03zhnppOfh7orWlMM/vRZLHvkdV4eWTr9F+SpvYfqKTbHYr158ca8hXAdofwVqUJ4J1ca+y9ci6oXxpk0mlzdNUAMVHYwBD8yxPS1EHdJkYfWEEkcXn7A0XeFTAD1V1y0+h3F1ZOZoLqko01vocQHhplOMDKIoLTFlksah7N1Ec4sFdGE96I06W6ZNHsyVX6XIqLU7A4NZzq9I/ANDtRfcMKh4cCak41BzD/U2u5cE/4mn+AjQvlDe64gXu+d5xYyDjQd5SIu7RD9ZAxQ9Ccxi1pUBvRDxfIAQLZZCn18/xqmCzYaRe2q693HaPH7sD/LxnCj4V0gHrwXxJgz96V5X9n4cB09VjdbB19hDF2mZWNJ0CZv9zUDUP77tpSB6ksZl5hikINFoWV1PYBcPMcKxbcFGHmEqncEp/XxA7JW1E0LwtTRp5/eRGNeO07eZenTRsBRITTpdVK8Q/IqPMQlwalAgaxHq6LUTbmywWyfkw1kOup22OAp3vfLhOz9odeAdfzqYqUQLDNSGPPLleETpF8IdP54fTQ5qrzwSyjYDl8c4dDjBONjzGnGUQP9rTQFL/lgdU7FypZoSxcSL+gaxpxXALDQHCw==|920
+}//WuAKHPgz36L/AIFp8wJo5sE1EYB6VBZUs/LKO538saxgV6n31/rd7LQoxEebFe3OibBAOjoVfZijoBpj77vVyYmX9v/WF0O/gIE1Y/eyBK1CLQP+YFJULxa3xJhssqC/H2z3tZSYKmFdefnn4oQgAIZw9W0f7sky8jDiFcrpOFcS7XffnH7jtYeU3wnEoHCh+uWdDR/RBHnhXG9zlk7Y2QZO6c2qN8NKeaU+R0Lh1XS0mVykphemRJmxQT6RMU1DWrM72oH/30YnyFUbdWMWBdmofc7DcXeppENpVdSpzNiRvjhUTK+8r+GQzWkMoaCZZC22LuuCtaFp0wcaUtjWz2QuxZRtWWueksf2X9GnA8QJocsrPg2CDwbxDxiCSzie+PLVOXFrc4/Kat5OMMSp5avzN4mZ6XjeEtUdnCO9A4p1uZ/EVHx4L1Xq5aPZJOcbPa+D+WpBGRdzaCWGkmeKDarkJeOJ/JaVkHb/VHxovSDw5XzIcHCzGQQx9v09neBzpQ8kNRu/X/9LEdRvv0niNzAZ2AshjJse1zBQ88xvxFPBaYxAZFblI46YvxITq02aQc3TVcAi8qlkYFMypoiKcphhQ/ccFVy5lmVWefyFJfkjOdts0ih9E3zY9Oim34g2NVsG4z4oB8luNntpFF7wp/eqKjSvwqoxepqXTnf0xiarFKZX5VGFPJ+nJA5gFHj40Mq4z74KItXwF4vSSFzCkdz71cZm35Ii+ug18nRSB0CrvRV7ykvYy842MG74+tnqkYkaYPtAoLFDmmEgJQHNUwKh5Pf3pggM8NQBeku/iwM5bzUXMxbZpCojHoj77Co/T+C82F3D4xQtJ/vX1Fn9kIOCOoR3Mw5LvGu6PStbJ5jglbmIsjo+MbabJqugJkPX8g/otBR0yz7yxmiqj3p2gw==|920

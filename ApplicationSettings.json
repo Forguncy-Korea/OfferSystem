@@ -1,0 +1,14 @@
+{
+  "IntegrateWithOtherApplication": {
+    "Password": "n7^rgdLv0fZW"
+  },
+  "ListviewLoadingIndicatorSettings": {},
+  "GlobalProperties": [],
+  "WebSitePort": 16842,
+  "UserServicePort": 63290,
+  "NotAllowQueryDatabaseByJsApi": false,
+  "NotAllowSendMailByJsApi": false,
+  "StartPage": "메인화면",
+  "StartDateFiscalYear": 4,
+  "PageLoadingMode": 2
+}

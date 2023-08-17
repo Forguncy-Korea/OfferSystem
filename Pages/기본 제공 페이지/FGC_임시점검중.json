@@ -19,14 +19,14 @@
         "HorizontalAlignment": 2
       },
       {
-        "FontSize": 22.666666030883789,
+        "FontSize": 22.66666603088379,
         "Foreground": 3,
         "Formatter": 1,
         "WordWrap": true
       },
       {
         "FontFamily": 4,
-        "FontSize": 22.666666030883789,
+        "FontSize": 22.66666603088379,
         "Foreground": 3,
         "Formatter": 1,
         "WordWrap": true
@@ -59,12 +59,26 @@
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
     "MobilePageName": "FGC_임시점검중_모바일",
     "Title": "유지보수",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_Anonymous"
+          ]
+        }
+      ]
+    },
     "RowBreakLines": [],
     "RepeatRangeSettings": [],
     "IsBuiltInPage": true
   },
   "PrintInfo": {
-    "Margin": {},
-    "PaperSize": {}
+    "PaperSize": {},
+    "Margin": {}
   }
-}//oKw23J1pdXKNECJg9SnvvG//tfzUiJo9Omw5Anvu7JPGsP0HE8dNyc8fOLmA0PMsvLXOvjt/k6b4Cq0X0cTbiBNE2+qG8FqP9SLbYCcK/Vj4UOYV17TnSgTqPkcRMLDSbyp0jFzFMN5tfBljrSLocUFfcXdu3JDDZHfms1dU0cF+34ebq23q23O6eMwB33gFS9Y4jfU32znG8aAzLdaU8fH81PqKI8gc6ebM0W795/IeQv3X+rVh9xEBZqOoLkfIZqrtw1SYStTgvHuMcZyS8g/OG2w+k2JJlm0TRQAn9JEoog6KhEY/5/lSUO4x5vEIA7dvAVj2qKYy1iVdjo7aatQRrsUIpk966GSWCV/ePAQSEotCVdjnvPJkngkn39PGaxcfR0R3TUSk3sCzq4r8Vba6bOsf7pUKnos7ApHEEAjkFdTe/ZutAU1xdqXEmnwvaEM/Hs4NKk5eOPC67QaP4srOpoWoY4y90mmjS1NtQI8muQvhEb5SrM8ilkxrR5WQ1Rq35rsVkYgEkEx/ly0JYfsWSyW89iDd8VJEPog/Pe1KdnUJG1FCc1V5TGpeQI09sMRXSbQbKoMRDRAxOYudON6r5J81LAKknIdVcSmVqB2Vnvv0aP9wNMZ7iUqMsr9wQ0QTdmNMHaF4tWwoLDDBewAZnG1uiOtDyAX4OJFuX0/tn4j1zuExMhq8yendTVyUDehPMffU6y/Ab5TOiFFc29Qt33ECL4ycIEMhm6jQJMdYQL2O4Fj6ugPq68K1rJ371imYwCGoncKj1r3rvhq/5NYMMSptNm+wEGS7grQD08fDewVJUTZsUjNNPKXkMbJjVqpC2uhwYnluA/SBgLh9CeSFzzjRKkcRX1UXRifg1Vm2w+Es6xXtPzkbxPndjXfeT0ERjs117wAok/fFKsvJag==|920
+}//x9lJFIqm/K1JgaLILn/nFqteWQ0bU+rDSg2lybc635w28VwTTpSurlN7M2Tamh1AiY7Ahzadl+f/DEKV3kHJCDNA7feUWPGG/nV4LeqHWUQt5F4djnMcenoYVghykcOuqMvKY03y28E7eGWedJ+YrITNTlmrhspVsLf0qIIhnyDDQe1Me0+69Kaxnj4hBXAkrNGM0WwcoYC08aSZTsZB4gdU/cPFPMhAjS2CgnA1Q0vSzLVj3vVDi5v7G4yuYWpFdr3VzRD8TO7IaLHEYY03xJ8hZilBn7FdXpnr4HKHCYcgNj7uGRpc+Y7EnpjfFmCm2JhWoH4N2ofpURFsOu48fUIHFHD1c+298K/3dPvsG6DwIKUTzbF/lA8PzRwtL9dFW51BUdgY6c/uDUYMUkpufJZcTgUwhUo1Hf2AUc7SRMoR3TBilYptAywniQdnRSapNRtuWa578+rHCWfnfxTaIz0NbdpQ5K0j41teGQGGeSPmba8SFcLGWwpgcIutTd5EM6N4FFa1KLYOh7Vu11R3fF3ke4fIcAa7HYagGE0G3uj8hUlDnFxlNZoyxYtDbtFiCqBQVkYhW+qXEo3HoF9qpuFYJwc87RJcUHAs6JSvzKnXA+m+MqcD6ADalAUKRmDCGcUGZU0cBPQgnjfRsvcAV2T4viTLTyXY7yuQhaZvhP0T9ODApFwQ5hZzt3H5L714XYdiOyZPjd55R9TcRdN68myYu1QTVWFTER2ifVQ5Fr0j1kvR3yFffQKvkEOUTgDAcagsZGxW1QC/WUCSXFmu8bTzjedRbQMmHUU6YoAqzS1GHyM4+QYhO9A+a+iMRICjszBe5kVj7Vi3RLWeht3huatlQQw5RSDK5D4FZbvwmh2onzAowiS6Rx0eXnMnrZz/BmUF2qAe9lWjbWiqT4yovw==|920

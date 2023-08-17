@@ -1,4 +1,5 @@
 {
+  "Name": "월초데이터",
   "Enabled": true,
   "Triggers": [
     {
@@ -29,30 +30,37 @@
       "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
       "TableName": "주문데이터",
       "ShowConfirm": false,
-      "ConfirmText": "데이터를 업데이트하시겠습니까?",
       "RowsToUpdate": 1,
       "RowsToUpdateCondition": {
         "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
         "ColumnBindingInfo": {
           "TableName": "주문데이터",
-          "ColumnName": "견적일"
+          "ColumnName": "견적일",
+          "GUID": "196d835e-c396-4ca4-bb30-976954cebe85"
         },
         "Value": {
           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
           "SerializeProperty": "=TODAY()"
-        },
-        "Id": "9a82ddb8-9bc7-4a1e-92f3-1e5008bac2ec"
+        }
       },
-      "UpdateValues": [
+      "UpdateBindingValues": [
         {
-          "ColumnName": "견적일",
+          "BindingInfo": {
+            "TableName": "주문데이터",
+            "ColumnName": "견적일",
+            "GUID": "b95ed23e-5cc5-4efb-9c68-d4f6be347e9a"
+          },
           "Value": {
             "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
             "SerializeProperty": "=TODAY()"
           }
         },
         {
-          "ColumnName": "납기일자",
+          "BindingInfo": {
+            "TableName": "주문데이터",
+            "ColumnName": "납기일자",
+            "GUID": "755fbd3a-7043-4b9d-847e-d899e80c5b65"
+          },
           "Value": {
             "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
             "SerializeProperty": "=TODAY()"
@@ -60,6 +68,5 @@
         }
       ]
     }
-  ],
-  "Name": "월초데이터"
+  ]
 }

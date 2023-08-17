@@ -101,10 +101,16 @@
     "5,12": {
       "BindingInfo": {
         "TableName": "출하창고",
-        "ColumnName": "ID"
+        "ColumnName": "ID",
+        "GUID": "8325f19b-f36d-41fa-a489-2651fc7d2fab"
       }
     },
     "7,12": {
+      "BindingInfo": {
+        "TableName": "출하창고",
+        "ColumnName": "창고명",
+        "GUID": "ee4b319e-fd1b-49b4-afbe-831540d0cace"
+      },
       "CellType": {
         "$type": "Forguncy.TextCellType, ServerDesignerCommon",
         "SavedValidators": [
@@ -112,14 +118,15 @@
             "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
           }
         ],
-        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
-      },
-      "BindingInfo": {
-        "TableName": "출하창고",
-        "ColumnName": "창고명"
+        "TemplateKey": "스타일2"
       }
     },
     "9,12": {
+      "BindingInfo": {
+        "TableName": "출하창고",
+        "ColumnName": "주소",
+        "GUID": "2bd89f0e-5668-4710-8db6-93c158103b87"
+      },
       "CellType": {
         "$type": "Forguncy.TextCellType, ServerDesignerCommon",
         "SavedValidators": [
@@ -127,17 +134,17 @@
             "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
           }
         ],
-        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
-      },
-      "BindingInfo": {
-        "TableName": "출하창고",
-        "ColumnName": "주소"
+        "TemplateKey": "스타일2"
       }
     },
     "11,12": {
+      "BindingInfo": {
+        "TableName": "출하창고",
+        "ColumnName": "구분",
+        "GUID": "012cf6c3-8e0c-4068-b2a9-15ec566c7b7e"
+      },
       "CellType": {
         "$type": "Forguncy.RadioGroupCellType, ServerDesignerCommon",
-        "NoneItemText": "<없음>",
         "Style": 1,
         "Items": [
           {
@@ -153,10 +160,6 @@
             "DisplayValue": "공장(외주비관리)"
           }
         ]
-      },
-      "BindingInfo": {
-        "TableName": "출하창고",
-        "ColumnName": "구분"
       }
     },
     "14,1": {
@@ -177,8 +180,7 @@
                       }
                     ]
                   },
-                  "value": "저장",
-                  "Id": "9dd549cb-1735-4366-b953-c86625635020"
+                  "value": "저장"
                 },
                 "CommandList": [
                   {
@@ -186,16 +188,19 @@
                     "TableName": "출하창고",
                     "UpdateType": "add",
                     "ShowConfirm": false,
-                    "ConfirmText": "데이터를 추가하시겠습니까?",
-                    "UpdateValues": [
+                    "UpdateBindingValues": [
                       {
-                        "ColumnName": "사용",
+                        "BindingInfo": {
+                          "TableName": "출하창고",
+                          "ColumnName": "사용",
+                          "GUID": "8060cd55-8080-4299-b9c6-aa6b229944ba"
+                        },
                         "Value": "YES"
                       }
                     ]
                   }
                 ],
-                "ID": "1a457993-bdcb-4095-867d-44a120457d87"
+                "ID": "09bd01a3-8d71-4d02-886c-7522357e8b9e"
               },
               {
                 "Condition": {
@@ -208,19 +213,16 @@
                       }
                     ]
                   },
-                  "value": "수정",
-                  "Id": "416c92e9-2661-4a44-8738-4d22fc201387"
+                  "value": "수정"
                 },
                 "CommandList": [
                   {
                     "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
                     "TableName": "출하창고",
-                    "ShowConfirm": false,
-                    "ConfirmText": "데이터를 업데이트하시겠습니까?",
-                    "UpdateValues": []
+                    "ShowConfirm": false
                   }
                 ],
-                "ID": "23e47876-7f61-4b0f-857a-aafbbe47f31a"
+                "ID": "42d4f9a9-bd30-42a5-8487-abd2e0340416"
               }
             ]
           },
@@ -431,14 +433,25 @@
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
     "ShouldCheckDirty": true,
-    "AuthorizeInfo": {
-      "VisitMode": 2
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
     },
     "RowBreakLines": [],
     "RepeatRangeSettings": []
   },
   "PrintInfo": {
-    "Margin": {},
-    "PaperSize": {}
+    "PaperSize": {},
+    "Margin": {}
   }
-}//2ZPamau+0qE0e6Mz5d+r03k/epBj+KFk90T+3fj22dTWPz96KgWFhYIRYNaQxxQR10CxpcbXoU6ECZO1fXcigdCk/ZXARRXMr82lTmPy06zmVcuaWs97yNL/yYY+1+TY1ALRtKp1ZOK/jcwEYCqNGTX7mBBBMrNs3GfXyoJw36OhLkJKOqfz+DuFbu+E897XnUUYuWgiAr6kL9FYodaS9uIE2bo4wJEOKgOxN75Nw5O8O3ozAwKPALPs3aUeu9iE55uz7ZCBh4lrwzSH8OXKUMzuUNV9gSSOusiRKXjlHtYOLygw3dEaRbbHntmGSkgktz0Dp3OIFd6jPgOKTBZhyjh6lx1j1DaYGGTzOR10hLPw2IQaB04neiZLhPeDDfBl4uInwL8pmcrA2xU1WhkjCi3lkMK8qVf8+UQyRgDuzcfaV+bxI7nKulGV+7pZpfn+cEFVVUdP+a6ASwYI6E/KXI7H8eFCtK20OH/7lzsGlv/BNUUsfk3vp/JZeTdL9fA+AqExrftIUuEu41azi0ZrRsV+qpBE2V2GLVb+cmIW3nvRLhCWF4Dobr8vrtY/XVF/3k9pdtZkFLVWKLknV1gxAqXE+vAxDThG3whx+M4taHTV1DJrlpgyVE2ZcVN+zUQaU+Tt6mPOIUFbnsOxbzEK9+uaLqBSzyLlFwhtG/1rXHcVi5jhj7jPrGbTum/k9mCbRludFM4TodDV/qgsnst4HCV9bwbJrb89HylYDHZ4tN36g84X/76CA6CYdy+tsQqey/GE7eFdhP2yogfWicrBO1Z4UY4+WXSKB62/QPeTiQ71/gsxubZGy5cj7WE8gbhwNq1pos/jk+2VNh4ZtuSeNsbZSgG/da50UQ/a6eHVMebvuo0nTGrYHugV+FQUgLFUNUSxaj/gSB+io3K09dyTrQ==|920
+}//++m69NUwcsPcRi11GPvmadczpbF4+C//X8ylT335hroHecf5xv5Qhofuwx479laIxPqTZ85aAUaFhcbHdXQn01vF7hoWUlm3Cg1/FY4672M9zTwUAc1chKGfsz+txAdWnbRHV9hCsfo3nWO9uA9UsFL6qjMZfIhQq9xW5wVs/IcsUCJTAY2DOpAcm1M2WqkHrHA//VpI4XZpj5xsxo6MF6eqbZGD76U/I1LfCLdWk9zFETRn8xssmruyw06+kipzoKLIgZqnjTZQa1GtVNIAuA0kvPEnwqzotkmqiJyVpwknt//qum86sd9stiI3kaAosdKh3OrvI196gwLfRHl4jMLTYMi9xan6kG/aCOF8ooltCGABbIx48EREMd3ro7BvQ/1ZhYV1fkYzM6grLvFogSvlVnV5Tm5RGUUG/GI73bUKpSGKRv8QwTDai1qVi5l34zLtznJ8nSIw9ZpHqecam8GhtaSDm53ttuIgjQCHQ8F+ZXwnNyDL8jQPUPzWgWzcUIakYDO0naXvNvy50hoTkbpKFoflTEc2TFh54uWKnlVB76TWGVCJ/ChdLmgNk1wwGvw9/y0fzNpZljEW+4en+yfocmsntO+scHVOjbA3FImzcGY1LCJFC1zy80eCyQPuDKvn32E72ROWc8gWVadiO7rPrycUVwC9sripjFT0vUJBBxIJ3EfsGixD6Fq65dUEnWGku2FWLwJJ8Fk5kHgHrUlY08TuLacEaT84WxF79yqKnzvIb2ODfD/3Pom3wc9rSpEKeFIAVJV4rntHBfQFOu4YbpDfm+t0Ipuc29cGrcrHNkhcgGjt8+D7vNy/Q0+jH9WH9tzNoMNPOqqxJZJNj/5c4LTkoA/ZY0/OPn2NK+CHjSWVBuM55s6k5ZRgtIH5RyPjTvEGsDWtK94bnGSI+g==|920

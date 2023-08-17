@@ -202,7 +202,7 @@
             "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
           }
         ],
-        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "TemplateKey": "스타일2",
         "WaterMark": " 입력 후 [Enter]"
       }
     },
@@ -224,8 +224,7 @@
                       }
                     ]
                   },
-                  "value": "%Null%",
-                  "Id": "77ef0c3b-5732-45a2-b7be-9c69a9cb64e9"
+                  "value": "%Null%"
                 },
                 "CommandList": [
                   {
@@ -236,16 +235,15 @@
                       "CompareType": 1,
                       "ColumnBindingInfo": {
                         "TableName": "제품",
-                        "ColumnName": "ID"
+                        "ColumnName": "ID",
+                        "GUID": "9a4e277e-6d77-4015-bc12-20c682ab1b36"
                       },
-                      "Value": "%Null%",
-                      "Id": "498ba16c-92ae-452b-848b-e4d69980ba10"
+                      "Value": "%Null%"
                     },
-                    "Params": [],
-                    "ID": "76dacf786e80483590db090b71199819"
+                    "ID": "927d3e4200fe4314b9888febdde70ef1"
                   }
                 ],
-                "ID": "cc7792d2-fdf0-4abb-b0f2-59133bea72fd"
+                "ID": "b6e0adf2-d4b4-40b4-94f2-c91d9e0e210c"
               },
               {
                 "Condition": {
@@ -259,8 +257,7 @@
                     ]
                   },
                   "value": "%Null%",
-                  "compareType": 1,
-                  "Id": "dd46fafa-e89e-4a70-96ad-d53204b4c797"
+                  "compareType": 1
                 },
                 "CommandList": [
                   {
@@ -268,43 +265,40 @@
                     "TargetTableName": "제품",
                     "SqlCondition": {
                       "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
-                      "Condition1": {
-                        "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
-                        "CompareType": 6,
-                        "ColumnBindingInfo": {
-                          "TableName": "제품",
-                          "ColumnName": "품목구분"
+                      "SubConditions": [
+                        {
+                          "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                          "CompareType": 6,
+                          "ColumnBindingInfo": {
+                            "TableName": "제품",
+                            "ColumnName": "품목구분",
+                            "GUID": "d570abbc-fa30-40d1-b028-3c24affb345b"
+                          },
+                          "Value": {
+                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                            "SerializeProperty": "='제품_목록 페이지'!AX4"
+                          }
                         },
-                        "Value": {
-                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='제품_목록 페이지'!AX4"
-                        },
-                        "Id": "41be3a66-ca33-49bb-be2e-98cca4dc12a2"
-                      },
-                      "Condition2": {
-                        "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
-                        "CompareType": 6,
-                        "ColumnBindingInfo": {
-                          "TableName": "제품",
-                          "ColumnName": "제품명"
-                        },
-                        "Value": {
-                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='제품_목록 페이지'!R9"
-                        },
-                        "Id": "4f1bcf58-670c-45e7-b326-45ae3fee0bbc"
-                      },
-                      "RelationType": 1,
-                      "Id": "60ee1923-2e61-4175-bcad-dfde2db7aad6"
+                        {
+                          "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                          "CompareType": 6,
+                          "ColumnBindingInfo": {
+                            "TableName": "제품",
+                            "ColumnName": "제품명",
+                            "GUID": "c8f6dff4-4326-4975-bad8-fef7ba7a2f2a"
+                          },
+                          "Value": {
+                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                            "SerializeProperty": "='제품_목록 페이지'!R9"
+                          }
+                        }
+                      ],
+                      "RelationType": 1
                     },
-                    "Params": [
-                      "=AX4",
-                      "=R9"
-                    ],
-                    "ID": "1613bbeb7fd04715ba8d618baad5ab5c"
+                    "ID": "e63c315710ed4e0a876615141cc44e0b"
                   }
                 ],
-                "ID": "89f3b590-821a-49ef-bc7d-75d36776eebd"
+                "ID": "af27bdb6-5fe6-4dba-b440-4c181ee336f6"
               }
             ]
           }
@@ -343,24 +337,30 @@
     },
     "7,3": {
       "ListViewInfo": {
-        "ShowColumnHeaderInDesigner": true,
+        "Name": "리스트뷰1",
         "TableName": "제품",
         "RowIndex": 7,
         "ColumnIndex": 3,
-        "ColumnCount": 67,
         "RowCount": 22,
+        "ColumnCount": 67,
+        "TopCondition": null,
+        "ListViewStyleName": "스타일1",
+        "ShowColumnHeaderInDesigner": true,
         "IsRowHeaderVisible": true,
         "IsRowHeaderCheckBoxVisible": true,
-        "ColumnOperation": 2,
-        "ShowGridLine": true,
         "ShowEditStatusIcon": true,
         "UseSimpleBar": true,
-        "Name": "리스트뷰1",
-        "TopCondition": null,
-        "ListViewStyleName": "주문관리_리스트뷰_스타일"
+        "ColumnOperation": 2,
+        "ShowGridLine": true
       }
     },
     "8,6": {
+      "NameUsedInJavaScript": "품목코드",
+      "BindingInfo": {
+        "TableName": "제품",
+        "ColumnName": "품목코드",
+        "GUID": "dcfb2282-33ad-44b8-967f-4d42e7e30980"
+      },
       "CellType": {
         "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
         "CommandList": [
@@ -375,46 +375,52 @@
                 }
               }
             ],
+            "IgnoreTargetPageCachedCurrentRowInfo": false,
             "LoadBindingDataOption": 1
           }
         ],
         "ClickMode": 1
-      },
-      "BindingInfo": {
-        "TableName": "제품",
-        "ColumnName": "품목코드"
-      },
-      "NameUsedInJavaScript": "품목코드"
+      }
     },
     "8,17": {
+      "NameUsedInJavaScript": "제품명",
       "BindingInfo": {
         "TableName": "제품",
-        "ColumnName": "제품명"
-      },
-      "NameUsedInJavaScript": "제품명"
+        "ColumnName": "제품명",
+        "GUID": "6d630abb-50f6-4f2a-9a30-803e9e2d6806"
+      }
     },
     "8,37": {
+      "NameUsedInJavaScript": "가격",
       "BindingInfo": {
         "TableName": "제품",
-        "ColumnName": "가격"
-      },
-      "NameUsedInJavaScript": "가격"
+        "ColumnName": "가격",
+        "GUID": "c632d8c1-9732-40aa-930c-5b6a29978af0"
+      }
     },
     "8,45": {
+      "NameUsedInJavaScript": "품목구분",
       "BindingInfo": {
         "TableName": "제품",
-        "ColumnName": "품목구분"
-      },
-      "NameUsedInJavaScript": "품목구분"
+        "ColumnName": "품목구분",
+        "GUID": "cb5eba7d-2be4-42db-99df-d8179df7cd69"
+      }
     },
     "8,52": {
+      "NameUsedInJavaScript": "규격명",
       "BindingInfo": {
         "TableName": "제품",
-        "ColumnName": "규격명"
-      },
-      "NameUsedInJavaScript": "규격명"
+        "ColumnName": "규격명",
+        "GUID": "09ca1484-afc5-45bf-a4d3-ef4b15279765"
+      }
     },
     "8,57": {
+      "NameUsedInJavaScript": "사용구분",
+      "BindingInfo": {
+        "TableName": "제품",
+        "ColumnName": "사용구분",
+        "GUID": "5f812699-588f-4bc7-9da2-15a2464195d8"
+      },
       "CellType": {
         "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
         "Items": [
@@ -427,32 +433,28 @@
             "DisplayValue": "NO"
           }
         ]
-      },
-      "BindingInfo": {
-        "TableName": "제품",
-        "ColumnName": "사용구분"
-      },
-      "NameUsedInJavaScript": "사용구분"
+      }
     },
     "8,62": {
       "BindingInfo": {
         "TableName": "제품",
-        "ColumnName": "ID"
+        "ColumnName": "ID",
+        "GUID": "205b44df-501f-4a58-82a2-d8fe879d8870"
       }
     },
     "8,63": {
+      "NameUsedInJavaScript": "파일관리",
+      "BindingInfo": {
+        "TableName": "제품",
+        "ColumnName": "파일관리",
+        "GUID": "7b53577d-c3a0-44ca-9935-3dd2855ec7af"
+      },
       "CellType": {
         "$type": "Forguncy.AttachmentCelltype, ServerDesignerCommon",
         "UploadLimit": {
-          "ExtensionFilter": ".jpg, .jpeg, .png, .gif, .bmp, .xlsx, .docx, .doc, .xls, .pdf",
-          "ReplaceWhenOneFile": true
+          "ExtensionFilter": ".jpg, .jpeg, .png, .gif, .bmp, .xlsx, .docx, .doc, .xls, .pdf"
         }
-      },
-      "BindingInfo": {
-        "TableName": "제품",
-        "ColumnName": "파일관리"
-      },
-      "NameUsedInJavaScript": "파일관리"
+      }
     },
     "30,3": {
       "CellType": {
@@ -461,7 +463,7 @@
           {
             "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
             "PageName": "제품 등록 페이지",
-            "PassValues": [],
+            "IgnoreTargetPageCachedCurrentRowInfo": false,
             "LoadBindingDataOption": 2
           }
         ],
@@ -487,6 +489,7 @@
                 }
               }
             ],
+            "IgnoreTargetPageCachedCurrentRowInfo": false,
             "LoadBindingDataOption": 1
           }
         ],
@@ -512,17 +515,16 @@
                       }
                     ]
                   },
-                  "value": "%Null%",
-                  "Id": "fb2880fd-1130-4eb2-980f-ec1e638f6963"
+                  "value": "%Null%"
                 },
                 "CommandList": [
                   {
                     "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
                     "PageName": "미선택안내페이지",
-                    "PassValues": []
+                    "IgnoreTargetPageCachedCurrentRowInfo": false
                   }
                 ],
-                "ID": "3e5b904d-0b4a-444a-90f2-c517908538b0"
+                "ID": "2a0db3ed-6322-4615-ab18-f098a3b38933"
               },
               {
                 "Condition": {
@@ -536,8 +538,7 @@
                     ]
                   },
                   "value": "%Null%",
-                  "compareType": 1,
-                  "Id": "8c77fc3a-dadf-4561-8c98-baa6b5d88668"
+                  "compareType": 1
                 },
                 "CommandList": [
                   {
@@ -554,8 +555,7 @@
                               }
                             ]
                           },
-                          "value": "YES",
-                          "Id": "10bb5374-b414-498b-b8b1-0d39039995b1"
+                          "value": "YES"
                         },
                         "CommandList": [
                           {
@@ -573,11 +573,11 @@
                           },
                           {
                             "$type": "Forguncy.Model.UpdateListviewCommand, ServerDesignerCommon",
-                            "UpdateType": 3,
-                            "ListviewName": "리스트뷰1"
+                            "ListviewName": "리스트뷰1",
+                            "UpdateType": 3
                           }
                         ],
-                        "ID": "47fc80f2-0fee-441c-9024-0dd2dde115dd"
+                        "ID": "e3806221-dac4-41a4-9327-b69fbe0d3348"
                       },
                       {
                         "Condition": {
@@ -591,8 +591,7 @@
                             ]
                           },
                           "value": "YES",
-                          "compareType": 1,
-                          "Id": "94e36953-f001-4329-94fd-a07c348b0e6d"
+                          "compareType": 1
                         },
                         "CommandList": [
                           {
@@ -610,21 +609,21 @@
                           },
                           {
                             "$type": "Forguncy.Model.UpdateListviewCommand, ServerDesignerCommon",
-                            "UpdateType": 3,
-                            "ListviewName": "리스트뷰1"
+                            "ListviewName": "리스트뷰1",
+                            "UpdateType": 3
                           }
                         ],
-                        "ID": "c35cabf2-fd32-421e-9295-efa875e27cae"
+                        "ID": "4cdd37bf-592d-4800-a97f-6cd63d39a428"
                       }
                     ]
                   },
                   {
                     "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
                     "PageName": "적용완료페이지",
-                    "PassValues": []
+                    "IgnoreTargetPageCachedCurrentRowInfo": false
                   }
                 ],
-                "ID": "09081efc-ab20-41bd-b01b-41bce9ed37a4"
+                "ID": "7a81b332-7b64-433f-8796-ede632f09bed"
               }
             ]
           }
@@ -640,8 +639,8 @@
           {
             "$type": "Forguncy.Model.ExportListViewToExcelCommand, ServerDesignerCommon",
             "ListViewName": "리스트뷰1",
-            "IsOnlyExportValue": false,
-            "NewOtherName": ""
+            "NewOtherName": "",
+            "IsOnlyExportValue": false
           }
         ],
         "Text": "Excel다운로드",
@@ -655,7 +654,7 @@
           {
             "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
             "PageName": "제품업로드",
-            "PassValues": []
+            "IgnoreTargetPageCachedCurrentRowInfo": false
           }
         ],
         "Text": "웹자료업로드",
@@ -2328,23 +2327,33 @@
           "CompareType": 1,
           "ColumnBindingInfo": {
             "TableName": "제품",
-            "ColumnName": "ID"
+            "ColumnName": "ID",
+            "GUID": "5cdeb430-c6e3-4e06-a811-bdd45667f009"
           },
-          "Value": "%Null%",
-          "Id": "7ed8b8ff-cf9c-46f7-a6e5-b46daa3b71ad"
+          "Value": "%Null%"
         },
-        "Params": [],
-        "ID": "fc5068b89e1247c68181dd6d8b989c9c"
+        "ID": "9d6a938144604e4da452d5c59caba130"
       }
     ],
-    "AuthorizeInfo": {
-      "VisitMode": 2
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
     },
     "RowBreakLines": [],
     "RepeatRangeSettings": []
   },
   "PrintInfo": {
-    "Margin": {},
-    "PaperSize": {}
+    "PaperSize": {},
+    "Margin": {}
   }
-}//acx2kDdXmX4QgLYkOODdOcN4/vWZ3N962Hx9y6u06U+0RcWJQNLEh8i+tf8glOuhJMcopLQ3LvC9zWiv64aXKPA/W9mIiHL5mqAppBoTiVPRqen1GSZ0QNIEJpejq6dx7dxaWHyxnxLzQoqGBdFDezIXakNYBsk8h5b0D/q7V+bChk2CCsB/xOhLP0iot0PZGId0ExnVeCrWtErPdn9TtfDpfJ0L59WO8ak2V8js6tviEb6i796xkutj8JohuW+jBA90LGBl/3s1QemvI/VzkZafWZjc1u4Q4hhG9styfsubZpi4ql4V/AgxVMdzoZaMryMDsbuK1+JSEDiqrKsfpgSTPdEnPXP+4lUHzovgkF/PW6GWUqn4vPAAZejDPzANiCIvlvA8t1khTUwRq7w2HqiatrSfwngBOBoERiCNc1tGxtMCP5InHAMnOuHr/yDRXVzpbB739NGupNPyrMDE+E1usnmrp7A+PjZc9EsdqoKII/KXsw/Ue5+EEK5OBZmmRVw8V5ZZHD58aw0BmBYKeQBxDCid8tRI+t0qnegYhdX/KjVDNO0vLVCQJJmUmKdClZEM1xmg8Q2u83xpfbLqxhKzTL416jgUiiYRIejfz3ySJHTSJJu+ggo8h45NJc58aLvXkDklBXHy2Quuxurb4CXcGmD9Yw04iKSB7TAeKkUo8wMnokKlX5Db3c7I7L5yoINc+09JGKf2qkdkX7qYCKKZhlCnoabTcTFHkgOxX+jz1AG3fwdxcCf6L7mElDVmPTvQpLkGCxmj4aa8GccfE5oXLfGvmKk7RvTvyaDvU12isybnEE/VA06qyLdojAoqvJRUeOO/BTQAyHNQQcFwhtdsAH3zYLVS3k2vFFgzyxoq45xk/RDfVE7+OAnf8J4Kj1uEDJtOSwF/zTWuLhWAOA==|920
+}//VO0llZNJDuCCR7tqGfTu75uIG/WdQJJUP3t/EJmQtsP7JjvkCfCVBOzLjavoaLQwbS7FPGpxasoXjYre6OdVReQUwngjVyZe12xmo+7yozmceetsSnRlFkl6pgQ3WY27bM3Aux8ASlYE2HBvLN7gJkruE3ZW7pbPPCXbYRwLyCvMVUE4xG7O1J3R5tGUkdsD3vAUzNL58E9H3CCJ0GASBQ6Hz1Ie9jiTg3R8Xl92v8iR8N9Ecfq+J2C5DIDcQNtshJTnDGTpgmBHHWh0E16f1+S1UnkjMn/0iqU+ABnI2nxDYAJUljykh04rLOrrAi3/LBLNVuCOh1tFXUFaqikJksvEZj9xFIiJprFUOl64MqsBzdZGI398YLLB4kDeIFFzWBY93wlALqXCKnGAhxnUa31cgxXTQ5yPPDaZJgTVfya73Ymc4TV4aJGYxVndi72RE42K6RtbfjvePkMXxdIOaHTTwXZLkWEWbLOxaHNj99zgW23xuYBQ6T8yf7FYxPEsDM1f+1+iN5O8/SblzvzklaN468heKPK9H6Nadrh/XJcqXcLAi+PSvEsU9sPH+TuSqTy17xJ+j3CSMDL0up+xYF4lWUz/HJbBfQbvOenqzT4OWEDiD8jk1ALRqU2AG5M3107O0db0X1oavo43xjKYYehbSqnHx9kgHG7a/7C1EVhIRGeue35UKlyuEsgKb+qSgdAabuc94zKyTtIWPdp0fmqZWEB6AhMyso+RSYSRZtLyIFeXXacJZ/GfupcDkvQy9pQ/YORuoynMkXAqTtQj1GypEggIDl+bw6J7yc804j+ZjGmjP6H2h2TwHWM2aKmb6CXyYrJRzjHlRUrR/Gk3BkHqnk1OcNWz7bJ2OYqGKObZXXr9xhqM6UYsGwst7u3D4K6AxubS2YNrqsYVR3y3Mw==|920

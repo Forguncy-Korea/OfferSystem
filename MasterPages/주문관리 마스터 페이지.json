@@ -36,7 +36,7 @@
           {
             "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
             "PageName": "메인화면",
-            "PassValues": []
+            "IgnoreTargetPageCachedCurrentRowInfo": false
           }
         ],
         "Text": "GrapeCity",
@@ -50,7 +50,7 @@
           {
             "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
             "PageName": "메인화면",
-            "PassValues": []
+            "IgnoreTargetPageCachedCurrentRowInfo": false
           }
         ],
         "Text": "주문관리 시스템",
@@ -85,7 +85,7 @@
               {
                 "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
                 "PageName": "견적서입력페이지",
-                "PassValues": []
+                "IgnoreTargetPageCachedCurrentRowInfo": false
               }
             ],
             "CanVisitRoleList": [
@@ -102,7 +102,7 @@
                   {
                     "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
                     "PageName": "견적서입력페이지",
-                    "PassValues": [],
+                    "IgnoreTargetPageCachedCurrentRowInfo": false,
                     "DeleteCachedQuery": true
                   }
                 ],
@@ -120,7 +120,7 @@
                   {
                     "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
                     "PageName": "견적데이터목록페이지",
-                    "PassValues": [],
+                    "IgnoreTargetPageCachedCurrentRowInfo": false,
                     "DeleteCachedQuery": true
                   }
                 ],
@@ -142,7 +142,7 @@
               {
                 "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
                 "PageName": "판매입력페이지",
-                "PassValues": []
+                "IgnoreTargetPageCachedCurrentRowInfo": false
               }
             ],
             "CanVisitRoleList": [
@@ -160,7 +160,7 @@
                   {
                     "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
                     "PageName": "판매입력페이지",
-                    "PassValues": [],
+                    "IgnoreTargetPageCachedCurrentRowInfo": false,
                     "DeleteCachedQuery": true
                   }
                 ],
@@ -179,7 +179,7 @@
                   {
                     "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
                     "PageName": "판매조회페이지",
-                    "PassValues": [],
+                    "IgnoreTargetPageCachedCurrentRowInfo": false,
                     "DeleteCachedQuery": true
                   }
                 ],
@@ -211,7 +211,7 @@
                   {
                     "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
                     "PageName": "거래처목록페이지",
-                    "PassValues": [],
+                    "IgnoreTargetPageCachedCurrentRowInfo": false,
                     "DeleteCachedQuery": true
                   }
                 ],
@@ -229,7 +229,7 @@
                   {
                     "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
                     "PageName": "제품_목록 페이지",
-                    "PassValues": [],
+                    "IgnoreTargetPageCachedCurrentRowInfo": false,
                     "DeleteCachedQuery": true
                   }
                 ],
@@ -248,7 +248,7 @@
                   {
                     "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
                     "PageName": "출하창고_목록 페이지",
-                    "PassValues": [],
+                    "IgnoreTargetPageCachedCurrentRowInfo": false,
                     "DeleteCachedQuery": true
                   }
                 ],
@@ -417,10 +417,11 @@
     "4,13,43,84"
   ],
   "PageInfo": {
-    "$type": "Forguncy.Model.Pages.MasterPage, ServerDesignerCommon"
+    "$type": "Forguncy.Model.Pages.MasterPage, ServerDesignerCommon",
+    "PageLoadedCommandList": []
   },
   "PrintInfo": {
-    "Margin": {},
-    "PaperSize": {}
+    "PaperSize": {},
+    "Margin": {}
   }
-}//1l+hZsdw+lsaMZa0T8EIgwvpB/rxeyAx6WhZyN26p5jCoap/UMn0+S5UTNgP5dPzEqc33GN6weM8pG4wYP6FMnbzilGAv35XktsFT7FZRgepk2bJjKJhtw536LuX9ZkCuuIAZTabB+rkvqMtLzaqseWiw7Y3s9TaRfpEZCDH136jAt8WUitEyAJG5WhtK5YlTVGw4OgKIcegqQjsgty0b1zeBFs917x2UeRSZ0oAZ7hkSNPCWMu+HnQzfp5cl/kD6S1LsDGlGmuOD9nDh8+VQaBlj26kEuGegFwhLUG9FiTaQ/BAOd+4I1P8XCh2sZWaR4MsPpE9uTPuazLT6b4Q2E876lxwDLrfTiWr69B9yQ64p1rvVf2/HsGU3X122S5t/vvu6oqeWWpfycJbLQ+5nYA0D3PnMtL5/BJQ5DPK/ZvgJE5AIKsmyPIbOi255tQ+vu0eun6+NvCyEdkvbt7EJc7F3bhGQPRe4zlmj1qrNrRJp/xnuqXDuCOAHhuBs4N6z3umY2Zkv8/6p1eTRIZred1bU4THWi5VvYDxd6/hSD4uVomOsXRfQZlegIVLw3E+H6Du/zWAWN1W33Mq2KVuolEWIJsAPxDpK3JNEXypNoRm9wIjsjRmuPInEs2zMIvzH8D5lLKV++yJj4glgLuK/AFeiuEnj3lFE28lbnM29Do4UNSGlqQC0XrTp8wcCooUgEfIppQsMU0Z3E/nnnJ0BdmnxVnyUboREpfp0W5oIGYOLfRUi5pCy62o1SLUYMMDtDe9Td25Ce8kEMi12nV6oqNvYAr6XYnKVd7ihN2ei0YkehMyed+VF9OmjhEg67L3bi7Hh4ALXs+3Q6MB55M/ihCMyWTky4eFpKEhRAkQ5PGx8n4h85VBpxrAwMZlH2gU3yDQ1AqdIkUuiR8EVtEr2w==|920
+}//SiMGzwkfD41b7Jo4iclFgvRrdkBITPguMYi6BFhuN8M8iY9bzkLvCNJPEfvzjZgPFvd8ciM7N1JzNSYOhjnNxOaCq72MJRN7DLaNxenqeMUmlmPx6+LWNf2/sexufvPEIu9pAb3QhVOzFlK2iAFnXgEnFloGAj6hJeg+dUU/rgTyBjn+k6q7SnBcnEdWRGFZzhxQvsQQaqXTsTq+aDTWpdwtg89m42iLr1GeYWPMNRp24q0/Ym9j3lUdvf9d7/Xw1IDdrRp1B/KoI1uwRXNTnm9x7u/dLH1NAuJRhA2yxXzVpc/ijQ3y4Wviu+zSVbFhsjDj386Wa2vSdEMRr4NLViAxJj2HNFy90WSsaGp5UuO2x2wgDP7+aqA/ntN4d+L+v0oAnPYsHRejEo7HBBQTqXSVz6dZc7Z5XVHG2R1nrydlBYDFrypZqRFfTraVJZ+PGXt/cPdTA2X3Ood0nLcnwrPS4m6zW4f3pj/1zxJ4WX7ri5qTp7yj3S2xZVHE3C+yUJVxxDFPfM+MAQ9dku2jhehiJk+/orjlIN20Ng1sbU+b8PTUk3uzuAVK5fdqnai6UP/3dpWRR9t0xFdFebV9NtIkaM0854xG25Fu/NFidh4LU4Ous/R3RNhgThcuh6gt8PMdspYuaiyFaGlf/aMXebvUm5vfa7yF8sRd7rikfRZDwrmEjUchh8b7IhFUwK4qQ0Ebm/VkHp4MZm9whNwg8EqgtdbKb4nSj4CEK0Lb0I6saomEK4bvsZ5Thr4JEkXyTTupboz6SloVZrB1A4940B+H3618EI1ekJeq7/912cKqQwZY27uuug4Zw5snN5EVy/Ll6QlUs9/4EQaXY6kgh+Um8DpF6qrAQmxwmgIaQqHsS6U37jANyBNfMOpy0T1XERFONTECAuW9zhKbZUkE3A==|920

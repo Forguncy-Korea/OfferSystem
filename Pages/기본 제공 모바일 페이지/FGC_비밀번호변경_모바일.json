@@ -23,7 +23,7 @@
             "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
           }
         ],
-        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "TemplateKey": "스타일2",
         "ForguncyAttribute": "ChangePassword_OldPassword"
       },
       "DataValidationInfo": {
@@ -39,7 +39,7 @@
             "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
           }
         ],
-        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "TemplateKey": "스타일2",
         "ForguncyAttribute": "ChangePassword_NewPassword"
       },
       "DataValidationInfo": {
@@ -55,7 +55,7 @@
             "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
           }
         ],
-        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "TemplateKey": "스타일2",
         "ForguncyAttribute": "ChangePassword_ConfirmPassword"
       },
       "DataValidationInfo": {
@@ -67,7 +67,7 @@
         "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
         "Text": "비밀번호 변경",
         "AutoExecute": true,
-        "TemplateKey": "_RS_Normal_Style2",
+        "TemplateKey": "스타일9",
         "ForguncyAttribute": "ChangePassword_Button"
       }
     },
@@ -78,18 +78,18 @@
           {
             "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
             "NavigateType": "back",
-            "PassValues": []
+            "IgnoreTargetPageCachedCurrentRowInfo": false
           }
         ],
         "Text": "취소",
-        "TemplateKey": "_RS_Outline_Style2"
+        "TemplateKey": "스타일7"
       }
     }
   },
   "StyleDatas": {
     "Styles": [
       {
-        "FontSize": 21.333333969116211,
+        "FontSize": 21.33333396911621,
         "Foreground": 0,
         "Formatter": 1,
         "HorizontalAlignment": 2,
@@ -153,13 +153,27 @@
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
     "Title": "비밀번호 변경",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_Anonymous"
+          ]
+        }
+      ]
+    },
     "RowBreakLines": [],
     "RepeatRangeSettings": [],
     "IsBuiltInPage": true,
     "IsMobilePage": true
   },
   "PrintInfo": {
-    "Margin": {},
-    "PaperSize": {}
+    "PaperSize": {},
+    "Margin": {}
   }
-}//D2PefqUB3+9D+s+5uZsfRUDPVpeuWzKJ1Mfz7pdzm3jAcBkW+btz3hsopfItFKflcTxgHcHHG+Awr/6Sq0rTVXV71WcC1jOp+9qbO44aZ71ChqyxzI14LGJ1HeP+SfL4c8/pGJMfOlBySVx8CjRLYZ4ppfnYKer6XJLfc8E+XvYInBgiQGdaQH9wfqSdz6eLWHsxkauqR7vkWsljpgGwwoGeyv8wA/8AfukZJjRm70wf4FvlvaFyVRqoormDvOZaLb08J97kcC5PAMOhhwxpxTOGBIBO4tZmGLq662RBetNXZvTviZyfUQE2gsYTTMoKeBDU2R8jtSs+bU4IHgHQ+uNm8qMCA016wlvZx+y0AtimifbcF8yyPqmSrzRP+cNk26uc03oDNS8EVVHe++ehMU6vszBhvKufUIM7qnvYVvlCs99HrM6lVSapB7JKm3yRgwEdaq7j/b4axfoosOo7+ElZqYN8KP8xXP7AxP6aXKezuhkSmFgl8yZpiDG9Px7VyoZJyPxqBh9FRYoJniaLX3K8YHyAJGakozKGU+433+aJKTfLZD2UOqghLCmyocLM7ofDAxoco7pXvTfDMjBi+D0wNJduOezo3cGQHPNwU84bUIGS9pKuzlN1wzXi+yD347iHE6+8+hulj5qYWBC8HGLlT407xac834mpWOH62CCp82aWP+ZxyKKCHdMDZZZawR5Xnv/xKhPPdj/GSur4TgdyVlsH3LfQ1ySI1S4N9q97bh4r5RnTOtvC6F3h8zkh5f501zOjZpLP3f7IynFstCNldPuk8Uh+rx/mIlJTLM3j6ofP/o/ikpzW4ZwIgMitWv52+rX3KY/+o5PSrkak71ctqKF5yA5COOIHRXKimm0dkQIUucmJ4xEj5hD0s0AEhWO4gp2WH+6yE4+dlgSxHQ==|920
+}//PTaJdNu5i0GaJ9wNQrLeMIAQklyOuVV65KhsvwCXyx4lyw1DbD8g0mx7yK3XBj2dmn1f3n8mFrc7jLryVkDDnQd01GaGbv8jH29H/GvdWkRRHRbIxIAIHmdrcAZJsrPIubZ8x944OGW3Z4RNDDdOrCAMSs3ULqnj/wIIgibDPFYymJf365Nbp/i/KLyonQ8343nunsIyKfeMZLU9ZHu9mVTdOWzPoItFLeLfS9iNIH8JeuMcFcsEYETOqGMCqObMSK4i8HRvE7+lN3mY/VLX2CtIUNzrOFIuk2fasIg6OvMfzb6HmAt3THtcv5D2JTe8OsDspsMuf6a4Q8MeqTxRfn1KDwVbJUd3dzr0K7aog8BJvMk0dAKXh+36lTgqI9diCvS3pJG6C6i8Up+uwZC6l7iRSUCmRVeMlwQWbWze+16EXYJmkxlulyvvkIe0ATmUdNkjWd9jliLOTsPDRaNdLYNfu0WUMlxLKierTAF2yMcpN4n3mUdptJvqoykTwJge8RKcGwWJgWbe7YkjIgbM0SB37E3vR6nTYFez6Gil8kyMLvB0I+QF+2WBiFJtv2xUjngDo9ii3k6kie48iTZs9Yv+4Uxs3SsaFXpt9S7AuEDC+xfybcu6GPGuFHv4XGSPq/QehotbyjKK64SDsqH6mlcY7+lDonqg4qbOs1kyKN/ler0VqEIx4MOe/JEu6zJSC9KGHPjZGwCHqZnon6C46QZew5mmrbU5RJoaty6l+nZ2pqRTO3aCbO6PwHnvkLeTN84KTd6pT6u2kUTPMM7o+zxUHqE9aSI4Xxgu3G2NM6TO9RweQkHoRCrOrBrJw9/bvUZSSvKTRopfuDf25nGPaU+Zmz2nz2hd2CiocumcK3OaSGLXcQqA4VaiB9dp9Rlqkf8ix8kUmYwmf/xbPfmOaA==|920

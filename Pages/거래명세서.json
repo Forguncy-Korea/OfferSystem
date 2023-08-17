@@ -165,13 +165,15 @@
     "2,28": {
       "BindingInfo": {
         "TableName": "주문데이터",
-        "ColumnName": "견적번호"
+        "ColumnName": "견적번호",
+        "GUID": "0b1f6483-ee01-4c4b-a825-9f4f54cf24aa"
       }
     },
     "5,3": {
       "BindingInfo": {
         "TableName": "주문데이터",
         "ColumnName": "거래처_ID",
+        "GUID": "ad84787a-5caa-46a5-901f-7d7d90801e54",
         "RelationBinding": {
           "RelatedTable": "거래처",
           "RelatedColumn": "ID",
@@ -183,6 +185,7 @@
       "BindingInfo": {
         "TableName": "주문데이터",
         "ColumnName": "거래처_ID",
+        "GUID": "972f6afe-b584-46ed-9a3a-a8e8d21b1c4f",
         "RelationBinding": {
           "RelatedTable": "거래처",
           "RelatedColumn": "ID",
@@ -192,32 +195,33 @@
     },
     "12,3": {
       "ListViewInfo": {
-        "ShowColumnHeaderInDesigner": true,
+        "Name": "리스트뷰1",
         "TableName": "견적상세자료",
         "RowIndex": 12,
         "ColumnIndex": 3,
-        "ColumnCount": 37,
         "RowCount": 9,
-        "ColumnOperation": 2,
-        "ShowGridLine": true,
-        "ShowEditStatusIcon": true,
-        "UseSimpleBar": true,
-        "Name": "리스트뷰1",
+        "ColumnCount": 37,
         "DetailListViewInfo": {
+          "ColumnOfDetailTable": "주문_ID",
           "MasterTable": "주문데이터",
           "ColumnOfMasterTable": "ID",
-          "ColumnOfDetailTable": "주문_ID",
           "DataCommitType": 2
         },
         "TopCondition": null,
+        "ListViewStyleName": "스타일1",
+        "ShowColumnHeaderInDesigner": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "ColumnOperation": 2,
         "CommitType": 1,
-        "ListViewStyleName": "주문관리_리스트뷰_스타일"
+        "ShowGridLine": true
       }
     },
     "13,3": {
       "BindingInfo": {
         "TableName": "견적상세자료",
         "ColumnName": "주문_ID",
+        "GUID": "7a5ef37e-2cda-4ec6-b0e3-c2e854e6156a",
         "RelationBinding": {
           "RelatedTable": "주문데이터",
           "RelatedColumn": "ID",
@@ -226,36 +230,25 @@
       }
     },
     "13,6": {
+      "BindingInfo": {
+        "TableName": "견적상세자료",
+        "ColumnName": "제품ID",
+        "GUID": "8309cd63-3bb6-4d8e-b96b-f8be92bdd5a4"
+      },
       "CellType": {
         "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
         "IsBounding": true,
-        "Items": [
-          {
-            "Value": "항목1",
-            "DisplayValue": "항목1"
-          },
-          {
-            "Value": "항목2",
-            "DisplayValue": "항목2"
-          },
-          {
-            "Value": "항목3",
-            "DisplayValue": "항목3"
-          }
-        ],
         "DataSource": "제품",
         "ValueColumnBindingInfo": {
           "TableName": "제품",
-          "ColumnName": "ID"
+          "ColumnName": "ID",
+          "GUID": "1d7bc23c-eee9-4069-b1e5-eb04c264a565"
         },
         "DisplayColumnBindingInfo": {
           "TableName": "제품",
-          "ColumnName": "제품명"
+          "ColumnName": "제품명",
+          "GUID": "acc90062-73ec-43f2-bcf2-506627014ae3"
         }
-      },
-      "BindingInfo": {
-        "TableName": "견적상세자료",
-        "ColumnName": "제품ID"
       },
       "DataValidationInfo": {
         "IgnoreBlank": false
@@ -264,13 +257,15 @@
     "13,23": {
       "BindingInfo": {
         "TableName": "견적상세자료",
-        "ColumnName": "주문수량"
+        "ColumnName": "주문수량",
+        "GUID": "c9e37037-a2b8-4542-8b9a-fc7d933801f3"
       }
     },
     "13,25": {
       "BindingInfo": {
         "TableName": "견적상세자료",
         "ColumnName": "제품ID",
+        "GUID": "2b0f8b2f-c282-4bd0-aa57-c609e354beeb",
         "RelationBinding": {
           "RelatedTable": "제품",
           "RelatedColumn": "ID",
@@ -281,7 +276,8 @@
     "22,10": {
       "BindingInfo": {
         "TableName": "주문데이터",
-        "ColumnName": "참조"
+        "ColumnName": "참조",
+        "GUID": "fd97da31-9b5c-4f49-8f2b-3c46761b6b4c"
       }
     },
     "26,3": {
@@ -290,8 +286,8 @@
         "CommandList": [
           {
             "$type": "Forguncy.Model.ExportPageToPdfCommand, ServerDesignerCommon",
-            "AutoFitRowHeight": true,
-            "NewOtherName": ""
+            "NewOtherName": "",
+            "AutoFitRowHeight": true
           }
         ],
         "Text": "인쇄",
@@ -1187,8 +1183,19 @@
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
-    "AuthorizeInfo": {
-      "VisitMode": 2
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
     },
     "RowBreakLines": [],
     "RepeatRangeSettings": [],
@@ -1199,7 +1206,7 @@
     "ColumnEnd": 39,
     "RowStart": 2,
     "RowEnd": 22,
-    "Margin": {},
-    "PaperSize": {}
+    "PaperSize": {},
+    "Margin": {}
   }
-}//LPmPEdsBDvfHo06uY9BRXZL/Z0xyPktPGqqWHT8jvIh/lAXM9xuiR7foaP3ES8cj+H7+CuywbemfhXT0ltn3clY0NsdEuzu/CHcrVRjX9iAnWZ6r6tpHXNhBwd6PGtdXgfPd5j6uAt4Q7BMKkoPTw7x0dOl9iAt4hem+9asnHS54GmanJqafN6ydt4T+uNkFqIF+GiWjdb7CaFu6RphZ8Pty/zSQAjVT84aqAKm3fqg+QCk/qN05bccycfJFcMChaNK8o2hyaU/PxSGK7NxC2upsKn/dBuCFcy8mOAaPBT9rn3pwUqlQBLQ1m/U1Izl+ebB6+BXdnIkLePKsryyABLnDp0JCuLN0JZC0yl6e3LPW96OKYsdVWE52Gxg8tyNG1QoB919vDoU4QyxmFXE7+xV3UHwdUCY/xqIpOAhl4uerg0fbqXFEHOuCSe51umLQIdxaN3hq6uS65Le2kgbkqc6FxwmA9z+CSpeQfn0lrB7hbUnW9ATTmHNGFgN5YQ5gOqXJgJU1nt3fK9wY1+3ZS9to708ZwaR54jv8OAkAg4ZDvXtFzNwQ0mcucS96zskM6U2tRDrM83kBEK95GwPKS/ObROF7yTfhBbzuh59ahefC/zSnkecKIsEL3aG9LY9vFWy7ZUi8mQ6QcyUZbyjhp5Ny/tI4xEjjV95jGY+/uw/KwcNW/+lMLnmCMCR67DUS1uAWS8ULJOLBXJaZGI3A8Gc52QYBiqo+1PM+wmmRzf0JchQENU2z0QCDIQQWCZVjWMK/e2z1C592p7xSkLhPpCZu1F/nT7iFqRtoZiClac+UZpyLBXjsDVwMI4d//MNhEzcN8mRqhVoTy05VnHo2y2uqeWxqLbw6e89Fo6MNjYFtWTylaxD34Gk/FhML0jzKbTtYaaTlgy+IwCGfNZGT7A==|920
+}//2ISwDRaNiG8zpflCBGlEJGsaAedm9WKKGq7XxXNImYAEJiP60BzPFI7yU2kKgOUb9McgifZl8qxeGGj1te7uW3nbfaZ8pMfnhnhYmCp8jrOX9s+CfPeq0/fPKzHNklqR3nJlRgM6sW9adMSGde9rN25PTDjHAZyMn+z8DLRYvDr3VK2BLKIcSGiEReb5NpTNzOaqYsTxKWSZJeKjrFGgVAAkFZ0kcthimC3SLxQTeH+ByLH7jYN4Xogz0V7yog0ET41fJcjvgEszXoFY+TzRsszP2ySExUWQIId8ky2+nhUbbELAW8vnNHnWreJxDqHMNPLNEyMeeKkmNa6dRoEAW0+AUSs1mrDQ4r0BYCae6wWWoltmGLwFuaAt+/sJ6XJaf4ZPkgEjr/uvkEJyOnKaH/bbGohYRMvIzDRvhuY/8uYiu7teSMUP8u7GaFJ4GT2PsjXMLV7qYLjwbXJUiazcRq1TB/JFGrUm89AxNGW7N1gbgNRcHRM63RS5vOOS5ygiQSdYfrQbdh+tN1AKiUHhuCeHGLcr1y5YUWUPG/b4c1Lbv1gXoiNO8wIfc0J1t0icp/lgYBzv+biP+YuQWuLxE03FTAZ9WxNxcg7LHmYIatveI5bSHgLwFZBbnFl9jNHPVe6RiZpWigLliP5lQ3yI0KSZZtq++8nADL/qjtcmZcaB3lcRXwrbmBjsrK5SCyxBGHW6S2dG0/5fIqh+G7qYdAInWRkqOxpWWSty70PFLeVYmv+RPiGB3u6NqLl+hFpvxO9Llo5+GbjP2sB9S62KV009c9P1SEN/7vv4CodgReteL+THPfzcS91zrtAs0HM9NL5vCPqrU3GPxE01HuL0hQqxPP0CYsi2MRaJpQ2ttu9o21zIuCNOaDgRuJMUw5ye3YfG/mkMrHJ0bTBI36neAg==|920

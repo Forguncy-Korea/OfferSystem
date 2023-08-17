@@ -72,7 +72,7 @@
       "CellType": {
         "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
         "Text": "다음",
-        "TemplateKey": "_RS_RoundCorner_Style2",
+        "TemplateKey": "스타일10",
         "ForguncyAttribute": "MFA_Secret_Next_Button"
       }
     }
@@ -121,40 +121,51 @@
     "12,22,2,13",
     "14,21,2,15"
   ],
-  "BackgroundPictures": [
-    {
-      "FitToBrowserWidth": true,
-      "FitToBrowserHeight": true,
-      "ForguncyPictureName": "PCLoginBackground",
-      "Stretch": 3,
-      "ForguncyPictureSourceType": 2,
-      "Name": "BackgroundPicture0",
-      "Size": "1120,685"
-    },
-    {
-      "StyleInfo": {
-        "CornerRadius": 8.4375,
-        "Fill": "#FFFFFFFF"
-      },
-      "IsAutomaticFill": false,
-      "Name": "BackgroundPicture1",
-      "Location": "380,220",
-      "Size": "360,385"
-    }
-  ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
     "MobilePageName": "FGC_2단계인증_인증코드_모바일",
     "Title": "2단계 보안인증",
-    "AuthorizeInfo": {
-      "VisitMode": 2
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
     },
     "RowBreakLines": [],
     "RepeatRangeSettings": [],
     "IsBuiltInPage": true
   },
   "PrintInfo": {
-    "Margin": {},
-    "PaperSize": {}
-  }
-}//14nkcdqEE3QC5ZBJEWuXKK/xeEaXEjZVqYdgrSWARVIWHf0CKMCO5OkKDHlnT0vLWndQXH9MGxJfo7BWrBt7X5pCoJrF3PRbzP267USo2R5SGaFg7Tat2g3II90j5zqbhLJ3tCEB3/utROQbKJtVfPBNA6X+wX0XIkbH3jpI7WbOiXow/KXro4QcRXKzf4doTFXPTAkd0jl3cMSHMms629ObUGx8V4XvT3ilLHbet4ZErE6HeOXIaHXzmciIlV1UBlwlCM0eU35OtOdr9WWxHtZZ/3IxjgNvet8F6iziIH6Oijc2k5oosnVxJ7qTlMDHZkaq42OUNSFu+k+U8sC0Ls0Om4hpIWB8i/WvhO/3nvqdLMTS+lnbn86G07plMLXeZtTX5f2f2zgLJglyg/9Z2vBf67vhPUdqicHCc6ejhM0cvMilFi8HDDXxno4xO1E3gQbYrJKWaREFrMsIvt/TMu09q+baENKuCs8dHEvS1pr3uQHtBiT4zdefLeunb6C+HR0q4PzfWwax2l8AJMAaNqqDyniii6p10MQ3JVbvZUXO/Oeljk4++FaagRg3uQrgAKCcuXWZGaadtyycz7iKF2dnyiZEdJDyv9nNL+A+7tMC981SZPCZndFRhoZwBPv1XDRcyIsFDY0No5SjENxJT9wYyVLrDGJdQt9bKoiicXpym690XWy/3UDV5NshV8gz8WY+BaLmox9Hvsoq8lmFQqKyQCh0EZsK9NGs+IPPKZXX+O4UFHzd0gbKYWoiuSJu/nkbsDF3P5MOObYGlQB3QfXtzvtdlMQ/o4zbZSgYb6S7/9O9K/9lf3+nSHGspTpHuok4kM16D4qqXXAmYOpRrE8nD0GjonMolGrtMUY7jImjAZy4ruDxu/PST7e6ystK6SXngBttoCrQqUxXQ5rE5g==|920
+    "PaperSize": {},
+    "Margin": {}
+  },
+  "BackgroundPictures": [
+    {
+      "FitToBrowserWidth": true,
+      "FitToBrowserHeight": true,
+      "Name": "BackgroundPicture0",
+      "ForguncyPictureName": "PCLoginBackground",
+      "ForguncyPictureSourceType": 2,
+      "Stretch": 3,
+      "Size": "1120,685"
+    },
+    {
+      "Name": "BackgroundPicture1",
+      "StyleInfo": {
+        "CornerRadius": 8.4375,
+        "Fill": "#FFFFFFFF"
+      },
+      "IsAutomaticFill": false,
+      "Location": "380,220",
+      "Size": "360,385"
+    }
+  ]
+}//fQxXVdX/j13KieNCycYz9dTYD7h/sNS/XImMdVVIN7ohHJrKnF5naMMZg0ymo20VJT0zazMfZeNZQPK7KE5zc/xx/HTGIVs3qNj3MFXfmEL/LKi9bdy3tdL4CqCzDG8Swzy7yBD+V98Oadj6Wf0/XQoDprK63t5ZbW/ym+lAXSZp4D1TLa1wvK/V5YTwmxRG/8b79BgJ3wEGwn6ovqv+2I51jy7ZhBY/clgWrshboNEiIiHKdc4n5Zg7HvamfiMAgVBLIKB7+1k6SSefP6Hi8jkW58d5JsBNmGVsROD7ZUz1Z9kG0y/7XsqOyq05BgJ3avn/rYDGhmvgJPXXI1mhAzUdtsHX/ICka6ydCJUsUwbx08FM6QL8hqKneWn2DfruGqKBdjcCL7ZVohhDG9Smgt/XxBQpebzQPEsQKyhw8ZFm16YzUiOwEiflgsmWmnloXjVrkdsPl6jb2T50ClLyRacGmpUTmd2ydND7MjghIq9fx+1wbS8/HUZRTP+rlVTQbaUMBvpalQEBDpidkSmiJ5wUt7uAThAn/BAxD0uwwLJUJF6e7Ladc7JUq6yNvCMhthI348j70+bO+YGIjocEW7ZId6sCDxXrUqiioyInTVKKLY1zXQBQZzjxWfm6MEYIsyWVe2RK/Fbf+4pVQsE4XPyqvLG6lZDj+uMVE50jciQvdXNaoJRlyRWOz8+Lu5HfPaLc/e3xHlzb0BWREB3qbxVlOwakUbAhNV51/57C+NURLBVwEIpdIRw04KQowpRmoTcLDbMpR6Tbqirrxru/6CepLfb+8f2XPopUH3ZGJfxnzKBUIi3ohEE1uwccMcjJJDVDPwv7Z2zDrK+ySmriB3c60vlF3oGYK6cItJGvw2+r93ZlCpRsii2i4m9Apu/wDVID4DMuYPWKxGKDRkGgxQ==|920

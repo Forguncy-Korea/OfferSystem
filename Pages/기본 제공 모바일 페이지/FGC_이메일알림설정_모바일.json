@@ -15,7 +15,6 @@
     "7,1": {
       "CellType": {
         "$type": "Forguncy.RadioGroupCellType, ServerDesignerCommon",
-        "NoneItemText": "<空>",
         "Style": 1,
         "LayoutMode": 1,
         "ItemSpace": 14,
@@ -49,7 +48,7 @@
         "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
         "Text": "저장",
         "AutoExecute": true,
-        "TemplateKey": "_RS_Normal_Style2",
+        "TemplateKey": "스타일9",
         "ForguncyAttribute": "MailSubscription_Button"
       }
     },
@@ -60,18 +59,18 @@
           {
             "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
             "NavigateType": "back",
-            "PassValues": []
+            "IgnoreTargetPageCachedCurrentRowInfo": false
           }
         ],
         "Text": "취소",
-        "TemplateKey": "_RS_Outline_Style2"
+        "TemplateKey": "스타일7"
       }
     }
   },
   "StyleDatas": {
     "Styles": [
       {
-        "FontSize": 21.333333969116211,
+        "FontSize": 21.33333396911621,
         "Foreground": 0,
         "Formatter": 1,
         "HorizontalAlignment": 2,
@@ -128,13 +127,27 @@
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
     "Title": "이메일 구독",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_Anonymous"
+          ]
+        }
+      ]
+    },
     "RowBreakLines": [],
     "RepeatRangeSettings": [],
     "IsBuiltInPage": true,
     "IsMobilePage": true
   },
   "PrintInfo": {
-    "Margin": {},
-    "PaperSize": {}
+    "PaperSize": {},
+    "Margin": {}
   }
-}//EKvJgj0kXhkPtkIEDdi9jeowGqLTV9fzjAXsoZo69Gmp65qapsZNN2DOlPIJTPveUyAVkcQHVaKQrG410XEVM1YF5+X6RTiK2nZWVTRm9elJpdIxFdWGmuEh6ePwR09uTF4me5kSIJfSJw5bfJHC/kl1xFN7m1TddHNuV8sHZbOWPuC/6ad1ga6aKLpyVWXkd7UK8uZeGr0z5Zoz7yAFUXTsBEs9xfq1D+xacGyt4O1EwOs3gIJ5ko855sI3fjvlboPcxh7DRzPscs88vnEpd8V0IM9Cm6z17RaeCmgSWth27K/VndkJbxgk3bWTUmN3gTf9PB6qz8BFL3n4u1oAaCR4evpPlklx7Dr1ABMEr6rmUXMDFwBfP0T0G43u4ZqD1w7B5AUbHy8l5+H/TpG+IwZuNypnSbU9h0R2ZjQjB+QLVqUshnnbXS0QCgSFKZxj5dxnk51hY9oBrv5RhMsnzEj8GurZnpTfO4aSBTmdiZzQxlq4vumBjwZjhwen034yv4J4US0T0gIXchPpLxJ3vd4CKkEtKOj5DT3qq9RYSOZmOlUhPOqR3DnQaQ6CczWJXG9wYD8NOHqQvKjqBkzHtGw/Rs9KLAxAHzv6npKMD46cVZcmbrSaxpQgBFlYcnzGHkJ/lHltFJqWlS2tGdtQRWf0Z7FkRzIyzsIg6wCA167YsNd69dburtWNSGtQbhgsegbz23NQqXKmUmUWB9J3wMdcvHjFoWl8aC0vDQeLTEwIMwabYWtkgJSmi1sWKpQDiczoSbsBAmT7dfCElGXflsCDukGMp+wDmXFCDqepzjvksFe5KbP8vmHdOOEhiBMg5n/S5fRfpnJzVkupo8+TUmqoJ1EnBRO1uoInRj2SLkEQThhyVHXIZYSL5533RiqecX/bbz7OpxpzJubMpxtcaw==|920
+}//ET5MizZtac3bkTEHfC7a60jg4rsQBCsqsGUAbmKp6Nk0oisn4an7JSaZEov+3SPZm9WzPjAAyWr8NB1gEwf1RS+2JWU9Ow4uBFZ9uyX2NalIpIkaBpFF2V1+QmwomFIs5oJl8n/GIBNv18Xn5FsmuXzFYqr6teaAtI5eosUQ6gDCpmGc78ijjwvo1GAPoG9LRkG01X+FPTX29FNrzKlYdcMyWo685Y+b3LOrYrlWQ5RDx/xkuij4w1bWomz0gbHjV60rH8z0svJ9qL3cfdqoMoJHcvS/xDvsBJbLdyTRiCeRMdxdr1gOuIHaaXwxQtIYXby/ERmnAQ4ghI0LX6lv5mRK0muAcRTtz9JWfm2Tx1+8671sOtWXBb69H0jHA6jiVFGuuCTIrZtWULoCC0jeHBA6KuKw9lpC5kL5hz8LenDUFhe7G6phP0AVu1tpHHg14BpUy8cGGSmPYCD61Ency2gOWnXZ/4s7oYcdNN5hcvvs0r4CZ87v3gpWVbp+yjxO2YlJbKnxmW7ecJna96skLSADUA5ns1VWeGo9vbkdUUHr0UGGNbHqlnLYuqqNmPnwBWvTcGjP8IV3zGJZZUEUJZIpaTZrBjdWw0TpjuS1l1w8OLguK7XrFRhsEsdLhDggwoDxaYyRS7B6EqSqDG9sdRYezrWfps2h0BJdMtKE8fruOI+xCPa75eXd6+4HqjjD/T5ektrbjCLShbdJnxDooYog9UAaIlGzpp7XH5Uzicbz5S4WL2dkIBG1CFIduuw7u+zki1zgkWrB7ia4x/HrkCGOHx8X8baYi+y17eMwc1Bua8WrfoCoY7cssxV652wEw6AksB9nf0PVLDD7bfnss21IUwYvOGsWV0I2GC2XXv1iZ+QuMlDya7XcclgZMrxA2E1s62MiVmrE4DWzI/0nHA==|920

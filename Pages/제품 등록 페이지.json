@@ -143,10 +143,16 @@
     "5,12": {
       "BindingInfo": {
         "TableName": "제품",
-        "ColumnName": "ID"
+        "ColumnName": "ID",
+        "GUID": "39e18858-f4f7-4746-8307-e0273bcce650"
       }
     },
     "7,12": {
+      "BindingInfo": {
+        "TableName": "제품",
+        "ColumnName": "품목코드",
+        "GUID": "3c01d1e8-139a-4413-99e1-9d78c149b8fb"
+      },
       "CellType": {
         "$type": "Forguncy.TextCellType, ServerDesignerCommon",
         "SavedValidators": [
@@ -155,17 +161,18 @@
             "Enabled": true
           }
         ],
-        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
-      },
-      "BindingInfo": {
-        "TableName": "제품",
-        "ColumnName": "품목코드"
+        "TemplateKey": "스타일2"
       },
       "DataValidationInfo": {
         "IgnoreBlank": false
       }
     },
     "9,12": {
+      "BindingInfo": {
+        "TableName": "제품",
+        "ColumnName": "제품명",
+        "GUID": "07b43d75-2dcc-44af-9baa-4cd4692a7518"
+      },
       "CellType": {
         "$type": "Forguncy.TextCellType, ServerDesignerCommon",
         "SavedValidators": [
@@ -173,17 +180,18 @@
             "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
           }
         ],
-        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
-      },
-      "BindingInfo": {
-        "TableName": "제품",
-        "ColumnName": "제품명"
+        "TemplateKey": "스타일2"
       },
       "DataValidationInfo": {
         "IgnoreBlank": false
       }
     },
     "11,12": {
+      "BindingInfo": {
+        "TableName": "제품",
+        "ColumnName": "규격명",
+        "GUID": "8c15d61b-c2d1-441b-88af-221d84e13a6e"
+      },
       "CellType": {
         "$type": "Forguncy.TextCellType, ServerDesignerCommon",
         "SavedValidators": [
@@ -191,17 +199,17 @@
             "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
           }
         ],
-        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
-      },
-      "BindingInfo": {
-        "TableName": "제품",
-        "ColumnName": "규격명"
+        "TemplateKey": "스타일2"
       }
     },
     "13,12": {
+      "BindingInfo": {
+        "TableName": "제품",
+        "ColumnName": "품목구분",
+        "GUID": "bc712961-393d-4d75-ba7e-9a21a358f037"
+      },
       "CellType": {
         "$type": "Forguncy.RadioGroupCellType, ServerDesignerCommon",
-        "NoneItemText": "<없음>",
         "Style": 1,
         "Items": [
           {
@@ -229,37 +237,34 @@
             "DisplayValue": "무형상품"
           }
         ]
-      },
-      "BindingInfo": {
-        "TableName": "제품",
-        "ColumnName": "품목구분"
       }
     },
     "15,12": {
-      "CellType": {
-        "$type": "Forguncy.NumberCellType, ServerDesignerCommon",
-        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
-      },
       "BindingInfo": {
         "TableName": "제품",
-        "ColumnName": "가격"
+        "ColumnName": "가격",
+        "GUID": "c7a2886d-4da6-4a92-8f6e-34df7231cd77"
+      },
+      "CellType": {
+        "$type": "Forguncy.NumberCellType, ServerDesignerCommon",
+        "TemplateKey": "스타일2"
       },
       "DataValidationInfo": {
         "IgnoreBlank": false
       }
     },
     "17,12": {
+      "BindingInfo": {
+        "TableName": "제품",
+        "ColumnName": "파일관리",
+        "GUID": "5bc4397d-0d70-4df2-9298-194c84c9bfb0"
+      },
       "CellType": {
         "$type": "Forguncy.AttachmentCelltype, ServerDesignerCommon",
         "UploadLimit": {
-          "ExtensionFilter": ".jpg, .jpeg, .png, .gif, .bmp, .xlsx, .docx, .doc, .xls, .pdf",
-          "ReplaceWhenOneFile": true
+          "ExtensionFilter": ".jpg, .jpeg, .png, .gif, .bmp, .xlsx, .docx, .doc, .xls, .pdf"
         },
-        "TemplateKey": "_RS_Normal_Style2"
-      },
-      "BindingInfo": {
-        "TableName": "제품",
-        "ColumnName": "파일관리"
+        "TemplateKey": "스타일1"
       }
     },
     "20,1": {
@@ -280,19 +285,16 @@
                       }
                     ]
                   },
-                  "value": "저장",
-                  "Id": "0b705f51-3409-4da1-aacc-ee225155c866"
+                  "value": "저장"
                 },
                 "CommandList": [
                   {
                     "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
                     "TableName": "제품",
-                    "UpdateType": "add",
-                    "ConfirmText": "데이터를 추가하시겠습니까?",
-                    "UpdateValues": []
+                    "UpdateType": "add"
                   }
                 ],
-                "ID": "e523b86d-13c7-46d0-b00f-6ba30aa14648"
+                "ID": "e17e1636-f595-4c57-96b0-38ba7b3e85cc"
               },
               {
                 "Condition": {
@@ -305,18 +307,15 @@
                       }
                     ]
                   },
-                  "value": "수정",
-                  "Id": "a2926533-f381-41c1-b8b3-9d1662681980"
+                  "value": "수정"
                 },
                 "CommandList": [
                   {
                     "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
-                    "TableName": "제품",
-                    "ConfirmText": "데이터를 업데이트하시겠습니까?",
-                    "UpdateValues": []
+                    "TableName": "제품"
                   }
                 ],
-                "ID": "47f93dda-71f3-4424-8fbf-c1a1ac7a6e7d"
+                "ID": "fd569829-4be6-4da9-86aa-71a557f51274"
               }
             ]
           },
@@ -338,7 +337,7 @@
           {
             "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
             "PageName": "제품_목록 페이지",
-            "PassValues": []
+            "IgnoreTargetPageCachedCurrentRowInfo": false
           }
         ],
         "Text": "닫기",
@@ -539,14 +538,25 @@
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
     "ShouldCheckDirty": true,
-    "AuthorizeInfo": {
-      "VisitMode": 2
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
     },
     "RowBreakLines": [],
     "RepeatRangeSettings": []
   },
   "PrintInfo": {
-    "Margin": {},
-    "PaperSize": {}
+    "PaperSize": {},
+    "Margin": {}
   }
-}//oP766FG7t3IbmQGu7MI3CH5Ytsl90gzarkuzmo1/SzN3/09E2g2kMtfj66GSq+hvpVCjVeQPbcAEQ0UAJYVrAvE9TnRODJA1zCpLAFrdNd5mF5H1dKA4ocOKoRoCh7LjouyPg2fNf3sMfE1EvIA2vP7JVigkfx3a7cY4FdfPkXON2pjjzS6VygTSeIF+PIDJWDGKyCFpKbtAMgsuRiT4zajQu5jnWo65YrrtmoyLrFEUWAyhpgiDbRkF5jBNBIrz3BkQnSDQJE7vh575nH1E59XCBPEUVs6FGLXcbJ8g3IPHWt85ellj3OidZNKnGJA+sAAuci9X3Dbk7rcU0U+ytnGagZgHUlyunJj7ZS0G2JM7xsUVYnwjfvsxyHIVVy4IOFJ78tHwgsYFW90ym9HlcN/98tyfamnq49v8hBhKL1cyV9qP7oV8Wea4ZGIPsx8orlDRpvDF0FObv6Kt/gkOmqRwfyK1i4gij+/NDrX40ftHv8rwR542nKvVYomd1MZWFspxnpS6sbxxxIDftAFXY5K+RaqAeO16XJ0suikjW1gpRpvtY6zBVlL9u5QA5/x8S600gKtfKnd3x53z0LHeFboQTvl6ZAWSKy0DwfF8mzs0Em+i1Tu43MQ/PYbNV6RqW1Stjwf7VkfJAm/1+IX+VNp3fLsZXRLzYcTmoE7D4FgfFlzxIiU28fwXlQxQOb40x+L23Oe1WsfSsPJ0/SLEpKEcgGxZ46O9WdNd7MaD+QKYIfyxm24eomswP9krsJCiu4Kp1av4IkegD1F5PxEyojehBfpS39niaHIe0kcNwheRn9+3n60/SYoYKn6XV2RdIFvxA4Tu0WAMOXEkbVUUtFOKWmLs8JWLrjbkCdsiBisEwPekra2n78ER4nYuEe9iiyrb3IfG7w6JtqA1frkN2w==|920
+}//yqfGgHJZ2TtPLtnWg+tXkRG6sTvnLQhkF1YQp1Q2ecMocnUBJ2w0W4Y3wtFbMyQN9SLXk8zWiKK0Jy8u0VLDTgI9RVdZiVLobHdujf2NlfOB0pdikDvF+EmpBJzGUycwwiaQ46QVxSRoly8DsA3kh+o87LM7Lye0M6ep+aw+w8KDaRq69X2ctgwI4dBe9jSbT/U22mEi00Np0KAS/a+ZzssQ0jGNSvQh9a6KItg3EmlQEW4qHZ46idaVWBaP7zUmR+fy8XtM3y1j/ywGTQsyYCfGPEURDbdFniRxDFnLa8hZhtFjig30tWPd3QpZBewCtmxmFRXX68fLTvtVrcaWncCtCkSRED4QSL9rnrarMgDemdUG6z0tAvtgnRpt/Bv6n0nvM2xE7kU9TKa9NUHmpp8zQXOe1PkBD2IgOS20vH9cID3z7tzrv8S7Dutxmvh9Mxc1iCr57JLftxy5OHx03TurHmnJswZP9lq8dSSzq9L+a91kukQUvZnaliJfdtk4Ce+RerUsUneEgZtySMTZmvRp6/0vU8iT37CsP6yPMwfHE6sIm9wbUNNml/4siywc0KsENtRMywxk5iCL9Zvz7mNmtYM9ZnSd9CVSZ5kAepMnajMyjGIephjC7/bUrCuD6AdVoSzSCf12UDc540imTGAHHHQIrdK4d1atWuB8UKKGPVXG09raCDH98808a8ygd3aitOKeOLKioCT9yFah9NcPm1b1T6ts3UrcJ5SRQRIqrDq0u91ja2fVDtFPsE3SSRzFziWTbi0mIjm3Kuwj3UZU5hitZ7P0dIR2lXhLq5WAYTIZg1YQQLutmMRT36b4L5aWPvpl9JERg5n85rvn0zBI7moBI0NDSRQ/NIZTGiRJjF2w5jeQziR7pcVun+PWtl0UYl+FC5B+KDReLfDZMQ==|920

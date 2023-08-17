@@ -219,7 +219,7 @@
           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
           "SerializeProperty": "=DATE(YEAR(TODAY()),MONTH(TODAY()),1)"
         },
-        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+        "TemplateKey": "스타일2"
       }
     },
     "2,43": {
@@ -229,7 +229,7 @@
           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
           "SerializeProperty": "=TODAY()"
         },
-        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+        "TemplateKey": "스타일2"
       }
     },
     "5,2": {
@@ -321,7 +321,7 @@
           {
             "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
             "PageName": "견적서입력페이지",
-            "PassValues": []
+            "IgnoreTargetPageCachedCurrentRowInfo": false
           }
         ],
         "Text": "신규",
@@ -337,100 +337,104 @@
     },
     "14,23": {
       "ListViewInfo": {
+        "Name": "리스트뷰1",
+        "TableName": "주문데이터",
+        "RowIndex": 14,
+        "ColumnIndex": 23,
+        "RowCount": 12,
+        "ColumnCount": 27,
+        "SqlCondition": {
+          "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+          "SubConditions": [
+            {
+              "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+              "SubConditions": [
+                {
+                  "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                  "CompareType": 3,
+                  "ColumnBindingInfo": {
+                    "TableName": "주문데이터",
+                    "ColumnName": "견적일",
+                    "GUID": "a85b0f38-020d-4bd9-bbe5-c03cad59c720"
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=메인화면!AF3"
+                  }
+                },
+                {
+                  "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                  "CompareType": 5,
+                  "ColumnBindingInfo": {
+                    "TableName": "주문데이터",
+                    "ColumnName": "견적일",
+                    "GUID": "a462df1b-a2a8-48d5-a725-c225b90ca6b2"
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=메인화면!AR3"
+                  }
+                }
+              ]
+            },
+            {
+              "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+              "SubConditions": [
+                {
+                  "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                  "CompareType": 3,
+                  "ColumnBindingInfo": {
+                    "TableName": "주문데이터",
+                    "ColumnName": "납기일자",
+                    "GUID": "fcfc9b13-8284-4fa1-9f91-d64e90cb67aa"
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=메인화면!STARTDATE"
+                  },
+                  "LeftBracket": 1
+                },
+                {
+                  "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                  "CompareType": 5,
+                  "ColumnBindingInfo": {
+                    "TableName": "주문데이터",
+                    "ColumnName": "납기일자",
+                    "GUID": "ffc0b80f-00e9-4da0-a4bc-c2ec6e3a5aca"
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=메인화면!ENDDATA"
+                  },
+                  "RightBracket": 1
+                }
+              ]
+            }
+          ],
+          "RelationType": 1
+        },
+        "TopCondition": null,
+        "ListViewStyleName": "스타일2",
         "DoubleClickCommandList": [
           {
             "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
             "PageName": "견적데이터목록페이지",
-            "PassValues": []
+            "IgnoreTargetPageCachedCurrentRowInfo": false
           }
         ],
         "ShowColumnHeaderInDesigner": true,
-        "TableName": "주문데이터",
-        "RowIndex": 14,
-        "ColumnIndex": 23,
-        "ColumnCount": 27,
-        "RowCount": 12,
-        "SelectionMode": 1,
-        "ColumnOperation": 2,
-        "ShowGridLine": true,
         "ShowEditStatusIcon": true,
         "UseSimpleBar": true,
-        "Name": "리스트뷰1",
-        "SqlCondition": {
-          "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
-          "Condition1": {
-            "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
-            "Condition1": {
-              "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
-              "CompareType": 3,
-              "ColumnBindingInfo": {
-                "TableName": "주문데이터",
-                "ColumnName": "견적일"
-              },
-              "Value": {
-                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                "SerializeProperty": "=메인화면!AF3"
-              },
-              "Id": "e07cc162-860e-4c04-8649-ebf3557502b1"
-            },
-            "Condition2": {
-              "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
-              "CompareType": 5,
-              "ColumnBindingInfo": {
-                "TableName": "주문데이터",
-                "ColumnName": "견적일"
-              },
-              "Value": {
-                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                "SerializeProperty": "=메인화면!AR3"
-              },
-              "Id": "9cfa6c1e-86bc-4a4d-b119-5b365184c7e0"
-            },
-            "Id": "f116c106-6319-4157-8374-16a75efb1f42"
-          },
-          "Condition2": {
-            "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
-            "Condition1": {
-              "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
-              "CompareType": 3,
-              "ColumnBindingInfo": {
-                "TableName": "주문데이터",
-                "ColumnName": "납기일자"
-              },
-              "Value": {
-                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                "SerializeProperty": "=메인화면!STARTDATE"
-              },
-              "LeftBracket": 1,
-              "Id": "ff837183-a4b8-4756-8202-26fa7a810543"
-            },
-            "Condition2": {
-              "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
-              "CompareType": 5,
-              "ColumnBindingInfo": {
-                "TableName": "주문데이터",
-                "ColumnName": "납기일자"
-              },
-              "Value": {
-                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                "SerializeProperty": "=메인화면!ENDDATA"
-              },
-              "RightBracket": 1,
-              "Id": "2b2a6776-fefb-4a1d-9144-8fea94fa9e60"
-            },
-            "Id": "c18bacc0-16cc-495f-8f8f-aa2239fbed4a"
-          },
-          "RelationType": 1,
-          "Id": "9ec10413-7549-4a4e-9f1f-1ed76911bdbc"
-        },
-        "TopCondition": null,
-        "ListViewStyleName": "대시보드_리스뷰_스타일"
+        "SelectionMode": 1,
+        "ColumnOperation": 2,
+        "ShowGridLine": true
       }
     },
     "15,23": {
       "BindingInfo": {
         "TableName": "주문데이터",
         "ColumnName": "거래처_ID",
+        "GUID": "e940bb01-e2aa-4601-a5a4-0b35c9ddacfb",
         "RelationBinding": {
           "RelatedTable": "거래처",
           "RelatedColumn": "ID",
@@ -442,6 +446,7 @@
       "BindingInfo": {
         "TableName": "주문데이터",
         "ColumnName": "제품_ID",
+        "GUID": "3f444371-2f60-4f8e-95d7-9f63d8a56577",
         "RelationBinding": {
           "RelatedTable": "제품",
           "RelatedColumn": "ID",
@@ -452,13 +457,15 @@
     "15,37": {
       "BindingInfo": {
         "TableName": "주문데이터",
-        "ColumnName": "총공급가"
+        "ColumnName": "총공급가",
+        "GUID": "59f0a954-c3dd-4335-b1c5-9f1153f4db4f"
       }
     },
     "15,47": {
       "BindingInfo": {
         "TableName": "주문데이터",
-        "ColumnName": "종결여부"
+        "ColumnName": "종결여부",
+        "GUID": "e24c1024-49df-426b-89f8-a9e29d3b9f08"
       }
     },
     "26,2": {
@@ -481,74 +488,59 @@
     },
     "47,26": {
       "ListViewInfo": {
-        "DoubleClickCommandList": [
-          {
-            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
-            "PageName": "견적데이터목록페이지",
-            "PassValues": []
-          }
-        ],
-        "ShowColumnHeaderInDesigner": true,
+        "Name": "리스트뷰3",
         "TableName": "주문데이터",
         "RowIndex": 47,
         "ColumnIndex": 26,
-        "ColumnCount": 18,
         "RowCount": 7,
-        "ColumnOperation": 2,
-        "ShowGridLine": true,
-        "ShowEditStatusIcon": true,
-        "UseSimpleBar": true,
-        "Name": "리스트뷰3",
+        "ColumnCount": 18,
         "SqlCondition": {
           "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
-          "Condition1": {
-            "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
-            "Condition1": {
+          "SubConditions": [
+            {
               "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
               "CompareType": 3,
               "ColumnBindingInfo": {
                 "TableName": "주문데이터",
-                "ColumnName": "납기일자"
+                "ColumnName": "납기일자",
+                "GUID": "a282d0a4-a701-4fd3-b0b2-62ae20e55301"
               },
               "Value": {
                 "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                 "SerializeProperty": "=메인화면!STARTDATE"
-              },
-              "Id": "bb102dc4-1138-4a03-a00b-d0881dd64c09"
+              }
             },
-            "Condition2": {
+            {
               "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
               "CompareType": 5,
               "ColumnBindingInfo": {
                 "TableName": "주문데이터",
-                "ColumnName": "납기일자"
+                "ColumnName": "납기일자",
+                "GUID": "a1a48939-0aef-4d1d-9855-4fda223f0a7f"
               },
               "Value": {
                 "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                 "SerializeProperty": "=메인화면!ENDDATA"
+              }
+            },
+            {
+              "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+              "ColumnBindingInfo": {
+                "TableName": "주문데이터",
+                "ColumnName": "종결여부",
+                "GUID": "bc89766e-5b9d-4ed7-9412-d0c646af0a14"
               },
-              "Id": "dec4c23a-d851-4557-935f-02e7c6d29b53"
-            },
-            "Id": "ea0f5dfc-2e84-4daa-8375-c4c8d1e20397"
-          },
-          "Condition2": {
-            "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
-            "ColumnBindingInfo": {
-              "TableName": "주문데이터",
-              "ColumnName": "종결여부"
-            },
-            "Value": "완료",
-            "Id": "80cc70a2-cb12-4e81-8794-199428f53166"
-          },
-          "Id": "d106fc04-c02c-4625-8d22-4a90f3caac30"
+              "Value": "완료"
+            }
+          ]
         },
-        "TopCondition": null,
         "OrderByCondition": {
           "OrderByColumns": [
             {
               "ColumnBindingInfo": {
                 "TableName": "주문데이터",
                 "ColumnName": "견적일",
+                "GUID": "3b1f1721-bb92-4a33-bfd3-15ba63b5407e",
                 "AttachType": {
                   "$type": "ForguncyDataAccess.DateColumnAttachObj, ForguncyDataAccess",
                   "ColumnAttachType": 4
@@ -556,16 +548,29 @@
               },
               "Order": 0
             }
-          ],
-          "Id": "2c1e4712-cae9-42db-8b4d-c91fcece46ba"
+          ]
         },
-        "ListViewStyleName": "_RS_Light8"
+        "TopCondition": null,
+        "ListViewStyleName": "스타일3",
+        "DoubleClickCommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "PageName": "견적데이터목록페이지",
+            "IgnoreTargetPageCachedCurrentRowInfo": false
+          }
+        ],
+        "ShowColumnHeaderInDesigner": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "ColumnOperation": 2,
+        "ShowGridLine": true
       }
     },
     "48,26": {
       "BindingInfo": {
         "TableName": "주문데이터",
         "ColumnName": "거래처_ID",
+        "GUID": "8ed2c690-4f4f-457e-b7fa-f56b7323a05c",
         "RelationBinding": {
           "RelatedTable": "거래처",
           "RelatedColumn": "ID",
@@ -577,6 +582,7 @@
       "BindingInfo": {
         "TableName": "주문데이터",
         "ColumnName": "제품_ID",
+        "GUID": "7e60664b-822c-409b-a663-3210f5fe3d1a",
         "RelationBinding": {
           "RelatedTable": "제품",
           "RelatedColumn": "ID",
@@ -587,13 +593,15 @@
     "48,34": {
       "BindingInfo": {
         "TableName": "주문데이터",
-        "ColumnName": "총공급가"
+        "ColumnName": "총공급가",
+        "GUID": "86ca6d0a-e0c6-4790-a4e1-0b949053d16a"
       }
     },
     "48,38": {
       "BindingInfo": {
         "TableName": "주문데이터",
-        "ColumnName": "종결여부"
+        "ColumnName": "종결여부",
+        "GUID": "ba1a134a-f6aa-4d08-af8f-bf2e4850ccdc"
       }
     }
   },
@@ -3268,6 +3276,32 @@
     "47,34,1,4",
     "47,39,1,5"
   ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "MasterPageName": "주문관리 마스터 페이지",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "RelatedDataTableName": "주문데이터",
+    "PageResponsiveMode": 2
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  },
   "Charts": [
     {
       "ChartType": 7,
@@ -3291,90 +3325,14 @@
           "Accent 4"
         ]
       },
-      "DataSeries": [
-        {
-          "ChartType": 7,
-          "ValueFormula": "메인화면!AU51:AZ51",
-          "Name": "판매",
-          "DataLabelStyle": {
-            "StyleInfo": {
-              "Fill": null,
-              "FontFamily": "Body",
-              "FontSize": 14.670000076293945,
-              "FontStretch": "Normal",
-              "FontStyle": "Normal",
-              "FontWeight": "Normal",
-              "Foreground": null,
-              "Formatter": "_( ₩* #,##0_);_( ₩* (#,##0);_( ₩* \"-\"_);_(@_)",
-              "Stroke": null,
-              "StrokeThickness": 1.0
-            },
-            "IsAutomaticStroke": false,
-            "IsAutomaticFill": false
-          },
-          "DataLabelSettings": {
-            "ShowBubbleSize": false,
-            "ShowPercent": false,
-            "ShowSeriesName": false,
-            "ShowValue": false
-          },
-          "MarkerSize": "7,7",
-          "StyleInfo": {
-            "Fill": "Accent 6",
-            "Stroke": "Accent 6",
-            "StrokeThickness": 1.0
-          },
-          "IsAutomaticStroke": false,
-          "IsAutomaticFill": false
-        },
-        {
-          "ChartType": 7,
-          "ValueFormula": "메인화면!AU52:AZ52",
-          "Name": "견적",
-          "DataLabelStyle": {
-            "StyleInfo": {
-              "Fill": null,
-              "FontFamily": "Body",
-              "FontSize": 14.670000076293945,
-              "FontStretch": "Normal",
-              "FontStyle": "Normal",
-              "FontWeight": "Normal",
-              "Foreground": null,
-              "Stroke": null,
-              "StrokeThickness": 1.0
-            },
-            "IsAutomaticStroke": false,
-            "IsAutomaticFill": false
-          },
-          "DataLabelSettings": {
-            "ShowBubbleSize": false,
-            "ShowPercent": false,
-            "ShowSeriesName": false,
-            "ShowValue": false
-          },
-          "MarkerSize": "7,7",
-          "StyleInfo": {
-            "Fill": "Accent 5",
-            "Stroke": "Accent 5",
-            "StrokeThickness": 1.0
-          },
-          "IsAutomaticStroke": false,
-          "IsAutomaticFill": false
-        }
-      ],
       "XAxises": [
         {
           "ItemsFormula": "메인화면!$AU$50:$AZ$50",
-          "LabelFormatter": "General",
-          "ShowMajorGridlines": false,
-          "MajorGridlinesStroke": "#868686",
-          "MajorTickStroke": "#868686",
-          "MajorUnit": 1.0,
-          "MinorTickStroke": "#868686",
-          "MinorUnit": 0.5,
           "Title": {
             "TitleType": 1,
             "Text": "월",
+            "IsAutomaticStroke": false,
+            "IsAutomaticFill": false,
             "StyleInfo": {
               "Fill": "transparent",
               "FontFamily": "Body",
@@ -3385,10 +3343,13 @@
               "StrokeDashType": 8,
               "Stroke": "transparent",
               "StrokeThickness": 1.0
-            },
-            "IsAutomaticStroke": false,
-            "IsAutomaticFill": false
+            }
           },
+          "LabelFormatter": "General",
+          "ShowMajorGridlines": false,
+          "MajorGridlinesStroke": "#868686",
+          "IsAutomaticStroke": false,
+          "IsAutomaticFill": false,
           "StyleInfo": {
             "Fill": "transparent",
             "FontFamily": "Body",
@@ -3400,33 +3361,26 @@
             "StrokeDashType": 8,
             "Stroke": "Text 1",
             "StrokeThickness": 1.0
-          },
-          "IsAutomaticStroke": false,
-          "IsAutomaticFill": false
+          }
         }
       ],
       "YAxises": [
         {
+          "Orientation": 1,
           "Items": [
             0.0,
             0.2,
             0.4,
-            0.60000000000000009,
+            0.6000000000000001,
             0.8,
             1.0,
             1.2
           ],
-          "DisplayUnit": 1000000.0,
-          "Orientation": 1,
-          "LabelFormatter": "#,##0",
-          "MajorGridlinesStroke": "#868686",
-          "MajorTickStroke": "#868686",
-          "MajorUnit": 0.2,
-          "MinorTickStroke": "#868686",
-          "MinorUnit": 0.04,
           "Title": {
             "TitleType": 1,
             "Text": "백만",
+            "IsAutomaticStroke": false,
+            "IsAutomaticFill": false,
             "StyleInfo": {
               "Fill": "transparent",
               "FontFamily": "Body",
@@ -3437,10 +3391,13 @@
               "Foreground": null,
               "Stroke": "transparent",
               "StrokeThickness": 1.0
-            },
-            "IsAutomaticStroke": false,
-            "IsAutomaticFill": false
+            }
           },
+          "DisplayUnit": 1000000.0,
+          "LabelFormatter": "#,##0",
+          "MajorGridlinesStroke": "#868686",
+          "IsAutomaticStroke": false,
+          "IsAutomaticFill": false,
           "StyleInfo": {
             "Fill": "transparent",
             "FontFamily": "나눔명조",
@@ -3452,21 +3409,16 @@
             "StrokeDashType": 8,
             "Stroke": "Text 1",
             "StrokeThickness": 1.0
-          },
-          "IsAutomaticStroke": false,
-          "IsAutomaticFill": false
+          }
         },
         {
+          "Visible": false,
           "Orientation": 1,
+          "AxisPosition": 1,
           "LabelFormatter": "General",
           "ShowMajorGridlines": false,
           "MajorGridlinesStroke": "#868686",
-          "MajorTickStroke": "#868686",
-          "MajorUnit": 1.0,
-          "MinorTickStroke": "#868686",
-          "MinorUnit": 0.02,
-          "Visible": false,
-          "AxisPosition": 1,
+          "IsAutomaticStroke": false,
           "StyleInfo": {
             "FontFamily": "Body",
             "FontSize": 14.67,
@@ -3476,13 +3428,14 @@
             "StrokeDashType": 8,
             "Stroke": "Text 1",
             "StrokeThickness": 1.0
-          },
-          "IsAutomaticStroke": false
+          }
         }
       ],
       "Legend": {
         "Orientation": 0,
         "Alignment": 1,
+        "IsAutomaticStroke": false,
+        "IsAutomaticFill": false,
         "StyleInfo": {
           "Fill": "transparent",
           "FontFamily": "Body",
@@ -3493,19 +3446,88 @@
           "StrokeDashType": 8,
           "Stroke": "transparent",
           "StrokeThickness": 1.0
-        },
-        "IsAutomaticStroke": false,
-        "IsAutomaticFill": false
+        }
       },
+      "DataSeries": [
+        {
+          "ChartType": 7,
+          "ValueFormula": "메인화면!AU51:AZ51",
+          "Name": "판매",
+          "DataLabelSettings": {
+            "ShowBubbleSize": false,
+            "ShowPercent": false,
+            "ShowSeriesName": false,
+            "ShowValue": false
+          },
+          "DataLabelStyle": {
+            "IsAutomaticStroke": false,
+            "IsAutomaticFill": false,
+            "StyleInfo": {
+              "Fill": null,
+              "FontFamily": "Body",
+              "FontSize": 14.670000076293945,
+              "FontStretch": "Normal",
+              "FontStyle": "Normal",
+              "FontWeight": "Normal",
+              "Foreground": null,
+              "Formatter": "_( ₩* #,##0_);_( ₩* (#,##0);_( ₩* \"-\"_);_(@_)",
+              "Stroke": null,
+              "StrokeThickness": 1.0
+            }
+          },
+          "MarkerSize": "7,7",
+          "IsAutomaticStroke": false,
+          "IsAutomaticFill": false,
+          "StyleInfo": {
+            "Fill": "Accent 6",
+            "Stroke": "Accent 6",
+            "StrokeThickness": 1.0
+          }
+        },
+        {
+          "ChartType": 7,
+          "ValueFormula": "메인화면!AU52:AZ52",
+          "Name": "견적",
+          "DataLabelSettings": {
+            "ShowBubbleSize": false,
+            "ShowPercent": false,
+            "ShowSeriesName": false,
+            "ShowValue": false
+          },
+          "DataLabelStyle": {
+            "IsAutomaticStroke": false,
+            "IsAutomaticFill": false,
+            "StyleInfo": {
+              "Fill": null,
+              "FontFamily": "Body",
+              "FontSize": 14.670000076293945,
+              "FontStretch": "Normal",
+              "FontStyle": "Normal",
+              "FontWeight": "Normal",
+              "Foreground": null,
+              "Stroke": null,
+              "StrokeThickness": 1.0
+            }
+          },
+          "MarkerSize": "7,7",
+          "IsAutomaticStroke": false,
+          "IsAutomaticFill": false,
+          "StyleInfo": {
+            "Fill": "Accent 5",
+            "Stroke": "Accent 5",
+            "StrokeThickness": 1.0
+          }
+        }
+      ],
       "PlotArea": {
+        "IsAutomaticStroke": false,
+        "IsAutomaticFill": false,
         "StyleInfo": {
           "Fill": "Background 1",
           "StrokeDashType": 8,
           "Stroke": "transparent",
           "StrokeThickness": 1.0
-        },
-        "IsAutomaticStroke": false,
-        "IsAutomaticFill": false
+        }
       },
       "StyleInfo": {
         "Fill": "Background 1",
@@ -3546,6 +3568,37 @@
           "Accent 4"
         ]
       },
+      "XAxises": [
+        {
+          "ItemsFormula": "메인화면!$F$48:$G$48",
+          "UseCustomItems": true,
+          "LabelFormatter": "General",
+          "ShowMajorGridlines": false
+        }
+      ],
+      "YAxises": [
+        {
+          "Orientation": 1,
+          "Items": [
+            0.0,
+            0.2,
+            0.4,
+            0.6000000000000001,
+            0.8,
+            1.0,
+            1.2
+          ],
+          "LabelFormatter": "General"
+        },
+        {
+          "Visible": false,
+          "Orientation": 1,
+          "AxisPosition": 1,
+          "LabelFormatter": "General",
+          "ShowMajorGridlines": false
+        }
+      ],
+      "Legend": {},
       "DataSeries": [
         {
           "ChartType": 22,
@@ -3606,49 +3659,6 @@
           ]
         }
       ],
-      "XAxises": [
-        {
-          "ItemsFormula": "메인화면!$F$48:$G$48",
-          "UseCustomItems": true,
-          "LabelFormatter": "General",
-          "ShowMajorGridlines": false,
-          "MajorTickStroke": "#868686",
-          "MajorUnit": 1.0,
-          "MinorTickStroke": "#868686",
-          "MinorUnit": 0.5
-        }
-      ],
-      "YAxises": [
-        {
-          "Items": [
-            0.0,
-            0.2,
-            0.4,
-            0.60000000000000009,
-            0.8,
-            1.0,
-            1.2
-          ],
-          "Orientation": 1,
-          "LabelFormatter": "General",
-          "MajorTickStroke": "#868686",
-          "MajorUnit": 0.2,
-          "MinorTickStroke": "#868686",
-          "MinorUnit": 0.04
-        },
-        {
-          "Orientation": 1,
-          "LabelFormatter": "General",
-          "ShowMajorGridlines": false,
-          "MajorTickStroke": "#868686",
-          "MajorUnit": 1.0,
-          "MinorTickStroke": "#868686",
-          "MinorUnit": 0.02,
-          "Visible": false,
-          "AxisPosition": 1
-        }
-      ],
-      "Legend": {},
       "PlotArea": {},
       "StyleInfo": {
         "Fill": "Background 1",
@@ -3687,6 +3697,36 @@
           "Accent 6"
         ]
       },
+      "XAxises": [
+        {
+          "ItemsFormula": "메인화면!$P$48:$U$48",
+          "LabelFormatter": "General",
+          "ShowMajorGridlines": false
+        }
+      ],
+      "YAxises": [
+        {
+          "Orientation": 1,
+          "Items": [
+            0.0,
+            0.2,
+            0.4,
+            0.6000000000000001,
+            0.8,
+            1.0,
+            1.2
+          ],
+          "LabelFormatter": "General"
+        },
+        {
+          "Visible": false,
+          "Orientation": 1,
+          "AxisPosition": 1,
+          "LabelFormatter": "General",
+          "ShowMajorGridlines": false
+        }
+      ],
+      "Legend": {},
       "DataSeries": [
         {
           "ChartType": 22,
@@ -3804,48 +3844,6 @@
           }
         }
       ],
-      "XAxises": [
-        {
-          "ItemsFormula": "메인화면!$P$48:$U$48",
-          "LabelFormatter": "General",
-          "ShowMajorGridlines": false,
-          "MajorTickStroke": "#868686",
-          "MajorUnit": 1.0,
-          "MinorTickStroke": "#868686",
-          "MinorUnit": 0.5
-        }
-      ],
-      "YAxises": [
-        {
-          "Items": [
-            0.0,
-            0.2,
-            0.4,
-            0.60000000000000009,
-            0.8,
-            1.0,
-            1.2
-          ],
-          "Orientation": 1,
-          "LabelFormatter": "General",
-          "MajorTickStroke": "#868686",
-          "MajorUnit": 0.2,
-          "MinorTickStroke": "#868686",
-          "MinorUnit": 0.04
-        },
-        {
-          "Orientation": 1,
-          "LabelFormatter": "General",
-          "ShowMajorGridlines": false,
-          "MajorTickStroke": "#868686",
-          "MajorUnit": 1.0,
-          "MinorTickStroke": "#868686",
-          "MinorUnit": 0.02,
-          "Visible": false,
-          "AxisPosition": 1
-        }
-      ],
-      "Legend": {},
       "PlotArea": {},
       "StyleInfo": {
         "Fill": "Background 1",
@@ -3860,21 +3858,6 @@
       "Size": "341,252"
     }
   ],
-  "PageInfo": {
-    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
-    "MasterPageName": "주문관리 마스터 페이지",
-    "AuthorizeInfo": {
-      "VisitMode": 2
-    },
-    "RowBreakLines": [],
-    "RepeatRangeSettings": [],
-    "RelatedDataTableName": "주문데이터",
-    "PageResponsiveMode": 2
-  },
-  "PrintInfo": {
-    "Margin": {},
-    "PaperSize": {}
-  },
   "CustomNames": [
     {
       "Name": "ENDDATA",
@@ -3885,4 +3868,4 @@
       "Formula": "메인화면!$AF$3"
     }
   ]
-}//DD3EAXUOoJBVgqu84J2lRq9IpHehpZKJTbIHLOsEo3PWKEq8euBaVL4iWKBHxffQoL2LNx233dRV3Iz8i6PllRjZ12QugrBJEpESUtvSx93rC1LnryMPuxchZL/Zm/uQFzmxdv3h9ahCSjrc/4eZyHBW5hNjNS1C4V6rL0xs8jW07vBP36mfpiEa4Z74v5+G6nhapkKDROI9SynC1tUguikthjgzigmSVMJ9ARbMI74EgcBqCSM6EAag1nP9UC7mza8unkgJPKPDEBD+Rc8rb05V36yRlxfqU8sgQWDCO19/BC3546gsUTwI3K3JNjYUIPvNvo8hF6E/miQRirC6EWMndG72Ve9TcYYkPHr5GuA2XZvLI5+ahcnKPxiQcike9JJgQdHmBNbuPp3mns//EqsQRTNL2cD/wOLmQqf3QWivZxS9Az9vhgcWFfYTKD5xV/fmDsIb9bynhIsU/x9GKt+IV+cSRNfyJ2fBaMrIvJr55BL23CLKlo0IjipgFIhMMbXB3gJ/3dcP6F32bZAYKhc82Q2AejZxU+sLVHST46r6Ibo8whmMyevcO4dgG2idC/dkarEUZuZUu9WB58dmpFlmRkawieO+2P4zI2qcAMix/ss2DTMWCeOGxJulzwJlaHJIbb6b6PmXKNK1RnRis9uHuhJmLY9zquPgPVVyCPZD/YIc7ZD/2aE03i65ML6AuvZS75JPpWwljmq/x7Vtcpx3rIMQKXC9X9ilXV7VW2txq0t3oggW7/ldnpz38sBpSbFwzugyRW+8W/dgiwaABrlwWLuIxig6cVIalMxl4CBQRGjBuOwSensnB0YDjYMfDLcokCcYhghbICVSHcHL8igIbw6kHdN+zwWy39puAsf3b011AMj1K0EHBnJqPXHRnW4d+HseKrXXPKaZH2an+A==|920
+}//JweSApn6PHgU67EUq/nuaI+yEQAktaR2YjtgpneQkVese9CZU09UyPnLyuqkb8i4CwpvHh/hRZSF+d03WBapdFdMQm//yaPIhkgVYUlbGBbjl1Mk4kfsGzgpO7wRSzdVBzO2JcU+j8EF6RY+C/A1XX1T8dWA+4kCqB0lTLb1Fy//IydhMWViVY1ZpCCZACaKp3S+NOVqVzmCICjBLwqkf1Wo717swrUlABRyHDsIXE68hAHRXuOX8cVyDOYyHbqwJ8buyhuYVDBqLJ53frt9QHgh/lh94WV8nOlnw4WO8OQc4XLUjmNQp+6fsyHdoZruGQA+dwHeaQ4JWAFAutFH+1gMtEsPMIwFWQIzsqsaVxOaXkq1s4bqbwmrjlVzCKz5XVgQz7MRdSkvIqkLpDkgep6+x1kNmsayo0wR+r+ri3k72bGWiHsKTxgr64yBwR8pyf5bjozqqvkyqyLynytTMk2g/pnENCaGVGK5coSekCQ2MZ1ndTxFBL4aTmS0UDJ0dD0r439WokbPq2PI6JtSwzLpvWGfsTtHs6IamCHPgqeW2GhYAClLX6edPPaz6VJToqSOEPR/9mpxNTMK8WiJSOBB8qTFihmnaVoekYmZunBfFFvMhfyJfPRja/Put2qbloJl7tsPOPDUc9a3voe4FukOSJyIptjfYTMNOOGEu/+UmBQ36cK4PAkLGY1OglJBXQX6BRjottkvhKHrqwetzwC+eFDGR/fPraIJGzufFc6NwwXRs4qsJL8xzoHpnTLMxaJM8oLi9dcvWTJdLYtwx6rhIm/Quv7IPbIIcq3Mu173AqXhGG7KiuXD+DSvQzEWKmZFL/oWVTO4wB2+3yK13hft1+z7byaNX+uEwl+vNok1f5wGlveJelfyUz0r4zarXh7XBCzQ3Eh0XIuMq8TshQ==|920

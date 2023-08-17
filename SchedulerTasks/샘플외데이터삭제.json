@@ -1,4 +1,5 @@
 {
+  "Name": "샘플외데이터삭제",
   "Enabled": true,
   "Triggers": [
     {
@@ -19,12 +20,11 @@
         "CompareType": 1,
         "ColumnBindingInfo": {
           "TableName": "거래처",
-          "ColumnName": "기본샘플"
+          "ColumnName": "기본샘플",
+          "GUID": "e47c4362-0509-4581-9d61-50cbd197d5ee"
         },
-        "Value": "YES",
-        "Id": "b7de840a-2656-4052-8ca3-4ac145712035"
-      },
-      "UpdateValues": []
+        "Value": "YES"
+      }
     },
     {
       "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
@@ -38,12 +38,11 @@
         "CompareType": 1,
         "ColumnBindingInfo": {
           "TableName": "제품",
-          "ColumnName": "기본샘플"
+          "ColumnName": "기본샘플",
+          "GUID": "7fa67b5c-fd6b-46e5-986c-b6afbcfcb5f8"
         },
-        "Value": "YES",
-        "Id": "e3840589-1451-4b4e-bf13-915d585bbe34"
-      },
-      "UpdateValues": []
+        "Value": "YES"
+      }
     },
     {
       "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
@@ -57,12 +56,11 @@
         "CompareType": 1,
         "ColumnBindingInfo": {
           "TableName": "견적상세자료",
-          "ColumnName": "기본샘플"
+          "ColumnName": "기본샘플",
+          "GUID": "acb40d15-58cb-4f0b-8fab-18a4f8f8f0cd"
         },
-        "Value": "YES",
-        "Id": "19dd944b-8369-4e5b-b05a-4d80a212bf44"
-      },
-      "UpdateValues": []
+        "Value": "YES"
+      }
     },
     {
       "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
@@ -76,12 +74,11 @@
         "CompareType": 1,
         "ColumnBindingInfo": {
           "TableName": "주문데이터",
-          "ColumnName": "기본샘플"
+          "ColumnName": "기본샘플",
+          "GUID": "82e41219-fa44-479e-be20-e8138a2a3a05"
         },
-        "Value": "YES",
-        "Id": "32ff5b03-3066-4be9-a0a3-431ef1bf9a3b"
-      },
-      "UpdateValues": []
+        "Value": "YES"
+      }
     },
     {
       "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
@@ -95,13 +92,11 @@
         "CompareType": 1,
         "ColumnBindingInfo": {
           "TableName": "출하창고",
-          "ColumnName": "기본샘플"
+          "ColumnName": "기본샘플",
+          "GUID": "342c1040-2a58-4b55-955d-5d0be968f0dc"
         },
-        "Value": "YES",
-        "Id": "994bdf87-b015-44f8-85e0-9829335cc5a7"
-      },
-      "UpdateValues": []
+        "Value": "YES"
+      }
     }
-  ],
-  "Name": "샘플외데이터삭제"
+  ]
 }

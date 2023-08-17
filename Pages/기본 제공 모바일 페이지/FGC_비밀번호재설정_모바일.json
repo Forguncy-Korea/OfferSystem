@@ -23,7 +23,7 @@
             "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
           }
         ],
-        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "TemplateKey": "스타일2",
         "ForguncyAttribute": "ResetPassword_NewPassword"
       },
       "DataValidationInfo": {
@@ -39,7 +39,7 @@
             "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
           }
         ],
-        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "TemplateKey": "스타일2",
         "ForguncyAttribute": "ResetPassword_ConfirmPassword"
       },
       "DataValidationInfo": {
@@ -51,7 +51,7 @@
         "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
         "Text": "재설정",
         "AutoExecute": true,
-        "TemplateKey": "_RS_Normal_Style2",
+        "TemplateKey": "스타일9",
         "ForguncyAttribute": "ResetPassword_Button"
       }
     },
@@ -62,18 +62,18 @@
           {
             "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
             "NavigateType": "back",
-            "PassValues": []
+            "IgnoreTargetPageCachedCurrentRowInfo": false
           }
         ],
         "Text": "취소",
-        "TemplateKey": "_RS_Outline_Style2"
+        "TemplateKey": "스타일7"
       }
     }
   },
   "StyleDatas": {
     "Styles": [
       {
-        "FontSize": 21.333333969116211,
+        "FontSize": 21.33333396911621,
         "Foreground": 0,
         "Formatter": 1,
         "HorizontalAlignment": 2,
@@ -142,13 +142,27 @@
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
     "Title": "비밀번호 재설정",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_Anonymous"
+          ]
+        }
+      ]
+    },
     "RowBreakLines": [],
     "RepeatRangeSettings": [],
     "IsBuiltInPage": true,
     "IsMobilePage": true
   },
   "PrintInfo": {
-    "Margin": {},
-    "PaperSize": {}
+    "PaperSize": {},
+    "Margin": {}
   }
-}//2hSwhhnE33GiI1JX34sUjbiP7SXWdMGARQI9dNRsf5gSooIqKlDONyXeJ7ACaloJIFK/USbBcMMnr1OfYWI5Aa4rJA0Nnk0UYyS+k/h9rXx2apO8xDNojDHKYNGU9DqBbMYBkoQhb5vCCbGE3ksLKYHYYpuiHmSEtON8LFbUzqbeqo2rrwjI0OjzvHaZndKcWDoD28myi6DYjCLpQdmjH//j7P5I0Xt+YnDOAn6C3pitExfVMS6EeSgN+qhIAfMRozk25TZUB0EzfWFtuCIyObGkVdt6ftWP0W8B0YYadW49jiYm+IyP+MnRXESxO/1x5bvDeqeP5hMA9yMlwc0vjE1vQWc6nWmLjOPE+kmNskA/goM0qYUoFxoprSHpN88kHpRJdab80jOQd3Sy7j2Ws3gtMf2fkntsy02e6dhqQ27tOFWakHPJq2eDxUwDOSR1hAX4IzBUudpolxdJnFcHqKALuwwa18nhJBpuWp3WnJULcNyZ/ABtRT0pKhp55YQgXJUc/0u4+mmVwP3MwW8IkfCpYCmoyUJuRakTPVxm29Q3l5uvA2biKrDbrnBKIdyGyr8VeSvxN1iMkhchROLGwDYLLxwELQqFUPRDLog9hIXjQOdnPqih9FOgpLN1mIjPt1drRfXDFGQEMjCeFjMGa4DSi7NP70LlF2Jz5yV52Ufvqeu/DPLFV/ca7Z+jnxkgM698jROlBCp7xYSVYOHRzUcWucS3d1m2DHRxyLODkjzmdsSSDYRoDLmtARPE7kiu6Aq1r8ppIPuM7wo1WxW0458AlpxtjSC7WR31ReXQmAvLNwVUY5VFC8nzcjajBPzsYbMGcPnSGn3xGuTQf/cyFTEi8FNQNq2qbvMqA0cQxTS9MmhkYiLI5xzJmPGoydpTo5r6k1QJhZwYdXvWN7Pp9A==|920
+}//bzu0pTlY4UywvJsaxuyg8MurPD0JdcMWuWL/3QaHb8lLURppVHGE+kOihgLJmRrHaP4oz1iAG2+XOMTfoJ5uxqzc4ZJRdkOtzAGTlhnvzeWgcxoCx+cfVULZYtzap237slhxaVKuVx3wsYTYAaTChW6Al1zDunJmIImaROJUFaQqu3Rz2ZH32pLsQ75RcT9f5uOSQ0QxRUBFv+8XTnKJDVe9p0+Vi/N9/nUXjL8MA8jBWmNYEpjK98fN+59a+c5QWtJhbDFPxWW7SioTtl22H2EeLUsGssPkdbH4iaNUPRp02R3+kMPksNjrn7e+fqySbjb5i9waIOnOztLgilcUEdw5DRfsagqi9naW8DFz5B/AWKAYNrV+3Y2qTIQx+hZn3SkGtlIFUpXg+asyY6+uTekz9ycl4vhbDf3tmIyOOFcvB+QpdHj5YyCe4ZaQxu0n43pvkhLDCYn8Lbr8Fz1zt640LDaexTUFJgmAfXBA1cnoVlbrfLuHsQzWmnyIUGJaNZhEz3r1/lI+Lpp7elCB0a5xoKAKpiD/u7HdAZDrS8h04XZzeX93lJi3GkEbvcHt0Pjtb8JnPElUmQo3m9miOHBR9UU1R3H/CI1P4SnrSOSnlOp5d4QU1kDYO9WrHi8bEc0USHpVmmdu0bbIZHS1s04z6R0DDi9rjJMaJSZ5DJph+0EQVHhOYRXmst9JJLKaVSMaUMDcbSjJcWGBCmYokMIWsgisZwDiJQWoLeSiX3VZXJT7Uk3h/YaVKDNFVOUPVC3PUPriIi/qcd1Wgw7Pua0dqA7tNJFO7GLClvMQ0l0WAsRJumvBTRveqoP3Ru9y8Lir6PHHpK+X8jJXW7N9YPEeoWjVdpfU3CNgenATrLz5PhBCqWz59Zd6IarsGDj1UQb5d/oTzgy4eHxDiZAH5A==|920

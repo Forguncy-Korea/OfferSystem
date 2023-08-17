@@ -118,7 +118,7 @@
             "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
           }
         ],
-        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "TemplateKey": "스타일2",
         "WaterMark": "입력 "
       }
     },
@@ -140,8 +140,7 @@
                       }
                     ]
                   },
-                  "value": "%Null%",
-                  "Id": "99499884-b6c4-45f9-8cbb-a25edc6fc3cd"
+                  "value": "%Null%"
                 },
                 "CommandList": [
                   {
@@ -152,16 +151,15 @@
                       "CompareType": 1,
                       "ColumnBindingInfo": {
                         "TableName": "거래처",
-                        "ColumnName": "ID"
+                        "ColumnName": "ID",
+                        "GUID": "ad5f09be-c24c-4324-8102-5b73d423d5cd"
                       },
-                      "Value": "%Null%",
-                      "Id": "d50766b7-537e-4f5e-978e-d379d8a4a05e"
+                      "Value": "%Null%"
                     },
-                    "Params": [],
-                    "ID": "bf963f6ad76348e2ba8231a3a045b5d3"
+                    "ID": "57bff1c54fca4473b0ea72862d33d0ab"
                   }
                 ],
-                "ID": "c67bf1b6-d0e3-4d28-97a1-df89feadd129"
+                "ID": "16d8c9d8-030b-4500-8bfb-d1b086bc70b6"
               },
               {
                 "Condition": {
@@ -175,8 +173,7 @@
                     ]
                   },
                   "value": "%Null%",
-                  "compareType": 1,
-                  "Id": "03cd9f7b-3aab-4514-95e5-f4868cee671a"
+                  "compareType": 1
                 },
                 "CommandList": [
                   {
@@ -184,60 +181,53 @@
                     "TargetTableName": "거래처",
                     "SqlCondition": {
                       "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
-                      "Condition1": {
-                        "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
-                        "Condition1": {
+                      "SubConditions": [
+                        {
                           "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
                           "CompareType": 6,
                           "ColumnBindingInfo": {
                             "TableName": "거래처",
-                            "ColumnName": "회사명"
+                            "ColumnName": "회사명",
+                            "GUID": "c1a0636b-5cd2-465b-b625-a674dfa197cc"
                           },
                           "Value": {
                             "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                             "SerializeProperty": "=거래처검색페이지!I3"
-                          },
-                          "Id": "bcaf47f9-ddeb-4bc7-8886-ccb9d8d59783"
+                          }
                         },
-                        "Condition2": {
+                        {
                           "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
                           "CompareType": 6,
                           "ColumnBindingInfo": {
                             "TableName": "거래처",
-                            "ColumnName": "사업자등록번호"
+                            "ColumnName": "사업자등록번호",
+                            "GUID": "ba05e102-57a2-44a0-bbb2-eae35e9eca4b"
                           },
                           "Value": {
                             "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                             "SerializeProperty": "=거래처검색페이지!I3"
+                          }
+                        },
+                        {
+                          "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                          "CompareType": 6,
+                          "ColumnBindingInfo": {
+                            "TableName": "거래처",
+                            "ColumnName": "대표자",
+                            "GUID": "b79c4acb-9fea-448c-80d8-d66890c474fe"
                           },
-                          "Id": "a376acd5-95ac-46ed-8d30-0c4355d32677"
-                        },
-                        "RelationType": 1,
-                        "Id": "9e11718f-fdcd-4478-9a97-ee408a49ceb2"
-                      },
-                      "Condition2": {
-                        "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
-                        "CompareType": 6,
-                        "ColumnBindingInfo": {
-                          "TableName": "거래처",
-                          "ColumnName": "대표자"
-                        },
-                        "Value": {
-                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "=거래처검색페이지!I3"
-                        },
-                        "Id": "859f2ecf-f795-4877-94d0-92026014ed3a"
-                      },
-                      "RelationType": 1,
-                      "Id": "4be5cd3c-9bda-45cb-83e7-ccaa4a806cc7"
+                          "Value": {
+                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                            "SerializeProperty": "=거래처검색페이지!I3"
+                          }
+                        }
+                      ],
+                      "RelationType": 1
                     },
-                    "Params": [
-                      "=I3"
-                    ],
-                    "ID": "c8efa02e78604fce8889639c73a14f41"
+                    "ID": "948bf7e9d74b4d3c83da3dc5d81a8ab2"
                   }
                 ],
-                "ID": "75bead61-905e-4c44-a058-80e4af7fd1c5"
+                "ID": "7c2c93ca-63d4-4f8c-a2ba-61b309bb51ef"
               }
             ]
           },
@@ -268,24 +258,29 @@
     },
     "14,1": {
       "ListViewInfo": {
-        "ShowColumnHeaderInDesigner": true,
+        "Name": "리스트뷰1",
         "TableName": "거래처",
         "RowIndex": 14,
         "ColumnIndex": 1,
-        "ColumnCount": 26,
         "RowCount": 8,
+        "ColumnCount": 26,
+        "TopCondition": null,
+        "ListViewStyleName": "스타일1",
+        "ShowColumnHeaderInDesigner": true,
         "IsRowHeaderVisible": true,
-        "ColumnOperation": 2,
-        "ShowGridLine": true,
         "ShowEditStatusIcon": true,
         "UseSimpleBar": true,
-        "Name": "리스트뷰1",
-        "TopCondition": null,
+        "ColumnOperation": 2,
         "DoNotLoadDataWhenLoadPage": true,
-        "ListViewStyleName": "주문관리_리스트뷰_스타일"
+        "ShowGridLine": true
       }
     },
     "15,2": {
+      "BindingInfo": {
+        "TableName": "거래처",
+        "ColumnName": "ID",
+        "GUID": "aea30c86-bee0-4dce-94a1-45b529c4fa1a"
+      },
       "CellType": {
         "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
         "CommandList": [
@@ -303,8 +298,7 @@
                       }
                     ]
                   },
-                  "value": "조회",
-                  "Id": "2142f799-666e-4279-9daa-5ad7cab50e71"
+                  "value": "조회"
                 },
                 "CommandList": [
                   {
@@ -323,7 +317,7 @@
                     ]
                   }
                 ],
-                "ID": "326cc2a5-c405-4f47-a316-0a40984d3f3f"
+                "ID": "fda379f6-7bf5-4a5a-a876-8ab98d06638d"
               },
               {
                 "Condition": {
@@ -337,8 +331,7 @@
                     ]
                   },
                   "value": "조회",
-                  "compareType": 1,
-                  "Id": "5a943404-94b8-4b3e-ac47-6a45162759fc"
+                  "compareType": 1
                 },
                 "CommandList": [
                   {
@@ -357,7 +350,7 @@
                     ]
                   }
                 ],
-                "ID": "07618e42-e892-40ab-b271-e90785ee554f"
+                "ID": "bf4ffebf-b06d-4229-959d-37f54f5432e7"
               }
             ]
           },
@@ -369,13 +362,14 @@
           }
         ],
         "ClickMode": 1
-      },
-      "BindingInfo": {
-        "TableName": "거래처",
-        "ColumnName": "ID"
       }
     },
     "15,7": {
+      "BindingInfo": {
+        "TableName": "거래처",
+        "ColumnName": "회사명",
+        "GUID": "5486434b-d0f9-41b2-b8c5-197d7e1f80e8"
+      },
       "CellType": {
         "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
         "CommandList": [
@@ -393,8 +387,7 @@
                       }
                     ]
                   },
-                  "value": "조회",
-                  "Id": "8838be2b-c987-419d-ba17-e48cb103a7e4"
+                  "value": "조회"
                 },
                 "CommandList": [
                   {
@@ -413,7 +406,7 @@
                     ]
                   }
                 ],
-                "ID": "58533b00-f3b5-4a83-9926-77776aac04e8"
+                "ID": "e74a677a-a723-42a1-8df6-91cad232a7a3"
               },
               {
                 "Condition": {
@@ -427,8 +420,7 @@
                     ]
                   },
                   "value": "조회",
-                  "compareType": 1,
-                  "Id": "423507fc-3a31-4ff5-82d8-4fdd6d7833f9"
+                  "compareType": 1
                 },
                 "CommandList": [
                   {
@@ -447,7 +439,7 @@
                     ]
                   }
                 ],
-                "ID": "17ff5bb1-ab01-4d8e-ba7b-fb2a0022d141"
+                "ID": "8169d02a-ac2b-43fe-872a-cd4d1dea6fe5"
               }
             ]
           },
@@ -459,22 +451,20 @@
           }
         ],
         "ClickMode": 1
-      },
-      "BindingInfo": {
-        "TableName": "거래처",
-        "ColumnName": "회사명"
       }
     },
     "15,15": {
       "BindingInfo": {
         "TableName": "거래처",
-        "ColumnName": "사업자등록번호"
+        "ColumnName": "사업자등록번호",
+        "GUID": "7382dbc3-2881-42b1-87cb-5b7962a13f40"
       }
     },
     "15,23": {
       "BindingInfo": {
         "TableName": "거래처",
-        "ColumnName": "대표자"
+        "ColumnName": "대표자",
+        "GUID": "97ed9345-2346-4de1-97ed-0ec55858e9c3"
       }
     },
     "23,1": {
@@ -484,7 +474,7 @@
           {
             "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
             "PageName": "거래처등록페이지",
-            "PassValues": []
+            "IgnoreTargetPageCachedCurrentRowInfo": false
           }
         ],
         "Text": "신규",
@@ -751,16 +741,6 @@
     "14,15,1,8",
     "14,23,1,4"
   ],
-  "Pictures": [
-    {
-      "ForguncyPictureName": "1490793870-user-interface25_82355.png",
-      "Stretch": 2,
-      "ForguncyPictureSourceType": 0,
-      "Name": "0ef73893-c7e9-4d1f-a155-67d3e574f1e8.png",
-      "Location": "93,69",
-      "Size": "195,192"
-    }
-  ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
     "PageLoadedCommandList": [
@@ -784,14 +764,35 @@
         ]
       }
     ],
-    "AuthorizeInfo": {
-      "VisitMode": 2
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
     },
     "RowBreakLines": [],
     "RepeatRangeSettings": []
   },
   "PrintInfo": {
-    "Margin": {},
-    "PaperSize": {}
-  }
-}//sv9GHw/VesY712tGP0FXvqFnsqMkQaCrIuS2CPdl/43qvsKiCXe/6JrqQq5egINLWyFF3HyV+5O54t7wVJa1cvZ9yX70tLb84KzOXXiOEgPUUpqp3gnah9eNeX4VP7lPU48uFrhknjrEsmijdcQGeVIpFhbjOO+yut7m1YgTC4w8/EzeLqBVUT6B6qoT2go6ypbYzu00fHJml3Av1ECZIcPV9jqBSqjIbD5tL015Zf/FEo6FHAvESueXyiA3WDDgmQq2d0oWLTOox1IHD6hUxfgZOcbhk4j+ce74DU/oUj0CfwSt/nabqzz40sptG03bPUi40DXyjU4QY/lWa50kcdzACfhe8KBF5T3LG1E5dnmkGfg0CcaiFkuc35EhApxnLlXNDhylTF/CD0kw8dwVJPZrFw4poGe3G8Zq/XaUdFAXqTAbl1wgSfmyRxdQJB5C1bbVg7vBB0uI5vJPgMtPEfF+XljsAZZKmSz6MUCae0fXSWbEzNKB1W309UcqH4ohDJsbJF/ti+lbKFRWxF28I9lj4d6VaQ2JopN/ALzFVLXZ9XDVo8c+Bs/llB77zkn4QrOYb57gZs75qRfr681pmOFf7+zwR97pS9mSEL0Mn5F+MJIb2lNjfgkJBTK72h8U4Nvw36F6IGkIinprho/9vfpLmLqLeI0O1/kkZFcb4UrBzts8KN2jiQHCDeF9YtaMcnWotEflh1B8G2PgvnLmuPWLqV6FSDQL6KxVQ92NV8/zqrONNkO9o8YhqXp0ysYHqraNjSwUDR3+FJKsOK2VxbE7p8HDYWV6lcUgRRlz7pu+qDyXxp27bc38vMmZfQZnhVOZtPDu4E3w+r7sirjJMLEqOmC/GUle/vgo68eG1rJB77c9zW8mH32wTYiKy43eD5vHb3CmYyQ3kgraLrCukQ==|920
+    "PaperSize": {},
+    "Margin": {}
+  },
+  "Pictures": [
+    {
+      "Name": "0ef73893-c7e9-4d1f-a155-67d3e574f1e8.png",
+      "ForguncyPictureName": "1490793870-user-interface25_82355.png",
+      "ForguncyPictureSourceType": 0,
+      "Stretch": 2,
+      "Location": "93,69",
+      "Size": "195,192"
+    }
+  ]
+}//G4qsu5gMh6Js17DEcISND8U0+hwYb5ELPcx93Mu3GcYQc8ABNg2K2Qo2s1zvW7Vyv9LUxTFzWGhFXBrpVs8iZuFezvp/FQAsQ3VqTzSp88dpnqWWgZCDpu676knaJf0mdyVLNzq6SXFJoEz5ESanDjWPajX8zI6/wwCZBFc7bjGjQ4s57r/Mi26Idi+K5NT0Q9teG3J/C9D3kD0WMVS1A2FYGNWlWvtisnGsQAAT19bke6TBGPXjWlqaMYzVTnaPmF9HWV3ukhXrCj85p2PXVGb/kULuAED7kh3eajRn0mZPBr/YbjILDxvoFwMdnXd3YcIOPtA15KTL71gIgSgf0qnndffK+jtNmsWBHbzxIVj3wksHmOVh8jEkzFLbK/mRoJJlEHf8vumKfh/TlC7RBP8TgO06uPfgaoIm1gpUHwy23vpQ7le3xXqSMI8QHrxOcJEejeyixGutcCFJli1T3DEFZS65s2SyQW6qax3dWyt7YwmP9AyWKHT5sK59/hsBlaalOInrF0Ohv6TEs95M/EfjGHzmAc+G7CnZyGnmiVdFyP2i5gZxA428R/8doRdIO9ncFQyHXRXXwLg0cHrJmXnXj+SnhxOPikk5BUrMlFRV/UC0Zv5hrekh8hzv9cH5vK4rNNtpSUM8sn7UKSIRR3YTuOUGFV6P4kcGKuoQJIltytXqzfrbjrorQeZ+vLCHVcC0VUZdUwVFSQVnEgWmWjssnQl27XnNubaZWIqlztZvpnU27EIKz/z+3bakMUWOPHyGkAZ2lxcOFS38tJyWC/teIBAqdwrFsZW4vy329+Oh2kAsLN2MD29xDWc1IsetEKR7MpQtbsPQCOMJyM+Dl6vccikUrtAOvqxxEn5CM3frhST7JGrH0VIm+9XTRfU4fUCUI38ttq+5b9uvBb66Lw==|920

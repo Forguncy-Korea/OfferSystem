@@ -18,19 +18,19 @@
           {
             "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
             "PageName": "FGC_로그인",
-            "PassValues": []
+            "IgnoreTargetPageCachedCurrentRowInfo": false
           }
         ],
         "Text": "FGC_로그인",
         "AutoExecute": true,
-        "TemplateKey": "_RS_Normal_Style2"
+        "TemplateKey": "스타일9"
       }
     }
   },
   "StyleDatas": {
     "Styles": [
       {
-        "FontSize": 37.333332061767578,
+        "FontSize": 37.33333206176758,
         "Foreground": 0
       },
       {
@@ -62,8 +62,36 @@
     "17,29,2,6",
     "10,12,5,23"
   ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "MasterPageName": "FGC_유저마스터페이지",
+    "MobilePageName": "FGC_비밀번호재설정링크보내기_모바일",
+    "Title": "비밀번호 이메일 재설정이 성공적으로 완료되었습니다.",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_Anonymous"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "IsBuiltInPage": true
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  },
   "BackgroundPictures": [
     {
+      "Name": "0dc0080d-7217-442c-8fa6-481c8c5d690a.png",
       "StyleInfo": {
         "Fill": "Background 1 -5",
         "Stroke": "Background 1 -25",
@@ -71,22 +99,8 @@
       },
       "IsAutomaticStroke": false,
       "IsAutomaticFill": false,
-      "Name": "0dc0080d-7217-442c-8fa6-481c8c5d690a.png",
       "Location": "200,80",
       "Size": "540,360"
     }
-  ],
-  "PageInfo": {
-    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
-    "MasterPageName": "FGC_유저마스터페이지",
-    "MobilePageName": "FGC_비밀번호재설정링크보내기_모바일",
-    "Title": "비밀번호 이메일 재설정이 성공적으로 완료되었습니다.",
-    "RowBreakLines": [],
-    "RepeatRangeSettings": [],
-    "IsBuiltInPage": true
-  },
-  "PrintInfo": {
-    "Margin": {},
-    "PaperSize": {}
-  }
-}//sue0aGk62KOx84gJJy/NMS80WM/ctCaGbqa2Qsw0uO3dYj87s8Kkv08+tue2WiPiGqSQK4BQSbVgGZwDmB3wlnoKD4fa523fBkB7CJsvTvU3IjggVEXU26JiQT/vQoL0wyfbyQc5V0wyYtP6RADUXdsOMsBuwpDjReTd2Dj9EfWeztar1+R39VLIAH5N+Z5DNe+2qeLvABi4XC8aKScRLgm47NurUOTIOn/KkJJbT4j9mmmr+H8plCbnXp7h9A46nCqtSH+ujjktaPkMNaqfk4qi0g6Jups0uT1bm38b4WuM1i1n+I5TpMpkXApyggzJzspIlv6gtfyVGX0us3dP5qTOOwMFqwO57fEZ+SVROQ5V8ox5sF0VZBWMHnguWdMmLMIqNVdE23JF0nlhB7eAZRGCENiSmUMB7ouz3dEyc02WIKllIxityBWT45qRDvTq/ytPNVlVy96lHN3hTAHgGcLyigRlWDySBLXDfoN+EYNEX/knU6Pc0WKen0arEzna/3NtVwD/uHfqms1Rwd2TZP7Zbold89eMq/aai7FCa7m1wI8MTJ3kFBhSpl8TOqmieolDXlI1ZcnWADrX8AN+sqiJUYcjQZLYSKvrhPQT9B3Ea2FaihpvuhmkIg/FH72CqhHIse93GvVJljalE6SRiJU09NNZ7M9DwpgB5CLfyiU5TyMbq2Ul573xKNTroOz1Fcyt6n+OUvChlxJ8qZ8B6RC7QLoArYH8xWvqWmXaVkdj/N+y2Hxazo7qaA6etfKuc5dE8l9/jLsv2yeg++oSBFB2Cwe0eP0p3kFJaBVLxy/ymqFvxU3WPG9pJHGoHRzErXIgSIm9cqrti1zq21MpL4HliDlii8UuNiYj1Lf469AvzQSeSfWEzFTKIfeVl8QeuRdcuMKV+BaNLNS+gNtCyw==|920
+  ]
+}//UodiFpkJBjzsNQBeLDrqp/ZUgBUOg7h16rUwoGqGwzUbTqNZi/3VzWPZhzf65433fpuAsEXYSYdbyQTWNNuoMXFnT6BGOCUZJVril2mNjGM9JCyTcL1l3GowhurN4b6f4nIDtarYT4GiIkRb6invRyn2O+O7Cl8KsSbmaKhBTIyEDRbYnzc1p/wWjCQZJ2/J1Wg8JIxHB5gsgng3fvmM6uxmXQX4pNkNK/qmuqqIzItcWjv+0ciaZzkSMjMW6QL4oOXVIPJlvD5T+nNAKRhO5xLh4J0a7IvxG1tg2a9JOhXubxjZKuON6ZtKo0bliNABtteYgXKSq2YZIarhQh/RPxXreeJjhoAlCTI78cF7p1AoUc2WcNTcdnKxk1IITg9CFZditu89VI2G51qimp1eLB+nbxGGqK69vjYFSTB9aGFC6mML1eYkMG5yNBh4VDwp3pQ4J9rU7dHOYfHeCfZWGUp2ohSGxG92fdVnMrR5N0iT8cTqCzb9zZ4zOKcdvR3lRnj/5E5zLJoXW1H7wzSpxs0UpAMU/PFtKChvkD18tCYlM/wk+86D3DkBfsrkJJBhJu5Ee8Tao5SOk2ii2OoFhOii5mMhZxZPWuMwlz3AeypSeS2TrF3Wz+xRY3YsebIACUdKhlQvet36l0SlGmuYjOevNZicd1KVuk1/3SyDS3FGQDNA5DUvVxsabKoq9SyDpjRpK17X2rH4sTQGhxl7wOsXsuFc0yGvnnzmWaYRC/iCZRRPZdhJwe1t79UfYoQi0a8cgdC9Gp2xhZM/9117xK5hvpJ/GdZkHTFWKhsqEIEn/pes4iQb2yfCL023503uKdOgR03x2z7YXYr02RwuUI2Z8bpOD/BzEXuzWZ+j/BNfcQpYXvFAzfgKh8a6CoH6Bp/qyeZk9W6dy6JPEy/Zpw==|920

@@ -224,118 +224,130 @@
     },
     "7,1": {
       "ListViewInfo": {
-        "ShowColumnHeaderInDesigner": true,
+        "Name": "리스트뷰1",
         "TableName": "제품",
         "RowIndex": 7,
         "ColumnIndex": 1,
-        "ColumnCount": 38,
         "RowCount": 7,
+        "ColumnCount": 38,
+        "TopCondition": null,
+        "ListViewStyleName": "스타일1",
+        "ShowColumnHeaderInDesigner": true,
         "IsRowHeaderVisible": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
         "AllowEditInListview": true,
         "AllowAddNewRow": true,
         "ShowDeleteButton": true,
         "ColumnOperation": 2,
-        "ShowGridLine": true,
-        "ShowEditStatusIcon": true,
-        "UseSimpleBar": true,
-        "Name": "리스트뷰1",
-        "TopCondition": null,
         "CommitType": 1,
         "DoNotLoadDataWhenLoadPage": true,
-        "ListViewStyleName": "주문관리_리스트뷰_스타일"
+        "ShowGridLine": true
       }
     },
     "8,2": {
       "BindingInfo": {
         "TableName": "제품",
-        "ColumnName": "품목코드"
+        "ColumnName": "품목코드",
+        "GUID": "1321871a-46e0-41e6-9093-d03d738c79be"
       }
     },
     "8,9": {
       "BindingInfo": {
         "TableName": "제품",
-        "ColumnName": "제품명"
+        "ColumnName": "제품명",
+        "GUID": "1058bcbe-3327-43b7-964d-f66e13c9b888"
       }
     },
     "8,20": {
       "BindingInfo": {
         "TableName": "제품",
-        "ColumnName": "가격"
+        "ColumnName": "가격",
+        "GUID": "a4ac5a75-5568-42bc-a29c-97ac6155ad73"
       }
     },
     "8,26": {
       "BindingInfo": {
         "TableName": "제품",
-        "ColumnName": "규격명"
+        "ColumnName": "규격명",
+        "GUID": "a92adc7c-2e2c-4471-89a9-93115d66b8f4"
       }
     },
     "8,32": {
       "BindingInfo": {
         "TableName": "제품",
-        "ColumnName": "품목구분"
+        "ColumnName": "품목구분",
+        "GUID": "44a8e094-74ad-4c02-9bcb-f39017f8c0d0"
       }
     },
     "8,36": {
       "BindingInfo": {
         "TableName": "제품",
-        "ColumnName": "사용구분"
+        "ColumnName": "사용구분",
+        "GUID": "816c0b0d-fa26-4a8d-9f0a-2f63abc879de"
       }
     },
     "16,1": {
       "ListViewInfo": {
-        "ShowColumnHeaderInDesigner": true,
+        "Name": "리스트뷰2",
         "TableName": "제품",
         "RowIndex": 16,
         "ColumnIndex": 1,
-        "ColumnCount": 37,
         "RowCount": 7,
+        "ColumnCount": 37,
+        "TopCondition": null,
+        "ListViewStyleName": "스타일1",
+        "ShowColumnHeaderInDesigner": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
         "AllowEditInListview": true,
         "AllowAddNewRow": true,
         "ShowDeleteButton": true,
         "ColumnOperation": 2,
-        "ShowGridLine": true,
-        "ShowEditStatusIcon": true,
-        "UseSimpleBar": true,
-        "Name": "리스트뷰2",
-        "TopCondition": null,
         "CommitType": 1,
-        "ListViewStyleName": "주문관리_리스트뷰_스타일"
+        "ShowGridLine": true
       }
     },
     "17,1": {
       "BindingInfo": {
         "TableName": "제품",
-        "ColumnName": "품목코드"
+        "ColumnName": "품목코드",
+        "GUID": "ba896a08-b3f6-402c-9de2-1f5ff04acd8b"
       }
     },
     "17,8": {
       "BindingInfo": {
         "TableName": "제품",
-        "ColumnName": "제품명"
+        "ColumnName": "제품명",
+        "GUID": "39a65a82-b800-43be-b457-b9084f120e79"
       }
     },
     "17,19": {
       "BindingInfo": {
         "TableName": "제품",
-        "ColumnName": "가격"
+        "ColumnName": "가격",
+        "GUID": "4c8a9002-3bdc-40ee-bda5-17ef80d4f472"
       }
     },
     "17,25": {
       "BindingInfo": {
         "TableName": "제품",
-        "ColumnName": "규격명"
+        "ColumnName": "규격명",
+        "GUID": "21823a9c-b306-4a14-8362-b9202f6496e4"
       }
     },
     "17,31": {
       "BindingInfo": {
         "TableName": "제품",
-        "ColumnName": "품목구분"
+        "ColumnName": "품목구분",
+        "GUID": "8c4bcb62-8f1b-42ca-9cf7-1569b970f30f"
       }
     },
     "17,35": {
       "BindingInfo": {
         "TableName": "제품",
-        "ColumnName": "사용구분"
+        "ColumnName": "사용구분",
+        "GUID": "ffa81c53-850f-4424-8d7b-e63d4736f313"
       }
     },
     "25,1": {
@@ -411,13 +423,13 @@
           },
           {
             "$type": "Forguncy.Model.UpdateListviewCommand, ServerDesignerCommon",
-            "UpdateType": 3,
-            "ListviewName": "리스트뷰2"
+            "ListviewName": "리스트뷰2",
+            "UpdateType": 3
           },
           {
             "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
             "PageName": "저장확인페이지",
-            "PassValues": []
+            "IgnoreTargetPageCachedCurrentRowInfo": false
           }
         ],
         "Text": "저장",
@@ -430,8 +442,8 @@
         "CommandList": [
           {
             "$type": "Forguncy.Model.UpdateListviewCommand, ServerDesignerCommon",
-            "UpdateType": 2,
             "ListviewName": "리스트뷰1",
+            "UpdateType": 2,
             "UpdateRowType": 2
           }
         ],
@@ -1032,13 +1044,13 @@
     "8,36,1,3",
     "3,18,1,8",
     "9,1,5,38",
+    "18,1,5,37",
     "7,2,1,7",
     "7,9,1,11",
     "7,20,1,6",
     "7,26,1,6",
     "7,32,1,4",
     "7,36,1,3",
-    "18,1,5,37",
     "16,1,1,7",
     "16,8,1,11",
     "16,19,1,6",
@@ -1049,14 +1061,25 @@
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
     "Title": "웹자료업로드",
-    "AuthorizeInfo": {
-      "VisitMode": 2
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
     },
     "RowBreakLines": [],
     "RepeatRangeSettings": []
   },
   "PrintInfo": {
-    "Margin": {},
-    "PaperSize": {}
+    "PaperSize": {},
+    "Margin": {}
   }
-}//cXGjxUNNSLsjxmvNpAmfkeuzLFdTrSuE9ypuZzVacBCSCHBZAZCQ1Mn6gJ1mvY8AsXR2gk24PgDUSDgq59LOvJwpWI0+TcN1T5M/CVi3eul/xmlLiEvonTKq5qFO36KJO1q3uL0bXAgDxl2gO2w8VJ2skFKt4zhjqfX7sWiGo4ohFEQePbksV21b8wq02xQfwFXzoIJJP5+ILQwThcXYrlY3ceEWTmOznRF6NpevrEz+SSe6xPbpVQfGb0WiiRO6DJzBiz6/vlLdqtq/KC3q9xdhUP1G1DLZpkDJcm3B2v3RclAYbsA2k3UtiF6hdM7DpVVVt42JMAAUX9SrsE45WbWl/CzFwWyoA2Z6yHwW+VHd/tLN9xojI+kjIJguah0QPE1P/nxiRB7z9aUGBC7rhR+FRghJEIX9Peu8y42QhyeAMOaU3yAgxzdimotf8xt00jKROVOeRDppK2uCXWs+jyp0IHe5tX983uYrVqHeH4KaDHzJTaft34rgp5a10D7vtedp5T2xnZLVAPZoXS6s+3cn8VY0/+PdDsKpojmNa2qPyGUFX81KLdttAQ9948+ewKBpc7sZwK6V5QUtFGKYDTI31zY/2CwS4PEYLoUWkFY5ETIRF8hKhVug+eV7pfPrqRhex5Eu0M/S/0jnfxDM7lzbNa7kIwO8oThIPfTZpGtIxmki8sM0hEWYcYQ+ZIgndWX7zRy8o1nfbcMqugQ5UUFNY6bLZHgddt8P78G/JHRT3Qqm0DAZxxsbdAn+LmvYszR4DHPKV8llhTV2dl2ri+daxq/Es/GxkXTaHLjvcFk1I1wN8r8I6JQ8gDuh2JD0HDht8wHv/EiyPehekrLqSoqykv0CulwOJPzxtQPttERYjoI4958PAl+WQlaGwWaDKL1TrdxXTh4G8o6elCoVTw==|920
+}//kUo5MFVEtOCNZ9MhJivCmABS9hsNVx1u13FFTBsdTC/OHbuV3T18UzAyTZP36Qbc9BURRRak2ILKN4J0Va2zF8p7pexrS7EZqG5u9ARbp0oZS9J6xiuJ+EejGVyiPe7ldyCSH3Nv4RJCKHQu1JATQ2YNqwru/Xo01yeKCvHXfe414MVnCSoeizV3uVA/hv16KEZX0LClUkhfpasLxMsnKGrB9rJoIADJELA2QBUl/bq44oX3NrFivdmFmLoVEz3V6sHj20zWA9o46IxwjlzALsMQgPbytoUhwzgd26cBeb4Vk15JTMCCvJGBwDqGlaVIid8DGCxCMZ+KV0VbTXifu14BVA3JufQ40dhY3bW1Yv7TXEQmzb/8LLRZ/Ij6/9RjjFwK6eRSGPNNuVIc3w2Gp6zOaIh4RwSOfZ6NfiUzRBEpphhRem9oHBJs/wYtUkMgETRh2y2xHb+vSAcan2a+tIg8WvN3PtxdNOOfDY/7Jm3LW0rqDhahRfXfiljCJUCPZzVbGBlM/gVUT6kYE3PN/m9smWirOI6UXMn95TCdHu50JNEQL+frJaniZQroFLj3aJmiKf6N6RmKcw12hihYz2NwHGUVgi0faiw92Kb1k68U3MSrkzKVGwem9YbS4rWoZ8yKOfYb0pSm9Wc2VP+lW//F6MD/m87wLcQXc82Wd4AySBZ2N5qgqwG3S8s2T4Uy/1ESTPB3Nvi82UYJb3/WJhS5gX1bfxL+BRlFWPC8OKwz9Fyk0jsv3unbfPRFXxJsgW5h10Ro3tldHS+lqGMIR19pHc0HmOH0M0ypDIc8Q5MlQIHTmjaiR0yixLF7MTCHsOJXWwNnn43mEFq+ONp03QnM5uqxK3Ne6A85nnPlBYJ7ZV+NRINg2dmMtVCNIYNLkOI63kDxsZ7Gmi109ypm/Q==|920

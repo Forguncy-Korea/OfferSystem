@@ -27,7 +27,6 @@
     "10,15": {
       "CellType": {
         "$type": "Forguncy.RadioGroupCellType, ServerDesignerCommon",
-        "NoneItemText": "<None>",
         "Style": 1,
         "LayoutMode": 1,
         "Items": [
@@ -60,7 +59,7 @@
         "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
         "Text": "예",
         "AutoExecute": true,
-        "TemplateKey": "_RS_Normal_Style2",
+        "TemplateKey": "스타일9",
         "ForguncyAttribute": "MailSubscription_Button"
       }
     },
@@ -71,7 +70,7 @@
           {
             "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
             "NavigateType": "back",
-            "PassValues": []
+            "IgnoreTargetPageCachedCurrentRowInfo": false
           }
         ],
         "Text": "취소"
@@ -81,7 +80,7 @@
   "StyleDatas": {
     "Styles": [
       {
-        "FontSize": 37.333332061767578,
+        "FontSize": 37.33333206176758,
         "Foreground": 0
       },
       {
@@ -131,8 +130,36 @@
     "19,24,2,5",
     "19,29,2,6"
   ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "MasterPageName": "FGC_유저마스터페이지",
+    "MobilePageName": "FGC_이메일알림설정_모바일",
+    "Title": "이메일 구독",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_Anonymous"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "IsBuiltInPage": true
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  },
   "BackgroundPictures": [
     {
+      "Name": "ceb28d52-85eb-4188-a272-9c46f964710c.png",
       "DisplayName": "배경 이미지1",
       "StyleInfo": {
         "Fill": "Background 1 -5",
@@ -141,22 +168,8 @@
       },
       "IsAutomaticStroke": false,
       "IsAutomaticFill": false,
-      "Name": "ceb28d52-85eb-4188-a272-9c46f964710c.png",
       "Location": "200,80",
       "Size": "540,360"
     }
-  ],
-  "PageInfo": {
-    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
-    "MasterPageName": "FGC_유저마스터페이지",
-    "MobilePageName": "FGC_이메일알림설정_모바일",
-    "Title": "이메일 구독",
-    "RowBreakLines": [],
-    "RepeatRangeSettings": [],
-    "IsBuiltInPage": true
-  },
-  "PrintInfo": {
-    "Margin": {},
-    "PaperSize": {}
-  }
-}//cfIc2HYpjoLLHy92vvUSoGFWgVmgepD5OfaI25N47BXItJ4BI+Cok7o3X5UwDLOHeYjo8eD60d2MgGdMQhAyqeWZsKOu1iVkXYM/+J/KUXxXa2mUI5+un0z411PKorEVb/QjxgbmBokb2NeFe5sM7OGtDiP3jUNSuiwwtw2IV7qge4Hyra+0EhqCkLwVURHw8yLankCkyooVWnyxFomnaGeTbmLt/woGiZ+HLGVVo2WtPPg6hir4CkjbEHNX+pEIYSQ77rHjlvAcpTO8Y7rAjgx+r3v/Lwe7l9fg5aC0yfCmLS8on3hVJ/iXVfHWoT74nejnY7oFNQ+s+7ZrMhXLmxjiihJCbaia9NQYorJNsfni8EckFITLMgHvZWHH5B4OKto13RmzGbTV/08hiHrv6rMC4jFOhhrWM6R+pJhuzM2RPJR/nWHSTsWorL7X2yFn8pkG3JpZPFAdbNhogiuFvAt6LKUChOyfuYbajFlvUAtZCNhCZeEn1RkkPMSbdDwUDCc8w6TOGqLQmsUoM+nXasL6s4fMVneiGY1EoA+h8yweL0DoTFx1lm1aUJyZUX+dRc6F2wkhwXIfY4lcYGMi04JHrYOgw2a8lx/ns+04Zra4Qp0GgDB535A9HCd5FYNiH9zq/ZAyuFFLWXFduMzay+Ac+CTzmgpnNl7lH3cGiQAgRqI62PHoUPBLOVzxiAdaXPKWIz1a9foGmjN2BklegvvfI8F5FMDtkIpIaC5IgJZHIVywWO819ZTQD/n33OG9XzOaXfBSXy/iQAA8FZBf9F0f1H0kCv2M4Uq4v5w9wKWhRjKCliR+2HVbiO2VZz1F/VIzT8M9DSI5kHlIClPAA93OUFDdREbs0Xtnguyr4rYJbOQOqooP+UGy942tki9yx/Dwax+o/XewXRsd+NTMRw==|920
+  ]
+}//QKc0pXGLO+gOtQWOdQ8MFGSkY8iOBB1b93UjT5rHVSZ5pUQ22+U9OXsOH+5/XJZ9F/epWeiWZR7FCS0EZKsVxeub9D9QeVSVfiS93IxpxqFW9TzYs6lFDlSsBsLbzVXGcFmUNEgVmObdeflIXFtbtAyp+JtCKb9HGrlbcIFEEu11J7U8Xaivk7t/pK2B7O/m3A2m3pNMuuF2i955aF9XX2yp8/WavUqpDWbCm/VVt0Cb4AVUuwYUnDCxLwCTrqaUGw2RXbcuIPXwOURGn61MaNHlafgXSncMovjR6OFF1jYigRYAqi+QJjCdYx7fkzz2f43z+cgddxsEFApxa2PO3O4iTPvOa9ANxwmKV03q13lFZJq5lI+rCusIQzt3fmr52LGYY/v5u75K9n9luQ9mr0ypDuAiWiPcxZeVmm404QKeluWJocGAKDG41kUCCuv3nRRmONs/u3DDM0UnmQnkL1h3TBm+Yry/P2pD64VAuubo7OGY1vW83N6qNjzypjFlQG/DhQmskkxr6i6oD8bOYahJVlHsGvouxNW6MdpDkWYZyQiEw1QzsfQw5rcGTkKk6OcIy/eZDqX54Mh2LvgiMmettr8thbpF7UoeAOJPAhrLMt9KH7xgGxOSxLyDy//2FSxa3fjyL9l+br5rGZq/jAEENsE7QlEWcBfToJc8OvpQ/KPhIrSyP5YXlYi2s8j3GP3wCtxgrnWMct31jTz3b4FtVW83qSOucGdpXxQTbA5nM1ZCX7BfaC/C1T3Y+COTVkerhegWOqSM2uY7Qjk5lNgLhGL93yK7SwXg4Q4H4eZmM1u02E+DQROkEMdDylsSycxIDqmxAtapSobNz1Uhhrkdzm9521ZP0KRserbqSEchcJ8Snr4NGP9/4c/vGtA9vIojj44vC1/L9zveditBAw==|920

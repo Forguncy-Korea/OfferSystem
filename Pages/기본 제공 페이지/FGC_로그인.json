@@ -16,16 +16,6 @@
           "DesignLengthInPixel": 15.0
         }
       },
-      "35": {
-        "GridRowColumnDefinition": {
-          "DesignLengthInPixel": 11.0
-        }
-      },
-      "37": {
-        "GridRowColumnDefinition": {
-          "DesignLengthInPixel": 25.0
-        }
-      },
       "31": {
         "GridRowColumnDefinition": {
           "DesignLengthInPixel": 10.0
@@ -34,6 +24,16 @@
       "32": {
         "GridRowColumnDefinition": {
           "DesignLengthInPixel": 10.0
+        }
+      },
+      "35": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 11.0
+        }
+      },
+      "37": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 25.0
         }
       }
     },
@@ -71,7 +71,7 @@
           "BuiltIn": true,
           "Color": "Text 1 50"
         },
-        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "TemplateKey": "스타일2",
         "ForguncyAttribute": "LogIn_Username"
       },
       "DataValidationInfo": {
@@ -92,7 +92,7 @@
           "BuiltIn": true,
           "Color": "Text 1 50"
         },
-        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "TemplateKey": "스타일2",
         "ForguncyAttribute": "LogIn_Password"
       },
       "DataValidationInfo": {
@@ -124,7 +124,7 @@
           {
             "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
             "PageName": "FGC_비밀번호분실",
-            "PassValues": []
+            "IgnoreTargetPageCachedCurrentRowInfo": false
           }
         ],
         "Text": "비밀번호를 잊으셨습니까?",
@@ -137,7 +137,7 @@
     "Styles": [
       {
         "FontFamily": 0,
-        "FontSize": 37.333333333333329,
+        "FontSize": 37.33333333333333,
         "HorizontalAlignment": 1
       },
       {
@@ -395,18 +395,45 @@
     "33,17,2,3",
     "33,29,2,3"
   ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "MobilePageName": "FGC_로그인_모바일",
+    "Title": "FGC_로그인",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "IsBuiltInPage": true
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  },
   "Pictures": [
     {
-      "ForguncyPictureName": "GC_logo_basicElement1.png",
-      "Stretch": 2,
-      "ForguncyPictureSourceType": 0,
       "Name": "45f8743d-4830-4b27-bccf-82288b645f35.png",
+      "ForguncyPictureName": "GC_logo_basicElement1.png",
+      "ForguncyPictureSourceType": 0,
+      "Stretch": 2,
       "Location": "500,119",
       "Size": "121,42"
     }
   ],
   "BackgroundPictures": [
     {
+      "Name": "BackgroundPicture0",
       "DisplayName": "배경 이미지2",
       "StyleInfo": {
         "CornerRadius": 20.0,
@@ -416,24 +443,8 @@
       },
       "IsAutomaticStroke": false,
       "IsAutomaticFill": false,
-      "Name": "BackgroundPicture0",
       "Location": "360,120",
       "Size": "400,515"
     }
-  ],
-  "PageInfo": {
-    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
-    "MobilePageName": "FGC_로그인_모바일",
-    "Title": "FGC_로그인",
-    "AuthorizeInfo": {
-      "VisitMode": 2
-    },
-    "RowBreakLines": [],
-    "RepeatRangeSettings": [],
-    "IsBuiltInPage": true
-  },
-  "PrintInfo": {
-    "Margin": {},
-    "PaperSize": {}
-  }
-}//fhEKvX6cswzlI/0+VxzSSmWF4FlD55rlYrH2HNAGRBxlFGdnHAbFB60GpfzsZTdTTyKZx4gduLlu5JRRpUQQKQ+0iK7k4bRKn3X8a8LVcEJfCp+gOsbdDzMVRp9NHBMC2rbzMt8+L5WRpZnPtKFpvakNWlNv900N5SdQANoFoCK1Tm3t5OI2tS8R6GnlpUS9g6fHKkAeI9hdbuhRlOZERoZXuRZ1xQBVj7bKEbRBrXNswzDBmrt0S++096YW48y416F1nwAfyy8CZTtLg9wQahfx77s1itIrYi2byYZCral+w3oZ1qCmkK5fetGfSnvAh5DWX27pOn/ApVl9J0JE79zOCBExCHDJi9OxVspj5P/yy9+6xS7sBajbAHHlekJLEWQdDF/ewT6+feQkkFr5/qdhPUdYy2nOzo0yOzP6zCCfg4X5qn0XqIqXSAEMFQ3WWrqtx8luzK8gYDCbwYywgzfecX/fOdyoqXc7Wx5W1JeN/98NKKACNiV5j/MIszp9a7QWQbx2x5+5MWJE7jRGDNUWh9YbuT2+16+0qVUALcCx68ldyX2Tw2ci19mKNwTiceBzr+kuCX1P6bYIsVFAELIHI69p3dHjLd1PrCKyEo97aqrapkI+yVHTGZeZrSFHcHCpCQKBF8M0mGWUlOXrYj3Nlv+/z+E+OjAjzlmADgp0IMGejxCC3F2KMAVHhi/E3TZndHthOeougrvMPp6YJ/xYjTbM6WWlYPw3TARXQhdLVg7PcLf2tSEuRxMj1i/RnVavl3hgepfObT40dSEebeO7Ay020GBnS+e7E+pXMoGjp6YSJJsxLZ83ZVdDOk/ulPhZDTAOiIUcAtV4sXVOWbMB6j3rLRZ4MD1bwVlJZULt0gQlbXC9K/1nOW6gqIbT+f0veQh3x+pwM6A1rlZi6Q==|920
+  ]
+}//wDaIpaJwJmI23eAtXIukqoQBGotHxsORGcM1g3+/6s1Ys2DQQicbRSmEF242+IG1sEI7Dnas/5nDYFcpF26CZmS6NpKUZdVcy0L2CvogmPnE4+tmCWuMEYZ7Plg94Un6MpXzYCiq15N6wTlxZ55r3/3OqLwOBPQDRZWUHQhwY56ZBp7MFrfM7fbkGnpJyPdeahV70clfnsDsZVXlPHUpRsEZHjcIJDIvXawfaOcN0GBtGIUwP2tCTIO8W6FJVDMUF47Qku11VdEANHphv/+0oxrP1xB4F273l6p8F4Rt8coor8BqNTXQsX/Zks64135UKyMILMDLjvxINKeu0zxir2/OIEZBMVMI3exUdPrBIkhxi/pdISbt+A6ymDR9qFLVlumeW/gaci5EB9Es2dOUkDrq+pv0+JcVf55T6UkkVHszy+CKBiig1K8TZdUXd93s1qY5Ghuksi09QWosBJqE+0IY4bvL0hXVSdNowMfdM9gCXQdnbmjASfS9AYfPUazUaBeE2uYUjJZZLLJ+xiJkKcHAOCagXB8GEzz6l0pcVtd87lBOBWapudbzqNcfKUBPArbP0IVwSmyaGaXinmYlPvurt+A3EoBfRXKXRIZUVSK/SXYowr4DUj5ShcHg2Y44WBPzwJttAPJpX104gXGXaytteGOjHqiLTlyxjdObpMDEmVQyDqgGOHvKvHnXCTuo0yDC6ZuEmgC+N0AfkzchWJNGfVIjM/zbsc5AW0FwRVnxAJYYkOtGBx9y1dOCD62m5IgPFZ5RL/7iVQnnDJ5nV+50j2Az4faL7R/ZfqP7N0FC3zoOINwx+s8F1yc8kLhoqEfysKuawoyMmjq8LsJEY4sE8nzZ/qzLh6mMiGg+WfupElAxEOhzTCIlmObHoRNvy5Xqu/iLPay5zrBQp/+GMg==|920

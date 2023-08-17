@@ -108,7 +108,7 @@
             "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
           }
         ],
-        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "TemplateKey": "스타일2",
         "WaterMark": "입력 "
       }
     },
@@ -130,8 +130,7 @@
                       }
                     ]
                   },
-                  "value": "%Null%",
-                  "Id": "d5ebc917-6a84-42f0-9cf2-1374abe7c820"
+                  "value": "%Null%"
                 },
                 "CommandList": [
                   {
@@ -142,16 +141,15 @@
                       "CompareType": 1,
                       "ColumnBindingInfo": {
                         "TableName": "제품",
-                        "ColumnName": "ID"
+                        "ColumnName": "ID",
+                        "GUID": "5bfc8dda-8329-42e6-a434-e4e894cad086"
                       },
-                      "Value": "%Null%",
-                      "Id": "76fd1b51-4478-4ebc-a870-502723b4ccc8"
+                      "Value": "%Null%"
                     },
-                    "Params": [],
-                    "ID": "0c17724c31d7402cbcdebdfb59e4193e"
+                    "ID": "8a753b24173f4b96a420e637288f1ae1"
                   }
                 ],
-                "ID": "5f30740d-05a5-472a-8d57-611cab784648"
+                "ID": "86d4b74b-d9c0-458e-b053-f481fef91941"
               },
               {
                 "Condition": {
@@ -165,8 +163,7 @@
                     ]
                   },
                   "value": "%Null%",
-                  "compareType": 1,
-                  "Id": "002f1601-85cf-4f2c-8b6a-d2e13927dc77"
+                  "compareType": 1
                 },
                 "CommandList": [
                   {
@@ -174,59 +171,52 @@
                     "TargetTableName": "제품",
                     "SqlCondition": {
                       "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
-                      "Condition1": {
-                        "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
-                        "Condition1": {
+                      "SubConditions": [
+                        {
                           "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
                           "ColumnBindingInfo": {
                             "TableName": "제품",
-                            "ColumnName": "ID"
+                            "ColumnName": "ID",
+                            "GUID": "c636f733-40b9-4ba9-bd7e-15bd20a3252c"
                           },
                           "Value": {
                             "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                             "SerializeProperty": "='제품_검색 페이지'!I3"
-                          },
-                          "Id": "05c1b62c-dd02-4d9a-8b05-83e792807da6"
+                          }
                         },
-                        "Condition2": {
+                        {
                           "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
                           "CompareType": 6,
                           "ColumnBindingInfo": {
                             "TableName": "제품",
-                            "ColumnName": "품목구분"
+                            "ColumnName": "품목구분",
+                            "GUID": "1a8d9e42-fd81-43f8-b0e9-1c65e952a462"
                           },
                           "Value": {
                             "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                             "SerializeProperty": "='제품_검색 페이지'!I3"
+                          }
+                        },
+                        {
+                          "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                          "CompareType": 6,
+                          "ColumnBindingInfo": {
+                            "TableName": "제품",
+                            "ColumnName": "제품명",
+                            "GUID": "b61e8c9a-547c-4925-a4d4-157e225e6c32"
                           },
-                          "Id": "1b54b044-2bec-4ba7-a44d-41bbff3b6527"
-                        },
-                        "RelationType": 1,
-                        "Id": "d139213c-fbfc-4004-9efd-89fe3bd3b45e"
-                      },
-                      "Condition2": {
-                        "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
-                        "CompareType": 6,
-                        "ColumnBindingInfo": {
-                          "TableName": "제품",
-                          "ColumnName": "제품명"
-                        },
-                        "Value": {
-                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='제품_검색 페이지'!I3"
-                        },
-                        "Id": "4adc2263-5ab1-47df-bea9-400de40817ff"
-                      },
-                      "RelationType": 1,
-                      "Id": "3760c9fd-066e-4a89-88bd-ff7a4838ec63"
+                          "Value": {
+                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                            "SerializeProperty": "='제품_검색 페이지'!I3"
+                          }
+                        }
+                      ],
+                      "RelationType": 1
                     },
-                    "Params": [
-                      "=I3"
-                    ],
-                    "ID": "15a5a0317e3a43998aadd5f9a4f7f6d1"
+                    "ID": "03b9e4d1749a49b49bb374aad7fd698e"
                   }
                 ],
-                "ID": "84241d8e-e7eb-44c7-83da-79443e8433de"
+                "ID": "56bcd895-0168-48dc-b63d-b36a252c1518"
               }
             ]
           },
@@ -257,22 +247,27 @@
     },
     "13,1": {
       "ListViewInfo": {
-        "ShowColumnHeaderInDesigner": true,
+        "Name": "리스트뷰1",
         "TableName": "제품",
         "RowIndex": 13,
         "ColumnIndex": 1,
-        "ColumnCount": 25,
         "RowCount": 8,
-        "ColumnOperation": 2,
-        "ShowGridLine": true,
+        "ColumnCount": 25,
+        "TopCondition": null,
+        "ListViewStyleName": "스타일1",
+        "ShowColumnHeaderInDesigner": true,
         "ShowEditStatusIcon": true,
         "UseSimpleBar": true,
-        "Name": "리스트뷰1",
-        "TopCondition": null,
-        "ListViewStyleName": "주문관리_리스트뷰_스타일"
+        "ColumnOperation": 2,
+        "ShowGridLine": true
       }
     },
     "14,2": {
+      "BindingInfo": {
+        "TableName": "제품",
+        "ColumnName": "ID",
+        "GUID": "d7d88ab8-3edb-47d3-bff9-bc676e75d62a"
+      },
       "CellType": {
         "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
         "CommandList": [
@@ -290,8 +285,7 @@
                       }
                     ]
                   },
-                  "value": "조회",
-                  "Id": "f506cfd7-cd47-4f89-ab52-c74026cdb658"
+                  "value": "조회"
                 },
                 "CommandList": [
                   {
@@ -310,7 +304,7 @@
                     ]
                   }
                 ],
-                "ID": "1caf27b2-10f5-4f09-857d-3751f37a0e25"
+                "ID": "2e3b3ee3-8be0-4099-a8e3-6f6696dc5db2"
               },
               {
                 "Condition": {
@@ -324,8 +318,7 @@
                     ]
                   },
                   "value": "조회",
-                  "compareType": 1,
-                  "Id": "ec00461d-6516-48a7-a552-8b000555c13a"
+                  "compareType": 1
                 },
                 "CommandList": [
                   {
@@ -344,7 +337,7 @@
                     ]
                   }
                 ],
-                "ID": "9aa3eae5-ee32-44b7-a3db-45cbdfcf83b6"
+                "ID": "982595d1-5b89-4d8c-a30e-f51c275046e8"
               }
             ]
           },
@@ -356,13 +349,14 @@
           }
         ],
         "ClickMode": 1
-      },
-      "BindingInfo": {
-        "TableName": "제품",
-        "ColumnName": "ID"
       }
     },
     "14,4": {
+      "BindingInfo": {
+        "TableName": "제품",
+        "ColumnName": "품목코드",
+        "GUID": "c625c93d-450d-4544-8e28-bf3ad5717171"
+      },
       "CellType": {
         "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
         "CommandList": [
@@ -380,8 +374,7 @@
                       }
                     ]
                   },
-                  "value": "조회",
-                  "Id": "96f497a8-f5dc-40fe-92ca-7059ebfa5285"
+                  "value": "조회"
                 },
                 "CommandList": [
                   {
@@ -400,7 +393,7 @@
                     ]
                   }
                 ],
-                "ID": "8510beb2-96a5-417c-9f9f-852a029ccebd"
+                "ID": "89e05808-c08b-4c94-a8ae-e57b0cfba3d7"
               },
               {
                 "Condition": {
@@ -414,8 +407,7 @@
                     ]
                   },
                   "value": "조회",
-                  "compareType": 1,
-                  "Id": "170da836-0355-4649-afc2-69583d2506a2"
+                  "compareType": 1
                 },
                 "CommandList": [
                   {
@@ -434,7 +426,7 @@
                     ]
                   }
                 ],
-                "ID": "441c8b64-454a-45b1-a983-8072ffa3ba76"
+                "ID": "6f50b112-66fd-456f-9fad-2b335d00ebde"
               }
             ]
           },
@@ -446,16 +438,13 @@
           }
         ],
         "ClickMode": 1
-      },
-      "BindingInfo": {
-        "TableName": "제품",
-        "ColumnName": "품목코드"
       }
     },
     "14,15": {
       "BindingInfo": {
         "TableName": "제품",
-        "ColumnName": "제품명"
+        "ColumnName": "제품명",
+        "GUID": "7068bd91-a1ad-47b7-875c-c00decdee205"
       }
     },
     "22,1": {
@@ -465,7 +454,7 @@
           {
             "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
             "NavigateType": "back",
-            "PassValues": []
+            "IgnoreTargetPageCachedCurrentRowInfo": false
           }
         ],
         "Text": "신규",
@@ -790,16 +779,6 @@
     "13,4,1,11",
     "13,15,1,11"
   ],
-  "Pictures": [
-    {
-      "ForguncyPictureName": "1490793870-user-interface25_82355.png",
-      "Stretch": 2,
-      "ForguncyPictureSourceType": 0,
-      "Name": "bf51ee89-c5d4-4d4e-82e9-d8a29ef416da.png",
-      "Location": "89,73",
-      "Size": "205,174"
-    }
-  ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
     "PageLoadedCommandList": [
@@ -823,14 +802,35 @@
         ]
       }
     ],
-    "AuthorizeInfo": {
-      "VisitMode": 2
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
     },
     "RowBreakLines": [],
     "RepeatRangeSettings": []
   },
   "PrintInfo": {
-    "Margin": {},
-    "PaperSize": {}
-  }
-}//9eeaigfE3X6soNlug3dSReso9FGQqLqn8Sn3jTdGO2QvNXOJhc47jCuL872y5+aPLl69QIvlnqVi3N+I60HSpNkcngTqgwgEfRUYrEHskek/V37arfDG8UkI6vazm4uQUjYnke3QsO5PxdWXeic1WIkgeBK63Ov4ZYqch8ajwyt12UQtpSTE30sJ5Lk04Q6tbVny3bPChQBF9vjkHev6WladMbx7dUzhQNj1nE0Sq8C8IuCwr5CCjDUQyyeenZFYsHvGt2HwOUUgHV0HwkrZTi7O976Dw85Gzp+Vfe3P5/r2mD/lNygNC9jlWMOxJQgyaK5zpnhtzn1ii+rnnZvIWXtbFsRhqZKKB0nxEwmr8JSZ3g+lfWEGn6/27/P6TZF5iVrDu24X2AkU1+qVbiG8RlLXVcpxCmLP85gA9olI8gtxuO3wO4JZjQ65OemIL4+SY9LIC4ztTAGrq1tkkNKsJ9dqkNI5a8QCbUSi+qUDv6hu9quOb78dm8qqW3H7zFsGplPoHE9CZQ86hI3M3NHQhV9mVbL52cJE1E6Eyt8C8culiEvU9567f0UU2us/bZ3imlnRCkqfhplHUKIHFWHNslVlmdVmUyfRweM8vOLeZYgt5Pv4uRScipkFainuue1CWHMmRgCWwruBt4pJSPptFc7i4zV0fd0MoS+a8oRGzH0JDuuqnbht6qhxqtnxxoL17jzIHkun5lpzhRFSWz4gIkDOaV51ytK0zPtr8qWFB9h66ihSX5d8lwgQtBNPSW6XGOdZckOtuGoPJhIMz12aWfgDxW8kJrzNo3VOVmaapvbysXCENOTjHGVeD1XYRGRBe7BdsTaW5VielvMa6lz/YQySC73NtSisRxBQXr1Q/SJfH9XtNooltcEE/EksPeMCOLv2RMm21BNGEaHsMO4WOg==|920
+    "PaperSize": {},
+    "Margin": {}
+  },
+  "Pictures": [
+    {
+      "Name": "bf51ee89-c5d4-4d4e-82e9-d8a29ef416da.png",
+      "ForguncyPictureName": "1490793870-user-interface25_82355.png",
+      "ForguncyPictureSourceType": 0,
+      "Stretch": 2,
+      "Location": "89,73",
+      "Size": "205,174"
+    }
+  ]
+}//P+o8HUy/umMcgabMpnlJe5aKov5a4NLrU8fHIqpEEiXvMCsUBQBQUOMhBajE/p/s6CTtwdFVIvl27QMlQurA17DJlyCWwg52hmhiPQltPMIu3/lr6AXNg4WFtzXXLAs2Oi1XnMI4V2aSc3uKJUyPbyO8UgmvfQTikwAfEug+RgOlSvAVdctZ3lBiVAJhWGRDRW/6tUkML31s1BLVE2HazjGf75TckHnoCt2BqKvCqZIJmU4AIhrKp6jkG2a5eNB6ktbJ7IldcW5IPbNWaLVHpaeeX9sTNw9r6jOkidA0BTIzpsb+AruJPOAi3OakLJZPJvZ6ZkQJpZ/bjWOMXlOPUCouQNZekqDjPNIp/J74ixbvxkWWrQ395KR5Pn0mrqVuWxLDYItDNSHxhHD6YfIX4ecBdrOgiQaVwC3V4UoGx+P9kSSaDgphie/TTolwj5/SoP9v3V95WkcZmA3iOMGQZfgPxRpizL+VDKaeirJ7xOvBqq59ZQIR7D0C5/8IJQpBhemgToU0fqmTlOoo7hQ24ivtTqBAsevIvkj1Nn+p622KJj76yBXSps0WvlX8x5QSpFZxcn5g6GxorZaOJHXq0EPIjh3PphbTQAiCMIV8kxdwJZrgo4zoiU1dE975fcjroh7pli7ch/cOC9LkM2cZ31jNHhEZYXUWuzIZyx+QNtkqIKQYsTD275Ao1pJ77hjbIf51vFecE5qV4XtD5YmGG17rQkxarU0us2iDrqH+FDArztBNamw4zQ2EZk8hXOCE9IR51bumtE05mOFEfFmb+8swOcBzLk1e5kNHhTL/ZlZm7lVQ3Wf0NfQrBCANZnZan4NEO/JOFYAsz0h9z5HlsuIoc6sOoJM6tVyoNr2Hsn18r2XgT1xOsYBLbIJ6rsKWeHUE+mSTFik3y+nhQ4urvg==|920

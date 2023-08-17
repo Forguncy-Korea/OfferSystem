@@ -18,19 +18,19 @@
           {
             "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
             "PageName": "FGC_로그인_모바일",
-            "PassValues": []
+            "IgnoreTargetPageCachedCurrentRowInfo": false
           }
         ],
         "Text": "FGC_로그인",
         "AutoExecute": true,
-        "TemplateKey": "_RS_Normal_Style2"
+        "TemplateKey": "스타일9"
       }
     }
   },
   "StyleDatas": {
     "Styles": [
       {
-        "FontSize": 21.333333969116211,
+        "FontSize": 21.33333396911621,
         "Foreground": 0,
         "Formatter": 1,
         "HorizontalAlignment": 2,
@@ -80,13 +80,27 @@
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
     "Title": "비밀번호 이메일 재설정이 성공적으로 완료되었습니다.",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_Anonymous"
+          ]
+        }
+      ]
+    },
     "RowBreakLines": [],
     "RepeatRangeSettings": [],
     "IsBuiltInPage": true,
     "IsMobilePage": true
   },
   "PrintInfo": {
-    "Margin": {},
-    "PaperSize": {}
+    "PaperSize": {},
+    "Margin": {}
   }
-}//w8/6hWcc/4kQAa9D3yAhzp2AN7puPBsgR+XgHDLN9slXmG5jUUxPDSeVK8Arx4ih5FU4y5sJD4UQN09WkdWJiaVSGAnq5N/YIwrMtW/UubdiHd3AT1KoT+SAlPJ/BX2yhjTjKq6duD47DzUroGpTZmNyavkp2eNCadHC9KI074T0gXN1MJwijLRZRxJmDmsAUKsFSkRS1IHPrJFQstevTJt0ybhavBM79iy7ZeVhVYLzTExtLu4pQYJFo+vyHwT4lp0gBmAHcxjnFKaciV/d4V0Bsagv8CVTidoezrIMCZAr2GnPGnhOtwt2GWLg6aoNv3JgUCPyGSXbBKiBhOyuHFdsCxXmasiINQuF236R6zoKKaIklDEh6bcSjyjwwAjgjrnBhjf5f3VMefiu03JPQocNUdNCOGZKZ7Fy3GARU1GYz7+8FjMp9FK2Ub5D1SbiKhNCrXaAIbqMfpP6IB+Jl1Erg9b8I74YBwVeRUeK/9ruXJ3LccBRGQ7zCfccoaCFkKB4Qflln+3mhnkKjqyy3U1P+29TImmd++KnOdVMLBWqrkiwBJWMpph1dBExsPtDFFu4F/GQy/y0vsn+k57ojMPWEplPL5+EbxAnPb2+wRUFC0wiooaUtrptaFr9fIkElAHf7DHyiLe5qwP4tKkNJfd8Bd8rMGbRnSobE8Kj5oexcgb8dJmnGfQ3yzikp4g1zO4tUoZ5cE+kLlxPvSc6Tfa6Av7CQgQ57jTlgzrveIsTJzeXKGWy55+/AfyG6IjZAlRJ1JP6hEbBGRGvp0dc6UL3B5bjs2NI4vTcSR/M8HBmUZ3EeiCNfulUq0yGtV9aGxEsnlvEtwRNYmKbgrpZ2B5kVuyP7uyxJxhTbZVhHyDhs2Rr/ZdFwz9PrEWMvNR/ljjC4mK2YZUUOIrMRyzvUA==|920
+}//dMTg6FfBMG70+/Dx7/wZmR4AsNKr+8T2K8bdpAvJEa6ot51StaARfYqtgpFO9uQqefqVvht9JzBTAsaX5B0rqqXu+aqIjWNyzX0yC+jRFPEOA5EFypTHmJX+6Zo79rdBsjq/rgruAPEU3nn16KlpGjX3YtFZ98u7nISmRhbSxpZ2QkIYOnyeLopihx2hRk2jhxF1E2fMnxd/VkX9XLMWhibLm19OxHc4iYRgfw0CyAYpvjOyr6o+XvDgUBul7NE6IuVLLEDK4F2iEJHBVNKuFfr+yUDr0uImTd1tlEct3xeLlkgYHwI4FgBjrOxMJK6yrZQKUyGXyUCekOCxkYwdxqesgL2/caAqeyK+snOnJ8rG/7LWt4/zWRoXeVFeoPHKLZ1/0kkc5y6HOGQ2MFF3VmNCbKFi6XVbZHGA8GCfI7siDFvZP1438faqCmvI3lvF/IQa6/Oz6KA21G+J/RwnJPQ0FPcy88ubdfvje9X6H/A0FOgh7OXYjr/EfxMEfpNj44p4rDZIXlBlOzo7f4KpXWgKZdhjJnDvVGCd76i7JYh6+9vVODIMeRu9CHoO7nc1UfVGE/07IJsqoU93GUrgxl+XWaAYSA4zF+OoyQnXfVDnc14aQf6hN7jjtsxL1M0nnwX4CwH7AEEa9Cm+1fg3pGM1EP8CzQCuYm/sPA5q7sZFySzOrghAYc6SUzUta1pyPFsqr3FZBKzgBpqE5xJy/9wIDVA+6nA/CQLlF5G/BJUJoap/hg45SlZl/UpQ6KA/aBCPJQllihFEuiMAmujqeMH/XFT/ezGs9bKzx9dRJTZoYaA7/+f7WKFIOtqWtEHdgFReGHvB0qIu5o811LjE7eS8O0//POaV6/wz+HtRPISunqM611OKc9CuO/RCM8Qu2NKOuwK8kyUOVAZ0cPsWOw==|920

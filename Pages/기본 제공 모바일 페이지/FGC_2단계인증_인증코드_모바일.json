@@ -30,7 +30,7 @@
         "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
         "Text": "다음",
         "AutoExecute": true,
-        "TemplateKey": "_RS_Outline_RoundCorner_Style2",
+        "TemplateKey": "스타일8",
         "ForguncyAttribute": "MFA_Secret_Next_Button"
       }
     }
@@ -76,22 +76,22 @@
     "7,3,2,12",
     "9,3,3,12"
   ],
-  "BackgroundPictures": [
-    {
-      "FitToBrowserWidth": true,
-      "FitToBrowserHeight": true,
-      "ForguncyPictureName": "MobileLoginBackground",
-      "Stretch": 3,
-      "ForguncyPictureSourceType": 2,
-      "Name": "BackgroundPicture0",
-      "Size": "360,580"
-    }
-  ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
     "Title": "2단계 보안인증",
-    "AuthorizeInfo": {
-      "VisitMode": 2
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
     },
     "RowBreakLines": [],
     "RepeatRangeSettings": [],
@@ -99,7 +99,18 @@
     "IsMobilePage": true
   },
   "PrintInfo": {
-    "Margin": {},
-    "PaperSize": {}
-  }
-}//Vi2ODiK5kd8YJkYsagp5PxO/Jqh49msWtcWYZyL7Tn4XnfD5hFqyKw3jJKYJdDPw4rqWlEIMKwbdQpHEfWm8HlmzKo4paxrVYTzvEpiwdgJB0H5cLsGEfIDqLsnixRPr8KjDVrbi24bhTf+vLJ4e8GffY2x4uAZk2EJla9x6PzQB6eepvPaiZdoDkG6f0vU6WWzch5KbXWZhTU5MiamgqTYwPQD9k4xLhYSnDBDuKXCx72pZKi/pwl52gxZ1iI9ZkFn12CTAtN7ZFXFvXqe29hvX5PSKSDE3pwSE05kq2/SSIJyvimgWkO3UFZkjLrG/K/cBiKU/8/oy04ktAPh7qUwSmzKBKfxS7zMz7aIEUiRw53c+2UG2ufm/QumHdJ5hxguiVQPpe0Bd7KRu8jRNdcWU6/Mvmx2bM/HkHC5PZ93J1yysCtdLWSkiSXwuFakasKuiGbwv6cLnQZqz6NoqZjU51/iXUDIO4XQYwCdhwOX6inUundim5upWcxtl7VjMktB9brmSjVBdX6SI1PN/iUyAIhCkS0+ZZZX+oFSaHE2jB6FW7GKk/OqfvfEs0GRbLife4823P2QO9fQSiN6rxNsBl3/TXOBrPFqRQCiPSnBDS70GJvPqhDC6z+GLDsraAcEvoNxZ/zRr9eu55zvSMZRmKyiTlFh2XgoTyWXzLSApekfjJJWmoogXlaiKnsuXhjxZ6Cgjco+6uiuvGLJQlh/Es40y1GoLzaM4cXREBZVxHSnoKIoznV5pSCkK6e2GabKwy2Wcv9L2hTLMkZfIP5qmMchR+RQHxxG59lp/ylSWkhCYs/f7yYud4/q+FC5iLbNzBmxf0olFOOVMeqFgqwJ6kFdmfRW2pNiwE9O4gVyl230UBq358yWDFmYRTiMCWwFIXzMfLS4KkygYJCLHnQ==|920
+    "PaperSize": {},
+    "Margin": {}
+  },
+  "BackgroundPictures": [
+    {
+      "FitToBrowserWidth": true,
+      "FitToBrowserHeight": true,
+      "Name": "BackgroundPicture0",
+      "ForguncyPictureName": "MobileLoginBackground",
+      "ForguncyPictureSourceType": 2,
+      "Stretch": 3,
+      "Size": "360,580"
+    }
+  ]
+}//TcjxuVcu0Y6jN5SI+SF90d0ldAkwyBFIVJKWiFa/g8d5GhcKyWQ5pP86YfDaeFa9v/Nea9aMI0IFAjjSkFf/9QzdQTdVYpSX4JDLDDsvy28P4Mlqmh3aApRpyeN24uZVE9TS5ZxwwBaeAPiI3vrjg/jwxmg4nenRO0dyszFlfigNrUcYYZ4+wmAzF1C0DharopXgmI+8gAxdq9WIv3A+/fGl48CpyRlnHHqmH+w658HOB2U4Rb0FAiTnZIYoufrAjAnC584nhzEXOPxs6eiOM3GaJXJ2cO1yzuvvScUM9zQ7annt+KXR1TwxYFHzH4B3bqBD+9Qtxuq9OwoSxjKto2tMkSS5gbXxudEEGLxmrZ0vJwVX+dlsrkLRze1H3VH6rNqJLnP5Pd06n48iJUNvIl2bE0Ca/H86TCXjEhFdt366h1X1b5wiRH4+sj5VrDWJYrJ7661VfGktQlLzorM6ZxBaSHGM2d65Ch+oBQLonwAianpY6sbYz/jNaZQ0tbODU/E3AetVP+SlsBv7Ym7/feYLzKEtr8MrIMbxChknhaV4uq2o8FqiAss+dS/xGrRMNnON9TWpwXWghaccBDH3iOAMEOhr4+KBPgVNd7JANm/mgZf0+WOo/R1FxsPKXKOHIRubhrJ4+KRR5eA4pUO0GwtVxwdIsEQjq358B7GXXmP/1/8nEikbjn/44g6GNVhIEyhGArOSL4uA+2gzhkMw9/5zKQDFcPsDPRoFnSdhIsrnyEvNylcwcN3eCZLC2ZpZjrUW0GETkzDE9xmt3YOl5X3WNDfe63J0uD+kAL1IHTXW9dzoeqPAZHrzDSzUToFU6QcaGtTavGueDcv4H2R/FYWl0LcJBMAJP3EkBS1xvzG9/CrhueTYB8JxL7AZ7Q938Wh+BbGQDy2LMuBYiSD0cw==|920

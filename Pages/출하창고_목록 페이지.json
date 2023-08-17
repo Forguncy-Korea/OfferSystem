@@ -16,6 +16,11 @@
           "DesignLengthInPixel": 25.0
         }
       },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
       "7": {
         "GridRowColumnDefinition": {
           "DesignLengthInPixel": 49.0
@@ -44,11 +49,6 @@
       "23": {
         "GridRowColumnDefinition": {
           "DesignLengthInPixel": 25.0
-        }
-      },
-      "6": {
-        "GridRowColumnDefinition": {
-          "DesignLengthInPixel": 10.0
         }
       }
     },
@@ -143,7 +143,7 @@
             "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
           }
         ],
-        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "TemplateKey": "스타일2",
         "WaterMark": " 입력 후 [Enter]"
       }
     },
@@ -156,39 +156,37 @@
             "TargetTableName": "출하창고",
             "SqlCondition": {
               "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
-              "Condition1": {
-                "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
-                "CompareType": 6,
-                "ColumnBindingInfo": {
-                  "TableName": "출하창고",
-                  "ColumnName": "창고명"
+              "SubConditions": [
+                {
+                  "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                  "CompareType": 6,
+                  "ColumnBindingInfo": {
+                    "TableName": "출하창고",
+                    "ColumnName": "창고명",
+                    "GUID": "c5e38fa3-1afb-4229-99a8-3052a4b65d2b"
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "='출하창고_목록 페이지'!AJ4"
+                  }
                 },
-                "Value": {
-                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "='출하창고_목록 페이지'!AJ4"
-                },
-                "Id": "7cd54f32-e299-4add-86cb-44a249a0227e"
-              },
-              "Condition2": {
-                "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
-                "CompareType": 6,
-                "ColumnBindingInfo": {
-                  "TableName": "출하창고",
-                  "ColumnName": "주소"
-                },
-                "Value": {
-                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "='출하창고_목록 페이지'!AJ4"
-                },
-                "Id": "de2691f0-afbf-424e-b308-7465c85d5a65"
-              },
-              "RelationType": 1,
-              "Id": "42b6a536-e52e-4775-b959-7a899d6cc0d9"
+                {
+                  "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                  "CompareType": 6,
+                  "ColumnBindingInfo": {
+                    "TableName": "출하창고",
+                    "ColumnName": "주소",
+                    "GUID": "e7af6c95-c320-4525-a326-1be8dcaf926d"
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "='출하창고_목록 페이지'!AJ4"
+                  }
+                }
+              ],
+              "RelationType": 1
             },
-            "Params": [
-              "=AJ4"
-            ],
-            "ID": "489dcd3c30ab43e6908eca94961ed0d7"
+            "ID": "f1c33c99f8ee446a8908e812d65bbab2"
           }
         ],
         "Text": "Search",
@@ -224,24 +222,29 @@
     },
     "7,3": {
       "ListViewInfo": {
-        "ShowColumnHeaderInDesigner": true,
+        "Name": "리스트뷰1",
         "TableName": "출하창고",
         "RowIndex": 7,
         "ColumnIndex": 3,
-        "ColumnCount": 53,
         "RowCount": 15,
+        "ColumnCount": 53,
+        "TopCondition": null,
+        "ListViewStyleName": "스타일1",
+        "ShowColumnHeaderInDesigner": true,
         "IsRowHeaderVisible": true,
         "IsRowHeaderCheckBoxVisible": true,
-        "ColumnOperation": 2,
-        "ShowGridLine": true,
         "ShowEditStatusIcon": true,
         "UseSimpleBar": true,
-        "Name": "리스트뷰1",
-        "TopCondition": null,
-        "ListViewStyleName": "주문관리_리스트뷰_스타일"
+        "ColumnOperation": 2,
+        "ShowGridLine": true
       }
     },
     "8,5": {
+      "BindingInfo": {
+        "TableName": "출하창고",
+        "ColumnName": "ID",
+        "GUID": "9727c0ec-6ca0-416a-951a-ef8c8bca9833"
+      },
       "CellType": {
         "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
         "CommandList": [
@@ -256,17 +259,19 @@
                 }
               }
             ],
+            "IgnoreTargetPageCachedCurrentRowInfo": false,
             "LoadBindingDataOption": 1
           }
         ],
         "ClickMode": 1
-      },
-      "BindingInfo": {
-        "TableName": "출하창고",
-        "ColumnName": "ID"
       }
     },
     "8,13": {
+      "BindingInfo": {
+        "TableName": "출하창고",
+        "ColumnName": "창고명",
+        "GUID": "fc2ac00f-ce8e-43bf-8e50-7f7757e649a6"
+      },
       "CellType": {
         "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
         "CommandList": [
@@ -281,29 +286,33 @@
                 }
               }
             ],
+            "IgnoreTargetPageCachedCurrentRowInfo": false,
             "LoadBindingDataOption": 1
           }
         ],
         "ClickMode": 1
-      },
-      "BindingInfo": {
-        "TableName": "출하창고",
-        "ColumnName": "창고명"
       }
     },
     "8,22": {
       "BindingInfo": {
         "TableName": "출하창고",
-        "ColumnName": "구분"
+        "ColumnName": "구분",
+        "GUID": "4b9adbb7-2359-4fc6-ab09-adf0a5b132f5"
       }
     },
     "8,29": {
       "BindingInfo": {
         "TableName": "출하창고",
-        "ColumnName": "주소"
+        "ColumnName": "주소",
+        "GUID": "673760a4-14be-48f3-8859-33e89ef4ae30"
       }
     },
     "8,42": {
+      "BindingInfo": {
+        "TableName": "출하창고",
+        "ColumnName": "사용",
+        "GUID": "8d3ebbee-b1b3-4266-8583-4d19cb65cc7b"
+      },
       "CellType": {
         "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
         "Items": [
@@ -316,10 +325,6 @@
             "DisplayValue": "NO"
           }
         ]
-      },
-      "BindingInfo": {
-        "TableName": "출하창고",
-        "ColumnName": "사용"
       }
     },
     "23,3": {
@@ -329,7 +334,7 @@
           {
             "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
             "PageName": "출하창고 등록 페이지",
-            "PassValues": [],
+            "IgnoreTargetPageCachedCurrentRowInfo": false,
             "LoadBindingDataOption": 2
           }
         ],
@@ -355,17 +360,16 @@
                       }
                     ]
                   },
-                  "value": "%Null%",
-                  "Id": "ca25fdeb-f7fb-47b0-b264-30d45ecf64a7"
+                  "value": "%Null%"
                 },
                 "CommandList": [
                   {
                     "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
                     "PageName": "미선택안내페이지",
-                    "PassValues": []
+                    "IgnoreTargetPageCachedCurrentRowInfo": false
                   }
                 ],
-                "ID": "28613368-f637-4bcd-958b-620ceb04c4d8"
+                "ID": "4e3007d1-4db3-4f32-b42b-9f8d3ddaf3a4"
               },
               {
                 "Condition": {
@@ -379,8 +383,7 @@
                     ]
                   },
                   "value": "%Null%",
-                  "compareType": 1,
-                  "Id": "d5913744-3e73-4fe3-89f6-3dff8871516b"
+                  "compareType": 1
                 },
                 "CommandList": [
                   {
@@ -397,8 +400,7 @@
                               }
                             ]
                           },
-                          "value": "YES",
-                          "Id": "3830e25c-85cc-4ac0-8e34-4c0b877a10c1"
+                          "value": "YES"
                         },
                         "CommandList": [
                           {
@@ -416,11 +418,11 @@
                           },
                           {
                             "$type": "Forguncy.Model.UpdateListviewCommand, ServerDesignerCommon",
-                            "UpdateType": 3,
-                            "ListviewName": "리스트뷰1"
+                            "ListviewName": "리스트뷰1",
+                            "UpdateType": 3
                           }
                         ],
-                        "ID": "84b2a1ee-5956-4ebe-a9aa-67f7744089fc"
+                        "ID": "d4344a05-1510-4602-af37-32659164f19b"
                       },
                       {
                         "Condition": {
@@ -433,8 +435,7 @@
                               }
                             ]
                           },
-                          "value": "NO",
-                          "Id": "1da6284d-5982-4f93-b29d-a14a1a78ae9c"
+                          "value": "NO"
                         },
                         "CommandList": [
                           {
@@ -452,21 +453,21 @@
                           },
                           {
                             "$type": "Forguncy.Model.UpdateListviewCommand, ServerDesignerCommon",
-                            "UpdateType": 3,
-                            "ListviewName": "리스트뷰1"
+                            "ListviewName": "리스트뷰1",
+                            "UpdateType": 3
                           }
                         ],
-                        "ID": "13c4c550-3dca-46e1-95d1-f4b35880c44b"
+                        "ID": "fd761b45-b3e0-4e2c-95bc-0938e04d6878"
                       }
                     ]
                   },
                   {
                     "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
                     "PageName": "적용완료페이지",
-                    "PassValues": []
+                    "IgnoreTargetPageCachedCurrentRowInfo": false
                   }
                 ],
-                "ID": "4dde5a34-e37b-4d89-8228-d887b9f29457"
+                "ID": "df3c0777-69a4-4feb-a7b9-114f8de9ad36"
               }
             ]
           }
@@ -482,8 +483,8 @@
           {
             "$type": "Forguncy.Model.ExportListViewToExcelCommand, ServerDesignerCommon",
             "ListViewName": "리스트뷰1",
-            "IsOnlyExportValue": false,
-            "NewOtherName": ""
+            "NewOtherName": "",
+            "IsOnlyExportValue": false
           }
         ],
         "Text": "Excel",
@@ -829,23 +830,33 @@
           "CompareType": 1,
           "ColumnBindingInfo": {
             "TableName": "출하창고",
-            "ColumnName": "ID"
+            "ColumnName": "ID",
+            "GUID": "fef44f00-2e90-4ff1-8e7b-b0d81a3230d6"
           },
-          "Value": "%Null%",
-          "Id": "bcc12f17-e8b9-4ede-9607-d2802a9b5ee2"
+          "Value": "%Null%"
         },
-        "Params": [],
-        "ID": "405de742adbd49fcaef5242917cca044"
+        "ID": "34d83de56271450daf288611faa5fff9"
       }
     ],
-    "AuthorizeInfo": {
-      "VisitMode": 2
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
     },
     "RowBreakLines": [],
     "RepeatRangeSettings": []
   },
   "PrintInfo": {
-    "Margin": {},
-    "PaperSize": {}
+    "PaperSize": {},
+    "Margin": {}
   }
-}//AtmZ2Sb46jlKEtmmI05yszmn7ozPNhevmbw4FLKwx7LjtMmHsXtlA0O3adXAtd4I//y1uEGKL7zIwzyyLXy61LWIUXzya+bi0qUd5wCJc2+lf7GtqSPBFL88LOtzQlyREYAg/3Kiut0DZicC4hiqJ7FwurqiGGauW4/0Ahlclq4U5vk/inmu5FJjtmB8zOkCv5/pqzwxH6GoVNN/cgkyLnTsw9lVyvqOLVIi9akZaq3RtXStfshoqRw1f5R6dZPoe9yMUJwPRdaP+OhCe5hTkBqB9BbRR3IqYRnTmjnhq9G9X2k1KtNvHZXBCawopKmwaooxy2MoboLhE8I1Yw/wp1+9TtKZmbdy6RFKttKsitO4Yf5I58o3cCSXV5KeH9eHJxbKozcSYEMZnn0hscn9th9VKTzqtp9lSi8XPwqd/1kykvHeGxdBd3J3UvofVqAOiuRp2c4RvbUR498zaAQlK272i6vkiIKQC9Ml9byBl+D1iGBHqyBdOMMFQohd/kTTR3zL/Vgea5UdMQ3i/0AfJ7WRuPmJuxfwT14NxFZzyzU+ifdFgrcnN5kktlq4rphv85lfniqvBzLhdp8YZ6Fr+wXjUUgPkJs0dAy8pmF1M75wxx5LSJsPjUiF3FswF+vNDj51BxPm4l5E4zKwxVqmvM98i8Q955MYM4IbcqA9xUWtYdIg3cdURmoKg9bx8bxRr1C/gQ+JN982a1sKthXruyBU12jNb1Wg8d8DmlC4OA24kd8MXo85hz6Hu16QgChSDT6jteNyvmiJY7rXBD6i4hyjTeb8vXBv6/5aik/tVBWeV/10g0UVAprIWLClC4UrPx6OKkp3Y8RBC47x1RdX5JvZ15qadzaunOQM5kGxDbw859iMSeScHT0covxOJKkJyEeqoCdfyJnU29/d3qtJcQ==|920
+}//eKFyr61amScRyWbSNQ5881IRvpY7zoU+NYtoIYIk5EoSbWqQrx1yn6ptZGfHCdhQnolQP34xQ7HCQUOmk/Oh+yFNb9aK9vr102tKTDieDE5FQBg+mQu+qXSzLNYfPjEr4pZs+1Z1nrPiqRpkzrnbBxY4Ft8wTdmyMDb5JHFLOciyD98DMpjIKoM1e6BF/D6pHl6ZwDdzXkMew3jtijS2Dt/XvUoV+8fq8YVW9okOyqYdKGyACdN7Sy14lkHoqAySgU/eBEL0L+ZJFM/5PBgwytvXJf4X2myMAobBfG3BF4BF5JUqQUDZ0vOR3GnPUl8oY4u++cQM72E/b3GkBCaTIK/osowjWmKSD2YSTIcC/qGGNdVChY7rz00R/OF4XX5q0gOqr18/l6OAF2mjxr3lLFYq0e6E0Qrdv/zuCdkcM8AZ1o/FiZpOMV5niZuj87oOOWvF2168LRN5V3IFSfw5EIUiTBiTQVV9qXSKEeUHwsFpm/pFBTibQz3R50+PD6m32xlhq7qe72DC16USJiA+8SSCPGpCJFYoFQo5uEoGo5TF+Jd7jU9kmcJJaFukZ1KF5nHxkMg8iFSsIs5q69bmabpOhSvlb+wjVZLzqVWuH3y4Gu2lqyM4Zv2GPW8dcV1nAsmUZhmH6CSwobhb/I0zQE8X9eIccaTbmJxFAUmn3E5wdCE77Wcm+9e8lR2d62haoEJKKMRX9wQAMOGIqQVnIrdBoO7l6XlbmDKGK3xYHPzSAUF+QM9x0QtUe6zpElK6cBMnDjDojirMUfQ/3a/kt/4I6EKmWWdKjOvSF13XAo2EjHh1chIhT6PwOCmgkg4AXVJ0CqXk19l2Y/NJUn4z2lOHMjwUlwiJGVIigKVWMpOXV420m6fTQ+nN4eJBOS/atLaWElysvCkoPdlBheJzEg==|920

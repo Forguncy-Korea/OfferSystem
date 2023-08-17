@@ -216,10 +216,16 @@
     "4,11": {
       "BindingInfo": {
         "TableName": "거래처",
-        "ColumnName": "ID"
+        "ColumnName": "ID",
+        "GUID": "e3a5c9ae-3470-4988-a47b-0e239c8b88c6"
       }
     },
     "6,11": {
+      "BindingInfo": {
+        "TableName": "거래처",
+        "ColumnName": "회사명",
+        "GUID": "3cc5db63-1a2e-443c-8fcf-ea37f30279f0"
+      },
       "CellType": {
         "$type": "Forguncy.TextCellType, ServerDesignerCommon",
         "SavedValidators": [
@@ -227,17 +233,18 @@
             "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
           }
         ],
-        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
-      },
-      "BindingInfo": {
-        "TableName": "거래처",
-        "ColumnName": "회사명"
+        "TemplateKey": "스타일2"
       },
       "DataValidationInfo": {
         "IgnoreBlank": false
       }
     },
     "8,11": {
+      "BindingInfo": {
+        "TableName": "거래처",
+        "ColumnName": "사업자등록번호",
+        "GUID": "75aee344-3e5e-4ee7-9369-511984131fa9"
+      },
       "CellType": {
         "$type": "Forguncy.TextCellType, ServerDesignerCommon",
         "SavedValidators": [
@@ -245,17 +252,18 @@
             "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
           }
         ],
-        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
-      },
-      "BindingInfo": {
-        "TableName": "거래처",
-        "ColumnName": "사업자등록번호"
+        "TemplateKey": "스타일2"
       },
       "DataValidationInfo": {
         "IgnoreBlank": false
       }
     },
     "10,11": {
+      "BindingInfo": {
+        "TableName": "거래처",
+        "ColumnName": "대표자",
+        "GUID": "b24a7f08-e8b2-4a76-b5e8-96f5402937c7"
+      },
       "CellType": {
         "$type": "Forguncy.TextCellType, ServerDesignerCommon",
         "SavedValidators": [
@@ -263,17 +271,18 @@
             "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
           }
         ],
-        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
-      },
-      "BindingInfo": {
-        "TableName": "거래처",
-        "ColumnName": "대표자"
+        "TemplateKey": "스타일2"
       },
       "DataValidationInfo": {
         "IgnoreBlank": false
       }
     },
     "12,11": {
+      "BindingInfo": {
+        "TableName": "거래처",
+        "ColumnName": "거래처담당자",
+        "GUID": "9e955d8d-1dd7-4104-8dc9-c821f09a7fd2"
+      },
       "CellType": {
         "$type": "Forguncy.TextCellType, ServerDesignerCommon",
         "SavedValidators": [
@@ -281,14 +290,15 @@
             "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
           }
         ],
-        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
-      },
-      "BindingInfo": {
-        "TableName": "거래처",
-        "ColumnName": "거래처담당자"
+        "TemplateKey": "스타일2"
       }
     },
     "14,11": {
+      "BindingInfo": {
+        "TableName": "거래처",
+        "ColumnName": "업태",
+        "GUID": "943279e2-5e4c-4f2b-a1ae-c504a945bcd9"
+      },
       "CellType": {
         "$type": "Forguncy.TextCellType, ServerDesignerCommon",
         "SavedValidators": [
@@ -296,14 +306,15 @@
             "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
           }
         ],
-        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
-      },
-      "BindingInfo": {
-        "TableName": "거래처",
-        "ColumnName": "업태"
+        "TemplateKey": "스타일2"
       }
     },
     "16,11": {
+      "BindingInfo": {
+        "TableName": "거래처",
+        "ColumnName": "종목",
+        "GUID": "3db1b006-2711-4a78-8d1c-7761b88c1196"
+      },
       "CellType": {
         "$type": "Forguncy.TextCellType, ServerDesignerCommon",
         "SavedValidators": [
@@ -311,14 +322,15 @@
             "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
           }
         ],
-        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
-      },
-      "BindingInfo": {
-        "TableName": "거래처",
-        "ColumnName": "종목"
+        "TemplateKey": "스타일2"
       }
     },
     "18,11": {
+      "BindingInfo": {
+        "TableName": "거래처",
+        "ColumnName": "Email",
+        "GUID": "1303a149-4b47-4930-9239-9a3524a7c2c8"
+      },
       "CellType": {
         "$type": "Forguncy.TextCellType, ServerDesignerCommon",
         "SavedValidators": [
@@ -326,11 +338,7 @@
             "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
           }
         ],
-        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
-      },
-      "BindingInfo": {
-        "TableName": "거래처",
-        "ColumnName": "Email"
+        "TemplateKey": "스타일2"
       },
       "DataValidationInfo": {
         "NumberType": 8,
@@ -339,6 +347,11 @@
       }
     },
     "20,11": {
+      "BindingInfo": {
+        "TableName": "거래처",
+        "ColumnName": "Fax",
+        "GUID": "bf6aced5-aa2a-4718-9bef-b1c8e7402e5f"
+      },
       "CellType": {
         "$type": "Forguncy.TextCellType, ServerDesignerCommon",
         "SavedValidators": [
@@ -346,14 +359,15 @@
             "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
           }
         ],
-        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
-      },
-      "BindingInfo": {
-        "TableName": "거래처",
-        "ColumnName": "Fax"
+        "TemplateKey": "스타일2"
       }
     },
     "22,11": {
+      "BindingInfo": {
+        "TableName": "거래처",
+        "ColumnName": "전화번호",
+        "GUID": "41b447c4-653b-4a68-ae81-d8c8dd894b74"
+      },
       "CellType": {
         "$type": "Forguncy.TextCellType, ServerDesignerCommon",
         "SavedValidators": [
@@ -361,11 +375,7 @@
             "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
           }
         ],
-        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
-      },
-      "BindingInfo": {
-        "TableName": "거래처",
-        "ColumnName": "전화번호"
+        "TemplateKey": "스타일2"
       },
       "DataValidationInfo": {
         "NumberType": 8,
@@ -374,6 +384,11 @@
       }
     },
     "24,11": {
+      "BindingInfo": {
+        "TableName": "거래처",
+        "ColumnName": "핸드폰번호",
+        "GUID": "d385e7b4-7b30-458c-8324-f8cf1adb3814"
+      },
       "CellType": {
         "$type": "Forguncy.TextCellType, ServerDesignerCommon",
         "SavedValidators": [
@@ -381,11 +396,7 @@
             "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
           }
         ],
-        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
-      },
-      "BindingInfo": {
-        "TableName": "거래처",
-        "ColumnName": "핸드폰번호"
+        "TemplateKey": "스타일2"
       },
       "DataValidationInfo": {
         "NumberType": 8,
@@ -394,6 +405,11 @@
       }
     },
     "26,11": {
+      "BindingInfo": {
+        "TableName": "거래처",
+        "ColumnName": "주소",
+        "GUID": "7980477f-0ca4-43f9-a418-6c5ffff190b9"
+      },
       "CellType": {
         "$type": "Forguncy.TextCellType, ServerDesignerCommon",
         "SavedValidators": [
@@ -401,14 +417,15 @@
             "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
           }
         ],
-        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
-      },
-      "BindingInfo": {
-        "TableName": "거래처",
-        "ColumnName": "주소"
+        "TemplateKey": "스타일2"
       }
     },
     "28,11": {
+      "BindingInfo": {
+        "TableName": "거래처",
+        "ColumnName": "우편번호",
+        "GUID": "dcd08764-ce64-444d-8a89-b182fa376b7e"
+      },
       "CellType": {
         "$type": "Forguncy.TextCellType, ServerDesignerCommon",
         "SavedValidators": [
@@ -416,11 +433,7 @@
             "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
           }
         ],
-        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
-      },
-      "BindingInfo": {
-        "TableName": "거래처",
-        "ColumnName": "우편번호"
+        "TemplateKey": "스타일2"
       }
     },
     "31,1": {
@@ -441,8 +454,7 @@
                       }
                     ]
                   },
-                  "value": "저장",
-                  "Id": "5616985b-4087-40ce-885a-13b11247a05d"
+                  "value": "저장"
                 },
                 "CommandList": [
                   {
@@ -450,16 +462,19 @@
                     "TableName": "거래처",
                     "UpdateType": "add",
                     "ShowConfirm": false,
-                    "ConfirmText": "데이터를 추가하시겠습니까?",
-                    "UpdateValues": [
+                    "UpdateBindingValues": [
                       {
-                        "ColumnName": "사용구분",
+                        "BindingInfo": {
+                          "TableName": "거래처",
+                          "ColumnName": "사용구분",
+                          "GUID": "9d1d6f7f-150f-454c-ba71-c8213506e542"
+                        },
                         "Value": "YES"
                       }
                     ]
                   }
                 ],
-                "ID": "9519885f-191a-4808-8e95-53833df34c6c"
+                "ID": "86f8fba3-c49c-42c6-9500-f503432620ea"
               },
               {
                 "Condition": {
@@ -472,18 +487,15 @@
                       }
                     ]
                   },
-                  "value": "수정",
-                  "Id": "b48b5e0f-9cde-4431-87fd-2475dd50a239"
+                  "value": "수정"
                 },
                 "CommandList": [
                   {
                     "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
-                    "TableName": "거래처",
-                    "ConfirmText": "데이터를 업데이트하시겠습니까?",
-                    "UpdateValues": []
+                    "TableName": "거래처"
                   }
                 ],
-                "ID": "e346b29a-baba-4064-b03a-ff0a66c84fc1"
+                "ID": "ef8df1a0-7e55-4a51-a600-61a90c3e3ca4"
               }
             ]
           },
@@ -876,14 +888,25 @@
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
     "ShouldCheckDirty": true,
-    "AuthorizeInfo": {
-      "VisitMode": 2
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
     },
     "RowBreakLines": [],
     "RepeatRangeSettings": []
   },
   "PrintInfo": {
-    "Margin": {},
-    "PaperSize": {}
+    "PaperSize": {},
+    "Margin": {}
   }
-}//rPOVR1/5Xv0l7IyBD6/TAstMkbOUI00S6DJRVzA3fv0cpxTn08eL2O5g+bdkgjVPi5drf+spDxtFC7gidQdNp5OhmmpMBq8N1ALQvkuf52Sod+JPy/n2JhCexWJozxdWffJ1kfxWri1LplXF0OfiX4BYzAFhAAz95juVOWoCncSkM6xarvc9LHJ84Xm/D3VHKY36vR4cF8Nmn7KP14Ot6SajCvgSRHvZ9/0KFXEaMXEcPUslMRc/9FJUNL7x03IeBDOrxzcp1f0B1mPGicbt0W68CFrtvNTX2dEER1agdU3hLvEt5LSvpusj2yT6oqOYxSg6YitlXmMI5FcTI9hkOELBgIq04YbB85297QyFrC34rZbE/BEVGLTK4TT2j1zFIDvBbYoAh4Nsvi1idEp7JX7n8XokCS2adGZPYkEWkanvtkav6CQDXKwhssItU819H4lY4B//UJxSkJ9dkfXmrulA7RIWhPSNtqSp5ONbt/Up8CBgOyqRT00adetcNsSdjxhEDQN8i/US61oIV8AG6OiS7Tf2XetbGxgksYUUEfNIJxP/T4bR9/qvZfTyCc8K0G5l1XgNj3vsf6Ox1aRpafq1cLhFUFbtZnV0QDAV82Cal4qRwgQ1U5wUOn2tskUBFn+RXK1IiR2KYPrnXR179J5IMtIh/2hF8ky78aihTrg9Ng/yrhLQLy0B1crmhWPnPacSEMrPOwuUAwaoj3C+5xy1fhpjowds5JIWZZSectkcCFR0JBlHp+p2DEWox2sWEbNznH/u2xOXUUWvFPulMWzLgBYpyJ8Oo3qR+WAFVQIr074n9tcXDD1x6rxze/tWXZjnkE1YszHTQ4fvmOCv2CslRzGeWSiuaEudio2+E3bZfil1pbvSRRAGnPtVlicjjM/Qsmwi81qxQ5LwhaaUDA==|920
+}//XmLGMsQP5qVexBGydaVq+4YX0TmY8Qj5tnjcH4ImN3d0K+40H5tcYxx20EcXtb8cy3cb00MY6mMX2WcMp9V4MqnYgEWcWilUHjMGQohcMUNY11OkOoP4Mc6rU+DIBVr2cfdFamLYm2yeADnju3U0YjPI2HY5+bd5+KQ9/I9vJ2ENe4ALkS56o6akgIyhogVVgIsoa7iGknGZG/fttEfmFS9clXbElB3BEru4YE8BdrYvJX7WtirZlkChI79JZZ3YSsy7AHtH46sW9SgudbrsQBw4gGEqmINWhpMFka4WWbDkWWHuD9oRY9++jAVOR7eI6PZfslFgaVeDZsnd1An+/64AvS5r10Mu1ZITR+KD+QxcrnlBPeCF83s2KQV80CIyFqTnHTz1KwwKXYo1Y2rsYXUr7XdfYb1PvGFjUbimjBlqH6VgMHHFvZIDGqMxbmNyQVv2BtQOOPCNAK7wcuKNU67veZx8H8y8fnt1oichS6m4LPEuS/kJccAY85NEIaSe7lTBEilEVBc1CJ7woTgjiaawP488AMR7fpHZY7/Fixl9wuz72mCGOefKGHjo3ugS5UTQnDYIR54zGOtr4oDHuvDq3bLbumUeqCF29EgjfNdxXWAPUhSM59+jg3GDOdgc6K0uMZseIawNs/JSJQuZoIADjqvSCrChGB1suD3PxOfmihT5+wRkJnIKSb1G2w0iyTXMK1GSh3QeNorIU3RnVrt01Jl7Oyn2esbIR2aNxrtLnJrd2/tNEx7ON8/cSe29qACCqdZXG/sqQkPvTjfH4zpGg7ywNcILcTkJOyo45nAcIwiv1nfIb8u1vH5yNmVpFTcv44u9uyoWJQWm+JTfpA6z1IGukYKapOS3FlPVApQkhWKh5V4chWakFromrLf3T2m9THHRto7lDTyE4SWYuQ==|920

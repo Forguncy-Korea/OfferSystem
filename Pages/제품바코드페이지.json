@@ -56,52 +56,55 @@
   "AttachInfos": {
     "2,2": {
       "ListViewInfo": {
-        "ShowColumnHeaderInDesigner": true,
+        "Name": "리스트뷰1",
         "TableName": "제품",
         "RowIndex": 2,
         "ColumnIndex": 2,
-        "ColumnCount": 23,
         "RowCount": 12,
-        "ColumnOperation": 2,
-        "ShowEditStatusIcon": true,
-        "UseSimpleBar": true,
-        "Name": "리스트뷰1",
+        "ColumnCount": 23,
         "SqlCondition": {
           "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
           "CompareType": 8,
           "ColumnBindingInfo": {
             "TableName": "제품",
-            "ColumnName": "품목코드"
+            "ColumnName": "품목코드",
+            "GUID": "e4ab4a75-1408-4fea-921e-f04ca4dd3a9c"
           },
           "Value": {
             "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
             "SerializeProperty": "=제품바코드페이지!C2"
-          },
-          "Id": "7764a370-27c6-4db3-9a6e-afa795b90236"
+          }
         },
         "TopCondition": null,
-        "ListViewStyleName": "주문관리_리스트뷰_스타일"
+        "ListViewStyleName": "스타일4",
+        "ShowColumnHeaderInDesigner": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "ColumnOperation": 2
       }
     },
     "3,2": {
       "BindingInfo": {
         "TableName": "제품",
-        "ColumnName": "품목코드"
+        "ColumnName": "품목코드",
+        "GUID": "f77b501f-6c8c-42de-aedd-96d4b74cec93"
       }
     },
     "3,6": {
       "BindingInfo": {
         "TableName": "제품",
-        "ColumnName": "제품명"
+        "ColumnName": "제품명",
+        "GUID": "0be8dab5-8d10-469c-b309-58c7aadf631f"
       }
     },
     "3,15": {
-      "CellType": {
-        "$type": "Forguncy.BarcodeCellType, ServerDesignerCommon"
-      },
       "BindingInfo": {
         "TableName": "제품",
-        "ColumnName": "품목코드"
+        "ColumnName": "품목코드",
+        "GUID": "54f792d8-a09b-4d8d-8bed-3edeb3892f26"
+      },
+      "CellType": {
+        "$type": "Forguncy.BarcodeCellType, ServerDesignerCommon"
       }
     },
     "15,2": {
@@ -110,8 +113,8 @@
         "CommandList": [
           {
             "$type": "Forguncy.Model.ExportPageToPdfCommand, ServerDesignerCommon",
-            "AutoFitRowHeight": true,
-            "NewOtherName": ""
+            "NewOtherName": "",
+            "AutoFitRowHeight": true
           }
         ],
         "Text": "바코드인쇄",
@@ -286,8 +289,19 @@
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
     "Title": "바코드(품목)",
-    "AuthorizeInfo": {
-      "VisitMode": 2
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
     },
     "RowBreakLines": [],
     "RepeatRangeSettings": []
@@ -297,8 +311,8 @@
     "ColumnEnd": 24,
     "RowStart": 1,
     "RowEnd": 13,
-    "Margin": {},
     "ZoomFactor": 1.5,
-    "PaperSize": {}
+    "PaperSize": {},
+    "Margin": {}
   }
-}//hXUfY+TkujNU/6GcVa1AuybILu1PQbm1BMubrsd5R4Nt6p3aLJgAR+8xv74PqvEQXbIwYk3LfGqYp5CTQ9f0ftBpO9XQiy/4z6HAT0Mx3V3DlIV/ueWsBplez2BWZO6SSUuUOSt4LY3Qk6N8yNcpV+JgCJxwFJH43GQZ+P/J6l7svfR4dzVAkjI5Cc6w7Kv76j02Hf0So8dhOZdBjfRbiLSSvcwPGV+MW3om3hs+k3uxhx0+Nu24XK8Eu/Ebhu9w/jiZmzTrK5zWoONYOnrJ7ubptbVICofj438UZ2PZ4mA4+2j1pX+efs3AiuNv4CWTJhZ5sT3iviiWtcVct5DphiOkqobzffdWzeyiZyhK1qPSKyiYlGiYdcUSUG4JgyYhsPIhs5wdm1qxMtzWuO9kAc2yGpZuNiLWMUgzibpNK1E1Eoeyh9XLHAQg/dkr9tKAdAHTF2BmxtBiGZjJ8+Er/m0VK7g7/htv6WjJ6lewVa3/ENOIa50jfnvH5SsNjr+XUmYCkS14XrJW1vqhn9gTeYpXdrMI1d4Zu0uRqEl8ppMP/0eF0K4tmqW3QTJRWQZDZzapvFgTlv3uNwG8Pz34N8x9kFnYF4IhenhgyC9u4P4SaHUVeMnlb2zytnFLfc3rOV09HZZ/opVASuksHe2veSpxcIWCvTc0U1jsnnKibSiF0PVgs4rvnHLXPVQAutCaz89s9wIYY+QBsV2EbEUFKL+2d/NZ8skVfIN6uQjxX5CtUr15d5VdU6nWPTIgV6hP1GWyzensUpLnaht9a9vzzvBiKfnlypFYhzYWhED2mhzHJF8Wt+xhynxewgIIiITd9EPvNCIqZq+YAZxLvkmBMY+EfJBTheUvNQeSXfYBGa3H1VvfryRgi+zD+lNB8fZDZntXxdI6wXCaUxZK3jl4rg==|920
+}//+NgvmGPs7UPB1fitokCxcPVWOYjbTusFChAV4wTrs+2sOStLPaPVoAz3xDYYubU7Yfve2ldvD7cCRjiryHjYV4sa4XMltuTTLvn/Bfquq2qaBhMfPvCUcOj3aihrrVL78QlnOrSJ0nL4wKjABe+Uy/fiVHEauuwOkA8yxkpwWCx7ROV7DYk7+DuEUICO9WktRFs6szk7mKOGQS+nuebsVqSiXw//MtXlAelcQw+hRLsCY8XTBqyZgL4uWADAvWjdrdmK5T8AVr4drVTSEtaRWl1LnqIf/99q+snXRCneIX8hYmp2bE9TjZZtFEOpV5dEmOYy1oEkFkhmwlXHZTdkl95EHHuWdAV1Zv4C7lKm0jrVqDQkYZC+IF03K0/aZNblnFuGYx8+ISzYreOQPDrwlHou4Fn/11H6pr5AyvlHDzw4CrMFUy+TMlGUdatb+JQ9NdiCrXba1hSp7gnkNhpMlE/lYONtuguDpuD6RaWS6S2oLzxLkGy1TncKeyBYJRycZiOow6/2ptvUzgQX9lUtVcL/VFjk/UZh83u+BrWHNS3Tt5Qkq98KCUfuadosvWE5mpcl4kHsFDg4x+9ciKg8hYVe0Ugs9p1XimR4tHAkw0R53F9k7kf3u+GZdhK/i2lRXHbrCfm/zsTkMD82kreQOAjLWuvDwLwtd7RiW48B1AS+SLtmAG6UyRzB0e2xyCQScdGbCk8rRFlCdqW6Cd7tUQ0hlSmauDu2R2b/Z+5LW+5gftL8PxOJlWOFWUFSpfRdCqtKMQSnx3Sxw4d0C8DbsifKWDITq9KzYX2mAJzwTF+iT/HtwSPE8XCJvhwHiy2j05fHjl5RfuTU/6LyPpop7rplWByXKdteI6rVvm8rahMRqpWt2gPmhfyWWKYM0TCHoslZv6yG9pXmybpXZEgD2A==|920

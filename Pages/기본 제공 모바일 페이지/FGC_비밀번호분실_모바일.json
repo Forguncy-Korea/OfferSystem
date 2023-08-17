@@ -21,7 +21,7 @@
             "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
           }
         ],
-        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "TemplateKey": "스타일2",
         "ForguncyAttribute": "ForgotPassword_UserOrEmail"
       },
       "DataValidationInfo": {
@@ -33,7 +33,7 @@
         "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
         "Text": "이메일 보내기",
         "AutoExecute": true,
-        "TemplateKey": "_RS_Normal_Style2",
+        "TemplateKey": "스타일9",
         "ForguncyAttribute": "ForgotPassword_Send"
       }
     },
@@ -44,18 +44,18 @@
           {
             "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
             "NavigateType": "back",
-            "PassValues": []
+            "IgnoreTargetPageCachedCurrentRowInfo": false
           }
         ],
         "Text": "취소",
-        "TemplateKey": "_RS_Outline_Style2"
+        "TemplateKey": "스타일7"
       }
     }
   },
   "StyleDatas": {
     "Styles": [
       {
-        "FontSize": 21.333333969116211,
+        "FontSize": 21.33333396911621,
         "Foreground": 0,
         "Formatter": 1,
         "HorizontalAlignment": 2,
@@ -123,13 +123,27 @@
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
     "Title": "비밀번호를 잊으셨습니까?",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_Anonymous"
+          ]
+        }
+      ]
+    },
     "RowBreakLines": [],
     "RepeatRangeSettings": [],
     "IsBuiltInPage": true,
     "IsMobilePage": true
   },
   "PrintInfo": {
-    "Margin": {},
-    "PaperSize": {}
+    "PaperSize": {},
+    "Margin": {}
   }
-}//bCj8GDKMOVBJ+s4xnO7k8E63a3ZNfK4m6O0oYkm+NjveJSY9/w4dRGLY04mtiGyABswoue727X9cZcJzBkg8Y/Qd71XnYQKAyUulDyppma4kyEkHoCbnHarHzpYGmRTSxjMKPbzm1blmPp7ZGyq79+pDTADMMd51mniK6UWxPCJeqxP3zayG0d8fbATQRvwzJZPOcAw1oZ+MURfsELC9pL8TGd4II+CcX1bAZ/B2rmFUqvnuIMuNBCwP25ko1jhGFK4pss01Mldmi+8GXtICFkOTeI17oxrW1f5knBPVKkUB46wVuy67JYhoBKiXICuO5wCZoAj8IrqLeSmzIKCcQrpfcRl3CcH0T1BVGoNb5g8UlSJrNSJL4c2t4oE861cl9/jFMkuwS5F7AwjQnYA9KEm8lrJDI8QTIxoffyVFiIGqD1xvdI8oHJdQ7VT36Kya4pPI0SG2PbcABUSGKuqHuokhBm3zcYYk4gDk88W+tin5Tufp2tdGzbUfo1DxGEc703XHsgezvvQemyJQX2rdkY7QKS+cGcl3cZdXEWMkFNYmMy2FeSypzIpgCESrY378UWpRJgUhZ8lc+bOeFc1pYbXYUCgXhYhbkVVC43uhDXRePCJ2h/3FwyDreiopv7KWAiqZbdg0ewo83Kv1PUKI4ZP90yXADftbZF3vwp8/pFy5pUCHJRBy3Egai6PZDrcK1GQpCz3DAfV2DL+2S9iizgnPn9boXb7XHel9eOYM2FZOaN7MrZLt8k+vGGmHXY58rn6OwtLeRiVEGTLUx5PBgTtMeUyvk6IvaVtMi8Oi9UhV6tTkximxu0fDdlPdte76p78PDPtLU3p+b3yNRE1XL5ecPhbvRpBaTKYe6s4g/IfEJo4v0/tUrSRtOUnsiOZnTfL69ASMPA7ZobFBU9DS/A==|920
+}//O4Lwq8p3OASsQYIodjNM/aR4eefLbeNx5LOVClhoPF2iHrSEcqN1PffIcg8itEIoRgbYBLY2rh5JSQ/HWBd9mOAKAh2ls2tDomvZMMczzGhTrvX5NpYeZpJzpSaMMxOlW5fmehWb5mJDWWIU0Z6W+cArfLms9vg/phYmbrP/LfyxWYilU5c87NGafNzIMBEnPI/KiGoqpX7nGcmty7YBBQWBrB2MpQ+xJrWnK5XWQlyMMbUlfLkw3FTVdvxzahAQ7iDmSx8zkIbjo1Ru65eTdG9ymPirjAJH4g8olPPFOBSxA0rJPhor6yy4ks9r4QPH/nAVHBG07wMw8BnW2c9vOtnOwlnY/AhJ36E58dgnudbFhE8LhN514TJIp+8yxAZDZYRWmUjfl7NgMB4mtWSwrl8TM3NtiFgYucJLA0da08jSpTVqxFSgrCufyIG2InTBIOy5QhqVy1USLAw5hs4hElmR/XucMK8cv2dcfI5DIre3TANo1uXFuawKJuYDh9LVj0ug6m3RrmJ18b6r0RhsMJuFVLj/qhr4dT1tj2bYzSsUMhoDDQ3DTdSbjmRu2+QGHltLg+4ivMQMORu6bLXzSLj4y8+DrpZedGMvQs1e1N3oN0N+8LjuEzwg8XeaIwn/2ToQ1JObNdES1PSDKe3RSeGpWQEM3y4wN1vWwDebOEtqna031KuTyB+ZFRMpvhwvSHGfVfGbtlXW3X21uwIKwMP5gfMoe3ZCJo6MknPO/2724kemMBrCbNAAiaaH7xzPmKJCDyMadHGAVbBLZd+jNJBQrPmB1NROcK7Qti5xEmPJ14K1xX59dP06hxZ0Hskay1op7Q2/8QImBmummIKrxAvkxrzebjRyB2I+9+wPwG0NRaCIET77PmAbE/KvmvoviebemClkJ7pDCfyZjv5hBA==|920

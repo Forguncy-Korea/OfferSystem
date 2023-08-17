@@ -1,1 +1,296 @@
-{"DataSources":[{"GUID":"1b8e62ef-806c-4e15-a69e-3c73a5c42103","DataSourceSetting":{"TableName":"견적상세자료","BindingInfos":[{"BindingInfo":{"TableName":"견적상세자료","ColumnName":"ID"},"ColumnName":"ID"},{"BindingInfo":{"TableName":"견적상세자료","ColumnName":"제품ID"},"ColumnName":"제품ID"},{"BindingInfo":{"TableName":"견적상세자료","ColumnName":"주문수량"},"ColumnName":"주문수량"},{"BindingInfo":{"TableName":"견적상세자료","ColumnName":"주문_ID"},"ColumnName":"견적_ID"},{"BindingInfo":{"TableName":"견적상세자료","ColumnName":"FGC_Creator"},"ColumnName":"생성인"},{"BindingInfo":{"TableName":"견적상세자료","ColumnName":"FGC_CreateDate"},"ColumnName":"생성일"},{"BindingInfo":{"TableName":"견적상세자료","ColumnName":"FGC_LastModifier"},"ColumnName":"최종_개정인"},{"BindingInfo":{"TableName":"견적상세자료","ColumnName":"FGC_LastModifyDate"},"ColumnName":"최종_수정일"},{"BindingInfo":{"TableName":"견적상세자료","ColumnName":"주문_ID","RelationBinding":{"RelatedTable":"주문데이터","RelatedColumn":"ID","DisplayColumn":"총공급가"}},"ColumnName":"총공급가"},{"BindingInfo":{"TableName":"견적상세자료","ColumnName":"제품ID","RelationBinding":{"RelatedTable":"제품","RelatedColumn":"ID","DisplayColumn":"제품명"}},"ColumnName":"제품명"},{"BindingInfo":{"TableName":"견적상세자료","ColumnName":"주문_ID","RelationBinding":{"RelatedTable":"주문데이터","RelatedColumn":"ID","DisplayColumn":"견적일"}},"ColumnName":"견적일"},{"BindingInfo":{"TableName":"견적상세자료","ColumnName":"주문_ID","RelationBinding":{"RelatedTable":"주문데이터","RelatedColumn":"ID","DisplayColumn":"견적공급가액합계"}},"ColumnName":"견적공급가액합계"},{"BindingInfo":{"TableName":"견적상세자료","ColumnName":"주문_ID","RelationBinding":{"RelatedTable":"주문데이터","RelatedColumn":"ID","DisplayColumn":"견적부가세합계"}},"ColumnName":"견적부가세합계"},{"BindingInfo":{"TableName":"견적상세자료","ColumnName":"주문_ID","RelationBinding":{"RelatedTable":"주문데이터","RelatedColumn":"ID","DisplayColumn":"참조"}},"ColumnName":"참조"},{"BindingInfo":{"TableName":"견적상세자료","ColumnName":"주문_ID","RelationBinding":{"RelatedTable":"주문데이터","RelatedColumn":"ID","DisplayColumn":"견적번호"}},"ColumnName":"견적번호"},{"BindingInfo":{"TableName":"견적상세자료","ColumnName":"주문_ID","RelationBinding":{"RelatedTable":"주문데이터","RelatedColumn":"ID","DisplayColumn":"제품_ID","NextRelationBinding":{"RelatedTable":"제품","RelatedColumn":"ID","DisplayColumn":"가격"}}},"ColumnName":"가격"},{"BindingInfo":{"TableName":"견적상세자료","ColumnName":"주문_ID","RelationBinding":{"RelatedTable":"주문데이터","RelatedColumn":"ID","DisplayColumn":"거래처_ID","NextRelationBinding":{"RelatedTable":"거래처","RelatedColumn":"ID","DisplayColumn":"회사명"}}},"ColumnName":"회사명"},{"BindingInfo":{"TableName":"견적상세자료","ColumnName":"주문_ID","RelationBinding":{"RelatedTable":"주문데이터","RelatedColumn":"ID","DisplayColumn":"거래처_ID","NextRelationBinding":{"RelatedTable":"거래처","RelatedColumn":"ID","DisplayColumn":"사업자등록번호"}}},"ColumnName":"사업자등록번호"}],"SqlCondition":{"$type":"ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess","CompareType":8,"ColumnBindingInfo":{"TableName":"견적상세자료","ColumnName":"주문_ID"},"Value":{"$type":"Forguncy.Model.FormulaReferObject, ServerDesignerCommon","SerializeProperty":"=견적데이터_ID"},"Id":"adc7c74a-5b05-4713-8f24-6cd6d18819f4"}},"ReportDataSourceParams":[{"Name":"견적데이터_ID"}],"ColumnsType":["integer","integer","string","integer","string","date-time","string","date-time","integer","string","date-time","string","string","string","string","integer","string","string"],"Name":"견적상세자료"}],"AllowAccessRoleList":["FGC_LoginUser"],"Name":"거래명세서","Weight":2}
+{
+  "Name": "거래명세서",
+  "DataSources": [
+    {
+      "Name": "견적상세자료",
+      "GUID": "1b8e62ef-806c-4e15-a69e-3c73a5c42103",
+      "DataSourceSetting": {
+        "TableName": "견적상세자료",
+        "BindingInfos": [
+          {
+            "GUID": "c2e1808a-c3cf-4394-a6df-6589da03c6bf",
+            "BindingInfo": {
+              "TableName": "견적상세자료",
+              "ColumnName": "ID",
+              "GUID": "b4b67e85-a298-4ed0-860f-8ecdebaea686"
+            },
+            "ColumnName": "ID"
+          },
+          {
+            "GUID": "084f2d75-4b49-4308-9c71-540ebbf877e6",
+            "BindingInfo": {
+              "TableName": "견적상세자료",
+              "ColumnName": "제품ID",
+              "GUID": "720393c4-af33-403f-b66a-2e6025f239b0"
+            },
+            "ColumnName": "제품ID"
+          },
+          {
+            "GUID": "275ead30-93ec-4529-9610-2761e79d1c50",
+            "BindingInfo": {
+              "TableName": "견적상세자료",
+              "ColumnName": "주문수량",
+              "GUID": "bc43a955-7290-43c3-8bc0-99364442630d"
+            },
+            "ColumnName": "주문수량"
+          },
+          {
+            "GUID": "3d474511-3256-4838-993b-5a6f9c1402d8",
+            "BindingInfo": {
+              "TableName": "견적상세자료",
+              "ColumnName": "주문_ID",
+              "GUID": "eabe33a6-430b-49e5-b646-efc01aca9105"
+            },
+            "ColumnName": "견적_ID"
+          },
+          {
+            "GUID": "73e13df6-a423-4ee1-b756-f5ce86242bf1",
+            "BindingInfo": {
+              "TableName": "견적상세자료",
+              "ColumnName": "FGC_Creator",
+              "GUID": "258b1628-5d80-4baf-b713-1878c6621626"
+            },
+            "ColumnName": "생성인"
+          },
+          {
+            "GUID": "202473cd-9ec7-4e46-b32e-f1a536ea0f11",
+            "BindingInfo": {
+              "TableName": "견적상세자료",
+              "ColumnName": "FGC_CreateDate",
+              "GUID": "8d4564ae-d736-4c16-af30-8ffa0eac756b"
+            },
+            "ColumnName": "생성일"
+          },
+          {
+            "GUID": "6aaa747c-15ff-4876-82cd-5e2d8b182e10",
+            "BindingInfo": {
+              "TableName": "견적상세자료",
+              "ColumnName": "FGC_LastModifier",
+              "GUID": "0fd439d8-fe09-494d-8942-6a42b29830e9"
+            },
+            "ColumnName": "최종_개정인"
+          },
+          {
+            "GUID": "afe2411f-f56f-4da4-924d-04cf42fa85dd",
+            "BindingInfo": {
+              "TableName": "견적상세자료",
+              "ColumnName": "FGC_LastModifyDate",
+              "GUID": "c40f2b7e-fd6e-4a6c-ae9e-99f184c024d9"
+            },
+            "ColumnName": "최종_수정일"
+          },
+          {
+            "GUID": "317bc45b-4ca7-49eb-8bb0-16bd7d3c9efd",
+            "BindingInfo": {
+              "TableName": "견적상세자료",
+              "ColumnName": "주문_ID",
+              "GUID": "efa6bb8b-6d05-4541-a171-22fccd56bda5",
+              "RelationBinding": {
+                "RelatedTable": "주문데이터",
+                "RelatedColumn": "ID",
+                "DisplayColumn": "총공급가"
+              }
+            },
+            "ColumnName": "총공급가"
+          },
+          {
+            "GUID": "d1caf565-30db-41f6-b506-e680d75c3c23",
+            "BindingInfo": {
+              "TableName": "견적상세자료",
+              "ColumnName": "제품ID",
+              "GUID": "1dbf9781-7f0a-4ec3-ab77-9a26aed7b049",
+              "RelationBinding": {
+                "RelatedTable": "제품",
+                "RelatedColumn": "ID",
+                "DisplayColumn": "제품명"
+              }
+            },
+            "ColumnName": "제품명"
+          },
+          {
+            "GUID": "d2095e03-85e5-4a11-91ed-606f5270c9d1",
+            "BindingInfo": {
+              "TableName": "견적상세자료",
+              "ColumnName": "주문_ID",
+              "GUID": "fe914338-7c39-4e3d-b7ff-dad6beedf940",
+              "RelationBinding": {
+                "RelatedTable": "주문데이터",
+                "RelatedColumn": "ID",
+                "DisplayColumn": "견적일"
+              }
+            },
+            "ColumnName": "견적일"
+          },
+          {
+            "GUID": "ae1a6b57-cb43-48db-af12-f5780c2a1969",
+            "BindingInfo": {
+              "TableName": "견적상세자료",
+              "ColumnName": "주문_ID",
+              "GUID": "d7391c64-028b-4b71-a606-db5afdbac4c8",
+              "RelationBinding": {
+                "RelatedTable": "주문데이터",
+                "RelatedColumn": "ID",
+                "DisplayColumn": "견적공급가액합계"
+              }
+            },
+            "ColumnName": "견적공급가액합계"
+          },
+          {
+            "GUID": "ac3178d6-0fae-4ca8-aa96-7c27ee149a92",
+            "BindingInfo": {
+              "TableName": "견적상세자료",
+              "ColumnName": "주문_ID",
+              "GUID": "2cead920-769f-40b4-b779-16feeb426460",
+              "RelationBinding": {
+                "RelatedTable": "주문데이터",
+                "RelatedColumn": "ID",
+                "DisplayColumn": "견적부가세합계"
+              }
+            },
+            "ColumnName": "견적부가세합계"
+          },
+          {
+            "GUID": "1825f367-49ab-462d-be94-1bf315ff498e",
+            "BindingInfo": {
+              "TableName": "견적상세자료",
+              "ColumnName": "주문_ID",
+              "GUID": "63152573-9178-41b1-ba78-f6a7034c2936",
+              "RelationBinding": {
+                "RelatedTable": "주문데이터",
+                "RelatedColumn": "ID",
+                "DisplayColumn": "참조"
+              }
+            },
+            "ColumnName": "참조"
+          },
+          {
+            "GUID": "df3dbac1-5200-41a6-baeb-1dd3f837b98b",
+            "BindingInfo": {
+              "TableName": "견적상세자료",
+              "ColumnName": "주문_ID",
+              "GUID": "70bb38c3-1ef9-4079-b9c4-e05a0171dea0",
+              "RelationBinding": {
+                "RelatedTable": "주문데이터",
+                "RelatedColumn": "ID",
+                "DisplayColumn": "견적번호"
+              }
+            },
+            "ColumnName": "견적번호"
+          },
+          {
+            "GUID": "980b7b0c-2e97-45a4-95bc-e0b56ff731dc",
+            "BindingInfo": {
+              "TableName": "견적상세자료",
+              "ColumnName": "주문_ID",
+              "GUID": "5b1ef8a7-ed8b-430c-8a53-5f54f49bf60d",
+              "RelationBinding": {
+                "RelatedTable": "주문데이터",
+                "RelatedColumn": "ID",
+                "DisplayColumn": "제품_ID",
+                "NextRelationBinding": {
+                  "RelatedTable": "제품",
+                  "RelatedColumn": "ID",
+                  "DisplayColumn": "가격"
+                }
+              }
+            },
+            "ColumnName": "가격"
+          },
+          {
+            "GUID": "6e47e7f0-6f88-4cff-bf57-0826a4405665",
+            "BindingInfo": {
+              "TableName": "견적상세자료",
+              "ColumnName": "주문_ID",
+              "GUID": "c02147ea-79da-4de9-9a22-fc2a0bd03a85",
+              "RelationBinding": {
+                "RelatedTable": "주문데이터",
+                "RelatedColumn": "ID",
+                "DisplayColumn": "거래처_ID",
+                "NextRelationBinding": {
+                  "RelatedTable": "거래처",
+                  "RelatedColumn": "ID",
+                  "DisplayColumn": "회사명"
+                }
+              }
+            },
+            "ColumnName": "회사명"
+          },
+          {
+            "GUID": "5a24e3f7-d84b-4059-b5e2-2a5af2600a4b",
+            "BindingInfo": {
+              "TableName": "견적상세자료",
+              "ColumnName": "주문_ID",
+              "GUID": "bb1d260c-568d-4dc1-a6d7-81b6f3d3c68f",
+              "RelationBinding": {
+                "RelatedTable": "주문데이터",
+                "RelatedColumn": "ID",
+                "DisplayColumn": "거래처_ID",
+                "NextRelationBinding": {
+                  "RelatedTable": "거래처",
+                  "RelatedColumn": "ID",
+                  "DisplayColumn": "사업자등록번호"
+                }
+              }
+            },
+            "ColumnName": "사업자등록번호"
+          }
+        ],
+        "SqlCondition": {
+          "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+          "CompareType": 8,
+          "ColumnBindingInfo": {
+            "TableName": "견적상세자료",
+            "ColumnName": "주문_ID",
+            "GUID": "c3375212-7c16-441f-8181-72db56e9f22f"
+          },
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=견적데이터_ID"
+          }
+        }
+      },
+      "ReportDataSourceParams": [
+        {
+          "Name": "견적데이터_ID"
+        }
+      ],
+      "ColumnsType": [
+        "integer",
+        "integer",
+        "string",
+        "integer",
+        "string",
+        "date-time",
+        "string",
+        "date-time",
+        "integer",
+        "string",
+        "date-time",
+        "string",
+        "string",
+        "string",
+        "string",
+        "integer",
+        "string",
+        "string"
+      ]
+    }
+  ],
+  "AllowAccessRoleList": [],
+  "PermissionData": {
+    "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionData, Forguncy.RbacPermission.Core",
+    "permissionResource": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionResource, Forguncy.RbacPermission.Core",
+      "type": 6
+    },
+    "permissionBindings": [
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionBinding, Forguncy.RbacPermission.Core",
+        "roleNames": [
+          "FGC_LoginUser"
+        ]
+      }
+    ]
+  },
+  "Weight": 2
+}
