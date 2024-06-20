@@ -3,7 +3,7 @@
   "Enabled": true,
   "Triggers": [
     {
-      "$type": "Forguncy.ServerCommands.Models.MonthlyAndDaysOfMonthScheduleTrigger, ServerDesignerCommon",
+      "$type": "Forguncy.SaveLoad.MonthlyAndDaysOfMonthScheduleTriggerSaveData, ServerDesignerCommon",
       "DaysOfMonth": [
         1
       ],

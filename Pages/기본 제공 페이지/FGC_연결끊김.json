@@ -1,0 +1,148 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "30": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 32
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "52": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 54
+  },
+  "Values": {
+    "15,16": "페이지 연결이 끊어졌습니다",
+    "18,16": "페이지의 오랜 유휴 시간으로 인해 애플리케이션 연결이 종료되었습니다. 계속 사용하려면 페이지를 새로고침하세요.",
+    "22,21": "페이지 새로고침"
+  },
+  "AttachInfos": {
+    "4,16": {
+      "CellType": {
+        "$type": "Forguncy.ImageCellType, ServerDesignerCommon",
+        "ImageSizeMode": 0,
+        "ImagePath": "fgc_built_in_page_disconnected.png"
+      }
+    },
+    "22,21": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "Text": "페이지 새로고침",
+        "TemplateKey": "_RS_Main1",
+        "ForguncyAttribute": "ReloadPage_Button"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "Underline": false,
+        "Strikethrough": false
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 34.666666666666664,
+        "Foreground": 1,
+        "HorizontalAlignment": 2,
+        "VerticalAlignment": 3,
+        "Underline": false,
+        "Strikethrough": false
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 13.333333333333332,
+        "Foreground": 4,
+        "Formatter": 5,
+        "HorizontalAlignment": 2,
+        "VerticalAlignment": 3,
+        "WordWrap": true,
+        "Underline": false,
+        "Strikethrough": false
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "Text 1 25",
+        "Center",
+        "Top",
+        "Text 1 50",
+        "[AUTO]General"
+      ]
+    },
+    "CellStyles": {
+      "4,16": 0,
+      "15,16": 1,
+      "18,16": 2,
+      "22,21": 0
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "Spans": [
+    "4,16,10,22",
+    "15,16,3,22",
+    "18,16,3,22",
+    "22,21,2,12"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "MobilePageName": "FGC_연결끊김 (모바일)",
+    "Title": "연결이 끊김",
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "IsBuiltInPage": true
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//1X2m/3tHIh5tWIj51dmhueI4sPcPmtDuCrBb7vq13Fh4qJXonKUSi3a3hjAgbnm98vrA+Ljdf/nNRPbKprkrPnB7jX5kJe0KWkNCAgw11i7WO46hDOwQB5chrFWwjYEf4+A1dqvaOQmHDoWRHstCFXhY0GguH7E/eU5TQkqSeiUiPJEKv1XGXuUy8PwXpKa05v0krXZY6yK9tikTxbx9PLePYgyl43KOG2WUGyFtu12Gquo5eWVGpyWuFseBIHge52uAvRemHgm4XOcdRbvOsgC/+DE7nZUEg3vmrT/9i6jzhxMy2JUEUW6AJZBybCty4rPwPn0bq1GbT8uOc99OCEBVzgVpS4uK33VV0Q+Jxwf4Pxw7cJ1MlXkcH+0ii9wffSxoSL5wD8B3mxGMINUB4LqEUk+xnbvnqEz2Aukwxoh9ZJLimp/KEcgGBfn0SjMKx/WWYa3ZkG3bvGkBGggWzNdXWvFh5VJWdJcNqkI41dOIz+N3cj1jwK0v70yaFTXcr92JxB31CRAibcUMSPvC4l/0WIJenCmcIacjPmh/BCZ5ZgHHzKI2LSdwSAdLpeW/QEElTamTohkDSqkNBYybSTgkhT7BkeDOjbjjp4bsBPl4lR5kpJgZbuWkg59BAMlabrnBjv7u6eFc6ia+JbPOl93DT+zmHcHpYS7R69qYdGnCsCcicMutJuIgofRtKeyv5My2MveJbmZOJ7TX8T1rChwviM0CEo/pScKIozb7Scrqxkn5eCFP64bFYdB9AaTezeSGBGix72xmNw1NtuHk32JL0aYI/hkn/2738nTdPSEVq0ug6u4TmA7Ouwdu+dqV9PZw2m9n4bpKURcgFRgLdD6SvBl8xp9K9pqgL6NhQoK5bOE/NQIpJ2RzVJSN7yjh4czGGLWmfe4HV2fN5CgcPg==|920

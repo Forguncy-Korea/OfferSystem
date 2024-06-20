@@ -406,7 +406,7 @@
                     "ID": "dd1083a3213d45779bf91b112a7d735d"
                   }
                 ],
-                "ID": "aaee53b9-e4da-44fc-8c1f-1d4eb4de2024"
+                "ID": "aca0353b-789a-4344-a942-521b117d82d8"
               },
               {
                 "CommandList": [
@@ -508,7 +508,7 @@
                     "ID": "0b4d79de92834f04a1bf9b78ef7fdffc"
                   }
                 ],
-                "ID": "3ad82b94-fd2c-49c9-a76b-71d336cbbd42"
+                "ID": "ec6a637d-9536-45cf-a724-3b1c35511958"
               }
             ]
           }
@@ -1105,7 +1105,7 @@
                     "ID": "a82501000f8e4563af0b81c96cab5e78"
                   }
                 ],
-                "ID": "702232d2-f14d-46a8-800f-a466787addba"
+                "ID": "6d1c9c6e-b3be-4ade-849c-b4e4b9559ea7"
               },
               {
                 "Condition": {
@@ -1216,7 +1216,7 @@
                     "ID": "d21f79f2547344f78655c9aba8bf4687"
                   }
                 ],
-                "ID": "7bf45a24-0739-44d0-85cb-13f5a12b8491"
+                "ID": "40de1a57-9e0d-478b-9c2d-e17c723929b2"
               },
               {
                 "Condition": {
@@ -1327,7 +1327,7 @@
                     "ID": "84c686f35f1444119be7057c822ab46f"
                   }
                 ],
-                "ID": "d4cb90d0-3dd3-415e-9c26-2e64be6b8450"
+                "ID": "10fc120d-7f5b-4fd2-9c7d-c5ec5b23d47f"
               }
             ]
           }
@@ -1521,28 +1521,10 @@
         "ColumnName": "종결여부",
         "GUID": "9b473be3-6110-4b28-ae35-75d043afe143"
       },
-      "ConditionFormatRulesCollection": {
-        "Rules": [
-          {
-            "$type": "Forguncy.ConditionFormat.SpecificTextRule, ServerDesignerCommon",
-            "Value": "완료",
-            "StyleInfo": {
-              "Foreground": "#FF002060",
-              "Underline": null,
-              "Strikethrough": null
-            }
-          },
-          {
-            "$type": "Forguncy.ConditionFormat.SpecificTextRule, ServerDesignerCommon",
-            "Value": "진행중",
-            "StyleInfo": {
-              "Foreground": "Accent 6 0",
-              "Underline": null,
-              "Strikethrough": null
-            }
-          }
-        ]
-      }
+      "RulesGuidList": [
+        "f76794f5-c401-442a-b641-bfdbb294f9ae",
+        "51ed66f3-5a38-47bc-b714-b1419b81682b"
+      ]
     },
     "24,67": {
       "BindingInfo": {
@@ -1689,7 +1671,7 @@
                     "MessageFormula": "하나 이상의 행을 선택하십시오."
                   }
                 ],
-                "ID": "d9c6d95b-a676-4e56-8f46-c69bd7692b04"
+                "ID": "2698b856-c16b-4489-a9c2-1f2b253ae154"
               },
               {
                 "Condition": {
@@ -1729,7 +1711,7 @@
                     ]
                   }
                 ],
-                "ID": "9ee3adf5-29cf-42c2-94f5-d76e036f04e8"
+                "ID": "4d7de68f-1f29-4744-8373-bf622e420a24"
               }
             ]
           }
@@ -5138,11 +5120,36 @@
       ]
     },
     "RowBreakLines": [],
-    "RepeatRangeSettings": []
+    "RepeatRangeSettings": [],
+    "ConditionFormatRulesCollection": {
+      "Rules": [
+        {
+          "$type": "Forguncy.ConditionFormat.SpecificTextRule, ServerDesignerCommon",
+          "Value": "진행중",
+          "GUID": "f76794f5-c401-442a-b641-bfdbb294f9ae",
+          "StyleInfo": {
+            "Foreground": "Accent 6 0",
+            "Underline": null,
+            "Strikethrough": null
+          }
+        },
+        {
+          "$type": "Forguncy.ConditionFormat.SpecificTextRule, ServerDesignerCommon",
+          "Value": "완료",
+          "Priority": 1,
+          "GUID": "51ed66f3-5a38-47bc-b714-b1419b81682b",
+          "StyleInfo": {
+            "Foreground": "#FF002060",
+            "Underline": null,
+            "Strikethrough": null
+          }
+        }
+      ]
+    }
   },
   "PrintInfo": {
     "PaperSize": {},
     "Orientation": 2,
     "Margin": {}
   }
-}//pyQPO7GAwfpMTnADY49aZriyU+mDOCeDLohLHYPISF49n0ChGImrSSOPJHO9XlMIP8zij/W5aZZ/Dgby9369HT2flt4F3clIr9HAdSgMrGLgFl4M/nmPGOkcM2SQ0gBCgVmg4qiKOo8lNUTyhUnIXYgtlCI1+AAm8oFEXmHPZvdh+7gxHmwFH1PWsFeI6LlU3wWPcvRixj++Gi+hEmlMW1eCjgFhu90hE8TzYlW65tOLyFQpiPSBjLuicdI8JNb4QMs2s8vJaPsRzWhN3c0vLV15LVjKOhluR5COFcmLxNpwjrQtoTBWj/CXgNOdQS1LJdiU14vZEHZ++iQftypMIF/GXlnOV0pa3XcAiNihvTnjIcZ7stEEl2jpOXNcC5cm2om0aRUZpVpGTwZh46hMocg06Jm2OsWDgJ/W6OMMwWUK7FlrK3zwrLL5t6SFJiRVNRotZQyAUHPAAeifmT+ZGRy/mb3Jx7SibB8mqvJEP4/8v0EybOoAb2tA9cG9sDUQqQKC1mIdmuZ9Lm7vXFkZFiQfgkKoJCWg4Y2xK5UR/Kut/F9DJ/L/WC7osi6z8HPZF4jg1kR+uzKaRzxBrS5EvNovwLi2JltlDbV/ANjSjEn9dHyYSsaXggxyKzcsC25qjVrv+ayutgjPKwwlEMAhqWpEZJNa2c/BOn/sgSymDJkL82YyOTzmZaWjS2EjpjT5hoBLI8IUpZmrqWVkLjgtLfHgUjRpwtIaUxh2tqpHBFSzZkLrpcYbmlSGGf0TZaTQxFbADXkq3DTKgM0VuiblQVurwbDP0ooCHlABSWa/6xN8bYUdKHN+WInOjdrT2bR1e1eFWP0B7D0fYeJW9vpXRBXIGQ5hlfpOqVjx10cFVafs4sJ4+Nieqt2Jsu1wrwgwH2CJTAYe1jUFuOv2NzS7Og==|920
+}//Ac5/FAVbYZfR2LpVC1AUgUa6Zpgr5W2AzDSuceQBvyxSOAHnREfQ5144l59U9Ws09Fqral9nhR+PpWI1ec8j8+Pfh+pLFNDe5PhMnCIUDFTZPxEBnyJiRze9UzAikLWrj4POoVdPfdpR0i7bopkfGOGHW2Q1QxwCso3FwoP3IgD6ccpgRdyYI+rlu3nclW0iTdxqjxZLgbSyzoNALcMQpozB0S4zv3Oclf+Y8Veq9a4p1fHKrdLZrmzzAjaOa9FhZbGVCPz7FLrvNEzz+IX1ypd2mkgBCn8QUi5YU2FTdFLyWXzHgglGnMJlmVTT1NrqtgOZ5h5qPxKS3A0Z8Z9ndUGVinLA8b0rrNYKm2lmO520jwtN8M7jy/A9gASEJ8ZRnthfeEK0+t7QHWgP9lX9+NuTxu8oBV8CqCmdGc+NIlm0myMgTUjvWhONf+0YPuH8aS2UorupsWSyMm58NDNECHBlnpd8w1XVqNhA4BEAZeny2oalAnPBigmYXztaRiLf+jVxIW4JNXdnhrJNQgn95fP58p/L6a2YGdQH0eit75cs4eRyOJGXnk4Z2cV5c/utkb8JdWiQ6Lk8kXzDvKv8gqjBxbqjPNMOrmBKC5XqN+flnxEEXaaSIUNQG5/X71bOnITt/ys6IKGMW21bLnI9dpPCkJzfEE95C8FJeIDzBMtIlgFXsKZjyl7VCZ6fMpLJoyUM1b8PeMQB0RO4THRsu3w3lwFArNiZM7J21JWvogf4coxfQ+I9nCAlT8AWqTJv6REs0Fh2VUG58EiSbwMSSOiPbisK/zAHLzaaH+y0XvhPpfY6HGCoQA2Bgvtel4CFZW/F1afeEZt2TIWCai/0SGbPlDgCVT6p86V8o5+jjyPVF3Q5oWhjr/HRQfhle3lbY4JurgvyEjDCI3us/vArjQ==|920

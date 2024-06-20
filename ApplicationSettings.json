@@ -2,13 +2,44 @@
   "IntegrateWithOtherApplication": {
     "Password": "n7^rgdLv0fZW"
   },
+  "ShareCommandContainers": [],
   "ListviewLoadingIndicatorSettings": {},
   "GlobalProperties": [],
   "WebSitePort": 16842,
   "UserServicePort": 63290,
   "NotAllowQueryDatabaseByJsApi": false,
   "NotAllowSendMailByJsApi": false,
-  "StartPage": "메인화면",
+  "ExecConcurrentScheduledTasks": false,
   "StartDateFiscalYear": 4,
-  "PageLoadingMode": 2
+  "BaseOnStartingMonth": true,
+  "KeepMasterPage": false,
+  "NameConflictPolicy": 1,
+  "PageLoadingMode": 2,
+  "MultipleLanguageSettings": {
+    "Languages": [
+      {
+        "Name": "kr",
+        "IsDefault": true,
+        "Description": "한국어가 내장되어 있어 삭제할 수 없습니다.",
+        "IsBuildIn": true,
+        "LanguageAttribute": "ko-kr",
+        "FontFamily": "Body"
+      },
+      {
+        "Name": "en",
+        "Description": "영어가 내장되어 있어 삭제할 수 없습니다.",
+        "IsBuildIn": true,
+        "LanguageAttribute": "en",
+        "FontFamily": "Calibri"
+      }
+    ],
+    "PublicResource": {},
+    "RuntimeBuiltInResource": {
+      "FrontEndResources": {},
+      "ServerResources": {},
+      "ProcessDesignerResource": {},
+      "ProcessTrackerResource": {}
+    },
+    "PluginResource": {}
+  }
 }

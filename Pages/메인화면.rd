@@ -1,0 +1,63 @@
+{
+  "PageType": 0,
+  "ColumnCount": 58,
+  "RowCount": 56,
+  "Formulas": {
+    "49,47": "MONTH(DATE(YEAR(STARTDATE),MONTH(STARTDATE)-4,1))",
+    "51,47": "IFERROR(SUM(ODATA(\"주문데이터?$select=총공급가&$filter=견적일 ge \"&IF(ISBLANK(AV48),\"null\",TEXT(AV48,\"yyyy-MM-ddThh:mm:ssZ\"))&\" and 견적일 le \"&IF(ISBLANK(AV49),\"null\",TEXT(AV49,\"yyyy-MM-ddThh:mm:ssZ\")))),\"\")",
+    "49,49": "MONTH(DATE(YEAR(STARTDATE),MONTH(STARTDATE)-2,1))",
+    "6,6": "IFERROR(SUM(ODATA(\"주문데이터?$select=총공급가&$filter=납기일자 ge \"&IF(ISBLANK(STARTDATE),\"null\",TEXT(STARTDATE,\"yyyy-MM-ddThh:mm:ssZ\"))&\" and 납기일자 le \"&IF(ISBLANK(ENDDATA),\"null\",TEXT(ENDDATA,\"yyyy-MM-ddThh:mm:ssZ\"))&\" and 종결여부 eq '완료'\")),\"\")",
+    "50,51": "IFERROR(SUM(ODATA(\"주문데이터?$select=총공급가&$filter=납기일자 ge \"&IF(ISBLANK(AZ48),\"null\",TEXT(AZ48,\"yyyy-MM-ddThh:mm:ssZ\"))&\" and 납기일자 le \"&IF(ISBLANK(AZ49),\"null\",TEXT(AZ49,\"yyyy-MM-ddThh:mm:ssZ\"))&\" and 종결여부 eq '완료'\")),\"\")",
+    "6,30": "IFERROR(SUM(ODATA(\"주문데이터?$select=총공급가&$filter=견적일 ge \"&IF(ISBLANK(AF3),\"null\",TEXT(AF3,\"yyyy-MM-ddThh:mm:ssZ\"))&\" and 견적일 le \"&IF(ISBLANK(AR3),\"null\",TEXT(AR3,\"yyyy-MM-ddThh:mm:ssZ\")))),\"\")",
+    "50,47": "IFERROR(SUM(ODATA(\"주문데이터?$select=총공급가&$filter=납기일자 ge \"&IF(ISBLANK(AV48),\"null\",TEXT(AV48,\"yyyy-MM-ddThh:mm:ssZ\"))&\" and 납기일자 le \"&IF(ISBLANK(AV49),\"null\",TEXT(AV49,\"yyyy-MM-ddThh:mm:ssZ\")))),\"\")",
+    "47,48": "DATE(YEAR(STARTDATE),MONTH(STARTDATE)-3,1)",
+    "48,48": "EOMONTH(STARTDATE,-3)",
+    "6,44": "IFERROR(ODATA(\"주문데이터/$count?$filter=견적일 ge \"&IF(ISBLANK(AF3),\"null\",TEXT(AF3,\"yyyy-MM-ddThh:mm:ssZ\"))&\" and 견적일 le \"&IF(ISBLANK(AR3),\"null\",TEXT(AR3,\"yyyy-MM-ddThh:mm:ssZ\"))&\" and 종결여부 eq '완료'\")/BF3,\"\")",
+    "50,48": "IFERROR(SUM(ODATA(\"주문데이터?$select=총공급가&$filter=납기일자 ge \"&IF(ISBLANK(AW48),\"null\",TEXT(AW48,\"yyyy-MM-ddThh:mm:ssZ\"))&\" and 납기일자 le \"&IF(ISBLANK(AW49),\"null\",TEXT(AW49,\"yyyy-MM-ddThh:mm:ssZ\"))&\" and 종결여부 eq '완료'\")),\"\")",
+    "49,51": "MONTH(STARTDATE)",
+    "51,46": "IFERROR(SUM(ODATA(\"주문데이터?$select=총공급가&$filter=견적일 ge \"&IF(ISBLANK(AU48),\"null\",TEXT(AU48,\"yyyy-MM-ddThh:mm:ssZ\"))&\" and 견적일 le \"&IF(ISBLANK(AU49),\"null\",TEXT(AU49,\"yyyy-MM-ddThh:mm:ssZ\")))),\"\")",
+    "47,49": "DATE(YEAR(STARTDATE),MONTH(STARTDATE)-2,1)",
+    "48,49": "EOMONTH(STARTDATE,-2)",
+    "51,49": "IFERROR(SUM(ODATA(\"주문데이터?$select=총공급가&$filter=견적일 ge \"&IF(ISBLANK(AX48),\"null\",TEXT(AX48,\"yyyy-MM-ddThh:mm:ssZ\"))&\" and 견적일 le \"&IF(ISBLANK(AX49),\"null\",TEXT(AX49,\"yyyy-MM-ddThh:mm:ssZ\")))),\"\")",
+    "47,50": "DATE(YEAR(STARTDATE),MONTH(STARTDATE)-1,1)",
+    "48,50": "EOMONTH(STARTDATE,-1)",
+    "49,46": "MONTH(DATE(YEAR(STARTDATE),MONTH(STARTDATE)-5,1))",
+    "50,49": "IFERROR(SUM(ODATA(\"주문데이터?$select=총공급가&$filter=납기일자 ge \"&IF(ISBLANK(AX48),\"null\",TEXT(AX48,\"yyyy-MM-ddThh:mm:ssZ\"))&\" and 납기일자 le \"&IF(ISBLANK(AX49),\"null\",TEXT(AX49,\"yyyy-MM-ddThh:mm:ssZ\"))&\" and 종결여부 eq '완료'\")),\"\")",
+    "6,18": "IFERROR((ODATA(\"주문데이터/$count?$filter=납기일자 ge \"&IF(ISBLANK(AF3),\"null\",TEXT(AF3,\"yyyy-MM-ddThh:mm:ssZ\"))&\" and 납기일자 le \"&IF(ISBLANK(AR3),\"null\",TEXT(AR3,\"yyyy-MM-ddThh:mm:ssZ\"))&\" and 종결여부 eq '완료'\")),\"\")",
+    "51,50": "IFERROR(SUM(ODATA(\"주문데이터?$select=총공급가&$filter=견적일 ge \"&IF(ISBLANK(AY48),\"null\",TEXT(AY48,\"yyyy-MM-ddThh:mm:ssZ\"))&\" and 견적일 le \"&IF(ISBLANK(AY49),\"null\",TEXT(AY49,\"yyyy-MM-ddThh:mm:ssZ\")))),\"\")",
+    "47,46": "DATE(YEAR(STARTDATE),MONTH(STARTDATE)-5,1)",
+    "47,51": "DATE(YEAR(STARTDATE),MONTH(STARTDATE),1)",
+    "2,57": "ODATA(\"주문데이터/$count?$filter=견적일 ge \"&IF(ISBLANK(STARTDATE),\"null\",TEXT(STARTDATE,\"yyyy-MM-ddThh:mm:ssZ\"))&\" and 견적일 le \"&IF(ISBLANK(ENDDATA),\"null\",TEXT(ENDDATA,\"yyyy-MM-ddThh:mm:ssZ\")))",
+    "47,47": "DATE(YEAR(STARTDATE),MONTH(STARTDATE)-4,1)",
+    "48,51": "EOMONTH(STARTDATE,0)",
+    "48,39": "IF(AE49=\"SpreadJS 배포\",\"SpreadJS\",IF(AE49=\"GCExcel프로젝트 \",\"기타\",IF(AE49=\"Spread.NET 개발자 라이선스\",\"Spread.NET\",IF(AE49=\"ActiveReportsJS 개발자 \",\"ActiveReports\",IF(AE49=\"ActiveReportsJS 배포 \",\"ActiveReports\",IF(AE49=\"ActiveReports.NET 개발자 (Pro)\",\"ActiveReports\",IF(AE49=\"ActiveReports.NET 개발자 (Pro) \",\"ActiveReports\",IF(AE49=\"SpreadJS 디자이너 컴포넌트\",\"SpreadJS\",IF(AE49=\"Wijmo 개발자 \",\"Wijmo\",IF(AE49=\"SpreadJS 개발자\",\"SpreadJS\",IF(AE49=\"Wijmo 배포 \",\"Wijmo\",IF(AE49=\"NET Developer\",\"기타\",IF(AE49=\"JS Developer\",\"기타\",IF(AE49=\"ComponentOne Enterprise\",\"C1\",IF(AE49=\"JAVA Developer\",\"기타\",\"기타\")))))))))))))))",
+    "51,48": "IFERROR(SUM(ODATA(\"주문데이터?$select=총공급가&$filter=견적일 ge \"&IF(ISBLANK(AW48),\"null\",TEXT(AW48,\"yyyy-MM-ddThh:mm:ssZ\"))&\" and 견적일 le \"&IF(ISBLANK(AW49),\"null\",TEXT(AW49,\"yyyy-MM-ddThh:mm:ssZ\")))),\"\")",
+    "50,46": "IFERROR(SUM(ODATA(\"주문데이터?$select=총공급가&$filter=납기일자 ge \"&IF(ISBLANK(AU48),\"null\",TEXT(AU48,\"yyyy-MM-ddThh:mm:ssZ\"))&\" and 납기일자 le \"&IF(ISBLANK(AU49),\"null\",TEXT(AU49,\"yyyy-MM-ddThh:mm:ssZ\")))),\"\")",
+    "49,48": "MONTH(DATE(YEAR(STARTDATE),MONTH(STARTDATE)-3,1))",
+    "49,50": "MONTH(DATE(YEAR(STARTDATE),MONTH(STARTDATE)-1,1))",
+    "50,50": "IFERROR(SUM(ODATA(\"주문데이터?$select=총공급가&$filter=납기일자 ge \"&IF(ISBLANK(AY48),\"null\",TEXT(AY48,\"yyyy-MM-ddThh:mm:ssZ\"))&\" and 납기일자 le \"&IF(ISBLANK(AY49),\"null\",TEXT(AY49,\"yyyy-MM-ddThh:mm:ssZ\"))&\" and 종결여부 eq '완료'\")),\"\")",
+    "48,46": "EOMONTH(STARTDATE,-5)",
+    "48,47": "EOMONTH(STARTDATE,-4)",
+    "51,51": "IFERROR(SUM(ODATA(\"주문데이터?$select=총공급가&$filter=견적일 ge \"&IF(ISBLANK(AZ48),\"null\",TEXT(AZ48,\"yyyy-MM-ddThh:mm:ssZ\"))&\" and 견적일 le \"&IF(ISBLANK(AZ49),\"null\",TEXT(AZ49,\"yyyy-MM-ddThh:mm:ssZ\")))),\"\")",
+    "48,15": "SUMIF($AN$49,P48,$AI$49)",
+    "48,6": "SUM(ODATA(\"주문데이터?$select=총공급가&$filter=종결여부 eq '진행중' and (견적일 ge \"&IF(ISBLANK(STARTDATE),\"null\",TEXT(STARTDATE,\"yyyy-MM-ddThh:mm:ssZ\"))&\" and 견적일 le \"&IF(ISBLANK(ENDDATA),\"null\",TEXT(ENDDATA,\"yyyy-MM-ddThh:mm:ssZ\"))&\")\"))",
+    "48,5": "SUM(ODATA(\"주문데이터?$select=총공급가&$filter=종결여부 eq '완료' and (견적일 ge \"&IF(ISBLANK(STARTDATE),\"null\",TEXT(STARTDATE,\"yyyy-MM-ddThh:mm:ssZ\"))&\" and 견적일 le \"&IF(ISBLANK(ENDDATA),\"null\",TEXT(ENDDATA,\"yyyy-MM-ddThh:mm:ssZ\"))&\") or (납기일자 ge \"&IF(ISBLANK(STARTDATE),\"null\",TEXT(STARTDATE,\"yyyy-MM-ddThh:mm:ssZ\"))&\" and 납기일자 le \"&IF(ISBLANK(ENDDATA),\"null\",TEXT(ENDDATA,\"yyyy-MM-ddThh:mm:ssZ\"))&\")\"))",
+    "48,16": "SUMIF($AN$49,Q48,$AI$49)",
+    "48,18": "SUMIF($AN$49,S48,$AI$49)",
+    "48,17": "SUMIF($AN$49,R48,$AI$49)",
+    "48,19": "SUMIF($AN$49,T48,$AI$49)",
+    "48,20": "SUMIF($AN$49,U48,$AI$49)",
+    "49,5": "ODATA(\"주문데이터/$count?$filter=종결여부 eq '완료' and (견적일 ge \"&IF(ISBLANK(STARTDATE),\"null\",TEXT(STARTDATE,\"yyyy-MM-ddThh:mm:ssZ\"))&\" and 견적일 le \"&IF(ISBLANK(ENDDATA),\"null\",TEXT(ENDDATA,\"yyyy-MM-ddThh:mm:ssZ\"))&\") or (납기일자 ge \"&IF(ISBLANK(STARTDATE),\"null\",TEXT(STARTDATE,\"yyyy-MM-ddThh:mm:ssZ\"))&\" and 납기일자 le \"&IF(ISBLANK(ENDDATA),\"null\",TEXT(ENDDATA,\"yyyy-MM-ddThh:mm:ssZ\"))&\")\")",
+    "49,6": "ODATA(\"주문데이터/$count?$filter=종결여부 eq '진행중' and (견적일 ge \"&IF(ISBLANK(STARTDATE),\"null\",TEXT(STARTDATE,\"yyyy-MM-ddThh:mm:ssZ\"))&\" and 견적일 le \"&IF(ISBLANK(ENDDATA),\"null\",TEXT(ENDDATA,\"yyyy-MM-ddThh:mm:ssZ\"))&\") or (납기일자 ge \"&IF(ISBLANK(STARTDATE),\"null\",TEXT(STARTDATE,\"yyyy-MM-ddThh:mm:ssZ\"))&\" and 납기일자 le \"&IF(ISBLANK(ENDDATA),\"null\",TEXT(ENDDATA,\"yyyy-MM-ddThh:mm:ssZ\"))&\")\")"
+  },
+  "CustomNames": [
+    {
+      "Name": "ENDDATA",
+      "Formula": "메인화면!$AR$3"
+    },
+    {
+      "Name": "STARTDATE",
+      "Formula": "메인화면!$AF$3"
+    }
+  ]
+}

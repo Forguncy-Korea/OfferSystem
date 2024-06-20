@@ -276,21 +276,19 @@
       ]
     }
   ],
-  "AllowAccessRoleList": [],
   "PermissionData": {
     "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionData, Forguncy.RbacPermission.Core",
     "permissionResource": {
-      "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionResource, Forguncy.RbacPermission.Core",
-      "type": 6
+      "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionResource, Forguncy.RbacPermission.Core"
     },
     "permissionBindings": [
       {
         "$type": "Forguncy.RbacPermission.Core.Impl.ActiveReport.ActiveReportPermissionBinding, Forguncy.RbacPermission.Core",
+        "activeReportPermissionType": 1,
         "roleNames": [
           "FGC_LoginUser"
         ]
       }
     ]
-  },
-  "Weight": 2
+  }
 }

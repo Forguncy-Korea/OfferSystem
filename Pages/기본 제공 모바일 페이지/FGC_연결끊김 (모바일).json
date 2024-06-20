@@ -1,0 +1,156 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "30": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 31
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "18": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 19
+  },
+  "Values": {
+    "15,2": "페이지 연결이 끊어졌습니다",
+    "18,2": "페이지의 오랜 유휴 시간으로 인해 애플리케이션 연결이 종료되었습니다. 계속 사용하려면 페이지를 새로고침하세요.",
+    "22,5": "페이지 새로고침"
+  },
+  "AttachInfos": {
+    "4,1": {
+      "CellType": {
+        "$type": "Forguncy.ImageCellType, ServerDesignerCommon",
+        "ImageSizeMode": 0,
+        "ImagePath": "fgc_built_in_page_disconnected.png"
+      }
+    },
+    "22,5": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "Text": "페이지 새로고침",
+        "TemplateKey": "_RS_Main1",
+        "ForguncyAttribute": "ReloadPage_Button"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "Underline": false,
+        "Strikethrough": false
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 24.0,
+        "FontWeight": 1,
+        "Foreground": 2,
+        "HorizontalAlignment": 3,
+        "VerticalAlignment": 4,
+        "Underline": false,
+        "Strikethrough": false
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 13.333333333333332,
+        "Foreground": 5,
+        "Formatter": 6,
+        "HorizontalAlignment": 3,
+        "VerticalAlignment": 4,
+        "WordWrap": true,
+        "Underline": false,
+        "Strikethrough": false
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 16.0,
+        "Underline": false,
+        "Strikethrough": false
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "Bold",
+        "Text 1 25",
+        "Center",
+        "Top",
+        "Text 1 50",
+        "[AUTO]General"
+      ]
+    },
+    "CellStyles": {
+      "4,1": 0,
+      "15,2": 1,
+      "18,2": 2,
+      "22,5": 3
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "Spans": [
+    "4,1,10,17",
+    "15,2,3,15",
+    "18,2,3,15",
+    "22,5,2,9"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "Title": "연결이 끊김",
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "IsBuiltInPage": true,
+    "IsMobilePage": true
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//sBiWw9ZBY/HKSUXbdJRMUy8DGoiq0VB+HjxE5JkC9TVcr+6Jg7mZ03NS6sBcvOSomADcvcmGmD04ATbkOQaJ+5+5zFgY230RARIMaKvj4eSksJGoXfNuoK1qdj6c7Ps78kNAStGqUFlfkERyqCqhGVA4JFDQEGWfihy3wOFLKt2jhTpFwReMMGK9/bdCEzuklKNmeydaq7RalcfyzyYe3vX7xmoKy1WyabdbU9qzMx3MJSOaB6+l2E5N+DqwHPB5Cl4DD4mBgrkkXARodPdKLC/r6ohyKPk6mz9XmbsnpnZrOn+pzEoWpxO7+D9igZvPif+iK4vlWeM39CaAJiA0FRnw4XNIsRTlQRUE6UwP0ZgNptYBqmormrXqusGNRF98Lna+UWWnP1WgzsfVopPXZF/zGlrQuRXcTXOST9Z6wg2y0VyPRmf6DLEThV47CFIauYVBsFQag/KpGaEc6OvtYgVq0KvRDRbSX7TLrXuJnHEIvv+DcqFTNtPVHKpySMDBDxl02gA4sjZu9cDHLYJJhTsjOPtBnp5MFnFTRnl6QyZvlj3BOsviV0i9sjm+SFFJ18SeUKNq3oESxHbaBnh+nzOYGDv0BVTZdBIU7lSqdMkZmZsDqmLo8QvfwKDxHZpo6xduEmJJkSv7eQKpfg6OhXAo9tsm1afzkAcEb4I0ZxW2eh2hYich9r9XXHL111LjSbJskXtOFOF1tCVgEfIOal7A6JU7/VoEAL74kGIbgJG00DoUJZajLkBYur3lvXmfYh0646RqSDtZv2WZ/q2lme/flu42ez9Y60mck2jd1amxOE7nfjD0VK+2tcSmome8At5CxVs/ajLAcHIg9PGmRGmdrq9GXLmEt3D5xtKVNo2qYmbqQBOm5czoOXoEsbRMilVhUOjFp7YHwQglmM81ZA==|920

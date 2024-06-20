@@ -3369,12 +3369,7 @@
           "Orientation": 1,
           "Items": [
             0.0,
-            0.2,
-            0.4,
-            0.6000000000000001,
-            0.8,
-            1.0,
-            1.2
+            "NaN"
           ],
           "Title": {
             "TitleType": 1,
@@ -3581,12 +3576,7 @@
           "Orientation": 1,
           "Items": [
             0.0,
-            0.2,
-            0.4,
-            0.6000000000000001,
-            0.8,
-            1.0,
-            1.2
+            "NaN"
           ],
           "LabelFormatter": "General"
         },
@@ -3644,6 +3634,12 @@
                 }
               }
             ]
+          },
+          "IsAutomaticStroke": false,
+          "StyleInfo": {
+            "StrokeDashType": 8,
+            "Stroke": "Accent 1",
+            "StrokeThickness": 1.0
           }
         },
         {
@@ -3656,7 +3652,13 @@
             {
               "PointIndex": 1
             }
-          ]
+          ],
+          "IsAutomaticStroke": false,
+          "StyleInfo": {
+            "StrokeDashType": 8,
+            "Stroke": "Accent 1",
+            "StrokeThickness": 1.0
+          }
         }
       ],
       "PlotArea": {},
@@ -3709,12 +3711,7 @@
           "Orientation": 1,
           "Items": [
             0.0,
-            0.2,
-            0.4,
-            0.6000000000000001,
-            0.8,
-            1.0,
-            1.2
+            "NaN"
           ],
           "LabelFormatter": "General"
         },
@@ -3841,6 +3838,12 @@
                 }
               }
             ]
+          },
+          "IsAutomaticStroke": false,
+          "StyleInfo": {
+            "StrokeDashType": 8,
+            "Stroke": "Accent 1",
+            "StrokeThickness": 1.0
           }
         }
       ],
@@ -3868,4 +3871,4 @@
       "Formula": "메인화면!$AF$3"
     }
   ]
-}//JweSApn6PHgU67EUq/nuaI+yEQAktaR2YjtgpneQkVese9CZU09UyPnLyuqkb8i4CwpvHh/hRZSF+d03WBapdFdMQm//yaPIhkgVYUlbGBbjl1Mk4kfsGzgpO7wRSzdVBzO2JcU+j8EF6RY+C/A1XX1T8dWA+4kCqB0lTLb1Fy//IydhMWViVY1ZpCCZACaKp3S+NOVqVzmCICjBLwqkf1Wo717swrUlABRyHDsIXE68hAHRXuOX8cVyDOYyHbqwJ8buyhuYVDBqLJ53frt9QHgh/lh94WV8nOlnw4WO8OQc4XLUjmNQp+6fsyHdoZruGQA+dwHeaQ4JWAFAutFH+1gMtEsPMIwFWQIzsqsaVxOaXkq1s4bqbwmrjlVzCKz5XVgQz7MRdSkvIqkLpDkgep6+x1kNmsayo0wR+r+ri3k72bGWiHsKTxgr64yBwR8pyf5bjozqqvkyqyLynytTMk2g/pnENCaGVGK5coSekCQ2MZ1ndTxFBL4aTmS0UDJ0dD0r439WokbPq2PI6JtSwzLpvWGfsTtHs6IamCHPgqeW2GhYAClLX6edPPaz6VJToqSOEPR/9mpxNTMK8WiJSOBB8qTFihmnaVoekYmZunBfFFvMhfyJfPRja/Put2qbloJl7tsPOPDUc9a3voe4FukOSJyIptjfYTMNOOGEu/+UmBQ36cK4PAkLGY1OglJBXQX6BRjottkvhKHrqwetzwC+eFDGR/fPraIJGzufFc6NwwXRs4qsJL8xzoHpnTLMxaJM8oLi9dcvWTJdLYtwx6rhIm/Quv7IPbIIcq3Mu173AqXhGG7KiuXD+DSvQzEWKmZFL/oWVTO4wB2+3yK13hft1+z7byaNX+uEwl+vNok1f5wGlveJelfyUz0r4zarXh7XBCzQ3Eh0XIuMq8TshQ==|920
+}//s4PtN0zcTqiaqS7bJg/v5PCUNdmSljx9C3E60isUhWsmACzJRifjme5RE6lIlGjYWRQbFsGRUPrtY/zTMyi/AW7NfW1wxx6jPeD3Qg3HKbHsBMVW6PvWuIAjqROG0JyvyjK76khySEh5TAiKHhq/ijRVjwg1OWpxcm6w+SE0aRuExTNNLWXs2M0Tb7FVqpMZWvzHprY+ppt2lrU7uRVyAGKbmOqlUWf9xMMYoicYGgRriV7rSaZ0/BGLwtz/HA8zyFTFUWIIfvITVYe0Hyj8qj18j25iI8wu37PvuKr5T9n3Z+GV6Hr+0t+d47rkAhV4d+56ZVNp7wzgAM9G4dWVaFyNxHsrM0PcX9HgiZxVN/lAu+84NIPV06skGRhgB7k58+ZMgi2OnoQorLa3ggs6Q4UWPrpuRjJ/8kRiIuDkjLm/CQ9JMM7budB2KJhrm1INpnqrRIFcpNZMyGtPQpjAjLP0TQsNeltwuZGOw/s5HgoBIEDSvKNnbUjsH7t5OFQr9Np6ijhlVrn+/VvXfIPKuMlIW9StPp68Q4iEhSfKoNr1tmuWrIcnCrjLqPns+1vAmlAtKOUXLKkuSHVCa8tqEhVWF3dsj1QeKpb390J2/9g5etsyDcCPzhsmgSou7/NhZzhs/lwYP8cP0mmvCXMBmQq6yzNiMKAUMu8cp31+3s/0PNZvWLpYy+uY3iFXK9Wz22X5pcvZPWjXdb7XDIRPTjs0wCRkLpsWDIpSooOFShwCdbySfoImlVLoqZRvu2w8UARgaDn4YM4kRoh5GdOfyGW1HWS0pEJ5UmHUCtN1vSWXH20Wvzep1F5gdGKoAj/v3es2PuCiMhKfOqwutLqcc61azJnKoFMKlwhcb2y6eTmkTpRjq8z3eXPuHP+fYOXNdy9YTnlqIoA7C0gdosWl3A==|920

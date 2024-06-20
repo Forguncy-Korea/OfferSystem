@@ -3,7 +3,7 @@
   "Enabled": true,
   "Triggers": [
     {
-      "$type": "Forguncy.ServerCommands.Models.DailyScheduleTrigger, ServerDesignerCommon",
+      "$type": "Forguncy.SaveLoad.DailyScheduleTriggerSaveData, ServerDesignerCommon",
       "StartDateTime": 44830.0
     }
   ],
